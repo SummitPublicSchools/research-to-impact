@@ -132,7 +132,7 @@ function applyOp_(op, dryRun, index) {
 }
 
 function opGet_(op, index) {
-  var ctx = locate_(op.tab, op.id);
+  var ctx = locate_(op);
   var out = {};
   ctx.headers.forEach(function (h, i) { if (h) out[h] = ctx.values[i]; });
   return { index: index, ok: true, changed: false, op: 'get', tab: ctx.tabName, id: op.id, row: ctx.rowNumber, values: out };
@@ -141,7 +141,7 @@ function opGet_(op, index) {
 function opSet_(op, dryRun, index) {
   var column = String(op.column || '').trim();
   assertAllowedColumn_(column);
-  var ctx = locate_(op.tab, op.id);
+  var ctx = locate_(op);
 
   var col = ctx.headers.indexOf(column);
   if (col < 0) throw new Error('Tab "' + ctx.tabName + '" has no column "' + column + '".');
@@ -240,9 +240,16 @@ function headerRow_(sheet) {
   return sheet.getRange(1, 1, 1, last).getValues()[0].map(function (h) { return String(h).trim(); });
 }
 
-/** Find a row by its `id` (or by `setting` on the key/value Site tab). */
-function locate_(tab, id) {
-  var tabName = assertAllowedTab_(tab);
+/**
+ * Find a row by its `id` (or by `setting` on the key/value Site tab).
+ *
+ * The Modules tab needs two keys, not one: module names repeat across sections
+ * ("Overview", "Enabling Conditions" and five others each appear in all three
+ * toolkits), so `module_name` alone is ambiguous for most module rows. For that
+ * tab the caller must also pass `section`.
+ */
+function locate_(op) {
+  var tabName = assertAllowedTab_(op.tab);
   var sheet = sheetByName_(tabName);
   var headers = headerRow_(sheet);
   var keyColumn = (tabName === 'Site') ? 'setting'
@@ -252,19 +259,35 @@ function locate_(tab, id) {
   var keyIndex = headers.indexOf(keyColumn);
   if (keyIndex < 0) throw new Error('Tab "' + tabName + '" has no "' + keyColumn + '" column.');
 
-  var wanted = String(id || '').trim();
+  var wanted = String(op.id || '').trim();
   if (!wanted) throw new Error('No id given.');
+
+  // Second key for Modules.
+  var secIndex = -1, wantedSection = '';
+  if (tabName === 'Modules') {
+    wantedSection = String(op.section || '').trim();
+    if (!wantedSection) {
+      throw new Error('Modules rows need a "section" as well as a "module_name" — ' +
+        'module names repeat across sections, so the name alone is ambiguous.');
+    }
+    secIndex = headers.indexOf('section');
+    if (secIndex < 0) throw new Error('Modules tab has no "section" column.');
+  }
 
   var rows = sheet.getLastRow();
   if (rows < 2) throw new Error('Tab "' + tabName + '" has no data rows.');
-  var keys = sheet.getRange(2, keyIndex + 1, rows - 1, 1).getValues();
+  var width = Math.max(headers.length, 1);
+  var grid = sheet.getRange(2, 1, rows - 1, width).getValues();
 
   var matches = [];
-  for (var i = 0; i < keys.length; i++) {
-    if (String(keys[i][0]).trim() === wanted) matches.push(i + 2);
+  for (var i = 0; i < grid.length; i++) {
+    if (String(grid[i][keyIndex]).trim() !== wanted) continue;
+    if (secIndex >= 0 && String(grid[i][secIndex]).trim() !== wantedSection) continue;
+    matches.push(i + 2);
   }
-  if (!matches.length) throw new Error('No row on "' + tabName + '" with ' + keyColumn + ' "' + wanted + '".');
-  if (matches.length > 1) throw new Error('Ambiguous: ' + matches.length + ' rows on "' + tabName + '" have ' + keyColumn + ' "' + wanted + '" (rows ' + matches.join(', ') + '). Fix the duplicate first.');
+  var label = wanted + (wantedSection ? '" in section "' + wantedSection : '');
+  if (!matches.length) throw new Error('No row on "' + tabName + '" with ' + keyColumn + ' "' + label + '".');
+  if (matches.length > 1) throw new Error('Ambiguous: ' + matches.length + ' rows on "' + tabName + '" have ' + keyColumn + ' "' + label + '" (rows ' + matches.join(', ') + '). Fix the duplicate first.');
 
   var rowNumber = matches[0];
   return {

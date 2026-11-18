@@ -122,3 +122,23 @@ about 330 lines, no dependencies, no network calls of its own. The `BridgeLog` t
 means nothing it does is invisible. If you would rather it could not write a given
 column, remove that column from `ALLOWED_COLUMNS` and save; the change takes effect
 on the next request.
+
+---
+
+## Note on Modules rows
+
+Module names repeat across sections — `Overview`, `Enabling Conditions`,
+`Getting Started` and four others each appear in all three toolkits. So editing an
+existing module row needs **both** keys:
+
+```bash
+node tools/sheet.js batch ops.json      # where a Modules op carries "section"
+```
+
+```json
+{ "op": "set", "tab": "Modules", "section": "Repeated Reading",
+  "id": "Enabling Conditions", "column": "module_video", "value": "https://vimeo.com/123456789" }
+```
+
+Without `section` the bridge refuses the edit rather than guessing, because the name
+alone matches three rows. Appending a new module row is unaffected.
