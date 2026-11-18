@@ -12,3 +12,7 @@ node_modules/
 .DS_Store
 Thumbs.db
 *.log
+
+# Generated build-day reports (list unpublished draft content — keep local)
+punchlist*.md
+build-day-punchlist*.md
