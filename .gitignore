@@ -17,3 +17,7 @@ Thumbs.db
 punchlist*.md
 build-day-punchlist*.md
 access-report*.md
+triage-report*.md
+.bridge-token
+.bridge-url
+bridge-ops*.json
