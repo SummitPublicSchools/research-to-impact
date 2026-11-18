@@ -55,19 +55,21 @@ Open the `ignite-public-goods` project, then:
 2. **Billing / usage.** How many build credits has this month used? `rebuild.yml`
    assumes ~15 per deploy against 300/month, and at least one deploy happened today
    that I cannot account for.
-3. **Domain management.** Is `researchtoimpact.marshallstreet.org` added as a custom
-   domain yet? It does not resolve, so either it is not added here or the DNS record
-   does not exist.
+3. ~~Domain management.~~ **Resolved** — the site is live at
+   `researchtoimpact.marshall.org`. Nothing to check here.
 
 Tell me what you see and I will tell you what it means.
 
 ---
 
-## 4. The custom domain — needs Summit IT, not me
+## 4. The custom domain — done, but one cell is wrong
 
-One CNAME record. I can draft the request to IT with the exact record; you send it.
-Nothing in the code changes when it lands — the `domain` value is already set on the
-Site tab.
+The site is **live at https://researchtoimpact.marshall.org**. No CNAME request needed.
+
+What is still wrong: the Site tab's `domain` says `researchtoimpact.marshallstreet.org`,
+a hostname that has never resolved. That value feeds `__SEO_URL__`, so every `og:url`
+and share card on the live site points at a dead host. One cell, and the bridge fixes
+it the moment it is connected.
 
 ---
 

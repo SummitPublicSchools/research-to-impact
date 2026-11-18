@@ -62,8 +62,10 @@ CI (`.github/workflows/ci.yml`) runs this and smoke-checks the rendered page on 
 
 - `dist/` is generated — never edit by hand. Never hardcode content in `template.html`; it
   comes from the sheet.
-- Deploys to Netlify (project `ignite-public-goods`); custom-domain target is
-  `researchtoimpact.marshallstreet.org`.
+- Deploys to Netlify (project `ignite-public-goods`); the site is **live at
+  `researchtoimpact.marshall.org`** — note `marshall.org`, not `marshallstreet.org`.
+  The Site tab's `domain` value still says `marshallstreet.org`, which has never
+  resolved; it feeds `__SEO_URL__`, so `og:url` points at a dead host until it is fixed.
 - An AI session **cannot edit the Google Sheet or its container-bound Apps Script directly**
   (Drive access is effectively read-only for this); sheet/script changes are done by a human
   following the docs — provide exact steps rather than attempting them.

@@ -122,10 +122,15 @@ node build.js
 - `Site Assets` appears in Modules but has no Sections row — treated as a home/impact
   asset pool, not a public section. Fine as-is.
 
-## Custom domain (later)
+## Custom domain
 
-When Summit IT points `researchtoimpact.marshallstreet.org` at this Netlify site via
-one CNAME, nothing here changes — same repo, same build.
+**Live at https://researchtoimpact.marshall.org** (confirmed 2026-11-19). The
+Netlify URL `ignite-public-goods.netlify.app` still serves the same build.
+
+Note the hostname: `marshall.org`, **not** `marshallstreet.org`. Earlier docs and the
+Site tab's `domain` value said `marshallstreet.org`, which has never resolved. That
+value feeds `__SEO_URL__`, so while it is wrong every share card and `og:url` points
+at a dead host — fix it on the Site tab.
 
 ## License
 
