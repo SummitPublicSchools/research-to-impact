@@ -39,7 +39,43 @@ function readSecret(file, envVar, label) {
   return v;
 }
 
-async function call(payload, { get = false } = {}) {
+const sleep = ms => new Promise(r => setTimeout(r, ms));
+
+/**
+ * Apps Script endpoints close the socket on a good fraction of requests —
+ * measured at roughly 4 failures in 6 against this deployment. The failure is a
+ * transport error (UND_ERR_SOCKET), not a response, so a retry is the fix.
+ *
+ * Retrying is only safe when the operations are idempotent. `get` and `set` are:
+ * setting a cell to the same value twice is the same cell. `append` is not — a
+ * retry could add a second copy of a row. Since the socket can close *after*
+ * doPost already ran, we cannot tell whether a lost request took effect, so
+ * batches containing an append are never retried automatically.
+ */
+function isTransient(err) {
+  const codes = ['UND_ERR_SOCKET', 'ECONNRESET', 'ETIMEDOUT', 'EPIPE', 'ECONNREFUSED', 'UND_ERR_CONNECT_TIMEOUT'];
+  for (let c = err; c; c = c.cause) if (c.code && codes.includes(c.code)) return true;
+  return false;
+}
+
+async function call(payload, opts = {}) {
+  const { retries = 0 } = opts;
+  let lastErr;
+  for (let attempt = 0; attempt <= retries; attempt++) {
+    try {
+      return await callOnce(payload, opts);
+    } catch (err) {
+      lastErr = err;
+      if (attempt === retries || !isTransient(err)) break;
+      const wait = 700 * (attempt + 1);
+      console.error(`  (connection dropped — retrying in ${wait}ms, attempt ${attempt + 2} of ${retries + 1})`);
+      await sleep(wait);
+    }
+  }
+  throw lastErr;
+}
+
+async function callOnce(payload, { get = false } = {}) {
   const url = readSecret('.bridge-url', 'R2I_BRIDGE_URL', 'the bridge URL');
   const token = readSecret('.bridge-token', 'R2I_BRIDGE_TOKEN', 'the bridge token');
 
@@ -49,12 +85,23 @@ async function call(payload, { get = false } = {}) {
     u.searchParams.set('token', token);
     res = await fetch(u, { redirect: 'follow' });
   } else {
+    // Apps Script runs doPost and then 302s to script.googleusercontent.com to
+    // serve the output. That redirect must be followed as a GET: letting fetch
+    // follow it automatically re-sends the POST and the echo host answers 405.
     res = await fetch(url, {
       method: 'POST',
-      redirect: 'follow',
+      redirect: 'manual',
       headers: { 'content-type': 'application/json' },
       body: JSON.stringify({ ...payload, token }),
     });
+    if (res.status >= 300 && res.status < 400) {
+      const location = res.headers.get('location');
+      if (!location) {
+        console.error(`The bridge redirected (HTTP ${res.status}) without a Location header.`);
+        process.exit(1);
+      }
+      res = await fetch(location, { redirect: 'follow' });
+    }
   }
 
   const text = await res.text();
@@ -90,7 +137,7 @@ async function main() {
   }
 
   if (cmd === 'health') {
-    const r = await call(null, { get: true });
+    const r = await call(null, { get: true, retries: 4 });
     if (!r.ok) { console.error('✗ ' + r.error); process.exit(1); }
     console.log(`✓ bridge ${r.bridge} on "${r.spreadsheet}"`);
     console.log(`  tabs seen: ${r.tabs.length}`);
@@ -127,7 +174,12 @@ async function main() {
     process.exit(2);
   }
 
-  const r = await call({ ops, dryRun });
+  const hasAppend = ops.some(o => String(o.op || '').toLowerCase() === 'append');
+  if (hasAppend) {
+    console.error('Note: this batch contains an append, which cannot be safely retried.\n' +
+                  '      If the connection drops, check the sheet before re-running.\n');
+  }
+  const r = await call({ ops, dryRun }, { retries: hasAppend ? 0 : 4 });
 
   if (r.error) { console.error('✗ ' + r.error); process.exit(1); }
 
@@ -145,4 +197,15 @@ async function main() {
   if (r.failed) process.exit(1);
 }
 
-main().catch(e => { console.error('FAILED: ' + e.message); process.exit(1); });
+main().catch(e => {
+  console.error('FAILED: ' + e.message);
+  // Network errors from fetch say only "fetch failed"; the cause names the real
+  // problem (DNS, TLS, connection reset), so always surface it.
+  let cause = e.cause, depth = 0;
+  while (cause && depth++ < 4) {
+    console.error('  cause: ' + [cause.code, cause.message].filter(Boolean).join(' '));
+    cause = cause.cause;
+  }
+  if (process.env.DEBUG) console.error(e.stack);
+  process.exit(1);
+});
