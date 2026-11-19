@@ -187,7 +187,7 @@ A real menu. Everything else stacks to one column at 400px.
 | 4 | Homepage: richer cards | `template.html` | **done** — `7e8721f` |
 | 4b | Homepage: proof band + start-here | `template.html` | waiting on a decision |
 | 5 | Toolkit page: surface module resources | `template.html` | **done** — `7e8721f` |
-| 6 | Module page polish | `template.html` | not started |
+| 6 | Module page polish | `template.html` | **done** — `61b089f` |
 | 7 | Fix the two empty rooms (sheet, not code) | master sheet | **done** — 19 Nov, via the bridge |
 | 8 | Collapse the one-item secondary dropdown | `template.html` | **done** — `51b45e4` |
 
@@ -223,6 +223,26 @@ External Evaluation (coming soon), Data Reports & Dashboards (coming soon), The
 Original NIC Publications (5). There are **no orphaned module values left anywhere
 in the sheet**. Taking Stories & Spotlights out left "Evidence & Stories" as a
 dropdown of one, which is what step 8 fixed.
+
+### Step 6, and what it turned up
+
+Featured cards now pair two to a row where they are the short plain kind (rich
+photo/narrative cards keep the full width), their action rows line up, the
+compact rows below get a ghost button instead of a filled one, and the
+"Available" chip — which every published card carried, so it distinguished
+nothing — is gone. The worst module page went from 1772px to 1500px tall.
+
+Verifying that turned up **two pre-existing horizontal-scroll bugs**, both the
+same CSS trap: a grid track whose floor cannot shrink. `.mcards` used a bare
+`1fr`, whose automatic floor is the item's min-content — the toolkit page
+scrolled sideways by 37px on a 390px phone. `.tqgrid` used a bare `330px`
+minmax floor; the practices page scrolled at 320px. Both fixed in the same
+change.
+
+**Still open at phone width:** below about 375px the *header* overflows — the
+logo, the search control and the Menu button do not fit on one row. Content is
+clean at 360px and 320px; only the header is not. Which element gives way is a
+design decision, so it is left here rather than guessed at.
 
 **Still the team's, not mine:** write Stories & Spotlights and flip it back into
 the nav; decide whether the development banner comes down; fill `about_story` on
