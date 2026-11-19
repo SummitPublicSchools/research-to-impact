@@ -92,7 +92,7 @@ function imageUrl(url) {
 // A video link. Editors sometimes paste Vimeo's full "Embed" snippet (iframe +
 // script tag) instead of the page link; pull the video id back out so the inline
 // player still works. Vimeo "share" links (vimeo.com/share/<uuid>) carry no
-// video id — resolveShareLinks() swaps them for the numeric URL after all tabs load.
+// video id — resolveVimeoLinks() swaps them for the numeric URL after all tabs load.
 function videoUrl(url, where) {
   const s = String(url || '').trim(); if (!s) return '';
   if (s.includes('<')) {
@@ -107,32 +107,55 @@ function videoUrl(url, where) {
   }
   return fileUrl(s);
 }
-// Vimeo "share" links (what the Share dialog's Copy link gives you) look like
-// vimeo.com/share/<uuid> — no video id, so the inline player can't embed them.
-// The share page itself carries the canonical numeric URL (plus the ?h= embed
-// hash for unlisted videos); fetch it once per unique link and swap the numeric
-// URL in. On any failure the share link stays as-is, which still works — the
-// video just opens in a new tab instead of playing inline.
-async function resolveShareLinks(holders) {
-  const isShare = h => /^https:\/\/vimeo\.com\/share\//i.test(h.obj[h.key] || '');
-  const pending = holders.filter(isShare);
+// Two kinds of Vimeo link carry no video id, so the inline player cannot embed
+// them and the Watch button falls back to opening a new tab:
+//
+//   vimeo.com/share/<uuid>              the Share dialog's "Copy link"
+//   vimeo.com/<user>/<slug>             a vanity link, e.g. /marshallstreet/co-planning
+//
+// The vanity form is what the sheet actually had: ten of the site's eleven
+// published videos used it, and none of them played in the page.
+//
+// We resolve both through Vimeo's public oEmbed endpoint, which returns the
+// numeric video_id. The previous approach — fetching the page and scraping its
+// canonical link — now gets a 403 from Vimeo for both forms, which is why the
+// one share link in the sheet had been warning unresolved for so long.
+//
+// Resolution happens once per unique link, and on any failure the original is
+// left alone: the video still works, it just opens in a new tab. Each lookup is
+// bounded by a timeout so a hanging request cannot stall a deploy.
+const VIMEO_NEEDS_LOOKUP = [
+  /^https:\/\/vimeo\.com\/share\//i,
+  // A vanity link: two path segments where the first is not all digits. Excludes
+  // vimeo.com/<id> (already numeric) and vimeo.com/<id>/<hash> (an unlisted link,
+  // whose hash the player needs and which videoUrl() already understands).
+  /^https:\/\/vimeo\.com\/(?!\d+(?:[/?#]|$))[A-Za-z0-9_.-]+\/[A-Za-z0-9_.-]+/i,
+];
+async function resolveVimeoLinks(holders) {
+  const needs = v => VIMEO_NEEDS_LOOKUP.some(re => re.test(v || ''));
+  const pending = holders.filter(h => needs(h.obj[h.key]));
+  if (!pending.length) return;
   const resolved = {};
   for (const u of [...new Set(pending.map(h => h.obj[h.key].split('?')[0]))]) {
     try {
-      const res = await fetch(u, { headers: { 'User-Agent': 'Mozilla/5.0' } });
-      const html = res.ok ? await res.text() : '';
-      const m = html.match(/player\.vimeo\.com\/video\/(\d+)(?:\?h=([0-9a-zA-Z]+))?/)
-             || html.match(/rel="canonical" href="https:\/\/vimeo\.com\/(\d+)/);
-      resolved[u] = m ? `https://vimeo.com/${m[1]}${m[2] ? '/' + m[2] : ''}` : null;
+      const ctrl = new AbortController();
+      const timer = setTimeout(() => ctrl.abort(), 10000);
+      const res = await fetch('https://vimeo.com/api/oembed.json?url=' + encodeURIComponent(u), { signal: ctrl.signal });
+      clearTimeout(timer);
+      const j = res.ok ? await res.json() : null;
+      // An unlisted video's oEmbed carries the ?h= hash on the player URL; keep
+      // it, because the embed is rejected without it.
+      const hash = j && typeof j.html === 'string' ? (j.html.match(/[?&]h=([0-9a-zA-Z]+)/) || [])[1] : '';
+      resolved[u] = j && j.video_id ? `https://vimeo.com/${j.video_id}${hash ? '/' + hash : ''}` : null;
     } catch { resolved[u] = null; }
   }
   for (const h of pending) {
     const clean = resolved[h.obj[h.key].split('?')[0]];
     if (clean) {
-      info.push(`${h.where}: resolved Vimeo share link -> ${clean} (consider putting that link in the cell).`);
+      info.push(`${h.where}: resolved Vimeo link -> ${clean} (put that in the cell and the build stops needing the lookup).`);
       h.obj[h.key] = clean;
     } else {
-      warn.push(`${h.where}: could not resolve the vimeo.com/share/... link to a video id — the video will open in a new tab instead of playing inline. Put the numeric URL (e.g. https://vimeo.com/123456789) in the cell.`);
+      warn.push(`${h.where}: could not resolve "${h.obj[h.key]}" to a Vimeo video id — the video will open in a new tab instead of playing inline. Put the numeric URL (e.g. https://vimeo.com/123456789) in the cell.`);
     }
   }
 }
@@ -435,9 +458,16 @@ async function main() {
     partners: partners.length ? { heading: (S.r2i_partners_heading || 'Our Partners').trim(), logos: partners } : null,
   } : null;
 
-  // ----- resolve Vimeo share links to numeric URLs (before shaping copies the values) -----
-  await resolveShareLinks([
+  // ----- resolve share and vanity Vimeo links to numeric URLs (before shaping copies the values) -----
+  await resolveVimeoLinks([
     ...resources.map(r => ({ obj: r, key: 'video_url', where: `${r.section} row "${r.id}" video_url` })),
+    // A video resource can carry its URL in link_url instead of video_url — that
+    // is what link_type "embed" means, and resAction() falls back to it the same
+    // way. Two videos were still opening in a new tab after the video_url ones
+    // were fixed, for exactly this reason. Only video rows are included, so an
+    // ordinary resource's download link is never touched (the pattern only
+    // matches vimeo.com anyway, but there is no reason to offer it the chance).
+    ...resources.filter(r => r.video).map(r => ({ obj: r, key: 'link', where: `${r.section} row "${r.id}" link_url` })),
     ...allSections.map(s => ({ obj: s, key: 'landing_video', where: `Sections tab, "${s.name}" landing_video` })),
     ...modRows.map(m => ({ obj: m, key: 'video', where: `Modules tab, module "${m.name}" module_video` })),
   ]);
