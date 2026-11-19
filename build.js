@@ -479,7 +479,27 @@ async function main() {
     warn.push(`Proof band: only ${proof.length} stat defined; it needs at least 2 to render as a band.`);
   }
 
-  const DATA = { site, sections, nav, resources, r2iHome, proof, storiesSection: storiesSec ? storiesSec.name : null };
+  // ----- Homepage "start here" row -----
+  // Three real things a visitor with ten minutes can do, chosen by an editor
+  // rather than computed: start1_id names a resource, start1_label and
+  // start1_note override its title and summary for the homepage. The action
+  // (Watch / Download) is NOT resolved here — the template looks the resource up
+  // by id and reuses resAction(), so the button can never drift from the one on
+  // the resource's own card, and a resource that becomes gated stays gated here.
+  //
+  // A label is worth setting: three toolkits each have a resource titled
+  // "Executive Summary", so the bare title is ambiguous on the homepage.
+  const startHere = seq('start', [
+    { key: '_id', as: 'id' },
+    { key: '_label', as: 'label' },
+    { key: '_note', as: 'note' },
+  ]).filter(s => s.id).filter(s => {
+    const r = resources.find(x => x.id === s.id && x.published);
+    if (!r) warn.push(`Start-here: id "${s.id}" matches no published resource — that item is dropped.`);
+    return !!r;
+  });
+
+  const DATA = { site, sections, nav, resources, r2iHome, proof, startHere, storiesSection: storiesSec ? storiesSec.name : null };
 
   // ----- SEO / social metadata (build-time so crawlers and link unfurlers,
   // which don't run our JS, see real title/description/image) -----
