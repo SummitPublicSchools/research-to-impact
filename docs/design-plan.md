@@ -367,11 +367,31 @@ resolves vanity links now, and `marshallstreet/co-planning` tells an editor what
 a cell is where `1247667953` does not. The build prints the numeric URL for
 anyone who wants to trade readability for a few seconds of build time.
 
+### The About page (`24902de`)
+
+`about_story` was never the problem. That key has never existed on the Site tab —
+the build asked for it, warned it was blank, and printed an empty "Our story"
+heading. Meanwhile **five written paragraphs sat on the tab unread**:
+`about_origin` (titled "A Second Edition" — the story), `about_toolkits`,
+`about_continue`, `about_team` and `about_community`. The page rendered three
+settings and hardcoded a fourth.
+
+The About page is now an ordered list of sections built from the tab, so it
+shows all eight. A blank or missing setting is skipped instead of printing an
+empty heading, and `about_story` survives as an override if anyone creates it.
+Several cells carry their own title line, which the page used to repeat as its
+own heading ("NETWORK & PARTNERS / Our Network: …"); a short first line is now
+taken as the heading, in the team's own wording.
+
+No new prose was written. Worth knowing: this put five paragraphs in public that
+had been written but never shown, including a named individual and the partner
+and funder list.
+
 **Still the team's, not mine:** write Stories & Spotlights and flip it back into
-the nav; decide whether the development banner comes down; fill `about_story` on
-the Site tab (blank, and the build warns about it); and replace the `Enabling
-Conditions` `module_video` — it is a `vimeo.com/share/...` link the parser can't
-resolve, so that one video opens in a new tab instead of playing inline.
+the nav; and replace the `Enabling Conditions` `module_video` — a
+`vimeo.com/share/<uuid>` link that oEmbed answers 404 for, so it looks dead.
+Someone needs to open that video in Vimeo and paste its real URL. It is the only
+build warning left.
 
 ---
 
