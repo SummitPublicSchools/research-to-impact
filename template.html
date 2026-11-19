@@ -404,6 +404,33 @@ nav.main .nav-div{width:1px;height:16px;background:rgba(255,255,255,.22);margin:
   .hero{padding:30px 22px}
   main{padding:20px 16px 60px}
   .erow{grid-template-columns:54px 54px 1fr}
+  /* The top nav is gone at this width, so the logo's 26px right margin — which
+     exists only to hold it off the nav — is dead space, and the header's 22px
+     gutter no longer lines up with main's 16px. Reclaiming both buys 38px and
+     aligns the logo with the content below it. That is what a 360px phone was
+     short by: the logo, search and Menu button needed 397px of a 360px bar. */
+  header.site{padding:8px 16px;gap:14px}
+  header .logo{margin-right:0}
+}
+/* Phone header. After reclaiming the dead logo margin and the mismatched gutter
+   above, the bar still needs 351px — 7px of slack on a 360px phone once the
+   Helvetica Neue fallback's wider metrics are allowed for (measured: 2px of
+   drift). That is too thin to trust against OS text scaling, and at 146px wide
+   the logo was taking 40% of the bar anyway, so it steps down one notch here.
+   351 -> 332, which is 28px of room at 360px. */
+@media (max-width:480px){
+  header .logo,header .logo img{height:26px}
+}
+/* Narrower still the bar runs out again, and the word "Menu" is the first thing
+   that can go: the hamburger carries the meaning, the button keeps its
+   aria-label="Menu", and the drawer it opens is unchanged. 332 -> 287, which
+   fits a 320px screen with 33px to spare.
+   The cutoff is 355 rather than the 332 the maths alone would allow, so the
+   narrowest width that still shows the word has ~24px of slack instead of 9.
+   Nothing real sits between 341 and 355; a 360px Android keeps the word. */
+@media (max-width:355px){
+  #menuBtn span{display:none}
+  #menuBtn{padding:8px 11px;gap:0}
 }
 @media (prefers-reduced-motion:reduce){*{transition:none!important}}
 </style>
