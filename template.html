@@ -528,8 +528,17 @@ function navHtml(){
  // Evidence & Stories — the live secondary sections (Stories & Spotlights, Evidence & Impact)
  const sec=nav.secondary;
  if(sec && (sec.sections||[]).length){
-  const links=(sec.sections||[]).map(s=>`<a href="#" data-go="section:${esc(s.name)}" class="${view.section===s.name?'active':''}">${esc(s.name)}</a>`).join('');
-  parts.push(`<div class="dd" id="secDD"><a href="#" data-dd="sec">${esc(sec.name)} <span class="caret">&#9662;</span></a><div class="ddmenu">${links}</div></div>`);
+  const secs=sec.sections||[];
+  const seclink=s=>`<a href="#" data-go="section:${esc(s.name)}" class="${view.section===s.name?'active':''}">${esc(s.name)}</a>`;
+  // With one section left, a dropdown labelled "Evidence & Stories" promises more
+  // than the menu holds — so link straight to the section under its own name. The
+  // dropdown returns by itself when the sheet makes another secondary section live,
+  // which is why this is read off the data rather than fixed in SECONDARY_NAV_LABEL.
+  if(secs.length===1){
+   parts.push(seclink(secs[0]));
+  }else{
+   parts.push(`<div class="dd" id="secDD"><a href="#" data-dd="sec">${esc(sec.name)} <span class="caret">&#9662;</span></a><div class="ddmenu">${secs.map(seclink).join('')}</div></div>`);
+  }
  }
  // Research-to-Impact Collections — cross-cutting topics; "soon" chips until the section goes live
  const col=nav.collections;
@@ -566,8 +575,11 @@ function navDrawerHtml(){
  });
  const sec=nav.secondary;
  if(sec&&(sec.sections||[]).length){
-  out+=`<div class="nd-grp">${esc(sec.name)}</div>`;
-  out+=(sec.sections||[]).map(s=>`<a href="#" data-go="section:${esc(s.name)}" class="${view.section===s.name?'active':''}">${esc(s.name)}</a>`).join('');
+  const secs=sec.sections||[];
+  // Same rule as the bar above: with one section left the group heading would
+  // promise more than the list holds, so the link stands on its own.
+  if(secs.length>1)out+=`<div class="nd-grp">${esc(sec.name)}</div>`;
+  out+=secs.map(s=>`<a href="#" data-go="section:${esc(s.name)}" class="${view.section===s.name?'active':''}">${esc(s.name)}</a>`).join('');
  }
  const col=nav.collections;
  if(col&&(col.items||[]).length){
