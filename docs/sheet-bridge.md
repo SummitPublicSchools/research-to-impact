@@ -94,6 +94,35 @@ You should see the bridge version and your spreadsheet's name.
 
 ---
 
+## Updating the bridge after `Bridge.gs` changes
+
+**Saving the pasted code is not enough.** A web app deployment is pinned to a
+*version* of the script, so the `/exec` URL keeps serving the old code until you
+publish a new version. This is the one step that is easy to miss, and when it is
+missed `health` keeps reporting the old `BRIDGE_VERSION` while the new code sits
+there unused.
+
+1. Paste the new contents of [`docs/apps-script/Bridge.gs`](apps-script/Bridge.gs)
+   over the whole `Bridge` file — select all first, so nothing from the old copy
+   is left behind — and press **Ctrl/Cmd + S**.
+2. **Deploy → Manage deployments** → the pencil (Edit) on the existing `R2I
+   bridge` deployment → **Version: New version** → **Deploy**.
+
+   Editing the existing deployment keeps the same URL, so `.bridge-url` stays
+   valid. Do **not** use "New deployment": that mints a different URL and the
+   bridge stops answering until the new one is handed over.
+3. Confirm the sheet is really running the new code:
+
+```bash
+node tools/sheet.js health
+```
+
+The version it prints comes from `BRIDGE_VERSION` in the running script. If it
+has not changed, step 2 did not take effect. Bump `BRIDGE_VERSION` in the repo
+whenever the file changes, or this check can tell you nothing.
+
+---
+
 ## Using it
 
 ```bash
