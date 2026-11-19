@@ -193,7 +193,7 @@ A real menu. Everything else stacks to one column at 400px.
 | 7 | Fix the two empty rooms (sheet, not code) | master sheet | **done** — 19 Nov, via the bridge |
 | 8 | Collapse the one-item secondary dropdown | `template.html` | **done** — `51b45e4` |
 | 9 | Fit the phone header down to 320px | `template.html` | **done** — `6f9d732` |
-| 10 | Homepage: start-here row | `template.html` | not started |
+| 10 | Homepage: start-here row | `template.html`, `build.js` | **done** — `c9abbf4` + 9 Site rows |
 | 11 | Take down the development banner | `template.html` | **done** — `532ae80` |
 
 None of this needed a `build.js` change in the end — the data was already in the
@@ -307,6 +307,47 @@ sections in the nav — and those are fixed, so the plan's own instruction appli
 take it down rather than reword it. It was hardcoded in the template, not
 sheet-driven, so putting a notice back is a code change; a notice the team can
 raise and lower itself belongs on the Site tab as an editable setting.
+
+### Start here (step 10)
+
+Three things a visitor with ten minutes can do, under the toolkit cards: watch
+the introduction, read the executive summary, take the agenda templates. Sheet
+driven like the proof band — `start1_id` names a resource, `start1_label` and
+`start1_note` reword it for the homepage. The label matters: three toolkits each
+have a resource titled "Executive Summary".
+
+The action is not resolved in `build.js`. The template looks the resource up by
+id and calls the same `resAction()` the resource's own card uses, so the button
+cannot drift from it and gating is honoured in one place.
+
+The closing band lost its opening line as a result. It used to read "New here?
+Start with the Overview in any toolkit"; the row above now says that with real
+links, so the band keeps only the live resource count.
+
+### Found while building it: the videos do not play inline
+
+**Ten of the eleven published videos open in a new tab instead of playing in the
+page**, including "An Introduction to Co-Planning", which is now the first thing
+the homepage asks a visitor to do.
+
+They are all vanity URLs — `vimeo.com/marshallstreet/co-planning?share=copy` and
+the like. The player embed needs a numeric id, and the parser cannot get one from
+a vanity slug, so every one of them falls back to opening a new tab. Only
+`rr-3-legacy-spotlight`, which carries a numeric `vimeo.com/1210896557` URL,
+plays inline.
+
+This is **not** caused by the start-here row: the same resource behaves
+identically on its own card in Co-Planning / Overview. It has been true of the
+whole site, and it was invisible because the build only warns about a module's
+`module_video`, never about a resource's `video_url` — so ten broken videos
+warned about nothing.
+
+`build.js` already has the machinery to fix it. `resolveShareLinks()` fetches a
+Vimeo page at build time and pulls the numeric id out of
+`player.vimeo.com/video/(\d+)` or the canonical link, then rewrites the value.
+It is only gated to `vimeo.com/share/...`; widening it to vanity URLs would fix
+all ten at once, with no sheet edits. Care needed to keep `vimeo.com/<id>/<hash>`
+unlisted links out of the new pattern.
 
 **Still the team's, not mine:** write Stories & Spotlights and flip it back into
 the nav; decide whether the development banner comes down; fill `about_story` on
