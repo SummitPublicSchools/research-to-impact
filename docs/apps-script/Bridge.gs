@@ -29,7 +29,12 @@
 var TOKEN_PROPERTY = 'R2I_BRIDGE_TOKEN';
 var LOG_TAB = 'BridgeLog';
 var MAX_OPS = 60;            // refuse oversized batches
-var BRIDGE_VERSION = '1.0.0';
+// Bump this whenever this file changes, and re-paste it into the Apps Script
+// editor. `tools/sheet.js ping` reports the version the sheet is actually
+// running, which is the only way to tell a stale copy from a current one.
+// 1.1.0 — append may write a tab's own key column (so new Site settings can be
+//         created), and refuses a row that has no key at all.
+var BRIDGE_VERSION = '1.1.0';
 
 // Tabs the bridge may write to. `Files` is intentionally absent.
 var ALLOWED_TABS = [
@@ -198,7 +203,14 @@ function opAppend_(op, dryRun, index) {
   var row = op.row || {};
   var keys = Object.keys(row);
   if (!keys.length) throw new Error('append needs a "row" object.');
-  keys.forEach(assertAllowedColumn_);
+  // A new row may carry this tab's own key column — see assertAllowedColumn_.
+  // Without it an appended Site row has a blank `setting` and the build cannot
+  // see it at all.
+  var keyColumn = keyColumnFor_(tabName);
+  keys.forEach(function (k) { assertAllowedColumn_(k, keyColumn); });
+  if (keys.indexOf(keyColumn) < 0) {
+    throw new Error('append to "' + tabName + '" needs a "' + keyColumn + '" — a row without one is invisible to the build.');
+  }
 
   var headers = headerRow_(sheet);
   keys.forEach(function (k) {
@@ -242,14 +254,38 @@ function assertAllowedTab_(tab) {
   return name;
 }
 
-function assertAllowedColumn_(column) {
+/**
+ * The column that identifies a row on each tab. Resource tabs key on `id`.
+ */
+function keyColumnFor_(tabName) {
+  return (tabName === 'Site') ? 'setting'
+       : (tabName === 'Sections') ? 'section_id'
+       : (tabName === 'Modules') ? 'module_name'
+       : 'id';
+}
+
+/**
+ * `allowKeyColumn` is passed ONLY by append, and only for the tab's own key
+ * column. A new row is useless without its key — a Site row with a blank
+ * `setting` is invisible to the build — but the same permission on `set` would
+ * let the bridge RENAME an existing key, and renaming e.g. `hero_headline`
+ * would silently empty a part of the page. So appending a key is allowed and
+ * changing one is not. `id` stays refused either way: resource ids bind a row
+ * to its Drive file and its public deep link, so they are never written here.
+ */
+function assertAllowedColumn_(column, allowKeyColumn) {
   var c = String(column || '').trim();
   if (!c) throw new Error('No column given.');
   if (c.toLowerCase() === 'id') {
-    throw new Error('Refusing to change an id. Ids are permanent — they bind a row to its file and its public link.');
+    throw new Error(allowKeyColumn === 'id'
+      ? 'Refusing to write an id. A resource row has to be created in the sheet by a person, ' +
+        'because its id also names its file in the Drive "01 - Published" folder.'
+      : 'Refusing to change an id. Ids are permanent — they bind a row to its file and its public link.');
   }
+  if (allowKeyColumn && c === allowKeyColumn) return c;
   if (ALLOWED_COLUMNS.indexOf(c) < 0) {
-    throw new Error('Column "' + c + '" is not writable through the bridge.');
+    throw new Error('Column "' + c + '" is not writable through the bridge.' +
+      (allowKeyColumn ? '' : ' (A tab\'s key column can be written by append, but never changed by set.)'));
   }
   return c;
 }
@@ -278,10 +314,7 @@ function locate_(op) {
   var tabName = assertAllowedTab_(op.tab);
   var sheet = sheetByName_(tabName);
   var headers = headerRow_(sheet);
-  var keyColumn = (tabName === 'Site') ? 'setting'
-                : (tabName === 'Sections') ? 'section_id'
-                : (tabName === 'Modules') ? 'module_name'
-                : 'id';
+  var keyColumn = keyColumnFor_(tabName);
   var keyIndex = headers.indexOf(keyColumn);
   if (keyIndex < 0) throw new Error('Tab "' + tabName + '" has no "' + keyColumn + '" column.');
 

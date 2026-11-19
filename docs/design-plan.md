@@ -185,12 +185,13 @@ A real menu. Everything else stacks to one column at 400px.
 | 2 | Brand tokens: Figtree, palette, flat surfaces, lever logo | `template.html` | **done** — `f878825` |
 | 3 | Image weight and loading | `template.html`, `assets/` | **done** — `f878825` |
 | 4 | Homepage: richer cards | `template.html` | **done** — `7e8721f` |
-| 4b | Homepage: proof band + start-here | `template.html` | waiting on a decision |
+| 4b | Homepage: proof band | `template.html`, `build.js` | **built** — needs 16 Site rows to appear |
 | 5 | Toolkit page: surface module resources | `template.html` | **done** — `7e8721f` |
 | 6 | Module page polish | `template.html` | **done** — `61b089f` |
 | 7 | Fix the two empty rooms (sheet, not code) | master sheet | **done** — 19 Nov, via the bridge |
 | 8 | Collapse the one-item secondary dropdown | `template.html` | **done** — `51b45e4` |
 | 9 | Fit the phone header down to 320px | `template.html` | **done** — `6f9d732` |
+| 10 | Homepage: start-here row | `template.html` | not started |
 
 None of this needed a `build.js` change in the end — the data was already in the
 page; the template was just not using it.
@@ -264,6 +265,38 @@ with Figtree, once forced onto the fallback). Desktop is untouched: at 1201px
 the 22px gutter, the 26px logo margin and the full nav all come back.
 
 **The site now has no horizontal scroll at any width from 320px up.**
+
+### The proof band (step 4b)
+
+Built, and dormant until the sheet carries the numbers. It reads four indexed
+Site settings per stat (`proof1_stat`, `proof1_label`, `proof1_source`,
+`proof1_source_id`), exactly the way the R2I quotes and partner logos already
+work, so nothing is hardcoded in the template. With no `proof*` keys defined it
+renders nothing at all and the homepage is byte-for-byte what it was — which is
+the state the live site is in right now.
+
+The numbers are deliberately **not** parsed out of the resource quotes. They sit
+inside prose in several different shapes ("from 79% to 97%", "92% … up from
+44%"), and the label and the school would have to come out of the same sentence.
+A regex over editor-written prose is the wrong thing to hang the most prominent
+claim on the site from.
+
+`proof1_source_id` is a resource id; the build resolves it to that resource's
+module page so each stat links to its evidence, and drops the link (with a
+warning) if the id matches no *published* resource. The band never renders a
+dead link.
+
+**To switch it on, the Site tab needs 16 rows.** The bridge could not create
+them: it can set the `value` of a setting that exists but could not create a new
+`setting`, because `setting` was not a writable column. `Bridge.gs` 1.1.0 fixes
+that — an append may write a tab's own key column, while a `set` still may not,
+since renaming `hero_headline` would silently empty part of the page. That needs
+one paste into the Apps Script editor; `node tools/sheet.js health` reports which
+version the sheet is running.
+
+The four stats, their labels, sources and source ids are in
+`fixtures/Site.csv`, so CI builds and renders the band on every push and the
+exact values are version-controlled.
 
 **Still the team's, not mine:** write Stories & Spotlights and flip it back into
 the nav; decide whether the development banner comes down; fill `about_story` on
