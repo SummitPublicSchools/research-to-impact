@@ -9,23 +9,13 @@ Started 19 November 2026, from Greg's list and Stephanie Lassalle's review.
 
 ## 1. Design audit — "it still feels a little blocky"
 
-**Status:** not started. The biggest item, and the one most likely to change the
-others.
+**Status:** audit written, see [`design-audit.md`](design-audit.md). Nothing
+implemented yet.
 
-The site is on-brand and the defects are gone, but the layout is a stack of
-white rounded rectangles on a pale ground, and that is what reads as blocky. An
-audit should look at least at:
-
-- the card-on-card nesting (hero card, then toolkit cards, then start-here
-  cards, then the band — four rounded containers in a column)
-- vertical rhythm and section separation: right now almost everything is
-  separated by the same gap and the same border radius
-- whether the page needs full-bleed bands (navy, pale blue, photo) to break the
-  column up, which the brand's own proportions would support
-- type scale: the brand's own contrast is Light 300 at display size against
-  SemiBold at body size, and the site uses a fairly narrow range of that
-- photography: 34 photos in the design system and 55 in the repo, barely used
-  outside heroes
+Headline: the styling is fine, there is no *system* under it — 6 corner radii,
+12 gaps, 38 paddings and 18 type size/weight pairs on the homepage alone — and
+every block on every page is a rounded rectangle floating in a 1040px column,
+with nothing full-bleed. Six findings, ordered by what to do first.
 
 **Do this before** the module-page work below, or that work gets redone.
 
