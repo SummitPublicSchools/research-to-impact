@@ -159,6 +159,32 @@ function opSet_(op, dryRun, index) {
     // Force plain text on the columns gviz can mis-type, so TRUE/FALSE stay strings.
     if (TEXT_FORCED_COLUMNS.indexOf(column) >= 0) cell.setNumberFormat('@');
     cell.setValue(value);
+
+    // Read the cell back before claiming success. A column carrying a
+    // "reject input" dropdown (Guardrails.gs applies these from the Lists tab)
+    // silently discards a value that is not in its list — setValue does not
+    // throw — so without this check the bridge reports writes that never
+    // happened. Observed on the `module` column.
+    SpreadsheetApp.flush();
+    var readBack = cell.getValue();
+    if (String(readBack).trim() !== String(value).trim()) {
+      var rule = cell.getDataValidation();
+      var allowed = '';
+      if (rule) {
+        try {
+          var vals = rule.getCriteriaValues();
+          if (vals && vals.length && vals[0] && vals[0].getValues) {
+            allowed = ' Allowed here: ' + vals[0].getValues()
+              .map(function (r) { return String(r[0]).trim(); })
+              .filter(Boolean).join(' | ') + '.';
+          }
+        } catch (ignored) {}
+      }
+      throw new Error('Wrote "' + value + '" to ' + column + ' but the cell still reads "' +
+        readBack + '".' + (rule ? ' That column has a dropdown that rejects values outside its list.' + allowed
+                                : ' The cell may be protected or driven by a formula.'));
+    }
+
     logChange_(ctx.tabName, op.id, column, before, value);
   }
 

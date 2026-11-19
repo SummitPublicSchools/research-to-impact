@@ -179,7 +179,35 @@ async function main() {
     console.error('Note: this batch contains an append, which cannot be safely retried.\n' +
                   '      If the connection drops, check the sheet before re-running.\n');
   }
-  const r = await call({ ops, dryRun }, { retries: hasAppend ? 0 : 4 });
+
+  // Each op re-reads its whole tab server-side, so a long batch overruns the
+  // response window and Google drops the connection — measured: 20 ops failed
+  // 5/5 while single ops succeeded 3/3. Send in small chunks instead.
+  const CHUNK = Number(process.env.BRIDGE_CHUNK) || 6;
+  const chunks = [];
+  for (let i = 0; i < ops.length; i += CHUNK) chunks.push(ops.slice(i, i + CHUNK));
+
+  const r = { ok: true, dryRun, applied: 0, unchanged: 0, failed: 0, results: [] };
+  for (let c = 0; c < chunks.length; c++) {
+    if (chunks.length > 1) console.error(`  [chunk ${c + 1}/${chunks.length}]`);
+    let part;
+    try {
+      part = await call({ ops: chunks[c], dryRun }, { retries: hasAppend ? 0 : 4 });
+    } catch (err) {
+      console.error(`\n✗ Chunk ${c + 1} of ${chunks.length} failed: ${err.message}`);
+      if (!dryRun) {
+        console.error(`  ${r.applied} change(s) from earlier chunks ARE already written.`);
+        console.error('  Re-running is safe for set/get ops — they are idempotent.');
+      }
+      throw err;
+    }
+    if (part.error) { console.error('✗ ' + part.error); process.exit(1); }
+    r.ok = r.ok && part.ok;
+    r.applied += part.applied || 0;
+    r.unchanged += part.unchanged || 0;
+    r.failed += part.failed || 0;
+    (part.results || []).forEach(x => r.results.push(x));
+  }
 
   if (r.error) { console.error('✗ ' + r.error); process.exit(1); }
 
