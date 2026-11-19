@@ -197,6 +197,32 @@ Key/value settings: `site_name`, `tagline`, `hero_headline`, `hero_subhead`,
 (`hubspot_portal_id`, `hubspot_form_id`, `hubspot_region`). Leave a setting blank
 and the build will warn that its page area may render empty.
 
+### The homepage proof band
+
+The navy band of outcome numbers under the hero is built from numbered Site
+settings, four keys per stat:
+
+| Setting | Holds | Example |
+|---|---|---|
+| `proofN_stat` | the number, written exactly as it should read | `79% → 97%` |
+| `proofN_label` | what the number measures, a few words | `course pass rate` |
+| `proofN_source` | the school or network it comes from | `Ednovate` |
+| `proofN_source_id` | *optional* — the `id` of the resource it comes from | `collab-student-work-analysis` |
+
+Number them from 1 upwards with no gaps; the build stops at the first missing
+`proofN_stat`. **The band needs at least two stats to appear at all** — a single
+number reads as an orphan — and with none defined the homepage renders exactly
+as it did before, so it is safe to leave empty while you gather them.
+
+`proofN_source_id` turns the stat into a link to the module page holding that
+resource, so a reader can go straight to the evidence. If the id does not match
+a *published* resource the build warns and the stat still renders, just without
+the link — it never produces a dead link.
+
+Keep `stat` short: it is set at display size and four of them share one row on a
+desktop screen. Write the arrow as a real `→` if you want one; the build prints
+the value exactly as typed.
+
 ---
 
 ## Recommended Google Sheets data-validation (dropdowns)

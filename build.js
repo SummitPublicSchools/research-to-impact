@@ -448,7 +448,38 @@ async function main() {
     homepage: HOMEPAGE_TIERS.includes(s.tier), video: s.landing_video,
     modules: s.modules.map(m => ({ name: m.name, order: m.order, intro: m.intro, video: m.video })),
   }));
-  const DATA = { site, sections, nav, resources, r2iHome, storiesSection: storiesSec ? storiesSec.name : null };
+  // ----- Homepage proof band -----
+  // Four field outcomes under the hero. Read from indexed Site keys, the same
+  // way the R2I quotes and partners are (proof1_stat, proof1_label, ...), so
+  // the numbers stay editable in the sheet and nothing is hardcoded here.
+  //
+  // They are NOT parsed out of the resource quotes. The numbers live inside
+  // prose in several different shapes ("from 79% to 97%", "92% ... up from
+  // 44%"), and the label and the school would have to be extracted from the
+  // same sentence. A regex over editor-written prose is the wrong thing to
+  // hang the most prominent claim on the site from.
+  //
+  // `source_id` is optional and points at the resource the number comes from,
+  // so a reader can click through to the evidence. An id that no published
+  // resource matches is dropped rather than rendered as a dead link.
+  const proof = seq('proof', [
+    { key: '_stat', as: 'stat' },         // "79% → 97%"
+    { key: '_label', as: 'label' },       // "course pass rate"
+    { key: '_source', as: 'source' },     // "Ednovate"
+    { key: '_source_id', as: 'sourceId' },// resource id to deep-link to
+  ]).filter(p => p.stat && p.label);
+  proof.forEach(p => {
+    if (!p.sourceId) return;
+    const r = resources.find(x => x.id === p.sourceId && x.published);
+    if (r) { p.to = { section: r.section, module: r.module }; }
+    else { warn.push(`Proof band: source_id "${p.sourceId}" matches no published resource — the stat shows without a link.`); }
+    delete p.sourceId;
+  });
+  if (proof.length && proof.length < 2) {
+    warn.push(`Proof band: only ${proof.length} stat defined; it needs at least 2 to render as a band.`);
+  }
+
+  const DATA = { site, sections, nav, resources, r2iHome, proof, storiesSection: storiesSec ? storiesSec.name : null };
 
   // ----- SEO / social metadata (build-time so crawlers and link unfurlers,
   // which don't run our JS, see real title/description/image) -----

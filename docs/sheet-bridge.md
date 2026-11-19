@@ -14,6 +14,15 @@ Setup is six steps in the browser. You will need the token file from step 3.
 `title`, `summary`, `who_for`, `module`, `link_url`, `video_url`, the Sections and
 Modules columns, and Site `value`. It can append a row (for missing modules).
 
+An **append** may also write the tab's own key column — `setting` on Site,
+`section_id` on Sections, `module_name` on Modules — because a new row without
+its key is invisible to the build. A `set` may never write that column: renaming
+an existing key (`hero_headline`, say) would silently empty part of the page.
+Appending a **resource** row is still refused, since its key is the `id`, which
+also names its file in the Drive "01 - Published" folder; those rows are created
+by a person. *(Bridge 1.1.0 — run `node tools/sheet.js health` to see the version
+the sheet is actually running.)*
+
 **Cannot**, by design and enforced in the code:
 
 - touch the **`Files`** tab — `PublishFiles.gs` owns that

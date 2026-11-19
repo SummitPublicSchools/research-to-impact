@@ -75,6 +75,36 @@ main{max-width:1040px;margin:0 auto;padding:30px 22px 60px}
 .hero .himg{position:relative;min-height:360px}
 .hero .himg img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block}
 @media(max-width:760px){.hero{grid-template-columns:1fr}.hero .himg{min-height:210px;order:-1}}
+/* Homepage proof band — the field outcomes, directly under the hero. Navy and
+   flat, and deliberately the heaviest block of colour on the page: the brand
+   wants navy dominant, and these numbers are the strongest thing the site has
+   to say. The eyebrow is pale rather than orange because the brand sanctions an
+   orange eyebrow only above a navy heading that repeats its meaning, and here
+   the eyebrow is the only label there is. */
+.proof{background:var(--navy);border-radius:16px;padding:26px 30px 28px;margin-top:22px;color:#fff}
+/* An even split rather than three-and-one. Left to auto-fit, four stats become
+   three columns plus a stranded fourth between roughly 560 and 1010px. The
+   explicit middle step keeps it 4 / 2 / 1. auto-fit above and minmax(0,1fr)
+   below both stay count-agnostic, so a band of two or three stats still lays
+   out sensibly — auto-fit drops the tracks it does not need. */
+.pgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(200px,100%),1fr));gap:20px 26px}
+@media(max-width:1010px){.pgrid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:560px){.pgrid{grid-template-columns:minmax(0,1fr)}}
+.pfact{display:flex;flex-direction:column;color:#fff;padding-right:10px}
+.pstat{font-size:clamp(26px,3.2vw,34px);font-weight:300;line-height:1.05;letter-spacing:-.015em;transition:color .12s}
+.plabel{font-size:13.5px;line-height:1.4;color:#dfe6ee;margin-top:6px}
+/* margin-top:auto so the source lines sit on one baseline across the row — the
+   labels wrap to one or two lines, which otherwise staggers them. */
+.psrc{font-size:11.5px;letter-spacing:.06em;text-transform:uppercase;color:#a9bace;margin-top:auto;padding-top:8px;transition:color .12s}
+/* The go-arrow rides on the source name rather than sitting in the corner of
+   the cell: in the corner it reads as part of the stat, which already contains
+   an arrow ("79% → 97% →"). It stays visible rather than appearing on hover,
+   since a phone has no hover and would otherwise see no affordance at all. */
+.pgo{margin-left:5px;transition:transform .12s;display:inline-block}
+a.pfact:hover .pstat{color:var(--accent)}
+a.pfact:hover .psrc{color:#fff}
+a.pfact:hover .pgo{transform:translateX(2px)}
+@media(max-width:560px){.proof{padding:22px 18px 24px;border-radius:14px}.pgrid{gap:18px}}
 .btn{display:inline-flex;align-items:center;gap:8px;background:var(--orange);color:var(--navy);border:0;border-radius:8px;padding:12px 22px;font-size:14.5px;font-weight:600}
 .btn:hover{background:var(--orange-d)}
 .btn.ghost{background:transparent;color:var(--navy);border:1.5px solid var(--navy)}
@@ -728,6 +758,31 @@ function renderApp(){
  else if(view.type==='about') a.innerHTML=about();
  window.scrollTo({top:0,behavior:'instant'});
 }
+// The outcome numbers under the hero. Everything here comes from the sheet
+// (indexed Site keys, read in build.js); with none defined this renders nothing
+// at all, so the homepage is unchanged until an editor fills them in. Two is
+// the minimum worth banding — a single number reads as an orphan.
+function proofBand(){
+ const items=(DATA.proof||[]);
+ if(items.length<2) return '';
+ const cell=p=>{
+  // Linked only when build.js resolved the source id to a published resource,
+  // so this can never render a dead deep link. The arrow sits on the source
+  // name, where it reads as "go to this school's practice".
+  const linked=!!p.to;
+  const src=p.source
+   ?`<span class="psrc">${esc(p.source)}${linked?'<span class="pgo" aria-hidden="true">&rarr;</span>':''}</span>`
+   :'';
+  const inner=`<span class="pstat">${esc(p.stat)}</span><span class="plabel">${esc(p.label)}</span>${src}`;
+  return linked
+   ? `<a class="pfact" href="#" data-go="module:${escAttr(p.to.section)}|${escAttr(p.to.module)}">${inner}</a>`
+   : `<div class="pfact">${inner}</div>`;
+ };
+ return `<section class="proof" aria-label="Results from the field">
+  <div class="eyebrow light">Results from the field</div>
+  <div class="pgrid">${items.map(cell).join('')}</div>
+ </section>`;
+}
 function home(){
  // The cards used to say only "7 modules", which tells a visitor nothing about whether
  // the toolkit is worth opening. Lead with how much is actually in it, then the first
@@ -741,6 +796,7 @@ function home(){
  }).join('');
  const live=state.filter(r=>r.published).length;
  return `<section class="hero"><div class="htext"><div class="eyebrow">${esc(DATA.site.tagline)}</div><h1 class="serif">${esc(DATA.site.hero_headline)}</h1><p>${esc(DATA.site.hero_subhead)}</p><button class="btn" data-go="section:Co-Planning">${esc(DATA.site.cta)}</button></div><div class="himg"><img src="assets/practices/hero-home.jpg" width="1200" height="800" alt="" fetchpriority="high" decoding="async"/></div></section>
+ ${proofBand()}
  <div class="cards">${cards}</div>
  <div class="band">${icon('Protocol',18)} New here? Start with the Overview in any toolkit. ${live} resources are live so far, with more publishing each week.</div>`;
 }
