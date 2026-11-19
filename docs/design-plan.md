@@ -10,9 +10,11 @@ Proposed design, rendered with the real content:
 > diagnosis and are kept as written, as the record of what the site was. Most of
 > it is now fixed and live: the phone has a menu, the brand is the current one,
 > the hero photos load, toolkit pages show their resources, and both empty rooms
-> are dealt with. **Section 4 is the live status** — read that for what is built
-> and what is left. Two things in sections 1–3 are deliberately still open: the
-> proof band (§3, item 2) and the development banner (§1, "First impression").
+> are dealt with. The proof band (§3, item 2) is up, and the development banner
+> (§1, "First impression") is down. **Section 4 is the live status** — read that
+> for what is built and what is left. Everything described as a defect in
+> section 1 has been fixed; what remains is content the team owns, plus the
+> start-here row at step 10.
 
 ---
 
@@ -192,6 +194,7 @@ A real menu. Everything else stacks to one column at 400px.
 | 8 | Collapse the one-item secondary dropdown | `template.html` | **done** — `51b45e4` |
 | 9 | Fit the phone header down to 320px | `template.html` | **done** — `6f9d732` |
 | 10 | Homepage: start-here row | `template.html` | not started |
+| 11 | Take down the development banner | `template.html` | **done** — `532ae80` |
 
 None of this needed a `build.js` change in the end — the data was already in the
 page; the template was just not using it.
@@ -297,6 +300,13 @@ with the bridge version that wrote them.
 The four stats, their labels, sources and source ids are in
 `fixtures/Site.csv`, so CI builds and renders the band on every push and the
 exact values are version-controlled.
+
+The **development banner is down** (`532ae80`). It was hedging against the
+defects listed in section 1 — no phone navigation, grey hero boxes, two empty
+sections in the nav — and those are fixed, so the plan's own instruction applied:
+take it down rather than reword it. It was hardcoded in the template, not
+sheet-driven, so putting a notice back is a code change; a notice the team can
+raise and lower itself belongs on the Site tab as an editable setting.
 
 **Still the team's, not mine:** write Stories & Spotlights and flip it back into
 the nav; decide whether the development banner comes down; fill `about_story` on
