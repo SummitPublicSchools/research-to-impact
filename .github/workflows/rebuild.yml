@@ -23,10 +23,22 @@
 #   00:02:15Z  production  Deploy triggered by hook: Sheet Rebuild
 #   00:02:19Z  production  Keepalive: record scheduled rebuild timestamp
 #
-# Hence the "[skip ci]" on the keepalive commit below: Netlify honours that marker
-# and skips the build. The hook's deploy — the one that actually republishes the
-# Sheet — is unaffected, because a hook deploy is not a commit and has no message
-# to skip on. Don't remove the marker without re-checking the credit maths.
+# Hence the skip marker on the keepalive commit below. Netlify's rule
+# (https://docs.netlify.com/deploy/manage-deploys/manage-deploys-overview):
+# "To avoid generating a branch or production deploy for a commit pushed directly
+# to a branch, add [skip ci] or [skip netlify] anywhere in the Git commit message."
+# The keepalive IS pushed directly to main, so the marker applies.
+#
+# We use the netlify-specific spelling, not the generic one, because the generic
+# one would ALSO stop this repo's GitHub Actions CI from running on that commit.
+#
+# The hook's deploy — the one that actually republishes the Sheet — is unaffected:
+# a hook deploy has no commit message to skip on. Don't remove the marker without
+# re-checking the credit maths.
+#
+# Note the asymmetry, which bit us once: for a PULL REQUEST, Netlify reads the
+# marker from the PR *title*, not from any commit message. A commit marked here
+# will still get a Deploy Preview. That is expected, not a broken marker.
 name: Scheduled rebuild
 
 on:
@@ -82,9 +94,10 @@ jobs:
             exit 0
           fi
 
-          # "[skip ci]" stops Netlify building this commit. Without it the push
-          # below fires a second, redundant production deploy (see header comment).
-          git commit -m "Keepalive: record scheduled rebuild timestamp [skip ci]"
+          # The marker stops Netlify building this commit. Without it the push below
+          # fires a second, redundant production deploy (see header comment). Use the
+          # netlify-specific spelling so GitHub Actions CI is not skipped too.
+          git commit -m "Keepalive: record scheduled rebuild timestamp [skip netlify]"
           # Rebase in case main moved while this run was queued.
           git pull --rebase --autostash origin main
           git push origin HEAD:main
