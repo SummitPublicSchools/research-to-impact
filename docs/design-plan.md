@@ -6,6 +6,14 @@ and the sheet data behind it (199 rows, 118 published).
 Proposed design, rendered with the real content:
 **https://claude.ai/artifact/VVAjiZqoF9JN4W6y27XAud**
 
+> **Where this stands, as of 19 November 2026.** Sections 1–3 are the original
+> diagnosis and are kept as written, as the record of what the site was. Most of
+> it is now fixed and live: the phone has a menu, the brand is the current one,
+> the hero photos load, toolkit pages show their resources, and both empty rooms
+> are dealt with. **Section 4 is the live status** — read that for what is built
+> and what is left. Two things in sections 1–3 are deliberately still open: the
+> proof band (§3, item 2) and the development banner (§1, "First impression").
+
 ---
 
 ## The short version
@@ -18,6 +26,9 @@ is still wearing the old Marshall brand.
 
 Almost all of this is `template.html`. **A redesign needs no sheet edits and no
 bridge** — it is a code change that Netlify deploys on push.
+
+*That held for the look, but not for the two empty rooms: fixing those meant
+nine cells in the sheet, which did need the bridge. See step 7 in section 4.*
 
 ---
 
@@ -177,6 +188,8 @@ A real menu. Everything else stacks to one column at 400px.
 | 4b | Homepage: proof band + start-here | `template.html` | waiting on a decision |
 | 5 | Toolkit page: surface module resources | `template.html` | **done** — `7e8721f` |
 | 6 | Module page polish | `template.html` | not started |
+| 7 | Fix the two empty rooms (sheet, not code) | master sheet | **done** — 19 Nov, via the bridge |
+| 8 | Collapse the one-item secondary dropdown | `template.html` | **done** — `51b45e4` |
 
 None of this needed a `build.js` change in the end — the data was already in the
 page; the template was just not using it.
@@ -188,28 +201,53 @@ editors can only pick a valid value; the Modules tab is hand-typed and has no
 guard. When the two drift, resources pointing at the newer name belong to a
 module the page does not know about, and it dropped them silently.
 `modulesOf()` now treats any module a published resource names as real, so the
-page is self-healing. **That is a safety net, not the fix** — until the three
-stale names on the Modules tab are corrected, Evidence & Impact lists both
-versions, one empty and one with the content.
+page is self-healing. **That is a safety net, not the fix.** The three stale
+Modules rows were corrected on 19 November, so nothing is relying on the rescue
+today — but the drift can recur, because the Modules tab still has no guard.
 
-**Content work, which is yours and the team's, not mine:** fill Stories &
-Spotlights or take it out of the nav; get something into Evidence & Impact's
-four modules; decide whether the development banner comes down.
+### What step 7 actually was
+
+Nine cells, written through the bridge and logged to `BridgeLog`:
+
+- **Three module renames**, retiring the stale duplicates: `The IGNITE Network` →
+  `The IGNITE Model` (Leading Implementation); `IGNITE White Papers & Publications`
+  → `IGNITE Publications` and `The Original Networked Improvement Community` →
+  `The Original NIC Publications` (both Evidence & Impact).
+- **Four drafts re-pointed** (`ss-spotlight-1/2`, `ss-case-study-1/2`) to
+  `IGNITE Stories & Spotlights`, so they have a home when they are published.
+- **One `nav_visible`** → `hidden-until-live` on `stories-spotlights`, taking the
+  empty section out of the nav until it has content.
+
+Evidence & Impact now renders four modules — IGNITE Publications (1 resource),
+External Evaluation (coming soon), Data Reports & Dashboards (coming soon), The
+Original NIC Publications (5). There are **no orphaned module values left anywhere
+in the sheet**. Taking Stories & Spotlights out left "Evidence & Stories" as a
+dropdown of one, which is what step 8 fixed.
+
+**Still the team's, not mine:** write Stories & Spotlights and flip it back into
+the nav; decide whether the development banner comes down; fill `about_story` on
+the Site tab (blank, and the build warns about it); and replace the `Enabling
+Conditions` `module_video` — it is a `vimeo.com/share/...` link the parser can't
+resolve, so that one video opens in a new tab instead of playing inline.
 
 ---
 
 ## 5. What I need from you
 
-Nothing, to start. Steps 1–3 are template and asset changes I can make and push
-on your word — they don't touch the sheet and don't need the bridge.
+Steps 1–3, 5, 7 and 8 are built and live. Two decisions are still outstanding,
+and both are yours rather than mine:
 
-Two decisions when you have a minute:
+- **Does the proof band go up before launch?** (§3, item 2 — the single
+  highest-value addition on the homepage.) It puts named schools and their
+  numbers on the front page. The quotes are already published on the live site,
+  so this is a prominence decision rather than a disclosure one — but it is the
+  kind of thing partner schools notice. Nothing is built for it yet, by design.
+- **Does the development banner come down?** It is still the first line anyone
+  reads. The defects it was hedging against are fixed.
 
-- **Is the brand the direction?** The mockup assumes yes. If Marshall Street has
-  a web style guide beyond the v1.0 deck (which covers logo, colour and type
-  only — layout and component rules in the design system are marked *additive*,
-  derived rather than canon), point me at it before I build.
-- **Does the proof band go up before launch?** It puts named schools and their
-  numbers on the homepage. The quotes are already published on the live site, so
-  this is a prominence decision rather than a disclosure one — but it is the
-  kind of thing partner schools notice.
+Answered, and recorded here so it isn't reopened: **the brand is the direction.**
+The build follows the v1.0 guidelines (logo, colour and type). The layout, type
+scale, chart, table and photo rules in `marshall-design-system` are marked
+*additive* — derived from the guidelines' own typesetting and contrast maths
+rather than canon — so flag them as such before anything goes to an external
+audience.
