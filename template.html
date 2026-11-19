@@ -86,6 +86,8 @@ main{max-width:1040px;margin:0 auto;padding:30px 22px 60px}
 .tcard .ic{color:var(--navy)}
 .tcard h3{font-size:18px;margin:4px 0 0;color:var(--navy)}
 .tcard .sub{font-size:13px;color:var(--muted)}
+.tcard .sub b{color:var(--navy);font-weight:600}
+.tcard .tdesc{font-size:13.5px;line-height:1.5;color:var(--muted);margin:6px 0 2px}
 .tcard .go{margin-top:auto;font-size:13px;color:var(--navy);font-weight:600}
 
 .band{background:var(--accent);border-radius:14px;padding:18px 22px;margin-top:22px;color:var(--navy);font-size:14.5px;display:flex;align-items:center;gap:10px}
@@ -97,7 +99,18 @@ main{max-width:1040px;margin:0 auto;padding:30px 22px 60px}
 
 .lab{font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);font-weight:700;margin:30px 0 12px}
 .mcards{display:grid;grid-template-columns:1fr;gap:10px}
-.mcard{display:flex;align-items:center;gap:13px;background:var(--white);border:1px solid var(--line);border-radius:12px;padding:13px 15px;transition:border-color .12s,transform .12s,box-shadow .12s}
+.mcard{display:flex;flex-direction:column;gap:0;background:var(--white);border:1px solid var(--line);border-radius:12px;padding:13px 15px;transition:border-color .12s,transform .12s,box-shadow .12s}
+.mcard .mhead{display:flex;align-items:center;gap:13px}
+.mpeeks{display:flex;flex-direction:column;margin:11px 0 1px 42px;border-top:1px solid var(--line);padding-top:4px}
+.mpeek{display:flex;align-items:center;gap:9px;padding:6px 0;font-size:13.5px;min-width:0}
+.mpeek .ic{color:var(--gray);flex:none}
+.mpt{flex:1;min-width:0;color:var(--muted);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.mcard:hover .mpt{color:var(--ink)}
+.mmore{font-size:12.5px;color:var(--navy);font-weight:600;padding:7px 0 1px}
+@media(max-width:560px){
+  .mpeeks{margin-left:0}
+  .mpeek .chip.fmt{display:none}
+}
 .mcard:hover{border-color:var(--navy);transform:translateY(-1px);box-shadow:0 4px 14px rgba(33,52,76,.07)}
 .mcard .mnum{flex:none;width:29px;height:29px;border-radius:50%;background:var(--slate);color:var(--navy);font-weight:700;font-size:13px;display:flex;align-items:center;justify-content:center}
 .mcard.empty .mnum{color:var(--muted)}
@@ -471,8 +484,41 @@ function icon(f,size){const p=ICONS[f]||ICONS.Other;size=size||20;return `<svg c
 function esc(s){return (s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')}
 function escAttr(s){return esc(s).replace(/"/g,'&quot;')}
 function modsOf(sec){return DATA.sections.find(s=>s.name===sec).modules}
+// The opening sentence of a sheet intro, for card-sized summaries. Falls back to a
+// clean word break when the first sentence is longer than the space allows.
+function firstSentence(text,max){
+ const t=String(text||'').trim(); if(!t)return '';
+ const stop=t.search(/[.!?](\s|$)/);
+ let out=stop>-1?t.slice(0,stop+1):t;
+ if(out.length>max){out=out.slice(0,max).replace(/\s+\S*$/,'')+'…';}
+ return out;
+}
 function resOf(sec,mod){return state.filter(r=>r.section===sec && r.module===mod)}
 function availCount(sec,mod){return resOf(sec,mod).filter(r=>r.published).length}
+
+// A section's modules: the ones declared on the Modules tab, plus any module a
+// published resource actually claims.
+//
+// The two lists drift. A resource's `module` is a dropdown fed by the Lists tab,
+// so editors can only pick a valid value; the Modules tab is typed by hand and has
+// no such guard. When it falls behind, every resource pointing at the newer name
+// belongs to a module the page does not know about and renders nowhere — silently.
+// Eight published resources are in that state today.
+//
+// Rather than drop them, treat any module a published resource names as real. The
+// page is then self-healing: the resource shows up the moment it is published, and
+// fixing the Modules tab only changes the order and adds the intro text.
+function modulesOf(sec){
+ const declared=(DATA.sections.find(x=>x.name===sec)||{}).modules||[];
+ const known=new Set(declared.map(m=>m.name));
+ const extra=[];
+ state.forEach(r=>{
+  if(r.section!==sec||!r.published||!r.module)return;
+  if(known.has(r.module))return;
+  known.add(r.module); extra.push({name:r.module,intro:'',video:'',undeclared:true});
+ });
+ return declared.concat(extra);
+}
 
 function navHtml(){
  const link=name=>`<a href="#" data-go="section:${name}" class="${view.section===name?'active':''}">${esc(name)}</a>`;
@@ -608,7 +654,16 @@ function renderApp(){
  window.scrollTo({top:0,behavior:'instant'});
 }
 function home(){
- const cards=DATA.sections.filter(s=>s.homepage).map(s=>`<a class="tcard" href="#" data-go="section:${s.name}">${icon(s.name==='Leading Implementation'?'Protocol':'Document',22)}<h3>${s.name}</h3><div class="sub">${s.modules.length} ${s.name==='Leading Implementation'?'collections':'modules'}</div><span class="go">View toolkit &rarr;</span></a>`).join('');
+ // The cards used to say only "7 modules", which tells a visitor nothing about whether
+ // the toolkit is worth opening. Lead with how much is actually in it, then the first
+ // sentence of the section's own intro from the sheet.
+ const cards=DATA.sections.filter(s=>s.homepage).map(s=>{
+  const n=state.filter(r=>r.section===s.name&&r.published).length;
+  const mods=modulesOf(s.name).length;
+  const unit=s.name==='Leading Implementation'?'collections':'modules';
+  const blurb=firstSentence(s.intro,150);
+  return `<a class="tcard" href="#" data-go="section:${s.name}">${icon(s.name==='Leading Implementation'?'Protocol':'Document',22)}<h3>${s.name}</h3><div class="sub">${n?`<b>${n} resource${n===1?'':'s'}</b> &middot; ${mods} ${unit}`:`${mods} ${unit}`}</div>${blurb?`<p class="tdesc">${esc(blurb)}</p>`:''}<span class="go">View toolkit &rarr;</span></a>`;
+ }).join('');
  const live=state.filter(r=>r.published).length;
  return `<section class="hero"><div class="htext"><div class="eyebrow">${esc(DATA.site.tagline)}</div><h1 class="serif">${esc(DATA.site.hero_headline)}</h1><p>${esc(DATA.site.hero_subhead)}</p><button class="btn" data-go="section:Co-Planning">${esc(DATA.site.cta)}</button></div><div class="himg"><img src="assets/practices/hero-home.jpg" width="1200" height="800" alt="" fetchpriority="high" decoding="async"/></div></section>
  <div class="cards">${cards}</div>
@@ -616,11 +671,27 @@ function home(){
 }
 function section(sec){
  const s=DATA.sections.find(x=>x.name===sec);
- const mcards=s.modules.map((m,i)=>{const av=availCount(sec,m.name);return `<a class="mcard${av?'':' empty'}" href="#" data-go="module:${sec}|${m.name}"><span class="mnum">${i+1}</span><span class="mbody"><span class="mt">${esc(m.name)}</span><span class="mstat${av?' ok':''}">${av?av+' available':'Coming soon'}</span></span><span class="marrow" aria-hidden="true">&rarr;</span></a>`}).join('');
+ // A toolkit page used to be a column of identical rows reading "3 available", so a
+ // visitor had to click twice before seeing a single resource. Each module now opens
+ // with what is actually inside it: the focal resources first, then the rest, capped
+ // so a seven-module page stays scannable.
+ const PEEK=3;
+ const mods=modulesOf(sec);
+ const mcards=mods.map((m,i)=>{
+  const pub=resOf(sec,m.name).filter(r=>r.published);
+  const av=pub.length;
+  const ordered=pub.slice().sort((a,b)=>(a.focal?0:1)-(b.focal?0:1)||(a.focal_order||99)-(b.focal_order||99));
+  const peek=ordered.slice(0,PEEK).map(r=>
+    `<span class="mpeek">${icon(r.format,15)}<span class="mpt">${esc(r.title)}</span><span class="chip fmt">${esc(r.format)}</span></span>`).join('');
+  const rest=av-Math.min(av,PEEK);
+  const head=`<span class="mhead"><span class="mnum">${i+1}</span><span class="mbody"><span class="mt">${esc(m.name)}</span><span class="mstat${av?' ok':''}">${av?av+(av===1?' resource':' resources'):'Coming soon'}</span></span><span class="marrow" aria-hidden="true">&rarr;</span></span>`;
+  const body=av?`<span class="mpeeks">${peek}${rest>0?`<span class="mmore">and ${rest} more &rarr;</span>`:''}</span>`:'';
+  return `<a class="mcard${av?'':' empty'}" href="#" data-go="module:${sec}|${m.name}">${head}${body}</a>`;
+ }).join('');
  const SS=DATA.storiesSection;
  const stories=(s.homepage&&SS)?state.filter(r=>r.section===SS&&r.practice===sec&&r.published):[];
  const shtml=stories.length?`<div class="lab">Stories from the field</div><div class="focalgrid">${stories.map(card).join('')}</div><p class="storiesmore"><a href="#" data-go="section:${esc(SS)}">See all stories &amp; spotlights &rarr;</a></p>`:'';
- const availTotal=s.modules.reduce((n,m)=>n+availCount(sec,m.name),0);
+ const availTotal=mods.reduce((n,m)=>n+availCount(sec,m.name),0);
  const hero=s.header_image
    ? `<div class="sechero"><img class="shimg" src="${escAttr(s.header_image)}" alt="" fetchpriority="high" decoding="async"/><div class="sechero-in"><h1 class="serif">${esc(sec)}</h1></div></div>${s.intro?`<p class="sechero-sub">${esc(s.intro)}</p>`:''}`
    : `<div class="section-h"><h1 class="serif">${esc(sec)}</h1>${s.intro?`<p>${esc(s.intro)}</p>`:''}</div>`;
@@ -638,7 +709,7 @@ function module(sec,mod){
  const focal=list.filter(r=>r.focal).sort((a,b)=>(a.focal_order||9)-(b.focal_order||9));
  const more=list.filter(r=>!r.focal);
  const sObj=DATA.sections.find(x=>x.name===sec);
- const m=sObj.modules.find(x=>x.name===mod);
+ const m=sObj.modules.find(x=>x.name===mod)||{name:mod,intro:'',video:''};
  const fhtml=focal.length?`<div class="lab">Featured resources</div><div class="focalgrid">${focal.map(card).join('')}</div>`:'';
  const mhtml=more.length?`<div class="lab">More resources and tools</div><div class="morelist">${more.map(row).join('')}</div>`:'';
  const empty=(!focal.length&&!more.length)?`<div class="band">Resources coming soon for this module.</div>`:'';
