@@ -190,6 +190,7 @@ A real menu. Everything else stacks to one column at 400px.
 | 6 | Module page polish | `template.html` | **done** — `61b089f` |
 | 7 | Fix the two empty rooms (sheet, not code) | master sheet | **done** — 19 Nov, via the bridge |
 | 8 | Collapse the one-item secondary dropdown | `template.html` | **done** — `51b45e4` |
+| 9 | Fit the phone header down to 320px | `template.html` | **done** — `6f9d732` |
 
 None of this needed a `build.js` change in the end — the data was already in the
 page; the template was just not using it.
@@ -239,10 +240,30 @@ scrolled sideways by 37px on a 390px phone. `.tqgrid` used a bare `330px`
 minmax floor; the practices page scrolled at 320px. Both fixed in the same
 change.
 
-**Still open at phone width:** below about 375px the *header* overflows — the
-logo, the search control and the Menu button do not fit on one row. Content is
-clean at 360px and 320px; only the header is not. Which element gives way is a
-design decision, so it is left here rather than guessed at.
+### The phone header (`6f9d732`)
+
+The one thing left after that was the *header*, which needed 397px of bar —
+logo 146 + search 61 + Menu 84, plus a 22px gutter each side and two 18px
+gaps — so on a 360px phone every page scrolled sideways by 16px. Three things
+give way, in order of least cost:
+
+1. **Dead space, below 1200px.** The top nav is hidden there, which makes the
+   logo's 26px right margin (its only job is holding the logo off the nav) pure
+   waste; the header's 22px gutter had also stopped matching `main`'s 16px.
+   Reclaiming both buys 38px and aligns the logo with the content below it.
+   That alone fixes 360px.
+2. **The logo steps down below 480px**, 30px tall to 26px. At 146px wide it was
+   taking 40% of a 360px bar, and without this the bar has only 7px of slack
+   there once the Helvetica Neue fallback's wider metrics are allowed for.
+3. **The word "Menu" goes below 355px**, leaving the hamburger, which fits a
+   320px screen with 33px spare. The button keeps `aria-label="Menu"`, so its
+   accessible name is unchanged, and the drawer is untouched.
+
+Verified 320–1440px across all six page types, each width measured twice (once
+with Figtree, once forced onto the fallback). Desktop is untouched: at 1201px
+the 22px gutter, the 26px logo margin and the full nav all come back.
+
+**The site now has no horizontal scroll at any width from 320px up.**
 
 **Still the team's, not mine:** write Stories & Spotlights and flip it back into
 the nav; decide whether the development banner comes down; fill `about_story` on
