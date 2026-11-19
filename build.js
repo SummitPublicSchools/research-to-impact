@@ -466,8 +466,10 @@ async function main() {
     '__SEO_DESC__': escHtml((site.tagline || site.hero_subhead || '').trim()),
     '__SEO_URL__': escHtml(baseUrl),
     '__SEO_IMAGE__': escHtml(seoImage),
-    // The site logo (Marshall CoLab mark), served from assets/ as the tab icon.
-    '__FAVICON__': 'assets/favicon.png',
+    // The lever icon (guidelines p.7), served from assets/ as the tab icon. The icon
+    // is a graphic accent and never stands in for the logo — a favicon is the one
+    // slot that takes a mark rather than a wordmark.
+    '__FAVICON__': 'assets/brand/favicon.png',
   };
 
   // ----- inject + write -----

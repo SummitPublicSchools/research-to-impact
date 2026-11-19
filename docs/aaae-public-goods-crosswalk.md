@@ -3,7 +3,7 @@
 A working map of the public goods committed under the Ignite grant (Bill & Melinda
 Gates Foundation), aligned to the foundation's **AAAE** framework — **A**vailability,
 **A**wareness, **A**doption, **E**fficacy — and to where each good lives on the
-public site (researchtoimpact.marshallstreet.org).
+public site (researchtoimpact.marshall.org).
 
 Purpose: a single page to (a) confirm we have a home for every committed output,
 and (b) report dissemination against AAAE. Source of truth for the commitments is
