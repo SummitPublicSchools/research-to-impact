@@ -16,7 +16,7 @@
 # GITHUB_TOKEN does not re-trigger GitHub Actions, so this cannot loop.
 #
 # It DOES, however, reach Netlify: Netlify builds from a push webhook, which is
-# delivered whoever pushed. Until 19 Nov 2026 that meant every run produced *two*
+# delivered no matter who pushed. Until 19 Nov 2026 that meant every run produced *two*
 # production deploys seconds apart — the build hook's, plus the keepalive push's —
 # at roughly 30 credits a run instead of 15. Confirmed in the deploy log:
 #
