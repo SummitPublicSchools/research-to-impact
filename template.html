@@ -125,6 +125,28 @@ a.pfact:hover .pgo{transform:translateX(2px)}
 .tcard .tdesc{font-size:13.5px;line-height:1.5;color:var(--muted);margin:6px 0 2px}
 .tcard .go{margin-top:auto;font-size:13px;color:var(--navy);font-weight:600}
 
+/* "Start here" — three numbered entry points under the toolkit cards. Flat and
+   white like the cards above; the number carries the sequence (watch it, read
+   it, then take the templates). Each card ends in the resource's OWN action
+   button, so this is a row you act on rather than another list of links, and
+   margin-top:auto holds those buttons on one baseline when the notes wrap to
+   different depths. */
+.sgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(260px,100%),1fr));gap:16px}
+@media(max-width:860px){.sgrid{grid-template-columns:minmax(0,1fr)}}
+.scard{display:flex;gap:13px;background:var(--white);border:1px solid var(--line);border-radius:14px;padding:18px 19px}
+.snum{flex:none;width:27px;height:27px;border-radius:50%;background:var(--navy);color:#fff;font-size:13px;font-weight:700;display:flex;align-items:center;justify-content:center}
+.sbody{display:flex;flex-direction:column;min-width:0;flex:1}
+.stop{display:flex;align-items:flex-start;gap:9px}
+.stop .ic{color:var(--navy);flex:none;margin-top:2px}
+.stitle{font-size:15.5px;font-weight:600;color:var(--navy);line-height:1.3}
+.snote{font-size:13.5px;color:#46545f;line-height:1.5;margin-top:7px}
+/* Action and location stack rather than sitting side by side. On one row the
+   longer module names ("in Enabling Conditions →") wrap under the button on
+   some cards and not others, so the cards stop matching each other. Stacking
+   costs a line and makes every card the same shape. */
+.sact{display:flex;flex-direction:column;align-items:flex-start;gap:9px;margin-top:auto;padding-top:14px}
+.swhere{font-size:12.5px;color:var(--muted)}
+.swhere:hover{color:var(--navy)}
 .band{background:var(--accent);border-radius:14px;padding:18px 22px;margin-top:22px;color:var(--navy);font-size:14.5px;display:flex;align-items:center;gap:10px}
 .section-h{margin:34px 0 0}
 .section-h h1{font-size:clamp(26px,3.6vw,40px);color:var(--navy);margin:0}
@@ -787,6 +809,37 @@ function proofBand(){
   <div class="pgrid">${items.map(cell).join('')}</div>
  </section>`;
 }
+// "Start here" — three things a visitor with ten minutes can actually do. The
+// sheet picks which resources (start1_id) and may override the wording
+// (start1_label, start1_note); the action comes from the resource itself via
+// resAction(), so it matches the button on that resource's own card and honours
+// gating. Like the proof band, with nothing configured this renders nothing.
+function startHere(){
+ const items=(DATA.startHere||[]);
+ if(!items.length) return '';
+ const cell=(s,i)=>{
+  const r=state.find(x=>x.id===s.id);
+  if(!r) return '';            // build.js already dropped unmatched ids; belt and braces
+  const title=s.label||r.title;
+  const note=s.note||firstSentence(r.summary,110);
+  return `<div class="scard"><span class="snum">${i+1}</span><span class="sbody">
+   <span class="stop">${icon(r.format,18)}<span class="stitle">${esc(title)}</span></span>
+   ${note?`<span class="snote">${esc(note)}</span>`:''}
+   ${/* Section AND module: every toolkit has a module called "Overview", so the
+        module name alone does not say which toolkit you are being sent to.
+        The location line comes BEFORE the button deliberately. .sact is bottom
+        anchored, so whichever element is last keeps a fixed baseline across the
+        row; with the button last, a location that wraps to two lines (say
+        "Research-to-Impact Library · Collaboration") grows the card upward and
+        the three buttons still line up. */''}
+   <span class="sact"><a class="swhere" href="#" data-go="module:${escAttr(r.section)}|${escAttr(r.module)}">${esc(r.section)} &middot; ${esc(r.module)} &rarr;</a>${resAction(r)}</span>
+  </span></div>`;
+ };
+ return `<section class="starthere" aria-label="Start here">
+  <div class="lab">Have ten minutes? Start here</div>
+  <div class="sgrid">${items.map(cell).join('')}</div>
+ </section>`;
+}
 function home(){
  // The cards used to say only "7 modules", which tells a visitor nothing about whether
  // the toolkit is worth opening. Lead with how much is actually in it, then the first
@@ -802,7 +855,12 @@ function home(){
  return `<section class="hero"><div class="htext"><div class="eyebrow">${esc(DATA.site.tagline)}</div><h1 class="serif">${esc(DATA.site.hero_headline)}</h1><p>${esc(DATA.site.hero_subhead)}</p><button class="btn" data-go="section:Co-Planning">${esc(DATA.site.cta)}</button></div><div class="himg"><img src="assets/practices/hero-home.jpg" width="1200" height="800" alt="" fetchpriority="high" decoding="async"/></div></section>
  ${proofBand()}
  <div class="cards">${cards}</div>
- <div class="band">${icon('Protocol',18)} New here? Start with the Overview in any toolkit. ${live} resources are live so far, with more publishing each week.</div>`;
+ ${startHere()}
+ ${/* The band used to open "New here? Start with the Overview in any toolkit."
+      The start-here row above now says that, with real links, so the band keeps
+      only the part it alone carries: how much is live and that it keeps
+      growing. */''}
+ <div class="band">${icon('Protocol',18)} ${live} resources are live so far, with more publishing each week.</div>`;
 }
 function section(sec){
  const s=DATA.sections.find(x=>x.name===sec);
