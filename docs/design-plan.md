@@ -168,20 +168,29 @@ A real menu. Everything else stacks to one column at 400px.
 
 ## 4. Build order
 
-| | Work | Where | Effort |
+| | Work | Where | Status |
 |---|---|---|---|
-| 1 | Mobile navigation | `template.html` | half a day |
-| 2 | Brand tokens: Figtree, palette, flat surfaces, lever logo | `template.html` | 1 day |
-| 3 | Image sizing + `loading`/`decoding` + resized assets | `build.js`, `dist/assets/` | half a day |
-| 4 | Homepage: proof band, richer cards, start-here | `template.html`, `build.js` | 1–2 days |
-| 5 | Toolkit page: surface module resources | `template.html` | 1 day |
-| 6 | Module page polish | `template.html` | half a day |
+| 1 | Mobile navigation | `template.html` | **done** — `f878825` |
+| 2 | Brand tokens: Figtree, palette, flat surfaces, lever logo | `template.html` | **done** — `f878825` |
+| 3 | Image weight and loading | `template.html`, `assets/` | **done** — `f878825` |
+| 4 | Homepage: richer cards | `template.html` | **done** — `7e8721f` |
+| 4b | Homepage: proof band + start-here | `template.html` | waiting on a decision |
+| 5 | Toolkit page: surface module resources | `template.html` | **done** — `7e8721f` |
+| 6 | Module page polish | `template.html` | not started |
 
-1–3 are strictly fixes and could go first on their own.
+None of this needed a `build.js` change in the end — the data was already in the
+page; the template was just not using it.
 
-Steps 4 and 5 need two small `build.js` changes: pass `quote` through for the
-proof band, and pass each module's top resources into the section view. Both are
-additive — no sheet columns change.
+**Found while building step 5, and worth recording:** eight *published*
+resources were rendering on no page at all, including every Evidence & Impact
+publication. A resource's `module` is a dropdown fed by the Lists tab, so
+editors can only pick a valid value; the Modules tab is hand-typed and has no
+guard. When the two drift, resources pointing at the newer name belong to a
+module the page does not know about, and it dropped them silently.
+`modulesOf()` now treats any module a published resource names as real, so the
+page is self-healing. **That is a safety net, not the fix** — until the three
+stale names on the Modules tab are corrected, Evidence & Impact lists both
+versions, one empty and one with the content.
 
 **Content work, which is yours and the team's, not mine:** fill Stories &
 Spotlights or take it out of the nav; get something into Evidence & Impact's
