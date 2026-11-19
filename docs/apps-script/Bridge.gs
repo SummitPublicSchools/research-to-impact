@@ -319,9 +319,18 @@ function logChange_(tab, id, column, before, after) {
       log = ss.insertSheet(LOG_TAB);
       log.appendRow(['when (UTC)', 'tab', 'id', 'column', 'before', 'after', 'by']);
       log.setFrozenRows(1);
+      // A freshly inserted sheet is not immediately ready: appending a data row
+      // right after creating it dropped the before/after values of the very
+      // first logged change. Flush so the new sheet exists before we write to it.
+      SpreadsheetApp.flush();
     }
-    log.appendRow([new Date().toISOString(), tab, id, column,
-                   truncate_(before), truncate_(after), 'bridge ' + BRIDGE_VERSION]);
+    // Write the row explicitly rather than with appendRow, and force text format,
+    // so values like "TRUE" or a leading "=" are recorded verbatim.
+    var row = log.getLastRow() + 1;
+    log.getRange(row, 1, 1, 7).setNumberFormat('@').setValues([[
+      new Date().toISOString(), tab, id, column,
+      truncate_(before), truncate_(after), 'bridge ' + BRIDGE_VERSION
+    ]]);
   } catch (ignored) {
     // Logging must never block a change.
   }
