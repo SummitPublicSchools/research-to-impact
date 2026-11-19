@@ -342,12 +342,30 @@ whole site, and it was invisible because the build only warns about a module's
 `module_video`, never about a resource's `video_url` — so ten broken videos
 warned about nothing.
 
-`build.js` already has the machinery to fix it. `resolveShareLinks()` fetches a
-Vimeo page at build time and pulls the numeric id out of
-`player.vimeo.com/video/(\d+)` or the canonical link, then rewrites the value.
-It is only gated to `vimeo.com/share/...`; widening it to vanity URLs would fix
-all ten at once, with no sheet edits. Care needed to keep `vimeo.com/<id>/<hash>`
-unlisted links out of the new pattern.
+**Fixed** (`a758c72`). Two things were wrong. The resolver only knew about
+`vimeo.com/share/<uuid>`, so vanity links were never looked up at all. And its
+method — fetching the Vimeo page and scraping the canonical link — now gets a
+403, which is why the one share link in the sheet had been warning unresolved
+for so long: the mechanism had quietly stopped working. It now asks Vimeo's
+public oEmbed endpoint for the numeric `video_id`.
+
+A third cause turned up while fixing it: a video resource can keep its URL in
+`link_url` rather than `video_url` (`link_type = embed`), and only `video_url`
+was being resolved. Two videos were still opening in a new tab after the rest
+were fixed, for exactly that reason.
+
+**11 of 11 resource videos now play inline**, up from 1, plus 3 of 4 section and
+module videos. Verified on production by opening the players: the homepage's
+"Watch the introduction" loads `player.vimeo.com/video/1247667953`.
+
+The one holdout is the `Enabling Conditions` `module_video`, a
+`vimeo.com/share/<uuid>` link that oEmbed answers 404 for. That share link looks
+dead; someone needs to open the video in Vimeo and paste its real URL.
+
+The numeric URLs are deliberately **not** written back into the sheet. The build
+resolves vanity links now, and `marshallstreet/co-planning` tells an editor what
+a cell is where `1247667953` does not. The build prints the numeric URL for
+anyone who wants to trade readability for a few seconds of build time.
 
 **Still the team's, not mine:** write Stories & Spotlights and flip it back into
 the nav; decide whether the development banner comes down; fill `about_story` on

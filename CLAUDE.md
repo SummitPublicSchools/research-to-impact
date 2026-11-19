@@ -86,8 +86,19 @@ contains one.
   build wires the Download button. No URL pasting.
 - **Videos play inline (Vimeo)**: `video_url` (resource Watch button → modal player),
   `landing_video` (Sections) and `module_video` (Modules) → embedded intro players. The parser
-  handles share / unlisted (`vimeo.com/ID/HASH`, keeps the privacy hash) / player / channel
-  links; non-Vimeo links fall back to opening in a new tab.
+  handles numeric / unlisted (`vimeo.com/ID/HASH`, keeps the privacy hash) / player links and
+  rescues a pasted embed snippet; non-Vimeo links fall back to opening in a new tab.
+  **A video resource can keep its URL in `link_url` instead of `video_url`** — that is what
+  `link_type = embed` means, and `resAction()` falls back to it. Both are resolved.
+- **Vimeo links with no id are resolved at build time** (`resolveVimeoLinks` in `build.js`).
+  Share links (`vimeo.com/share/<uuid>`) and **vanity links**
+  (`vimeo.com/<user>/<slug>`) carry no video id, so the player cannot embed them. The build
+  asks Vimeo's public **oEmbed** endpoint for the numeric `video_id` and swaps it in, keeping
+  the `?h=` hash when oEmbed returns one. Don't go back to scraping the Vimeo page — Vimeo
+  answers that with 403, which silently broke this for a long time: ten of eleven videos were
+  opening in a new tab and only one link ever warned. On failure the original value is left
+  alone and the build warns, naming the URL. The lookup only fires for links that need it, so
+  a fixtures build makes no network calls; a live build costs a few seconds.
 - **Gated email ask**: `gated=TRUE` shows a skippable HubSpot email prompt (a harmless
   placeholder until `hubspot_portal_id` / `hubspot_form_id` are set on the Site tab).
 - **Lists tab + guardrails**: the `Lists` tab centralizes every dropdown's values; `Guardrails.gs`
