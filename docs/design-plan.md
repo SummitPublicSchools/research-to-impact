@@ -185,7 +185,7 @@ A real menu. Everything else stacks to one column at 400px.
 | 2 | Brand tokens: Figtree, palette, flat surfaces, lever logo | `template.html` | **done** — `f878825` |
 | 3 | Image weight and loading | `template.html`, `assets/` | **done** — `f878825` |
 | 4 | Homepage: richer cards | `template.html` | **done** — `7e8721f` |
-| 4b | Homepage: proof band | `template.html`, `build.js` | **built** — needs 16 Site rows to appear |
+| 4b | Homepage: proof band | `template.html`, `build.js` | **done** — `03e94ac` + 16 Site rows |
 | 5 | Toolkit page: surface module resources | `template.html` | **done** — `7e8721f` |
 | 6 | Module page polish | `template.html` | **done** — `61b089f` |
 | 7 | Fix the two empty rooms (sheet, not code) | master sheet | **done** — 19 Nov, via the bridge |
@@ -286,13 +286,13 @@ module page so each stat links to its evidence, and drops the link (with a
 warning) if the id matches no *published* resource. The band never renders a
 dead link.
 
-**To switch it on, the Site tab needs 16 rows.** The bridge could not create
-them: it can set the `value` of a setting that exists but could not create a new
-`setting`, because `setting` was not a writable column. `Bridge.gs` 1.1.0 fixes
-that — an append may write a tab's own key column, while a `set` still may not,
-since renaming `hero_headline` would silently empty part of the page. That needs
-one paste into the Apps Script editor; `node tools/sheet.js health` reports which
-version the sheet is running.
+**It is live.** Switching it on took 16 Site rows, which the bridge could not
+create at first: it can set the `value` of a setting that exists, but `setting`
+was not a writable column, so it could not create a new one. `Bridge.gs` 1.1.0
+fixed that — an append may write a tab's own key column, while a `set` still may
+not, since renaming `hero_headline` would silently empty part of the page. After
+that one paste the 16 rows went in through the bridge, all logged to `BridgeLog`
+with the bridge version that wrote them.
 
 The four stats, their labels, sources and source ids are in
 `fixtures/Site.csv`, so CI builds and renders the band on every push and the
