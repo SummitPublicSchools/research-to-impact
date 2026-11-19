@@ -387,11 +387,21 @@ No new prose was written. Worth knowing: this put five paragraphs in public that
 had been written but never shown, including a named individual and the partner
 and funder list.
 
+### The last build warning is gone
+
+The `Enabling Conditions` `module_video` was a `vimeo.com/share/<uuid>` link,
+and the video behind it no longer exists: the link 404s even for a signed-in
+Marshall account, and nothing matching it is left in the Vimeo library. The cell
+was cleared through the bridge on 19 November.
+
+Nothing on the page changed, because nothing was rendering: `videoBlock()`
+returns an empty string when it cannot extract a video id, so that module simply
+showed no intro video — as every other module does, since this was the only
+`module_video` on the whole site. **The build against the live sheet now reports
+no warnings at all.**
+
 **Still the team's, not mine:** write Stories & Spotlights and flip it back into
-the nav; and replace the `Enabling Conditions` `module_video` — a
-`vimeo.com/share/<uuid>` link that oEmbed answers 404 for, so it looks dead.
-Someone needs to open that video in Vimeo and paste its real URL. It is the only
-build warning left.
+the nav. That is the last open item.
 
 ---
 
