@@ -93,6 +93,47 @@ function imageUrl(url) {
 // script tag) instead of the page link; pull the video id back out so the inline
 // player still works. Vimeo "share" links (vimeo.com/share/<uuid>) carry no
 // video id — resolveVimeoLinks() swaps them for the numeric URL after all tabs load.
+// ----- About page -----
+// The Site tab carries more about_* prose than the page used to show. Five
+// paragraphs — about_toolkits, about_origin, about_continue, about_team and
+// about_community — were written and then never read by the build, while the
+// page asked for an about_story key that has never existed on the tab and so
+// rendered an empty "Our story" heading. These are the sections, in reading
+// order; a blank or missing setting is simply skipped.
+//
+// about_story is kept as an override: if someone does create it, it wins over
+// about_origin for the opening section.
+const ABOUT_SECTIONS = [
+  { keys: ['about_story', 'about_origin'], heading: 'Our story' },
+  { keys: ['about_ignite'], heading: 'IGNITE' },
+  { keys: ['about_practices'], heading: 'The practices' },
+  { keys: ['about_toolkits'], heading: 'What’s on this site' },
+  { keys: ['about_continue'], heading: 'The work continues' },
+  { keys: ['about_team'], heading: 'Team' },
+  { keys: ['about_network'], heading: 'Our network' },
+  { keys: ['about_community'], heading: 'Partners and funders' },
+];
+function aboutBlocks(S) {
+  const out = [];
+  for (const sec of ABOUT_SECTIONS) {
+    const key = sec.keys.find(k => String(S[k] || '').trim());
+    if (!key) continue;
+    const lines = String(S[key]).trim().split(/\n+/).map(l => l.trim()).filter(Boolean);
+    let heading = sec.heading;
+    // Several of these cells were written with their own title line on top
+    // ("A Second Edition", "The Work Continues:", "Our Network:"), and the page
+    // then printed its own <h2> above it — so the live About page read
+    // "NETWORK & PARTNERS / Our Network: The IGNITE Network is...". Where a
+    // first line looks like a title (short, no sentence-ending punctuation, and
+    // something follows it) use it as the heading instead: it is the team's own
+    // wording, and the duplication goes away. Otherwise keep the default.
+    if (lines.length > 1 && lines[0].length <= 60 && !/[.!?]$/.test(lines[0])) {
+      heading = lines.shift().replace(/[:：]\s*$/, '');
+    }
+    out.push({ key, heading, body: lines });
+  }
+  return out;
+}
 function videoUrl(url, where) {
   const s = String(url || '').trim(); if (!s) return '';
   if (s.includes('<')) {
@@ -237,16 +278,16 @@ async function main() {
     name: (S.site_name || 'Research to Impact').split('|')[0].trim(),
     tagline: S.tagline, hero_headline: S.hero_headline, hero_subhead: S.hero_subhead,
     cta: S.hero_cta_label, footer: S.footer_attribution, license: S.license_line,
-    about_story: S.about_story, about_ignite: S.about_ignite, about_practices: S.about_practices,
-    about_network: S.about_network,
+    about: aboutBlocks(S),
     // Optional HubSpot capture (soft email ask on gated resources). Blank = a
     // placeholder shows instead of a live form, so nothing breaks before setup.
     hubspot_portal: (S.hubspot_portal_id || '').trim(),
     hubspot_form: (S.hubspot_form_id || '').trim(),
     hubspot_region: (S.hubspot_region || 'na1').trim(),
   };
-  ['tagline','hero_headline','hero_subhead','cta','footer','license','about_story','about_ignite','about_practices']
+  ['tagline','hero_headline','hero_subhead','cta','footer','license']
     .forEach(k => { if (!String(site[k] || '').trim()) warn.push(`Site setting blank: "${k}" (page area may render empty).`); });
+  if (!site.about.length) warn.push('About page has no content: every about_* setting on the Site tab is blank.');
 
   // ----- Modules (joined to sections) -----
   const modRows = (await loadTab(MODULES_TAB, 'module_name')).map(m => ({

@@ -91,3 +91,10 @@
 "start3_id","collab-green-dot-case-study"
 "start3_label","See it in a real school"
 "start3_note","What quarterly professional development cycles changed across a network."
+"about_origin","A Second Edition
+The sample practices in these fixtures stand in for the real ones, and carry a title line so the heading logic is exercised."
+"about_toolkits","A single-paragraph setting with no title line, so the default heading is used."
+"about_continue","The Work Continues
+A title line followed by two paragraphs.
+This is the second paragraph, so multi-paragraph bodies are covered too."
+"about_community","Sample partner and funder credits for the fixtures build."

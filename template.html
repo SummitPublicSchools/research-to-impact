@@ -960,11 +960,10 @@ function row(r){
 }
 function about(){
  return `<div class="crumb"><a href="#" data-go="home">Home</a> / About</div><div class="about"><h1 class="serif">About</h1>
- <h2>Our story</h2><p>${esc(DATA.site.about_story)}</p>
- <h2>IGNITE</h2><p>${esc(DATA.site.about_ignite)}</p>
- <h2>The practices</h2><p>${esc(DATA.site.about_practices)}</p>
- <h2>Team</h2><p>Marshall Street develops the practices, tools, and supports behind this site, as a division of Summit Public Schools.</p>
- ${DATA.site.about_network?`<h2>Network &amp; partners</h2><p>${esc(DATA.site.about_network)}</p>`:''}</div>`;
+ ${/* Every section comes from the Site tab now, in the order build.js lists them.
+      The Team paragraph used to be hardcoded here — a single sentence — while a
+      fuller about_team sat unread on the tab; the sheet's version wins. */''}
+ ${(DATA.site.about||[]).map(s=>`<h2>${esc(s.heading)}</h2>${s.body.map(p=>`<p>${esc(p)}</p>`).join('')}`).join('')}</div>`;
 }
 // The "R2I Practices" landing — recreated from the old CoLab research-to-impact home.
 function r2iHomeView(){
