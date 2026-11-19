@@ -48,8 +48,13 @@ a{color:inherit;text-decoration:none}
 button{font-family:inherit;cursor:pointer}
 :focus-visible{outline:3px solid var(--blue);outline-offset:2px}
 
-.protostrip{background:var(--slate);color:var(--muted);font-size:11.5px;text-align:center;padding:5px 10px;border-bottom:1px solid var(--line)}
-.protostrip b{color:var(--navy);font-weight:500}
+/* The "site under development" strip that used to sit above the header is gone,
+   along with its .protostrip rules. It was hedging against the defects the
+   design plan listed — no phone navigation, grey hero boxes, two empty sections
+   in the nav — and those are fixed. The plan's own instruction was to fix them
+   and take the banner down rather than reword it. It was hardcoded here rather
+   than sheet-driven, so putting a notice back is a code change; if the team
+   wants one they can hold, it belongs on the Site tab as an editable setting. */
 
 header.site{position:sticky;top:0;z-index:20;background:var(--navy);color:#fff;display:flex;align-items:center;gap:18px;padding:8px 22px;min-height:62px;box-shadow:0 1px 0 rgba(0,0,0,.15)}
 header .logo{height:30px;display:flex;align-items:center;margin-right:26px;flex:0 0 auto}
@@ -467,7 +472,6 @@ nav.main .nav-div{width:1px;height:16px;background:rgba(255,255,255,.22);margin:
 </head>
 <body>
 <a class="skiplink" href="#app">Skip to content</a>
-<div class="protostrip">This site is under development &middot; content and features are still being finalized</div>
 <header class="site">
   <a class="logo" data-go="home" href="#" aria-label="Home" title="Home"><img class="logo-img" src="assets/brand/marshall-secondary-white.png" width="600" height="123" alt="Marshall Street" fetchpriority="high"/></a>
   <nav class="main" id="nav"></nav>
