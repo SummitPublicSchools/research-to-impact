@@ -98,7 +98,11 @@ main{max-width:1040px;margin:0 auto;padding:30px 22px 60px}
 .vidbar .ic{color:var(--navy)}
 
 .lab{font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);font-weight:700;margin:30px 0 12px}
-.mcards{display:grid;grid-template-columns:1fr;gap:10px}
+/* minmax(0,1fr), not a bare 1fr: a bare 1fr track is minmax(auto,1fr), and that
+   auto floor is the item's min-content, which the module card's resource peek
+   rows pushed to 411px. On a 390px phone the toolkit page scrolled sideways by
+   37px as a result. Confirmed by toggling this one value in the live page. */
+.mcards{display:grid;grid-template-columns:minmax(0,1fr);gap:10px}
 .mcard{display:flex;flex-direction:column;gap:0;background:var(--white);border:1px solid var(--line);border-radius:12px;padding:13px 15px;transition:border-color .12s,transform .12s,box-shadow .12s}
 .mcard .mhead{display:flex;align-items:center;gap:13px}
 .mpeeks{display:flex;flex-direction:column;margin:11px 0 1px 42px;border-top:1px solid var(--line);padding-top:4px}
@@ -152,7 +156,11 @@ main{max-width:1040px;margin:0 auto;padding:30px 22px 60px}
 .pcard .pt{font-size:16px;font-weight:600;color:var(--navy)}
 .pcard .pd{font-size:13.5px;color:#46545f;line-height:1.5}
 .pcard .plink{font-size:12.5px;font-weight:600;color:var(--navy);margin-top:1px}
-.tqgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(330px,1fr));gap:14px}
+/* min(330px,100%) for the same reason as .focalgrid: a bare 330px floor cannot
+   shrink below itself. At 360px the track was 330px in a 328px container —
+   over, but not enough to scroll the page. At 320px it did: the page scrolled
+   to 347px. Measured both ways by toggling this value in the running page. */
+.tqgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(330px,100%),1fr));gap:14px}
 .tq{background:var(--white);border:1px solid var(--line);border-left:3px solid var(--orange);border-radius:12px;padding:18px 20px;margin:0}
 .tq blockquote{margin:0;font-weight:300;font-size:19px;line-height:1.26;letter-spacing:-.01em;color:var(--navy)}
 .tq figcaption{margin-top:14px;display:flex;align-items:center;gap:11px}
@@ -174,7 +182,25 @@ main{max-width:1040px;margin:0 auto;padding:30px 22px 60px}
 .jstep .jlabel{font-size:14px;font-weight:700;color:var(--navy)}
 .jstep .jtext{font-size:13px;color:#46545f;line-height:1.5}
 
-.focalgrid{display:grid;gap:14px;margin-bottom:10px}
+/* Featured cards pair up when they are the short, plain kind — a module like
+   Co-Planning / Detailed Practice in Action had four identical 155px cards in a
+   single 996px column, which reads as a list, not as "featured". A rich card
+   (photo + narrative) or a full-collection card always keeps the full width:
+   those run 200-500px tall and would be crushed at half width. No module today
+   mixes the two kinds, so this leaves no gaps; the span rule is there so it
+   still behaves if one ever does. 420px floor => 2 columns at the 996px max
+   and a single column below roughly 880px of viewport.
+   min(420px,100%) rather than a bare 420px: a plain minmax floor cannot shrink
+   below itself, so on a 375px phone the track stayed 420px wide and pushed the
+   whole page into horizontal scroll. */
+.focalgrid{display:grid;gap:14px;margin-bottom:10px;grid-template-columns:repeat(auto-fill,minmax(min(420px,100%),1fr))}
+.focalgrid>.rcard.rich,.focalgrid>.rcard.collhero{grid-column:1/-1}
+/* Side-by-side cards stretch to the tallest in their row, so without this the
+   action sits straight under the summary and the two buttons land at different
+   heights. Pushing .acts to the bottom lines them up. Scoped away from .rich
+   (a two-column photo/text grid) and .collhero (already a flex column). */
+.focalgrid>.rcard:not(.rich):not(.collhero){display:flex;flex-direction:column}
+.focalgrid>.rcard:not(.rich):not(.collhero) .acts{margin-top:auto;padding-top:13px}
 .rcard{background:var(--white);border:1px solid var(--line);border-radius:13px;padding:17px 19px}
 .rcard.soon{background:#f6f7f8}
 .rcard .top{display:flex;align-items:flex-start;gap:11px}
@@ -210,7 +236,10 @@ main{max-width:1040px;margin:0 auto;padding:30px 22px 60px}
 .dl:hover{background:#2d4466}
 
 .chip{display:inline-flex;align-items:center;gap:5px;font-size:11px;font-weight:500;padding:2px 9px;border-radius:20px}
-.chip.ok{background:var(--ok-bg);color:var(--ok-tx)}
+/* .chip.ok ("Available") was retired from resource cards: a card that is on the
+   page and carries a Download button is self-evidently available, and the badge
+   repeated on every one of them. --ok-bg/--ok-tx stay — .mcard .mstat.ok uses
+   them for the resource counts on a section page. */
 .chip.soon{background:var(--soon-bg);color:var(--soon-tx)}
 .chip.new{background:var(--accent);color:var(--navy)}
 .chip.fmt{background:#eef1f2;color:#55616c}
@@ -222,7 +251,14 @@ main{max-width:1040px;margin:0 auto;padding:30px 22px 60px}
 .morerow .ic{color:var(--muted);flex:none}
 .morerow .rt{flex:1;color:var(--ink)}
 .morerow.soon .rt{color:#5f6770}
-.morerow .dl{padding:6px 12px;font-size:12.5px}
+/* One filled action per card; the rows under "More resources and tools" are
+   secondary by definition, so theirs is a ghost button that fills in on hover.
+   Before this, an eleven-resource module showed eleven identical navy pills and
+   nothing led. Navy on white is well past AA, and the row's own hover keeps the
+   target obvious. */
+.morerow .dl{padding:5px 12px;font-size:12.5px;background:transparent;color:var(--navy);border:1px solid var(--line);font-weight:600}
+.morerow .dl:hover{background:var(--navy);color:#fff;border-color:var(--navy)}
+.morerow.have:hover .dl{border-color:#9fb3c4}
 .dot{width:8px;height:8px;border-radius:50%;flex:none}
 .dot.ok{background:#2f9e63}.dot.soon{background:#c4ccd2}
 
@@ -756,7 +792,9 @@ function card(r){
                    :(r.summary?`<div class="desc">${esc(r.summary)}</div>`:'');
  const why=(r.why&&r.why.length)?`<div class="why"><div class="whyh">Why it Works</div><ul>${r.why.map(w=>`<li>${esc(w)}</li>`).join('')}</ul></div>`:'';
  const quote=r.quote?`<blockquote class="pq">${esc(r.quote)}</blockquote>`:'';
- const head=`<div class="top">${icon(r.format,19)}<div class="ttl">${esc(r.title)}</div>${r.isnew?'<span class="chip new">New</span>':''}<span class="chip ok">Available</span></div>`;
+ // No "Available" badge: every published card had one, so it distinguished nothing.
+ // "New" and the gated chip stay — those two actually tell you something.
+ const head=`<div class="top">${icon(r.format,19)}<div class="ttl">${esc(r.title)}</div>${r.isnew?'<span class="chip new">New</span>':''}</div>`;
  const main=`${head}${lead}${why}${quote}${r.who_for?`<div class="who">${esc(r.who_for)}</div>`:''}${acts}`;
  // Rich practice card (a captioned photo from the old site): photo left, content right.
  if(r.image && (r.body || r.image_caption)){
