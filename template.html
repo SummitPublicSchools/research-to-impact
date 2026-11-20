@@ -149,38 +149,13 @@ main{max-width:none;margin:0;padding:0 0 60px}
 .crumb a:hover{color:var(--navy);text-decoration:underline}
 .eyebrow{font-size:var(--t-label);letter-spacing:.12em;text-transform:uppercase;color:var(--orange);font-weight:var(--w-semi);margin:0 0 10px}
 
-/* Homepage hero. Full-bleed navy, flush under the header and joined to the
-   proof band below, so the first screen is one composition rather than a card
-   on a page. The four-track grid keeps the text on the reading column while the
-   photo runs hard-edged to the right edge of the screen: the outer tracks are
-   the gutters, and the photo spans its own track plus the right-hand gutter.
-   The image is 145% of its box and bottom-anchored, which crops the whiteboard
-   handwriting above the two faces out of frame. */
-#app:has(>.hero){padding-top:0}
-#app>.hero{display:grid;grid-template-columns:minmax(22px,1fr) minmax(0,570px) minmax(0,426px) minmax(22px,1fr);background:var(--navy);overflow:hidden}
-.hero .htext{grid-column:2;align-self:center;padding:64px 48px 56px 0}
-/* Deliberately a step above --t-display, like the closing band: this is the
-   one headline on the site that has a whole screen to itself. */
-.hero h1{color:#fff;font-size:clamp(30px,4.2vw,48px);line-height:1.1;letter-spacing:-.01em;margin:0;max-width:22ch}
-.hero .hsub{color:#dfe6ee;font-size:var(--t-heading);line-height:1.5;max-width:44ch;margin:18px 0 28px}
-.hero .hacts{display:flex;flex-wrap:wrap;align-items:center;gap:var(--s-3) var(--s-6)}
-.hero .hlink{color:#fff;font-size:var(--t-meta);font-weight:var(--w-semi);border-bottom:1px solid rgba(255,255,255,.45);padding-bottom:2px}
-.hero .hlink:hover{border-bottom-color:var(--orange)}
-.hero .hkits{display:flex;flex-wrap:wrap;gap:6px 22px;margin-top:34px;padding-top:16px;border-top:1px solid rgba(255,255,255,.16);font-size:var(--t-meta)}
-.hero .hkits a{color:#dfe6ee}
-.hero .hkits a:hover{color:#fff;text-decoration:underline;text-underline-offset:4px}
-.hero .himg{grid-column:3/5;position:relative;min-height:460px;overflow:hidden}
-.hero .himg img{position:absolute;inset:auto 0 0 0;width:100%;height:145%;object-fit:cover;object-position:60% 100%;display:block}
-.hero+.proof{margin-top:0;border-top:1px solid rgba(255,255,255,.16)}
-@media(max-width:1200px){#app>.hero{grid-template-columns:minmax(16px,1fr) minmax(0,570px) minmax(0,426px) minmax(16px,1fr)}}
-@media(max-width:860px){
-  #app>.hero{grid-template-columns:16px minmax(0,1fr) 16px}
-  .hero .himg{grid-column:1/-1;order:-1;min-height:230px}
-  .hero .himg img{height:150%;object-position:56% 100%}
-  .hero .htext{grid-column:2;padding:30px 0 32px}
-  .hero .hkits{margin-top:26px}
-}
-@media(max-width:560px){.hero+.proof{border-radius:0;padding-left:0;padding-right:0}}
+.hero{background:var(--white);border:1px solid var(--line);border-radius:var(--r-card);overflow:hidden;display:grid;grid-template-columns:1.05fr .95fr}
+.hero .htext{padding:46px 40px;align-self:center}
+.hero h1{font-size:var(--t-display);color:var(--navy);margin:0;max-width:16ch}
+.hero p{font-size:var(--t-body);color:#41505f;max-width:46ch;margin:16px 0 26px}
+.hero .himg{position:relative;min-height:360px}
+.hero .himg img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block}
+@media(max-width:760px){.hero{grid-template-columns:1fr}.hero .himg{min-height:210px;order:-1}.hero .htext{padding:28px 22px 30px}}
 /* Homepage proof band — the field outcomes, directly under the hero. Navy and
    flat, and deliberately the heaviest block of colour on the page: the brand
    wants navy dominant, and these numbers are the strongest thing the site has
@@ -651,9 +626,7 @@ nav.main .nav-div{width:1px;height:16px;background:rgba(255,255,255,.22);margin:
      gutter no longer lines up with main's 16px. Reclaiming both buys 38px and
      aligns the logo with the content below it. That is what a 360px phone was
      short by: the logo, search and Menu button needed 397px of a 360px bar. */
-  /* max(): between 1040 and 1200px the content column is centred with more
-     than 16px either side, and the logo and Menu button follow it in. */
-  header.site{padding:8px max(16px,calc((100% - 996px)/2));gap:var(--s-3)}
+  header.site{padding:8px 16px;gap:var(--s-3)}
   footer.site{padding-left:16px;padding-right:16px}
   header .logo{margin-right:0}
 }
@@ -949,11 +922,6 @@ document.getElementById('menuBtn')?.addEventListener('click',()=>navDrawer(true)
 document.addEventListener('click',e=>{if(e.target.closest('[data-nav-close]'))navDrawer(false);});
 // Any destination inside the drawer closes it; navigate() re-renders underneath.
 document.addEventListener('click',e=>{if(e.target.closest('#navDrawer [data-go]'))navDrawer(false);});
-// "See the results" in the homepage hero: scroll to the proof band, clear of the sticky header.
-document.addEventListener('click',e=>{const a=e.target.closest('[data-scroll="proof"]');if(!a)return;e.preventDefault();
- const t=document.querySelector('.proof');if(!t)return;
- const h=document.querySelector('header.site');
- window.scrollTo({top:t.getBoundingClientRect().top+window.scrollY-(h?h.offsetHeight:0),behavior:matchMedia('(prefers-reduced-motion:reduce)').matches?'auto':'smooth'});});
 document.addEventListener('keydown',e=>{
  if(e.key==='Escape'&&!document.getElementById('navDrawer').hidden)navDrawer(false);
 });
@@ -1075,13 +1043,7 @@ function home(){
   return `<a class="tcard" href="#" data-go="section:${s.name}">${icon(s.name==='Leading Implementation'?'Protocol':'Document',22)}<h3>${s.name}</h3><div class="sub">${n?`<b>${n} resource${n===1?'':'s'}</b> &middot; ${mods} ${unit}`:`${mods} ${unit}`}</div>${blurb?`<p class="tdesc">${esc(blurb)}</p>`:''}<span class="go">View toolkit <span class="arr" aria-hidden="true">&rarr;</span></span></a>`;
  }).join('');
  const live=state.filter(r=>r.published).length;
- // The toolkit names under the buttons come from the same sheet rows as the
- // cards below; "See the results" appears only when the proof band does.
- const site=DATA.site;
- const kits=DATA.sections.filter(s=>s.homepage).map(s=>`<a href="#" data-go="section:${escAttr(s.name)}">${esc(s.name)}</a>`).join('');
- return `<section class="hero bleed"><div class="htext"><div class="eyebrow">${esc(site.tagline)}</div><h1 class="serif">${esc(site.hero_headline)}</h1><p class="hsub">${esc(site.hero_subhead)}</p>
-  <div class="hacts"><button class="btn" data-go="section:Co-Planning">${esc(site.cta)}</button>${DATA.proof&&DATA.proof.length>1?'<a class="hlink" href="#" data-scroll="proof">See the results</a>':''}</div>
-  ${kits?`<nav class="hkits" aria-label="Toolkits">${kits}</nav>`:''}</div><div class="himg"><img src="assets/practices/hero-home.jpg" width="1200" height="800" alt="" fetchpriority="high"/></div></section>
+ return `<section class="hero"><div class="htext"><div class="eyebrow">${esc(DATA.site.tagline)}</div><h1 class="serif">${esc(DATA.site.hero_headline)}</h1><p>${esc(DATA.site.hero_subhead)}</p><button class="btn" data-go="section:Co-Planning">${esc(DATA.site.cta)}</button></div><div class="himg"><img src="assets/practices/hero-home.jpg" width="1200" height="800" alt="" fetchpriority="high" decoding="async"/></div></section>
  ${proofBand()}
  <div class="cards">${cards}</div>
  ${startHere()}
