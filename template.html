@@ -1164,7 +1164,7 @@ function moduleMedia(m){
  // A .png here is one of the collection illustrations (drawn on white); a
  // photo is a .jpg or a Drive thumbnail. They need different treatment.
  const illus=/\.png(?:$|\?)/i.test(m.image);
- return `<div class="mediaslot"><img class="modimg${illus?' illus':''}" src="${escAttr(m.image)}" alt="" loading="lazy" decoding="async"/></div>`;
+ return `<div class="mediaslot"><img class="modimg${illus?' illus':''}" src="${escAttr(m.image)}" alt="" fetchpriority="high"/></div>`;
 }
 function modulePager(sec,mod){
  const mods=modulesOf(sec);
