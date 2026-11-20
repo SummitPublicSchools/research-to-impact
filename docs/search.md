@@ -159,6 +159,34 @@ node build.js && node tools/index-files.mjs     # then commit content/
 
 ---
 
+## "I'm a…" — the audience lens
+
+A row of chips at the top of the panel: **Anyone · Teacher · School leader ·
+District & network leader · Funder or researcher.** Broad on purpose — four
+lenses, not job titles. Coaches and counselors read with School leaders.
+
+- **Derived, not entered.** `audienceOf()` in `build.js` reads each resource's
+  `who_for` line and files it under every lens whose words it uses (`AUDIENCES`
+  holds the patterns). There is no second column to keep in step. A line that
+  names only a "team" counts for both Teachers and School leaders.
+- **The build warns** about a published resource whose `who_for` is written but
+  fits no lens — so the fix for "the lens never shows X" is to name a role in
+  that line, and a miss is loud rather than silent.
+- **It reorders; it never hides.** Results written for the chosen reader come
+  first, the rest follow under "Written for other roles". A filter that empties
+  the panel would tell people the site has nothing for them, when the truth is
+  only that nothing was tagged for them.
+- **Before anything is typed**, a chosen lens lists up to eight of the site's
+  own focal resources for that reader, one from each section in turn.
+- **Remembered in the browser** (`localStorage`, key `r2i.lens`) and nowhere
+  else: no account, no cookie, nothing sent. A private window or cleared site
+  data forgets it, which is harmless.
+
+Current spread, live sheet: Teachers 46, School leaders 79, District & network
+leaders 11, Funders & researchers 11 (28 resources sit in two lenses).
+
+---
+
 ## What the panel shows
 
 **Where to start** — the best-matching *module*, with its intro **straight from

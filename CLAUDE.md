@@ -151,6 +151,11 @@ contains one.
   come back; document passages only re-rank them or add a miss on stronger evidence** —
   letting passages vote on coverage buried correct results. A new file is searchable
   inside only after the tool has run. Sign-in-only files can never be indexed.
+- **Audience lens ("I'm a…" in search)**: four broad lenses — Teachers, School leaders
+  (includes coaches and counselors), District & network leaders, Funders & researchers —
+  **derived at build time from `who_for`** by `audienceOf()` in `build.js`; there is no
+  audience column. The build warns when a written `who_for` names no recognised role. The
+  lens reorders results and never hides any. The choice lives in `localStorage` only.
 - **Gated email ask**: `gated=TRUE` shows a skippable HubSpot email prompt (a harmless
   placeholder until `hubspot_portal_id` / `hubspot_form_id` are set on the Site tab).
 - **Lists tab + guardrails**: the `Lists` tab centralizes every dropdown's values; `Guardrails.gs`
