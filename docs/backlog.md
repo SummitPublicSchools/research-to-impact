@@ -121,12 +121,32 @@ A module shows **one** piece of media above its resources. If both
 stacking two large blocks pushes the resources off the screen. Photos render
 hard-edged at 560px, 16:9, cropped to fill.
 
-**To fill the 34 rows:** `Bridge.gs` 1.2.0 allows `module_image`, but the
-deployed copy is 1.1.0, so it needs one paste into the Apps Script editor
-(see `sheet-bridge.md` — paste, then publish a new version, or the old code
-keeps serving). After that the rows can go in through the bridge rather than by
-hand. Choosing which photo suits which module is editorial, like the resource
-images in item 2.
+**8 of 34 are filled** (19 November, bridge 1.2.0 deployed). Deliberately not
+all 34, for two reasons worth keeping:
+
+- **The three toolkits share module names.** Co-Planning, Repeated Reading and
+  Routine Data Cycles each have Overview, Enabling Conditions, Getting Started,
+  Detailed Practice in Action, Coaching & Progress Monitoring, Common Pitfalls &
+  Barriers, Learning More. Any mapping by module name repeats one photo across
+  three pages, which reads as a bug.
+- **There are not 34 suitable photos.** Seventeen in the design system, two now
+  used as section heroes, leaves fifteen for twenty-nine non-Library modules.
+
+What was filled, and why each earns its place:
+
+| Module | Image |
+|---|---|
+| Co-Planning / Overview | two educators leaning in over one table |
+| Repeated Reading / Overview | an adult working one to one with a student |
+| Routine Data Cycles / Overview | an adult and two students reading a laptop |
+| Library / Collaboration, Data for MTSS, Emotional Support, Postsecondary, Secondary Literacy | the collection illustrations already in the repo, 1:1 and already 1120x630 |
+
+The working modules are left clean on purpose. Someone hunting an agenda
+template does not need 315px of photography above the list, and a repeated
+stock image would cheapen it.
+
+**If more are wanted**, the constraint is photos, not plumbing: the field and
+the bridge both work now.
 
 ## 6. "Download" on links that are not downloads
 
