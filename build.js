@@ -363,6 +363,11 @@ async function main() {
         summary: r.summary || '', who_for: r.who_for || '',
         isnew: isRecent(r.date_published),
         video: String(r.link_type || '').trim() === 'embed' || !!video_url,
+        // Carried through so the page can label the button honestly. An
+        // external_link opens a Google Doc or Drive preview in a new tab — it
+        // does not download anything, and 70 of the 119 published resources are
+        // this kind, so "Download" was wrong on most of the site.
+        link_type: String(r.link_type || '').trim(),
         link: linkFor(r),
         video_url,
         image: imageUrl(r.image),
