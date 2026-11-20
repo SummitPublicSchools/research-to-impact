@@ -1,8 +1,6 @@
 # Design audit — November 2026
 
-> **Status:** findings 1, 2, 3, 5 and 6 were implemented on 19 November
-> (`template.html`). Only finding 4 (accent colour) is still open; the bands
-> from finding 3 are what create the places blue belongs.
+> **Status:** all six findings were implemented on 19 November (`template.html`).
 
 Written against the live site, measured rather than eyeballed. The brief was
 "it still feels a little blocky… is there a way for this to feel more modern".
@@ -134,8 +132,28 @@ appear on the page at all.**
 orange on a reading-heavy website would be loud and would fight the brand's own
 rule that orange never carries text. I am not proposing we hit 25%. I am saying
 that 0.6% orange and 0% blue is the other extreme, and it is why the palette
-reads as navy-and-white rather than as Marshall's. Blue at display size is
-explicitly sanctioned (24pt+), which the page has places for.
+reads as navy-and-white rather than as Marshall's.
+
+**Done, 19 November, two placements, both strictly in-role.**
+
+The spec gives blue "divider pages, links, large display type". A full-bleed
+band is the web's divider page, and it is the one place blue may carry white
+text — so the homepage now closes on a blue band with the resource count set as
+display type. **Blue went from 0% to 16.5%** of coloured area. The type is
+deliberately larger than `--t-display`: white on blue is 3.51:1, which clears
+the 3:1 AA bar for large text but is the ratio the brand pairs with 60pt+ on its
+own divider pages, and Light weight thins the strokes further.
+
+Orange's role is "fill, rule, eyebrow", never text — so it arrives as a short
+rule above every section label, ten of them across the site.
+
+**Orange barely moved in area terms, from 0.6% to 0.5%, and that is the honest
+result.** A 28x3px rule is a graphic accent, not a field of colour. There is
+nowhere brand-legal to put a large orange field on a page this text-heavy: white
+on orange fails at 2.4:1, navy on orange is loud, and the spec's own warning is
+that when a layout looks off-brand it is usually because orange has grown past
+its share. **Teal was left alone for the same reason** — its sanctioned uses are
+icon colourways and chart series, and the site has neither.
 
 ## 5. The practice photos are rounded and framed — *canon violation*
 

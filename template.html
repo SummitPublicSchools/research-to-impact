@@ -202,6 +202,17 @@ a.pfact:hover .pgo{transform:translateX(2px)}
 .sact{display:flex;flex-direction:column;align-items:flex-start;gap:var(--s-2);margin-top:auto;padding-top:14px}
 .swhere{font-size:var(--t-label);color:var(--muted)}
 .swhere:hover{color:var(--navy)}
+/* Blue was 0% of the page. The spec gives it "divider pages, links, large
+   display type", and a full-bleed band is the web form of a divider page —
+   the one place blue may carry white text. "On blue: large white type only",
+   hence display size here rather than body size. Kept off .band, which a
+   module's empty state shares and which is a small light-blue panel. */
+.closer{background:var(--blue);color:#fff;padding:var(--s-12) 0;margin-top:var(--s-8)}
+/* Deliberately larger than --t-display. White on blue is 3.51:1 — it clears
+   the 3:1 AA bar for large text, but the brand pairs that ratio with 60pt+
+   on its own divider pages, and Light weight thins the strokes further. This
+   lands between 32 and 56px so it is unambiguously display type. */
+.closer p{font-size:clamp(32px,4.6vw,56px);font-weight:var(--w-light);line-height:1.1;letter-spacing:-.02em;margin:0;max-width:20ch}
 .band{background:var(--accent);border-radius:var(--r-card);padding:18px 22px;margin-top:22px;color:var(--navy);font-size:var(--t-meta);display:flex;align-items:center;gap:var(--s-3)}
 .section-h{margin:34px 0 0}
 .section-h h1{font-size:var(--t-display);color:var(--navy);margin:0}
@@ -209,7 +220,11 @@ a.pfact:hover .pgo{transform:translateX(2px)}
 .vidbar{display:flex;align-items:center;gap:var(--s-3);background:var(--white);border:1px solid var(--line);border-radius:var(--r-card);padding:12px 15px;color:var(--muted);font-size:var(--t-meta);max-width:340px;margin-top:16px}
 .vidbar .ic{color:var(--navy)}
 
+/* Orange was 0.6% of the page. Its role in the spec is "fill, rule, eyebrow",
+   never text — so it arrives here as a rule above every section label, which
+   repeats across the site and never has to carry meaning. */
 .lab{font-size:var(--t-label);letter-spacing:.1em;text-transform:uppercase;color:var(--muted);font-weight:var(--w-semi);margin:30px 0 12px}
+.lab::before{content:"";display:block;width:28px;height:3px;background:var(--orange);margin-bottom:var(--s-2)}
 /* minmax(0,1fr), not a bare 1fr: a bare 1fr track is minmax(auto,1fr), and that
    auto floor is the item's min-content, which the module card's resource peek
    rows pushed to 411px. On a 390px phone the toolkit page scrolled sideways by
@@ -927,7 +942,7 @@ function home(){
       The start-here row above now says that, with real links, so the band keeps
       only the part it alone carries: how much is live and that it keeps
       growing. */''}
- <div class="band">${icon('Protocol',18)} ${live} resources are live so far, with more publishing each week.</div>`;
+ <section class="closer bleed"><div class="bleed-in"><p>${live} resources are live so far, with more publishing each week.</p></div></section>`;
 }
 function section(sec){
  const s=DATA.sections.find(x=>x.name===sec);
