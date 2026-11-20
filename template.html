@@ -145,8 +145,21 @@ main{max-width:none;margin:0;padding:0 0 60px}
 /* Re-constrains the content inside a full-bleed block to the same column, so
    only the background runs to the edge, never the text. */
 .bleed-in{width:calc(100% - 44px);max-width:996px;margin:0 auto}
-.crumb{font-size:var(--t-label);color:var(--muted);margin-bottom:14px}
-.crumb a:hover{color:var(--navy);text-decoration:underline}
+/* Only module pages carry this, as a single link back up to their toolkit.
+   Landing pages had "Home / Co-Planning" and it said nothing the logo, the
+   nav highlight and the page title did not already say, at the cost of a
+   50px strip between the header and the photo. A module page is different:
+   people arrive on one from search or a shared link, and on a phone the nav
+   is behind Menu, so this is the only "you are here" on screen. */
+.crumb{font-size:var(--t-meta);color:var(--muted)}
+.crumb a{display:inline-flex;align-items:center;gap:6px;padding:4px 0}
+.crumb a:hover{color:var(--navy)}
+.crumb .arr{display:inline-block;transition:transform .15s ease}
+.crumb a:hover .arr{transform:translateX(-3px)}
+.crumb+.pagehead{margin-top:var(--s-3)}
+/* With no breadcrumb above it, a landing page's photo sits flush under the
+   header, the same way the homepage hero does. */
+#app:has(>.sechero:first-child){padding-top:0}
 .eyebrow{font-size:var(--t-label);letter-spacing:.12em;text-transform:uppercase;color:var(--orange);font-weight:var(--w-semi);margin:0 0 10px}
 
 /* Homepage hero. A full-bleed white band, flush under the header and joined to
@@ -1125,8 +1138,7 @@ function section(sec){
  const head=(headText||vid)?`<div class="pagehead${headText&&vid?' has-media':''}">${headText}${vid}</div>`:'';
  const modLabel=sec==='Leading Implementation'?'Collections':'Modules';
  const modNote=availTotal===0?`<span class="labnote">resources publishing soon &mdash; check back</span>`:'';
- return `<div class="crumb"><a href="#" data-go="home">Home</a> / ${esc(sec)}</div>
- ${hero}
+ return `${hero}
  ${head}
  <div class="lab">${modLabel}${modNote}</div><div class="mcards">${mcards}</div>
  ${shtml}
@@ -1174,7 +1186,7 @@ function module(sec,mod){
  const fhtml=focal.length?`<div class="lab">Featured resources</div><div class="focalgrid">${focal.map(card).join('')}</div>`:'';
  const mhtml=more.length?`<div class="lab">More resources and tools</div><div class="morelist">${more.map(row).join('')}</div>`:'';
  const empty=(!focal.length&&!more.length)?`<div class="band">Resources coming soon for this module.</div>`:'';
- return `<div class="crumb"><a href="#" data-go="home">Home</a> / <a href="#" data-go="section:${sec}">${esc(sec)}</a> / ${esc(mod)}</div>
+ return `<nav class="crumb" aria-label="Breadcrumb"><a href="#" data-go="section:${escAttr(sec)}"><span class="arr" aria-hidden="true">&larr;</span>${esc(sec)}</a></nav>
  ${(()=>{const media=moduleMedia(m);return `<div class="pagehead${media?' has-media':''}"><div class="section-h"><h1 class="serif">${esc(mod)}</h1>${m.intro?`<p>${esc(m.intro)}</p>`:''}</div>${media}</div>`;})()}
  ${fhtml}${mhtml}${empty}
  ${modulePager(sec,mod)}
@@ -1237,7 +1249,7 @@ function row(r){
  return `<div class="morerow soon">${icon(r.format,16)}<span class="rt">${esc(r.title)}</span><span class="chip fmt">${esc(r.format)}</span><span class="chip soon">Coming soon</span></div>`;
 }
 function about(){
- return `<div class="crumb"><a href="#" data-go="home">Home</a> / About</div><div class="about"><h1 class="serif">About</h1>
+ return `<div class="about"><h1 class="serif">About</h1>
  ${/* Every section comes from the Site tab now, in the order build.js lists them.
       The Team paragraph used to be hardcoded here — a single sentence — while a
       fuller about_team sat unread on the tab; the sheet's version wins. */''}
@@ -1255,8 +1267,7 @@ function r2iHomeView(){
  const journey=(h.journey||[]).map((j,i)=>`<div class="jstep"><span class="jnum">${i+1}</span><span class="jbody"><span class="jlabel">${esc(j.label)}</span><span class="jtext">${esc(j.text)}</span></span></div>`).join('');
  const map=h.map?`<div class="lab">${esc(h.map.heading||'Research-to-Impact Schools')}</div><div class="r2imap">${h.map.text?`<p>${esc(h.map.text)}</p>`:''}<img src="${escAttr(h.map.image)}" alt="${escAttr(h.map.heading||'')}" loading="lazy"/></div>`:'';
  const partners=(h.partners&&h.partners.logos.length)?`<div class="lab">${esc(h.partners.heading)}</div><div class="plogos">${h.partners.logos.map(l=>`<span class="plogo" title="${escAttr(l.name||'')}"><img src="${escAttr(l.img)}" alt="${escAttr(l.name||'')}" loading="lazy"/></span>`).join('')}</div>`:'';
- return `<div class="crumb"><a href="#" data-go="home">Home</a> / ${esc(h.heading||'R2I Practices')}</div>
- ${hero}
+ return `${hero}
  ${practices?`<div class="lab">The five practice collections</div><div class="pcards">${practices}</div>`:''}
  ${quotes?`<div class="lab">From the field</div><div class="tqgrid">${quotes}</div>`:''}
  ${journey?`<div class="lab">Our three-year journey</div><div class="jrow">${journey}</div>`:''}
