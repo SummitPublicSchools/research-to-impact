@@ -99,16 +99,35 @@ and outrank the resource whose quote reads "the course pass rate increased from
 The list also capped at 40 while the count showed the true total, so a search
 could say 51 and show 40 with nothing to explain the gap.
 
-### Still open: "Ask the Resources"
+### "Ask the Resources" — answered by rebuilding search instead
 
-A labelled placeholder — "Experimental · coming soon" badge, disabled send
-button, and a panel that says an answer "is on the way". There is no answer
-quality to evaluate; building it is its own project and needs a decision about
-what generates the answer.
+**Status:** resolved 19 November, without an answer layer. The mock is gone and
+the panel now answers questions for free. `docs/search.md`.
 
-One thing worth deciding sooner: **the mock answer occupies most of the panel**,
-pushing the search results that do work below the fold. That is a product call
-about whether to tease the feature, not a bug.
+The question was whether to pay per question for generated answers. Measuring
+first changed the answer: **17 of 18 natural-language questions returned
+nothing**, while every keyword query worked. The gap the answer layer would have
+filled was mostly a search that could not take a question — the old one required
+every word of a query to match.
+
+So search was rebuilt as ranked retrieval (BM25F) with a hand-built education
+vocabulary table, and the panel's "Where to start" card now shows the
+best-matching module's intro **straight from the sheet**. That turned out to be
+most of what a generated answer was for: asking "how do I know if co-planning is
+working" surfaces a module whose intro opens "How do you know co-planning is
+working, and working well?" — a model would have paraphrased that sentence.
+Surfacing it costs nothing, returns in 0.2ms, and cannot hallucinate.
+
+Zero-result queries went from 18/32 to 0/32. Against a never-tuned-on holdout
+set, the right section is the top hit 14 times in 15.
+
+**Still open, if substantive answers are ever wanted:** a question whose answer
+lives *inside* a PDF in Drive can only be pointed at, not answered — the site
+holds metadata, not documents. Closing that means indexing the Drive files,
+which is a real project rather than a setting. The groundwork for a generated
+answer layer exists on the `claude/ask-the-resources` branch
+(`docs/ask-the-resources.md`) if it is ever revisited; it was not merged because
+free search covers most of the same ground.
 
 ---
 

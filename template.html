@@ -474,20 +474,7 @@ body.ddNoHover nav.main .dd .ddmenu a:hover{background:transparent;color:var(--i
 .askhd{background:var(--navy);color:#fff;padding:16px 18px}
 .askhd .t{font-size:var(--t-body);font-weight:var(--w-semi);display:flex;align-items:center;gap:var(--s-2)}
 .askhd .x{position:absolute;top:14px;right:14px;background:none;border:0;color:#cdd8e4;font-size:var(--t-sub);line-height:1;cursor:pointer}
-.askbadge{display:inline-block;margin-top:8px;font-size:var(--t-label);letter-spacing:.04em;background:rgba(180,220,224,.22);color:#cfe6ea;border:1px solid rgba(180,220,224,.35);padding:3px 9px;border-radius:var(--r-pill)}
 .askbody{flex:1;overflow:auto;padding:18px}
-.askbody .lead{font-size:var(--t-meta);color:#41505f;margin:0 0 14px}
-.askchips{display:flex;flex-wrap:wrap;gap:var(--s-2);margin-bottom:18px}
-.askchips button{background:var(--slate);border:1px solid var(--line);border-radius:var(--r-pill);padding:7px 12px;font-size:var(--t-label);color:var(--navy);font-family:inherit;cursor:default}
-.exlabel{font-size:var(--t-label);letter-spacing:.05em;text-transform:uppercase;color:var(--muted);margin:0 0 8px}
-.bub{max-width:88%;padding:10px 13px;border-radius:var(--r-card);font-size:var(--t-meta);line-height:1.5;margin-bottom:10px}
-.bub.u{background:var(--navy);color:#fff;margin-left:auto;border-bottom-right-radius:4px}
-.bub.a{background:var(--slate);color:var(--ink);border-bottom-left-radius:4px}
-.bub.a .cite{display:inline-block;margin-top:8px;font-size:var(--t-label);color:var(--navy);border:1px solid var(--line);background:#fff;border-radius:var(--r-ctl);padding:3px 9px}
-.askfoot{border-top:1px solid var(--line);padding:12px 14px;display:flex;gap:var(--s-2);align-items:center;background:var(--white)}
-.askfoot input{flex:1;border:1px solid var(--line);border-radius:var(--r-pill);padding:10px 14px;font-size:var(--t-meta);font-family:inherit;background:#f6f8f9;color:var(--muted)}
-.askfoot .send{background:var(--gray);color:#fff;border:0;border-radius:50%;width:38px;height:38px;font-size:var(--t-body);cursor:not-allowed;flex:none}
-.askfoot .note{position:absolute}
 /* combined search/ask control */
 header #findBtn{display:flex;align-items:center;gap:var(--s-2);background:rgba(255,255,255,.12);border:0;border-radius:var(--r-ctl);padding:8px 13px;color:#cdd6df;font-size:var(--t-meta);font-family:inherit;flex:0 0 auto;max-width:320px}
 header #findBtn:hover{background:rgba(255,255,255,.18)}
@@ -502,9 +489,20 @@ nav.main .nav-div{width:1px;height:16px;background:rgba(255,255,255,.22);margin:
 .ansz{border:1px solid var(--line);border-radius:var(--r-card);background:#f8f9fa;padding:14px;margin-bottom:18px}
 .anshd{display:flex;align-items:center;gap:var(--s-2);font-size:var(--t-meta);font-weight:var(--w-semi);color:var(--navy);flex-wrap:wrap}
 .anshd .sp{font-size:var(--t-meta)}
-.askbadge2{font-size:var(--t-label);letter-spacing:.04em;text-transform:uppercase;background:var(--soon-bg);color:var(--soon-tx);border-radius:var(--r-pill);padding:2px 9px;font-weight:var(--w-semi)}
 .ansbody{margin-top:10px}
-.anssoon{font-size:var(--t-meta);color:#41505f;margin:0 0 12px}
+/* "Where to start": the best-matching module, in the sheet's own words. */
+.wherecard{display:block;background:var(--white);border:1px solid var(--line);border-radius:var(--r-ctl);padding:12px 13px;text-decoration:none}
+.wherecard:hover{border-color:var(--navy)}
+.wheresec{display:block;font-size:var(--t-label);letter-spacing:.08em;text-transform:uppercase;color:var(--orange-d);font-weight:var(--w-semi);margin-bottom:3px}
+.wheremod{display:block;font-size:var(--t-heading);font-weight:var(--w-semi);color:var(--navy);line-height:1.3}
+.wheremod .arr{color:var(--gray);font-weight:var(--w-body)}
+.whereintro{display:block;margin-top:7px;font-size:var(--t-meta);color:#41505f;line-height:1.5}
+.wherealso{margin-top:9px;font-size:var(--t-label);color:var(--muted)}
+.wherealso a{color:var(--navy);text-decoration:none;border-bottom:1px solid var(--line)}
+.wherealso a:hover{border-bottom-color:var(--navy)}
+/* Why a result matched: the resource's own line, with the words marked. */
+.mrsnip{display:block;margin-top:5px;font-size:var(--t-label);color:var(--muted);line-height:1.5}
+.mrsnip mark{background:rgba(237,143,71,.26);color:inherit;padding:0 1px;border-radius:2px}
 .matchhd{font-size:var(--t-label);letter-spacing:.1em;text-transform:uppercase;color:var(--muted);font-weight:var(--w-semi);margin-bottom:10px}
 .matchhd .mcount{color:var(--muted);font-weight:var(--w-semi);letter-spacing:0}
 .matchhint{font-size:var(--t-meta);color:var(--muted);padding:6px 0}
@@ -623,8 +621,8 @@ nav.main .nav-div{width:1px;height:16px;background:rgba(255,255,255,.22);margin:
       <div class="findbar"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4-4"/></svg><input id="findInput" type="text" autocomplete="off" placeholder="Search or ask a question" aria-label="Search or ask a question"/></div>
     </div>
     <div class="askbody">
-      <section class="ansz" aria-label="Answer">
-        <div class="anshd"><span class="sp">&#10024;</span> Ask the Resources <span class="askbadge2">Experimental &middot; coming soon</span></div>
+      <section class="ansz" id="ansCard" aria-label="Where to start" hidden>
+        <div class="anshd"><span class="sp">&#10024;</span> Where to start</div>
         <div class="ansbody" id="ansBody"></div>
       </section>
       <section class="matchz" aria-label="Matching resources">
@@ -1178,59 +1176,337 @@ document.addEventListener('click',e=>{
  if(nv)navigate(nv);
 });
 document.getElementById('demoToggle')?.addEventListener('click',()=>togglePanel());
-/* ---- combined search + ask ---- */
-const AI_ANSWERS=false; // flip to true when the retrieval bot is live
-// Punctuation is stripped from both the query and the text, so "co-planning",
-// "coplanning" and "co planning" all find the same thing. Not an edge case here:
-// the flagship practice is hyphenated, and "coplanning" used to return nothing
-// at all.
-function searchNorm(s){
- return String(s==null?'':Array.isArray(s)?s.join(' '):s).toLowerCase().replace(/[^a-z0-9\s]+/g,'');
+/* ---- search ----------------------------------------------------------------
+   Ranked retrieval (BM25F) over the published library, built once at load and
+   run entirely in the browser. It costs nothing, answers instantly, is offline
+   after first load, and cannot invent a resource that does not exist.
+
+   What it replaced: a strict-AND keyword filter, which meant every word of a
+   query had to appear in one resource. That is fine for "repeated reading" and
+   useless for "how do I start co-planning with a new co-teacher?" — which
+   needed a resource containing "how" AND "do" AND "i". Measured against 32 real
+   practitioner queries, 18 returned nothing; 17 of the 18 were questions, and
+   every keyword query already worked. The box says "Search or ask a question",
+   so the questions are not an edge case.
+   tools/search-eval.mjs holds that measurement and runs in CI. ------------- */
+
+/* Function words and question scaffolding. */
+const SEARCH_STOP=new Set(('a an the this that these those there here of to for on in at with within without and or but if as by from into about over under across '+
+'how do does did done doing i we you he she they it its im ive id what which who whom whose when where why whether '+
+'is are am was were be been being can could should would will shall may might must have has had not no nor '+
+'any some more most much many very just also too so than then our your their my me us them her his '+
+'please thing things stuff want wants need needs looking look around other same anything something getting '+
+'know help kids way ways good best better great really actually usually often sure able lot').split(/\s+/));
+
+/* What a practitioner types -> what this library calls it. The highest-leverage
+   piece of the search, and deliberately a hand-built domain table rather than
+   anything statistical: the gap is almost never spelling, it is that a teacher
+   says "co-teacher" and the sheet says "co-planning", or says "below grade
+   level" and the sheet says "fluency". Longest keys match first, so a phrase
+   beats its parts. Synonyms ADD to a query and never replace it, so a word the
+   visitor actually typed always outranks one we inferred. */
+const SEARCH_SYN={
+ 'co teacher':'co planning collaboration','coteacher':'co planning collaboration',
+ 'co teaching':'co planning collaboration','coteaching':'co planning collaboration',
+ 'team teaching':'co planning collaboration','inclusion':'co planning collaboration',
+ 'general education':'co planning collaboration','gen ed':'co planning collaboration',
+ 'planning time':'enabling conditions planning time','common planning':'enabling conditions planning time',
+ 'master schedule':'enabling conditions schedule','schedule':'enabling conditions schedule',
+ 'scheduling':'enabling conditions schedule','stalls':'common pitfalls barriers',
+ 'getting started':'getting started','get started':'getting started','new to':'getting started overview',
+ 'first meeting':'kickoff agenda getting started','kickoff':'kickoff agenda',
+ 'roll out':'leading implementation launch','rolling out':'leading implementation launch',
+ 'launch':'leading implementation launch getting started',
+ 'below grade level':'repeated reading fluency','behind in reading':'repeated reading fluency',
+ 'struggling reader':'repeated reading fluency','struggling readers':'repeated reading fluency',
+ 'low readers':'repeated reading fluency','reluctant readers':'repeated reading fluency',
+ 'fluently':'fluency','fluent':'fluency','fluancy':'fluency','decoding':'fluency reading',
+ 'oral reading':'fluency repeated reading','reading intervention':'repeated reading fluency intervention',
+ 'high schoolers':'secondary','high school':'secondary','middle school':'secondary',
+ 'iep':'disabilities special education','ieps':'disabilities special education',
+ 'special education':'disabilities special education','sped':'disabilities special education',
+ 'students with disabilities':'disabilities','swd':'disabilities','disability':'disabilities',
+ 'accommodations':'disabilities differentiated','differentiation':'differentiated instruction',
+ 'small group':'differentiated instruction group','small groups':'differentiated instruction group',
+ 'mtss':'mtss multi tiered intervention data','rti':'mtss intervention data',
+ 'multi tiered':'mtss multi tiered intervention','intervention':'intervention mtss data',
+ 'interventions':'intervention mtss data','data meeting':'routine data cycles',
+ 'data meetings':'routine data cycles','data day':'routine data cycles',
+ 'data dive':'routine data cycles','data cycle':'routine data cycles',
+ 'assessment':'assessment data','assessments':'assessment data',
+ 'college':'postsecondary college career','career':'postsecondary college career',
+ 'graduation':'postsecondary graduation','graduation rates':'postsecondary graduation',
+ 'post secondary':'postsecondary','ready for college':'postsecondary college career',
+ 'sel':'emotional support social emotional','social emotional':'emotional support',
+ 'emotionally':'emotional support','emotional':'emotional support',
+ 'mental health':'emotional support','belonging':'emotional support','behavior':'emotional support',
+ 'principal':'leading implementation leaders','principals':'leading implementation leaders',
+ 'administrator':'leading implementation leaders','admin':'leading implementation leaders',
+ 'school leader':'leading implementation leaders','school leaders':'leading implementation leaders',
+ 'leadership':'leading implementation leaders',
+ 'professional development':'training deck','pd':'training deck','training':'training deck',
+ 'workshop':'training deck','instructional coach':'coaching','coach':'coaching','coaches':'coaching',
+ 'research':'evidence research publication','evidence':'evidence research publication',
+ 'study':'evidence research publication','studies':'evidence research publication',
+ 'results':'evidence impact outcomes','outcomes':'evidence impact outcomes',
+ 'proof':'evidence impact outcomes','does it work':'evidence impact outcomes',
+ 'actually works':'evidence impact outcomes','is working':'coaching progress monitoring',
+ 'it working':'coaching progress monitoring','monitor':'coaching progress monitoring',
+ 'monitoring':'coaching progress monitoring','track':'coaching progress monitoring',
+ 'goes wrong':'common pitfalls barriers','go wrong':'common pitfalls barriers',
+ 'problems':'common pitfalls barriers','problem':'common pitfalls barriers',
+ 'challenges':'common pitfalls barriers','challenge':'common pitfalls barriers',
+ 'barriers':'common pitfalls barriers','mistakes':'common pitfalls barriers',
+ 'pitfalls':'common pitfalls barriers','not working':'common pitfalls barriers',
+ 'agenda':'agenda protocol','protocol':'agenda protocol','template':'template tool',
+ 'checklist':'tool checklist','self assessment':'self assessment tool','rubric':'rubric criteria',
+ 'video':'video','deck':'deck training','slides':'deck training'
+};
+
+function sNorm(s){return String(s==null?'':Array.isArray(s)?s.join(' '):s).toLowerCase().replace(/[^a-z0-9\s]+/g,' ').replace(/\s+/g,' ').trim();}
+/* The old search deleted punctuation rather than replacing it with a space,
+   which is the only reason "coplanning" ever matched "co-planning". Keeping a
+   squashed copy of every hyphenated word preserves that instead of trading one
+   working query for another. */
+function sSquash(s){return String(s==null?'':Array.isArray(s)?s.join(' '):s).toLowerCase().replace(/[^a-z0-9\s]+/g,'');}
+/* Light suffix stripping so "planning" and "plan" land on one token. Linguistic
+   correctness matters less than applying the same rule to query and index. */
+function sStem(w){
+ if(w.length<4)return w;
+ if(/ss$/.test(w))return w;
+ w=w.replace(/ies$/,'y').replace(/s$/,'');
+ w=w.replace(/ing$/,'').replace(/ed$/,'');
+ return w.replace(/([^aeiou])\1$/,'$1');
 }
-function searchResources(q){
- q=searchNorm(q).trim(); if(!q) return [];
- const terms=q.split(/\s+/);
- return state.map(r=>{
-   // body, why and quote carry the narrative, the "why it works" bullets and the
-   // field outcomes — which is where the school names, the percentages and terms
-   // like IEP and mastery actually live. Leaving them out meant all four schools
-   // named on the homepage proof band returned nothing when searched, though
-   // eight resources mention them.
-   const title=searchNorm(r.title);
-   const hay=[title,r.summary,r.section,r.module,r.format,r.who_for,r.practice,
-              r.body,r.why,r.quote].map(searchNorm).join(' ');
-   let score=0; for(const t of terms){ if(hay.includes(t)) score++; if(title.includes(t)) score++; }
-   // Terms match as substrings, which is what makes "plan" find "planning" — but
-   // it also let "pass" match "Passages" in a title and outrank the resource
-   // whose quote literally reads "the course pass rate increased from 79% to
-   // 97%". A whole-phrase hit is a much stronger signal than two loose ones, so
-   // it is weighted above any combination of single terms.
-   if(terms.length>1){ if(hay.includes(q)) score+=3; if(title.includes(q)) score+=3; }
-   return {r,score,all:terms.every(t=>hay.includes(t))};
- }).filter(x=>x.all).sort((a,b)=>((b.r.published?1:0)-(a.r.published?1:0))||(b.score-a.score)).map(x=>x.r);
+function sToks(s){return sNorm(s).split(' ').filter(Boolean);}
+function sContent(ws){return ws.filter(w=>!SEARCH_STOP.has(w)&&w.length>1);}
+function sFieldToks(v){
+ const out=sContent(sToks(v)).map(sStem);
+ const raw=String(v==null?'':Array.isArray(v)?v.join(' '):v).toLowerCase();
+ for(const m of raw.match(/[a-z0-9]+(?:[-'][a-z0-9]+)+/g)||[]){
+  const sq=sSquash(m); if(sq.length>3)out.push(sStem(sq));
+ }
+ return out;
 }
+/* Where a term appears matters more than how often it appears. */
+const S_FIELDS=[['title',6],['module',4],['section',4],['format',2],['summary',2],['body',1],['why',1],['quote',1]];
+const S_K1=1.4, S_B=0.72;   /* BM25 saturation and length normalisation */
+
+function sDoc(get){
+ const wf=new Map(); let dl=0;
+ for(const [f,w] of S_FIELDS){
+  const ts=sFieldToks(get(f)); dl+=w*ts.length;
+  for(const t of ts) wf.set(t,(wf.get(t)||0)+w);
+ }
+ return {wf,dl};
+}
+
+let SIDX=null;
+function buildSearchIndex(){
+ const resources=DATA.resources, sections=DATA.sections||[];
+ /* The site already ranks its own sections: the IGNITE practice toolkits carry
+    the top nav, the Research-to-Impact Library is cross-cutting background.
+    Search honours the same hierarchy — without it the Library wins almost every
+    query, because its rows are the ones carrying body/why/quote text and so
+    out-match the flagship toolkits on sheer word count. */
+ const flagship=new Set(sections.filter(s=>s.homepage).map(s=>s.name));
+ const docs=resources.map(r=>{
+  const {wf,dl}=sDoc(f=>r[f]);
+  return {r,wf,dl,hay:S_FIELDS.map(([f])=>sNorm(r[f])).join(' '),title:sNorm(r.title)};
+ });
+ const df=new Map();
+ for(const d of docs) for(const k of d.wf.keys()) df.set(k,(df.get(k)||0)+1);
+ const N=docs.length||1;
+ const avgdl=docs.reduce((a,d)=>a+d.dl,0)/N||1;
+ const idf=k=>Math.log(1+(N-(df.get(k)||0)+0.5)/((df.get(k)||0)+0.5));
+ /* Modules are destinations in their own right: "how do I get started with
+    repeated reading" is asking for a page, not a file. */
+ const mods=[];
+ for(const s of sections) for(const m of (s.modules||[])){
+  const f={title:m.name,module:m.name,section:s.name,format:'',summary:m.intro||'',body:'',why:'',quote:''};
+  const {wf,dl}=sDoc(k=>f[k]);
+  mods.push({section:s.name,module:m.name,intro:m.intro||'',wf,dl,hay:sNorm(m.name)+' '+sNorm(s.name)+' '+sNorm(m.intro)});
+ }
+ const names=[];
+ for(const s of sections){
+  names.push({section:s.name,text:sNorm(s.name),sq:sSquash(s.name)});
+  for(const m of (s.modules||[])) names.push({section:s.name,module:m.name,text:sNorm(m.name),sq:sSquash(m.name)});
+ }
+ SIDX={docs,mods,idf,vocab:new Set(df.keys()),avgdl,names,flagship,
+       secTokens:sections.map(s=>[s.name,[...new Set(sFieldToks(s.name))]])};
+ return SIDX;
+}
+
+function sLev1(a,b){
+ if(Math.abs(a.length-b.length)>1)return false;
+ let i=0,j=0,e=0;
+ while(i<a.length&&j<b.length){
+  if(a[i]===b[j]){i++;j++;continue;}
+  if(++e>1)return false;
+  if(a.length>b.length)i++; else if(b.length>a.length)j++; else {i++;j++;}
+ }
+ return e+(a.length-i)+(b.length-j)<=1;
+}
+function sExpand(q,vocab){
+ const s=' '+sNorm(q)+' ', extra=[];
+ for(const k of Object.keys(SEARCH_SYN).sort((a,b)=>b.length-a.length)){
+  if(s.includes(' '+k+' ')) extra.push(...sToks(SEARCH_SYN[k]));
+ }
+ const terms=new Map();
+ for(const w of sContent(sToks(s))){
+  terms.set(sStem(w),1);
+  const sq=sSquash(w); if(sq!==w&&sq.length>3) terms.set(sStem(sq),1);
+ }
+ const sq=sSquash(q);
+ if(sq.length>3&&vocab&&vocab.has(sStem(sq))) terms.set(sStem(sq),1);
+ for(const w of sContent(extra)){ const k=sStem(w); if(!terms.has(k)) terms.set(k,0.55); }
+ /* Spelling rescue, only for a word the library has never seen — so a real word
+    is never quietly swapped for a different real word. */
+ if(vocab) for(const [k,w] of [...terms]){
+  if(w===1&&k.length>=5&&!vocab.has(k)){
+   for(const v of vocab) if(sLev1(k,v)){ terms.delete(k); terms.set(v,0.9); break; }
+  }
+ }
+ return terms;
+}
+function sBm25(wf,dl,terms,idf,avgdl,hay,phrase,title){
+ let sc=0,hit=0;
+ for(const [k,w] of terms){
+  const f=wf.get(k); if(!f)continue;
+  sc+=w*idf(k)*(f*(S_K1+1))/(f+S_K1*(1-S_B+S_B*dl/avgdl));
+  if(w===1)hit++;
+ }
+ if(!sc)return{sc:0,hit:0};
+ if(phrase.length>3){
+  if(title&&title.includes(phrase))sc*=2.4;
+  else if(hay.includes(phrase))sc*=1.35;
+ }
+ return {sc,hit};
+}
+function searchAll(q){
+ const idx=SIDX||buildSearchIndex();
+ const phrase=sNorm(q), sqq=sSquash(q);
+ const terms=sExpand(q,idx.vocab);
+ if(!terms.size)return{resources:[],modules:[],terms};
+ const literal=[...terms.values()].filter(v=>v===1).length;
+ /* The site's own taxonomy is the strongest signal it has: someone typing a
+    section or module name is not guessing. */
+ const named=idx.names.filter(n=>n.text&&(phrase.includes(n.text)||(n.sq.length>4&&sqq.includes(n.sq))));
+ const namedSec=new Set(named.map(n=>n.section));
+ const namedMod=new Set(named.filter(n=>n.module).map(n=>n.section+'|'+n.module));
+ /* Partial credit where a query half-matches a section's own name: "proof this
+    actually works" expands to evidence+impact, which is the name of the section
+    holding exactly that. The exact-phrase rule misses it, the words arriving
+    separately. */
+ const secHit=new Map();
+ for(const [name,tk] of idx.secTokens){
+  if(!tk.length)continue;
+  const got=tk.filter(t=>terms.has(t)).length;
+  if(got)secHit.set(name,1+0.55*(got/tk.length));
+ }
+ let rs=idx.docs.map(d=>{
+  const b=sBm25(d.wf,d.dl,terms,idx.idf,idx.avgdl,d.hay,phrase,d.title);
+  if(b.sc){
+   if(namedSec.has(d.r.section))b.sc*=2.6;
+   if(namedMod.has(d.r.section+'|'+d.r.module))b.sc*=1.6;
+   if(idx.flagship.has(d.r.section))b.sc*=1.45;
+   if(secHit.has(d.r.section))b.sc*=secHit.get(d.r.section);
+  }
+  return {r:d.r,...b};
+ }).filter(x=>x.sc>0);
+ /* Coverage: at least half the words the visitor actually typed must land.
+    Far looser than the old strict AND — which is why a question can no longer
+    return nothing — but tight enough that one incidental word cannot drag in a
+    third of the library. */
+ if(literal>=2){
+  const need=Math.max(1,Math.ceil(literal*0.5));
+  const kept=rs.filter(x=>x.hit>=need);
+  if(kept.length>=3)rs=kept;
+ }
+ if(rs.length){
+  const top=Math.max(...rs.map(x=>x.sc));
+  rs=rs.filter(x=>x.sc>=top*(literal>=3?0.34:0.3));
+ }
+ rs.sort((a,b)=>((b.r.published?1:0)-(a.r.published?1:0))||(b.sc-a.sc));
+ let ms=idx.mods.map(m=>{
+  const b=sBm25(m.wf,m.dl,terms,idx.idf,idx.avgdl,m.hay,phrase,sNorm(m.module));
+  if(b.sc){
+   if(namedSec.has(m.section))b.sc*=2.2;
+   if(idx.flagship.has(m.section))b.sc*=1.45;
+   if(secHit.has(m.section))b.sc*=secHit.get(m.section);
+  }
+  return {m,...b};
+ }).filter(x=>x.sc>0).sort((a,b)=>b.sc-a.sc);
+ if(ms.length){ const top=ms[0].sc; ms=ms.filter(x=>x.sc>=top*0.6).slice(0,3); }
+ return {resources:rs.map(x=>x.r),modules:ms.map(x=>x.m),terms};
+}
+/* Kept for the live-edit panel and anything else expecting the old shape. */
+function searchResources(q){return searchAll(q).resources;}
+
+/* A line of the resource's own words with the matched terms marked, so a result
+   explains itself instead of asking the reader to take it on trust. Built by
+   walking words rather than character offsets, because normalising for the
+   match would shift every position in the raw string. */
+function matchSnippet(r,terms){
+ const src=String(r.summary||'').trim()||String(r.body||'').trim();
+ if(!src)return '';
+ const parts=src.split(/(\s+)/);
+ let hit=-1;
+ for(let i=0;i<parts.length;i++){
+  const w=sStem(sNorm(parts[i]));
+  if(w&&terms.has(w)&&terms.get(w)===1){hit=i;break;}
+ }
+ if(hit<0)return '';
+ const start=Math.max(0,hit-14), end=Math.min(parts.length,hit+30);
+ const out=parts.slice(start,end).map(p=>{
+  const w=sStem(sNorm(p));
+  return (w&&terms.has(w))?'<mark>'+esc(p)+'</mark>':esc(p);
+ }).join('');
+ return (start>0?'&hellip;':'')+out+(end<parts.length?'&hellip;':'');
+}
+
 function runSearch(q){
  const list=document.getElementById('matchList'), count=document.getElementById('matchCount');
- if(!(q||'').trim()){ list.innerHTML='<div class="matchhint">Start typing to search every guide, template, and tool on the site.</div>'; count.textContent=''; return; }
- const res=searchResources(q);
+ if(!(q||'').trim()){
+  list.innerHTML='<div class="matchhint">Start typing to search every guide, template, and tool on the site &mdash; or ask a question in your own words.</div>';
+  count.textContent=''; renderWhere(null); return;
+ }
+ const {resources:res,modules:mods,terms}=searchAll(q);
+ renderWhere(mods.length?{mods,terms}:null);
  count.textContent=res.length?`(${res.length})`:'';
- if(!res.length){ list.innerHTML='<div class="matchhint">No matching resources yet. Try a practice name, format, or topic.</div>'; return; }
- const CAP=40;
- const more=res.length>CAP?`<div class="matchhint">Showing the first ${CAP} of ${res.length}. Add a word to narrow it.</div>`:'';
- list.innerHTML=more+res.slice(0,CAP).map(r=>`<a class="matchrow ${r.published?'':'soon'}" href="#" data-go="module:${r.section}|${r.module}">${icon(r.format,16)}<span class="mrtxt"><span class="mrtitle">${esc(r.title)}</span><span class="mrmeta">${esc(r.section)} &middot; ${esc(r.module)} &middot; ${esc(r.format)}</span></span><span class="dot ${r.published?'ok':'soon'}" title="${r.published?'Available':'Coming soon'}"></span></a>`).join('');
+ if(!res.length){ list.innerHTML='<div class="matchhint">Nothing matched that. Try a practice name, a format, or fewer words.</div>'; return; }
+ const CAP=25;
+ const more=res.length>CAP?`<div class="matchhint">Showing the ${CAP} closest of ${res.length}. Add a word to narrow it.</div>`:'';
+ list.innerHTML=more+res.slice(0,CAP).map(r=>{
+  const sn=matchSnippet(r,terms);
+  return `<a class="matchrow ${r.published?'':'soon'}" href="#" data-go="module:${escAttr(r.section)}|${escAttr(r.module)}">${icon(r.format,16)}<span class="mrtxt"><span class="mrtitle">${esc(r.title)}</span><span class="mrmeta">${esc(r.section)} &middot; ${esc(r.module)} &middot; ${esc(r.format)}</span>${sn?`<span class="mrsnip">${sn}</span>`:''}</span><span class="dot ${r.published?'ok':'soon'}" title="${r.published?'Available':'Coming soon'}"></span></a>`;
+ }).join('');
 }
-function renderAnswer(q){
- const b=document.getElementById('ansBody');
- if(AI_ANSWERS){ b.innerHTML='<div class="ansreal" id="ansReal"></div>'; /* future: call retrieval bot with q and render answer + source here */ return; }
- b.innerHTML=`<p class="anssoon">A short answer drawn only from the resources on this site, with a link to the source, is on the way. Search results below are live now.</p>
- <p class="exlabel">Example of how an answer will look</p>
- <div class="bub u">How do I start co-planning with a new co-teacher?</div>
- <div class="bub a">Start with the enabling conditions: shared planning time, clear roles, and a routine you both agree to. The Enabling Conditions guide walks through each one and includes a first-meeting agenda.<span class="cite">Source: Co-Planning &middot; Enabling Conditions</span></div>`;
+
+/* "Where to start" — the panel's answer to a question. It is the best-matching
+   module, shown in Marshall's own words: the module intro straight from the
+   sheet, not a paraphrase of it. Nothing is generated, so there is nothing to
+   get wrong, and the reader gets the sentence a model would have been
+   rewriting anyway. */
+function renderWhere(d){
+ const card=document.getElementById('ansCard'), b=document.getElementById('ansBody');
+ if(!d||!d.mods.length){ card.hidden=true; b.innerHTML=''; return; }
+ card.hidden=false;
+ const top=d.mods[0];
+ const intro=String(top.intro||'').trim();
+ const rest=d.mods.slice(1);
+ b.innerHTML=`<a class="wherecard" href="#" data-go="module:${escAttr(top.section)}|${escAttr(top.module)}">`
+  +`<span class="wheresec">${esc(top.section)}</span>`
+  +`<span class="wheremod">${esc(top.module)} <span class="arr">&rarr;</span></span>`
+  +(intro?`<span class="whereintro">${esc(intro.length>260?intro.slice(0,257).replace(/\s+\S*$/,'')+'…':intro)}</span>`:'')
+  +`</a>`
+  +(rest.length?`<div class="wherealso">Also: ${rest.map(m=>`<a href="#" data-go="module:${escAttr(m.section)}|${escAttr(m.module)}">${esc(m.module)}</a>`).join(' &middot; ')}</div>`:'');
 }
+
 const askWrap=document.getElementById('askWrap');
 const findInputEl=document.getElementById('findInput');
-function askOpen(o){askWrap.classList.toggle('open',o);askWrap.setAttribute('aria-hidden',o?'false':'true');if(o){renderAnswer(findInputEl.value);runSearch(findInputEl.value);setTimeout(()=>findInputEl.focus(),60);}}
-findInputEl.addEventListener('input',()=>{renderAnswer(findInputEl.value);runSearch(findInputEl.value);});
+function askOpen(o){askWrap.classList.toggle('open',o);askWrap.setAttribute('aria-hidden',o?'false':'true');if(o){runSearch(findInputEl.value);setTimeout(()=>findInputEl.focus(),60);}}
+findInputEl.addEventListener('input',()=>{runSearch(findInputEl.value);});
 document.getElementById('findBtn').addEventListener('click',()=>askOpen(true));
 document.addEventListener('click',e=>{
  if(e.target.closest('[data-ask-close]')){askOpen(false);return;}

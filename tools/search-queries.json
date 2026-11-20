@@ -1,0 +1,208 @@
+{
+ "tune": [
+  {
+   "q": "How do I start co-planning with a new co-teacher?",
+   "section": "Co-Planning",
+   "module": "Getting Started"
+  },
+  {
+   "q": "What do I need in place before we start co-planning?",
+   "section": "Co-Planning",
+   "module": "Enabling Conditions"
+  },
+  {
+   "q": "how do I get started with repeated reading",
+   "section": "Repeated Reading",
+   "module": "Getting Started"
+  },
+  {
+   "q": "how can I help my students read more fluently",
+   "sections": [
+    "Repeated Reading",
+    "Research-to-Impact Library"
+   ]
+  },
+  {
+   "q": "my students are reading below grade level",
+   "sections": [
+    "Repeated Reading",
+    "Research-to-Impact Library"
+   ],
+   "label_note": "same resource; Secondary Literacy is a defensible home for it"
+  },
+  {
+   "q": "what usually goes wrong with repeated reading",
+   "section": "Repeated Reading",
+   "module": "Common Pitfalls & Barriers"
+  },
+  {
+   "q": "how often should our team look at student data",
+   "section": "Routine Data Cycles"
+  },
+  {
+   "q": "what does the research say about this",
+   "section": "Evidence & Impact"
+  },
+  {
+   "q": "is there anything on small group instruction",
+   "sections": [
+    "Co-Planning",
+    "Research-to-Impact Library"
+   ]
+  },
+  {
+   "q": "what is a data cycle",
+   "section": "Routine Data Cycles"
+  },
+  {
+   "q": "what is there about getting students ready for college",
+   "section": "Research-to-Impact Library",
+   "module": "Postsecondary"
+  },
+  {
+   "q": "do you have training for school leaders",
+   "sections": [
+    "Leading Implementation",
+    "Co-Planning",
+    "Routine Data Cycles"
+   ],
+   "label_note": "top hit is \"Training Deck - For Leaders: Enabling Conditions\"; the training decks live inside each practice, not only in Leading Implementation"
+  },
+  {
+   "q": "how do I set up a schedule for co-planning",
+   "section": "Co-Planning",
+   "module": "Enabling Conditions"
+  },
+  {
+   "q": "what should a first co-planning meeting look like",
+   "section": "Co-Planning"
+  },
+  {
+   "q": "co-planning",
+   "section": "Co-Planning"
+  },
+  {
+   "q": "repeated reading",
+   "section": "Repeated Reading"
+  },
+  {
+   "q": "enabling conditions",
+   "module": "Enabling Conditions"
+  },
+  {
+   "q": "fluency",
+   "section": "Repeated Reading"
+  },
+  {
+   "q": "MTSS",
+   "section": "Research-to-Impact Library",
+   "module": "Data for MTSS"
+  },
+  {
+   "q": "co-teaching",
+   "sections": [
+    "Co-Planning",
+    "Research-to-Impact Library"
+   ],
+   "label_note": "top resource is titled \"Achieving High-Impact Co-Teaching\"; the module cards returned are all Co-Planning, so the panel leads with the practice"
+  },
+  {
+   "q": "postsecondary",
+   "section": "Research-to-Impact Library",
+   "module": "Postsecondary"
+  },
+  {
+   "q": "coplanning",
+   "section": "Co-Planning"
+  },
+  {
+   "q": "co planning",
+   "section": "Co-Planning"
+  },
+  {
+   "q": "fluancy",
+   "section": "Repeated Reading"
+  },
+  {
+   "q": "data cycles",
+   "section": "Routine Data Cycles"
+  }
+ ],
+ "holdout": [
+  {
+   "q": "how do I run a data meeting with my team",
+   "section": "Routine Data Cycles"
+  },
+  {
+   "q": "what should I do when co-planning stalls",
+   "section": "Co-Planning",
+   "module": "Common Pitfalls & Barriers"
+  },
+  {
+   "q": "is there proof this actually works",
+   "section": "Evidence & Impact"
+  },
+  {
+   "q": "I need a protocol for our planning meetings",
+   "section": "Co-Planning"
+  },
+  {
+   "q": "anything for a principal rolling this out",
+   "section": "Leading Implementation"
+  },
+  {
+   "q": "how do I monitor whether teachers are using it",
+   "module": "Coaching & Progress Monitoring"
+  },
+  {
+   "q": "students who need social emotional support",
+   "section": "Research-to-Impact Library",
+   "module": "Emotional Support"
+  },
+  {
+   "q": "reading intervention for high schoolers",
+   "sections": [
+    "Repeated Reading",
+    "Research-to-Impact Library"
+   ],
+   "label_note": "top hit is \"Repeated Reading: Building Oral Reading Fluency in Secondary Readers\" - right content, filed under Secondary Literacy"
+  },
+  {
+   "q": "what conditions make repeated reading work",
+   "section": "Repeated Reading",
+   "module": "Enabling Conditions"
+  },
+  {
+   "q": "video introduction to routine data cycles",
+   "section": "Routine Data Cycles"
+  },
+  {
+   "q": "self assessment tool",
+   "sections": [
+    "Co-Planning",
+    "Repeated Reading",
+    "Routine Data Cycles"
+   ]
+  },
+  {
+   "q": "graduation rates",
+   "section": "Research-to-Impact Library",
+   "module": "Postsecondary"
+  },
+  {
+   "q": "supporting students with disabilities in class",
+   "sections": [
+    "Co-Planning",
+    "Research-to-Impact Library"
+   ]
+  },
+  {
+   "q": "kickoff agenda",
+   "section": "Co-Planning"
+  },
+  {
+   "q": "multi tiered systems of support",
+   "module": "Data for MTSS"
+  }
+ ]
+}

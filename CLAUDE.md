@@ -20,21 +20,26 @@ SEO into `template.html` → writes `dist/index.html` → **Netlify auto-deploys
   from them with no network. CI builds strict from fixtures.
 - **`docs/`** — `editor-guide.md`, `sheet-guardrails.md`, `file-hosting.md`, `dashboard.md`,
   `sheet-sync.md`, `sheet-bridge.md`, `sheet-diff.md`, `design-plan.md`, `build-day.md`,
+  `search.md`,
   `getting-claude-set-up.md`, `colab-migration.md`, `aaae-public-goods-crosswalk.md`.
   **`docs/apps-script/`** holds the container-bound scripts: `PublishFiles.gs` (builds the
   Files manifest) and `Guardrails.gs` (dropdowns + conditional formatting), both surfaced
   via an **"R2I" menu** in the sheet whose top item, **Update everything**, runs both; plus
   `Bridge.gs`, the write bridge (below), which has no menu item.
 - **`tools/`** — `sheet.js` (bridge client), `publish.sh` (triggers the rebuild workflow),
-  `preview.js`, `punchlist.js`, `accesscheck.sh`.
+  `preview.js`, `punchlist.js`, `accesscheck.sh`, `search-eval.mjs` (+ `search-queries.json`,
+  the labelled query set).
 
 ## Build / test locally
 
 ```
 SHEET_SOURCE=local STRICT=1 node build.js   # build from fixtures, strict (what CI runs)
+node tools/search-eval.mjs                  # search invariant (also CI; any build)
+node build.js && node tools/search-eval.mjs --score --verbose   # ranking floors (LIVE build)
 ```
 
-CI (`.github/workflows/ci.yml`) runs this and smoke-checks the rendered page on every push/PR.
+CI (`.github/workflows/ci.yml`) runs the first two and smoke-checks the rendered page on
+every push/PR. The repo has **no dependencies** — build and tools are Node stdlib only.
 
 ## Deploys
 
@@ -99,6 +104,20 @@ contains one.
   opening in a new tab and only one link ever warned. On failure the original value is left
   alone and the build warns, naming the URL. The lookup only fires for links that need it, so
   a fixtures build makes no network calls; a live build costs a few seconds.
+- **Search is ranked retrieval (BM25F) in the browser** — no server, no API, no cost,
+  nothing that can be down, and it cannot invent a resource. It replaced a strict-AND
+  keyword filter that returned **nothing for 17 of 18 natural-language questions** while
+  answering every keyword query perfectly — invisible from the outside, because the
+  queries a maintainer types are the ones that worked. Four things carry it: BM25F with
+  field weights (**length normalisation is load-bearing** — the Library rows carry
+  `body`/`why`/`quote` and otherwise win everything on word count), a hand-built
+  `SEARCH_SYN` vocabulary table (**start here** for any "it didn't find X"), the site's
+  own section/module names, and homepage tier. **Synonyms add, never replace** — removing
+  the matched phrase demoted the visitor's own words. The panel's "Where to start" card
+  shows the best-matching module's intro **straight from the sheet**, not a paraphrase.
+  `tools/search-eval.mjs` holds 40 labelled queries with a never-tuned-on holdout split;
+  CI runs the content-independent invariant, ranking floors need a live build and
+  `--score`. See `docs/search.md`.
 - **Gated email ask**: `gated=TRUE` shows a skippable HubSpot email prompt (a harmless
   placeholder until `hubspot_portal_id` / `hubspot_form_id` are set on the Site tab).
 - **Lists tab + guardrails**: the `Lists` tab centralizes every dropdown's values; `Guardrails.gs`
