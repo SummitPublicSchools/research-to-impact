@@ -491,14 +491,39 @@ a.pfact:hover .pgo{transform:translateX(2px)}
 /* Save (star) and Opened marks — personal, kept in this browser only. */
 .savebtn{display:inline-flex;align-items:center;gap:6px;background:transparent;border:1px solid var(--line);border-radius:var(--r-ctl);padding:7px 11px;font-family:inherit;font-size:var(--t-meta);font-weight:var(--w-semi);color:var(--navy);cursor:pointer}
 .savebtn:hover{border-color:var(--navy)}
-.savebtn:focus-visible,.openedmark:focus-visible,header #savedBtn:focus-visible{outline:2px solid var(--blue);outline-offset:2px}
+.savebtn:focus-visible,.sharebtn:focus-visible,header #savedBtn:focus-visible{outline:2px solid var(--blue);outline-offset:2px}
 .savebtn svg{fill:none;stroke:currentColor;flex:none}
 .savebtn[aria-pressed="true"] svg{fill:var(--orange);stroke:var(--orange)}
 .morerow .savebtn{padding:5px 8px}
 .morerow .savebtn .stxt{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
-.openedmark{display:inline-flex;align-items:center;gap:5px;background:#e3f3ec;color:#1d6a4d;border:0;border-radius:var(--r-pill);padding:3px 10px;font-family:inherit;font-size:var(--t-label);font-weight:var(--w-semi);cursor:pointer}
-.openedmark[hidden]{display:none}
-.openedmark:hover{background:#d2ebe0}
+.sharebtn{display:inline-flex;align-items:center;gap:6px;background:transparent;border:1px solid var(--line);border-radius:var(--r-ctl);padding:7px 11px;font-family:inherit;font-size:var(--t-meta);font-weight:var(--w-semi);color:var(--navy);cursor:pointer}
+.sharebtn:hover{border-color:var(--navy)}
+.sharebtn svg{flex:none}
+.morerow .sharebtn{padding:5px 8px}
+.morerow .sharebtn .stxt{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+.donebox{display:inline-flex;align-items:center;gap:7px;border:1px solid var(--line);border-radius:var(--r-ctl);padding:7px 11px;font-size:var(--t-meta);font-weight:var(--w-semi);color:var(--navy);cursor:pointer;background:transparent;transition:background-color .15s ease,border-color .15s ease,box-shadow .15s ease}
+.donebox:hover{border-color:var(--navy)}
+.donebox input{width:16px;height:16px;margin:0;accent-color:#1d6a4d;cursor:pointer;flex:none}
+.donebox.on{background:#e3f3ec;border-color:#b9dccb;color:#1d6a4d}
+.donebox:focus-within{outline:2px solid var(--blue);outline-offset:2px}
+.donebox.nudge{border-color:var(--orange);box-shadow:0 0 0 3px rgba(237,143,71,.28)}
+.morerow .donebox{padding:5px 9px;font-size:var(--t-label)}
+.savedlist .morerow .donebox{border-color:transparent;padding:5px 4px}
+.savedlist .morerow .donebox span{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+.savedlist .morerow .donebox.on{background:transparent}
+.savedlist .morerow .donebox input{width:19px;height:19px}
+.savedlist .morerow.is-done .rt a{color:var(--muted);text-decoration:line-through}
+.savedlist .morerow.is-done .rt .sub{color:var(--gray)}
+.rcard.res-focus,.morerow.res-focus{box-shadow:0 0 0 3px rgba(237,143,71,.55);transition:box-shadow .6s ease}
+.rcard,.morerow{transition:box-shadow .6s ease}
+.sharemenu{position:absolute;z-index:40;background:#fff;border:1px solid var(--line);border-radius:var(--r-card);box-shadow:0 10px 30px rgba(33,51,76,.18);padding:14px}
+.sharemenu[hidden]{display:none}
+.sharemenu .smt{font-size:var(--t-meta);font-weight:var(--w-semi);color:var(--navy);margin-bottom:10px}
+.sharemenu .smrow{display:flex;gap:8px}
+.sharemenu input{flex:1;min-width:0;padding:8px 10px;border:1px solid var(--line);border-radius:var(--r-ctl);font-family:inherit;font-size:var(--t-label);color:var(--ink)}
+.sharemenu .dl{cursor:pointer;white-space:nowrap}
+.sharemenu .smmail{display:inline-flex;align-items:center;gap:7px;margin-top:11px;font-size:var(--t-meta);font-weight:var(--w-semi);color:var(--navy)}
+.sharemenu .smnote{font-size:var(--t-label);color:var(--muted);margin-top:8px;line-height:1.45}
 .modprog{font-size:var(--t-meta);color:var(--muted);margin-top:10px}
 .modprog:empty{display:none}
 header #savedBtn{display:flex;align-items:center;gap:6px;background:transparent;border:0;border-radius:var(--r-ctl);padding:8px 10px;color:#dfe6ee;font-size:var(--t-meta);font-family:inherit;flex:0 0 auto;cursor:pointer}
@@ -515,7 +540,13 @@ header #savedBtn .scount{background:rgba(255,255,255,.16);border-radius:var(--r-
 @media(max-width:560px){
   .morerow.have{flex-wrap:wrap;row-gap:8px}
   .morerow.have .rt{flex:1 1 calc(100% - 40px)}
-  .morerow.have .chip.fmt{margin-left:28px}
+  /* Four controls have to share the second line, so the format chip gives way
+     (the icon beside the title already says what kind of thing it is), and the
+     controls line up under the title rather than under the icon. */
+  .morerow.have .chip.fmt{display:none}
+  .morerow.have .dl{margin-left:28px}
+  .savedlist .morerow.have .rt{flex-basis:calc(100% - 60px)}
+  .savedlist .morerow.have .dl{margin-left:39px}
 }
 .savedbar{display:flex;flex-wrap:wrap;align-items:center;gap:var(--s-3);margin-top:18px}
 .savedbar .note{font-size:var(--t-meta);color:var(--muted)}
@@ -1128,7 +1159,7 @@ function viewToHash(v){
  if(v.type==='saved')return '#/saved'+(v.shared&&v.shared.length?'/'+v.shared.map(encodeURIComponent).join(','):'');
  if(v.type==='r2ihome')return '#/practices';
  if(v.type==='section')return '#/'+encodeURIComponent(v.section);
- if(v.type==='module')return '#/'+encodeURIComponent(v.section)+'/'+encodeURIComponent(v.module);
+ if(v.type==='module')return v.focus?'#/r/'+encodeURIComponent(v.focus):'#/'+encodeURIComponent(v.section)+'/'+encodeURIComponent(v.module);
  return '#/';
 }
 function hashToView(){
@@ -1136,6 +1167,12 @@ function hashToView(){
  if(!raw)return {type:'home'};
  const parts=raw.split('/').map(s=>{try{return decodeURIComponent(s)}catch(_){return s}});
  if(parts[0]==='about')return {type:'about'};
+ /* #/r/<id> is one resource: its module page, with that card brought into view. */
+ if(parts[0]==='r'){
+  const r=MY_RES.get(parts[1]||'');
+  if(r&&DATA.sections.some(s=>s.name===r.section&&s.modules.some(m=>m.name===r.module)))return {type:'module',section:r.section,module:r.module,focus:r.id};
+  return {type:'home'};
+ }
  /* #/saved is this browser's own list; #/saved/id,id,… is a list someone sent. */
  if(parts[0]==='saved'){
   const ids=(parts[1]||'').split(',').map(x=>x.trim()).filter(x=>MY_RES.has(x));
@@ -1158,7 +1195,17 @@ function renderApp(){
  else if(view.type==='about') a.innerHTML=about();
  else if(view.type==='saved') a.innerHTML=savedView(view);
  window.scrollTo({top:0,behavior:'instant'});
+ if(view.type==='module'&&view.focus)focusRes(view.focus);
  proofReveal();
+}
+/* Bring one resource into view and ring it for a few seconds: where a shared
+   link (#/r/<id>) or a title on the Saved page lands. */
+function focusRes(id){
+ const el=[...document.querySelectorAll('#app [data-res]')].find(x=>x.getAttribute('data-res')===id);
+ if(!el)return;
+ const h=document.querySelector('header.site');
+ window.scrollTo({top:Math.max(0,el.getBoundingClientRect().top+window.scrollY-(h?h.offsetHeight:0)-24),behavior:'instant'});
+ el.classList.add('res-focus'); setTimeout(()=>el.classList.remove('res-focus'),6000);
 }
 // Draws the proof-band bars when the band first scrolls into view. Without
 // IntersectionObserver the bars are simply shown at full length.
@@ -1407,39 +1454,59 @@ function module(sec,mod){
  ${modulePager(sec,mod)}
  ${sObj.homepage?attrib():''}`;
 }
-/* ---- saved & opened ---------------------------------------------------------
-   A visitor can star a resource and see which ones they have already opened,
-   with no account. Both lists live in this browser's localStorage and nowhere
-   else: nothing is sent, nothing is tracked, and there is nothing to log in
-   to. The honest cost is that it is per browser, per device — a private
-   window or cleared site data starts empty — so the Saved page can turn the
-   list into a link (#/saved/id,id,…) to carry it to another device or hand it
-   to a colleague. Resource ids never change (the sheet bridge refuses to edit
-   them), which is what makes a stored id safe to keep.
+/* ---- saved, done & share -----------------------------------------------------
+   Three things a visitor can do to a resource, with no account:
+     Save   (star)      "I want this"            -> the Saved page
+     Done   (checkbox)  "I have read / used this"
+     Share              "you should see this"    -> a link to one resource
+
+   Saved and Done live in this browser's localStorage and nowhere else: nothing
+   is sent, nothing is tracked, and there is nothing to log in to. The honest
+   cost is that it is per browser, per device — a private window or cleared
+   site data starts empty — so the Saved page can turn the list into a link
+   (#/saved/id,id,…) to carry it elsewhere. Resource ids never change (the
+   sheet bridge refuses to edit them), which is what makes a stored id safe.
+
+   Done is deliberately the visitor's own tick. The first version ticked a
+   resource "Opened" the moment its button was pressed, but opening a file and
+   closing it again is not reading it, and a mark people did not make is a mark
+   they do not trust. Pressing Open now only draws the eye to the checkbox.
 
    Every read and write is wrapped: localStorage can throw or come back empty,
    and the page must render exactly as before when it does. */
 const MY_RES=new Map(DATA.resources.filter(r=>r.published).map(r=>[r.id,r]));
-const MY={saved:[],opened:[]};
+const MY={saved:[],done:[]};
 let myGateRid='';
 (function(){
  const read=k=>{ try{ const v=JSON.parse(localStorage.getItem(k)||'[]'); return Array.isArray(v)?[...new Set(v.filter(x=>typeof x==='string'))]:[]; }catch(e){ return []; } };
- MY.saved=read('r2i.saved'); MY.opened=read('r2i.opened');
+ MY.saved=read('r2i.saved'); MY.done=read('r2i.done');
+ /* Carry over marks from the short-lived automatic "Opened" tick, once. */
+ try{
+  if(localStorage.getItem('r2i.done')===null&&localStorage.getItem('r2i.opened')!==null){
+   MY.done=read('r2i.opened'); localStorage.setItem('r2i.done',JSON.stringify(MY.done));
+  }
+  localStorage.removeItem('r2i.opened');
+ }catch(e){}
 })();
-function myStore(){ try{ localStorage.setItem('r2i.saved',JSON.stringify(MY.saved)); localStorage.setItem('r2i.opened',JSON.stringify(MY.opened)); }catch(e){} }
+function myStore(){ try{ localStorage.setItem('r2i.saved',JSON.stringify(MY.saved)); localStorage.setItem('r2i.done',JSON.stringify(MY.done)); }catch(e){} }
 function isSaved(id){return MY.saved.includes(id);}
-function isOpened(id){return MY.opened.includes(id);}
+function isDone(id){return MY.done.includes(id);}
 function setIn(list,id,on){ const i=list.indexOf(id); if(on&&i<0)list.push(id); if(!on&&i>=0)list.splice(i,1); }
 function markSaved(id,on){ setIn(MY.saved,id,on); myStore(); refreshMarks(); }
-function markOpened(id,on){ setIn(MY.opened,id,on); myStore(); refreshMarks(); }
+function markDone(id,on){ setIn(MY.done,id,on); myStore(); refreshMarks(); }
 const STAR=`<svg width="15" height="15" viewBox="0 0 24 24" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><path d="M12 3.6l2.6 5.3 5.8.8-4.2 4.1 1 5.8L12 16.9 6.8 19.6l1-5.8-4.2-4.1 5.8-.8z"/></svg>`;
+const SHARE=`<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 15V4"/><path d="M8 7.5L12 3.5l4 4"/><path d="M6 11.5H5a1 1 0 0 0-1 1V19a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-6.5a1 1 0 0 0-1-1h-1"/></svg>`;
 function saveBtn(r){
  const on=isSaved(r.id);
  return `<button type="button" class="savebtn" data-save="${escAttr(r.id)}" aria-pressed="${on}" aria-label="${on?'Saved':'Save'}: ${escAttr(r.title)}" title="${on?'Remove from your saved list':'Save to your list'}">${STAR}<span class="stxt">${on?'Saved':'Save'}</span></button>`;
 }
-/* Shown only once a resource has been opened; pressing it takes the mark off. */
-function openedMark(r){
- return `<button type="button" class="openedmark" data-opened="${escAttr(r.id)}" title="You opened this. Click to clear the mark." ${isOpened(r.id)?'':'hidden'}>&#10003; Opened</button>`;
+/* A real checkbox, so it is one tap, works from the keyboard, and announces
+   itself correctly to a screen reader. */
+function doneBox(r){
+ return `<label class="donebox${isDone(r.id)?' on':''}" title="Tick when you have read or used this"><input type="checkbox" data-done="${escAttr(r.id)}" ${isDone(r.id)?'checked':''} aria-label="Done: ${escAttr(r.title)}"/><span>Done</span></label>`;
+}
+function shareBtn(r){
+ return `<button type="button" class="sharebtn" data-share="${escAttr(r.id)}" aria-haspopup="dialog" aria-label="Share: ${escAttr(r.title)}" title="Share with a colleague">${SHARE}<span class="stxt">Share</span></button>`;
 }
 /* Marks change without re-rendering the view: a re-render scrolls to the top,
    which would yank the page away from the card that was just starred. */
@@ -1451,35 +1518,109 @@ function refreshMarks(){
   b.title=on?'Remove from your saved list':'Save to your list';
   const t=b.querySelector('.stxt'); if(t)t.textContent=on?'Saved':'Save';
  }
- for(const b of document.querySelectorAll('[data-opened]')) b.hidden=!isOpened(b.getAttribute('data-opened'));
+ for(const c of document.querySelectorAll('[data-done]')){
+  const on=isDone(c.getAttribute('data-done'));
+  c.checked=on;
+  const l=c.closest('.donebox'); if(l){ l.classList.toggle('on',on); if(on)l.classList.remove('nudge'); }
+  const row=c.closest('[data-res]'); if(row)row.classList.toggle('is-done',on);
+ }
  for(const el of document.querySelectorAll('[data-prog]')){
   const [sec,mod]=el.getAttribute('data-prog').split('|');
-  const list=resOf(sec,mod).filter(r=>r.published), n=list.filter(r=>isOpened(r.id)).length;
-  el.textContent=n?`You have opened ${n} of ${list.length} here.`:'';
+  const list=resOf(sec,mod).filter(r=>r.published), n=list.filter(r=>isDone(r.id)).length;
+  el.textContent=n?(n===list.length?`You have finished all ${n} here.`:`You have finished ${n} of ${list.length} here.`):'';
  }
- const n=MY.saved.filter(id=>MY_RES.has(id)).length;
+ const tally=document.getElementById('savedTally');
+ if(tally){ const ids=MY.saved.filter(id=>MY_RES.has(id)), d=ids.filter(isDone).length; tally.textContent=ids.length?`${ids.length} saved${d?`, ${d} done`:''}`:''; }
  const dl=document.getElementById('navDrawerList'); if(dl&&dl.innerHTML)dl.innerHTML=navDrawerHtml();
+ const n=MY.saved.filter(id=>MY_RES.has(id)).length;
  const sb=document.getElementById('savedBtn');
  if(sb){ sb.classList.toggle('has',n>0); document.getElementById('savedCount').textContent=n?String(n):''; sb.setAttribute('aria-label',n?`Saved resources (${n})`:'Saved resources'); }
 }
+/* After someone opens a resource, point at its checkbox for a few seconds —
+   the one moment "have I finished this?" is actually on their mind. */
+function nudgeDone(id){
+ if(isDone(id))return;
+ for(const c of document.querySelectorAll('[data-done]')){
+  if(c.getAttribute('data-done')!==id)continue;
+  const l=c.closest('.donebox'); if(!l)continue;
+  l.classList.add('nudge'); setTimeout(()=>l.classList.remove('nudge'),9000);
+ }
+}
+
+/* ---- share ----
+   A link to ONE resource (#/r/<id>). It opens the resource's module page with
+   that card scrolled to and ringed, rather than the Drive file itself, so a
+   colleague arrives with the context around it — and a gated resource still
+   asks for the email. On a phone the system share sheet does the rest; on a
+   computer a small menu offers Copy and Email. Email is a mailto: link: it
+   opens the visitor's own mail program with the message filled in. The site
+   sends nothing and learns nothing about who shared what. */
+function resUrl(id){ return location.origin+location.pathname+'#/r/'+encodeURIComponent(id); }
+function savedUrl(){ return location.origin+location.pathname+viewToHash({type:'saved',shared:MY.saved.filter(id=>MY_RES.has(id))}); }
+function mailto(subject,body){ return 'mailto:?subject='+encodeURIComponent(subject)+'&body='+encodeURIComponent(body); }
+function shareWhat(key){
+ const site=(DATA.site&&DATA.site.name)||'Research to Impact';
+ if(key==='list'){
+  const n=MY.saved.filter(id=>MY_RES.has(id)).length;
+  return {url:savedUrl(),title:`${n} resources from ${site}`,
+   text:`Here ${n===1?'is a resource':'are '+n+' resources'} I picked out for you from Marshall Street's ${site}. ${n===1?'It is':'They are'} free to use.`};
+ }
+ const r=MY_RES.get(key); if(!r)return null;
+ return {url:resUrl(r.id),title:r.title,
+  text:`I thought you would find this useful: "${r.title}", from Marshall Street's ${site}. It is free to use.`};
+}
+let shareReturn=null;
+function shareClose(){
+ const m=document.getElementById('shareMenu'); if(!m||m.hidden)return;
+ m.hidden=true; if(shareReturn&&shareReturn.focus)shareReturn.focus(); shareReturn=null;
+}
+function shareOpen(btn,key){
+ const w=shareWhat(key); if(!w)return;
+ /* A touch device has a share sheet that already knows the visitor's apps. */
+ if(navigator.share&&matchMedia('(pointer:coarse)').matches){
+  navigator.share({title:w.title,text:w.text,url:w.url}).catch(()=>{});
+  return;
+ }
+ let m=document.getElementById('shareMenu');
+ if(!m){
+  m=document.createElement('div'); m.id='shareMenu'; m.className='sharemenu'; m.setAttribute('role','dialog'); m.setAttribute('aria-label','Share');
+  document.body.appendChild(m);
+ }
+ m.innerHTML=`<div class="smt">Share with a colleague</div>`
+  +`<div class="smrow"><input id="shareLink" type="text" readonly aria-label="Link" value="${escAttr(w.url)}"/><button type="button" class="dl" id="shareCopy">Copy link</button></div>`
+  +`<a class="smmail" id="shareMail" href="${escAttr(mailto(w.title,w.text+'\n\n'+w.url))}">${icon('Open',14)} Email it</a>`
+  +`<div class="smnote">Email opens your own mail program with the message ready. Nothing is sent from this site.</div>`;
+ m.hidden=false;
+ /* Under the button, kept inside the viewport on both sides. */
+ const r=btn.getBoundingClientRect(), mw=Math.min(340,window.innerWidth-24);
+ m.style.width=mw+'px';
+ m.style.left=Math.max(12,Math.min(r.left+window.scrollX,window.scrollX+window.innerWidth-mw-12))+'px';
+ m.style.top=(r.bottom+window.scrollY+6)+'px';
+ shareReturn=btn;
+ const f=document.getElementById('shareLink'); f.focus(); f.select();
+}
+document.addEventListener('keydown',e=>{ if(e.key==='Escape')shareClose(); });
 document.addEventListener('click',e=>{
+ if(e.target.closest('#shareCopy')){
+  const f=document.getElementById('shareLink'), url=f.value;
+  const done=()=>{ toast('Link copied.'); shareClose(); };
+  const fail=()=>{ f.focus(); f.select(); toast('Press Ctrl or Cmd + C to copy the link.'); };
+  if(navigator.clipboard&&navigator.clipboard.writeText) navigator.clipboard.writeText(url).then(done,fail); else fail();
+  return;
+ }
+ if(e.target.closest('#shareMail')){ setTimeout(shareClose,0); return; }   /* let the mailto: link go first */
+ const sh=e.target.closest('[data-share]');
+ if(sh){ e.preventDefault(); const open=document.getElementById('shareMenu'); const same=open&&!open.hidden&&shareReturn===sh; shareClose(); if(!same)shareOpen(sh,sh.getAttribute('data-share')); return; }
+ if(!e.target.closest('#shareMenu'))shareClose();
+
  const s=e.target.closest('[data-save]');
  if(s){ e.preventDefault(); const id=s.getAttribute('data-save'), on=!isSaved(id); markSaved(id,on); toast(on?'Saved. Your list is under Saved in the menu bar.':'Removed from Saved.'); return; }
- const o=e.target.closest('[data-opened]');
- if(o){ e.preventDefault(); markOpened(o.getAttribute('data-opened'),false); return; }
  const a=e.target.closest('[data-rid]');
  if(a){
   const id=a.getAttribute('data-rid');
-  /* A gated resource is only "opened" once the visitor gets past the email
-     ask, so that one is marked in gateProceed instead. */
-  if(a.hasAttribute('data-gate')) myGateRid=id; else markOpened(id,true);
-  return;
- }
- if(e.target.closest('#copySaved')){
-  const url=location.origin+location.pathname+viewToHash({type:'saved',shared:MY.saved.filter(id=>MY_RES.has(id))});
-  const done=()=>toast('Link copied. Open it on another device, or send it to a colleague.');
-  const fail=()=>{ const f=document.getElementById('savedLink'); if(f){ f.hidden=false; f.value=url; f.focus(); f.select(); } toast('Copy the link from the box.'); };
-  if(navigator.clipboard&&navigator.clipboard.writeText) navigator.clipboard.writeText(url).then(done,fail); else fail();
+  /* A gated resource has only been opened once the visitor gets past the
+     email ask, so that one is nudged from gateProceed instead. */
+  if(a.hasAttribute('data-gate')) myGateRid=id; else nudgeDone(id);
   return;
  }
  if(e.target.closest('#saveShared')){
@@ -1487,8 +1628,14 @@ document.addEventListener('click',e=>{
   myStore(); navigate({type:'saved'}); toast('Added to your saved list.');
  }
 });
+document.addEventListener('change',e=>{
+ const c=e.target.closest&&e.target.closest('[data-done]'); if(!c)return;
+ markDone(c.getAttribute('data-done'),c.checked);
+});
+/* The Saved page is a to-do list: the checkbox leads, and what is finished
+   steps back so what is left stands out. */
 function savedRow(r){
- return `<div class="morerow have">${icon(r.format,16)}<span class="rt"><a href="#" data-go="module:${escAttr(r.section)}|${escAttr(r.module)}">${esc(r.title)}</a><span class="sub">${esc(r.section)} &middot; ${esc(r.module)}</span></span><span class="chip fmt">${esc(r.format)}</span>${openedMark(r)}${resAction(r)}${saveBtn(r)}</div>`;
+ return `<div class="morerow have${isDone(r.id)?' is-done':''}" data-res="${escAttr(r.id)}">${doneBox(r)}<span class="rt"><a href="#" data-go="res:${escAttr(r.id)}">${esc(r.title)}</a><span class="sub">${esc(r.section)} &middot; ${esc(r.module)} &middot; ${esc(r.format)}</span></span>${resAction(r)}${shareBtn(r)}${saveBtn(r)}</div>`;
 }
 function savedView(v){
  const shared=!!(v&&v.shared&&v.shared.length);
@@ -1498,15 +1645,14 @@ function savedView(v){
  const groups=new Map();
  for(const r of list){ if(!groups.has(r.section))groups.set(r.section,[]); groups.get(r.section).push(r); }
  const body=[...groups].sort((a,b)=>(order.has(a[0])?order.get(a[0]):99)-(order.has(b[0])?order.get(b[0]):99))
-  .map(([sec,rs])=>`<div class="lab">${esc(sec)}</div><div class="morelist savedlist">${rs.map(savedRow).join('')}</div>`).join('');
+  .map(([sec,rs])=>`<div class="lab">${esc(sec)}</div><div class="morelist savedlist">${rs.slice().sort((a,b)=>(isDone(a.id)?1:0)-(isDone(b.id)?1:0)).map(savedRow).join('')}</div>`).join('');
  if(shared){
   const fresh=list.filter(r=>!isSaved(r.id)).length;
   return `<div class="pagehead"><div class="section-h"><h1 class="serif">A shared list</h1><p>Someone sent you ${list.length===1?'this resource':'these '+list.length+' resources'}. Open them here, or add them to your own saved list.</p>
    <div class="savedbar">${fresh?`<button type="button" class="btn" id="saveShared">Save ${fresh===list.length?(list.length===1?'it':'all '+list.length):fresh+' new'} to my list</button>`:'<span class="note">These are all in your saved list already.</span>'}<a href="#" class="note" data-go="saved">Go to my saved list</a></div></div></div>${body}`;
  }
- const opened=list.filter(r=>isOpened(r.id)).length;
- const head=`<div class="pagehead"><div class="section-h"><h1 class="serif">Saved</h1><p>Resources you star are kept here, in this browser, with no account. They stay on this device, so use the link to move your list to another one or to share it.</p>`
-  +(list.length?`<div class="savedbar"><button type="button" class="btn" id="copySaved">Copy a link to this list</button><span class="note">${list.length} saved${opened?`, ${opened} opened`:''}</span></div><input id="savedLink" type="text" readonly hidden aria-label="Link to this list" style="width:100%;max-width:640px;margin-top:10px;padding:8px 10px;border:1px solid var(--line);border-radius:var(--r-ctl);font:inherit;font-size:var(--t-meta)"/>`:'')
+ const head=`<div class="pagehead"><div class="section-h"><h1 class="serif">Saved</h1><p>Resources you star are kept here, in this browser, with no account. Tick each one off when you have finished with it. They stay on this device, so share the list to move it to another one or to send it to a colleague.</p>`
+  +(list.length?`<div class="savedbar"><button type="button" class="btn" data-share="list" aria-haspopup="dialog">Share this list</button><span class="note" id="savedTally" aria-live="polite"></span></div>`:'')
   +`</div></div>`;
  return head+(list.length?body:`<div class="band">Nothing saved yet. Choose <b>&nbsp;Save&nbsp;</b> on any resource and it will be waiting here.</div>`);
 }
@@ -1536,10 +1682,10 @@ function card(r){
  if(!r.published){
   return `<div class="rcard soon"><div class="top">${icon(r.format,19)}<div class="ttl">${esc(r.title)}</div><span class="chip soon">Coming soon</span></div>${r.summary?`<div class="desc" style="color:#5f6770">${esc(r.summary)}</div>`:''}</div>`;
  }
- const acts=`<div class="acts"><span class="chip fmt">${esc(r.format)}</span>${r.gated?'<span class="chip gate-chip">Email to download</span>':''}${resAction(r)}${saveBtn(r)}${openedMark(r)}</div>`;
+ const acts=`<div class="acts"><span class="chip fmt">${esc(r.format)}</span>${r.gated?'<span class="chip gate-chip">Email to download</span>':''}${resAction(r)}${saveBtn(r)}${doneBox(r)}${shareBtn(r)}</div>`;
  // Full-collection card: a clean, accented download CTA (no per-practice detail).
  if(r.overview){
-  return `<div class="rcard collhero"><div class="eyebrow">Full collection</div><div class="ttl serif">${esc(r.title)}</div>${r.summary?`<div class="desc">${esc(r.summary)}</div>`:''}${acts}</div>`;
+  return `<div class="rcard collhero" data-res="${escAttr(r.id)}"><div class="eyebrow">Full collection</div><div class="ttl serif">${esc(r.title)}</div>${r.summary?`<div class="desc">${esc(r.summary)}</div>`:''}${acts}</div>`;
  }
  // The full narrative carried from the old site supersedes the short summary when present.
  const lead=r.body?`<div class="body">${r.body.split(/\n\n+/).map(p=>`<p>${esc(p)}</p>`).join('')}</div>`
@@ -1553,17 +1699,17 @@ function card(r){
  // Rich practice card (a captioned photo from the old site): photo left, content right.
  if(r.image && (r.body || r.image_caption)){
   const media=`<div class="media"><img class="rimg" src="${escAttr(r.image)}" alt="${escAttr(r.image_caption||'')}" loading="lazy"/>${r.image_caption?`<div class="cap">${esc(r.image_caption)}</div>`:''}</div>`;
-  return `<div class="rcard rich">${media}<div class="cmain">${main}</div></div>`;
+  return `<div class="rcard rich" data-res="${escAttr(r.id)}">${media}<div class="cmain">${main}</div></div>`;
  }
  // Plain card (toolkit resources): optional banner image on top, then content.
- return `<div class="rcard">${r.image?`<img class="rimg" src="${escAttr(r.image)}" alt="" loading="lazy"/>`:''}${main}</div>`;
+ return `<div class="rcard" data-res="${escAttr(r.id)}">${r.image?`<img class="rimg" src="${escAttr(r.image)}" alt="" loading="lazy"/>`:''}${main}</div>`;
 }
 function row(r){
  // Published non-focal items are still downloadable — show the same Download/Watch
  // action as a card, just in a compact row (with a light-blue hover). focal only
  // controls prominence (featured card vs. compact row), not whether you can get it.
  if(r.published){
-  return `<div class="morerow have">${icon(r.format,16)}<span class="rt">${esc(r.title)}</span><span class="chip fmt">${esc(r.format)}</span>${openedMark(r)}${resAction(r)}${saveBtn(r)}</div>`;
+  return `<div class="morerow have" data-res="${escAttr(r.id)}">${icon(r.format,16)}<span class="rt">${esc(r.title)}</span><span class="chip fmt">${esc(r.format)}</span>${resAction(r)}${saveBtn(r)}${doneBox(r)}${shareBtn(r)}</div>`;
  }
  return `<div class="morerow soon">${icon(r.format,16)}<span class="rt">${esc(r.title)}</span><span class="chip fmt">${esc(r.format)}</span><span class="chip soon">Coming soon</span></div>`;
 }
@@ -1641,6 +1787,7 @@ document.addEventListener('click',e=>{
  else if(v==='r2ihome')nv={type:'r2ihome'};
  else if(v==='about')nv={type:'about'};
  else if(v==='saved')nv={type:'saved'};
+ else if(v.startsWith('res:')){const r=MY_RES.get(v.slice(4));if(r)nv={type:'module',section:r.section,module:r.module,focus:r.id};}
  else if(v.startsWith('section:'))nv={type:'section',section:v.slice(8)};
  else if(v.startsWith('module:')){const [sec,mod]=v.slice(7).split('|');nv={type:'module',section:sec,module:mod};}
  if(nv)navigate(nv);
@@ -2347,7 +2494,7 @@ function askEmail(title,link){
  gateReturnFocus=document.activeElement;const x=g.querySelector('.gate-x');if(x)x.focus();
 }
 function gateClose(){const g=document.getElementById('gate');if(!g.classList.contains('open'))return;g.classList.remove('open');g.setAttribute('aria-hidden','true');if(gateReturnFocus&&gateReturnFocus.focus){gateReturnFocus.focus();gateReturnFocus=null;}}
-function gateProceed(){const u=gatePendingLink;gateClose();if(u){openUrl(u);if(myGateRid)markOpened(myGateRid,true);}else toast('File link not set yet — add a link_url in the sheet');}
+function gateProceed(){const u=gatePendingLink;gateClose();if(u){openUrl(u);if(myGateRid)nudgeDone(myGateRid);}else toast('File link not set yet — add a link_url in the sheet');}
 document.getElementById('gate').addEventListener('click',e=>{if(e.target.id==='gate')gateClose();});
 document.addEventListener('click',e=>{const b=e.target.closest('[data-gate]');if(b){e.preventDefault();askEmail(b.getAttribute('data-title'),b.getAttribute('data-link'));}});
 /* Load the HubSpot embed script only when IDs are configured (no surprise calls before setup). */

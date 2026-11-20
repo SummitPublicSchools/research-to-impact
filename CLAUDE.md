@@ -156,12 +156,16 @@ contains one.
   **derived at build time from `who_for`** by `audienceOf()` in `build.js`; there is no
   audience column. The build warns when a written `who_for` names no recognised role. The
   lens reorders results and never hides any. The choice lives in `localStorage` only.
-- **Saved and Opened marks**: a visitor can star a resource (Saved, in the header; in the
-  menu on a phone) and each resource they open is ticked, with "You have opened 3 of 7
-  here" on the module page. **No account and no server**: both lists are resource ids in
-  `localStorage` (`r2i.saved`, `r2i.opened`). `#/saved/id,id,…` is a shareable copy of a
-  list. This is safe only because ids never change — another reason not to rename one.
-  Marks update in place (`refreshMarks`); a full `render()` scrolls to the top.
+- **Save, Done and Share**: a visitor can star a resource (Saved, in the header; in the
+  menu on a phone), tick it **Done** with a checkbox, and **Share** it. **No account and no
+  server**: Saved and Done are resource ids in `localStorage` (`r2i.saved`, `r2i.done`).
+  Done is the visitor's own tick — pressing Open only highlights the checkbox; an earlier
+  automatic "Opened" mark was dropped because opening is not reading. Share gives a link to
+  one resource, `#/r/<id>`, which opens its module page with that card ringed (not the
+  Drive file); phones use the system share sheet, computers get Copy link and a `mailto:`.
+  `#/saved/id,id,…` shares a whole list. All of it is safe only because ids never change —
+  another reason not to rename one. Marks update in place (`refreshMarks`); a full
+  `render()` scrolls to the top.
 - **Gated email ask**: `gated=TRUE` shows a skippable HubSpot email prompt (a harmless
   placeholder until `hubspot_portal_id` / `hubspot_form_id` are set on the Site tab).
 - **Lists tab + guardrails**: the `Lists` tab centralizes every dropdown's values; `Guardrails.gs`
