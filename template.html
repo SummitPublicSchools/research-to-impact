@@ -97,7 +97,10 @@ a,button,.chip,input{transition:background-color .15s ease,color .15s ease,borde
    than sheet-driven, so putting a notice back is a code change; if the team
    wants one they can hold, it belongs on the Site tab as an editable setting. */
 
-header.site{position:sticky;top:0;z-index:20;background:var(--navy);color:#fff;display:flex;align-items:center;gap:var(--s-4);padding:8px 22px;min-height:62px;box-shadow:0 1px 0 rgba(0,0,0,.15)}
+/* The bar's contents sit on the same 996px column as the page. They could not
+   while the nav was seven links wide; with the toolkits under one menu they
+   fit with room for the site's name. */
+header.site{position:sticky;top:0;z-index:20;background:var(--navy);color:#fff;display:flex;align-items:center;gap:var(--s-4);padding:8px max(22px,calc((100% - 996px)/2));min-height:62px;box-shadow:0 1px 0 rgba(0,0,0,.15)}
 /* The logo file is cropped to the artwork (marshall-secondary-cw-tight.png).
    The uncropped export carries its own clear space inside the image — the
    letters were 51% of the file's height — so at 30px tall the wordmark rendered
@@ -105,10 +108,15 @@ header.site{position:sticky;top:0;z-index:20;background:var(--navy);color:#fff;d
    letters, and the box a keyboard focus ring draws is the logo, not its padding.
    Clear space (brand p.6: the cap height of the S, all sides) now comes from
    the header's own padding and the margin here. */
-header .logo{height:24px;display:flex;align-items:center;margin-right:8px;flex:0 0 auto;border-radius:2px}
+header .logo{height:22px;display:flex;align-items:center;margin-right:8px;flex:0 0 auto;border-radius:2px}
 header .logo:focus-visible{outline-offset:6px}
 header .logo:hover{opacity:.85}
-header .logo img{height:24px;width:auto;display:block}
+header .logo img{height:22px;width:auto;display:block}
+/* The site's own name, beside the logo and inside the same home link: the logo
+   says whose site this is, the name says what it is. Regular weight and a hair
+   rule so it reads as a label next to the logo, not as part of the wordmark. */
+header .sitename{margin-left:12px;padding-left:12px;border-left:1px solid rgba(255,255,255,.32);font-size:var(--t-body);line-height:22px;color:#fff;white-space:nowrap}
+header .sitename:empty{display:none}
 /* Nav type was 12px, the smallest text on the site doing the most important
    job. It is 14px now, and each item is a padded target with a soft fill on
    hover: the old hover changed #dfe6ee to #fff, which nobody could see. The
@@ -264,6 +272,9 @@ a.pfact:hover .pgo{transform:translateX(2px)}
    different depths. */
 .sgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(260px,100%),1fr));gap:var(--s-4)}
 @media(max-width:860px){.sgrid{grid-template-columns:minmax(0,1fr)}}
+/* Four cards left to auto-fit become three and a stranded fourth. */
+@media(min-width:861px){.sgrid.four{grid-template-columns:repeat(4,minmax(0,1fr))}}
+@media(min-width:561px) and (max-width:860px){.sgrid.four{grid-template-columns:repeat(2,minmax(0,1fr))}}
 .scard{display:flex;gap:var(--s-3);background:var(--white);border:1px solid var(--line);border-radius:var(--r-card);padding:18px 19px}
 .snum{flex:none;width:27px;height:27px;border-radius:50%;background:var(--navy);color:#fff;font-size:var(--t-meta);font-weight:var(--w-semi);display:flex;align-items:center;justify-content:center}
 .sbody{display:flex;flex-direction:column;min-width:0;flex:1}
@@ -277,6 +288,8 @@ a.pfact:hover .pgo{transform:translateX(2px)}
    costs a line and makes every card the same shape. */
 .sact{display:flex;flex-direction:column;align-items:flex-start;gap:var(--s-2);margin-top:auto;padding-top:14px}
 .swhere{font-size:var(--t-label);color:var(--muted)}
+.skit{font-size:var(--t-label);letter-spacing:.1em;text-transform:uppercase;font-weight:var(--w-semi);color:var(--muted);margin-bottom:8px}
+.skit:hover{color:var(--navy)}
 .swhere:hover{color:var(--navy)}
 /* Blue was 0% of the page. The spec gives it "divider pages, links, large
    display type", and a full-bleed band is the web form of a divider page —
@@ -533,12 +546,22 @@ a.pfact:hover .pgo{transform:translateX(2px)}
 .about h2{font-size:var(--t-label);letter-spacing:.1em;text-transform:uppercase;color:var(--muted);font-weight:var(--w-semi);margin:var(--s-8) 0 var(--s-2)}
 .about h2::before{content:"";display:block;width:28px;height:3px;background:var(--orange);margin-bottom:var(--s-2)}
 .about p{font-size:var(--t-body);color:#41505f;max-width:var(--measure);margin:0 0 var(--s-3);line-height:1.62}
+/* The way out to Marshall Street itself. A flat light-blue panel, the brand's
+   own panel colour, so it reads as a different kind of block from the prose
+   above it without shouting. */
+.aboutms{background:var(--accent);padding:var(--s-6);margin-top:var(--s-8);display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:var(--s-4) var(--s-6)}
+.aboutms p{color:var(--navy);margin:0;max-width:52ch}
+.btn.navy{background:var(--navy);color:#fff}
+.btn.navy:hover{background:#2c4363}
+.btn .ext{font-size:var(--t-label)}
 
 footer.site{background:var(--navy);color:#c6d0db;font-size:var(--t-label);padding:22px;margin-top:30px}
 footer.site .row{max-width:996px;margin:0 auto;display:flex;flex-wrap:wrap;gap:var(--s-3);align-items:center}
 footer.site .lic{flex-basis:100%;color:#9fb0c0;font-size:var(--t-label);margin-top:8px}
 footer .footlogo{flex-basis:100%;margin-bottom:10px}
 footer .footlogo img{height:24px;width:auto;display:block}
+footer .footlogo a{display:inline-block;border-radius:2px}
+footer .footlogo a:hover{opacity:.85}
 footer .signup{margin-left:auto;display:flex;gap:var(--s-2);align-items:center}
 footer .signup input{border:0;border-radius:var(--r-ctl);padding:8px 11px;font-size:var(--t-label);font-family:inherit}
 footer .signup button{background:var(--orange);color:var(--navy);border:0;border-radius:var(--r-ctl);padding:8px 14px;font-size:var(--t-label);font-weight:var(--w-semi)}
@@ -639,11 +662,7 @@ nav.main .nav-div{width:1px;height:16px;background:rgba(255,255,255,.22);margin:
 .matchrow .mrmeta{font-size:var(--t-label);color:var(--muted)}
 /* Below this the full prompt does not fit beside the nav. It used to collapse
    to a bare magnifier, which is every laptop; it now keeps the word "Search". */
-@media (max-width:1480px){header #findBtn .ftxt{display:none}header #findBtn .ftxt-s{display:inline}}
-/* The last 80px before the nav gives way to the Menu button. At 14px the seven
-   items need 831px here against 855 available at 1201, measured; the targets
-   tighten and the search control drops its word to make that fit. */
-@media (max-width:1279px){nav.main a{padding:7px 5px}nav.main>a.active::after,nav.main .dd>a.active::after{left:5px;right:5px}header #findBtn .ftxt-s{display:none}}
+header #findBtn .ftxt{display:none}header #findBtn .ftxt-s{display:inline}
 /* ---- mobile menu ---- */
 #menuBtn{display:none;align-items:center;gap:var(--s-2);background:rgba(255,255,255,.12);border:0;
   color:#fff;font-family:inherit;font-weight:var(--w-semi);font-size:var(--t-meta);padding:8px 13px;border-radius:var(--r-ctl);flex:0 0 auto}
@@ -668,10 +687,6 @@ nav.main .nav-div{width:1px;height:16px;background:rgba(255,255,255,.22);margin:
   border:1px solid rgba(255,255,255,.2);border-radius:var(--r-pill);padding:2px 8px;flex:0 0 auto}
 
 @media (max-width:1200px){
-  nav.main{display:none}
-  #menuBtn{display:inline-flex}
-  header #findBtn{padding:8px 11px;max-width:none;margin-left:auto}
-  header #findBtn .ftxt{display:none}
   #app{padding-top:20px}
   #app>*{width:calc(100% - 32px)}
   .bleed-in{width:calc(100% - 32px)}
@@ -685,8 +700,17 @@ nav.main .nav-div{width:1px;height:16px;background:rgba(255,255,255,.22);margin:
      than 16px either side, and the logo and Menu button follow it in. */
   header.site{padding:8px max(16px,calc((100% - 996px)/2));gap:var(--s-3)}
   footer.site{padding-left:16px;padding-right:16px}
+}
+/* The nav gives way to the Menu button. With the toolkits under one menu the
+   bar is four items wide, so this happens at 960px rather than at 1200px: measured,
+   the bar needs 870px of content and has 929 at 961. */
+@media (max-width:960px){
+  nav.main{display:none}
+  #menuBtn{display:inline-flex}
+  header #findBtn{padding:8px 11px;max-width:none;margin-left:auto}
   header .logo{margin-right:0}
 }
+@media (max-width:620px){header .sitename{display:none}header #findBtn .ftxt-s{display:none}}
 /* Phone header. After reclaiming the dead logo margin and the mismatched gutter
    above, the bar still needs 351px — 7px of slack on a 360px phone once the
    Helvetica Neue fallback's wider metrics are allowed for (measured: 2px of
@@ -719,7 +743,7 @@ nav.main .nav-div{width:1px;height:16px;background:rgba(255,255,255,.22);margin:
        are both navy, so CW is the colour version here. NOT
        marshall-secondary-color.png, which is the C variant — its wordmark is navy
        and would disappear against this bar. -->
-  <a class="logo" data-go="home" href="#" aria-label="Home" title="Home"><img class="logo-img" src="assets/brand/marshall-secondary-cw-tight.png" width="954" height="112" alt="Marshall Street" fetchpriority="high"/></a>
+  <a class="logo" data-go="home" href="#" aria-label="Home" title="Home"><img class="logo-img" src="assets/brand/marshall-secondary-cw-tight.png" width="954" height="112" alt="Marshall Street" fetchpriority="high"/><span class="sitename" id="siteName"></span></a>
   <nav class="main" id="nav"></nav>
   <button id="findBtn" aria-label="Search or ask a question" aria-haspopup="dialog"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4-4"/></svg><span class="ftxt">Search or ask a question</span><span class="ftxt-s" aria-hidden="true">Search</span></button>
   <button id="menuBtn" aria-label="Menu" aria-haspopup="dialog" aria-expanded="false"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18"/></svg><span>Menu</span></button>
@@ -738,7 +762,7 @@ nav.main .nav-div{width:1px;height:16px;background:rgba(255,255,255,.22);margin:
 </div>
 <main id="app" tabindex="-1"></main>
 <footer class="site"><div class="row">
-  <span class="footlogo"><img src="assets/brand/marshall-secondary-cw-tight.png" width="954" height="112" alt="Marshall Street" loading="lazy" decoding="async"/></span>
+  <span class="footlogo" id="footLogo"><img src="assets/brand/marshall-secondary-cw-tight.png" width="954" height="112" alt="Marshall Street" loading="lazy" decoding="async"/></span>
   <span id="footAttr"></span><span>&middot;</span><span>CC BY 4.0</span><span>&middot;</span><span>Privacy</span>
   <span class="signup"><input placeholder="Email" aria-label="Email for updates"/><button onclick="toast('Prototype — signup would post to HubSpot')">Get updates</button></span>
   <span class="lic" id="footLic"></span>
@@ -887,7 +911,17 @@ function navHtml(){
  const link=name=>`<a href="#" data-go="section:${name}" class="${view.section===name?'active':''}">${esc(name)}</a>`;
  const div='<span class="nav-div" aria-hidden="true"></span>';
  const nav=DATA.nav||{groups:[],secondary:null,collections:null,about:null};
- const parts=(nav.groups||[]).map(g=>(g.sections||[]).map(link).join('')).filter(Boolean);
+ // The toolkits sit under one menu, with a rule between the sheet's
+ // header_label groups. Same rule as the secondary menu below: a menu of one
+ // is a plain link under its own name, decided from the data.
+ const groups=(nav.groups||[]).filter(g=>(g.sections||[]).length);
+ const kits=groups.flatMap(g=>g.sections);
+ const parts=[];
+ if(kits.length===1) parts.push(link(kits[0]));
+ else if(kits.length){
+  const kitlink=name=>`<a href="#" data-go="section:${escAttr(name)}" class="${view.section===name?'active':''}">${esc(name)}</a>`;
+  parts.push(`<div class="dd" id="kitDD"><a href="#" data-dd="kit" class="${kits.includes(view.section)?'active':''}">${esc(nav.toolkitsLabel||'Toolkits')} <span class="caret">&#9662;</span></a><div class="ddmenu">${groups.map(g=>g.sections.map(kitlink).join('')).join('<div class="dddiv"></div>')}</div></div>`);
+ }
  // Evidence & Stories — the live secondary sections (Stories & Spotlights, Evidence & Impact)
  const sec=nav.secondary;
  if(sec && (sec.sections||[]).length){
@@ -1086,30 +1120,72 @@ function proofBand(){
 // (start1_label, start1_note); the action comes from the resource itself via
 // resAction(), so it matches the button on that resource's own card and honours
 // gating. Like the proof band, with nothing configured this renders nothing.
-function startHere(){
- const items=(DATA.startHere||[]);
- if(!items.length) return '';
- const cell=(s,i)=>{
-  const r=state.find(x=>x.id===s.id);
-  if(!r) return '';            // build.js already dropped unmatched ids; belt and braces
-  const title=s.label||r.title;
-  const note=s.note||firstSentence(r.summary,110);
+// Which three resources open a toolkit. Automatic: the featured resources of
+// the toolkit's Overview module (or its first module, when it has no Overview),
+// in the order the sheet features them. Where the Site tab's start1_id..
+// picks all sit in one toolkit, they replace that toolkit's automatic picks
+// and bring their own labels and notes — so an editor can still hand-tune one
+// without having to maintain all of them.
+function startPicks(sec){
+ const hand=(DATA.startHere||[]).map(s=>({r:state.find(x=>x.id===s.id),label:s.label,note:s.note})).filter(x=>x.r&&x.r.published&&x.r.section===sec);
+ if(hand.length>=2) return hand.slice(0,3);
+ const mods=modulesOf(sec);
+ const m=mods.find(x=>/^overview$/i.test(x.name))||mods[0];
+ if(!m) return [];
+ const feat=name=>resOf(sec,name).filter(r=>r.published&&r.focal).sort((a,b)=>(a.focal_order||9)-(b.focal_order||9));
+ const out=feat(m.name).slice(0,3);
+ // An Overview with only an introduction and a summary leaves the third step
+ // empty; it is filled with the lead resource of each module that follows, so
+ // the strip ends on something to use rather than something else to read.
+ for(const x of mods){
+  if(out.length>=3)break;
+  if(x===m)continue;
+  const r=feat(x.name)[0];
+  if(r&&!out.includes(r))out.push(r);
+ }
+ return out.map(r=>({r,label:'',note:''}));
+}
+// "Have ten minutes? Start here" on a toolkit page: that toolkit's own three
+// steps, each ending in the resource's own action button (resAction), so it
+// matches the button on the resource's card and honours gating. Fewer than two
+// picks renders nothing — a single numbered step reads as an orphan.
+function startHere(sec){
+ const picks=startPicks(sec);
+ if(picks.length<2) return '';
+ const cell=(p,i)=>{
+  const r=p.r, title=p.label||r.title, note=p.note||firstSentence(r.summary,110);
   return `<div class="scard"><span class="snum">${i+1}</span><span class="sbody">
    <span class="stop">${icon(r.format,18)}<span class="stitle">${esc(title)}</span></span>
    ${note?`<span class="snote">${esc(note)}</span>`:''}
-   ${/* Section AND module: every toolkit has a module called "Overview", so the
-        module name alone does not say which toolkit you are being sent to.
-        The location line comes BEFORE the button deliberately. .sact is bottom
-        anchored, so whichever element is last keeps a fixed baseline across the
-        row; with the button last, a location that wraps to two lines (say
-        "Research-to-Impact Library · Collaboration") grows the card upward and
-        the three buttons still line up. */''}
-   <span class="sact"><a class="swhere" href="#" data-go="module:${escAttr(r.section)}|${escAttr(r.module)}">${esc(r.section)} &middot; ${esc(r.module)} &rarr;</a>${resAction(r)}</span>
+   <span class="sact">${resAction(r)}</span>
   </span></div>`;
  };
  return `<section class="starthere" aria-label="Start here">
   <div class="lab">Have ten minutes? Start here</div>
-  <div class="sgrid">${items.map(cell).join('')}</div>
+  <div class="sgrid">${picks.map(cell).join('')}</div>
+ </section>`;
+}
+// The homepage version: one card per toolkit, each offering that toolkit's
+// introduction — its first pick that is a video, else its first pick. The
+// strip used to be three hand-picked resources that all sat in one toolkit,
+// on a page that is about all of them.
+function startHome(){
+ const cells=DATA.sections.filter(s=>s.homepage).map(s=>{
+  const picks=startPicks(s.name);
+  const p=picks.find(x=>x.r.video)||picks[0];
+  if(!p) return '';
+  const r=p.r, note=p.note||firstSentence(r.summary,110);
+  return `<div class="scard"><span class="sbody">
+   <a class="skit" href="#" data-go="section:${escAttr(s.name)}">${esc(s.name)}</a>
+   <span class="stop">${icon(r.format,18)}<span class="stitle">${esc(r.title)}</span></span>
+   ${note?`<span class="snote">${esc(note)}</span>`:''}
+   <span class="sact">${resAction(r)}</span>
+  </span></div>`;
+ }).filter(Boolean);
+ if(cells.length<2) return '';
+ return `<section class="starthere" aria-label="Start here">
+  <div class="lab">New here? Start with an introduction</div>
+  <div class="sgrid${cells.length===4?' four':''}">${cells.join('')}</div>
  </section>`;
 }
 // The line under a toolkit that says where its practices come from. It had an
@@ -1142,7 +1218,7 @@ function home(){
   <div class="hacts"><button class="btn" data-scroll="cards">${esc(site.cta)}</button>${DATA.proof&&DATA.proof.length>1?'<a class="hlink" href="#" data-scroll="proof">See the results</a>':''}</div></div><div class="himg"><img src="assets/practices/hero-home-students.jpg" width="1400" height="1034" alt="" fetchpriority="high"/></div></section>
  ${proofBand()}
  <div class="cards">${cards}</div>
- ${startHere()}
+ ${startHome()}
  ${/* The band used to open "New here? Start with the Overview in any toolkit."
       The start-here row above now says that, with real links, so the band keeps
       only the part it alone carries: how much is live and that it keeps
@@ -1186,6 +1262,7 @@ function section(sec){
  const modNote=availTotal===0?`<span class="labnote">resources publishing soon &mdash; check back</span>`:'';
  return `${hero}
  ${head}
+ ${s.homepage?startHere(sec):''}
  <div class="lab">${modLabel}${modNote}</div><div class="mcards">${mcards}</div>
  ${shtml}
  ${s.homepage?attrib():''}`;
@@ -1299,7 +1376,8 @@ function about(){
  ${/* Every section comes from the Site tab now, in the order build.js lists them.
       The Team paragraph used to be hardcoded here — a single sentence — while a
       fuller about_team sat unread on the tab; the sheet's version wins. */''}
- ${(DATA.site.about||[]).map(s=>`<h2>${esc(s.heading)}</h2>${s.body.map(p=>`<p>${esc(p)}</p>`).join('')}`).join('')}</div>`;
+ ${(DATA.site.about||[]).map(s=>`<h2>${esc(s.heading)}</h2>${s.body.map(p=>`<p>${esc(p)}</p>`).join('')}`).join('')}
+ ${(m=>m&&m.text?`<div class="aboutms"><p>${esc(m.text)}</p><a class="btn navy" href="${escAttr(m.url)}" target="_blank" rel="noopener">${esc(m.cta)}<span class="ext" aria-hidden="true">&#8599;</span></a></div>`:'')(DATA.site.marshall)}</div>`;
 }
 // The "R2I Practices" landing — recreated from the old CoLab research-to-impact home.
 function r2iHomeView(){
@@ -1803,6 +1881,11 @@ if(DATA.site.hubspot_portal&&DATA.site.hubspot_form){
 
 document.getElementById('footAttr').textContent=DATA.site.footer;
 document.getElementById('footLic').textContent=DATA.site.license;
+document.getElementById('siteName').textContent=DATA.site.header_name||'';
+// The footer logo leads out to Marshall Street when the sheet gives its address.
+(()=>{const m=DATA.site.marshall,f=document.getElementById('footLogo');if(!m||!f)return;
+ const a=document.createElement('a');a.href=m.url;a.target='_blank';a.rel='noopener';a.setAttribute('aria-label','Marshall Street website');
+ a.appendChild(f.firstElementChild);f.appendChild(a);})();
 applyHash();
 </script>
 </body>
