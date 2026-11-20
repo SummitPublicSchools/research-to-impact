@@ -217,8 +217,8 @@ main{max-width:none;margin:0;padding:0 0 60px}
 .pfact{display:flex;flex-direction:column;color:#fff;padding-right:10px}
 .pstat{font-size:var(--t-stat);font-weight:var(--w-light);line-height:1.05;letter-spacing:-.015em;transition:color .12s}
 /* A "before -> after" stat is drawn as one: the starting figure small and
-   muted, the result large and white, and a bar underneath whose pale part is
-   where the school started and whose orange part is what it gained. Orange is
+   muted, the result large and white, and a bar underneath whose muted part is
+   where the school started and whose bright part is what it gained. Orange is
    a fill here, never text. The bar draws itself when the band scrolls into
    view. A stat that is not two percentages renders as plain text, as before. */
 .pstat.ba{display:flex;align-items:baseline;gap:10px;letter-spacing:0}
@@ -232,7 +232,14 @@ main{max-width:none;margin:0;padding:0 0 60px}
    mostly over in the first third. Each stat starts a beat after the one before
    it (--i is its position). */
 .pbar .pb-to{background:var(--orange);width:var(--from);transition:width 2.2s cubic-bezier(.45,.05,.25,1) calc(.25s + var(--i,0)*.22s)}
-.pbar .pb-from{background:var(--accent);width:var(--from)}
+/* One hue, two strengths. The start used to be light blue beside the orange
+   gain, and two unrelated hues read as two different measures stacked in one
+   bar rather than one number that grew. Hue says "a different thing";
+   strength says "more of the same thing". So the start is the same orange,
+   held back (opaque, because the full-strength bar runs underneath it), and a
+   hairline of the band's own colour marks where the school began, so the two
+   parts stay distinct without relying on colour alone. */
+.pbar .pb-from{background:#916649;background:color-mix(in srgb,var(--orange) 55%,var(--navy));width:var(--from);box-sizing:border-box;border-right:2px solid var(--navy)}
 .proof.in .pbar .pb-to{width:var(--to)}
 a.pfact:hover .pfrom,a.pfact:hover .parr{color:#dfe6ee}
 .plabel{font-size:var(--t-meta);line-height:1.4;color:#dfe6ee;margin-top:12px}
