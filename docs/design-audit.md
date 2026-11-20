@@ -1,9 +1,8 @@
 # Design audit — November 2026
 
-> **Status:** findings 1, 2, 5 and 6 were implemented on 19 November (`template.html`).
-> Finding 3 (full-bleed) and finding 4 (accent colour) are still open — 3 is a
-> structural layout change worth reviewing before it ships, and 4 is best done
-> after it, since the bands in 3 create the places blue belongs.
+> **Status:** findings 1, 2, 3, 5 and 6 were implemented on 19 November
+> (`template.html`). Only finding 4 (accent colour) is still open; the bands
+> from finding 3 are what create the places blue belongs.
 
 Written against the live site, measured rather than eyeballed. The brief was
 "it still feels a little blocky… is there a way for this to feel more modern".
@@ -99,10 +98,21 @@ navy band and the hero photo run to the edges would be more on-brand than what
 is there now, not less — and it is the single change most likely to answer
 "make it feel modern".
 
-**Proposal.** Let the proof band and at least one photographic band run
-edge-to-edge, with the text inside still held to the 1040px measure. Keep the
-cards contained. The page then has rhythm — contained, full-bleed, contained —
-instead of a single column of boxes.
+**Done, 19 November.** `main` no longer carries the max-width; it is full width
+and its children are centred individually, so a block can opt out with `.bleed`
+and span the viewport, with `.bleed-in` putting its content back on the column.
+The homepage proof band and the section hero now run edge to edge.
+
+Deliberately not the usual `width:100vw; margin-left:calc(50% - 50vw)` trick:
+`100vw` includes the scrollbar, so that version overflows by about 15px on any
+page tall enough to scroll — which is all of them.
+
+One regression caught on the way: with the gutter as `padding` on each child,
+blocks that paint their own background (the hero, the closing band) had the
+gutter *inside* the card, so their visible edge sat 22px wider than the toolkit
+cards below. Sizing the box with `width:calc(100% - 44px)` instead puts every
+visible edge back on one line — measured at 135px across all five homepage
+blocks at 1280.
 
 ## 4. The accent colours are almost unused — *canon, with a caveat*
 

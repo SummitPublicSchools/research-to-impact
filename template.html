@@ -102,7 +102,28 @@ header .search{display:flex;align-items:center;gap:var(--s-2);background:rgba(25
 header .search input{background:transparent;border:0;color:#fff;font-family:inherit;font-size:var(--t-meta);width:120px;outline:none}
 header .search input::placeholder{color:#aebccb}
 
-main{max-width:1040px;margin:0 auto;padding:30px 22px 60px}
+/* The page used to be a single 1040px column: main carried the max-width and
+   every block sat inside it, so nothing could ever touch the edge of the
+   screen. That is what made the page read as a stack of boxes.
+   main is now full width and its children are centred individually, which lets
+   a block opt out with .bleed and span the viewport. Doing it this way rather
+   than with the usual `width:100vw; margin-left:calc(50% - 50vw)` trick is
+   deliberate: 100vw includes the scrollbar, so that version overflows by about
+   15px on any desktop page tall enough to scroll — which is all of them. */
+main{max-width:none;margin:0;padding:0 0 60px}
+#app{padding-top:30px}
+/* width:calc(100% - gutter) rather than padding, because several of these
+   blocks paint their own background — the hero and the closing band are cards.
+   With padding the gutter sits inside the card, so the card edge lands 22px
+   further out than the toolkit cards below it. Sizing the box itself keeps
+   every block's visible edge on the same line, which is what it was before
+   main stopped carrying the max-width. */
+#app>*{width:calc(100% - 44px);max-width:996px;margin-left:auto;margin-right:auto}
+/* Higher specificity than the rule above, so no !important is needed. */
+#app>.bleed{width:100%;max-width:none}
+/* Re-constrains the content inside a full-bleed block to the same column, so
+   only the background runs to the edge, never the text. */
+.bleed-in{width:calc(100% - 44px);max-width:996px;margin:0 auto}
 .crumb{font-size:var(--t-label);color:var(--muted);margin-bottom:14px}
 .crumb a:hover{color:var(--navy);text-decoration:underline}
 .eyebrow{font-size:var(--t-label);letter-spacing:.12em;text-transform:uppercase;color:var(--orange);font-weight:var(--w-semi);margin:0 0 10px}
@@ -120,7 +141,7 @@ main{max-width:1040px;margin:0 auto;padding:30px 22px 60px}
    to say. The eyebrow is pale rather than orange because the brand sanctions an
    orange eyebrow only above a navy heading that repeats its meaning, and here
    the eyebrow is the only label there is. */
-.proof{background:var(--navy);border-radius:var(--r-card);padding:26px 30px 28px;margin-top:22px;color:#fff}
+.proof{background:var(--navy);padding:var(--s-8) 0;margin-top:var(--s-6);color:#fff}
 /* An even split rather than three-and-one. Left to auto-fit, four stats become
    three columns plus a stranded fourth between roughly 560 and 1010px. The
    explicit middle step keeps it 4 / 2 / 1. auto-fit above and minmax(0,1fr)
@@ -221,7 +242,8 @@ a.pfact:hover .pgo{transform:translateX(2px)}
 .sechero{position:relative;overflow:hidden;min-height:290px;display:flex;align-items:flex-end;margin-bottom:16px;background:var(--navy)}
 .sechero .shimg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 28%;display:block}
 .sechero::after{content:"";position:absolute;inset:0;background:rgba(33,51,76,.58)}
-.sechero-in{position:relative;z-index:1;padding:30px 34px;max-width:760px}
+.sechero-in{position:relative;z-index:1;width:100%;padding-top:var(--s-8);padding-bottom:var(--s-8)}
+.sechero-in>*{max-width:760px}
 .sechero-in h1{color:#fff;font-size:var(--t-display);margin:0}
 .sechero-sub{font-size:var(--t-body);color:#41505f;max-width:var(--measure);margin:0 0 4px;line-height:1.62}
 .lab .labnote{text-transform:none;letter-spacing:normal;font-weight:var(--w-body);color:var(--muted);margin-left:9px;font-size:var(--t-label)}
@@ -493,7 +515,9 @@ nav.main .nav-div{width:1px;height:16px;background:rgba(255,255,255,.22);margin:
   header #findBtn{padding:8px 11px;max-width:none;margin-left:auto}
   header #findBtn .ftxt{display:none}
   .hero{padding:30px 22px}
-  main{padding:20px 16px 60px}
+  #app{padding-top:20px}
+  #app>*{width:calc(100% - 32px)}
+  .bleed-in{width:calc(100% - 32px)}
   .erow{grid-template-columns:54px 54px 1fr}
   /* The top nav is gone at this width, so the logo's 26px right margin — which
      exists only to hold it off the nav — is dead space, and the header's 22px
@@ -843,9 +867,13 @@ function proofBand(){
    ? `<a class="pfact" href="#" data-go="module:${escAttr(p.to.section)}|${escAttr(p.to.module)}">${inner}</a>`
    : `<div class="pfact">${inner}</div>`;
  };
- return `<section class="proof" aria-label="Results from the field">
-  <div class="eyebrow light">Results from the field</div>
-  <div class="pgrid">${items.map(cell).join('')}</div>
+ // .bleed takes the navy to both edges of the screen; .bleed-in puts the
+ // numbers back on the reading column, so only the colour spans the page.
+ return `<section class="proof bleed" aria-label="Results from the field">
+  <div class="bleed-in">
+   <div class="eyebrow light">Results from the field</div>
+   <div class="pgrid">${items.map(cell).join('')}</div>
+  </div>
  </section>`;
 }
 // "Start here" — three things a visitor with ten minutes can actually do. The
@@ -925,7 +953,7 @@ function section(sec){
  const shtml=stories.length?`<div class="lab">Stories from the field</div><div class="focalgrid">${stories.map(card).join('')}</div><p class="storiesmore"><a href="#" data-go="section:${esc(SS)}">See all stories &amp; spotlights &rarr;</a></p>`:'';
  const availTotal=mods.reduce((n,m)=>n+availCount(sec,m.name),0);
  const hero=s.header_image
-   ? `<div class="sechero"><img class="shimg" src="${escAttr(s.header_image)}" alt="" fetchpriority="high" decoding="async"/><div class="sechero-in"><h1 class="serif">${esc(sec)}</h1></div></div>${s.intro?`<p class="sechero-sub">${esc(s.intro)}</p>`:''}`
+   ? `<div class="sechero bleed"><img class="shimg" src="${escAttr(s.header_image)}" alt="" fetchpriority="high" decoding="async"/><div class="sechero-in bleed-in"><h1 class="serif">${esc(sec)}</h1></div></div>${s.intro?`<p class="sechero-sub">${esc(s.intro)}</p>`:''}`
    : `<div class="section-h"><h1 class="serif">${esc(sec)}</h1>${s.intro?`<p>${esc(s.intro)}</p>`:''}</div>`;
  const modLabel=sec==='Leading Implementation'?'Collections':'Modules';
  const modNote=availTotal===0?`<span class="labnote">resources publishing soon &mdash; check back</span>`:'';
