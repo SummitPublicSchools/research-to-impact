@@ -1391,7 +1391,13 @@ function sFieldToks(v){
  return out;
 }
 /* Where a term appears matters more than how often it appears. */
-const S_FIELDS=[['title',6],['module',4],['section',4],['format',2],['summary',2],['body',1],['why',1],['quote',1]];
+/* who_for is weighted above summary because it is short and curated: every word
+   in it is a role a visitor might use to describe themselves ("instructional
+   coach", "paraeducator", "counselor"), which is vocabulary that appears
+   nowhere else in the sheet. It was left out of this list when the search was
+   rewritten, because the column was empty on all 119 rows and indexing it
+   would have changed nothing. */
+const S_FIELDS=[['title',6],['module',4],['section',4],['who_for',3],['format',2],['summary',2],['body',1],['why',1],['quote',1]];
 const S_K1=1.4, S_B=0.72;   /* BM25 saturation and length normalisation */
 
 function sDoc(get){

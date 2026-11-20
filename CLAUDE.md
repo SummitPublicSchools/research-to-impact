@@ -122,7 +122,11 @@ contains one.
   shows the best-matching module's intro **straight from the sheet**, not a paraphrase.
   `tools/search-eval.mjs` holds 40 labelled queries with a never-tuned-on holdout split;
   CI runs the content-independent invariant, ranking floors need a live build and
-  `--score`. See `docs/search.md`.
+  `--score`. **A field absent from `S_FIELDS` is not searched at all** — `who_for` sat
+  unindexed for exactly this reason, so filling the column would have done nothing until
+  it was added. Keep `who_for` filled on new resources: it carries the role words
+  ("instructional coach", "paraeducator", "counselor") that appear nowhere else in the
+  sheet. See `docs/search.md`.
 - **Gated email ask**: `gated=TRUE` shows a skippable HubSpot email prompt (a harmless
   placeholder until `hubspot_portal_id` / `hubspot_form_id` are set on the Site tab).
 - **Lists tab + guardrails**: the `Lists` tab centralizes every dropdown's values; `Guardrails.gs`

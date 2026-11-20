@@ -9,8 +9,11 @@ Started 19 November 2026, from Greg's list and Stephanie Lassalle's review.
 
 ## 1. Design audit — "it still feels a little blocky"
 
-**Status:** audit written, see [`design-audit.md`](design-audit.md). Nothing
-implemented yet.
+**Status:** done 19 November. All six findings shipped — type scale and
+measure (`10924d3`), full-bleed bands (`94c9f31`), accent colour (`264789b`),
+plus the spacing/radius scales and the photo treatment in the same pass. The
+before/after measurements are in
+[`design-audit.md` § Implemented on 19 November](design-audit.md).
 
 Headline: the styling is fine, there is no *system* under it — 6 corner radii,
 12 gaps, 38 paddings and 18 type size/weight pairs on the homepage alone — and
@@ -131,6 +134,35 @@ free search covers most of the same ground.
 
 ---
 
+## 8. who_for — filled and indexed
+
+**Status:** done 20 November (`c204788`, PR #55). All 119 published resources
+carry a one-line audience, written through the bridge and logged to `BridgeLog`.
+
+The trap worth remembering: **the column was not in the search index.** It was
+left out of `S_FIELDS` when search was rewritten, because it was empty on all
+119 rows and indexing an empty column changes nothing. Filling it would have
+been 119 cells of busywork without the one-line code change that shipped
+alongside. A field absent from `S_FIELDS` is invisible to search, and nothing
+said so — `CLAUDE.md`, `docs/search.md`, the code comment and the editor guide
+all say it now.
+
+Measured against the live sheet: `paraeducator`, `interventionist` and `for
+deans` each went from **nothing** to the right resource; "I'm an instructional
+coach" stopped returning a teacher tool; "I am a district leader" tightened from
+36 results to 7. The labelled eval is unchanged at 24/25 and 14/15.
+
+**Note on reach:** `who_for` renders only on *featured* cards, and full-collection
+cards skip it — so **60 of the 119 lines display**; the other 59 are searchable
+but not shown. Putting an audience line on compact list rows would add a third
+line to lists that are currently scannable, so it was left alone.
+
+**Keep it filled on new resources.** It carries the role words — "instructional
+coach", "paraeducator", "counselor" — that appear nowhere else in the sheet, so
+without it those searches find nothing.
+
+---
+
 ## From Stephanie's review, 19 November
 
 ## 4. A button to continue to the next module
@@ -158,7 +190,8 @@ Co-Planning / Overview walks the real sequence.
 
 ## 5. Photos on module pages
 
-**Status:** built 19 November (`1b07fa1`). The 34 rows are not filled yet.
+**Status:** built 19 November (`1b07fa1`). **8 of 34 rows filled**, deliberately
+— the reasoning is below, and the constraint is photos, not plumbing.
 
 This was the answer to Stephanie's "Where did I miss adding photos to the module
 or landing pages? I'm clearly missing something that I can do!" — she had not
