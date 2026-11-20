@@ -228,7 +228,11 @@ main{max-width:none;margin:0;padding:0 0 60px}
 .pto{font-size:clamp(34px,4.2vw,48px);letter-spacing:-.02em;line-height:1}
 .pbar{position:relative;display:block;height:6px;margin-top:14px;background:rgba(255,255,255,.14);overflow:hidden}
 .pbar i{position:absolute;left:0;top:0;bottom:0;display:block}
-.pbar .pb-to{background:var(--orange);width:var(--from);transition:width .9s cubic-bezier(.2,.7,.2,1) .15s}
+/* Slow enough to watch: 2.2s on a curve that starts gently, travels at a
+   steady pace and settles, so the growth is visible the whole way rather than
+   mostly over in the first third. Each stat starts a beat after the one before
+   it (--i is its position). */
+.pbar .pb-to{background:var(--orange);width:var(--from);transition:width 2.2s cubic-bezier(.45,.05,.25,1) calc(.25s + var(--i,0)*.22s)}
 .pbar .pb-from{background:var(--accent);width:var(--from)}
 .proof.in .pbar .pb-to{width:var(--to)}
 a.pfact:hover .pfrom,a.pfact:hover .parr{color:#dfe6ee}
@@ -1078,7 +1082,7 @@ function proofReveal(){
  const io=new IntersectionObserver(es=>{if(es.some(e=>e.isIntersecting)){p.classList.add('in');io.disconnect();}},{threshold:.35});
  io.observe(p);
  // Belt and braces: never leave the bars half drawn if the observer stays silent.
- setTimeout(()=>p.classList.add('in'),4000);
+ setTimeout(()=>p.classList.add('in'),6000);
 }
 // The outcome numbers under the hero. Everything here comes from the sheet
 // (indexed Site keys, read in build.js); with none defined this renders nothing
@@ -1087,7 +1091,7 @@ function proofReveal(){
 function proofBand(){
  const items=(DATA.proof||[]);
  if(items.length<2) return '';
- const cell=p=>{
+ const cell=(p,i)=>{
   // Linked only when build.js resolved the source id to a published resource,
   // so this can never render a dead deep link. The arrow sits on the source
   // name, where it reads as "go to this school's practice".
@@ -1100,7 +1104,7 @@ function proofBand(){
   const ba=String(p.stat||'').match(/^\s*(\d+(?:\.\d+)?)\s*%\s*(?:\u2192|->|to)\s*(\d+(?:\.\d+)?)\s*%\s*$/i);
   const ok=ba&&+ba[1]<=100&&+ba[2]<=100;
   const stat=ok
-   ? `<span class="pstat ba" aria-label="${escAttr(ba[1])}% to ${escAttr(ba[2])}%"><span class="pfrom" aria-hidden="true">${esc(ba[1])}%</span><span class="parr" aria-hidden="true">&rarr;</span><span class="pto" aria-hidden="true">${esc(ba[2])}%</span></span><span class="pbar" aria-hidden="true" style="--from:${Math.min(+ba[1],+ba[2])}%;--to:${Math.max(+ba[1],+ba[2])}%"><i class="pb-to"></i><i class="pb-from"></i></span>`
+   ? `<span class="pstat ba" aria-label="${escAttr(ba[1])}% to ${escAttr(ba[2])}%"><span class="pfrom" aria-hidden="true">${esc(ba[1])}%</span><span class="parr" aria-hidden="true">&rarr;</span><span class="pto" aria-hidden="true">${esc(ba[2])}%</span></span><span class="pbar" aria-hidden="true" style="--from:${Math.min(+ba[1],+ba[2])}%;--to:${Math.max(+ba[1],+ba[2])}%;--i:${i}"><i class="pb-to"></i><i class="pb-from"></i></span>`
    : `<span class="pstat">${esc(p.stat)}</span>`;
   const inner=`${stat}<span class="plabel">${esc(p.label)}</span>${src}`;
   return linked
