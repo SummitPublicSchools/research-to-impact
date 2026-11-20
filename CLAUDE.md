@@ -104,6 +104,11 @@ contains one.
   opening in a new tab and only one link ever warned. On failure the original value is left
   alone and the build warns, naming the URL. The lookup only fires for links that need it, so
   a fixtures build makes no network calls; a live build costs a few seconds.
+- **Intro videos show a still, not a live player** (`fetchVimeoPosters` in `build.js`,
+  `videoBlock` in `template.html`). A live build asks the same oEmbed endpoint for each
+  section/module intro video's `thumbnail_url` and duration; the page shows that still with a
+  play button and only loads the Vimeo iframe on click. Fixtures builds skip the lookup, and a
+  video with no still falls back to a navy panel with the same button — never a black box.
 - **Search is ranked retrieval (BM25F) in the browser** — no server, no API, no cost,
   nothing that can be down, and it cannot invent a resource. It replaced a strict-AND
   keyword filter that returned **nothing for 17 of 18 natural-language questions** while
