@@ -170,13 +170,12 @@ main{max-width:none;margin:0;padding:0 0 60px}
 .hero .hkits a{color:#41505f}
 .hero .hkits a:hover{color:var(--navy);text-decoration:underline;text-underline-offset:4px}
 .hero .himg{grid-column:3/5;position:relative;min-height:420px;overflow:hidden}
-.hero .himg img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:60% 62%;display:block}
+.hero .himg img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:88% 40%;display:block}
 .hero+.proof{margin-top:0}
 @media(max-width:1200px){#app>.hero{grid-template-columns:minmax(16px,1fr) minmax(0,510px) minmax(0,486px) minmax(16px,1fr)}}
 @media(max-width:899px){
   #app>.hero{grid-template-columns:16px minmax(0,1fr) 16px}
   .hero .himg{grid-column:1/-1;order:-1;min-height:0;height:min(56vw,420px)}
-  .hero .himg img{object-position:55% 70%}
   .hero .htext{grid-column:2;padding:28px 0 32px}
   .hero .hkits{margin-top:24px}
 }
@@ -1081,7 +1080,7 @@ function home(){
  const kits=DATA.sections.filter(s=>s.homepage).map(s=>`<a href="#" data-go="section:${escAttr(s.name)}">${esc(s.name)}</a>`).join('');
  return `<section class="hero bleed"><div class="htext"><div class="eyebrow">${esc(site.tagline)}</div><h1 class="serif">${esc(site.hero_headline)}</h1><p class="hsub">${esc(site.hero_subhead)}</p>
   <div class="hacts"><button class="btn" data-go="section:Co-Planning">${esc(site.cta)}</button>${DATA.proof&&DATA.proof.length>1?'<a class="hlink" href="#" data-scroll="proof">See the results</a>':''}</div>
-  ${kits?`<nav class="hkits" aria-label="Toolkits">${kits}</nav>`:''}</div><div class="himg"><img src="assets/practices/hero-home.jpg" width="1200" height="800" alt="" fetchpriority="high"/></div></section>
+  ${kits?`<nav class="hkits" aria-label="Toolkits">${kits}</nav>`:''}</div><div class="himg"><img src="assets/practices/hero-home-students.jpg" width="1400" height="1034" alt="" fetchpriority="high"/></div></section>
  ${proofBand()}
  <div class="cards">${cards}</div>
  ${startHere()}
