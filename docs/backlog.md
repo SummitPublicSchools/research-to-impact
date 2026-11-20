@@ -66,19 +66,49 @@ never pulled into the design system, which is a separate and minor gap.)
 
 ## 3. Search audit, and "Ask the Resources"
 
-**Status:** not started.
+**Status:** search audited and fixed 19 November (`0f1430c`). "Ask the
+Resources" is untouched and still a placeholder.
 
-Two different things behind one button:
+### What the audit found
 
-- **Search is real and live** (`searchResources` in `template.html`). Worth an
-  audit: does it reach titles, summaries, `who_for`, `body`, module and section
-  names? Does it rank sensibly? Does it find a resource by the practice it
-  belongs to?
-- **"Ask the Resources" is a placeholder.** It carries an "Experimental ·
-  coming soon" badge, the send button is deliberately disabled, and the panel
-  says an answer "is on the way". There is no answer quality to evaluate yet —
-  building it is a separate project, and it needs a decision about what
-  generates the answer.
+Search read `title`, `summary`, `section`, `module`, `format` and `who_for`. It
+did **not** read `body`, `why` or `quote` — which is where the narrative, the
+"why it works" bullets and the field outcomes live, and therefore where the
+school names and the numbers are.
+
+The sharpest version: the homepage proof band names four schools, eight
+resources mention them, and **searching any of the four returned nothing.**
+
+| Query | was | now |
+|---|---|---|
+| Ednovate | 0 | 1 |
+| STEM Preparatory Schools | 0 | 1 |
+| Rosenwald Collegiate Academy | 0 | 1 |
+| Simon Gratz High School | 0 | 5 |
+| IEP | 0 | 1 |
+| mastery | 5 | 10 |
+| graduation | 1 | 5 |
+
+Separately **"coplanning" returned nothing at all**, on a site whose flagship
+practice is hyphenated. Punctuation is now stripped from both sides.
+
+And a ranking flaw: substring matching let "pass" match "Passages" in a title
+and outrank the resource whose quote reads "the course pass rate increased from
+79% to 97%". A whole-phrase hit now outscores loose single terms.
+
+The list also capped at 40 while the count showed the true total, so a search
+could say 51 and show 40 with nothing to explain the gap.
+
+### Still open: "Ask the Resources"
+
+A labelled placeholder — "Experimental · coming soon" badge, disabled send
+button, and a panel that says an answer "is on the way". There is no answer
+quality to evaluate; building it is its own project and needs a decision about
+what generates the answer.
+
+One thing worth deciding sooner: **the mock answer occupies most of the panel**,
+pushing the search results that do work below the fold. That is a product call
+about whether to tease the feature, not a bug.
 
 ---
 
