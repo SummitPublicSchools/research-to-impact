@@ -34,7 +34,10 @@ var MAX_OPS = 60;            // refuse oversized batches
 // running, which is the only way to tell a stale copy from a current one.
 // 1.1.0 — append may write a tab's own key column (so new Site settings can be
 //         created), and refuses a row that has no key at all.
-var BRIDGE_VERSION = '1.1.0';
+// 1.2.0 — module_image is writable. The column was added to the Modules tab on
+//         19 Nov so module pages can carry a photo; without this the bridge
+//         refuses it and the 34 rows have to be filled by hand.
+var BRIDGE_VERSION = '1.2.0';
 
 // Tabs the bridge may write to. `Files` is intentionally absent.
 var ALLOWED_TABS = [
@@ -54,7 +57,7 @@ var ALLOWED_COLUMNS = [
   'section_name', 'header_label', 'tier', 'order', 'nav_visible',
   'landing_intro', 'landing_video', 'header_image',
   // Modules tab
-  'section', 'module_order', 'module_name', 'module_video',
+  'section', 'module_order', 'module_name', 'module_video', 'module_image',
   // Site tab is key/value
   'value'
 ];

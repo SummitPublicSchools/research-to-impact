@@ -154,6 +154,24 @@ the **Site** tab. Until then a harmless placeholder shows and downloads still wo
 
 ---
 
+## Module photos and intro videos
+
+A module row can carry **one** piece of media above its resources:
+
+| Column | Holds |
+|---|---|
+| `module_image` | a photo — a Drive link, or a path like `practices/hero-coplanning.jpg` |
+| `module_video` | a Vimeo link |
+
+**If both are filled the video wins** and the photo is not shown. They sit in
+the same place at the same size, and stacking two large media blocks pushes the
+resources off the screen. Fill one.
+
+Photos render hard-edged at 560px wide, 16:9, cropped to fill — so a landscape
+photo with its subject near the middle works best. Portraits get cropped badly.
+
+---
+
 ## Sections tab
 
 | Column | What it does | Allowed values |

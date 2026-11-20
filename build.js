@@ -293,6 +293,12 @@ async function main() {
   const modRows = (await loadTab(MODULES_TAB, 'module_name')).map(m => ({
     section: canon(m.section), order: num(m.module_order),
     name: (m.module_name || '').trim(), intro: m.module_intro || '',
+    // module_image was added to the Modules tab on 19 Nov. Until then a module
+    // page could not carry a photo at all, which is what Stephanie was looking
+    // for when she asked where she had missed adding them — she had not; there
+    // was no field. Resolved through imageUrl() like every other image, so a
+    // Drive link or a bare assets/ path both work.
+    image: imageUrl((m.module_image || '').trim()),
     video: videoUrl(m.module_video, `Modules tab, module "${(m.module_name || '').trim()}" module_video`),
   })).filter(m => m.name);
   const modulesBySection = group(modRows, m => m.section);
@@ -522,7 +528,7 @@ async function main() {
   const sections = pageSections.map(s => ({
     name: s.name, intro: s.intro, header_image: s.header_image,
     homepage: HOMEPAGE_TIERS.includes(s.tier), video: s.landing_video,
-    modules: s.modules.map(m => ({ name: m.name, order: m.order, intro: m.intro, video: m.video })),
+    modules: s.modules.map(m => ({ name: m.name, order: m.order, intro: m.intro, image: m.image, video: m.video })),
   }));
   // ----- Homepage proof band -----
   // Four field outcomes under the hero. Read from indexed Site keys, the same
