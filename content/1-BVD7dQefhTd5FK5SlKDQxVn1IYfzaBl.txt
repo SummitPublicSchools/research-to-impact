@@ -1,0 +1,185 @@
+Using Exit Tickets to Drive Mastery
+This tool helps educators shift from checking off assignments to diagnosing and driving students
+toward deeper levels of understanding and skill development.
+
+Step 1. Completion Inventory
+Goal: Surface barriers to completion before diving into mastery.
+1. Inventory the exit tickets at the start of your planning meeting to find missing or
+incomplete work. Organize your inventory using a table or list, like the one below.
+2. Identify patterns and assign immediate “completion actions” so you can focus on
+mastery in step 2. One such completion action might be to quickly write the names of
+students missing the assignment on blank exit tickets for future completion.
+STUDENT
+NAME
+
+ASSIGNMENT
+TURNED IN?
+Y/N
+
+IF NO, WHY NOT?
+(e.g., missing notes,
+skill, motivation)
+
+NEXT STEPS TO SECURE
+WORK
+(e.g., make-up, peer support)
+
+Step 2. Mastery Rubric
+Goal: Move beyond task completion and “right/wrong” to growth in understanding and skill.
+1. Define criteria for success. Choose one or two criteria based on focal standards from
+instruction or consider priority student groups.
+2. For the selected criteria, decide what emerging or developing skills look like. What does
+it mean to meet expectations? What demonstrates mastery? Make note of these
+decisions to apply them to the exit tickets. This can be done with a formal rubric, like the
+examples below, or informally, via a quick sort using descriptions on sticky-notes.
+3. Score each student’s work against your criteria for success. If scoring a large number,
+consider a sampling approach to identify trends and patterns for subgroups.
+CRITERION
+
+EMERGING (1)
+
+APPROACHING (2)
+
+MEETING (3)
+
+MASTERING (4)
+
+Example:
+Accuracy of
+Content
+Is core concept
+correctly applied?
+
+Shows little or
+partial
+understanding;
+major errors or
+misconceptions.
+
+Understands most
+ideas; minor gaps or
+inaccuracies
+remain.
+
+Correctly applies
+concepts;
+explanations are
+complete.
+
+Goes beyond:
+connects ideas to
+new contexts or
+integrates multiple
+standards.
+
+The thesis states
+the topic but lacks
+a clear claim.
+
+Claim is present but
+too broad or
+unsupported.
+
+Clear, arguable
+claim tied to
+evidence in the
+text.
+
+Claim is nuanced,
+anticipates
+counterarguments
+and previews
+supporting points.
+
+Example: Thesis
+Statement Task
+
+Step 3. Action & Decision Grid
+Goal: Link data to targeted instructional moves.
+1. Plan follow-up for the group of students with missing and incomplete exit tickets.
+2. Plan follow-up based on mastery of content. Follow-up activities may be designed for the
+whole group or tailored to individual students based on their performance on evaluation
+criteria. The tables below provide examples for each type of response.
+
+Group Response Example
+STUDENTS AT
+1 AND 2
+
+INSTRUCTIONAL RESPONSE
+
+GROUP TARGET FOR
+NEXT CYCLE
+
+> 50%
+
+Whole-group mini-lesson on shared
+misconceptions, anchor chart
+
+Move most students to
+“Meeting” or above
+
+25–50%
+
+Small-group workshop, scaffolded organizer,
+peer-review stations
+
+Move the majority to the
+“Meeting” level
+
+< 25%
+
+Small-group or 1:1 reteach for students at
+1–2; extension tasks for students at 3–4 (e.g.,
+student presentations, choice tasks)
+
+Move remaining students
+to “Meeting” level; deepen
+mastery for the rest
+
+Individual Follow-Up Examples
+CRITERIA
+
+EMERGING (1)
+
+APPROACHING (2)
+
+MEETING (3)
+
+MASTERING (4)
+
+Example:
+Accuracy of
+Content
+Criteria
+
+One-on-one
+targeted
+feedback
+session
+
+Exemplar- based
+revisions and
+focused practice
+
+Extension
+tasks or
+challenge
+prompts
+
+Peer coaching
+or new
+application
+projects
+
+How to Implement in Your Team Meetings
+1. Pre-work (48 hrs ahead): Share lesson objectives, exit-ticket prompts, and this tool.
+2. Inventory (5 min): Fill in the Completion Inventory.
+3. Score & Discuss (15 min): Apply the Mastery Rubric to a sample or all student work.
+4. Data Conversation (10 min): Note distributions across levels; consult the Action Grid.
+5. Targeted Planning (10 min): Define next-cycle instructional moves and assign owners.
+6. Commit (5 min): Record action steps in your shared agenda.
+By combining completion checks with clear mastery measures, your team can diagnose barriers
+and design instruction that drives every student toward real understanding.
+This tool was developed by Marshall CoLab in collaboration with educators across IGNITE. It reflects adaptations
+and innovations from the field and is part of the growing Research to Impact Practice toolkit, a set of tools
+developed as IGNITE Network resources, to advance outcomes for historically underserved students.

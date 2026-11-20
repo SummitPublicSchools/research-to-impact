@@ -1,0 +1,893 @@
+Educational Equity in
+Times of Instability
+
+Fall 2024
+Educational Equity in Times of Instability
+
+1
+
+Table of Contents
+Introduction
+
+3
+
+Closing Year 1, Entering Year 2
+
+5
+
+Lessons of the Second Year
+
+7
+
+Learning from the IHI Model
+
+21
+
+Looking Ahead
+
+25
+
+Educational Equity in Times of Instability
+
+2
+
+Introduction
+This paper is the second in a series documenting the transformative journey of the Networked
+Improvement Community for Students with Disabilities (NIC). Made possible by the Gates Foundation
+and led by Marshall Street, the NIC launched in 2020 to systematically address the ways our public
+education system serves Black and Latinx students with disabilities experiencing poverty. A three-year
+initiative across 10 public charter districts serving 75,000 students, the NIC’s work was divided into
+three phases: Getting Ready to Launch, Implementing Improvement Plans, and Sustaining and
+Expanding Impact. The first phase, Getting Ready to Launch, is detailed in Beyond Trust Falls:
+Launching a Network of Charter Districts During a Global Health Crisis.
+
+Phase 2: Implementing Improvement Plans
+The 2021–22 school year, Year 2 of the initiative, marked the beginning of the second phase,
+Implementing Improvement Plans. Ultimately, this phase was about equity, focus, alignment,
+reformation, and a back-to-basics emphasis: Equity, because the network was — at its core —
+about closing equity gaps for our most vulnerable
+students; Focus, because in the midst of great
+global tumult, driving toward a clarity of focus
+was more important than ever; Alignment, since
+anything that did not align to the most
+fundamental strategic priorities of schools was
+understandably deprioritized in the 2021–22
+school year; Reformation, because of the
+incredible faculty turnover that occurred before
+and during the school year across the nation and
+across the NIC; and an emphasis on the Basics,
+because the fundamentals set the stage for the
+quick wins required for lasting change to
+take root.
+
+Educational Equity in Times of Instability
+
+Our network aim: To make
+dramatic gains in the
+learning environments,
+experiences, and outcomes
+of Black and Latinx students
+with disabilities
+experiencing poverty.
+
+3
+
+In this paper, we revisit the context of moving from the first to the second year of the NIC, particularly
+in the midst of a global pandemic. That context includes the foundational goals of the network,
+iterations to those goals in light of pandemic-related upheaval, and approaches to sustaining the work
+of equity despite unprecedented educator attrition. Then we unpack key takeaways from the
+second year:
+1.
+2.
+3.
+4.
+
+That distributed leadership and sustainable systems are necessary to overcome challenges
+presented by staff turnover
+How equity work requires intensive focus, and finding ways to focus participants is one of the
+core jobs of NIC leadership
+The important steps of building, sustaining, and continually improving flexible collaboration
+structures to promote learning, sharing, and planning across the NIC
+Methods for effectively organizing and documenting improvement efforts in education,
+particularly given the lessons learned from the Institute for Healthcare Improvement (IHI) model
+
+Finally, we describe the development of hypotheses and strategic plans of NIC leadership moving
+from Year 2 to Year 3. As in our first paper, we will share our theory of action heading into the final year
+of the NIC so that improvement leaders can learn from our successes and our missteps.
+
+Our Priorities for the Road Ahead
+
+Educational Equity in Times of Instability
+
+4
+
+Closing Year 1, Entering Year 2
+The first year of the NIC was defined by the global upheaval of the COVID-19 pandemic. As schools
+across the United States suspended in-person learning in March of 2020, the NIC pivoted from an
+original set of top-line measurable outcomes to a set of four process-oriented, qualitative goals:
+❖
+❖
+❖
+❖
+
+Build relationships
+Build trust
+Build capacity
+Build credibility
+
+This intentional shift would prove, by the end of the NIC’s first year, both essential, given the daily
+uncertainty of the pandemic, and fraught, given the flexible service-orientation required of technical
+assistance providers as a result. We, the NIC’s leaders, reoriented central network assistance for
+schools and practitioners across three support areas:
+
+●
+
+Process support (led by Marshall Street and including continuous improvement,
+professional development, coaching, and coordination among all support providers),
+
+●
+
+Content support (coordinated by Marshall Street and including Catalyst:Ed’s support
+engaging Genevieve Thomas as a Special Education expert-in-residence), and
+
+●
+
+Data support (coordinated by Marshall Street and including RTI, SRI, and NIRN at the
+University of North Carolina).
+
+The shift from a daily focus on strategic outcomes to an orientation toward process — meeting school
+faculties where they were at — was supported by the Gates Foundation, who recognized the need to
+respond to the unprecedented circumstances upending the work of educators across the network,
+and across the globe, in the 2020–21 school year. The nimble and context-rich nature of improvement
+science proved to be a natural fit for the perpetually-changing circumstances of COVID, and the tools
+of improvement, along with just-in-time content and data support, were helpful approaches to defining
+and meeting daily needs for students. Although school organizations across the network
+overwhelmingly expressed appreciation for the shift in focus, the shift represented a long-term risk.
+
+Educational Equity in Times of Instability
+
+5
+
+That risk had been understood by leaders at Marshall Street and the Gates Foundation when defining
+the 2020–21 strategy, and indeed, it became the reality entering the second year of the NIC. The
+reorientation to a set of process outcomes and shift from a proactive leadership stance to a
+responsive coaching stance had changed the organizational dynamic between NIC leaders,
+participants, and technical support providers. For Year 2 to be successful, a reset would be critical,
+this time, shifting away from the responsive needs of COVID, back to the proactive equity-focused
+work of the three-year initiative to make dramatic gains for Black and Latinx students with disabilities
+experiencing poverty.
+The NIC had to return to its original set of
+top-line measurable outcomes —
+including measurable progress toward
+ambitious aims, positive partner
+experiences, replicability through tools
+and resources that form a blueprint for new
+improvement efforts, long-term spread
+and scale of improvements, and
+compelling narratives to propel the field’s
+understanding of improvement efforts. This
+return to the NIC’s original orientation was
+crucial, because the NIC’s priority student
+population, already one of the most
+underserved by the entire system of public
+education in the United States, had been
+further disadvantaged by the educational
+policies guiding our national reaction to the
+COVID-19 pandemic.1
+The repositioning was difficult. CMO leaders had to recommit themselves to the equity-focused work of
+the three-year grant. School leaders were pressed to reopen schools for in-person learning while
+dedicating time to the work of innovation for their Black and Latinx students with disabilities
+experiencing poverty. Improvement coaches had to make the shift from responsive coaching to
+facilitative and directive coaching focused on a set of defined goals and deliverables with set timelines.
+NIC leadership had to rebuild the learning infrastructure and network measurement tools for progress
+monitoring after more than a year of highly contextual support that was nearly impossible to measure in
+quantitative terms. Collectively, we had to press the restart button and rebuild our strategy for
+individual school support, as well as for network systems and structures, and — most importantly —
+reunite the community around the vision that brought the NIC together in the first place.
+
+1
+
+Education in a Pandemic: The Disparate Impacts of COVID-19 on America’s Students.” U.S. Department of Education.
+https://www2.ed.gov/about/offices/list/ocr/docs/20210608-impacts-of-covid19.pdf
+
+Educational Equity in Times of Instability
+
+6
+
+Lessons of the Second Year
+In the 2021–22 school year, we were able to see the impacts of the process orientation of the previous
+year. Most importantly, the NIC met its four process goals:
+●
+
+Relationships were formed. Every NIC school had a CMO support team, led by Marshall
+Street, that included data liaisons from the network’s research team and facilitators from
+SWIFT Education Center. This support team provided technical assistance, adding value to
+school-based faculty in the turbulent first year of the pandemic.
+
+●
+
+Trust among technical assistance providers and network participants was established —
+perhaps more so than could be expected under any circumstances, never mind those
+created by the crucible of daily chaos caused by the pandemic. Educators in the network
+reported heightened trust not only with technical assistance providers but also with staff at
+the Gates Foundation.
+
+●
+
+Capacity for leading improvement initiatives was built into the work of meeting the acute
+needs of partner schools. While Marshall did not focus on the formal language and
+processes of improvement science during the 2020–21 school year, coaching
+conversations regularly integrated the mindsets and tools of improvement: mindsets for
+developing and testing hypotheses, using data to validate assumptions, connecting
+established research and best practices as the first step in meeting student needs, and
+including students in creating motivating solutions. This mindset work was situated within
+rich historical data, captured in data decks that included root cause analyses along with
+both qualitative and quantitative information about the challenges facing students in the
+priority population. Schools were implementing Plan-Do-Study-Act (PDSA) cycles in the
+lightest possible ways: PDSAs were treated as frameworks for coaching conversations and
+problem-solving, but not as templates to be thoroughly completed on weekly cycles.
+
+●
+
+In demonstrating care for our network participants and creating value in a time of
+extraordinary duress, the funder and technical assistance providers were able to build
+credibility as leaders of the NIC.
+
+Educational Equity in Times of Instability
+
+7
+
+Program Officer Vanessa Murrieta of the Gates Foundation welcomes NIC participants to our first Learning Tour in
+Los Angeles, CA.
+
+Despite our ultimate achievement of these goals, the NIC’s second year presented significant
+challenges and offered essential lessons for all its participants. Key themes emerged from the work:
+
+●
+
+The importance of building sustainable systems and processes in response to
+unprecedented attrition;
+
+●
+
+How equity work requires intensive focus on mission and vision, and the network leaders’
+role in that effort;
+
+●
+
+The important steps of building, sustaining, and continually improving flexible collaboration
+structures to promote learning, sharing, and planning across the NIC;
+
+●
+
+The value of the IHI model to improvement efforts in education, particularly with regard to
+organization and documentation.
+
+Educational Equity in Times of Instability
+
+8
+
+Sustainability Despite Attrition
+The conditions going into the second year of educating students in a global pandemic naturally
+took a great toll on educators across the NIC. The 2021–22 school year represented one of the
+largest reshufflings of teachers and school leaders our nation has ever seen. Across the NIC, there
+was not a single quarter in which key practitioner roles were filled at all ten of the school
+organizations. In the fall of 2021, half of the school organizations simultaneously were in the midst
+of Project Sponsor transitions, and a similar trend occurred with Data Leads.
+
+Project Sponsor Transitions Over Time
+
+Data Lead Transitions Over Time
+
+Educational Equity in Times of Instability
+
+9
+
+Principals across the network reported that teachers were quitting without notice or were failing to
+show up for work entirely. Mental health issues for students and faculty skyrocketed. School closures
+continued throughout the 2021–22 school year, particularly with the Omicron variant rippling across
+the nation in the winter months.
+With this turnover, the big bet of Year 1 — to focus on building relationships, trust, capacity, and
+credibility — hit its most severe snag. We were reminded that relationships are not built among
+institutions but among individuals. Trust is not developed between organizations but between people.
+Capacity that resides in an individual departs along with that individual. And credibility does not
+transfer with a role. All of these things grow over time and among humans working together, solving
+together, communing together, in shared pursuit and in the best interests of students.
+As a result, in Year 2 the NIC set out to create durable systems and ways of working that could be
+sustained outside of individual relationships and withstand turnover on teams. In no way did
+such an approach minimize the value of relationships; indeed, the systems needed to facilitate even
+deeper and broader connections, shared ownership, and aim-oriented behaviors. However, the
+challenges posed by attrition demonstrated the need for network leadership to institutionalize systems
+across the NIC focused on building capacity at multiple levels within school organizations. Not only
+would such a move prove beneficial for the sustainability of the effort in schools, but it would also set
+the network up for greater opportunities to spread and scale emerging best practices.
+Additionally, network leadership intentionally
+began inviting teachers and assistant principals,
+particularly general educators and leadership
+uninvolved in special education programming
+and services, to network events and coaching
+sessions. The engagement of school and
+administrative personnel beyond the core roles
+of the NIC became a major priority in the second
+year and one that demonstrated great promise
+going into the third year of the NIC, as the
+improvement teams at many of the
+CMOs expanded.
+
+Educational Equity in Times of Instability
+
+“In Year 2 the NIC set out to
+create durable systems and
+ways of working that could
+be sustained outside of
+individual relationships and
+withstand turnover
+on teams.”
+
+10
+
+Focus on Mission and Vision
+The mass attrition of 2021, and into 2022, destabilized the entire public education system. In many
+ways, the NIC started over in its second year. As we restarted the network, it was helpful to boil the
+NIC’s efforts down to their essence. Repetition of the essential qualities of our work proved a
+beneficial approach to onboarding new members to the effort, reforming teams, and reestablishing our
+various roles as network leaders.
+
+In nearly every conversation, call, and event, we reiterated the purpose of the work: to make dramatic
+gains in the learning environments, experiences, and outcomes of Black and Latinx students
+with disabilities experiencing poverty. Uniformly, new and returning members of the effort were
+galvanized and inspired by this vision — an inherently improvement-oriented vision. Network members
+discussed targeted universalism and wrestled with their own assumptions regarding the essence of
+equity work. Does working toward educational equity necessarily distract from the work of supporting
+all students? This question was never more relevant than in a time of unprecedented need, in which
+schools were challenged day-to-day by food service, staffing, attendance, funding, and safety
+protocols. Regularly the news media and educators referenced Maslow’s Hierarchy of Needs, the
+implication being that the basic foundation of educational services was required to be established
+before doing the important but ultimately advanced work of solving the challenges facing the most
+systematically disadvantaged students. Targeted universalism provides a framework for approaching
+issues of equity within the context of widespread need, and ultimately animated members of the NIC.
+
+Community members pose together outside of a Los Angeles school during the March 2022 Learning Tour.
+Educational Equity in Times of Instability
+
+11
+
+Returning to the data, which demonstrate the macro educational trends at play in the 10 public
+districts in the network — trends that highlight how students at the intersection of historical
+disadvantage by race, class, and ability status exhibit unique and intersecting needs — provided a
+clear and measurable starting place for our work together. Encouraging storytelling and the
+introduction of the voices of young people to the work itself — a trend that would continue throughout
+the network’s existence — brought heart to our network collaborations and contextualized the data. In
+network structures, partners were encouraged to share stories of their work, not only of triumphs but
+also of struggles. Holding the space for both conversations of data and discussions of experience had
+the effect of mobilizing both the head and the heart, or what social psychologist Jonathan Haidt refers
+to as the “elephant and the rider.”
+In sum, the reformation of the network was a return to the essentials. It was a return to equity as the
+primary, rather than a secondary, challenge of educational excellence. It was a return to targeted
+universalism as the foundation for improvement within educational settings, and to the effective
+implementation of both quantitative and qualitative measures to share stories and guide the work of
+increasing efficiency and effectiveness in school organizations.
+Beyond the network restart, school leaders
+needed to simplify their efforts within their
+charter districts. One of the most successful
+“In sum, the reformation of
+methods for doing so involved explicitly tying the
+the network was a return to
+efforts for students in the NIC’s target population
+the essentials. It was a return
+to top-line strategic priorities for the school
+to equity as the primary,
+organization. STEM Preparatory Schools in Los
+Angeles was a model of elevating the equity
+rather than a secondary,
+work central to their NIC involvement to a
+challenge of educational
+top-three network-wide priority. STRIVE Prep
+excellence.”
+(now Rocky Mountain Prep) in Denver did the
+same, taking advantage of leadership shifts to
+align the work of the NIC with the CMO’s
+top-line priorities. Green Dot Public Schools in
+Los Angeles likewise engaged senior leadership to elevate the equity work happening in special
+education, and thereby de-silo the work to bridge efforts across general education and special
+education — an important step in solving the structural barriers to equity-focused improvement
+initiatives for students with disabilities. For more on the powerful work of network leaders who ensured
+that the equity work of the NIC was explicitly part of the strategic priorities of their school
+organizations, see this presentation from 2023’s Carnegie Conference.
+
+Educational Equity in Times of Instability
+
+12
+
+By strategically coupling the efforts for Black and Latinx students with disabilities experiencing
+poverty to the broader priorities of the school organizations, savvy educators made the case that
+equity work is the work and that the best way to meet the needs of all students is to design for those
+young people positioned at the margins of the system. They also demonstrated that a big vision is
+mobilizing and unifying, but no grand vision is possible to operationalize in its entirety or to realize
+immediately. Instead, using the tools of improvement science — establishing a baseline using data,
+collaborating to develop SMART goals, creating a strategy (or driver diagram) to meet the goals, and
+then engaging a broad coalition of institutional stakeholders — in tandem with external supports
+guiding process, content expertise, and data capacity enables measurable improvement from the
+baseline while allowing institutional learning that can benefit the broader field.
+These intensive efforts to benefit the students least well served by the educational system positively
+impact all students, provide a starting point for school teams who want to work on systemic problems
+that can feel too big to approach, and create accessible proof points for spreading efforts among
+members of school communities less inclined toward the work of innovation. In the experience of the
+NIC, focusing on serving the students positioned furthest from opportunity both broadened and
+deepened the impact of the improvers, while galvanizing commitment to the effort. And, from the
+perspective of NIC leadership, intensive support for the school faculty members serving students was
+essential for empowering them to clarify and make dramatic progress toward their goals.
+
+Educational Equity in Times of Instability
+
+13
+
+Structures to Promote Learning, Sharing, and Planning
+To facilitate such a network restart, network leaders at Marshall Street introduced flexible collaborative
+structures that enabled network participants to apply research to practice within their specific
+schooling contexts.
+Many of the structures, like much of the refocusing of the network, were a return to the original vision
+of the network — just adapted for the context of school year 2021–22. The structures described below
+proved most beneficial to the network’s restart.
+
+Onboarding
+With nearly half of the NIC participants newly arrived to the effort, Marshall Street began to conduct
+summer and fall onboarding sessions with teachers, directors, school leaders, and CMO
+administrators. These onboarding sessions were ultimately standardized into a one-hour session that
+led to more role-specific sessions for Data Leads, Improvement Leads, and Project Sponsors.
+Onboarding proved important for establishing a baseline understanding of the network’s aim, the
+basic principles of continuous improvement, and the core practices and tools of the network, as well
+as the current status of the various public school organizations included in the NIC, the ways in which
+various roles interacted, supports available to educators, responsibilities of technical assistance
+providers, personal touchpoints for ongoing support, and role requirements. Onboarding sessions
+were conducted in virtual settings.
+
+Convenings
+The first virtual convening, held at the end of Year 1 in
+the spring of 2021, proved to be a positive and
+productive experience for the 138 participants, and it
+launched a series of collaborative virtual events. The
+convening was focused on restarting the network in
+earnest, with CMO improvement teams building project
+charters, including aims, driver diagrams, structures for
+ongoing collaboration and data collection, roles and
+responsibilities, and change management plans.
+Inspired by a successful initial convening, Marshall Street, the Gates Foundation, and other technical
+assistance providers planned a fall 2021 virtual convening. Feedback on this second gathering was
+overwhelmingly positive, yet pandemic fatigue and continuing uncertainty led to inconsistent
+attendance, and NIC participants struggling to maintain focus over two days of online programming.
+Given the positive participant reviews of the Fall 2021 NIC Convening alongside the spotty attendance
+at the convening sessions, it was clear that the next convening would require significant restructuring.
+
+Educational Equity in Times of Instability
+
+14
+
+The winter of 2021–22 was perhaps the most trying time in the life of the networked improvement
+community. Schools attempted to go back into session in person but struggled to remain open given
+successive coronavirus outbreaks. The winter delivered not only spikes in COVID-19 outbreaks and
+school closures but also bouts of unprecedented teacher and school leader resignations.
+Due to the ubiquitous staffing shortages and continuous uncertainty in schools across the network,
+the spring 2022 NIC convening not only had to be held virtually, but also needed to be responsive to
+the perpetually changing schedules and expectations of school faculty, who regularly needed to cover
+classes for sick colleagues, or who needed to take on administrative duties given the challenges of
+contact tracing and student support.
+As a result, NIC leadership redesigned the convening to become a month-long series of training
+events providing the most essential, targeted training and coaching necessary to achieve the greatest
+impact for students at a critical time. The Spring Learning Month events were co-facilitated by
+technical assistance providers and school faculty to consolidate participants’ learning by simplifying
+and refining driver diagrams, developing data routines and tools for improvement, and building
+improvement teams for change management.
+
+Overview of Spring Learning Month
+
+Additionally, integrated coaching ensured that participant time was being used as efficiently and
+effectively as possible.
+In short, the convenings of the second year of the NIC were as well conceived and executed as they
+could have been given the circumstances. Participant feedback was relatively scarce, but what
+feedback was received was largely positive, with a few negative reviews at the particular
+session-level. While participants reported feeling supported and were appreciative of the flexible,
+personalized, and responsive structure of the Spring Learning Month, attendance was lower than at
+the initial convening, and it was obvious to convening organizers that virtual convenings were
+becoming increasingly burdensome and ineffective for all involved, CMO participants and technical
+assistance providers alike.
+Educational Equity in Times of Instability
+
+15
+
+Learning Tours
+The mixed results of the Spring Learning Month had been anticipated, given the pressures on school
+faculty. What’s more, participants were expressing a desire and readiness to meet in person to learn,
+collaborate, and see examples together. So the Marshall team, working with Sarah Chandler of
+Purposeful Impact Consulting, organized a pilot in-person event — the Los Angeles Learning Tour —
+that was integrated into the Spring Learning Month programming. This pilot, opt-in learning tour
+occurred as schools were returning to classrooms with hybrid policies and masking. It was specifically
+focused on co-teaching, a major area of interest for the NIC. The learning tour served as a chance to
+bring members of our network together to see models of excellence and to build knowledge to
+catalyze their improvement efforts, giving them ideas to take back to their own settings.
+
+Learning Tour participants debrief observations and discuss ideas to take back to their school communities.
+
+The tour was attended by 21 participants from across the NIC, and participants were able to visit two
+national models of inclusionary learning environments: WISH Charter Schools and CHIME Institute.
+Additionally, attendees spent time at STEM Prep, a leading charter management organization and
+network member who was working on improving co-teaching practices within their
+improvement efforts.
+
+Educational Equity in Times of Instability
+
+16
+
+This first learning tour was so successful that Marshall Street and the Gates Foundation decided to
+extend the learning tour series. Additionally, participants in this first learning tour reported direct
+impacts of their time spent at WISH, CHIME, and STEM Prep. Summit Public Schools, a NIC
+participant, reformulated their special education strategy in the NIC as a result of their engagement in
+the first learning tour. Individuals across the network — including leaders at Green Dot, Collegiate
+Academies, STEM Prep, STRIVE Prep (now Rocky Mountain Prep), KIPP Northern California, and
+Summit — formed collaborative partnerships that endured throughout and, in some cases, beyond the
+NIC.
+
+Members of the Networked Improvement Community (NIC) outside of STEM Prep’s Math & Science College Prep high
+school.
+
+Educational Equity in Times of Instability
+
+17
+
+School Visits
+
+School visit at Noble Schools
+
+Like in-person convenings, in-person school visits had always been a part of the network’s design.
+Indeed, six of the ten schools in the network received in-person visits from Marshall Street and
+research team (“RTeam”) technical assistance providers before early March of 2020, when the
+COVID-19 pandemic made travel to schools impossible. However, with school closures in effect
+throughout the 2020–21 school year, welcoming visitors was infeasible for schools in the NIC.
+Additionally, immunocompromised individuals in technical assistance roles were unable to commit to
+in-person activities.
+Fortunately, by the start of 2021–22, sufficient will and infrastructure existed to enable the purposeful,
+safe reinstatement of some school visits. These visits provided valuable context for the technical
+assistance providers across Marshall Street, SRI, RTI, NIRN, Spark Educational Consulting, the SWIFT
+Education Center, and Blue Engine. Additionally, in-person activities allowed us to build and deepen
+relationships, serving as critical touchpoints to reorient the network from the set of temporary
+process-oriented goals back to our original outcomes for students. When schools were ready, site
+visits were organized to build CMO improvement team capacity, to deepen the understanding and
+connections between CMO improvement team members and NIC leaders, to source local data, and to
+solve problems collaboratively. Where schools weren’t ready, Marshall adapted activities to engage
+with school teams in virtual settings. (See the full CMO Site Visit Guidelines here.)
+
+Educational Equity in Times of Instability
+
+18
+
+The in-person experiences offered an important reminder to participants that everyone involved in the
+NIC was working toward the same goals, while also reestablishing roles, responsibilities, routines, and
+accountability structures. They led to more productive biweekly coaching conversations and to
+impromptu “jam sessions,” which became relatively unstructured creation and problem-solving
+sessions between technical assistance providers (organized by Marshall Street’s Improvement
+Advisors) and CMO faculty (organized by the Improvement Leads and/or Project Sponsors).
+
+Professional Learning Communities
+With in-person learning opportunities severely limited or altogether prohibited by the pandemic,
+perhaps the biggest structural bet of the second year of the NIC was the establishment of professional
+learning communities (PLCs) organized around themes that had emerged from the improvement work
+of the previous year. The PLCs created for the NIC the sort of catalyzing social structure that is a
+feature of networked improvement communities attempting to solve complex problems in education.
+Not only were PLCs the primary ongoing collaborative structure in which NIC leaders across the
+network would regularly engage, but they were also a way to force clarity among technical support
+providers. It was imperative at this point in the NIC’s work that technical assistance responsibilities
+were clearly articulated across the four legs of the improvement chair. Marshall Street was firmly
+established as the lead of process and coordination of support. The RTeam was in charge of
+measurement and evaluation activities, and, to some extent, consultative data support for the CMOs.
+However, the CMOs were in need of content expertise and regular data support beyond the activities
+of the RTeam.
+PLCs, then, became a structure to organize and focus the allocation of expertise within the network
+for the greatest impact. After the first year of continuous improvement work, the CMOs began to
+cluster their prioritized change ideas for Black and Latinx students with disabilities experiencing
+poverty around four themes:
+
+1.
+2.
+3.
+4.
+
+Literacy support, particularly for nonproficient readers
+Postsecondary transition planning
+Establishing multi-tiered systems of support (MTSS)
+Co-teaching structures and routines
+
+For each theme, Marshall organized a PLC, and each PLC was designed to maximize collaboration
+that bridged theory and practice across the four legs of the improvement chair. Thus, a Marshall Street
+process guide, a content expert, and a team of CMO faculty were present at every PLC meeting to
+delve into relevant research, apply that research to practice, examine progress data to test efficacy,
+and codify the best practices to share broadly. Blue Engine, based in New York, served as the content
+expert for the co-teaching PLC.
+
+Educational Equity in Times of Instability
+
+19
+
+SWIFT Education Center out of the University of Kansas served as
+the content expert for MTSS. Spark Educational Consulting served
+as the content expert for the literacy PLC. Finally, a Transitions
+Working Group was established as a modified PLC facilitated by
+Spark Educational Consulting, which shared resources and ideas
+to guide young people into a productive and purposeful life after
+high school.
+Each PLC evolved in unique ways, with co-teaching and literacy
+growing in their membership over time, while transition planning
+and MTSS lost members. The PLCs became the containers for
+meaningful discussions and collaboration among members of the
+NIC and became the primary place for the development of
+relationships across the community. Additionally, content experts
+provided dedicated coaching (alongside Marshall and the RTeam,
+in their various capacities) for the CMOs in each PLC, and we
+allocated additional consulting time from each content expert at
+CMO request. As a result, CMOs reported feeling well supported
+by the network in their efforts to put research into practice for their
+students. This work was on display at the 2022 Carnegie
+Conference, where leaders from Summit, STEM Prep, Green Dot,
+and KIPP Northern California, alongside Marshall and RTI,
+collaborated with the improvement community and shared
+their work.
+Finally, the PLCs became an organizational tool for network-wide
+collaborative events and community sharing. Because the
+equity-focused efforts of the school organizations were clearly
+organized into topical areas, school faculty were well positioned to
+present on their work in PLCs. These sharing sessions were well
+attended and well rated in part because the work was at the
+forefront of the field’s knowledge. It was innovative. Their work,
+organized topically but all aimed at dramatically improving
+outcomes for Black and Latinx students with disabilities
+experiencing poverty, could transfer contexts and create an
+emerging set of best practices for students positioned furthest
+from opportunity. In this way, research-practice partnerships
+emerged in which practitioners led the charge in an environment of
+collaboration and creative freedom.
+
+Educational Equity in Times of Instability
+
+20
+
+Learning from the IHI Model
+One of the most fundamental challenges of any improvement effort, at least in education, is the
+documentation. Who documents PDSAs? After all, PDSAs are the essence of improvement work.
+“What works, for whom, in what context?” is inherently a question being asked and answered through
+the scientific process operationalized by PDSA cycles. The question of documentation is so
+pedestrian that most of the heady texts on improvement fail to address it. After all, documentation is
+just writing things down. Somebody should do it. Who? Figure it out. Sounds contextual.
+In the second year of the NIC, “Who documents PDSAs?” became an essential and contentious
+question as school faculty were stretched thin and technical assistance providers shifted gears from
+responsive coaching to leading change efforts across the network. Our data was clear: school faculty
+were not documenting. In Fall 2021, fewer than 60% of PDSAs were completed, with an average
+quality rating below 50 on a 100-point scale. In spring, completions improved slightly, to 71%, but the
+average quality rating deteriorated to just 35.
+
+PDSA Completion and Quality Over Time
+
+Otherwise enthusiastic Improvement Leads, Project Sponsors, and Data Leads on CMO faculties were
+digging in their heels when it came to filling out PDSA forms. Those who were willing to start
+documentation often struggled to complete documentation on what actually happened. One CMO
+even took it upon themselves to create their own PDSA form because they did not like the standard
+one provided by Marshall Street (and adapted from the Carnegie Foundation for the Advancement of
+Teaching’s PDSA documents).
+Educational Equity in Times of Instability
+
+21
+
+In contrast, the RTeam, responsible for
+measurement and evaluation activities, was
+insistent about the essentiality of PDSAs. From
+an evaluation standpoint, a stack of
+standardized, comprehensive PDSA forms is a
+gold mine of data. These forms represent the
+atomic structure of the improvement effort at
+school sites around the country, and from those
+atoms are built the full bodies of improvement:
+The PDSAs feed into the driver diagrams, and
+those toward the individual organizational aims.
+In aggregating those aims across the network,
+we can see progress toward the network aim,
+and furthermore, we can test the core
+hypotheses embedded within the network’s
+driver diagram, as well as determine which bets
+are most likely to pay off at a grander scale.
+
+Click to view
+
+Mindsets and habits for documentation were evidence that our approach needed a dramatic change.
+Essentially, the people best suited to completing PDSAs were reluctant to do them (particularly at the
+level of thoroughness desired by the measurement and evaluation team), and the people who were
+most interested in the documentation of PDSAs were pushing hard for them to be done fully,
+completely, and in a standardized format.
+
+“Mindsets and habits for
+documentation were evidence
+that our approach needed a
+dramatic change.”
+
+At Marshall Street, we went searching for
+answers. On one hand, it made sense to have
+the people doing improvement documenting
+improvement. After all, a teacher administering
+an intervention is best positioned to explain the
+intervention, how it went, and what happened.
+Also, much of the PDSA-level data is niche and
+shifts rapidly from cycle to cycle. How would
+someone who is not in the classroom, who
+doesn’t have access to the teacher’s grade
+book, even be able to collect the data on the
+PDSA, much less analyze it?
+
+However, what seemed logical to us was not persuasive to educators, and our efforts to sell PDSAs
+— “They’re great,” we said. “They’ll help you be more scientific, more analytical,” we said. “They’re
+easy and they help you learn quickly!” “Use these PDSAs,” we said, “and you’ll be a
+teacher-researcher.” — were ineffective.
+
+Educational Equity in Times of Instability
+
+22
+
+Regardless, we knew that documentation was a widespread problem across the field of improvement
+and within our own network. People were deeply invested in the vision of the work and wanted to take
+action, but were easily pulled away from the discipline of documentation. Without a strong routine for
+documentation and data to give them feedback on their progress and learning, documentation simply
+was not motivating. It felt compliance-focused and wasn't well connected to the overall learning
+structures and routines of the network. We encountered this problem ourselves. When running our
+own internal PDSAs, we often struggled to document in PDSA form unless we scheduled regular
+meetings to share findings and take notes. Doing improvement is very different from documenting
+improvement at the PDSA level, and even now it is unclear whether the goal of improvement science
+in education is for educators to internalize the improvement process so that they can forever think
+more scientifically, thereby approaching challenges with the productive spirit of hypothesis testing, or
+whether it is to forever document findings for the greater good (presuming someone will actually read
+a bunch of PDSA documents and be convinced of the veracity of the findings).
+In the absence of a clear answer, we looked to IHI. All improvement work in the social sector has its
+origins in IHI, and when Tony Bryk and the Carnegie Foundation began the movement of improvement
+science to education, they built on their work at IHI to do so.
+What we learned is this: The IHI model has two basic functions, each representing a different phase of
+improvement work:
+1.
+2.
+
+Working intensively with “mentor hospitals” to determine best practices.
+Scaling those best practices within healthcare.
+
+The work of Marshall Street was firmly situated within the first phase: working intensively with school
+organizations to determine best practices. But how does IHI get hospitals to test and document their
+best practices?
+They don’t.
+IHI decides what they want to learn. For example, in 2020, IHI decided that it wanted to learn the best
+practices for admitting patients to hospitals during the COVID-19 pandemic. It put a call out to the
+roughly fifty mentor hospitals in its network. Some of the mentor hospitals said that they would
+welcome such a study. IHI chose a few of those hospitals to work with, and they sent improvement
+teams to each of these chosen hospitals. Once there, the improvement teams worked with local
+medical professionals to hypothesize, test, and refine their understanding of best intake procedures.
+
+Educational Equity in Times of Instability
+
+23
+
+Co-teaching small group at Livingston Collegiate Academy
+
+Much of the testing and all of the documentation is done by the IHI improvement team. The testing is
+conducted in a real clinical setting, with the participation of the medical professionals in the hospital,
+but the IHI team is doing the improvement work, and when that improvement work is complete, they
+move on. Their documented work goes through cycles of revision before it is ultimately handed off to
+the Breakthrough Series team, who is responsible for scaling the best practices documented by the
+improvement team.
+In education, there is no real corollary to the IHI model. Perhaps John Dewey’s concept of a lab school
+is as similar as it gets, but never has the model been implemented with such discipline and rigor. For
+the purposes of our NIC, the Marshall Street team decided that we would enact the spirit of the IHI
+model to the extent possible given our constraints. Specifically, we decided that it was a fool’s errand
+to attempt to convince school-based faculty of the value of PDSA documentation. First and foremost,
+the job of the site-based implementers of improvement is to teach, to lead, and to coach. Second,
+they would work with us to plan PDSAs, and then they would enact the changes and collect the data.
+Once they had done so, we would meet again in a virtual meeting session. In that session, we would
+ask them about the test, have them input the data, and together, plan the next testing cycle.
+Through this process, we found a middle ground. While we weren’t well positioned to go into schools
+across the country, enact and document changes, and create standardized written records of the
+work, we also had far more time and incentive to document and organize PDSA cycles than
+school-based faculty. This arrangement meant that our documentation wasn’t as perfect as the
+measurement and evaluation team would like, but it also meant that we were able to bridge the gap
+between practice and research in a way that captured results in good-enough form while honoring the
+time and engendering the goodwill of teachers, leaders, and coaches on busy school sites.
+Educational Equity in Times of Instability
+
+24
+
+Looking Ahead
+
+As we headed into the third and final year of the NIC, several questions loomed before us:
+1.
+
+How do we capitalize on the momentum of Year 2, in which we refocused the network
+on broadening the improvement team’s reach, deepening the impact in the
+organization, managing change, and initiating formal improvement processes
+(including PDSAs)?
+
+2.
+
+How do we engage senior leaders in the school organizations in order to create focus,
+political will, and ongoing support for improvement teams going into the final year of
+the engagement?
+
+3.
+
+How do we institutionalize the changes that are demonstrating promise for Black and
+Latinx students with disabilities experiencing poverty?
+
+4.
+
+How do we build capacity across the network to continue “doing improvement”
+beyond the network’s existence?
+
+5.
+
+How do we ensure that we capture more in-person convening time and use it most
+effectively?
+
+6.
+
+How do we set up the continuation of the NIC’s work so that many more students and
+educators can benefit from the emerging best practices?
+
+Educational Equity in Times of Instability
+
+25
+
+Across the network, there was tremendous potential. Data systems and the resultant interventions
+across developing multi-tiered systems of support (MTSS) were showing gains for students in the
+target population. Transition planning interventions were startlingly effective, but tremendously difficult
+to spread and scale. Programming for students diagnosed with emotional disabilities seemed
+transformational, but capturing compelling data on the program’s efficacy was proving to be elusive.
+Co-teaching arrangements were demonstrating excellent results for both students in the NIC’s priority
+population and for all students — the essence of targeted universalism — but more time was needed
+before these practices could be effectively codified and shared, particularly given the
+resource-intensive nature of co-teaching structures.
+
+The third and final year of the NIC promised to be a pivotal one, and whether it would allow the
+network to meet its grand ambition of making dramatic gains for students — or whether we were to
+fall short of that aim — would depend greatly on the changes and challenges we faced in Year 2.
+Did we do enough to develop schools’ capacity to spread and sustain promising practices? Did we
+make the right moves in response to unprecedented world events? Would our own efforts to better
+ourselves through continuous improvement serve as a model for school partners? The results and
+achievements of the NIC’s third and final year would answer all of these questions.
+
+Educational Equity in Times of Instability
+
+26
+
+Acknowledgements
+We are grateful for the support of the many partners who have contributed to this work.
+Lead Authors: Adam Carter and Stephanie Lassalle
+Contributing Editors: Mira Brown, Greg Ponikvar, Wilita Sanguma, Kelley Prosser
+Marshall Improvement Team Members:
+Kyle Moyer, Director of Continuous Improvement
+Marco Castaneda, Improvement Advisor
+Paula Espinoza-Wells, Improvement Advisor
+Timothy Burke, Improvement Advisor
+Giovanna Santimauro, Improvement Advisor
+Yumi Lifer, Manager of Strategic Operations
+NIC Partner Organizations: Collegiate Academies, Ednovate, Green Dot California, KIPP Northern California,
+Mastery Schools, Noble Schools, STEM Prep Schools, STRIVE Prep (now Rocky Mountain Prep), Summit
+Public Schools, Uncommon Schools
+NIC Collaborators: Adam Black LLC, Blue Engine, RTI International, National Implementation Research Network
+(NIRN), Purposeful Impact, SRI International, SWIFT Education Center, Spark Educational Consulting
+This whitepaper is based on research funded by the Gates Foundation. The findings and conclusions contained
+within are those of the authors and do not necessarily reflect positions or policies of the Gates Foundation.
+You can read our first publication in this series, Beyond Trust Falls: Launching the NIC, here. The third and final
+publication will be released in winter 2024.
+
+About Marshall CoLab
+Marshall CoLab is dedicated to improving teaching and learning for students furthest from opportunity. We
+bring together communities of educators, instructional coaches, and experts to co-develop and implement
+evidence-based practices and make them available to all schools.
+Using the tools of continuous improvement – the science of getting better at getting better – we support
+educators along the path from theory to transformation to achieve lasting change. Our IGNITE Network is a
+coalition of schools committed to making dramatic gains in the experiences, environments, and outcomes for
+students at the intersection of race, class, and ability. Over two years, these schools will implement and
+refine practices that lead to positive outcomes for students with disabilities. Learn more here.
+
+Educational Equity in Times of Instability
+
+27

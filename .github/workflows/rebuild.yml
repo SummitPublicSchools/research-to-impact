@@ -50,9 +50,66 @@ jobs:
   rebuild:
     runs-on: ubuntu-latest
     permissions:
-      contents: write      # needed by the keepalive step to push its timestamp
+      contents: write      # the keepalive and document-text steps both push to main
     steps:
+      # Checked out first because the document-text refresh below needs the repo.
+      # Every later step is `if: always()`, so a failed checkout or refresh still
+      # lets the rebuild fire and the schedule stay alive.
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - uses: actions/setup-node@v4
+        if: always()
+        with:
+          node-version: "20"
+
+      # Search looks inside the linked PDFs, Docs and decks (docs/search.md). Their
+      # text is extracted here and committed under content/, because the Netlify
+      # build has no PDF tooling and should not download ~200 MB of files per build.
+      # Only files whose Last-Modified or size changed are re-downloaded, so a
+      # normal week costs a HEAD request per file.
+      #
+      # This runs BEFORE the build hook so the deploy it triggers already includes
+      # any new text. The commit carries the skip marker for the same reason the
+      # keepalive does (see header): pushed without it, it would fire a second
+      # production deploy alongside the hook's.
+      #
+      # continue-on-error: a Drive outage must cost us one week of fresh document
+      # text, not the rebuild itself. The tool keeps the cached copy of anything it
+      # could not fetch, so a bad run never shrinks the index.
+      - name: Refresh document text for search
+        if: always()
+        continue-on-error: true
+        run: |
+          set -euo pipefail
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq poppler-utils
+          node build.js > /dev/null
+          node tools/index-files.mjs | tee index-report.txt
+          {
+            echo '## Document text for search'
+            echo '```'
+            cat index-report.txt
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
+          rm -f index-report.txt
+
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add content
+          if git diff --cached --quiet; then
+            echo "Document text unchanged."
+            exit 0
+          fi
+          git commit -m "Search: refresh extracted document text [skip netlify]"
+          git pull --rebase --autostash origin main
+          git push origin HEAD:main
+          echo "Document text updated; the build hook below will publish it."
+
       - name: Trigger Netlify build hook
+        if: always()
         env:
           NETLIFY_BUILD_HOOK: ${{ secrets.NETLIFY_BUILD_HOOK }}
         run: |
@@ -66,12 +123,6 @@ jobs:
       # Runs even if the hook above failed — a broken rebuild should still keep its
       # schedule alive, so you can fix the secret rather than also having to re-enable
       # the workflow.
-      - name: Checkout
-        if: always()
-        uses: actions/checkout@v4
-        with:
-          ref: main
-
       - name: Keep the schedule alive
         if: always()
         run: |

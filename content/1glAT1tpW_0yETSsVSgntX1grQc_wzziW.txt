@@ -1,0 +1,54 @@
+Using AI to Create Fluency Passages
+A Step-by-Step Guide
+This tool guides educators in using AI to generate customized reading fluency passages that align with
+grade‐level content, making fluency practice quick, sustainable and relevant for students.
+
+Step 1. Define Your Parameters
+
+Before you prompt ChatGPT, get clear on what you need to drive efficiency.
+Choose the precise concept or skill (e.g., “net force in physics,” “Common Core A.CED.A.1:
+creating equations,” “Reconstruction era political changes”)
+Decide on a target word‐count (e.g., 200 words) and whether you want text only
+
+Specify the grade level or Lexile band (e.g., “9th‐grade reading level,” “600L–800L”).
+Why this matters: The clearer your instructions, the more likely the first draft needs minimal adjusting.
+
+Step 2. Draft & Vet Your Fluency Passage
+
+Generate your passage and immediately check its suitability before moving on.
+Ask ChatGPT the passage based on your parameters: “Write a 200-word text-only fluency
+passage on net force at a 9th‐grade reading level.”
+
+If there are mistakes, ask ChatGPT to fix them.
+Lesson learned: Early vetting ensures accuracy and saves you time from reprompting and reprinting.
+
+Step 3. Produce & Archive Your Resource
+
+Turn your vetted passage into a polished, reusable resource.
+Copy and paste the passage into the Oral Reading Fluency Passage Generator or the Repeated
+Reading Text Generator. Fill in the title, author/teacher, date, etc.
+Download as a PDF, print, and use.
+Time Saving Tip: Save PDFs. A well‐organized folder means no duplicate work next semester.
+
+Step 4. Develop Your DOK Question Bank
+
+Quickly generate and refine questions that span all depths of knowledge.
+Prompt ChatGPT: “Create eight questions on this passage, two at each DOK Level (1-4), with
+answers.”
+Ensure each question targets an important term or idea from the passage.
+If a question seems too simple or challenging, ask ChatGPT to rephrase or deepen it.
+Purposeful Planning: Creating a question and answer bank supports prep and planning for teachers.
+
+This tool was developed by Marshall CoLab in collaboration with educators at Collegiate Baton Rouge. It reflects
+adaptations and innovations from the field and is part of the growing Research to Impact Practice toolkit, developed
+as part of the IGNITE Network resources, to advance outcomes for historically underserved students.
+
+Appendix: Passage Creation Walkthrough
+Prompting
+ChatGPT
+
+Using the
+Oral Reading
+Fluency
+Passage
+Generator

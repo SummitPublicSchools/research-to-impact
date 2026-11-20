@@ -1,0 +1,981 @@
+Achieving
+High-Impact
+Co-Teaching:
+A Gradual
+Release Model
+A RESEARCH-TO-IMPACT PRACTICE DEVELOPED
+WITH THE NETWORKED IMPROVEMENT COMMUNITY
+FOR STUDENTS WITH DISABILITIES
+
+TA BLE O F C O N T E N T S
+5.3............ Practice Overview
+5.3 | What is the Practice?
+5.4 | Why is this Practice Important?
+5.5 | The Continuum of Co-Teaching Models
+5.6 | Coaching Into High-Impact Models
+
+5.7............ Bringing this Practice to Life
+5.10.......... Implementation at a Glance
+5.10 | Enabling Conditions
+5.11 | Steps to Implement
+
+5.12.......... How to Implement this Practice
+5.12 | Create Structures for Gradual Release of High-Impact Co-Teaching
+5.12 | Step 1: Allocate Time for Coaching and Co-Planning
+5.13 | Step 2: Set Goals for the Use of High-Impact Co-Teaching Models
+5.15 | Coach Into New Models
+5.15 | Step 3: Begin Coaching Session with Student Data
+5.15 | Step 4: Offer Choices for the New Model Based on Teacher Interest
+and Skill
+5.15 | Step 5: Build Knowledge and Skill with the Selected Model
+5.16 | Step 6: Implement Short Term Observation and Coaching Cycles
+5.16 | Ongoing: Build Teachers’ Cross-Department Knowledge and Skill
+
+5.17.......... Summary
+5.18......... Appendix
+5.19 | How to Measure
+5.21 | Notes
+5.21 | Bibliography
+
+Achieving High-Impact
+Co-Teaching: A Gradual
+Release Model
+Implementation Level
+
+Who Implements
+
+District/Central Office
+
+Teacher(s)
+
+School
+
+Instructional Coach
+
+Program/Department
+
+Principal
+
+Classroom
+
+Central Office Leadership
+Specialist
+
+Practice Overview
+What is the Practice?
+Coaches intentionally train co-teachers to use
+the highest-impact models of co-teaching by:
+• incrementally introducing co-teachers to
+different co-teaching approaches,
+• supporting co-teachers to use student data
+to drive instructional decisions, and
+• developing co-teachers’ skill and
+confidence with each new model before
+introducing more.
+
+5.3
+
+ACHI E V I N G H IGH -IM PA C T C O-T EA CH IN G
+
+Two Teachers,
+Twice the Support
+When co-teachers optimize
+their roles during lessons, all
+students experience double
+the support they would have
+with one teacher. High-impact
+co-teaching models allow for
+lower student-to-teacher ratios
+and different teaching methods,
+providing students with learning
+experiences that would not be
+feasible in a room with only one
+teacher leading instruction.
+
+Collaboration
+
+Why is this Practice Important?
+The use of high-impact co-teaching models benefits students with disabilities by:
+PROMOTING TRUE INCLUSION
+A truly inclusive environment exists when all students are together, in the classroom,
+getting the support they need to excel.1
+ALLOWING FOR TAILORED INSTRUCTIONAL OPPORTUNITIES
+Higher-impact models enable teachers to use differentiated instructional methods and targeted
+interventions to meet a wider variety of students’ needs.2
+DECREASING STUDENT-TO-TEACHER RATIOS
+Research shows that lower student-to-teacher ratios can have a significant impact on students’
+experiences and outcomes in school, particularly for students in our priority population.3 All highimpact co-teaching models lower the student-to-teacher ratio dramatically.
+AFFORDING STUDENTS CONSISTENT ACCESS TO BOTH OF THEIR TEACHERS
+Effective use of varied co-teaching models gives all students the opportunity to work with each
+teacher, naturally providing them access to both teachers’ expertise and minimizing stigma.
+Using an incremental method to coach on high-impact co-teaching models benefits teachers by:
+PROVIDING EXPLICIT SUPPORT FOR AN APPROACH THAT IS NOT INTUITIVE
+Lower leverage co-teaching models — like One Teach/One Assist — are often familiar, making
+them easy for co-teachers to default into without explicit modeling and coaching. Dedicated
+coaching acknowledges that sharing instructional responsibility in nontraditional ways is new and
+requires direct support.4
+TRULY VALUING EACH EDUCATOR
+When both co-teachers’ roles are optimized
+in the classroom, higher job satisfaction
+follows.5 This is particularly relevant in the
+current landscape in which special education
+teachers are in tremendous demand and
+their retention is a top priority for the field.
+
+5.4
+
+ACHI E V I N G H IGH -IM PA C T C O-T EA CH IN G
+
+Collaboration
+
+The Continuum of Co-Teaching Models
+Not all co-teaching models are equal in terms of their impact on students’ learning. Marilyn Friend, one
+of the foremost co-teaching researchers and developers, explains that models in which both people
+have active teaching roles should be designated for “high use” based on their outsized impact on
+student outcomes.6
+The table below summarizes Dr. Friend’s descriptions of the models. For more detailed information, see
+Blue Engine’s co-teaching models resource.
+
+Impact Level
+
+Description
+
+Parallel Teaching
+
+Students are split into two generally
+heterogeneous groups, each led by a coteacher. They experience the same lesson.
+
+Station Teaching
+
+Students are, generally, in three groups
+(heterogeneous or skill-based). Each
+teacher works with a group of students
+while the third group works independently.
+Most often, students experience each
+station.
+
+High
+
+Alternative Teaching
+
+Most students are doing one activity while
+a smaller group is gathered and supported
+by a teacher for a variety of reasons.
+Groupings are flexible, and which teacher
+leads the group depends on the students
+and their purpose for being together. This
+can occur at any point in the lesson (minilesson, guided practice, independent
+practice).
+
+Moderate
+
+Teaming
+
+Co-teachers co-facilitate a single wholegroup lesson.
+
+Low
+
+One Teach/One Assist
+
+One teacher is teaching all students, while
+the other teacher is observing and gathering
+data for a specific purpose.
+
+Low
+
+One Teach/One Assist
+
+One teacher (most often the general
+educator) is teaching the whole group, while
+the other teacher is supporting individuals.
+
+High
+
+High
+
+5.5
+
+Co-Teaching Model
+
+ACHI E V I N G H IGH -IM PA C T C O-T EA CH IN G
+
+Collaboration
+
+Coaching Into
+High-Impact
+Models
+Strong co-teaching that
+drives results for students
+requires teaching in ways
+that are often unfamiliar
+given the prevalence of
+solo-taught instruction.
+Without appropriate
+support, co-teachers
+tend to revert to the more
+comfortable One Teach/
+One Assist model or
+to divide responsibility
+rather than take a team
+approach, both of which
+limit the efficacy of
+instruction for students.
+Co-teaching is also a
+significant investment.
+School leaders need
+to ensure that students
+are benefiting from coteaching to warrant the
+expenditures.
+
+SIX APPROACHES TO CO-TEACHING
+
+Source: Teaching Tolerance Seamless Teaching Toolkit
+
+Often, co-teachers receive professional development on new co-teaching models through
+workshops or resources presenting and explaining all six models at once. Unfortunately, this kind of
+professional development typically does not explain how student needs should drive the use of each
+model. Within the Networked Improvement Community (NIC), leaders found that this professional
+development approach was ineffective. Teachers were overwhelmed by new information and lacked
+support for planning for the logistics and instruction associated with each model.
+By incrementally building teachers’ confidence with more effective co-teaching models, teachers’
+openness to incorporating a variety of models grew tremendously. At both Collegiate Academies and
+Green Dot Public Schools, where an incremental approach was used by coaches, the prevalence
+of One Teach/One Assist decreased significantly in favor of higher-impact, lower student-to-teacher
+ratio models.
+
+5.6
+
+ACHI E V I N G H IGH -IM PA C T C O-T EA CH IN G
+
+Collaboration
+
+Bringing this Practice to Life
+OPTIMIZING CO-TEACHING AT GREEN DOT
+PUBLIC SCHOOLS CALIFORNIA
+At Green Dot Public Schools, a coach facilitates the introduction of new co-teaching models to co-teaching
+teams. The process begins with a student work analysis, followed by a brief “lesson” about a high-impact
+co-teaching model that is appropriate for addressing the identified needs. This approach — as opposed
+to professional development that presents every model at the same time — provides co-teachers with a
+measured, accessible, and applicable introduction to each new model as it is needed in practice.
+The following case study presents an example of this process with 9th grade ELA co-teachers Quentin
+(general education) and Jesse (special education), who have been co-teaching for nearly a year. Glynis is a
+special education instructional leader at Green Dot who facilitates their conversation, utilizing adult learning
+techniques to push the teachers’ practice in a way that is engaging.
+In the introduction described below, Quentin and Jesse have just finished their student work analysis and
+have determined that students need support on personification. Quentin wants to provide more overt
+examples of it so that students are clear on the purpose of the technique and when and how to use it.
+
+Strategically Selecting a New Model
+After the group completed the student work analysis, Glynis posed a question: what co-teaching
+model would best meet their newly uncovered student needs? Quentin suggested a whole group
+approach, because all students need to understand how to apply personification in their own
+writing. Jesse called attention to the small group of students who did not yet fully understand the
+concept of personification and suggested that perhaps he could work with them during part of an
+upcoming lesson on this foundational content.
+
+5.7
+
+ACHI E V I N G H IGH -IM PA C T C O-T EA CH IN G
+
+Collaboration
+
+Glynis listened to the teacher’s analysis and built upon their insights, highlighting that they had an
+opportunity to optimize both teachers through a specific co-teaching model: Alternative Teaching
+in small groups. To support her suggestion, she shared stories from other Green Dot schools where
+the incorporation of groups had led to dramatic improvements in students’ grades.
+Jesse and Quentin were enthused by the prospect of trying it out, but also shared that they
+generally relied on One Teach/One Assist or Teaming, so the new model would be outside of their
+comfort zone. Wanting to ensure that they would be able to gradually incorporate the model, Glynis
+recommended that they begin by focusing on just one of their co-taught periods, and by planning
+for Jesse to work with their focal group of students — those who would benefit from foundational
+content — for 10 minutes. Upon hearing this measured approach, Jesse and Quentin agreed that
+they were ready to dig in and learn more.
+
+Building Knowledge and Skill
+With the teachers in agreement, Glynis
+launched a quick mini lesson about the
+tenets of strong, alternative small group
+instruction (shown in figure 1). She
+provided brief examples for each aspect
+of the model, highlighting the ways in
+which the principles for its effective use
+appeared in practice.
+Next, Glynis wanted to uncover which
+aspects of planning and implementing
+the Alternative Teaching model were
+going to be most challenging for Jesse
+and Quentin. The co-teachers selfassessed their skill with five foundational
+components (shown in figure 2), sharing
+context for their responses. Through this
+conversation, Glynis learned that the pair’s
+primary needs for coaching related to:
+
+FIGURE 1
+
+FIGURE 2
+
+• logistics (Where would students
+sit for the small group? How would
+they know what to do when they get
+there? What would the teacher not
+leading the small group be doing?)
+and
+• culture (How would they make sure
+that students didn’t feel singled out
+when working in a small group?).
+
+5.8
+
+ACHI E V I N G H IGH -IM PA C T C O-T EA CH IN G
+
+Collaboration
+
+Glynis opted to prioritize the second need — culture — during their time together in this session.
+She coached the duo on how they could talk to their students about small groupings. She shared
+effective approaches used by other co-teachers to destigmatize the new structure, including
+the language previously used by a different co-teaching pair at another Green Dot high school:
+“We’re trying this new thing because we really want to make sure that you’re successful on your
+finals. We know there are a lot of kids in our class, and that can be distracting! Small groups help
+everyone get the time and attention that they need.” Glynis reassured Jesse and Quentin that,
+overwhelmingly, fellow Green Dot teachers found that students were comfortable if they knew
+alternative small groups were helping everyone.
+
+Shifting to Logistics
+As the meeting neared its end, the group turned their attention to Jesse and Quentin’s other
+coaching need — logistics — as well as next steps. To support the team’s practice and
+development, Glynis shared a resource focused specifically on effective structures for running small
+groups in co-taught spaces. She encouraged Jesse and Quentin to review the resource together
+and to note questions or additional needs they found. The following week, Glynis would make sure
+that the team felt prepared for their first attempt at Alternative Teaching, as well as meet with them
+after their lesson to reflect on the result for students and their own learnings.
+This incremental approach to professional development provided Jesse and Quentin with a useful,
+applied introduction to a new co-teaching model in a way that was accessible and tied to their
+students’ current needs.
+
+Green Dot Ánimo Watts co-teachers team teach a math lesson before moving to differentiated groupings.
+
+5.9
+
+ACHI E V I N G H IGH -IM PA C T C O-T EA CH IN G
+
+Collaboration
+
+ACHIEVING HIGH-IMPACT CO-TEACHING:
+A GRADUAL RELEASE MODEL
+
+Implementation at a Glance
+The information in this section provides a high-level view of what to consider when implementing this
+practice. Enabling Conditions describes the minimum conditions needed for successful implementation,
+including resources, mindsets, staffing, and recommended time allocation. Steps to Implement presents a
+concise checklist of action items, which are explained in detail in How to Implement this Practice, below.
+
+Enabling Conditions
+
+Recommended
+Materials
+
+Prerequisites
+
+Co-teachers have:
+–
+–
+
+a shared coach or coaches, and
+regular coaching sessions.
+
+School leaders and coaches communicate the belief that each teacher is a critical asset during
+instruction and must be leveraged to engage with all students.
+Coaches have pre-existing knowledge of and experience with high-impact models of co-teaching.
+
+Co-Teacher coaching agenda
+Guidance resources on high-impact co-teaching models
+
+Staff
+Commitment
+
+Instructional coach or coaching team
+
+Recommended Time
+Allocation
+
+One or more dedicated co-teaching pairs
+
+For coaches, at least 90 minutes per month per co-teaching pair:
+
+Dedicated time by school leadership to engage in observation, goal setting, and feedback
+cycles one or more times per year
+Dedicated time for district instructional coaches/leadership to coordinate efforts across
+school teams
+
+–
+–
+
+45 minutes: Coaching session
+45 minutes: Aligned observation/prep
+
+For co-teachers, at least:
+–
+–
+–
+
+one 45-minute coaching session per month and
+45 minutes of co-planning time per week
+Optional: quarterly unit co-planning time*
+
+* An established scope/sequence and unit plan are key accelerants that will allow co-teachers to focus on the dayto-day aspects of removing barriers and optimizing co-teaching models, rather than remaining at a birds-eye view.
+
+5.10
+
+ACHI E V I N G H IGH -IMPA C T C O-T E AC H IN G
+
+Collaboration
+
+Steps to Implement
+CREATE STRUCTURES FOR GRADUAL RELEASE OF HIGH-IMPACT CO-TEACHING
+At the start of each school year, school leaders:
+Allocate time for coaching and co-planning
+Set goals for the use of high-impact co-teaching models
+COACH INTO NEW MODELS
+Once enabling structures have been established, coaches:
+Begin coaching with data analysis
+Focus on one (new) model based on teachers’ readiness and students’ needs
+Build knowledge and skill with the selected model
+Implement short-term observation cycles
+
+5.11
+
+Pairing with Purpose
+
+The Role of Trust
+
+Certain models, such as Parallel Teaching, require that
+both teachers are able to effectively lead lessons for
+the entire class, so it’s beneficial for special education
+co-teachers to be focused on a content area that aligns
+with their expertise or interests.7 If the special education
+teacher lacks sufficient content expertise, they are less
+likely to be able to teach a full lesson independently.
+At Green Dot’s Ánimo Watts College Preparatory
+Academy, co-teachers were initially paired without
+prioritizing content expertise. A special education
+teacher with years of math experience was working
+in an ELA class, while a colleague with a degree in
+English was co-teaching math. Both educators spent the
+year lacking the content-based confidence to venture
+into higher-impact co-teaching methods. When these
+teachers’ assignments were flipped, they were able
+to implement stronger co-teaching models, increasing
+their satisfaction and improving the learning experience
+for all students. See Co-Planning for Differentiated
+Instruction to learn how strong co-planning addresses
+content alignment between co-teachers.
+
+Co-teaching requires a
+deep level of trust between
+educators, particularly when
+using models that require
+teachers to relinquish some
+control and share instructional
+responsibility with their
+colleague (e.g., through Parallel
+Teaching). For the practices
+detailed in this chapter to be
+effective, it is imperative that
+leaders support co-teachers to
+establish strong relationships
+built upon mutual respect
+and the trust necessary to
+fully share responsibility for
+their students’ learning. The
+collection introduction
+details practices and resources
+that schools in the NIC have
+successfully employed to
+support this work.
+
+ACHI E V I N G H IGH -IM PA C T C O-T EA C H IN G
+
+Collaboration
+
+ACHIEVING HIGH-IMPACT CO-TEACHING:
+A GRADUAL RELEASE MODEL
+
+How to Implement this Practice
+Create Structures for Gradual Release
+of High-Impact Co-Teaching
+Step 1: Allocate Time for Coaching and Co-Planning
+In order for co-teachers to advance their co-teaching practice and effectively utilize new, higherleverage co-teaching models, structures and routines need to be in place to support learning,
+application, and reflection specific to the practice of co-teaching and the mindsets and skills for
+collaborative teaming between educators.
+These structures should include time for coaches:
+• to train teachers to build knowledge of co-teaching models, along with when and how to use
+them in response to formative and summative student data,
+• to observe or collaboratively plan and prepare with teachers (taking a gradual release
+approach), and
+• to debrief and guide reflection.
+In addition to regular coaching sessions for co-teaching pairs, co-teachers should be allocated time for
+routine co-planning between coaching cycles to work as a team to apply their skills and knowledge with
+greater independence and confidence. Regular co-planning lets teachers plan for upcoming lessons,
+reflect on students’ needs, remove barriers to access, and incorporate new high-impact models as the
+year progresses.
+To adequately support this practice, time should be reserved
+for the following:
+• For coaches, at least 90 minutes per month per
+co-teaching pair in each coach’s schedule, to provide
+at least 45 minutes for coaching sessions and 45
+minutes for preparation and aligned observation.
+• For co-teachers, at least one 45-minute coaching
+session per month, and at least 45 minutes of
+co-planning time per week.
+
+5.12
+
+ACHI E V I N G H IGH -IMPA C T C O-T E AC H IN G
+
+Collaboration
+
+Livingston Collegiate Academy co-teachers during an
+English 1 co-planning meeting with their coach (not shown)
+
+Step 2: Set Goals for the
+Use of High-Impact Co-Teaching
+Models
+Co-teaching development requires attention to
+a variety of skills for individual educators and
+co-teaching teams, particularly to build teacher
+mindsets, form effective co-teaching teams,
+plan for effective co-taught instruction, and grow
+teacher capacity in advanced data analysis and
+co-teaching models. By setting goals for the
+incorporation of new, stronger co-teaching models,
+teachers and coaches define the direction and
+build motivation for their work together. Leaders
+and coaches can support their teams in this
+process through the following actions:
+
+School Spotlight: Example
+Coaching Models
+While participating in the NIC, Collegiate
+Academy co-teachers met weekly with
+their coach using a co-planning agenda
+specifically focused on their students with
+disabilities. This frequency was ideal and
+allowed for frequent, gradual development
+for teachers based on their most immediate
+student needs.
+At Green Dot’s Ánimo Watts College
+Preparatory Academy, the special
+education program specialist meets biweekly with co-teaching teams to engage
+in this work. This bi-weekly frequency
+supports teachers between their quarterly
+planning days, during which they receive
+additional coaching on a new model.
+
+AUDITING CO-TEACHERS’ CURRENT USE OF CO-TEACHING MODELS
+Observe co-taught classes, collecting data in response to questions like these about current model usage:
+
+Models
+
+Student Engagement
+
+• Which models are co-teachers using?
+
+• How fluid are student groupings?
+
+• How frequently are they using them?
+
+• How are students with and without disabilities
+working together?
+• Which students are working with which teacher(s)?
+
+5.13
+
+ACHI E V I N G H IGH -IMPA C T C O-T E AC H IN G
+
+Collaboration
+
+SETTING CLEAR GOALS ON CO-TEACHING MEASURES
+Goals should encourage the effective incorporation of higher-impact models. (See The Continuum of
+Co-Teaching Models, above.) Set goals related to the following:
+• Increased use of high-impact co-teaching models. For example:
+– After two weeks of coaching, Team A will decrease their use of One Teach/One Assist during the
+introduction to new material from five lessons (of five total) to four lessons per week, replacing it
+with Alternative Teaching for students scoring below 50% on the previous week’s lessons.
+– After four weeks, decrease further to three lessons; after six weeks, two lessons.
+• Improved student outcomes. For example:
+– After six weeks of using Alternative Teaching, exit ticket averages for students with disabilities
+will increase from 30% to (at least) 50% and for the class overall from 50% to (at least) 65%.
+• Co-teachers’ roles during instruction. For example:
+– After four weeks, the general educator will lead the alternative group during introduction to new
+material for at least one-third of lessons.
+The measurement table in the Appendix offers additional suggestions for measurement.
+PROVIDING OPPORTUNITIES FOR PEER
+OBSERVATIONS AND LEARNING
+For many co-teachers, the concept and
+instructional approach of collaborative teaching
+may be unfamiliar. Offering co-teaching pairs
+opportunities for learning and observation can
+accelerate their progress. Consider:
+• creating a video library of other co-teaching
+pairs across the school or district;
+• making introductions between co-teaching
+pairs in similar content or grade levels to
+foster collaboration;
+• providing release time for teachers to
+observe co-teaching in other classrooms
+at their school, within their district, or at
+schools with strong models; or
+
+School and district
+leaders can benefit
+from observations and
+peer visits.
+Between 2022 and 2023, the Networked
+Improvement Community offered a series
+of Learning Tours to school and district
+leaders to observe high-impact coteaching at model campuses. As a result,
+leaders gained knowledge; acquired
+tools and resources for establishing coteaching schedules, site-based systems,
+and routines; and collaborated in a crossnetwork professional learning community
+to share best practices for implementation.
+
+• designing and implementing targeted
+professional development events for coteaching pairs to attend together.
+ENCOURAGING SPACE FOR CO-TEACHERS TO REFLECT ON THEIR USAGE
+OF STRONG MODELS
+Trusting coaching relationships can lead to meaningful teacher reflection. At Green Dot, co-teachers
+spend time in coaching sessions reflecting both on what co-teaching models they default to and on
+what models they want to begin incorporating into their practice. This gives the coach the ability to
+develop an authentic coaching plan based on teacher-centered goals for strong co-teaching models.
+
+5.14
+
+ACHI E V I N G H IGH -IMPA C T C O-T E AC H IN G
+
+Collaboration
+
+Coach Into New Models
+Step 3: Begin Coaching Session with Student Data
+Different models of co-teaching (and the groupings used within them) serve different instructional
+needs. By beginning a coaching session with an analysis of students’ most recent data, coaches can
+help to ensure that teachers are building their capacity with a new method that will effectively address
+the needs presented. This analysis could be either a student work analysis or a review of other
+recent quantitative and qualitative data.
+
+Step 4: Offer Choices for the
+New Model Based on Teacher
+Interest and Skill
+
+FIGURE 3
+
+The coach presents co-teachers with a handful
+of different high-leverage co-teaching models
+(including derivations of standard models, as in
+the Green Dot example in figure 3). Teachers
+choose one model to learn about and incorporate
+into their practice. Coaches should offer
+guidance to teachers on the model(s) that will
+best align with current student needs.
+
+Step 5: Build Knowledge and Skill with the Selected Model
+Once teachers have identified the co-teaching model that they want to focus on, the coach provides a
+brief learning experience, gives them a high-level overview, calls out key considerations, and provides
+an opportunity for questions about how this model can best meet students’ needs.
+
+Example slides from Green Dot Coach’s co-teaching model overview
+
+5.15
+
+ACHI E V I N G H IGH -IMPA C T C O-T E AC H IN G
+
+Collaboration
+
+Step 6: Implement Short-Term Observation and Coaching Cycles
+It is imperative that coaches observe and debrief with co-teaching teams as they try new co-teaching
+models, swiftly addressing barriers, gathering data, and celebrating successes. Quick and targeted
+feedback allows teams to tweak the implementation of models and gradually build their skill and
+knowledge based on what has previously been tried.
+Coaches should also help co-teachers progress monitor as they work through and try each new model:
+1. Regularly review student academic outcomes data to assess whether changes to the coteaching model are positively impacting student learning. This ideally happens in weekly coplanning meetings between teachers for more rapid review and response to student data, rather
+than monthly coaching cycles.
+2. Gather students’ feedback on their learning experiences, inquiring about how the use of
+higher-impact co-teaching practices is impacting their student experience (e.g., by administering a
+brief, biweekly student survey).
+By ensuring confidence and efficacy with one model before moving on to the next, each new structure
+becomes an established tool for co-teachers to use. Coaches can help their co-teachers determine
+if they are ready to progress to another model, using resources to help assess mastery, such as
+Collegiate Academies’ co-teaching models scope and sequence.
+
+Ongoing: Build Teachers’ Cross-Department Knowledge and Skill
+For co-teachers to effectively implement co-teaching models, they need to share instructional
+responsibility during lessons and communicate rapidly with one another throughout instruction. Further,
+both teachers need deep knowledge of course content and accessibility strategies that allows them
+to tailor instruction to individual student needs. Special education teachers should receive targeted
+professional development that builds their content knowledge and fluency with the course curriculum.
+General education teachers should similarly receive development focused on techniques for effectively
+supporting students with disabilities. It is important that school leaders and coaches ensure they are
+providing co-teachers with this essential training in an ongoing fashion.
+
+Summit Atlas collaborating teachers review student data for action planning.
+
+5.16
+
+ACHI E V I N G H IGH -IMPA C T C O-T E AC H IN G
+
+Collaboration
+
+ACHIEVING HIGH-IMPACT CO-TEACHING:
+A GRADUAL RELEASE MODEL
+
+Summary
+High-impact co-teaching models — specifically Parallel, Alternative, and Station Teaching — allow
+co-teachers to leverage their doubled capacity to meet the needs of all students, especially those
+with disabilities. These models lower student-to-teacher ratios, allow for more universally designed
+instruction, and create opportunities for each educator to have an active, strategic role with students,
+thereby ensuring their learning and engagement.
+While higher-impact co-teaching models yield stronger outcomes, teachers often experience a variety
+of barriers to their implementation: knowledge of their different purposes and components, sufficient
+content expertise, time necessary for effective co-planning, and support that helps them develop in all
+of the above.
+In order to implement these models well, co-teachers need to plan for different types of lesson delivery
+as well as more complicated logistics. When coaches gradually introduce co-teachers to new models
+and ensure their success with each approach before introducing another, they are significantly more
+likely to see confident pairs who optimize their shared presence in the classroom and, in turn, see
+students grow.
+
+FURT HE R L E ARNI NG
+
+Think Inclusive Podcast interview with Marilyn Friend
+(transcript)
+MARYLAND COALITION FOR INCLUSIVE EDUCATION
+
+“Inclusive Education Research and Practice”
+MARYLAND COALITION FOR INCLUSIVE EDUCATION
+
+“Welcome to Co-Teaching 2.0”
+ASCD
+
+“6 Co-Teaching Models”
+UNDERSTOOD
+
+“15 Top Strategies for Teaching Adult Learners [+ FAQs]”
+UNIVERSITY OF SAN DIEGO PROFESSIONAL AND CONTINUING EDUCATION
+
+5.17
+
+ACHI E V I N G H IGH -IMPA C T C O-T E AC H IN G
+
+Collaboration
+
+ACHIEVING HIGH-IMPACT CO-TEACHING:
+A GRADUAL RELEASE MODEL
+
+Appendix
+
+Appendix
+How to Measure
+When working with teams to optimize co-teaching, you will want to measure effectiveness of the tools and
+coaching to improve the usefulness, usability, and utilization of co-teachers to improve student outcomes.
+At minimum, these measures are most essential:
+
+PRIMARY MEASURES
+Measure
+Type
+
+Data Collection
+Type
+
+Question Asked
+
+Results
+
+What does success look
+like?
+
+Process
+(utilization)
+
+Observational
+data by coach
+
+How often are coteachers using highimpact co-teaching
+models?
+
+Percent of
+instructional time
+that high-impact
+co-teaching
+models are being
+used
+
+The prevalence of lowimpact models is gradually
+replaced by high-impact
+models.
+
+Perception
+(usefulness)
+
+Survey
+
+How comfortable
+are you utilizing
+(high-leverage)
+models of coteaching?
+
+Average score (1–
+5) indicating level
+of comfort with
+high-leverage coteaching models
+
+Teachers indicate that they
+feel an increased comfort
+and confidence with coteaching models that are
+shown to yield stronger
+outcomes for students.
+
+Outcome**
+
+Student exit ticket
+data
+
+Do students’
+academic outcomes
+improve as coteachers employ
+high-impact coteaching models?
+
+Percent of
+students (with
+disabilities) whose
+outcomes are
+improving
+
+Increased student
+achievement (overall and
+as a subset with disabilities)
+compared to the time prior
+to coaching
+
+**It is important to note that student outcomes are a lagging measure; it can take significant time for progress to be observed.
+
+5.19
+
+ACHI E V I N G H IGH -IMPA C T C O-T E AC H IN G
+
+Collaboration
+
+Additional measures can guide a team to know whether student work analysis is leading to the desired
+improvements for students:
+
+SECONDARY MEASURES
+
+5.20
+
+Measure
+Type
+
+Data Collection
+Type
+
+Question Asked
+
+Results
+
+What does success look
+like?
+
+Perception
+
+Survey
+
+Student: Do you feel
+that both teachers
+support your
+learning? How so?
+
+Percent of students
+who feel that both
+teachers support
+their learning
+
+Increasing percent of
+students who feel supported
+by both teachers until
+reaching 100%
+
+Perception
+
+Survey
+
+Student: Are you
+comfortable getting
+support from both
+co-teachers?
+
+Percent of students
+who feel comfortable
+getting support from
+both (or all) of their
+teachers
+
+Increasing percent
+of students who feel
+comfortable getting support
+from both/all teachers until
+reaching 100%
+
+ACHI E V I N G H IGH -IMPA C T C O-T E AC H IN G
+
+Collaboration
+
+Notes
+1
+
+IRIS Center, “What is inclusion?”
+
+2
+
+Marilyn Friend, interview by Maryland Coalition for Inclusive Education
+
+3
+
+Egelson et al, How Class Size Makes a Difference
+
+4
+
+Solis et al, “Collaborative models of instruction”
+
+5
+
+Teach Plus, A Million Paper Cuts
+
+6
+
+Marilyn Friend, interview by Maryland Coalition for Inclusive Education
+
+7
+
+Hanover Research. The Effectiveness of the Co-Teaching Model
+
+Bibliography
+Egelson, Paula, Patrick Harmon, Art Hood, and C. M. Achilles. How Class Size Makes a Difference.
+SERVE, University of North Carolina at Greensboro. 2002. https://www.classsizematters.org/
+wp-content/uploads/2012/10/SERVE_how_class_size_makes_a_difference1.pdf
+Hanover Research. The Effectiveness of the Co-Teaching Model: Literature Review. March 2012.
+https://drive.google.com/file/d/1M6HscQyOaN_9bbb5_jqBO2Eq_wKLBFnu/view?usp=drive_
+link
+IRIS Center, Vanderbilt University’s Peabody College. “What is inclusion and why is it important?”
+Accessed November 2023. https://iris.peabody.vanderbilt.edu/module/inc/cresource/q1/p01/
+Marilyn Friend, interview by Maryland Coalition for Inclusive Education. Think Inclusive. Podcast
+audio, July 29, 2021. https://podcasts.apple.com/mt/podcast/marilyn-friend-co-teaching/
+id583456652?i=1000530372462
+Solis, Michael, Sharon Vaughn, Elizabeth Swanson, and Lisa Mcculley. “Collaborative models of
+instruction: The empirical foundations of inclusion and co-teaching.” Psychology in the Schools 49,
+no. 5 (2012): 498–510. https://doi.org/10.1002/pits.21606
+Teach Plus. A Million Paper Cuts: Why Special Education Teachers Leave the Profession. January
+2023: 11. https://teachplus.org/wp-content/uploads/2023/01/Teach-Plus-IL_Million-PaperCuts.pdf
+
+5.21
+
+ACHI E V I N G H IGH -IMPA C T C O-T E AC H IN G
+
+Collaboration

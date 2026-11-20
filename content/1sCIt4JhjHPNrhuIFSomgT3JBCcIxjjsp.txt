@@ -1,0 +1,909 @@
+Literature
+Review
+OPENING DOORS TO
+COLLABORATION
+A collection of research-to-impact practices
+developed with the Networked Improvement
+Community for Students with Disabilities
+
+2.1
+
+L I T E RAT U R E R E VIE W
+
+2.1
+
+Collaboration
+
+OPENING DOORS TO COLLABORATION
+
+Literature Review
+ABSTRACT
+Collaboration between general and special educators across all levels of the school
+system has long been seen as a best practice when considering how to serve students
+with disabilities effectively. There is evidence in the research base that stronger
+collaboration is correlated with better results for both educators and students. One
+particular form of collaboration, co-teaching, has emerged as a leading approach to
+collaboration at the classroom level. Co-teaching approaches are buoyed by a strong body
+of research and have the potential to serve students with learning and thinking differences.
+This literature review synthesizes the existing research on educator collaboration broadly
+as well as the specific practice of co-teaching, focusing on both defining the practices
+and explaining their various uses. Research selected for inclusion in this literature review
+includes seminal texts as well as literature published from 2008 to 2023. This review is
+designed for school district administrators considering adopting or improving collaborative
+practices in their districts.
+
+Introduction
+In this literature review, we share a concise overview of collaboration practices and methods with a
+particular focus on co-teaching, an emerging best practice and service delivery model grounded in
+the philosophy of inclusive education. Our purpose is to equip school district staff who are considering
+adopting or improving collaborative practices between general educators and special educators with a
+summary of the research on collaboration so that staff can make informed and thoughtful implementation
+decisions for their districts. The literature review was conducted by Marshall Street, a coalition of
+educators working to systematically improve opportunities for students across the United States.
+This literature review is part of a larger collection of improvement tools for districts. The Networked
+Improvement Community for Students with Disabilities (NIC), a group of 10 public charter school
+networks serving more than 75,000 students nationwide, launched in 2019 to make dramatic gains in
+
+2.2
+
+L I T E RAT U R E R E VIE W
+
+Collaboration
+
+the learning experiences, environments, and outcomes for Black and Latinx students with disabilities
+experiencing poverty. Led by Marshall Street at Summit Public Schools in partnership with technical
+assistance providers NIRN, RTI International, SRI International, and SWIFT Education Center, NIC
+participants used continuous improvement methods, supported by this literature review of leading
+research and a corresponding toolkit of best practices, to improve implementation in these areas with
+the potential to increase academic outcomes for students with disabilities: Collaboration, Literacy, Multitiered Systems of Support, Transitions, and Emotional and Behavioral Supports.
+This literature review provides a brief overview of the research regarding the following questions:
+
+WHAT IS EDUCATOR COLLABORATION?
+WHY IS SPECIAL AND GENERAL EDUCATOR COLLABORATION IMPORTANT?
+WHAT IS CO-TEACHING?
+WHY IS CO-TEACHING IMPORTANT?
+WHAT ARE THE BENEFITS OF CO-TEACHING?
+WHAT ARE THE LIMITATIONS OF CO-TEACHING?
+WHAT IS THE MOST COMMON FRAMEWORK(S) OF CO-TEACHING?
+HOW EFFECTIVE IS CO-TEACHING, AND FOR WHOM?
+WHAT ARE THE NECESSARY CONDITIONS FOR SUCCESSFUL IMPLEMENTATION?
+
+There are several excellent existing
+literature reviews on collaboration
+and co-teaching, such as the
+2008 literature review prepared
+for the Ministry of Education in
+Saskatchewan. This literature
+review builds upon earlier works
+by incorporating findings of earlier
+seminal texts with literature from
+2008 to 2023.
+
+2.3
+
+L I T E RAT U R E R E VIE W
+
+Collaboration
+
+What is educator collaboration?
+Collaboration in education has been defined as a “mutual effort to plan, implement, and evaluate the
+educational program for a given student” (Correa et al. 2005 in Hernandez 2013) and as “individuals
+with diverse expertise working together to achieve mutually agreed upon objectives” (Snell and Janney
+2000 in Hernandez 2013). When collaboration focuses on supporting students with disabilities, it takes
+on many forms, including both direct and indirect collaboration. In direct collaboration, a specialist
+works directly with a child. In contrast, in indirect collaboration, a specialist works directly with another
+teacher or teachers, taking on an advisory, consultative, inspirer, or sparring partner role (Hansen et al.
+2020), including sometimes working in a co-teaching capacity.
+Sometimes, collaboration in schools happens within larger teams, where general and special educators
+work together to make decisions about students (Friend et al. 2010; Blackwell and Rossetti 2014;
+Education Resource Strategies 2021) during dedicated collaboration times. Ripley (1997) describes
+how collaborative planning must happen at the district, building, and classroom levels for schools to
+achieve inclusive practices. However, much of the literature about collaboration in education eventually
+hones in on co-teaching as a best practice service-delivery model (Friend 2008; Villa et al. 2005;
+Ronfeldt et al. 2015; Scanlon and Baker 2012). As the most discussed service delivery model situated
+within collaboration, literature on co-teaching is covered in more detail later in this review.
+
+Why is Special and General Educator Collaboration
+Important?
+In the literature, the most discussed reason for educators to collaborate is that it leads to improved
+teacher practice and knowledge. As teachers collaborate, they can share specialist approaches,
+forms of knowledge, and various skills and strategies (Hansen et al. 2020; Winn and Blanton 2005).
+Additionally, as educators spend time working with one another, they begin to develop shared beliefs
+about students, teaching, and learning (Winn and Blanton 2005). In a study of over 8,000 teachers,
+Ronfeldt et al. (2015) found almost 90% of teachers surveyed viewed being on an instructional team
+as either helpful or very helpful and specifically saw collaborating on the development of instructional
+strategies to be the most useful. Teachers in another study reported that collaborative planning allowed
+them to include instructional accommodations in their lessons by balancing the content-area expertise
+of general educators with pedagogical knowledge and specialized supports from special educators
+(Scanlon and Baker 2012). There is even evidence that when teachers change schools, moving to
+a school with more collaborative practices, the rate at which their teaching skill improves increases
+(Ronfeldt et al. 2015).
+There is also evidence that stronger educator collaboration leads to improved student outcomes.
+Ronfeldt et al. (2015) found that schools with instructional teams that engaged in better collaboration
+had higher achievement gains in both math and reading than schools that did not collaborate as well.
+This supports previous research showing that schools with higher levels of collaboration also have
+higher levels of student achievement (Goddard et al. 2007; Goddard et al. 2010 in Ronfeldt et al. 2015).
+Collaboration between educators often leads to greater inclusion of students with disabilities in the
+general education classroom (Bausela 2003, Boavida and da Ponte 2011, and Lozano et al. 2010 in
+
+2.4
+
+L I T E RAT U R E R E VIE W
+
+Collaboration
+
+Sanahuja-Gavalda et al. 2016), and learning outcomes for students on the autism spectrum are more
+positive in mainstream placements than in specialist placements (Sanahuja-Gavalda et al. 2016).
+Beyond specific gains in student achievement, collaboration can enhance the development of important
+life skills and abilities of students with disabilities (McWilliam and Young 1996 and Barnes and Turner
+2001 in Hernandez 2012).
+
+What is Co-Teaching?
+A widely used form of collaboration, co-teaching is a service-delivery option that supports the
+philosophy of inclusive education (Alnasser 2020; Anderson 2008). The most commonly cited definition
+of co-teaching in the literature is that of Friend (2008, 9): “Co-teaching occurs when a general education
+teacher and a specialist — often a special education teacher, reading specialist, speech/language
+therapist, or bilingual teacher — work as partners to teach a diverse group of students.” Further, coteaching presumes:
+• Instruction for diverse learners primarily occurs concurrently and within the same
+classroom space. (Basso and McCoy 2007 in Anderson 2008; Friend 2008; Friend and Cook
+2003 in Simmons and Magiera 2007; Gately and Gately 2001; Cook and Friend 1995 in Murawski
+and Swanson 2001).
+• Teaching partners are both two equally licensed adults. One is a generalist with expertise
+in the grade band or content area and the other is a specialist who is licensed as a specialist
+education teacher, reading specialist, or the like, whose background is in adapting and modifying
+instruction for students with special needs and learning disabilities (Basso and McCoy 2007 in
+Anderson 2008; Friend 2008; Friend and Cook 2003 in Simmons and Magiera 2007; Cook and
+Friend 1995 in Murawski and Swanson 2001).
+• Both teachers are jointly responsible for the academic outcomes of all the students in the
+classroom. (Basso and McCoy 2007 in Anderson 2008; Friend 2008; Gately and Gately 2001;
+Keefe and Moore 2004; Murawski and Swanson 2001).
+• Both teachers engage equitably in joint collaborative planning, instruction, assessment,
+and reflection. (Dove and Honigsfeld 2018; Friend 2008; Gately and Gately 2001; Murawski and
+Lochner 2010).
+Importantly, Dove and Honigsfeld (2018) and Anderson (2008) note that co-teaching is NOT:
+• The simple placement of two teachers in a classroom such as:
+– one person teaching while another person has a prep period,
+– one teacher conducting a lesson while the other watches,
+– one teacher dictating over the other what is to be taught and how it is to be taught, or
+– one person being assigned as a tutor.
+• The combining of two different content classrooms (e.g., ELA and History).
+Co-teaching typically refers to the service-delivery model of collaboratively educating students with
+disabilities alongside their general education peers, though co-teaching is also being implemented
+for multilingual learners and gifted and talented students (Friend et al. 2010). Some students with
+
+2.5
+
+L I T E RAT U R E R E VIE W
+
+Collaboration
+
+disabilities may have needs that cannot be serviced exclusively in the general education environment,
+and thus may receive instruction in special education settings in addition to the instruction provided in
+co-taught general education classrooms (King-Sears et al. 2021).
+
+Why is Co-Teaching Important?
+For decades, the public education system in the United States has failed to effectively serve students
+with a diverse set of needs, particularly students with disabilities. Inclusion classrooms — classrooms in
+which students with and without disabilities are served together — are both an educational requirement
+and a best practice for serving students with disabilities due to governmental mandates such as No
+Child Left Behind (NCLB), the Individuals with Disabilities Education Act (IDEA), and the Every Student
+Succeeds Act (ESSA) and research showing academic gains from inclusion classrooms (Alnasser
+2020; Brendle, Lock, and Piazza 2017; Cole et al. n.d.; Cramer et al. 2010; Weiss, Glaser, and Lloyd
+2020). Yet, too often, schools integrate students rather than fully including them. Integrated education
+places students with diverse needs in general education classrooms without providing them with
+additional support to open access to learning. Inclusive education, on the other hand, is the systemic
+change of an educational institution to provide an equitable and participatory learning experience for all
+students (Hehir, Pascucci, and Pascucci 2016).
+According to a recent nationwide survey of education data, 67% of students in special education
+receive instruction in general education classrooms for at least 80% of the school day (National
+Center for Education Statistics 2023). The large number of students with special needs integrated in
+general education classrooms — who, due to the disproportionate rates of Black and Latinx students
+being referred for special education services, are often Black and Latinx (National Center for Learning
+Disabilities 2020) — leaves educators with the important question of how to implement inclusion
+classrooms well (Alnasser 2020; Soslau, Gallo-Fox, and Scantlebury 2019 in Alnasser 2020).
+Co-teaching has emerged as a leading strategy for effectively meeting the needs of students with
+disabilities in an inclusive environment. While co-teaching is not required as a method of instruction by
+governmental mandates (Cramer et al. 2010; DeMartino and Specht 2018), schools across the United
+States have embraced co-teaching due to:
+• A wide research base on co-teaching
+implementation models (Brendle, Lock, and
+Piazza 2017; Friend et al. 2010; Kim et al. 2006
+in Brendle, Lock, and Piazza 2017; Kohler-Evans
+2006; Mastropieri et al. 2005 in Brendle, Lock, and
+Piazza 2017; Murawski and Lochner 2010; Ploessl
+et al. 2010 in Brendle, Lock, and Piazza 2017;
+Thousand, Villa, and Nevin 2006 in Brendle 2017).
+• Co-teaching’s potential to help teachers
+simultaneously meet accountability standards
+for students with disabilities, prepare students
+for postsecondary placement, and provide
+instruction to diverse students within the
+general education classroom (Basso and McCoy
+2007 in Anderson 2008; Cramer et al. 2010).
+
+2.6
+
+L I T E RAT U R E R E VIE W
+
+Collaboration
+
+Benefits of Co-Teaching
+The literature notes numerous academic and non-academic benefits of well-implemented co-teaching.
+Some of the most commonly cited benefits of well-implemented co-teaching for students and teachers
+are presented in the tables below.
+
+ACADEMIC BENEFITS FOR STUDENTS
+Enhanced academic performance
+for diverse learners, including
+students with disabilities
+
+Bauler and Kang 2020; Fu et al. 2007 in Bauler and Kang
+2020; Hang and Rabren 2009 in Alnasser 2020; Kirby 2017
+in Anderson 2008; Magiera et al. 2005 in Anderson 2008;
+Murawski 2006 in Alnasser 2020; Strogilos and Avramidis 2016
+in Alnasser 2020
+
+Increased access to general
+education curriculum for diverse
+learners
+
+Anderson 2008; Basso and McCoy 2007 in Anderson 2008;
+Dove and Honigsfeld 2018; Howser 2015 in Alnasser 2020;
+Magiera et al. 2005 in Anderson 2008; Rice et al. 2007 in
+Anderson 2008
+
+Increased teacher availability to
+diverse learners
+
+Basso and McCoy 2007 in Anderson 2008; Capp 2004 in
+Anderson 2008; Keefe and Moore 2004; Villa et al. 2004 in
+Anderson 2008; Wilson and Michaels 2006 in Friend et al. 2010
+
+Access to two certified teachers
+with different perspectives on
+teaching
+
+Bauler and Kang 2020; Kohler-Evans 2006; Mastropieri et al.
+2005 in Brendle, Lock, and Piazza 2017; Wilson and Michaels
+2006 in Friend et al. 2010
+
+NON-ACADEMIC BENEFITS FOR STUDENTS
+
+2.7
+
+Decreased stigmatization and
+increased empathy for diverse
+learners by general education
+students and teachers
+
+Basso and McCoy 2007 in Anderson 2008; Cook 2004 in
+Anderson 2008; Friend and Cook, in Friend and Pope 2005
+in Anderson 2008; Howser 2015 in Alnasser 2020; Keefe and
+Moore 2004 in Friend et al. 2010
+
+A supportive and engaging learning
+environment for all students
+
+Ploessl et al. 2010 in Brendle, Lock, and Piazza 2017
+
+Increased collaboration and
+relationships between all students
+
+Bauler and Kang 2020; Dove and Honigsfeld 2018; Friend and
+Cook, in Friend and Pope 2005 in Anderson 2008
+
+Increased social skills development
+for students with disabilities and
+multilingual learners
+
+Murawski and Lochner 2010
+
+Increased students’ sense of
+belonging in the classroom and
+at school, particularly for diverse
+learners
+
+Dove and Honigsfeld 2018
+
+Reduced challenging behaviors
+by students with disabilities in the
+general education classroom
+
+Hang and Rabren 2009 in Alnasser 2020; Kirby 2017 in
+Alnasser 2020; Murawski 2006 in Alnasser 2020; Strogilos and
+Avramidis 2016 in Alnasser 2020
+
+L I T E RAT U R E R E VIE W
+
+Collaboration
+
+BENEFITS FOR TEACHERS
+Increased job satisfaction
+
+Anderson 2008; Basso and McCoy 2007 in Anderson 2008;
+Friend and Reisling, in Tichenor 2004 in Anderson 2008
+
+Ongoing job-embedded
+professional growth for both the
+general educator and the specialist
+through training and collaboration
+
+Anderson 2008; Basso and McCoy 2007 in Anderson 2008;
+Bauler and Kang 2020; Dove and Honigsfeld 2018; Friend et al.
+2010 in Brendle, Lock, and Piazza 2017; Pancsofar and Petroff
+2013 in King-Sears et al. 2021; Villa et al. 2004 in Anderson
+2008
+
+Increased peer support and input
+on an ongoing basis
+
+Hang and Rabren 2009 in Alnasser 2020; Kirby 2017 in
+Alnasser 2020; Murawski 2006 in Alnasser 2020; Rea,
+McLaughlin, and Walther-Thomas 2002 in Alnasser 2020;
+Strogilos and Avramidis 2016 in Alnasser 2020
+
+Increased capacity to implement a
+variety of instructional approaches
+
+Bauler and Kang 2020; Friend et al. 2010; Kim et al. 2006
+and Thousand et al. 2006 in Brendle 2017; Rice et al. 2007 in
+Anderson 2008
+
+Equalized roles between general
+education teachers and specialists
+
+Martin-Beltrán and Peercy 2012 in Bauler and Kang 2020
+
+Finally, the literature noted benefits for schools, including fewer referrals for special education
+services (Basso and McCoy 2007 in Anderson 2008; Pugach and Johnson, in Villa et al. 2004 in
+Anderson 2008) resulting in fewer disproportionate referrals for Black and Latinx students (National
+Center for Learning Disabilities 2020), and increased parent satisfaction (Afflect et al. in Popp 2000
+in Anderson 2008; Cramer et al. 2006 in Anderson 2008).
+As with many educational approaches, the benefits rely on the effectiveness of the implementation. All
+of the above benefits can be seen when co-teaching is well-implemented.
+
+Limitations of Co-Teaching
+Few mentions were made in the literature regarding limitations (limitations are defined as
+shortcomings or weaknesses of the approach) of co-teaching, or of collaborative practices in
+general. One such mention was that students with disabilities received less specially designed
+instruction (ASCD 2015). Additionally, anecdotally, schools transitioning to co-teaching noticed an
+increase in academic outcomes for students with disabilities after introducing co-teaching, and
+then experienced a leveling off of academic gains after a period of time (ASCD 2015). Notably, for
+multilingual co-teaching classrooms, ESOL teachers “felt restricted from using their greatest assets
+in the mainstream classroom. In particular, the use of native language and the ability to focus on the
+complexities of language development were not leveraged to the highest potential” (McClure and
+Cahnman-Taylor 2010 in Bauler and Kang 2020, 4).
+
+2.8
+
+L I T E RAT U R E R E VIE W
+
+Collaboration
+
+While limitations were less frequently discussed in the literature, implementation challenges were
+frequently cited. The main challenges of co-teaching include a lack of co-planning time, lack of
+administrative support, need for ongoing training/lack of training support, relationship difficulties
+between co-teachers, and increased workload for general education and specialist teachers (Alnasser
+2020; Anderson 2008; Brendle, Lock, and Piazza 2017; Winn and Blanton 2005). Importantly, these
+challenges are significant enough to prevent many schools from implementing co-teaching with fidelity.
+Because these challenges to implementing co-teaching are significant, they are examined more
+thoroughly in the “Necessary Conditions for Successful Implementation” section of this literature review.
+
+Common Implementation Frameworks
+The six models of co-teaching as defined by Friend et al. (2010) is the most commonly cited framework
+for co-teaching in the literature. An additional framework is Dove and Honigsfeld’s seven models of coteaching for multilingual learners (2018).
+Friend et al.’s (2010, 12) six models of co-teaching are listed below. Of the six models, Friend et al.
+(2010) notes that models 1, 2, and 3 are far more beneficial to students than models 4, 5, and 6:
+1. Station Teaching involves dividing students into three groups and rotating the groups from
+station to station, where they are taught by the co-teachers at two stations and working
+independently at the third;
+2. Parallel Teaching requires each of the co-teachers to instruct half of the students, presenting
+the same lesson to provide instructional differentiation and increased student participation;
+3. Alternative Teaching involves one teacher providing instruction to the majority of students
+while the other teacher works with a small group for remediation, enrichment, or assessment;
+4. Teaming requires that co-teachers lead large-group instruction, with both teachers lecturing,
+representing different viewpoints and multiple methods of solving problems;
+5. One Teach, One Assist, also identified as Supportive Teaching, involves one co-teacher
+leading instruction, while the other teacher circulates among the students providing individual
+assistance;
+6. One Teach, One Observe involves one of the co-teachers leading large-group instruction
+while the other teacher gathers academic, behavioral, or social data on specific students or the
+class group.
+Dove and Honigsfeld’s (2018) seven models of co-teaching for multilingual learners closely map
+to Friend et al.’s (2010) six models of co-teaching. The chart that follows is a crosswalk of the two
+frameworks, combined with corresponding benefits and challenges compiled by Anderson (2008, 39).
+
+2.9
+
+L I T E RAT U R E R E VIE W
+
+Collaboration
+
+SIX APPROACHES TO CO-TEACHING
+
+Source: Teaching Tolerance Seamless Teaching Toolkit
+
+2.10
+
+L I T E RAT U R E R EV IEW
+
+Collaboration
+
+SEVEN MODELS
+OF CO-TEACHING
+FOR MULTILINGUAL
+LEARNERS
+
+BENEFITS
+
+Supportive
+Teaching (One
+Teach, One
+Assist)
+
+One Group: One Leads,
+One “Teaches on
+Purpose”
+
+• Students receive
+additional
+assistance
+
+One Teach, One
+Observe
+
+One Group: One Teach,
+One Assess
+
+• Allows for specific
+observation of
+students
+
+Station Teaching
+
+Multiple Groups: Two
+Monitor and Teach
+
+• Increased student
+participation
+
+Two Groups: Two Teach
+Same Content
+
+• Increased small
+group work
+
+SIX MODELS
+OF COTEACHING
+
+Parallel Teaching
+
+• More individualized
+support
+
+CHALLENGES
+• Places one teacher in
+assistant role
+• Does not fully utilize
+the advantages of
+having multiple certified
+educators in the
+classroom
+• Higher noise levels
+• Students may become
+distracted
+• Potentially increased
+planning load
+
+• Leverages the
+diverse strengths
+of the two teachers
+• Students receive
+instruction from
+two teachers
+Alternative
+Teaching
+
+Teaming
+
+Two Groups: One PreTeaches, One Teaches
+Alternative Content
+
+• Leverages the
+diverse strengths
+of the two teachers
+
+Two Groups: One ReTeaches, One Teaches
+Alternative Content
+
+• Students receive
+instruction from
+two teachers
+
+One Group: Two Teach
+Same Content
+
+• Teachers
+model positive
+collaboration
+
+• More co-planning time
+and flexibility are needed
+• Requires high level of
+trust between teachers
+
+• More co-planning time
+and flexibility are needed
+• Requires high level of
+trust between teachers
+• Requires complex
+interpersonal dynamics
+of trading off during
+instruction
+• Does not allow for more
+targeted, individualized
+instruction
+• Does not fully utilize
+the advantages of
+having multiple certified
+educators in the
+classroom
+
+2.11
+
+L I T E RAT U R E R E VIE W
+
+Collaboration
+
+The literature notes that the best results for students occur when teaching teams use a variety of
+models (Scruggs, Mastropieri, and McDuffie 2007 in Alnasser 2020; Solis et al. 2012 in Alnasser
+2020), in particular, station teaching, parallel teaching, and alternative teaching. Despite this guidance,
+supportive teaching is the most commonly used co-teaching model, followed by parallel teaching,
+because they require less co-planning time (Alnasser 2020; Friend et al. 2010; Keefe and Moore 2004;
+King-Sears and Strogilos 2020; Scruggs, Mastropieri, and McDuffie 2007 in Alnasser 2020; Solis et al.
+2012 in Alnasser 2020).
+Additionally, the literature notes that over-reliance on supportive teaching can have the disadvantage
+of placing one teacher in an assistant role, negatively affecting co-teaching efficacy and teacher morale
+(Basso and McCoy 2007 in Anderson 2008; Dove and Honigsfeld 2018; Scruggs, Mastropieri, and
+McDuffie 2007 in Alnasser 2020) and can lead to student views that students with disabilities are a
+separate group and not an actual part of the general education classroom (Embury and Kroeger 2012).
+
+Efficacy of Co-Teaching on Academic Outcomes
+and For Whom
+There is definitive evidence that inclusion classrooms (either solo with pull-out and push-in services
+or co-taught) increase academic outcomes for students with disabilities (Cole et al. n.d.). Because of
+the wide variability of implementation, there is inconclusive data regarding the extent to which teacher
+practices, including co-teaching, cause or are correlated with the increase (King-Sears et al. 2021;
+Hanover Research 2012; Murawski and Swanson 2001). Primarily, this is due to datasets that do not
+lend themselves to large-scale standardized research. For example, large datasets reviewed in the
+Murawski and Swanson (2001) meta-analysis lacked disaggregated data for co-taught vs. non-cotaught classrooms as well as disaggregated data for students with disabilities compared to students
+without disabilities. In addition, the definitions of co-teaching, implementation structures, and fidelity
+of co-teaching vary wildly, not only from district to district, but also across individual classrooms within
+schools (Hanover Research 2012). Further, many studies lack specific descriptions of the types of
+co-teaching approaches used (King-Sears et al. 2021). These study limitations have so far precluded
+conclusive results about the efficacy of co-teaching.
+In the most recent meta-analysis on co-teaching, King-Sears et al. (2021) compared the academic
+achievement of students with disabilities in co-taught classes to the achievement of students with
+disabilities in special education settings such as resource rooms or self-contained classrooms. The
+study authors conducted a comprehensive search of published and gray literature, which resulted in
+26 eligible studies for a total of 3,714 students with disabilities. The analysis found a positive moderate
+effect size (g = 0.47) for students in co-taught settings compared to students in special education
+settings. Yet, crucially, the studies used for the meta-analysis lacked information about co-teaching
+instructional practices and equivalency of students assigned to co-taught or special education settings.
+Thus, it is unclear how much of the positive moderate effect size is due to co-teaching, as opposed to
+the positive effect inclusion classrooms have on academic outcomes. More research is needed that
+compares the academic performance of students with disabilities in solo-taught inclusion classrooms to
+those in co-taught inclusion classrooms.
+
+2.12
+
+L I T E RAT U R E R EV IEW
+
+Collaboration
+
+The lack of conclusive evidence of efficacy means there is also a lack of evidence on sub-group
+performance, particularly for target populations of Black and Latinx students with disabilities
+experiencing poverty. No literature surveyed had subgroup data for Black students, Black students
+experiencing poverty, or Black students with disabilities experiencing poverty. Similarly, no literature
+surveyed had subgroup data for Latinx students, Latinx students experiencing poverty, or Latinx
+students with disabilities experiencing poverty. However, a 2020 study on the effects of co-teaching for
+multilingual learners in K–4 classrooms in New York found that language proficiency scores increased
+over two years of co-teaching instruction (Bauler and Kang 2020). As 78% of the United States’
+multilingual learners are Hispanic (National Center for Education Statistics 2021), this study may be
+used as a partial proxy, though the study did not report on disability or income status.
+Although the meta-analyses did not provide conclusive evidence of the efficacy of co-teaching, they
+also did not provide conclusive evidence that co-teaching, regardless of fidelity, has negative effects on
+academic outcomes (Murawski and Swanson 2001; King-Sears et al. 2021). Thus, co-teaching appears
+to be a strategy for effectively implementing inclusion classrooms with limited downsides and the
+potential for positive academic gains when executed with integrity, though more research is needed.
+Given the limited downsides and potential benefits of co-teaching, it is important to note that Black
+and Latinx students in special education programs are more likely to be removed from inclusive general
+education classrooms than their white peers (de Valenzuela et al. 2006, Fierros and Conroy 2002,
+and Sullivan 2011 in Waitoller and Artiles 2013), leading to situations where Black and Latinx students
+with disabilities are less likely to see the benefits of collaboration and co-teaching. This is especially
+troubling because co-taught classrooms often implement aspects of Universal Design for Learning
+(UDL), which helps to make them inclusive not just of students of varying abilities, but also of different
+races and socioeconomic statuses as well (Sullivan and Thorius 2010). By removing Black and Latinx
+students with disabilities from these co-taught classrooms, schools are pushing students of color further
+from opportunity.
+
+Necessary Conditions for Successful
+Implementation
+Successful collaboration requires a school- and district-level belief in the value of true inclusion. With
+this vision, districts and schools can create the policies, staffing, structures, schedules, professional
+development, and culture changes that undergird effective collaborative relationships and processes,
+including but not limited to co-teaching.
+High-quality, high-impact co-teaching and other forms of collaboration can be achieved through
+thoughtful strategic planning on the part of districts, school administrators, and teachers (Ripley 1997).
+When time and intention are used to purposefully plan for the structure of multiple adults working
+together across a school community, excellence is possible. Yet implementing collaborative practices
+with fidelity can be difficult, especially because of the traditional siloing of general and special educators,
+particularly in teacher education (Winn and Blanton 2005). The literature specifically highlighted several
+challenges to implementing co-teaching effectively. When these challenges were not addressed,
+
+2.13
+
+L I T E RAT U R E R EV IEW
+
+Collaboration
+
+co-teaching failed to happen in classrooms. Due to the significant impact of these challenges on
+implementation, the challenges are listed here as necessary conditions for successful implementation,
+both of co-teaching specifically and of collaboration more generally.
+
+Necessary Conditions for Collaboration and Co-Teaching
+Many of the implementation challenges to effective co-teaching and collaboration raised in the literature
+can be addressed by system-level changes. Thus, the following system-level changes are necessary
+conditions for the successful implementation of collaborative practices.
+If the specific practice of co-teaching is the desired outcome, more specificity may be required.
+Necessary conditions specific to co-teaching are shown in gray boxes below.
+
+ADEQUATE SCHEDULING FOR CO-TEACHING AND COLLABORATION
+Student scheduling. Schools must practice inclusive education, assigning the majority of, if not all,
+students with disabilities to general education classrooms for 80% or more of the school day (Anderson
+2008). Much of the literature recommends not more than 25–30% of an inclusion classroom be composed
+of students with disabilities (Basso and McCoy 2007 in Anderson 2008; Mageria et al. 2008 in Alnasser
+2020; Perez 2012 in Alnasser 2020).
+Education Resource Strategies (2021, 3) notes that scheduling slightly larger than average cotaught class sizes (for example, 26 or 27 students instead of 24 students on average) allows for
+smaller targeted group arrangements (for example, 13 students in a targeted group instead of 24
+in the whole classroom).
+
+Dedicated weekly co-planning preparation periods for all collaborating teachers (Alnasser 2020;
+Anderson 2008; Ashton 2003 in Alnasser 2020; Baecher and Bell 2017 in Bauler and Kang 2020; Bauler
+and Kang 2020; Brendle, Lock, and Piazza 2017; Dove and Honigsfeld 2018; Education Resource
+Strategies 2021; Howser 2015 in Alnasser 2020; Pappamihiel 2012 in Bauler and Kang 2020; Simmons
+and Magiera 2007; Scruggs, Mastropieri, and McDuffie 2007 in Alnasser 2020)
+• Anderson (2008, 42) notes: “[Hawbaker, Balong, Buckwalkter, and Runyon (in Mitchell 2005)] These
+authors suggest that teachers require 60–90 minutes for each 3–4 week unit, in addition to individual
+teacher prep time. This time should be separate from special education teachers’ IEP management
+and meetings.
+Teacher scheduling. Schools must schedule specialists to co-teach with general education
+teachers (Anderson 2008; Education Resource Strategies 2021) and schedule dedicated coplanning time.
+• The literature suggests several scheduling considerations, such as limiting co-teaching
+assignments to one to two classrooms per year (Mitchell 2005 in Anderson 2008); limiting to
+not more than three lesson plan preparations (Basso and McCoy 2007 in Anderson 2008); or
+limiting assignments to common grade levels or subject areas (Friend 2007 in Anderson 2008).
+
+2.14
+
+L I T E RAT U R E R EV IEW
+
+Collaboration
+
+ONGOING PROFESSIONAL DEVELOPMENT ON TOPICS FOR CO-TEACHING TEAMS,
+SUPERVISORS, AND COACHES
+Skills in co-planning, co-instructing, and co-assessing (Brendle, Lock, and Piazza 2017; Cramer
+et al. 2006 in Anderson 2008; Friend et al. 2010; Keefe and Moore 2004; Mavropalias, Deligianni, and
+Symeonidou 2019 in Alnasser 2020; Murawski and Lochner 2010; Simmons and Magiera 2007 in Alnasser
+2020; Scruggs et al. 2007 in Brendle, Lock, and Piazza 2017)
+Skills in differentiated instruction (Alnasser 2020)
+Culturally relevant instruction, particularly when collaborating to support multilingual learners (Gleeson
+and Davison 2016 in Bauler and Kang 2020)
+Co-teaching models (Murawski and Lochner 2010)
+
+A SCHOOL-WIDE VISION FOR INCLUSIVITY
+Funding for support staff positions (Dove and Honigsfeld 2018) such as additional psychologists,
+mental health counselors, special education program staff, and instructional coaches (Education Resource
+Strategies 2021)
+Regular instructional supervision and clear expectations (Alnasser 2020; Weiss and Lloyd 2002 in
+Alnasser 2020)
+Promotion of shared vision of inclusion (McLeskey and Waldron 2015 in Alnasser 2020; Villa et al. 2005)
+Investment in school-wide culture of teacher collaboration (Bell and Baecher 2012 in Bauer 2020;
+Brendle, Lock, and Piazza 2017; Dove and Honigsfeld 2018; Webb and Barnash, in Cramer 2006 in
+Anderson 2008)
+Promotion of shared vision of co-teaching (Alnasser 2020)
+
+TIME AND RESOURCE INVESTMENT TO ENHANCE TEACHER COLLABORATION
+Well-defined teacher roles (Bauler and Kang 2020; Brendle, Lock, and Piazza 2017; Friend and Cook
+2010; Mastropieri et al. 2005 in Brendle, Lock, and Piazza 2017; Ripley, in Cramer 2006 in Anderson
+2008; Scruggs, Mastropieri, and McDuffie 2007 in Alnasser 2020; Simmons and Magiera 2007 in Alnasser
+2020; Whiting 2017 in Bauler and Kang 2020)
+Teacher trust (Ashton 2003 in Alnasser 2020; Scruggs, Mastropieri, and McDuffie 2007 in Alnasser 2020;
+Ronfeldt et al. 2015)
+Equity of teacher roles (Harper and de Jong 2009 in Bauler and Kang 2020; Rice and Zigmond
+2000 in Alnasser 2020)
+Teacher buy-in for co-teaching (Dove and Honigsfeld 2018; Friend and Pope 2005 in Anderson
+2008; Rice and Zigmond 2000 in Alnasser 2020)
+
+2.15
+
+L I T E RAT U R E R EV IEW
+
+Collaboration
+
+Conclusion
+In conclusion, collaboration between general and special educators is crucially important for schools
+that are working to become more inclusive of all learners. Within the broad landscape of collaborative
+practices, co-teaching is currently the best strategy for effectively meeting the needs of all students
+within classrooms. Co-teaching can be effective for a myriad of students with learning and thinking
+differences, including students with disabilities and multilingual learners; thus, creating a district culture
+of co-teaching can benefit many subgroups of diverse learners. District staff looking to adopt or improve
+their collaborative practices must recognize that many system-level changes — including scheduling,
+professional development, culture, and staffing — will be necessary to implement co-teaching, coplanning, and other collaborative teams effectively.
+While the literature has not yet been able to provide conclusive evidence of co-teaching efficacy on
+academic scores, the literature confirms the efficacy of inclusion (solo and co-taught) classrooms
+and suggests collaboration has positive benefits on classroom culture, student sense of belonging,
+and teacher job satisfaction, which are all foundational elements to increasing outcomes for diverse
+learners. In short, collaboration between educators traditionally tasked with serving students in silos
+has the potential, if the necessary conditions are met, to dramatically increase academic outcomes for
+diverse learners. If nothing else, co-teaching is an approach to meeting the inclusion requirements of
+IDEA and ESSA with a whole host of benefits for both students and teachers.
+Best practices for collaboration in schools and networks are discussed in the companion collection,
+Opening Doors to Collaboration.
+
+Teachers collaborating at Collegiate Academies
+
+2.16
+
+L I T E RAT U R E R EV IEW
+
+Collaboration
+
+Appendix
+References
+ASCD. 2015. “Welcome to Co-Teaching 2.0.” Educational Leadership 73, no. 4. Alexandria, VA: ASCD.
+https://www.ascd.org/el/articles/welcome-to-co-teaching-2.0
+Alnasser, Yazeed Abdulaziz. 2020. “The Perspectives of Colorado General and Special Education
+Teachers on the Barriers to Co-Teaching in the Inclusive Elementary School Classroom.
+Education 3-13 49, no. 6: 716–729. http://doi.org/10.1080/03004279.2020.1776363
+Anderson, Karen R. 2008. Co-teaching: A Literature Review. Prepared for the Ministry of Education,
+Saskatchewan. Accessed December 15, 2021, from William & Mary School of Education:
+https://education.wm.edu/centers/ttac/documents/articles/coteachingliteraturereview.pdf
+Bauler, Clara. V. and Emily J.S. Kang. 2020. “Elementary ESOL and Content Teachers Resilient Coteaching Practices: A Long-Term Analysis.” International Multilingual Research Journal 14, no. 4:
+338–354. http://doi.org/10.1080/19313152.2020.1747163
+Blackwell, William H., and Zachary S. Rossetti. 2014. “The Development of Individualized Education
+Programs: Where Have We Been and Where Should We Go Now?” SAGE Open 4, no. 2.
+https://doi.org/10.1177/2158244014530411
+Brendle, Joanna, Robert Lock, and Kate Piazza. 2017. “A Study of Co-Teaching Identifying Effective
+Implementation Strategies.” International Journal of Special Education 32, no.3: 538–550.
+https://files.eric.ed.gov/fulltext/EJ1184155.pdf
+Cole, Sandi, Hardy Murphy, Michael Frisby, Teresa Grossi, and Hannah Bolte. n.d. A Longitudinal Study
+to Determine the Impact of Inclusion on Student Academic Outcomes. Executive Summary
+Report. Bloomington, IN: Indiana University Center on Education and Lifelong Learning.
+Retrieved December 15, 2021, from https://iidc.indiana.edu/cell/what-we-do/pdf/Inclusionstudy-handout.pdf
+Cramer, Elizabeth, Andrea Liston, Ann Nevin, and Jacqueline Thousand. 2010. “Co-teaching in Urban
+Secondary School Districts to Meet the Needs of All Teachers and Learners: Implications for
+Teacher Education Reform.” International Journal of Whole Schooling 6, no. 2, 59–76.
+https://files.eric.ed.gov/fulltext/EJ912017.pdf
+DeMartino, Pamela and Philip Specht. 2018. “Collaborative Co-teaching Models and Specially
+Designed Instruction in Secondary Education: A New Inclusive Consultation Model.” Preventing
+School Failure: Alternative Education for Children and Youth 62, no. 4: 266–278.
+http://doi.org/10.1080/1045988x.2018.1446413
+Dove, Maria G., and Andrea Honigsfeld. 2018. Co-Teaching for English Learners: A Guide to
+Collaborative Planning, Instruction, Assessment, and Reflection. Thousand Oaks, CA: Corwin.
+
+2.17
+
+L I T E RAT U R E R EV IEW
+
+Collaboration
+
+Education Resource Strategies. 2021. Organizing Resources to Support Inclusion Models for Students
+With Disabilities. Watertown, MA: Education Resource Strategies. Retrieved March 7, 2024,
+from https://www.erstrategies.org/wp-content/uploads/2023/12/Organizing_Resources_
+to_Support_Inclusion_Models_for_Students_with_Disabilities_v3.pdf
+Embury, Dusty and Stephen D. Kroeger. 2012. “Let’s Ask the Kids: Consumer Constructions of Coteaching.” International Journal of Special Education 27, no. 2: 102–112.
+Friend, Marilyn. 2008. “Co-Teaching: A Simple Solution That Isn't Simple After All.” Journal of
+Curriculum and Instruction 2, no. 2: 9–19. http://doi.org/10.3776/joci.2008.v2n2p9-19
+Friend, Marilyn, Lynne Cook, DeAnna Hurley-Chamberlain, and Cynthia Shamberger. 2010.
+“Co-Teaching: An Illustration of the Complexity of Collaboration in Special Education.”
+Journal of Educational and Psychological Consultation 20, no. 1: 9–27.
+http://doi.org/10.1080/10474410903535380
+Gately, Susan E. and Frank J. Gately. 2001. “Understanding Coteaching Components.” TEACHING
+Exceptional Children 33, no. 4: 40–47. http://doi.org/10.1177/004005990103300406
+Goddard, Yvonne, Goddard, Roger and Tschannen-Moran, Megan. 2007. “A Theoretical and Empirical
+Investigation of Teacher Collaboration for School Improvement and Student
+Achievement in Public Elementary Schools.” Teachers College Record, 109.
+http://doi.org/10.1177/016146810710900401
+Hanover Research. 2012. The Effectiveness of Co-Teaching Model: Literature Review. Washington,
+DC: Hanover Research.
+Hansen, Janne H., Suzanne Carrington, Charlotte Riis Jensen, Mette Molbæk, and Maria Christina
+Secher Schmidt. 2020. “The Collaborative Practice of Inclusion and Exclusion.” Nordic Journal
+of Studies in Educational Policy 6, no. 1: 47–57. http://doi.org/10.1080/20020317.2020.1730112
+Hehir, Thomas, Christopher Pascucci, and Silvana Pascucci. 2016. A Summary Of The Evidence On
+Inclusive Education. Prepared for Instituto Alana. Retrieved December 15, 2021 from https://
+alana.org.br/wp-content/uploads/2016/12/A_Summary_of_the_evidence_on_inclusive_
+education.pdf
+Hernandez, Stephen J. 2012. “Evaluation of Push-In/Integrated Therapy in a Collaborative Preschool
+for Children with Special Needs.” Journal of the American Academy of Special Education
+Professionals. Spring/Summer 2012. https://eric.ed.gov/?id=EJ1135696
+Hernandez, Stephen J. 2013. “Collaboration in Special Education: Its History, Evolution, and Critical
+Factors Necessary for Successful Implementation.” US-China Education Review B 3, no.6:
+480–498. https://files.eric.ed.gov/fulltext/ED544122.pdf
+Keefe, Elizabeth B. and Veronica Moore. 2004. “The Challenge of Co-Teaching in Inclusive Classrooms
+at the High School Level: What the Teachers Told Us.” American Secondary Education 32, no. 3:
+77–88. https://eric.ed.gov/?id=EJ692470.
+
+2.18
+
+L I T E RAT U R E R EV IEW
+
+Collaboration
+
+King-Sears, Margaret E. and Strogilos Vasilis. 2020. “An Exploratory Study of Self-efficacy, School
+Belongingness, and Co-teaching Perspectives from Middle School Students and Teachers in a
+Mathematics Co-taught Classroom.” International Journal of Inclusive Education, 24:2, 162–
+180, DOI: 10.1080/13603116.2018.1453553
+King-Sears, Margaret E., Abraham Stefanidis, Sheri Berkeley, and Vasilis Strogilos. 2021. “Does CoTeaching Improve Academic Achievement for Students with Disabilities? A Meta-Analysis.”
+Educational Research Review, 34, 100405. http://doi.org/10.1016/j.edurev.2021.100405
+Kohler-Evans, Patty. 2006. “Co-Teaching: How to Make this Marriage Work in Front of the Kids.”
+Education 127, no. 2: 260–264. Retrieved December 15, 2021, from https://www.
+researchgate.net/publication/234559563_Co-Teaching_How_to_Make_This_Marriage_
+Work_in_Front_of_the_Kids
+Murawski, Wendy M., and Wendy W. Lochner. 2010. “Observing Co-Teaching: What to Ask
+For, Look For, and Listen For.” Intervention in School and Clinic 46, no. 3: 174–183.
+http://doi.org/10.1177/1053451210378165
+Murawski, Wendy. M. and H. Lee Swanson. 2001. “A Meta-Analysis of Co-Teaching Research:
+Where Are the Data?” Remedial and Special Education 22, no. 5: 258–267.
+http://doi.org/10.1177/074193250102200501
+National Center for Education Statistics (NCES). 2021. “English Language Learners in Public Schools.”
+Condition of Education. US Department of Education, Institute of Education Sciences. Retrieved
+December 15, 2021, from https://nces.ed.gov/programs/coe/indicator/cgf
+National Center for Education Statistics (NCES). 2023. “Students With Disabilities.” Condition of
+Education. US Department of Education, Institute of Education Sciences. Retrieved March 4,
+2023, from https://nces.ed.gov/programs/coe/indicator/cgg
+National Center for Learning Disabilities (NCLD). 2020. Significant Disproportionality in Special
+Education: Current Trends and Actions for Impact. Retrieved March 7, 2024, from https://nces.
+ed.gov/programs/coe/indicator/cgf
+Ripley, Suzanne. 1997. “Collaboration between General and Special Education Teachers.” ERIC
+Digest. https://files.eric.ed.gov/fulltext/ED409317.pdf
+Ronfeldt, Matthew, Susanna Owens Farmer, Kiel McQueen, and Jason A. Grissom. 2015. “Teacher
+Collaboration in Instructional Teams and Student Achievement.” American Educational
+Research Journal 52, no. 3: 475–514. http://www.jstor.org/stable/24546739
+Sanahuja-Gavaldà, Josep M., Patricia Olmos-Rueda, and Mar Morón-Velasco. 2016. “Collaborative
+Support for Inclusion.” Journal of Research in Special Education Needs 16, no. 1: 303–307.
+https://doi.org/10.1111/1471-3802.12293
+Scanlon, David and Diana Baker. 2012. “An Accommodations Model for the Secondary Inclusive
+Classroom.” Learning Disability Quarterly 35, no. 4: 212–224. http://www.jstor.org/
+stable/41702375
+
+2.19
+
+L I T E RAT U R E R EV IEW
+
+Collaboration
+
+Simmons, Rhea J. and Kathleen Magiera. 2007. “Evaluation of Co-Teaching in Three High Schools
+within One School District: How Do You Know When You Are Truly Co-Teaching?” Teaching
+Exceptional Children Plus 3, no. 3: Article 4. Retrieved December 15, 2021, from
+https://files.eric.ed.gov/fulltext/EJ967127.pdf
+Sullivan, Amanda L. and Kathleen A. King Thorius. 2010. “Considering Intersections of Difference
+among Students Identified as Disabled and Expanding Conceptualizations of Multicultural
+Education.” Race, Gender & Class 17, no. 1/2: 93–109. http://www.jstor.org/stable/41674728
+Villa, Richard A., Jacqueline S. Thousand, Ann Nevin, and Andrea Liston. 2005. “Successful Inclusive
+Practices in Middle and Secondary Schools.” American Secondary Education 33, no. 3: 33–50.
+http://www.jstor.org/stable/41064553
+Waitoller, Frederico R. and Alfredo J. Artiles. 2013. “A Decade of Professional Development Research
+for Inclusive Education: A Critical Review and Notes for a Research Program.” Review of
+Educational Research 83, no. 3: 319–356. http://www.jstor.org/stable/24434162
+Weiss, Margaret P., Holly Glaser, and John W. Lloyd. 2020. “An Exploratory Study of an Instructional
+Model for Co-Teaching.” Exceptionality 30, no. 4: 232–245. http://doi.org/10.1080/09362835.20
+20.1727338
+Winn, Judith and Linda Blanton. 2005. “The Call for Collaboration in Teacher Education.” Focus on
+Exceptional Children 38, no. 2. http://doi.org/10.17161/fec.v38i2.6816
+
+2.20
+
+L I T E RAT U R E R EV IEW
+
+Collaboration

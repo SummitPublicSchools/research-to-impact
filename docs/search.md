@@ -75,6 +75,73 @@ of the library.
 
 ---
 
+## Searching inside the documents
+
+Everything above ranks the sheet's *description* of a resource — about 8,500
+words. The files those rows link to hold about 450,000. A question whose answer
+is on page 12 of a PDF could only ever be pointed at. Now the text of every
+linked PDF, Google Doc and deck is searchable too, and a result found that way
+says so: **"Inside the document, p. 12 …"** with the matching sentence.
+
+```
+linked files ──tools/index-files.mjs──▶ content/<drive-id>.txt   (committed)
+content/ ──build.js──▶ dist/search-docs.json   (passages; fetched when search opens)
+```
+
+**1. Extraction is not part of the build.** The files are ~200 MB of PDF, the
+Netlify image has no PDF tooling, and this repo has no dependencies. So
+`tools/index-files.mjs` does it — on a laptop, or weekly in
+`.github/workflows/rebuild.yml` — reading each file *as an anonymous visitor*
+and committing plain text to `content/`. It re-downloads only files whose
+`Last-Modified` or size changed. The build then does string work only: no extra
+network calls, and it cannot fail because Drive was slow.
+
+**2. The page does not carry the text.** The build cuts it into ~110-word
+passages and writes `dist/search-docs.json` (≈1.9 MB, ≈580 KB compressed),
+fetched the first time someone opens search. Until it arrives — and if it never
+does — search behaves exactly as it did before.
+
+**3. Repeats are removed, smallest document first.** Each Collection's "full
+collection" PDF contains its stand-alone documents, and several files are
+uploaded twice under different ids. A page already seen in a smaller document
+is dropped from the larger one, so the 179-page compilation does not match
+everything its parts match and crowd the specific resource out. Running heads
+and footers are stripped the same way. (450,000 words in, 275,000 kept.)
+
+**4. The sheet decides first; the documents refine.** *Which* resources come
+back is settled from the sheet alone, exactly as before. Document text then
+does two narrower things: it lifts a returned resource whose file also contains
+the words, and it adds a resource the sheet missed — but only on stronger
+evidence (`S_DOCNEED`: 60% of the visitor's words together in one passage, where
+the sheet needs half; `S_DOCFLOOR`: a passage scoring within 70% of the best
+one). A resource is credited with its single best passage, never the sum, and
+that counts for `S_DOCW` = 0.35 of a sheet match.
+
+That ordering is the lesson of this build. The first version let passage
+matches vote on the coverage rule, and "anything for a principal rolling this
+out" lost its (correct) sheet results to any passage containing "roll out".
+Prose matches loose questions far too easily to be given that vote.
+
+**To refresh by hand** (needs `pdftotext`: `brew install poppler`):
+
+```
+node build.js && node tools/index-files.mjs     # then commit content/
+```
+
+**Things that will catch you out**
+
+- A new or replaced file is not searchable inside until the tool has run
+  (weekly, or by hand). Its sheet row is searchable immediately, as always.
+- `fixtures/content/` holds invented sample text so CI exercises the whole path.
+  The live text is in `content/`. Neither is hand-edited.
+- Ligatures matter: a PDF set with "ﬀ" extracts as one glyph and no query
+  matches "di·erentiation". The tool folds them (NFKC). If a word that is
+  plainly in a document cannot be found, look at the extracted text first.
+- Gated resources are indexed like any other, so a snippet of their text shows
+  before the (skippable) email ask.
+
+---
+
 ## What the panel shows
 
 **Where to start** — the best-matching *module*, with its intro **straight from
@@ -116,6 +183,21 @@ truth. Several accept more than one section because the corpus genuinely has
 more than one defensible home; where a label was widened during development,
 `label_note` records the evidence — in every case the returned document itself.
 
+**`inside` (15)** is a third split: questions whose answer is in the text of a
+file and not in the sheet ("should we pause repeated reading during state
+testing"), each naming the resource that holds it. They were written *from* the
+passages, so they prove retrieval works rather than measure it blind.
+
+| | sheet only | with documents |
+|---|---|---|
+| tune — top-1 section | 24/25 | 24/25 |
+| holdout — top-1 section | 14/15 | 14/15 |
+| inside — right document in top 5 | 8/15 | **14/15** |
+
+Every check runs twice — on the sheet-only index the page loads with, and again
+with the document text loaded — because those are the two states the page
+really runs in, and the original floors must hold in both.
+
 **CI runs the invariant only** (`node tools/search-eval.mjs`, no `--score`): *no
 natural-language question returns a blank panel.* That holds whatever is in the
 sheet, because it is a property of the ranking rather than the content. The
@@ -134,6 +216,7 @@ Everything is at the top of the search block in `template.html`:
 | `SEARCH_STOP` | Function words. Note `getting` is stopped but `start`/`started` are not: "Getting Started" is a module on every practice. |
 | `S_FIELDS` | Field weights. **A field missing from this list is not searched at all** — `who_for` sat unindexed because it was empty when the search was written, so filling it would have done nothing on its own. |
 | `S_K1`, `S_B` | BM25 saturation and length normalisation. |
+| `S_DOCW`, `S_DOCNEED`, `S_DOCFLOOR` | How much a passage inside a document counts, and the bar for adding a resource the sheet did not return. |
 
 Re-run the scored eval after any change. If a floor fails, the floor is doing
 its job — it is set just under the measured result so an honest improvement
@@ -153,7 +236,11 @@ passes and a regression does not.
 - **A term the whole library is about cannot discriminate.** "Students with
   disabilities" is the premise of the entire site, so it is a weak signal
   within it.
-- **It ranks; it does not answer.** For a question whose answer lives *inside* a
-  PDF in Drive, search can only point at the PDF. Closing that gap means
-  indexing the documents, which is a separate project — see
-  `docs/backlog.md`.
+- **It ranks; it does not answer.** It can now find the passage inside a
+  document and quote it with its page number, but it still does not compose an
+  answer — on purpose (see "What the panel shows").
+- **Six published files are sign-in only**, so their text cannot be read and
+  they are searchable by their sheet row alone. `tools/index-files.mjs` names
+  them on every run; they are the same six `tools/accesscheck.sh` reports.
+- **A scanned or image-only PDF yields no text.** The index tool flags any file
+  with very little text for its page count.

@@ -1,0 +1,245 @@
+IGNITE Research to Impact Practice Training Deck
+What is Routine Data Cycles to Rapidly Address Student Needs?
+A Practitioner’s Overview
+
+<Session> | <Date>
+
+📌 FACILITATOR / SITE ADAPTATION NOTE
+Template Training Deck – Adapt for Your Site
+This deck is designed as a foundational template for sites to copy, customize, and make their own based on local needs and goals.
+Grounded in our experience training educators across the IGNITE Network, this deck reflects high-impact practices for introducing practitioners to Routine Data Cycles.
+
+This training deck accompanies the IGNITE Network's Research to Impact Practices
+These resources were developed and tested in partnership with educators implementing the IGNITE Research to Impact practices in school settings across the United States.
+©2026 Marshall CoLab. Shared with permission from partner schools.
+Free to copy and distribute with attribution, in unadapted form, for noncommercial use. (CC BY-NC-ND 4.0)
+
+The IGNITE Network is a coalition of schools committed to making dramatic gains in the experiences, environments and outcomes of our most vulnerable students – Black and Latino students with disabilities experiencing poverty – whose success strengthens outcomes for every student. Our Research-to-Impact Practices were originally developed by educators across the United States through the Networked Improvement Community for Students with Disabilities (2019–2023) and continue to be refined and scaled by IGNITE schools today.
+
+The IGNITE Network
+35 Schools | 3 Communities | 13,000+ Students
+IGNITE Nashville
+IGNITE Newark
+
+IGNITE Founders
+
+Objectives
+At the end of the workshop, participants will be able to...
+
+define routine data cycles
+explain why they matter for students and educators
+name the core components of effective routine data cycles
+start to explore the preparation and data needed for data cycles
+
+1
+2
+3
+4
+
+Let’s Build Community!
+Introduce yourself!
+What’s something you’ve been getting started?
+Discuss: Think of a time you collaborated with someone else and it worked really well.
+What made it successful?
+Have pairs introduce one another and share.
+Poll group after all share: “How many people mentioned trust, shared goals, clariry of roles?”
+
+Setting the Stage
+
+“85% to 90% of students with disabilities can achieve at grade-level with the right supports.”
+
+National Center on Educational Outcomes
+Megan
+
+“Yet only 50% of general education teachers feel strongly that students with disabilities can achieve at grade level.”
+
+National Center for Learning Disabilities / Understood
+Megan
+
+The Challenge
+Students with disabilities often do not receive high-quality, differentiated instruction partly due to limited or ineffective use of data to drive instructional design.
+
+This issue is compounded by educator lack of access to tools for making timely decisions.
+
+As a result, the most disadvantaged students are at risk of falling behind.
+
+Why is the Use of Data Important?
+Routine data analysis can support high-quality instruction for all learners.
+Data-driven instruction is foundational to effective MTSS.
+Lack of knowledge and training around data-driven problem solving is a key barrier to implementing MTSS with fidelity.1
+Disaggregating student data by priority populations (e.g., students with disabilities) helps educators make important and data-driven instructional decisions.
+1 Drury et al, “Educational Leaders’ Perspectives”
+DISAGGREGATED DATA ALLOWS FOCUS ON PRIORITY POPULATION.
+Whole-class, or aggregate, data masks differences that may exist between groups or individual students. Therefore, it is important that data dashboards are able to disaggregate by group — particularly for the different subgroups within our priority population, students with disabilities who are Black and/or Latinx, and living in poverty — allowing teachers to unpack what is happening in their classroom across subgroups. With this detailed data, teachers can ensure they are responding to the students who most need additional support.
+
+Evidence-Base for Effective Routine Data Cycles
+Data can identify and mitigate bias in the system
+Reviewing and comparing data across student subgroups can help teachers:
+reflect on how instruction was planned and delivered
+attend to how assignments were graded
+With disaggregated data educators can identify trends and patterns of student performance on a variety of assessments to see discrepancies and reflect on how their systems or practices contribute to those discrepancies. 1
+1 Kania and Kramer, “The Equity Imperative in Collective Impact”
+
+Feedback from Y1 IGNITE Educators
+Most respondents agreed/strongly agreed that the practice has increased the focus on data for historically underserved or marginalized students.
+
+Most respondents agreed/strongly agreed that the practice helped them deliver targeted interventions and assess their effectiveness.
+
+Reported benefits included:
+More intentional and targeted instructional planning (92.3%)
+More frequent reflection on student progress and needs (84.6%)
+Increased student engagement due to more tailored needs (61.5%)
+Greater confidence in designing and adjusting interventions (61.5%)
+
+Why Might Routine Data Cycles Matter Here?
+Silent/solo reflection, then discuss in small groups:
+
+What do our students need most right now?
+If educators regularly analyzed student data to proactively design classroom-based interventions, what would improve for students?
+What would change for teachers?
+
+Be prepared to share with the whole group.
+Purpose: Help participants connect the need for co-planning to the real student and teacher experience in their setting before defining the practice.
+Groups can chart or just discuss. Facilitator can share the shares to capture group thinking to reference later.
+
+Defining the Practice
+
+What are Routine Data Cycles?
+The regular analysis of student data to proactively design classroom-based interventions, typically using a customized data dashboard.
+
+What a Routine Data Cycle Is and Is Not
+IS
+IS NOT
+A proactive, classroom-embedded practice for instructional planning
+A generic data team meeting or test score review
+Rooted in real-time, actionable data (e.g., exit tickets, grades), using a teacher-facing data dashboard that can be disaggregated by student demographics
+Based on infrequent or summative data (e.g., state tests only) via a schoolwide student information system that cannot disaggregate demographic data
+Centered on teacher-driven inquiry and intervention
+Driven only by admin or assessment teams
+Alignment of interventions to learning standards and specific skill gaps
+A re-teaching of everything missed, without clear focus
+Implemented on a routine cycle (weekly or biweekly)
+A one-time intervention plan or reactive scramble near report cards
+Enables targeted small group or 1:1 supports
+Always whole-class reteaching
+
+Core Components of Routine Data Cycles
+Analyze data to identify student needs. Educators, individually and then as a team, look for trends in student data and identify topics or standards that groups of students struggled to master.
+Designs interventions for students. Based on the needs identified during data analysis, teachers determine how to re-teach content or skills that students missed in prior assignments.
+Deliver interventions. Educators use student groupings identified by the data and implement the interventions they determined would best support those students.
+1
+2
+3
+
+Routine Data Cycle Process Visualization
+Implement routine data cycles
+
+Analyze data to identify student needs
+Plan and design interventions
+Implement interventions
+
+Routine Data Cycle Process Map - Overview
+Train teams
+Determine school-level goals for student success
+Set up data dashboard
+Design protocols for routine data cycles
+Enable and nurture teacher investment and a culture of data
+Design and integrate staff data routines and norms
+Implement routine data cycles
+
+Analyze data to identify student needs
+Plan and design interventions
+Implement interventions
+Provide ongoing support
+Prepare needed structures
+Design routines and norms for using data
+Embed teacher support
+Revise goals, data dashboard, protocols, and norms
+
+At the start of the year, school leaders can take a few key actions to enable and nurture teacher investment and a culture of data.
+
+Prepare necessary structures
+This includes
+determining school-levels goals for student success,
+setting up data dashboards,
+designing protocols for routine data cycles, and
+designing routines and norms for using data.
+Train teams
+This looks like designing and integrating staff data routines and norms for implementing this practice.
+
+Launching the Practice
+
+Maintaining the Practice
+Throughout the year, school leaders can continue to enable and nurture this work by:
+Embedding teacher support [in ?]
+Revising goals, data dashboard, protocols, and norms [based on the team’s implementation data]
+
+Make it a Routine
+Schedule dedicated time on a regular basis – ideally weekly or biweekly – to gather data and complete the data routine protocol.
+Integrate data analysis into coaching and collaboration structures to build capacity and alignment across teams supporting students.
+Celebrate progress of students and staff – to elevate wins and build habits and mindsets around data-driven instructional planning.
+
+A Field Example: STEM Prep
+
+Case Study: STEM Prep’s Routine Data Cycles
+Built the Gradebook Distribution Tool: a teacher-facing dashboard
+Created the Gradebook Distribution Protocol: step-by-step process for reviewing data, setting goals, and planning interventions
+Solidified Key Structures: Schoolwide goal + all staff required to use the protocol
+At Crown Prep Academy, STEM Prep’s 5–8 school in Los Angeles, leaders noticed that teachers often scrambled at the end of grading periods to push students to submit missing assignments. This practice raised passing rates but did little to build mastery. To address this, the principal and staff hypothesized that a custom data dashboard could help teachers monitor student progress in real time and respond earlier to individual needs. They launched the work by developing a gradebook toolkit, training teachers to use it, and embedding data discussions into existing professional development.
+
+What RDC Looked Like in Practice
+Teachers downloaded grade reports → dashboard disaggregated data by learning goal, time period, student group.
+Dashboard flagged students at risk.
+Teachers set SMART goals and design interventions
+Monthly PD meetings were used for scheduled data pulls and action planning.
+Over time, teachers began doing it independently.
+This is what Routine Data Cycles look like in action: teachers pull grade reports, see which students are struggling, set a SMART goal, and act immediately. And because data cycles happen on a schedule; it’s proactive, not reactive.
+“This is what Routine Data Cycles look like in action: teachers pull grade reports, see which students are struggling, set a SMART goal, and act immediately. And because data cycles happen on a schedule, it’s proactive, not reactive.”
+
+Supports That Sustained the Practice
+Summer PD: All staff trained on schoolwide goals and the use of tools + protocol.
+Staff Meetings: Protected time for guided data cycles.
+Embedded Data Entry: Built time into bi-weekly PD for data work.
+Coaching: Biweekly sessions to move from analysis to action.
+Culture: Leaders reframed data use (thermostat vs. thermometer) and celebrated small wins.
+During early roll out, leaders adapted in response to barriers. They improved the tool, built buy-in with simple metaphors, and shifted plans from ‘the student needs to...’ to ‘I will...for the student.’ Coaching and repetition made it stick. As the model spread, leaders kept adjusting. They found teachers weren’t updating data outside PD—so they built time into PD itself. That culture of continuous improvement was essential.
+Early on, the rollout flopped—teachers didn’t see why it mattered. But leaders adapted. They improved the tool, built buy-in with simple metaphors, and shifted plans from ‘the student needs to...’ to ‘I will...for the student.’ Coaching and repetition made it stick.
+
+As the model spread, leaders kept adjusting. They found teachers weren’t updating data outside PD—so they built time into PD itself. That culture of continuous improvement was essential.
+
+Why it Worked
+The model at STEM Prep worked because data was:
+
+Aligned with schoolwide priorities.
+Routine: built into PD, not optional.
+Actionable: always tied to an intervention.
+Disaggregated: surfaced needs of subgroups.
+This wasn’t just a dashboard. It was a system - aligned, routine, actionable, and equitable. That’s what made it work.
+
+Close
+
+30
+Tools and Resources
+Resource Link
+Brief Description
+Implementing Routine Data Cycles to Rapidly Address Student Needs (Chapter)
+This chapter details the specific practice of implementing routine data cycles. It is the anchor resource for this practice. The resource provides information on what the practice is, it’s evidence base and importance, the steps to implementing it, enabling conditions for optimal success, and a variety of embedded case studies and supplementary resources/tools.
+Navigating Data for Multi-Tiered Systems of Support: Equity-based practices for using data at the district, school, and classroom levels to accelerate student supports (Full Change Package)
+A set of best practices for leveraging data to respond to student academic and social-emotional needs with a particular focus on Black and Latinx students with disabilities experiencing poverty.
+Implementing Routine Data Cycles to Rapidly Address Student Needs
+(Practice Factsheet)
+A brief overview factsheet on the practice.
+Routine Data Cycle Protocol and Sample Data Cycle Protocol with Guiding Questions (Practice Tools)
+These are the anchor tools for the practice.
+How-To: Design and Prototype a Data Dashboard
+When existing data tools do not meet current needs and a school or network chooses to design a custom data tool, it is important to invest the necessary time and effort to ensure the tool is useful, usable, and utilized. This resource guides school and network leaders in developing a data dashboard by outlining steps to take when planning for this process.
+
+Download the Practices
+http://tinyurl.com/ResearchToImpact
+
+Thank You.
+<Survey>
+
+Name
+Role
+Email

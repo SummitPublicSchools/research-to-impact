@@ -1,0 +1,491 @@
+How to Improve
+Family Engagement
+with Text Messaging
+STRIVE PREP
+
+EXPLORE THE COLLECTION
+This practice enhances family engagement
+by providing families with more regular
+access to information about their children
+while also generating valuable data on family
+engagement for educators and leaders to
+address. For more specific information on
+how to leverage data as part of a multi-tiered
+system of support, see Navigating Data for
+Multi-Tiered Systems of Support.
+
+Snapshot
+WHAT IS THE PRACTICE?
+The use of biweekly mass text-message communications to families, in both Spanish and
+English, to notify families about their students’ academic progress and priority activities.
+Families can respond directly to a school staff member via text message if they have
+questions or concerns about their student.
+
+WHY IS IT IMPORTANT?
+• Traditional methods of communication with families (e.g., progress reports, teacher
+letters, flyers) do not always reach families or students reliably or in a timely manner.
+• Some families may struggle to attend events or meetings at school, which have
+historically been key ways that schools engage families and communicate essential
+information with families.
+• Researchers found that daily communication between teachers and families immediately
+improved homework completion rates, on-task behavior, and class participation,
+and participants reported stronger teacher-student relationships, broader parental
+involvement, and increased student motivation.1
+• Students whose families are more knowledgeable and involved in their education have
+been consistently shown to have better academic outcomes.2
+
+“It’s been great to know grades as they’re
+happening, not just get a progress report at the
+end of six weeks.”
+— PARENT, STRIVE PREP SMART
+
+7.2
+
+I M P RO V I N G FA MILY EN GA GE M EN T W ITH TE X T ME S S A GIN G
+
+Multi-Tiered
+Systems of Support
+
+The Challenge
+Engaging Families after COVID-19
+As students began returning to in-person learning from the COVID-19 pandemic, two of STRIVE
+Prep’s network leaders, Jen Bisha and Jose Loera, realized that there was a need to intentionally
+re-engage families to support student achievement. Their data revealed schools were having less
+frequent interactions with families than in prior school years, and they believed increasing family
+engagement was a factor they could meaningfully improve to increase student course passage
+rates. After careful reflection, they agreed that the solution should consider several key factors:
+• Families were not logging into the network’s parent portal that showed them their students’
+grades and assignments.
+• Sixty percent of students with disabilities were failing at least one class.
+• Families needed communication available in both English and Spanish.
+• Families indicated that text messaging was their preferred method of communication.
+Jen and Jose decided that text message communication was the ideal family engagement strategy.
+They chose to use ThruText, an online text messaging system for sending mass communications.
+This tool would allow the STRIVE Prep team to communicate student-specific information, such as
+failing grades and missing assignments, and establish a routine cadence for messaging to families.
+To ensure that all families had access to this critical information, the system would send messages
+in English and Spanish biweekly. ThruText would also prompt families to check students’ grades on
+the parent portal and encourage them to engage in back-and-forth communication with staff. They
+hoped this strategy would get every family involved and aligned with the school so families could
+talk to their students about their education. These conversations would allow families and students
+to build helpful habits for communicating with each other about academic progress and what
+students need.
+
+Problem
+Statement
+
+Aim
+
+Primary Driver
+
+Secondary Driver
+
+Change Idea
+
+Family
+engagement
+and student
+achievement
+decreased
+during
+pandemic-forced
+online learning.
+
+By May, 2022,
+the percent of
+students with
+disabilities
+passing all
+classes will
+increase by
+25%.
+
+Students with
+disabilities
+develop selfdetermination
+skills &
+ownership of
+their academic
+journey.
+
+Build confidence
+with families to
+approach
+school staff
+for support.
+
+Personalized
+family
+engagement text
+campaign.
+
+STRIVE Prep’s strategic thinking, represented in a driver diagram flowchart visual, connecting their problem statement
+and aim to the text messaging strategy to engage families
+
+7.3
+
+I M P RO V I N G FA MILY EN GA GE M EN T W ITH TE X T ME S S A GIN G
+
+Multi-Tiered
+Systems of Support
+
+The Practice
+Starting Regular Text Messaging Conversations
+about Grades
+Prioritizing the Needs of Students with Disabilities
+At the beginning of fall 2021, Jen and Jose decided to implement the text messaging strategy only for
+students with disabilities who were failing at least one class. As they launched this strategy, they quickly
+realized that even students who were passing all classes needed to build habits with their families
+around using the parent portal and communicating their needs at school. The team quickly expanded
+the text messaging practice to send messages to all families of students with disabilities. As a result,
+STRIVE Prep saw substantial improvements, with 39% of
+students with disabilities increasing the number of classes
+they were passing by the end of the fall semester.
+Jen and Jose learned a few important lessons from this initial
+implementation of text messaging with families of students
+with disabilities. For the first text message, the team sent
+an introductory video explaining to families the information
+they would receive over the semester, how they could act
+on that information, and strategies to support their students.
+Unfortunately, not enough families watched the video when
+notified with just a text message. As an alternative strategy,
+the STRIVE Prep team posted the introduction video on each
+school’s Facebook page and followed up with a text message
+asking families, “Will you take 10 minutes to read this update
+on your student’s progress?” This strategy resulted in twice as
+many engagements with the video.
+
+A STRIVE Prep Smart math teacher works with a student.
+
+7.4
+
+I M P RO V I N G FA MILY EN GA GE M EN T W ITH TE X T ME S S A GIN G
+
+Multi-Tiered
+Systems of Support
+
+How STRIVE Prep Implemented
+the Practice
+Over time, STRIVE Prep learned important lessons on how to best implement their text message
+intervention. They created simple and targeted messages, a carefully planned calendar of texts, and a
+routine for sending text messages every other week. Families were able to anticipate when they would
+receive text messages and could easily respond to the school and their students about students’ grades.
+
+Anatomy of an Effective Text Message
+Simplicity is key.
+Keep messages very simple and focused on a specific purpose.
+Parts to include:
+1. Introduction
+2. Student-specific information (e.g., number of failing classes)
+3. Upcoming important dates and events (e.g., holidays, final exams, or school-specific activities)
+4. A question to engage families
+The table below shows examples of STRIVE Prep’s
+prepared text messages for three weeks:
+
+7.5
+
+Date
+
+English
+
+Spanish
+
+Sept.
+15
+
+Will you watch this video today
+about school-wide expectations?
+https://vimeo.com/745187120/
+d54f410771f
+
+¿Verás este video do 10 minutos
+hoy sobre las expectativas en
+toda la escuela? https://vimeo.
+com/745187120/d54f410771f
+
+Sept.
+22
+
+Hello - this is [INSERT
+SENDER’s NAME] with STRIVE
+PREP - SMART. Reminder: No
+school Sept. 30 or Oct. 10. Here
+is an update for your student
+%FirstName%. Failing classes:
+(INSERT). Missing assignments:
+(INSERT). Will you speak to
+them about turning in these
+missing assignments?
+
+Hola - Este es [insertar el nombre
+del remitente] con Strive Prep
+- Smart. Recordatorio: No hay
+escuela el 30 de septiembre
+u 10 de octubre. Este es una
+actualización para su estudiante
+%FirstName%. Clases de falla:
+(insertar). Asignaciones faltantes:
+(insertar). ¿Los hablarás sobre
+entregar estas tareas faltantes?
+
+Oct.
+13
+
+Hello - this is [INSERT
+SENDER’s NAME] with
+STRIVE PREP - SMART. Here
+is an update for your student
+%FirstName%. Failing classes:
+(INSERT). Missing assignments:
+(INSERT). Will you be attending
+family/teacher conferences on
+Oct. 20th?
+
+Hola - Este es [insertar el nombre
+del remitente] con Strive Prep Smart. Aquí hay una actualización
+para su estudiante %FirstName%.
+Clases de falla: (insertar).
+Asignaciones faltantes: (insertar).
+¿Asistirá a conferencias familias/
+maestros el 20 de octubre?
+
+Families and students then receive
+messages they can reply to, like this:
+
+I M P RO V I N G FA MILY EN GA GE M EN T W ITH TE X T ME S S A GIN G
+
+Multi-Tiered
+Systems of Support
+
+Expanding Parental Engagement to Benefit All Students
+As they expanded the text messaging strategy to all students in the STRIVE Prep network, Jen and
+Jose created a semester-long plan of all text messages that would go out to families, taking into
+account holidays and other important dates to reduce the burden of sending text messages biweekly.
+Importantly, they also decided to hire three “family ambassadors,” family members of students at a
+STRIVE Prep school who would send and monitor text messages on a part-time basis. These family
+ambassadors would be integral to the text messaging process, particularly in communicating with
+families.
+Each school principal created a video introduction to ThruText to share with families. The first text
+message families received included the introductory video and expectations for future text messages
+every other Thursday. Parents could opt out of the text messaging service, but no parents chose to
+do so.
+Once this introduction to the text messaging service happened and the process was fully active, Jose
+routinely updated student information in ThruText every Thursday using a spreadsheet of grade data
+pulled from the student information system.
+
+How Schools Get Ready for Text Messaging
+Schools
+
+Families
+
+• A platform for automated text messaging
+
+• A mobile device
+that can download
+and use the parent
+portal
+
+• Cell phone numbers of students and families
+• Expectations for when and how families, students, and staff
+can interact with the messaging system
+• A calendar that accounts for important events and milestones
+• Questions for messages that avoid yes or no responses
+
+• Individual login
+credentials
+
+• Introductory text message about the purpose of the text
+message process, what it is, and what it means
+• A video that explains expectations for students and available
+resources
+• An expectation that school staff update grades weekly before
+messages are sent out
+• Alternate mode of communication for follow-up (Facebook,
+newsletter, etc.)
+
+7.6
+
+I M P RO V I N G FA MILY EN GA GE M EN T W ITH TE X T ME S S A GIN G
+
+Multi-Tiered
+Systems of Support
+
+Family ambassadors could then send biweekly text messages to inform families about students’
+progress. Families could reply to the messages when they had questions or needed additional
+information, and family ambassadors would respond. Family ambassadors were also responsible for
+compiling responses from text messages to share with school staff.
+On the alternating weeks when messages were not sent, Jose looked at data from ThruText to see
+how many text messages were read, how many links were visited, and how many families responded.
+Students’ advisors, school leaders, and teachers had the opportunity to use what was learned from the
+responses and to identify how they could implement the text messaging strategy more effectively in
+the future.
+
+TIPS FOR SELECTING A TEXT MESSAGING PLATFORM
+As STRIVE Prep’s team considered various platforms they might adopt for this pilot, they needed to
+balance budget considerations between platform cost and time requirements for processing data. In the
+end, they chose ThruText because it was a less expensive platform than others they considered. Yet, this decision
+required considerable data management on the part of the STRIVE Prep team members, especially Jose, because it
+did not integrate with their student information systems.
+When determining which platform is best for a family text messaging system, consider the following:
+• Cost of the platform
+• Integration of the platform with existing student information systems
+• Skill level of team members to run reports and merge content between systems
+• Capacity of team members to track engagement and response data
+• Training requirements for staff members and families to navigate the system
+
+Barriers to Solve
+Even after the text messaging strategy was fully implemented, some barriers remained for the team to
+solve. One challenge was the limited access family ambassadors had to students’ information beyond
+ThruText. Jen and Jose made sure that family ambassadors had the information that needed to be input
+into text messages, but without full access to the data systems, family ambassadors could not update
+information from families into the student information system nor retrieve details they needed about
+students to respond to follow up text messages from families. In the end, the limited access family
+ambassadors had to student data meant most data responsibilities lay with Jose. This both limited the
+impact the family ambassadors could have on family engagement with the text messaging system and
+put time burdens on Jose to complete data input and address follow-up requests on specific students.
+The team also ran into a logistical issue where they could only match one student per phone number,
+making it impossible to send text messages for two or more siblings at a STRIVE Prep school without
+applying special assignment rules. For example, in cases where there were two students in the
+household and two phone numbers for parents or guardians, the team could assign one student to
+each of the numbers; this did not work, however, if there were more than two students attending the
+school from the same household. Where the number of students from a single household exceeded the
+
+7.7
+
+I M P RO V I N G FA MILY EN GA GE M EN T W ITH TE X T ME S S A GIN G
+
+Multi-Tiered
+Systems of Support
+
+number of available phone numbers, they established decision-making criteria to prioritize students in
+the household for text messaging communication, often prioritizing the student with the greatest need
+for family engagement based on special education eligibility, academic performance, or age.
+While Jose regularly analyzed and
+shared data from biweekly text
+messages, STRIVE Prep school
+leaders and educators were unable
+to routinely review the data on
+family engagement and follow-up
+messages. By not reviewing the
+data on engagement and families’
+responses, the team did not always
+understand the home-life factors
+impacting student progress, valuable
+information that could have helped
+them respond appropriately in the
+classroom. Furthermore, they weren’t
+able to investigate which students
+did not have family engagement and
+required further intervention or a
+different approach. As a result, a key
+stage in the theory of change that the
+school was trying to test (shown in the
+figure at right) was missing, creating a
+significant barrier to the effectiveness
+of the program.
+
+7.8
+
+STRIVE Prep's theory of change for family text messaging
+
+I M P RO V I N G FA MILY EN GA GE M EN T W ITH TE X T ME S S A GIN G
+
+Multi-Tiered
+Systems of Support
+
+The Impact
+Using Text Messaging as a Way to Improve Family
+Engagement in Student Grades
+Despite some of the challenges related to implementing STRIVE Prep’s text message strategy, families
+and students benefited from this method of family engagement. When STRIVE Prep surveyed families
+about how receiving text messages impacted them:
+• 100% of families said they talked to their student as a result of a text message,
+• 74% of families said they checked their student’s grades as a result of the text messaging, and
+• 78% of families said they felt comfortable talking to their students about their grades.
+These results demonstrate that text messaging
+accomplished the desired effect of helping families
+communicate with their students about their grades and
+develop habits around checking students’ grades.
+One family expressed how much easier texting was
+than other forms of communication schools often used:
+“Text messages are very helpful. It helped me a lot
+because I don’t use email that much.” The text message
+strategy had the added benefit of ensuring that families
+received text messages in multiple languages so that
+engagement was not limited based on English fluency.
+STRIVE Prep also succeeded in accomplishing their
+goal of reconnecting the schools with families through a
+regular communication strategy. One family expressed
+their gratitude: “Thank you for always being aware of our
+children and helping them in their school progress.”
+
+Survey responses sent via ThruText to families
+about the text messaging strategy
+
+7.9
+
+I M P RO V I N G FA MILY EN GA GE M EN T W ITH TE X T ME S S A GIN G
+
+Multi-Tiered
+Systems of Support
+
+FURT HE R L E ARNI NG
+
+“Why Aren’t Text Messaging Interventions Designed to
+Boost College Success Working at Scale?”
+BEN CASTLEMAN
+
+“What Good Can a Phone Do? How Text Messaging
+Programs Have Been Used to Improve Education
+and Healthcare”
+JOHN HORSLEY
+
+“It’s Too Annoying: Who Drops Out of Educational Text
+Messaging Programs and Why”
+HANS FRICKE, DEMETRA KALOGRIDES,
+AND SUSANNA LOEB
+
+“Some Evidence-Based Practical Tips for Designing
+Text-Based Parenting Programs”
+LELYS DINARTE-DIAZ
+
+To learn more about how you can implement data-driven practices as part of a multi-tiered system of support,
+see Navigating Data for Multi-Tiered Systems of Support.
+
+STRIVE Prep is a part of the Marshall Street Networked Improvement Community, a three-year intentional community of
+10 public charter school networks nationwide aiming to make dramatic gains for Black and Latinx students with disabilities
+experiencing poverty. Collectively, the 10 networks identified over 20 best practices that improve learning outcomes and school
+culture for students positioned furthest from opportunity. Learn more here.
+
+7.10
+
+I M P RO VIN G FA MILY EN GA GE M EN T W ITH TE X T ME S S A GIN G
+
+Multi-Tiered
+Systems of Support
+
+Appendix
+Notes
+1
+
+Kraft and Dougherty, “The Effect of Teacher-Family Communication”
+
+2
+
+Seitsinger, “Examining the effect of family engagement”
+
+Bibliography
+Kraft, Matthew A. and Shaun M. Dougherty. “The Effect of Teacher-Family Communication on Student
+Engagement: Evidence From a Randomized Field Experiment.” Journal of Research on
+Educational Effectiveness 6, no.3 (2013): 199–222. https://doi.org/10.1080/19345747.2012.74
+3636
+Seitsinger, Anne M. “Examining the effect of family engagement on middle and high school students’
+academic achievement and adjustment.” The Wiley Handbook of Family, School and
+Community Relationships in Education, edited by Steven B. Sheldon and Tammy A. TurnerVorbeck, 163–182. Hoboken, NJ: Wiley Blackwell, 2019.
+
+7.11
+
+I M P RO VIN G FA M ILY E N GA GEME NT W ITH TE X T ME S S A GIN G
+
+Multi-Tiered
+Systems of Support

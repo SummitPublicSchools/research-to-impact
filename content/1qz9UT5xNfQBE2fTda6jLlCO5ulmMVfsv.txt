@@ -1,0 +1,1350 @@
+Providing Timely
+Behavioral
+Feedback Across
+Classrooms
+A RESEARCH-TO-IMPACT PRACTICE DEVELOPED
+WITH THE NETWORKED IMPROVEMENT COMMUNITY
+FOR STUDENTS WITH DISABILITIES
+
+TA BLE O F C O N T E N T S
+3.3............ Practice Overview
+3.3 | What is the Practice?
+3.4 | Why is Behavioral Feedback Important?
+
+3.6............ Implementation at a Glance
+3.6 | Enabling Conditions
+3.7 | Steps to Implement
+
+3.8............ Bringing this Practice to Life
+3.13.......... How to Implement this Practice
+3.13 | Lay the Groundwork
+3.13 | Step 1: Train Program Staff
+3.14 | Step 2: Create a Schedule for Staff Rounds and Manager
+Observations
+3.14 | Step 3: Introduce Counselors and Behavioral Feedback to All
+School Staff
+3.15 | Implement Behavioral Feedback
+3.15 | Step 4: Staff Identifies Skills Based on Students’ Needs
+3.16 | Step 5: Teach Students Skills and Behavioral Feedback Routines
+3.17 | Step 6: Staff Follow Rounds Schedule to Observe and Support
+Students
+3.18 | Step 7: Students Conference and Reflect with Staff
+3.18 | Step 8: Staff Reviews Data and Makes Changes as Needed
+
+3.20.......... Summary
+3.21.......... Appendix
+3.22 | How to Measure
+3.24 | Notes
+3.24 | Bibliography
+
+Providing Timely
+Behavioral Feedback
+Across Classrooms
+Implementation Level
+
+Who Implements
+
+District/Central Office
+
+Teacher(s)
+
+School
+
+Instructional Coach
+
+Program/Department
+
+Principal
+
+Classroom
+
+Central Office Leadership
+Other: Classroom Counselor
+
+Practice Overview
+What is the Practice?
+An intervention in which educators follow a
+defined protocol to provide immediate feedback
+to students on their application of taught
+prosocial behavioral skills, enabling them to
+effectively apply these skills in various contexts.
+
+3.3
+
+What is a Prosocial
+Behavioral Skill?
+A prosocial behavioral skill is a chain of
+individual, discrete actions or cognitive
+operations performed in specific situations
+that demonstrate helping, sharing,
+or caring for others.1 The teaching of
+prosocial skills must be explicit and
+comprehensive, and it relies on control
+of the environment, reinforcement, and
+generalization of skills across all settings.
+
+PROVIDING TIMELY BEHAVIORAL FEEDBACK ACROSS CLASSROOMS
+
+Anchoring
+Emotions
+
+Why is Behavioral Feedback Important?
+When school teams provide direct instruction on the prosocial behavioral skills students need,
+partner that instruction with discrete practice, and offer generalized feedback on those skills across
+settings, schools can reduce the number of disciplinary consequences students experience. That
+reduction can have a significant impact on students’ short- and long-term outcomes. Students
+with emotional and behavioral disabilities receive, on average, seven disciplinary consequences
+(suspension or expulsion) per year. Over 60% of students with emotional or behavioral disabilities
+receive at least one disciplinary consequence per year. And almost three quarters (73%) of students
+with emotional or behavioral disabilities are suspended or expelled at least once during their school
+careers.2 Disciplinary consequences can increase negative stereotypes about students with emotional
+and behavioral disabilities and reduce their opportunities for learning by removing them from their
+classroom settings. Furthermore, it is unlikely that these types of consequences help change
+behavioral outcomes for students with emotional or behavioral disabilities.3 Instead, exclusionary
+practices likely contribute to the school-to-prison pipeline — that is, the way in which disciplinary
+systems in K–12 schools increase the likelihood that students will enter the criminal justice system.4
+
+Why it Works
+INTERVENTIONS IN INCLUSIVE SETTINGS HELP GENERALIZE LEARNING.
+Direct instruction on prosocial skills and how to generalize behavioral strategies, as well as feedback
+on the use of strategies, can be more effective when students learn as often as possible in inclusive
+settings, where they can encounter authentic opportunities to apply the prosocial behaviors they have
+been taught. When students spend more time in inclusive settings, they interact with a more diverse
+set of students. As they encounter a wider range of behaviors from these peers, they also learn and
+have the opportunity to apply new strategies for engaging with these diverse behaviors.5 In addition,
+by receiving behavioral feedback in an inclusive setting, students with emotional and behavioral
+disabilities can experience education that is academically rigorous while also improving behaviors
+long-term.
+REGULAR FEEDBACK POSITIVELY REINFORCES PROSOCIAL BEHAVIORS.
+Positive reinforcements (e.g., Positive Points, Kickboard Points, Dojo Points, WOW Points!) and realtime feedback (e.g., “Nice job walking into class on time,” “I appreciate you being in your seat”) for
+even small steps of a behavior are effective interventions when working with students with emotional
+and behavioral disabilities.6 Recognizing small gains helps maintain students’ motivation to continue
+to improve toward the target behavior. Behavioral feedback has also been found to increase student
+engagement in learning, while decreasing the number of times teachers attempt to correct behaviors.7
+As these students spend more time focused on learning, and their teachers spend less time
+addressing behavior, all students benefit from additional learning opportunities.
+
+3.4
+
+PROVIDING TIMELY BEHAVIORAL FEEDBACK ACROSS CLASSROOMS
+
+Anchoring
+Emotions
+
+STAFF TRAINING LEADS TO BETTER FEEDBACK.
+When schools implement deliberate staff training on how to deliver high-quality, timely, and targeted
+behavioral feedback, staff are better equipped to respond to students in ways that reinforce prosocial
+behaviors. With regular, high-quality feedback over time, students can develop skills to address areas
+of need that result from their disability and can better use those skills in a variety of environments.
+Increasing prosocial behaviors through equitably implemented feedback can lead to fewer of the
+disciplinary consequences that can put students with disabilities into the school-to-prison pipeline.
+Behavioral feedback instead increases the amount of time students spend in the classroom to learn
+academic skills for future success.
+
+Students in Anchor practice SAMs skills with staff coaching
+
+3.5
+
+PROVIDING TIMELY BEHAVIORAL FEEDBACK ACROSS CLASSROOMS
+
+Anchoring
+Emotions
+
+PROVIDING TIMELY BEHAVIORAL FEEDBACK ACROSS CLASSROOMS
+
+Implementation at a Glance
+The information in this section provides a high-level view of what to consider when implementing this
+practice. Enabling Conditions describes the minimum conditions needed for successful implementation,
+including resources, mindsets, staffing, and recommended time allocation. Steps to Implement presents a
+concise checklist of action items, which are explained in detail in How to Implement this Practice, below.
+
+Recommended
+Time Allocation
+
+Staff Commitment
+
+Recommended
+Materials
+
+Prerequisites
+
+Enabling Conditions
+
+3.6
+
+Student IEPs clearly state present levels of performance and goals for emotional and behavioral needs.
+Students are receiving discrete skill instruction on current target behaviors in a special education setting.
+Staff have a set of scripts to use when addressing specific behaviors, both positive and negative.
+Schools have access to data systems specifically designed for behavioral data (e.g., Kickboard,
+ClassDojo, and BehaviorSnap).
+
+Paper- or technology-based tools (e.g., iPads) for documentation and data collection
+A school “store” with a variety of items for students to purchase with earned points
+Communication tools and systems to guide staff response and monitoring of student progress
+Clearly defined roles and responsibilities for:
+– School-based lead to oversee, coach, observe, and support staff; strengthen implementation;
+and provide proactive and crisis-related individualized student supports
+– Counselors that are aligned with educators in classroom settings
+– Network-level personnel for oversight to ensure quality, measure progress, support
+implementation, and coach school-based leads
+Appropriate staffing per 12 students (Anchor staffing example):
+– 1 full-time emotional support teacher/case manager
+– 1 part-time clinician (20 or 29 hours per week)
+– 2 part-time classroom counselors
+Counselor training in all elements of the program model
+– 1 hour biweekly training of counselors
+– 1 hour biweekly meetings to review data and address needs and issues with all counselors and
+program lead
+Scheduled time in the school day (about 3–5 min. per student) for daily cashout and conferencing
+Whole school training on behavioral feedback concepts and the role of counselors (1 hour per
+semester)
+
+PROVIDING TIMELY BEHAVIORAL FEEDBACK ACROSS CLASSROOMS
+
+Anchoring
+Emotions
+
+Steps to Implement
+LAY THE GROUNDWORK
+Train program staff
+Create a schedule for staff rounds and
+manager observations
+Introduce counselors and behavioral
+feedback to all school staff
+IMPLEMENT BEHAVIORAL FEEDBACK
+Staff identifies skills based on
+students’ needs
+Teach students skills and behavioral
+feedback routines
+Staff follows rounds schedule to observe
+and support students
+Students conference and reflect with staff
+Staff reviews data and makes
+changes as needed
+
+3.7
+
+Creating a Fully
+Integrated Emotional
+Support Program
+Behavioral feedback is just one evidencebased practice in Mastery’s supplemental
+behavioral support model. Mastery’s
+Anchor program is a larger structure
+that uses evidence-based interventions
+to support and strengthen the impact that
+behavioral feedback has on students.
+These practices include daily conferences,
+discrete skills instruction of the Student
+Achievement Model (SAM) and a
+CASEL-aligned curriculum, IEP goals
+aligned to individual student SAM skills,
+therapeutically trained education and
+clinical staff, de-escalation structures, a
+token economy, differentiated instruction,
+and data-driven decision-making in
+meetings. While research demonstrates
+that behavioral feedback alone is an
+effective practice for students with
+emotional and behavioral disabilities, its
+effectiveness is amplified by the structured
+implementation of all of these practices.
+
+PROVIDING TIMELY BEHAVIORAL FEEDBACK ACROSS CLASSROOMS
+
+Anchoring
+Emotions
+
+Bringing this Practice to Life
+TEACHING BEHAVIORAL SKILLS ONE PIECE OF FEEDBACK AT A TIME
+At Mastery Schools’ Simon Gratz High School, in Philadelphia, PA, classroom counselors provide behavioral
+feedback to students as part of the Anchor program, a structured program that supports students to learn and
+practice important prosocial behavioral skills. The case study below describes how Mr. James, one of Anchor’s
+classroom counselors, interacts with William, a 10th grade Anchor student in Ms. Smith’s science classroom.
+
+Behavioral Feedback in the Classroom
+On a regular Tuesday morning, Ms. Smith is teaching
+students about DNA as students create double helixes
+out of strips of paper. The classroom door opens, and Mr.
+James, one of Anchor’s classroom counselors, joins the
+class. Mr. James’s entrance is unremarkable because he
+is a regular member of the classroom on most days.
+As he enters the room, Mr. James walks over to a table
+grouping to see what students are working on. He talks
+quietly with one student, William, who is working diligently
+on his double helix. Mr. James enters something into his
+
+3.8
+
+PROVIDING TIMELY BEHAVIORAL FEEDBACK ACROSS CLASSROOMS
+
+Anchoring
+Emotions
+
+tablet before moving around the classroom, talking to a few other students one at a time. During the
+ten-minute period Mr. James is in the classroom, he and William interact in this way several times.
+When he is finished, Mr. James leaves with as little fanfare as when he arrived.
+
+Individual Student SAM Skills
+The interactions between Mr. James and William were opportunities for William to receive highquality, specific feedback from Mr. James on his behavior goals and priority SAM skills. SAM
+skills, also called prosocial behaviors, are a collection of 34 social, self-control, and activelearning skills important for success in any environment. Per William’s IEP, Mr. James and
+William are currently building the SAM skills of initiating academic tasks and remaining on-task for
+extended periods of time.
+The interactions between Mr. James and William occurred during Mr. James’s rounds in general
+education classrooms, when William was presented with opportunities to initiate work and
+remain on-task with his
+double helix. When William
+demonstrated his use of
+each of these skills, the
+classroom counselor issued
+“positive points” using
+the behavioral feedback
+script for positive praise. If,
+when the opportunity was
+presented, William had not
+used the skill, Mr. James
+would have issued “learning
+points” using the behavioral
+feedback script for learning
+points. In that instance,
+the counselor would have
+prompted William again to
+practice his use of the skill.
+The figure at right shows
+Anchor’s positive and
+learning scripts for the SAM
+skill of remaining on task.
+
+3.9
+
+PROVIDING TIMELY BEHAVIORAL FEEDBACK ACROSS CLASSROOMS
+
+Anchoring
+Emotions
+
+Collecting Essential Feedback Data
+As classroom counselors like Mr. James
+interact with students in classrooms, they
+use a tablet to document the students’
+behaviors, responses, and the points that
+go into the program’s level system.
+Behavioral feedback is most effective when
+students not only receive verbal feedback
+but also have ongoing visual access to
+the points they’ve been issued. Originally,
+Mastery used a student point card that
+remained with the student all day, but had
+to adapt that system due to COVID-19
+restrictions. Mastery’s integration of tablet
+technology to record and display student
+points and feedback has been an essential
+part of modernizing the behavioral feedback
+system. It allowed Anchor staff to continue
+to implement the intervention with fidelity
+while moving away from paper-based
+tracking. In addition to being able to see
+their feedback and points as counselors
+input them, students can also use their
+own devices or tablets available in Anchor
+program spaces to look at their data
+throughout the day.
+
+ANCHOR’S LEVEL SYSTEM
+Anchor places students in levels
+(1–5) based on the amount
+of support each student needs. A
+student’s current level is representative
+of the student’s most recent two-weeks’
+performance on attendance, discipline,
+and behavioral feedback measures. The
+level reflects the current adult support
+and therapeutic programming required for
+the student to demonstrate success. See
+Maximizing Student Progress Through
+Data-Informed Systems: Mastery Charter
+Schools to learn more about this practice.
+
+Mastery uses an app called Kickboard to
+input behavioral feedback and points across
+the school. Kickboard can be used as a Tier
+1 universal positive behavioral intervention
+support, as well as a Tier 3 behavior support
+tool as it is at Gratz. Anchor and networklevel staff can also easily pull reports to
+understand school- or program-level issues
+that arise and determine how to best
+respond.
+
+3.10
+
+PROVIDING TIMELY BEHAVIORAL FEEDBACK ACROSS CLASSROOMS
+
+Anchoring
+Emotions
+
+Reflecting on the Day’s Behavior and Setting Intentions for Tomorrow
+At the end of every school day, a
+conference is held with each student
+in the Anchor program. The student sits
+with one of the Anchor staff members
+to reflect on the day, set goals for the
+following day, and cash out their positive
+points. The goal of daily conferences
+is for students to understand how each
+individual event during the day fits into
+the bigger picture of their progress and
+highlight small changes as they occur.
+The student and staff member use a
+tablet to look at the student’s data for
+the day on Kickboard. They discuss
+when positive and learning points were
+earned, celebrate successes, and create
+concrete next steps to continue to build
+the student’s skills. In every conference,
+staff attempt to keep student data front
+and center and to have the student carry
+the cognitive load while reviewing the
+day’s performance.
+
+Anchor Reflection Sheet
+Name:______________________________________________________
+Total Points Earned Today:
+
+SAMS Skill Focus Area(s)
+
+Date:____________________
+Points Earned Today in that Skill
+
+DIRECTIONS: Answer the following questions with at least 2 complete sentences for each question.
+1) Look at your previous points sheets. Are you earning more points in your focus skill? Why or why not?
+__________________________________________________________________________________________________
+__________________________________________________________________________________________________
+__________________________________________________________________________________________________
+__________________________________________________________________________________________________
+2) What specific things have you done to increase your points in your focus skill?
+__________________________________________________________________________________________________
+__________________________________________________________________________________________________
+__________________________________________________________________________________________________
+__________________________________________________________________________________________________
+3)
+What specific strategies have you used to increase your
+overall SAMS points?
+
+What positive results occurred because you did those
+strategies? What did you gain?
+
+4) What can you do in order to improve and increase your SAMS skills? (Think about skills you can practice)
+__________________________________________________________________________________________________
+__________________________________________________________________________________________________
+__________________________________________________________________________________________________
+
+When Mr. James and William meet at
+the end of the day described above, Mr.
+James congratulates William on the positive points he earned for staying on task with the double
+helix work. He also probes William on the learning point he earned in Algebra II for the skill of
+remaining on task, when William put his head down during independent work time. Mr. James asks
+William to reflect on that instance and share what, if anything, he might do differently tomorrow to
+earn positive points in a similar situation.
+Through the conference, William realizes that, overall, he did a good job initiating and remaining
+on task — his target SAM skills. His goal is to try to do the same thing the following day. He notes
+these findings on a daily conferencing sheet that goes into his Anchor program binder.
+Nearing the end of the conference, Mr. James and William look at William’s positive points balance.
+William is a saver, so he decides not to use his points to buy anything from the school store just yet.
+Instead, he will save his points for another time. The school day ends on a positive note as William
+departs with an increased bank account of positive points and the realization that he is making
+small, positive changes to his behavior every day.
+
+3.11
+
+PROVIDING TIMELY BEHAVIORAL FEEDBACK ACROSS CLASSROOMS
+
+Anchoring
+Emotions
+
+Using Data to Keep Improving
+Mastery uses data from the behavioral
+feedback process to improve the
+implementation of the practice. On a
+biweekly basis, the Anchor team uses
+Kickboard data to track the number
+of positive and learning points each
+student receives per period and per day
+and analyzes how that data relates to
+attendance, disciplinary referrals, and
+Observation rubric for assessing a counselor's fidelity of
+suspensions. They also look at student
+implementing behavioral feedback
+responses on daily conferencing sheets
+as part of this analysis. The program lead
+conducts regular observations of counselors while they are giving behavioral feedback. These
+observations ensure students are receiving feedback for their behavioral skills, that counselors are
+using the feedback scripts with fidelity, and that counselors are accurately identifying opportunities
+for students to demonstrate SAM skills across settings. This observational data is used for biweekly
+counselor training so implementation of behavioral feedback continues to improve.
+The impact of the behavioral feedback practice at Gratz’s campus has been significant. Decreases
+in the number of suspensions for students in the Anchor program are much larger than those seen
+for other students in special education. Since 2019, the percentage of students in special education
+who have at least one suspension has declined by 22 points, while the percentage of students in
+Anchor who have at least one suspension has declined by 36 points.
+
+Anchor Aim:
+Decrease the
+percent of students
+who are suspended
+1 or more days from
+2019–20 to 2022–23
+School Years
+
+3.12
+
+PROVIDING TIMELY BEHAVIORAL FEEDBACK ACROSS CLASSROOMS
+
+Anchoring
+Emotions
+
+PROVIDING TIMELY BEHAVIORAL FEEDBACK ACROSS CLASSROOMS
+
+How to Implement this Practice
+This section provides step-by-step guidance for implementation of a behavioral feedback program
+specific to a school and community context, along with accompanying resources to get started.
+
+Lay the Groundwork
+Step 1: Train Program Staff
+Program staff will benefit from training on the following:
+• The skills that they need to teach students (e.g., SAM skills, Collaborative Problem Solving)
+• How to recognize opportunities for students to use their skills in different types of classroom
+settings (e.g., specialized program classes, interventions classes, core general education classes,
+electives)
+• How to provide learning and positive feedback with the use of a script
+• How to enter data into a shared system
+• How to use data with students
+When training staff in the practice of behavioral feedback, it is essential to identify priority behavioral
+skills for the start of the year and focus training on how staff can provide targeted feedback to students
+on those skills. Staff training also needs to cover the skills necessary for staff to implement the program.
+For example, staff may need to know how to enter data into data systems as soon as school begins but
+can learn how to use data with students later in the school year. Throughout the year, training can build
+the full set of behavioral skills staff should know and continue to strengthen the implementation of the
+feedback routine with students. This training should be incorporated into regularly held team meetings,
+along with the review of data from feedback.
+Consider how a coaching structure might also
+be used to ensure that staff continue to learn
+and grow in their implementation of the practice.
+All school staff, particularly classroom teachers,
+can benefit tremendously from training on
+the basic concepts of behavioral feedback.
+Teachers can also benefit from understanding
+the types of skills their students may be learning
+throughout the year and the scripts that program
+staff use daily. Whole-school training requires
+coordinating with school leadership, but training
+can also be done during grade-level meetings or
+even through individual coaching sessions.
+
+3.13
+
+Leveraging Team Meetings
+for Reflection and Growth
+At Gratz, weekly team meetings alternate
+between two purposes: (1) reviewing student
+data and (2) assessing students’ levels to home
+in on areas for program improvement through
+staff training. This biweekly cadence for student
+data review and staff training allows the team to
+meet various needs for the program, including
+evaluating the effectiveness of behavioral
+feedback, without taking additional staff time.
+
+PROVIDING TIMELY BEHAVIORAL FEEDBACK ACROSS CLASSROOMS
+
+Anchoring
+Emotions
+
+Step 2: Create a Schedule
+for Staff Rounds and
+Manager Observations
+Scheduling staff so that they can support
+students both in general education classes and
+in specialized program classes can be very
+challenging. It is important to individualize the
+amount of support provided to each student in
+classrooms when creating the schedule for staff
+rounds. A student’s level of need likely varies by
+class period, by subject area, and with regard to
+different adult and peer relationships. This might
+mean, for example, that a given staff member
+visits one student for 30 minutes each period
+of the school day but visits another student for
+only 15 minutes during one class period in which
+that student has particular challenges. Over
+time, data on how students respond to feedback
+can help teams adjust the schedule to most
+effectively meet students’ needs.
+
+Ensuring Sufficient
+Staffing
+Adequate staffing ensures successful
+implementation of behavioral feedback and
+that students receive the necessary support
+to acquire new behavioral skills. Mastery
+generally recommends that for every 12
+students in three consecutive grades (i.e.,
+K–2, 3–5, etc.) Anchor staffing includes:
+• 1 full-time emotional support teacher/
+case manager
+• 1 part-time clinician (20 or 29 hours
+per week)
+• 2 part-time classroom counselors
+The team also regularly analyzes outcome
+data (e.g., student infractions, amount of
+behavioral feedback, teacher and staff
+perceptions) to assess whether the staffing
+of each role is sufficient to support students.
+
+Within the schedule, program leads can identify
+regular opportunities to observe staff enacting
+behavioral feedback. Observations will allow them to provide real-time coaching and to collect data on
+the implementation of the behavioral feedback practice. This data can be tracked both for individual
+staff members and at the program level.
+
+Step 3: Introduce Counselors and Behavioral Feedback
+to All School Staff
+It is important that classroom teachers and staff implementing behavioral feedback are aligned on what
+this intervention looks like across classrooms. General education teachers may only receive minimal
+professional development around how to provide students with behavioral feedback in their classrooms.
+In addition, modified schoolwide behavior systems can help teachers and staff understand the
+alternative ways they may need to respond to students with emotional and behavioral disabilities, as
+these may be different than their standard behavioral response. These teachers can gain considerable
+knowledge about behavioral skills and how feedback is implemented through regular interactions with
+the program staff who implement the behavioral feedback practice.
+Program staff implementing behavioral feedback can themselves be more effective when they have
+the opportunity to communicate with classroom teachers. Schools may want to schedule regular time
+for program staff to formally collaborate with classroom teachers. These structured meetings can
+be used to discuss individual student needs, the different skills behavioral feedback addresses, and
+
+3.14
+
+PROVIDING TIMELY BEHAVIORAL FEEDBACK ACROSS CLASSROOMS
+
+Anchoring
+Emotions
+
+any important programmatic updates (e.g., staffing issues, schedule changes, new resources). If 1:1
+meetings are not possible, program staff can be included in regular grade-level meetings so that they
+are able to communicate student needs to teachers and learn about upcoming activities that will affect
+students.
+
+Implement Behavioral Feedback
+The implementation of a behavioral feedback practice establishes
+a continuous cycle in which student needs are identified, students
+are taught skills, students receive behavioral feedback across
+instructional settings, and data is used for progress monitoring
+and identification of student needs for the next cycle.
+
+Step 4: Staff Identifies Skills Based on Students’ Needs
+Utilizing student individualized education plans,
+transition goals, or other data sources, the staff
+identifies a limited and tangible set of skills to
+emphasize in behavioral feedback intervention
+with the student. The figure below shows some
+examples of how Mastery aligns students’ SAM
+skills with IEP goals and pairs them with data
+collection tools daily, weekly, or per reporting
+period (RP).
+It is important to backward-plan from the skills
+stated in IEP goals the specific prerequisite skills
+students need to learn. For example, a student
+whose IEP has identified the skill of assignment
+completion will need to first master the following
+skills:
+1. Find out exact expectations or instructions
+for the task.
+
+Using IEPs to Determine
+Student Skill Needs
+Use student IEPs — specifically, present
+levels of performance and social and
+emotional goals — to identify the initial
+skills that students will work on with staff
+for targeted behavioral feedback. Present
+levels and goals are best determined using
+data from tools like functional behavior
+assessments, behavior scales, and
+observations. The data from these tools will
+also act as baseline data for measurement
+of students’ responses to behavioral
+feedback and can be used as additional
+data points to supplement behavioral
+feedback for future progress monitoring.
+
+2. Assemble necessary materials.
+3. Carefully begin working. Focus attention on the task.
+4. Continue working until the task is completed or criteria are met.
+5. Check work.
+Each of these prerequisite skills will first need to be addressed and mastered with the support of
+behavioral feedback before the student will be able to master the skill of completing assignments.
+
+3.15
+
+PROVIDING TIMELY BEHAVIORAL FEEDBACK ACROSS CLASSROOMS
+
+Anchoring
+Emotions
+
+Mastery staff all know each student’s target skills so that they can support in addressing them as
+needed during the school day. On the Mastery staff identification badge, shown in the picture below,
+the names of Anchor program students are listed along with abbreviations for the different skills the
+students are working on. This resource allows staff members to easily give any student feedback on
+their target skills whenever they see them, in or out of classes.
+
+Mastery Charter School’s Alignment between IEP goals,
+SAM Skills, and Progress Monitoring
+
+Mastery staff identification badges list the names of Anchor
+program students, along with abbreviations for the different
+skills the students are working on.
+
+Step 5: Teach Students Skills and Behavioral Feedback Routines
+Create structured times for explicit instruction
+of behavioral skills, sub-tasks, and prerequisite
+skills. Just like academic skills, explicit instruction
+is a necessary step in helping students learn
+new skills and behaviors. Structured times may
+include specific courses, pull-out small groups,
+or individual counseling sessions.
+These taught skills will be reinforced by
+behavioral feedback, so students will need to
+learn what that feedback will look like in the
+classroom, as well as the appropriate way to
+respond to feedback. They should know that
+when they have the opportunity to demonstrate
+the skills they have learned in real time, they
+will receive praise along with either positive or
+negative consequences. Students will also need
+to understand that through positive feedback they
+can earn positive points for the program store.
+
+3.16
+
+Skills Class
+Mastery’s Anchor program offers a specific
+skills class that groups students based
+on the skills they are working on, as well
+as their levels of performance. During the
+class, students are explicitly taught the
+various SAM skills and have opportunities
+to apply that learning to books, movies, and
+their own lives. This instruction builds upon
+and reinforces the behavioral feedback
+students receive throughout the day.
+
+PROVIDING TIMELY BEHAVIORAL FEEDBACK ACROSS CLASSROOMS
+
+Anchoring
+Emotions
+
+Step 6: Staff Follow Rounds Schedule to Observe
+and Support Students
+Program staff follow the predetermined schedule to join students in their classrooms throughout the
+day. Staff enter classrooms to observe specific students during parts of the school day when the
+students are likely to have opportunities to demonstrate the skills they are working on. If necessary,
+staff can also create opportunities for students to demonstrate skills if they do not naturally happen. For
+example, staff can ask a student to work actively on an assignment until finished or to get the teacher’s
+attention appropriately if they have a question. When the student correctly demonstrates their skill (e.g.,
+remaining on task), behavioral feedback using positive praise language helps reinforce the skill. The
+staff member gives this praise using predefined steps and an example script, such as the following:
+Steps
+
+Example Script
+
+1. Descriptive praise
+
+John, you are remaining on task by sitting in your seat, having still
+hands, and working quietly on your workbook pages.
+
+2. Reason
+
+This is important so you are not disrupting others and you are able
+to focus and complete your work.
+
+3. Request acknowledgement
+
+Does this make sense?
+
+4. Positive consequence/reinforcer
+
+You earned 2 points for treating others with respect.
+
+If the student has the opportunity to demonstrate the skill but is unsuccessful (e.g., does not remain on
+task), the staff member provides behavioral feedback using “learning language” to redirect the student,
+explain the appropriate behavior, and prompt the student again to practice the skill. Learning language
+includes the following steps:
+Steps
+
+Example Script
+
+1. Initial praise/empathy
+
+Hey John, thanks for listening to me.
+
+2. Description of inappropriate behavior
+
+I see you are not remaining on task. Ms. Johnson asked you to
+quietly complete your workbook pages, but you are out of your seat
+talking to your friend.
+
+3. Negative consequence
+
+You earned two learning points for not remaining on task.
+
+4. Description of appropriate behavior
+
+Make sure you are remaining on task by sitting in your seat and
+working quietly on the workbook pages assigned by Ms. Johnson.
+
+5. Request acknowledgement
+
+Can you get back to work for me?
+
+For progress to occur, students need multiple opportunities each day to practice skills with the support
+of behavioral feedback. Ideally, the established daily rounds schedule accommodates multiple
+opportunities for practice and behavioral feedback from staff.
+
+3.17
+
+PROVIDING TIMELY BEHAVIORAL FEEDBACK ACROSS CLASSROOMS
+
+Anchoring
+Emotions
+
+Step 7: Students Conference and Reflect with Staff
+Students’ daily reflection on their behavior and data is important for learning prosocial behavioral skills
+and for changing how they respond to antecedents in the future. At the end of the school day, conduct
+end-of-day conferences with students to facilitate reflections on:
+• points and feedback they received,
+• the reasons why they received them,
+• what they should have done differently, and
+• what they plan to do the next day.
+After conferencing, students also have the
+opportunity to add up all of their positive points
+and subtract the learning points they earned
+that day. With the net points calculated, students
+can purchase items from the school store or
+choose to save their points, which accumulate
+over time. Regardless, students should be
+given a daily opportunity to use points to
+make purchases, though students with greater
+behavioral needs may require conferences and
+cashing out multiple times per day. The school
+store can offer high-interest items, such as
+snack foods or school supplies, or privileges like
+free dress days. These tangible rewards can be
+essential for many students to feel successful
+and stay motivated.
+
+Anchor staff and students can view behavioral feedback
+data easily on digital devices throughout the day.
+
+Step 8: Staff Reviews Data and Makes Changes as Needed
+Behavioral feedback data can be used to help an emotional support program continuously adapt and
+improve for students. Program leads, network leaders, or teams can analyze measures like these on a
+weekly or biweekly basis:
+• Total number of feedback opportunities
+• Ratio of positive to learning feedback
+• Percent of feedback that is positive
+• Percent of feedback that is learning
+• Total number of opportunities for each student to practice skill(s) across settings
+• Consistency of feedback throughout day (i.e., a similar amount of feedback given each
+class period)
+
+3.18
+
+PROVIDING TIMELY BEHAVIORAL FEEDBACK ACROSS CLASSROOMS
+
+Anchoring
+Emotions
+
+Data can be disaggregated by program staff member, class subject, class period, skill addressed,
+grade-level, or classroom teacher to understand how different staff members and classroom teachers
+are implementing behavioral feedback. This analysis can help program leads identify topics for training
+both the team and individual staff members to improve the fidelity of implementation of behavioral
+feedback.
+
+Gratz’s data tracker shows which students are making progress on their SAM skills.
+
+The team also needs to review individual students’ data on a regular basis (e.g., weekly or biweekly)
+to track how behavioral feedback is (or is not) changing student behavior. The data can help the team
+determine whether:
+• students have demonstrated mastery of their current skills,
+• students need additional explicit instruction around specific skills, or
+• students need more opportunities to demonstrate skills.
+
+Mastery coach models behavioral feedback for counselor
+
+3.19
+
+PROVIDING TIMELY BEHAVIORAL FEEDBACK ACROSS CLASSROOMS
+
+Anchoring
+Emotions
+
+PROVIDING TIMELY BEHAVIORAL FEEDBACK ACROSS CLASSROOMS
+
+Summary
+In order to implement a full continuum of services for students with more intensive behavioral needs
+and to ensure these students have access to general education classrooms, schools must design and
+implement high-quality behavioral interventions that are adaptable across environments. Behavioral
+feedback uses the underpinnings of research on positive reinforcement and token economies to help
+students recognize when they have used the skills they are working on or missed an opportunity to
+respond differently. Behavioral feedback also helps students learn how to generalize their skills to a
+variety of classrooms and groups of students in general and special education settings. Students also
+work with staff on daily reflections of their behavior and planning for the next day, setting themselves up
+for more successful days.
+By investing in their school staff through initial and continuous training, schools can implement
+behavioral feedback with fidelity and quality across learning environments. With these supports in
+place, students can internalize their areas of growth, reflect on their actions, and see positive change
+in their behaviors over time. Mastery School’s reduction in the percentage of Anchor program students
+who experience a suspension demonstrates the potential that effective implementation of behavioral
+feedback can have for students with disabilities in inclusive settings.
+
+FURTHE R LE ARN I NG
+
+“Providing Positive Feedback”
+THE IRIS CENTER
+
+“Provide Positive and Constructive
+Feedback to Guide Students’
+Learning and Behavior”
+THE COUNCIL FOR EXCEPTIONAL CHILDREN
+
+“The Power of Effective Praise:
+A Guide For Teachers”
+UNDERSTOOD.ORG
+
+3.20
+
+PROVIDING TIMELY BEHAVIORAL FEEDBACK ACROSS CLASSROOMS
+
+Anchoring
+Emotions
+
+PROVIDING TIMELY BEHAVIORAL
+FEEDBACK ACROSS CLASSROOMS
+
+Appendix
+
+How to Measure
+When implementing behavioral feedback, monitoring how useful, usable, and utilized the practice is by
+team members and across the school system can accelerate learning to improve outcomes for students.
+Be aware that improved process measures are usually necessary to ensure a high enough level of fidelity
+before outcomes will see improvement. At minimum, these measures are most essential:
+
+PRIMARY MEASURES
+
+3.22
+
+Measure
+Type
+
+Data
+Collection
+Type
+
+Question
+Asked
+
+Results
+
+What does
+success look
+like?
+
+Examples and Notes
+
+Process
+
+Feedback
+data
+collection
+system
+
+How frequently
+do students
+have
+opportunities
+to demonstrate
+their
+behavioral
+skills?
+
+Average
+amount of
+time between
+opportunities
+for students to
+demonstrate
+skills
+
+Students
+should have
+opportunities
+to demonstrate
+their skills every
+5–7 minutes
+when receiving
+support in the
+classroom.
+
+The actual number of
+opportunities a student
+receives depends on:
+(1) how easily authentic
+opportunities arise, which
+varies by type of skills
+being worked on; and
+(2) student need —
+students with higher needs
+receive more support
+time and therefore more
+opportunities to receive
+feedback
+
+Process
+
+Feedback
+data
+collection
+system
+
+What
+percentage of
+feedback given
+to students is
+positive versus
+learning during
+each class
+period?
+
+The ratio
+of positive
+to learning
+feedback
+received in a
+class period
+
+Students should
+work toward
+receiving six
+positive points
+for every
+learning point
+(6:1 ratio).
+
+Consider analyzing
+individual student data as
+well as data disaggregated
+by class, level, or staff
+member giving feedback.
+
+Process
+
+Observation
+notes
+
+When
+observed,
+how often are
+staff using the
+feedback script
+as written?
+
+The percent
+of time during
+observations
+that staff read
+the positive
+and learning
+feedback scripts
+as written
+
+Increasing
+percent of
+observations
+in which staff
+read the script
+as written until
+reaching 100%
+
+Use data to see how
+fidelity varies by staff
+member, as well as by the
+classroom where feedback
+is given.
+
+Outcome
+
+Discipline
+records
+
+How many
+suspensions
+do students
+receive over
+time?
+
+The average
+number of
+suspensions
+students
+receive on a
+weekly, monthly,
+or semesterly
+basis
+
+Decreasing
+number of
+suspensions
+received until
+there are no
+suspensions for
+students
+
+PROVIDING TIMELY BEHAVIORAL FEEDBACK ACROSS CLASSROOMS
+
+Anchoring
+Emotions
+
+Outcome
+
+Feedback
+data
+collection
+system
+Discipline
+records
+
+Did students
+meet their IEP
+goals?
+Yes / No
+
+The percent
+of students
+who met their
+emotional and
+behavioral IEP
+goals
+
+Increasing
+percent of
+students who
+met their IEP
+goals until
+reaching 100%
+
+Additional measures can guide a team to know whether behavioral feedback is leading to the desired
+improvements for students:
+
+SECONDARY MEASURES
+Measure
+Type
+Process
+
+Data
+Collection
+Type
+
+Question
+Asked
+
+Results
+
+What does
+success look
+like?
+
+Feedback
+data
+collection
+system
+
+Are students
+presented with
+the opportunity
+to use the
+skill they did
+not previously
+use to earn a
+positive point?
+
+Average
+number of
+times students
+are given a
+chance to use
+a skill after not
+successfully
+using it during
+the class period
+
+Increasing
+percent of
+time students
+receive
+opportunities to
+use skills after
+not using them
+until reaching
+100% of the
+time
+
+Average
+number of
+occasions for
+feedback given
+by skill
+
+A similar
+average
+number of
+occasions for
+feedback given
+for each skill
+
+Yes / No
+Process
+
+Feedback
+data
+collection
+system
+
+Is feedback
+given for all
+skills at the
+same rate?
+Yes / No
+
+3.23
+
+Process
+
+Feedback
+data
+collection
+system
+
+How long does
+it take students
+to master skills?
+
+Average
+number of
+school days
+until students
+master skills
+
+Decreasing
+number of days
+for students to
+master skills
+
+Outcome
+
+Discipline
+records
+
+How many
+referrals do
+students
+receive over
+time?
+
+The average
+number of
+referrals
+students
+receive on a
+weekly, monthly,
+or semesterly
+basis
+
+Decreasing
+number of
+referrals
+received until
+there are no
+referrals for
+students
+
+PROVIDING TIMELY BEHAVIORAL FEEDBACK ACROSS CLASSROOMS
+
+Examples and Notes
+
+Some skills will naturally
+not be demonstrated
+as often as others. For
+example, apologizing
+to others may not need
+to happen as often as
+writing neatly.
+
+Anchoring
+Emotions
+
+Notes
+1
+
+Dunsfield, “A Construct Divided”
+
+2
+
+Institute of Education Sciences, “Disability Category Differences”
+
+3
+
+Anderson, “The relationship between inclusion, absenteeism, and disciplinary outcomes”
+
+4
+
+Christle, Jolivette, and Nelson, “Breaking the school to prison pipeline”
+
+5
+
+Lamport, Graves, and Ward, “Special needs students in inclusive classrooms”
+
+6
+
+Frey and Nichols, “Intervention Practices”
+
+7
+
+Allday et al., “Training General Educators”
+
+Bibliography
+Allday, R. Allan, Kim Hinkson-Lee, Tina Hudson, Shelley Neilsen-Gatti, Andrew Kleinke, and
+Caroline S. Russel. “Training general educators to increase behavior-specific praise:
+Effects on students with EBD.” Behavioral Disorders 37, no. 2 (2012): 87–98. https://doi.
+org/10.1177/019874291203700203
+Anderson, Kaitlin P. “The relationship between inclusion, absenteeism, and disciplinary outcomes for
+students with disabilities.” Educational Evaluation and Policy Analysis 43, no. 1 (2021): 32–59.
+https://doi.org/10.3102/0162373720968558
+Christle, Christine, Kristine Jolivette, and C. Michael Nelson. “Breaking the school to prison pipeline:
+Identifying school risk and protective factors for youth delinquency.” Exceptionality, 13 (2005):
+69–88. https://doi.org/10.1207/s15327035ex1302_2.
+Dunfield, Kristen A. “A Construct Divided: Prosocial Behavior as Helping, Sharing, and Comforting
+Subtypes.” Frontiers in Psychology 5 (2014). https://doi.org/10.3389/fpsyg.2014.00958
+Frey, Andy and Nancy George-Nichols. “Intervention Practices for Students with Emotional and
+Behavioral Disorders: Using Research to Inform School Social Work Practice.” Children & Schools
+25, no. 2 ( 2003): 97–104. https://doi.org/10.1093/cs/25.2.97.
+Institute of Education Sciences. “Disability Category Differences in Students’ Behavior and Disciplinary
+Actions.” Facts from NLTS2: School Behavior and Disciplinary Experiences of Youth With
+Disabilities. National Center for Special Education Research, the Institute of Education Sciences.
+March 2006. https://ies.ed.gov/ncser/pubs/nlts2200603/disability.asp
+Lamport, Mark A., Lucheia Graves, and Amy Ward. “Special needs students in inclusive classrooms:
+The impact of social interaction on educational outcomes for learners with emotional and
+behavioral disabilities.” European Journal of Business and Social Sciences 1, no. 5 (2012): 54–69.
+
+3.24
+
+PROVIDING TIMELY BEHAVIORAL FEEDBACK ACROSS CLASSROOMS
+
+Anchoring
+Emotions

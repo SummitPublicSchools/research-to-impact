@@ -1,0 +1,248 @@
+How-To:
+Design and Prototype
+a Data Dashboard
+NAVIGATING DATA FOR MULTI-TIERED
+SYSTEMS OF SUPPORT
+A collection of research-to-impact practices
+developed with the Networked Improvement
+Community for Students with Disabilities
+
+8.1
+
+HO W- TO : D ES IGN A N D D EV EL OP A D ATA D A8.1
+S H B OA R D
+
+Multi-Tiered
+Systems of Support
+
+How-To:
+Design and Prototype
+a Data Dashboard
+Guidance Document for School and Network Leadership
+
+Introduction.............................................................................................................................8.3
+Design and Develop................................................................................................................8.3
+Set Up Data Dashboard.......................................................................................................................... 8.4
+Test and Improve.....................................................................................................................................8.4
+Routinely Assess Implementation and Quality........................................................................................ 8.5
+
+Examples of Data Dashboard Tools .................................................................................... 8.5
+
+8.2
+
+HO W- TO : D ES IGN A N D D EV EL OP A D ATA D A S H B OA R D
+
+Multi-Tiered
+Systems of Support
+
+Introduction
+When existing data tools do not meet current needs and a school or network chooses to design a
+custom data tool, it is important to invest the necessary time and effort to ensure the tool is useful,
+usable, and utilized. Using Excel, Google Sheets, Tableau, or another data visualization tool, teams
+can customize a dashboard to import and manipulate data to suit the measurement effort. To do this
+successfully, school systems typically need an experienced data team with the knowledge and capacity
+to implement these technical needs.
+The iterative process necessary to develop an effective data tool can be time-intensive. The following
+steps may be helpful when planning for this process.
+
+Design and Develop
+First, during the design stage, identify a clear purpose for the data dashboard and define core priorities.
+The purpose and priorities should connect to student outcomes (e.g., achievement, GPA, attendance,
+or social-emotional skills) aligned with the school’s mission.
+The following questions are important to answer
+during this phase:
+WHO ARE THE PRIMARY USERS? (e.g., teachers,
+grade-level teams, school leaders, or central office)
+AT WHAT LEVEL SHOULD EDUCATORS ANALYZE
+DATA? (e.g., individual students, subgroups, class
+periods, courses, teacher, or school)
+WHAT WILL EDUCATORS NEED TO BE ABLE TO
+DO WITH THIS DATA? (e.g., reflect on a lesson,
+reflect on a unit, or identify gaps between subgroups)
+HOW MUCH TECHNICAL ABILITY DO
+EDUCATORS NEED TO DEVELOP TO USE THE
+TOOL EFFECTIVELY?
+HOW WILL DATA BE INPUT OR DOWNLOADED
+INTO THE TOOL, AND WHO WILL MANAGE THAT
+PROCESS?
+HOW MUCH TIME WILL EDUCATORS NEED TO
+DEVOTE TO THE TOOL OUTSIDE OF MEETINGS?
+HOW OFTEN WILL EDUCATORS ACCESS THE
+DASHBOARD? (e.g., daily, weekly, biweekly, or
+monthly)
+
+Building a Dashboard
+at Collegiate
+Collegiate Academies found,
+early on, that their general
+student information system (SIS)
+did not allow teachers to view
+student mastery of standards by
+the types of filters they needed
+(e.g., grade levels, class periods,
+or subgroups) to evaluate and
+respond appropriately to the
+data in order to reteach skills
+students hadn’t mastered. For
+that reason, Collegiate opted to
+create their own tool for looking at
+students’ progress on standards
+and subsequently developed a
+spreadsheet dashboard that let
+teachers easily see how students
+were progressing on each
+standard and devise plans for
+how to teach and reteach skills.
+
+These questions will help determine how to design the initial prototype of the dashboard. Key stakeholders
+may also have valuable input into what the dashboard should look like and how it should function.
+
+8.3
+
+HO W- TO : D ES IGN A N D D EV EL OP A D ATA D A S H B OA R D
+
+Multi-Tiered
+Systems of Support
+
+Set Up Data Dashboard
+Build a prototype of the data dashboard
+based on the defined purpose, priorities, and
+requirements gathered in the design phase.
+Using school-wide goals, determine which
+classroom-level data points best measure
+the goals to be used in the dashboard.
+These measures need to be relatively
+easy for teachers to collect with fidelity and
+consistency. Examples of data include:
+• engagement measures, such as
+attendance or assignment completion;
+• formative assessments, like exit tickets,
+checkpoints, or independent practice; or
+• summative assessments, including
+project grades, course grades, or unit
+tests.
+Once the dashboard is established, test it for
+usability by teachers.
+
+Building Tools
+for Every Level
+Schools can choose between multiple,
+discrete dashboards that each serve a
+primary purpose, or nested dashboards that
+provide a one-stop-shop data experience
+for an entire school system. For ease of
+access, a single, nested dashboard allows
+teachers and district leaders alike to view the
+same data at different levels of aggregation,
+each using the dashboard to meet their
+individual objectives. For example, a chief
+academic officer can be monitoring school-byschool and student-group-by-student-group
+progress, while a school leader can track that
+data as well as classroom-by-classroom or
+grade-by-grade student progress. Teachers
+have access to this same data, but can
+focus their efforts on understanding their
+own students on a more granular level or
+collaborate across their grade-level team.
+
+Test and Improve
+Test the prototype with teachers, who can give input on the tool’s utility and ease of use, using a small
+set of representative data. Will users be able to easily disaggregate data at many different population
+levels, including class periods and subgroups? Can they easily refresh data or upload new data?
+Considering these factors will help set the dashboard up for successful use.
+The initial testers should be key individuals whose buy-in will be important to garner. By engaging these
+individuals early, you provide transparency into the process and can integrate their perspectives, so
+they can champion the prototype’s use later. These individuals will likely be:
+• lead teachers or department heads,
+• coaches,
+• school leaders, or
+• other educators or leaders whose voices are important to new initiatives.
+The first prototype of the dashboard will not be perfect, so it is essential to create something simple and
+be prepared for feedback. Continue to iterate on the dashboard with users until it has the functionality
+desired to meet the stated objectives.
+Throughout the prototyping phase, give special attention to how users actually interact with the
+dashboard. Anticipate challenges educators may have and training they may need to use the
+dashboard effectively.
+
+8.4
+
+HO W- TO : D ES IGN A N D D EV EL OP A D ATA D A S H B OA R D
+
+Multi-Tiered
+Systems of Support
+
+Routinely Assess Implementation
+and Quality
+After developing and refining the prototype,
+consider establishing a team structure that allows
+regular assessment of the implementation and
+quality of the tool. A structured approach allows
+teams to systematically evaluate how the tool
+is being used and its effectiveness. Frequent
+evaluation of sample data can provide insights
+into the way individuals and teams are using
+the tool, identify emerging trends, and pinpoint
+barriers in implementation. NIC partners found a
+quarterly review cadence — to review how the tool
+is being used and to do a strategic set of empathy
+interviews with users at the classroom, school
+leadership, and district levels — allowed them to
+make timely adjustments to the tool, integration
+settings, and training plans for team members.
+Backward-plan timelines for each of these steps
+to occur based on the final target roll-out date. In
+order to train leaders and educators on how to use
+the tool before school starts in the fall, testing of
+the tool should be complete by the end of the prior
+school year.
+
+EXAMPLES OF DATA
+DASHBOARD TOOLS
+Below: Summit’s Rostering Tool
+includes multiple tabs, which
+are explained in the Summit
+Rostering Task Card.
+
+8.5
+
+•
+•
+•
+•
+•
+
+Developing with the End
+User is Essential
+The successful development of any
+new tool or protocol requires its own
+cycles of improvement. Both STEM
+Prep and Collegiate Academies
+spent approximately a semester getting
+feedback from users at regular intervals
+through surveys and interviews, which
+helped their development teams
+troubleshoot issues and improve
+inefficiencies. For example, Collegiate
+Academies learned that many teachers
+did not have enough knowledge on
+how to use Google Sheets for them
+to create filters on their own. As a
+result, the team created filters ahead of
+time for teachers and did not take for
+granted that teachers could learn how
+to use Google Sheets on their own.
+In addition, they designed additional
+training to increase current and future
+staff capacity to use Google Sheets
+independently.
+
+STEM Prep Grade Book Distribution Dashboard
+Collegiate Academies April Dunn Tracker
+STRIVE Prep Student Conferencing Tracker
+Uncommon Schools Reading Intervention Tracker
+Summit Prep Student Support Block Tool
+
+HO W- TO : D ES IGN A N D D EV EL OP A D ATA D A S H B OA R D
+
+Multi-Tiered
+Systems of Support

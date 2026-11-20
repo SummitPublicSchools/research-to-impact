@@ -1,0 +1,3027 @@
+NIC Playbook
+Fall 2022
+Our Aim: By June 15, 2023 each CMO in the
+network has achieved dramatic gains in the
+learning experiences, environment, and
+outcomes for Black and Latinx students with
+disabilities experiencing poverty.
+
+▸ Written For: All Pilot Community Members
+
+Table of Contents
+Purpose Statement
+This Playbook provides the Networked Improvement Community an
+informative set of tools, examples, and best practices to learn and enact
+Continuous Improvement in the context of education. This document can be
+used to understand what each component is and why it matters with
+step-by-step processes, examples, and considerations throughout.
+The principles and tools are intended to be broadly applicable to different
+types and sizes of improvement projects in various contexts. These resources
+are designed to build the capacity of Improvement Teams to create positive
+long-lasting change, holding the experience, environment, and outcomes of
+students and teachers at the center of the approach.
+
+Overview
+I.
+
+Whole System of Continuous Improvement
+
+3
+
+Improvement Tools
+II.
+III.
+IV.
+V.
+VI.
+VII.
+VIII.
+
+Problem Statement
+Aim
+Driver Diagram
+Revising the Driver Diagram
+Change Ideas
+System of Measures
+Plan-Do-Study-Act (PDSA)
+
+Second print edition, Fall 2022.
+
+4
+9
+13
+17
+25
+28
+34
+
+2
+
+Networked Improvement Community for Students with Disabilities | NIC Playbook
+
+00 Overview
+01
+02
+03
+04
+
+Building the improvement playbook:
+
+Overview
+
+▸ What it is: At its core, Continuous Improvement (CI) is problem-solving. It is a
+rigorous process predicated on the belief that every problem exists within a system.
+Systems are the interdependent set of elements in the context, including people,
+processes and structures. If there is a problem, the system is designed to produce it.
+Thus, we may examine the system, locate the problem, and continuously improve the
+whole.
+
+05
+06
+
+▸ Why it matters: When applied in education, CI ensures that groups and individuals
+most marginalized by the system receive attention and support. In doing so, we work
+towards a more equitable education system for everyone.
+
+Overview of the Continuous Improvement Process
+The tools of CI can be used in any field. In education, CI is used to to increase equity, effectiveness,
+and efficiency in schools in service of students and educators.
+
+01 Problem Statement
+
+DEFINE THE PROBLEM. What specifically is the problem we are trying to solve? • Gather Data with key stakeholders and
+engage diverse voices in the process. • Avoid solutions. • Understand variation in outcomes as the core issue to address. •
+Define the problem from the perspective of those experiencing it. • Conduct Root Cause Analyses to visualize the system
+producing current outcomes. • Precisely articulate the Problem Statement.
+
+02 Aim
+
+CRAFT AIM STATEMENTS TO GUIDE AND MOTIVATE THE IMPROVEMENT. What do we want to improve? • Generate
+consensus to galvanize team commitment and enroll the community around a specific Aim. • Specify how much, by when,
+and for whom. • How will we track progress towards the Aim? Identify outcome measures and collect and review data to
+understand baselines and set targets.
+
+03 Driver Diagram
+
+DEVELOP A WORKING THEORY OF IMPROVEMENT. What specifically are we trying to accomplish? Build a Driver
+Diagram to visualize the theory of action. • Primary Drivers: What needs to change to reach the Aim? • Secondary
+Drivers: Where in the system can we make change? • Change Ideas: How specifically will we target change for
+improvement?
+
+04 Change Idea
+
+05 Measurement
+
+06 Plan-Do-Study-Act
+
+References
+
+PLAN CHANGES ACROSS THE SYSTEM. What change might we make and why? • Implement changes at various levels
+of the system (classroom, school, network) • How will the change happen? • Consider changes of different size and scope.
+• How will we know if this change is an improvement? • Establish measures to evaluate the impact of changes.
+
+BUILD A MEASUREMENT SYSTEM. How will we know that a change is actually an improvement? • Develop a
+Measurement tree to visualize how the system is performing. • Leading and lagging Outcome Measures track overall
+progress toward the Aim. • Primary Driver Measures act as early indicators of progress. • Process Measures show
+whether changes are performing with quality and reliability. • Balancing Measures display unintended consequences.
+• Make a plan to collect data frequently.
+CONDUCT PDSA CYCLES TO TEST CHANGES. What do we need to learn to improve? Learn fast, fail fast, improve
+quickly. • Learn how to make change happen reliably across contexts. Turn ideas into action, and action into learning. •
+PDSA Cycles are specific tests of change that enable fast learning at low cost before implementing at scale. • Plan PDSA
+Ramps to ensure tests are sequenced to most effectively work towards the Aim.
+
+●
+
+The Six Core Principles of Improvement. Carnegie Foundation for the Advancement of Teaching.
+https://www.carnegiefoundation.org/our-ideas/six-core-principles-improvement/.
+
+3
+
+Networked Improvement Community for Students with Disabilities | NIC Playbook
+
+Building the improvement playbook:
+
+00
+01 Problem Statement
+02
+03
+04
+
+Problem Statement
+▸ What it is: A Problem Statement is a single sentence that clearly defines a systemic
+problem experienced by students. In education, these problems highlight the
+inequitable experiences and outcomes for a student population often positioned
+furthest from opportunity. Problem Statements explicitly state failures and gaps
+between the current reality and the desired future. They are derived from relevant data
+telling a comprehensive story of how environments and experiences have directly
+impacted students, families, communities and the educators within the schools that
+serve them.
+
+05
+06
+
+▸ Why it matters: Carefully considering the problem to solve can help teams avoid
+replicating those historical inequities built into education. A team that ensures that
+they are solving the “right” problem by unpacking it and collecting data and
+information wastes less time, effort, and will in the long run be more likely to see
+improvement in experiences and outcomes. Organizing and aligning teams on a
+specific problem focuses improvement efforts directly on both the technical and
+adaptive conditions of those experiencing it.
+▸ In This Guide: Process, Examples and Checklist, Tools, References
+
+Every system is
+perfectly designed to
+get the results that it
+gets.
+
+Overview Creating a Problem Statement is an initial step in launching
+an improvement process. Once a team has gathered, synthesized, and
+reviewed a set of relevant data, such as academic and cultural indicators,
+key stakeholders come together to define a shared understanding of the
+problem, leading to the development of goals and possible solutions.
+When approaching Problem Statements, consider the following key
+principles:
+
+Overview
+
+●
+●
+●
+
+Carefully locate your problem within the larger system, inclusive of the practices, processes, structures,
+policies, attitudes, norms, culture, and the physical environment in which it resides.
+Tease out the interconnected factors contributing to the problem.
+Define the problem from the perspective of those experiencing it.
+
+Problem Statements should be grounded in research and analysis to answer the question, what specifically is the
+problem we are trying to solve? To better understand a given system and prioritize addressing the problem it is
+producing, a variety of steps are employed:
+1
+
+2
+
+3
+
+4
+
+5
+
+An Initial
+Problem has
+been
+identified
+
+(In)Validate
+and Draft
+Problem
+Statement
+
+Develop a
+Data Deck
+
+Conduct a
+Root Cause
+Analyses
+
+Finalize
+Problem
+Statement
+4
+
+5 Steps for Identifying a Problem Statement
+Process
+
+Example
+
+Step 1: An initial problem has been identified
+Indications can come from a variety of places, sources, or personnel,
+including but not limited to:
+●
+●
+●
+●
+●
+●
+●
+
+School team meetings
+Coaching conversations
+Data reviews
+PLCs
+Observations
+Parent/family and teacher input
+Network Representatives
+
+A school leader has consistently heard in
+coaching conversations with multiple
+Special Education teachers that students
+in Special Education are struggling to
+complete and pass assignments in their
+general education classes.
+
+They often begin as a hunch, a noticing or a gut feeling that
+necessitates further investigation.
+
+Process
+
+Step 2: (In)Validate and Draft Problem Statement
+Following the identification of the problem, it’s important to
+understand the scale and scope of the problem. This process takes
+into consideration the different dimensions that are potentially
+creating the identified problem and can happen in a variety of ways,
+including:
+●
+●
+●
+●
+
+Reviewing student data
+Comparing data from different subgroups of students
+Speaking with additional stakeholders to understand multiple
+perspectives and how the problem is impacting them.
+Conducting observations or walkthroughs
+
+Following the validation of the problem, write down the problem in a
+rough statement form. This is an opportunity to synthesize context
+on:
+●
+●
+●
+●
+
+What the actual problem might be
+What is known already about the problem
+Who (population of stakeholders, primarily students) is
+directly impacted by the problem and how
+Identify what may be causing it
+
+The school leader has communicated
+with all Special Education teachers,
+some general education teachers and
+reviewed student grade book data to
+better understand the current problem.
+The school leader also conducted a
+variety of observations in both the
+general education and special education
+setting to take anecdotal notes on how
+students in special education are
+experiencing their classes.
+Key Takeaways from Validation:
+●
+The majority of students in
+Special Education are not
+passing English, Math, History,
+and Science courses.
+●
+English and Math teachers are
+providing some form of scaffolds
+during instruction
+●
+Based on conversations with
+History and Science teachers,
+teachers are struggling to
+incorporate some form of
+scaffolds or accommodations
+during instruction.
+Draft Problem Statement: The majority of
+students in Special Education are not
+passing their core classes (English, Math,
+Science, and History). English and Math
+teachers provide some form of a scaffold
+slightly more consistently. Science and
+History teachers are struggling to provide
+scaffolds and accommodations in general.
+
+Networked Improvement Community for Students with Disabilities | NIC Playbook
+
+5
+
+Process for Identifying a Problem Statement
+Process Steps
+
+Example
+
+Step 3: Develop a Data Deck and Review
+A Data Deck tells the coherent, data-grounded story of the current
+status of the learning environment, experience, and outcomes of
+students. It includes:
+●
+
+Process
+
+●
+
+What the problem looks like now based on baseline data that
+describes that current state (e.g., MAP scores, end-of-year
+GPA, IEP goal progress), and
+locates where the problem is occurring (organizational level,
+subject, grade, etc.) to best understand the current reality of
+the problem.
+
+Bring the team together to review all of the relevant data, check to
+see if everyone is seeing the problems in the same ways, gain
+support and motivation to move forward addressing the problem, and
+refine the problem statement.
+
+Step 4: Conduct Root Cause Analyses
+
+Link to 5 Whys Example
+
+Conduct one or more Root Cause Analyses (RCA) with the team on
+the particular problem identified in the validation process with those
+who identified and experience the problem and are committed to
+solving it.
+An RCA helps teams determine why a problem is occurring in the first
+place. RCAs provide a set of steps for teams to get to the core
+issues, articulating:
+●
+●
+●
+
+Examples of data collected:
+●
+Data showing variation in
+outcomes or experiences over
+relevant groups (student test
+scores on the same test, teacher
+survey data following PD)
+●
+Implementation “fidelity” data (%
+of lesson plans incorporating
+accommodations, teacher
+perceptions on lesson planning)
+●
+Data showing what’s happening
+reliably and with quality (grade in
+a particular class, teacher
+assessment data, student culture
+survey data)
+
+Root Cause - Network Level Teams
+(Academic team and Special Educations
+Department leads) are not co-designing
+PD on differentiated instruction.
+Link to Fishbone Example
+
+What’s happening
+Why it’s happening
+Entry points to reducing the likelihood of the problem
+recurring
+
+Steps 3 and 4 can be helpful in surfacing all of the smaller problems
+that will need to be solved along the way to the larger problem.
+
+Tools for
+Root Cause
+Analysis to
+Support
+Problem
+Definition
+
+Fishbone Diagram Protocol
+
+helps teams understand the
+multiple causes and effects of
+a problem from different
+perspectives to begin to
+understand where
+breakdowns are occurring.
+
+5 Why Protocol presents
+a process and a tool for
+teams to identify
+underlying “root causes”
+of an observed problem
+by asking “why” five
+times.
+
+Process Map Protocol helps
+unpack and visualize
+step-by-step processes to
+identify problematic sources
+of variation in specific steps,
+which can be used as a
+basis for designing better
+processes.
+
+Networked Improvement Community for Students with Disabilities | NIC Playbook
+
+6
+
+Process for Identifying a Problem Statement
+Process Steps
+
+Example
+
+Step 5: Finalize the Problem Statement
+
+Process
+
+Drawing upon targeted data and stakeholder input, precisely define
+the core problem to solve that is creating inequitable outcomes for
+students.
+When writing a Problem Statement there are clear guidelines for
+constructing the statement. The following points describe the must
+haves in a Problem Statement:
+●
+It is important to remove any solutions in the Problem
+Statement. This means there are no clear next steps
+identified.
+●
+Ensure that the target population is stated within the
+Problem Statement. These are the students directly
+impacted by the problem.
+●
+The Problem Statement omits any blame or judgment
+implicitly or explicitly on those affected.
+●
+The Problem Statement provides baseline data that
+describes the current state.
+●
+There is a high degree of team dedication and motivation to
+solve the problem.
+●
+The Problem Statement is articulated clearly, concisely,
+and accurately in one sentence.
+
+Revised Problem Statement: 40% of
+students in Special Education with mild to
+moderate disabilities are not passing one
+or more of their core content classes
+(English, Math, History, and Science).
+
+PROBLEM STATEMENT CHECKLIST
+The Problem Statement:
+❏
+❏
+❏
+❏
+
+❏
+
+Explicitly focuses on a problem
+experienced by students
+Has baseline data that describes
+the current state
+Is free from any embedded
+solutions
+Is motivating, and there is
+organizational will for solving the
+problem
+Is clear, concise, and accurate
+
+Problem with Problems Rubric (Equity Meets Design)
+Self-Assessment for generating a problem statement that is in
+service of solving an issue of equity.
+
+Pause and Reflect
+Consider Problem Type
+The type of problem(s) identified impacts how teams take action moving forward developing a Driver
+Diagram and Change Ideas to begin solve the problem.
+
+Problem
+Types
+
+Problems of
+Innovation
+
+Problems of
+Implementation
+
+Problems of
+Improvement
+
+Problems of Scale
+
+“We don’t know what
+to do. There is no
+existing system for it.”
+
+“We know what to do
+but people aren’t
+doing it.”
+
+“We have a system in
+place but there are
+high degrees of
+variation in
+outcomes.”
+
+“We know how to
+achieve reliable
+quality, and now we
+want to scale it.”
+
+The work is
+discovery.
+
+The work is
+understanding and
+removing barriers.
+
+The work is finding
+and spreading best
+practices.
+
+The work is change
+management.
+
+Networked Improvement Community for Students with Disabilities | NIC Playbook
+
+7
+
+Additional Example Problem Statements
+Example 1:
+☑ Example: Students with disabilities who enter our schools far below grade level in literacy and math on the
+NWEA MAP Test are 80% less likely to graduate on time than students who enter our schools ‘below”, ‘on,’ or ‘above’
+grade level.
+Rationale: This problem statement is student centered → Students far below grade level indicating target
+population. It is equity focused → students with disabilities graduating with their peers. Clearly articulates baseline
+data → 80% less likely to graduate which will lead to a outcome level measure. Solutions are not included allowing
+the team to generate change ideas. It provides clarity and it is concise in identifying who and what in one sentence
+→ students with disabilities and graduation rates.
+
+Examples
+
+Example 2:
+☒ Non-Example: Co-teachers need to utilize Zoom features to adapt instruction to an online environment.
+Rationale: The non-example statement offers a solution → utilize Zoom features to adapt instruction. The problem
+statement does not clearly and concisely state what the actual problem. is There is no baseline data and it is not
+student centered.
+
+☑ Revised Example: Students with disabilities are engaging in online classes at 50% the rate of their
+peers.
+Rationale: This problem statement is student centered → students with disabilities who are struggling to
+engage in the online and hybrid environment. It clearly articulates baseline data and is equity focused →
+50% of students are engaging compared to their peers. Solutions are not included and provides a clear and
+concise description → who, what where, and is one sentence.
+
+Example 3:
+☒ Non-Example: Our schools needs to institute daily calls home to families of students who are absent.
+Rationale: This problem statement is not student centered. It includes a solution → daily calls home. There is no
+baseline data.
+
+☑ Revised Example: 30% of students with disabilities are chronically absent as compared to their peers
+who are 10% chronically absent
+
+References
+
+Rationale: This problem statement is student centered and equity focused→ students with disabilities are
+chronically absent. It includes a clear baseline → 30% chronic absence. It does not include solutions and
+provides a clear and concise description → who is the target population, what is the problem, and is one
+sentence.
+
+●
+
+Carnegie Foundation for the Advancement of Teaching. Specific and Actionable Problem Statement. (2015).
+
+●
+
+Equity Meets Design. Problem with Problems Rubric. Equity Meets Design.
+https://courses.equitymeetsdesign.com/p/the-problem-with-problems.
+
+●
+
+Piute County School district. 5-Whys Guide & Template. Piute . https://www.piutek12.org/images/5_Whys_Worksheet.pdf.
+
+Networked Improvement Community for Students with Disabilities | NIC Playbook
+
+8
+
+Networked Improvement Community for Students with Disabilities | NIC Playbook
+
+Building the improvement playbook:
+
+00
+01
+02 Aim Statement
+03
+
+Aim Statement
+
+▸ What it is: An Aim Statement is the ultimate desired outcome of an improvement
+effort. It is a specific, measurable answer to the core improvement question, What are we
+trying to accomplish? Every improvement effort requires an Aim that organizes the work
+of everyone involved. Aims are inspiring and ambitious, simply stated and highly specific
+about the problem being solved. Aim Statements clearly define success for the
+improvement effort by specifying:
+❏
+What will be improved?
+❏
+By how much?
+❏
+By when?
+❏
+For whom?
+
+04
+05
+06
+
+▸ Why it matters: Having an Aim Statement provides a ‘north star’ that guides and
+motivates collective effort. Having a common definition of success provides common
+purpose to those working towards it. Taking the time to craft and generate consensus
+around a well-defined Aim Statement galvanizes a team’s commitment. It serves as an
+inspiring communication tool to get others into the work of solving the problem. An Aim
+that is a top-level organizational priority empowers teams and individuals to focus their
+efforts where it will have the greatest impact.
+
+Overview
+
+▸ In This Guide: Process, Examples, Checklist, Tools, and References
+
+An Aim Statement explicitly names the target population for improvement
+efforts (defining “for whom”). Continuous Improvement (CI) is most
+powerfully used in service of students historically positioned furthest from
+opportunity, such as Students with Disabilities.
+Taking a Targeted Universalism approach to CI allows solutions designed for
+the most vulnerable students to also improve the learning environment and
+outcomes for all. Aim Statements must be clearly communicated and
+consistently referenced amongst all stakeholders and appropriate for the
+time and resources dedicated to meeting it.
+
+Defining the Aim is
+the most important
+task - everything
+falls from it and
+nothing happens
+without it.
+
+Measures
+
+Measures within an Aim Statement
+Improvement teams must be able to know whether they are making progress towards an Aim and whether they have
+accomplished that Aim. Thus, measurement is critical when drafting an Aim Statement. Outcome measures are most
+often used to track overall progress towards an Aim.
+❏
+Lagging measures are output oriented and let teams know if the Aim has been achieved. They are easy to
+measure but hard to quickly influence (e.g graduation rate, end-of-year grades, external assessments).
+Lagging measures are reported infrequently and after-the-fact.
+❏
+Leading measures define inputs that inform whether a team is or is not on track to meeting the Aim (e.g.
+increased performance on interim assessments or number/percentage of students moving in/out of bottom
+quintile from Fall --> Spring). Leading measures are more predictive in nature and allow an organization to
+make adjustments based on results.
+
+9
+
+Example Aim Statements
+
+S.M.A.R.T.E Characteristics
+
+Aim Statements are both precise and concise, capturing a single
+focus that is clear for all stakeholders working to achieve success.
+When crafting an Aim, it is crucial to capture the problem being
+addressed in language that does not place blame on individuals, but
+rather, on the system that produces those inequities. Frame the
+success of the improvement effort around actually making
+improvement for students who are furthest from opportunity.
+Consider how using a S.M.A.R.T.E. framework provides clarity and
+focus to the following Aim Statement:
+We will increase graduation rates from 56% to 90% by
+January 1, 2025 for students experiencing housing insecurity.
+●
+●
+●
+
+●
+
+Examples
+
+●
+●
+
+Specific: Graduation rates will be improved
+Measureable: Answers how much by when
+Aspirational but attainable: 90% is aspirational but attainable if
+broken down over the given time period (e.g. an average
+increase of 6% each year over 5 years)
+Relevant: Students experiencing housing insecurity is an
+important challenge to address
+Time-bound: Targets growth within a specific timeframe of 5
+years
+Equity-driven: Targets universal access to graduation within a
+specific student population
+
+Exemplar Aim Statements incorporate
+S.M.A.R.T.E. characteristics to provide
+clarity, focus, and motivation to accomplish
+an Aim:
+❏
+Specific: The statement is precise
+and concise about what the team
+hopes to achieve.
+❏
+Measureable: There are clear
+measures that inform whether or not
+the effort is on track to meeting the
+desired outcome.
+❏
+Aspirational but attainable: It is
+important enough to motivate
+without being so large it intimidates.
+❏
+Relevant: It is connected to the
+work the team already does.
+❏
+Time-bound: It should be a target
+for achieving within the lifetime of
+your improvement effort
+❏
+Equity-driven: It is primarily
+oriented to counteract effects of
+systemic oppression and injustice.
+
+Consider this Example
+By June 15, 2022, decrease the achievement gap between our students with disabilities and general
+education students by 50%.
+Upon an initial read, this seems like a specific (SWD and general education students), measureable (50%) and
+aspirational (achievement gap) desired outcome. However, this Aim Statement is problematic. Framing challenges by
+using broad terms like ‘achievement gap’ can too often locate the improvement effort on students as opposed to the
+systems (structures and processes) that created those results. Furthermore, if additional resources are allocated to
+improve outcomes for SWD and as a result, the outcomes for SWD increase while outcomes for Gen Ed students
+decrease, then it would be difficult to call this Aim a success. Also, if the gap is small, but overall outcomes are low,
+that is problematic. Revising the above Aim as written below reframes this desired outcome as something all key
+stakeholders can commit to and then celebrate when accomplished:
+By June 15, 2023, we will increase the average end-of-year GPA of our Black and Latinx students with
+disabilities experiencing poverty by 50% (from 1.70 to 2.55) while maintaining the average GPA of our general
+education students.
+The revised Aim Statement makes the aspirational desired outcome more attainable by extending the deadline 1
+year while still keeping it time-bound to a firm end date. It also specifically addresses equity gaps by focusing on
+Black and Latinx students with disabilities experiencing poverty as the target population. Accomplishing this Aim will
+result in improved outcomes for the target population while also improving systems that impact all students
+(Targeted Universalism). By including a baseline GPA metric of 1.70 and a target GPA goal of 2.55, the revised Aim is
+more specific and more measurable. Lastly, the revised Aim explicitly addresses maintaining the average GPA of
+general education students while working towards the desired outcome for the target population, thus ensuring both
+student groups thrive.
+
+Networked Improvement Community for Students with Disabilities | NIC Playbook 10
+
+Aims, Problem Statements and Goal Statements
+
+Dimensions
+
+When defining Aim Statements, it is helpful to juxtapose them with Problem Statements and Goal Statements
+to develop a shared understanding among the team and in the Aim crafting process.
+
+Aim Statement | Problem Statement
+An Aim Statement is different from a Problem
+Statement because the Aim Statement
+states the desired outcome of the
+improvement effort while the Problem
+Statement defines the systemic issue that
+needs to be addressed or changed.
+
+Aim Statement | Goal Statements
+All Aims are goals, but not all goals are Aims. An Aim
+Statement is very specific, as described above. Aim
+Statements can motivate the creation of additional
+goal statements to help clarify and break down how the
+team will achieve the Aim. Additional Goal Statements
+can help team members further define measures of
+improvement, set interim milestones, prioritize initial
+changes to pursue, and determine levels of support(s)
+that may be needed.
+
+Remember, improvement science is an organic, non-linear
+process. A learning stance is critical to balance commitment
+towards the Aim while being open to how to best reach it. If we
+knew how to reach the Aim, we would have done it already.
+Creating an Aim Statement
+Step 1: Assemble a Team Based upon the problem being addressed, gather a team that is representative of
+individuals who are closest to the problem and will be supported and empowered to solve the problem. Ensure the
+team has defined shared norms and agreements for participation. Make sure everyone on the improvement team
+has a common understanding of the critical terms and definitions the team will be using.
+
+Process
+
+Step 2: Ground in the Problem & Review Data Review the Problem Statement and outcome-level
+baseline data to get a clear understanding of current performance. Examine and discuss example Aims and
+non-example Aims (see page 2) in order to align the team’s thinking around the characteristics of a S.M.A.R.T.E. Aim
+Statement. To get started, ground in equity by asking: Whose needs aren’t we serving as well as we could yet, and
+why? From there, the team can begin to define the desired outcome. Crafting an Aim should be a learning process
+and there should not be an expectation of “getting it right” the first time.
+
+Step 3: Draft the Aim When beginning to draft an Aim Statement, return to the question What are we trying to
+accomplish? Keep in mind that the Aim is not set in stone at this point and can be updated and refined as it is
+stress-tested (Step 4). Consider using the following sentence frame to get started:
+By June 15, 2023, (Name of Organization) will [increase / decrease] ____ (focus area for improvement
+project) for targeted population related to general population) ____ from (baseline data) ____ to
+(measurable outcome).
+
+Networked Improvement Community for Students with Disabilities | NIC Playbook
+
+11
+
+Process
+
+Step 4: Check for Equity It is important to stress-test the
+Aim by eliciting feedback from the improvement team (as well as
+additional stakeholders) to answer the following questions:
+●
+Is the Aim Statement captured in asset or deficit-based
+framing?
+●
+If this Aim is accomplished, what changes would we
+expect to see in our systems, structures, and processes?
+●
+What would the impact of reaching this Aim mean for the
+target population?
+Determine how to allocate the necessary people and resources
+needed to accomplish the Aim. Return to the Aim Statement to
+ensure the equity imperative for why this Aim matters to
+stakeholders is clear and agreed upon.
+●
+How can the Aim be recalibrated to ensure the most
+marginalized students are at the center?
+Define the measures that will inform whether the team is or is not
+on track to meeting the desired outcome.
+
+AIM STATEMENT CHECKLIST
+The Aim Statement is:
+❏
+
+Highly specific, clear & concise
+about the problem being solved
+
+❏
+
+Measurable
+
+❏
+
+Aspirational yet still achievable
+
+❏
+
+Relevant to what the team is
+already doing
+
+❏
+
+Time-specific
+
+❏
+
+Equity-driven
+
+Step 5: Enroll the Community An Aim is the galvanizing force that brings people into the effort and
+catalyzes change management. Communicate the Aim Statement and why it matters at various meetings (Staff PD,
+Grade Level Meetings, PLCs, PTA Meetings, etc.) to enroll others into the effort. This is an opportunity for
+stakeholders to fully embrace the complexity of the issue and buy into collective responsibility to accomplish the
+Aim. A clear and compelling Aim Statement should motivate and inspire others to join the effort. It should be
+concise enough for any staff member in the faculty room to articulate or for a parent to recall after a PTA meeting.
+Inform stakeholders that Continuous Improvement is naturally iterative and agree to how those stakeholders will be
+involved and when progress will be reported.
+
+References
+
+Tools to Help
+Define an
+Aim
+Statement
+
+Empathy Mapping
+Protocol
+
+Drafting a S.M.A.R.T.E
+Aim Statement tool
+
+Stakeholder Engagement
+Guide (Steps 1.3-1.7)
+
+Empathy techniques
+allow teams to be more
+student centered in their
+thinking and see our
+work with a fresh set of
+eyes in order to use the
+insights to better meet
+your students’ needs.
+
+Crafting an Aim Statement
+is an iterative process.
+Use this tool to co-create
+the Aim Statement with
+the Improvement Team.
+
+This tool provides strategies to
+engage critical
+stakeholders—including
+teachers, principals, district
+leaders and parents- to ensure
+buy-in, alignment and support
+for the improvement effort.
+
+●
+
+Carnegie Foundation for the Advancement of Teaching. Create an Aim Statement - Purpose, Specification.
+https://carnegienetworks.zendesk.com/hc/en-us/articles/115001173967-Create-an-Aim-Statement-Purpose-Specification.
+
+●
+
+Milder, S., & Lorr, B. (2018). (publication). (S. Courtney, J. Leopold, & L. LeFebvre, Eds.) NYCDOE Improvement Science Handbook. Retrieved from
+https://www.weteachnyc.org/resources/resource/nycdoe-improvement-science-handbook/.
+
+●
+
+Shift. (2020). (publication). Puget Sound Continuous Improvement Summit Series Workbook. Retrieved from
+https://shift-website.s1.umbraco.io/media/sqdfio0a/psciss-workbook.pdf.
+
+Networked Improvement Community for Students with Disabilities | NIC Playbook 12
+
+Networked Improvement Community for Students with Disabilities | NIC Playbook
+
+Building the improvement playbook:
+
+00
+01
+02
+03 Driver Diagram
+
+Driver Diagram
+
+04
+
+▸ What it is: A Driver Diagram is a visual representation of an organization's
+working theory of improvement, providing a roadmap for the systemic changes
+required to accomplish the overall Aim. It is a living document that evolves as
+learning accumulates and changes are tested. Driver Diagrams focus improvement
+efforts on the parts of a system hypothesized to be most essential for reaching the
+Aim. A Driver Diagram represents the team’s shared understanding of how to reach
+the Aim in common language that can be understood by all who interact with it.
+
+05
+06
+
+▸ Why it matters: A Driver Diagram allows the team to tell their improvement story
+by explicitly stating what is being prioritized, who is being directly impacted, and
+how the Aim will be achieved. Ideally, it democratizes the change process, making
+what is often implicit and hidden from stakeholders explicit. A Driver Diagram helps
+the team stay focused on the improvement effort and helps them “place their bets”
+on the areas that they believe will make the greatest impact for students.
+▸ In This Guide: Process, Examples and Checklist, Tools, References
+
+Components of a Driver Diagram
+
+Overview
+
+The Aim Statement is the north star guiding the
+improvement effort. The Aim answers the first
+essential question of improvement: What
+specifically are we trying to accomplish?
+Primary Drivers are the areas of focus that
+represent the team’s hypotheses about what
+needs to change to reach the Aim. They are often
+phrased as “measurable states of the world that
+need to be true to reach the Aim”.
+●
+
+Key components of Primary Drivers:
+○
+Usually between 3-5, similar in scope - they should be mutually exclusive and collectively exhaustive.
+○
+High Leverage - they represent critical components the Improvement Team has elevated as the most
+important conditions that need to be true in order to accomplish the Aim.
+
+Secondary Drivers identify where a change in the system will create improvement in the Primary Driver, including
+structures, norms, practices and processes (e.g. department meetings, learning lab, hiring processes, student
+enrollment, family engagement, class placement, IEP meetings, coaching, grading practices, etc).
+Change Ideas are the specific ideas the team will test to make changes to the Secondary Drivers. They should be
+specific and target the way the work is completed. They tell how the improvement will happen to test the working
+theory of improvement.
+
+13
+
+How to Read a Driver Diagram
+
+Overview
+
+The Driver Diagram is laid out in a way that tells the story of the team’s working theory of improvement. It begins
+with an Aim Statement that is the central focus of the improvement effort. The Driver Diagram states what will
+change, where it will happen, and how to reach that Aim. The sentence frame at the bottom of the diagram (below)
+can be read as an “If/then statement” to show the relationship between the hypothesis of change (“If”) and the Aim
+(“Then”).
+
+Reading left to right, the Driver Diagram translates a high-level improvement Aim, pointing to key drivers (leverage
+points) for reaching the Aim, which lead to specific changes that can be made. Reading the Driver Diagram from left
+to right tells the team HOW to make the change.
+Example 1: If, by June 2023, we want to increase the
+average GPA of our Black and Latinx students with
+disabilities experiencing poverty by 50% while
+maintaining the GPA for all students (Aim), then we
+need to target high quality tiered (academic, behavior,
+social-emotional) instruction (Primary Driver) by
+ensuring educators are conducting regular 1:1
+check-ins on student goals (Secondary Driver), and
+one way to do this is to provide educators with an
+implementation guide (Change Idea).
+
+Example 2: If we want to decrease chronic absenteeism (missing more
+than 18 days per year) of Black and Latinx students with disabilities
+experiencing poverty from 25% to 10% while maintaining attendance
+rates for all students, by June 15, 2023 (Aim), then we need to target
+creating trusting relationships within the school community and
+support a sense of belonging in safe learning environments (Primary
+Driver) by having all adults actively working to develop positive
+relationships with these students (Secondary Driver) and one way to
+do this is by providing culturally relevant lessons that appeal to student
+interests (Change Idea).
+
+Reading right to left, the Driver Diagram communicates hypothesized relationships between specific changes and
+the Aim the team plans to test. Reading from right to left tells the team WHY they are making the change.
+Example 1: If educators are provided an
+implementation guide (Change Idea), then they will be
+able to conduct regular 1:1 check-ins on student goals
+(Secondary Driver), which will support high quality
+tiered (academic, behavior, social-emotional) instruction
+(Primary Driver), that will lead to an increased average
+GPA of our Black and Latinx students with disabilities
+experiencing poverty by 50% while maintaining the GPA
+for all students by June 2023 (Aim).
+
+Example 2: If educators provide culturally relevant lessons that appeal
+to student interests (Change Idea), then all adults will be actively
+developing positive relationships with students (Secondary Driver)
+which will support students having trusting relationships and having a
+sense of belonging in safe learning environments (Primary Driver) that
+will lead to a decrease in chronic absenteeism (missing more than 18
+days per year) of our Black and Latinx students with disabilities
+experiencing poverty from 25% to 10% while maintaining attendance
+rates for all students, by June 15, 2023 (Aim).
+
+Networked Improvement Community for Students with Disabilities | NIC Playbook 14
+
+Measures Within a Driver Diagram
+
+Measures
+
+Driver Diagrams require a set of measures to understand how those areas of focus are performing and provide
+feedback to the team for learning and decision-making. These measures illuminate what is working, for whom, under
+what conditions, as well as inform whether the work being done is improving the outcomes or experiences of the focus
+population or area targeted by the improvement process. There are different types of measures collected to inform
+performance of each level of the Driver Diagram and analyze progress throughout the whole system.
+●
+Outcome Measures are used to measure the Aim with lagging measures reported infrequently and
+after-the-fact and leading measures more frequently to show progress along the way.
+●
+
+Driver Measures help teams analyze performance of specific parts of the system to monitor progress and
+influence future changes, usually collected more frequently (e.g. monthly, quarterly).
+
+●
+
+Process Measures are collected with greater frequency (e.g weekly) to understand if the implemented changes
+are happening, how they are working, and if they are leading to improvements.
+
+Example:
+Aim: By June 2023, we will increase the average GPA of our Black and Latinx students with disabilities
+experiencing poverty by 50% while maintaining the GPA for all students.
+Outcome Measure (lagging): GPA at the end of the year for all students, disaggregated
+Outcome Measure (leading): student grades, interim assessments
+
+Primary Driver: SWD are
+engaged in high-quality tiered
+(academic, behavior,
+social-emotional) instruction.
+
+Secondary Driver: Educators
+are conducting regular 1:1
+check-ins to support students in
+goal setting.
+
+Change Idea: Provide educators
+with an implementation guide for
+facilitating 1:1 check-ins.
+
+Primary Driver Measures
+(leading): Course assessments,
+suspension rates, number of
+referrals, student survey data
+
+Process Measures: Number of
+goals set, Number of goals on
+track, Number of goals
+completed; Number of students
+attending check-ins
+
+Process Measures: Number of
+calls to students not attending;
+amount of time spent with each
+check-in, students not in 1:1
+on-task rates
+
+Tools to
+Help Create
+a Driver
+Diagram
+
+Slide Template and
+Spreadsheet Template for
+Improvement Teams to create
+a working theory of
+improvement to solve a
+specific problem and reach
+an Aim.
+
+Fishbone and Process
+Map tools and protocols
+for Root Cause Analysis
+to help identify key
+drivers and change ideas
+in a Driver Diagram..
+
+Virtual Whiteboard (Google
+Drawing) provides a space
+to brainstorm how to solve a
+problem and achieve an Aim
+by eliciting Hypotheses and
+Assumptions that can be
+turned into Drivers.
+
+Networked Improvement Community for Students with Disabilities | NIC Playbook 15
+
+Creating a Driver Diagram
+Step 1: Brainstorm ways to achieve the Aim (note: the virtual whiteboard tool
+can be helpful). Cluster the ideas into high level groups.
+
+Step 2: Define headers that summarize the groups. Prioritize the headers and
+select 3-5 that are believed to have greatest impact and organizational will to
+achieve. These headers become the Primary Drivers and the clustered ideas
+become Secondary Drivers.
+●
+What (will happen to reach the Aim) - Primary Drivers
+●
+Where (the change will happen) - Secondary Drivers
+●
+How (the change will happen) - Change Ideas (set these aside until
+Step 6)
+
+Step 3: Edit the language of the drivers so they are descriptive, yet succinct:
+●
+
+Process
+
+●
+●
+●
+●
+
+Describe what the factor is (not how to do it - these are the change
+ideas!).
+Frame the driver in the positive.
+Be descriptive without being verbose; for example, an adjective (timely,
+accurate, effective) with a noun.
+Ensure the drivers are in goal oriented language, the ‘ideal state.’
+Examples:
+○
+Primary: Educators target high-quality tiered instruction
+○
+Secondary: Educators conduct regular 1:1 check-ins with
+students.
+
+Who should be involved:
+People from various levels of the
+school network involved in
+implementation of changes,
+including site to central office
+level and other key stakeholders
+(e.g. families, community
+partners).
+Prerequisite:
+❏
+Review Problem
+Statements and root
+cause analysis (e.g.
+Fishbone Diagrams,
+stakeholder interviews,
+etc.).
+❏
+Create an Aim
+Statement to guide the
+work.
+
+Step 4: Check the drivers for duplicates, clarity, and missing elements, then
+
+DRIVER DIAGRAM
+CHECKLIST
+
+get team consensus.
+
+Step 5: Generate Change Ideas. Change Ideas capture how the
+improvement will occur.
+
+Step 6: Connect the components. Link the why to the what to
+where and how to show cause and effect relationships and to tell the story
+(hypothesis) of the work. Read the DD Right → Left and Left → Right to see if it
+makes logical sense and make any necessary updates.
+
+Future Next Steps:
+Step 7: Define an initial set of Measures to track progress and a system to
+collect and review the data regularly
+
+The Driver Diagram has:
+❏
+An Aim that is SMARTE
+❏
+3-5 Primary Drivers that
+represent what will be
+true
+❏
+Secondary Drivers that
+represent where change
+will occur in the system
+❏
+High impact Change
+Ideas that tell how
+change will happen
+
+Step 8: Revisit and make updates. The Driver Diagram is a living document
+
+References
+
+and should evolve as learning occurs (at least quarterly).
+
+●
+
+Milder, S., & Lorr, B. (2018). (publication). (S. Courtney, J. Leopold, & L. LeFebvre, Eds.) NYCDOE Improvement Science Handbook. Retrieved from
+https://www.weteachnyc.org/resources/resource/nycdoe-improvement-science-handbook/.
+
+●
+
+Shift. (2020). (publication). Puget Sound Continuous Improvement Summit Series Workbook. Retrieved from
+https://shift-website.s1.umbraco.io/media/sqdfio0a/psciss-workbook.pdf.
+
+●
+
+Carnegie Foundation for the Advancement of Teaching. (2016) Developing a Theory of Practice Improvement: Driver Diagrams (Slides). Slideshare.
+Retrieved from https://www.slideshare.net/NextGenLC/carnegie-foundation-summit-on-improvement-in-education-driver-diagrams.
+
+Networked Improvement Community for Students with Disabilities | NIC Playbook 16
+
+Networked Improvement Community for Students with Disabilities | NIC Playbook
+
+Building the Improvement Playbook:
+
+00
+01
+02
+03 Driver Diagram
+04
+05
+06
+
+Revising the Driver
+Diagram
+▸ What it is: A Driver Diagram is a visual representation of an organization’s working
+theory of improvement, providing a roadmap for the systemic changes required to
+accomplish its overall Aim. Ultimately, it maps out what we want to do, where in our
+system we want to do it, and how we’re going to attempt to do it. The Driver Diagram
+should be revised regularly to represent the latest learnings, theory of action, and work
+of the Improvement Team.
+▸ Why it matters: As an organization’s improvement work evolves, so too should the
+Driver Diagram. It is a living document that allows Improvement Teams to
+communicate new learning, what has changed over time, and what teams are aiming
+to achieve. This is a critical step in engaging colleagues, peers, and the broader
+school community in the improvement effort.
+▸ In This Guide: Process and Examples
+
+Overview: The Driver Diagram is a tool that organizes a team’s plan to reach their Aim (the ultimate desired
+outcome of an improvement effort). Therefore, it is important that it be revised periodically to reflect how the
+improvement journey evolves over time, including what is being prioritized, who is being directly impacted, and how
+the Aim will be achieved.
+
+When refining the Driver Diagram, consider the following:
+
+Overview
+
+1.
+
+2.
+
+3.
+
+WHETHER the Improvement Team still believes in the Aim
+a.
+The Aim serves as a north star to direct the improvement efforts, so if it is
+no longer serving the need of students, change it. That change will no
+doubt create ripple effects across the Driver Diagram for revision.
+WHEN might the Improvement Team revise the Driver Diagram
+a.
+Build in time to review and revise the Driver Diagram at regular intervals
+when data is available to review.
+b.
+Return to the Driver Diagram when something major is learned — for
+example, something is clearly showing a positive impact on students, or
+something is ready to spread to other contexts based on data.
+c.
+Revise the Driver Diagram when the Improvement Team learns something
+more about the research or best practices that could lead to a narrowing or
+shifting of focus.
+WHO needs to be involved
+a.
+Improvement Team Members
+b.
+Testers
+c.
+School level stakeholders who know the system at the ground level
+d.
+
+Why Revise the Driver
+Diagram? To
+1. confirm belief in the
+Aim,
+2. narrow the focus,
+3. update the theory
+based on learning, or
+4. communicate how
+the theory has
+evolved.
+
+Other stakeholders, including students, family or community
+17
+
+Steps to Revising the Driver Diagram
+Step 1: Challenge the Theory of Improvement
+●
+
+●
+●
+
+Start by identifying the Change Ideas the Improvement Team has worked on so far. Highlight or bold those
+changes.
+○
+Improvement Teams might discover Change Ideas are in the wrong place or need to be more specific.
+○
+Remove or iterate on those Change Ideas.
+Strikethrough Change Ideas and Drivers that have been tested and failed.
+Add in Change Ideas that the team is currently working on if they are not already listed.
+
+Consider During Step 1:
+●
+●
+
+What else do we need to learn about the ideas that have been tested?
+Are we doing enough to move the Drivers that we are currently focused
+on? If not, what other change ideas do we need to add?
+
+Step 2: Trim the Driver Diagram
+●
+
+Process
+
+●
+●
+
+Using a different color, highlight Change Ideas not tested, and review and iterate Secondary Drivers.
+○
+Improvement Teams might find Secondary Drivers are similar to others and some need to be
+eliminated or reworded.
+Bold change ideas where focus should be placed next.
+Cross off Change Ideas that are not believed to make progress toward the Aim.
+
+Consider During Step 2:
+●
+●
+
+Does the Improvement Team feel confident that these Change Ideas/Drivers are essential to
+reaching our Aim?
+Which of these Drivers or Change Ideas are high-leverage based on our content expertise?
+What is feasible for us to enact at this time?
+
+Step 3: Reorganize the Driver Diagram
+●
+
+●
+●
+●
+●
+
+Improvement Teams should start this step by thinking about the following questions:
+○
+What evidence validates or disproves the team’s theory?
+○
+What has the team learned from content expertise and experience?
+Consolidate and move Drivers and Change Ideas to ensure alignment.
+Cross out or remove Drivers that will no longer be a focus.
+Add high leverage Drivers or Change Ideas essential to meet the Aim.
+Clarify the language, being specific to ensure the Driver Diagram clearly explains the theory of improvement.
+
+Stop! Test the Theory Before Moving Forward to Step 4.
+Do we believe that this Driver Diagram will accomplish our Aim?
+Read the Driver Diagram from right to left and left to right to confirm belief in our theory.
+
+Networked Improvement Community for Students with Disabilities | NIC Playbook 18
+
+Step 4: Prioritize the Driver Diagram
+●
+●
+●
+●
+
+●
+●
+
+Make a copy of the annotated (messy) version of the Driver Diagram.
+Clean up this version to have a synthesized copy (e.g., delete struck items, remove highlights).
+Confirm the Drivers are within the team’s locus of control.
+Ask the Improvement Team:
+○
+"What parts of our theory are most important to meeting our Aim?"
+○
+“What do we have the desire, will, and capacity to work on?”
+Check in with those closest to the work, including team members who you might enroll to enact these changes
+or engage in the continuous improvement process.
+Using all the information, data, and expertise, identify the priorities to work on next, and bold them.
+
+Keep in Mind:
+Improvement Teams may want to focus on all of it, all at once. Even though the intention is right, that is
+not always the best approach in service of students and team. So, limit the team’s selection of Change
+Ideas based on current capacity, skill, and research, as well as will and excitement.
+
+Step 5: Share the Driver Diagram
+●
+●
+
+Process
+
+●
+
+Cross-check the Driver Diagram with research and content expertise.
+Share the revised Driver Diagram with key stakeholders for feedback.
+○
+Repeat the steps above if necessary based on feedback.
+Add the revised Driver Diagram to your Project Charter (include version number or date).
+
+Consider During Step 5:
+●
+
+Who might we consult across the NIC (e.g., other CMOs, Content Experts)
+to confirm our theory makes sense, is rooted in science and content
+knowledge, and based on expertise and experience?
+
+In Summary
+Revising the Driver Diagram is a process that takes time and effort by the entire Improvement Team. Teams may find
+that their initial Driver Diagrams are inaccurate or incomplete, and that’s OK! Improvement efforts are a journey, and
+Driver Diagrams should reflect that journey. Always remember, the review and revision process is just as important as
+the initial creation of the Driver Diagram.
+
+Tools for
+Refining a
+Driver
+Diagram
+
+Refining our Change Process: The
+Driver Diagram - This session is
+designed to review the role of the Driver
+Diagram in Continuous Improvement
+and show how to iterate on and revise
+the Driver Diagram
+
+STRIVE Prep’s Revised Driver Diagram
+Template - CMO example of how they
+have structured and organized their
+Driver Diagram and measures.
+
+Networked Improvement Community for Students with Disabilities | NIC Playbook 19
+
+Example: Over the next pages, we highlight the steps using a
+template Driver Diagram.
+Why
+
+What
+
+Where
+
+Trusting Relationships
+
+Student Sense of
+Belonging
+
+How
+
+Text Messaging Program
+School Newsletter
+Culturally Relevant Extracurricular offerings
+
+Culturally Responsive
+Communication home
+
+By June 2023, CMOs have made dramatic gains for students
+
+Extracurriculars and electives
+
+Regular 1:1 Adult to Student
+Check ins
+
+Tiered Instruction
+
+Check in Protocol
+Co-planning data protocol
+6 Co-teaching Models
+
+Collaboration
+
+Co-teaching
+
+Progress Monitoring of IEP
+Goals
+
+IEP Services and
+Resources
+
+High Quality Rigorous IEP Goals
+
+IEP Goal Progress Data Tracking System
+Student Led IEP meetings
+IEP Goal Bank
+IEP How to guide
+
+High Quality Spectrum of
+Services
+
+Consistent Communication
+Systems
+
+Family & Community
+Engagement
+
+Two way communication btw teachers and
+families
+
+Identify Best Modes of Communication
+Parent Teacher Conference Guide
+Community Resource Bank
+Subscription Communication App
+
+Transition Community Services
+
+Coaching
+
+School Leadership
+
+Master Schedule focused on SWD needs
+Coaching Agenda & Data protocol
+MTSS Team
+
+Master Schedule
+
+Distributed Leadership
+
+Aim
+
+Primary Drivers
+
+Secondary Drivers
+
+Change Ideas
+
+Networked Improvement Community for Students with Disabilities | NIC Playbook 20
+
+Step 1: Challenge the Theory of Improvement
+Why
+
+What
+
+Where
+
+Trusting Relationships
+
+Student Sense of
+Belonging
+
+Culturally Responsive
+Communication home
+
+How
+
+Text Messaging Program
+School Newsletter
+Culturally Relevant Extracurricular offerings
+Student to Student Mentoring
+
+By June 2023, CMOs have made dramatic gains for students
+
+Extracurriculars and electives
+
+Regular 1:1 Adult to Student
+Check ins
+
+Tiered Instruction
+
+Collaboration
+
+Check in Protocol
+Student Data Dashboard
+Co-planning data protocol
+6 Co-teaching Models Co-teaching PD/planning days
+
+Co-teaching
+
+Progress Monitoring of IEP
+Goals
+
+IEP Services and
+Resources
+
+High Quality Rigorous IEP Goals
+
+IEP Goal Progress Data Tracking System
+Student Led IEP meetings
+IEP Goal Bank
+IEP How to guide
+
+High Quality Spectrum of
+Services
+
+Consistent Communication
+Systems
+
+Family & Community
+Engagement
+
+Two way communication btw teachers and
+families
+
+Identify Best Modes of Communication
+Parent Teacher Conference Guide
+Community Resource Bank Community Partnership with
+Job Corp
+Subscription Communication App
+
+Transition Community Services
+
+Coaching
+
+School Leadership
+
+Master Schedule focused on SWD needs
+Coaching Agenda & Data protocol
+MTSS Team Transformational Teaming
+
+Master Schedule
+
+Distributed Leadership
+
+Aim
+
+Primary Drivers
+
+Secondary Drivers
+
+Change Ideas
+
+Networked Improvement Community for Students with Disabilities | NIC Playbook 21
+
+Step 2: Trim the Driver Diagram
+Why
+
+What
+
+Where
+
+Trusting Relationships
+
+Student Sense of
+Belonging
+
+Culturally Responsive
+Communication home
+
+How
+
+Text Messaging Program
+School Newsletter
+Culturally Relevant Extracurricular offerings
+Student to Student Mentors
+
+By June 2023, CMOs have made dramatic gains for students
+
+Extracurriculars and electives
+
+Regular 1:1 Adult to Student
+Check ins
+
+Tiered Instruction
+
+Collaboration
+
+Check in Protocol
+Student Data Dashboard
+Co-planning data protocol
+6 Co-teaching Models Co-teaching PD/planning days
+
+Co-teaching
+
+Progress Monitoring of IEP
+Goals
+
+IEP Services and
+Resources
+
+High Quality Rigorous IEP Goals
+
+IEP Goal Progress Data Tracking System
+Student Led IEP meetings
+IEP Goal Bank
+IEP How to guide
+
+High Quality Spectrum of
+Services
+
+Consistent Communication
+Systems
+
+Family & Community
+Engagement
+
+Two way communication btw teachers and
+families
+
+Identify Best Modes of Communication
+Parent Teacher Conference Guide
+Community Resource Bank Community Partnership with
+Job Corp
+Subscription Communication App
+
+Transition Community Services
+
+Coaching
+
+School Leadership
+
+Master Schedule focused on SWD needs
+Coaching Agenda & Data protocol
+MTSS Team Transformational Teaming
+
+Master Schedule
+
+Distributed Leadership
+
+Aim
+
+Primary Drivers
+
+Secondary Drivers
+
+Change Ideas
+
+Networked Improvement Community for Students with Disabilities | NIC Playbook 22
+
+Step 3: Reorganize the Driver Diagram
+Why
+
+What
+
+Where
+
+Trusting Relationships
+
+Student Sense of
+Belonging
+
+Regular 1:1 Adult to Student
+Check ins
+
+How
+
+Proactiv Text Messaging Program
+School Newsletter
+e
+
+Culturally Relevant Extracurricular offerings
+Student to Student Mentors
+
+By June 2023, CMOs have made dramatic gains for students
+
+Extracurriculars and electives
+
+Collaboration
+
+Tiered Instruction
+
+Check in Protocol
+Student Data Dashboard
+Co-planning data protocol
+6 Co-teaching Models Co-teaching PD/planning days
+
+Co-teaching
+
+Progress Monitoring of IEP
+Goals
+
+IEP Services and
+Resources
+
+High Quality Rigorous IEP Goals
+
+IEP Goal Progress Data Tracking System
+Student Led IEP meetings
+IEP Goal Bank
+IEP How to guide
+
+High Quality Spectrum of
+Services
+
+Consistent Communication
+Systems
+
+Family & Community
+Engagement
+
+Two way communication btw teachers and
+families
+
+Identify Best Modes of Communication
+Parent Teacher Conference Guide
+Community Resource Bank Community Partnership with
+Job Corp
+Subscription Communication App
+
+Culturally Responsive
+Communication
+
+Transition Community Services
+
+Coaching
+
+Master Schedule focused on SWD needs
+Coaching Agenda & Data protocol
+MTSS Team Transformational Teaming
+
+School Leadership
+Master Schedule
+
+Distributed Leadership
+
+Aim
+
+Primary Drivers
+
+Secondary Drivers
+
+Change Ideas
+
+Networked Improvement Community for Students with Disabilities | NIC Playbook 23
+
+Step 4: Prioritize the Driver Diagram
+Why
+
+What
+
+Where
+
+Trusting Relationships
+
+By June 2023, CMOs have made dramatic gains for students
+
+Student Sense of
+Belonging
+
+How
+
+Student to Student Mentors
+Check in Protocol
+Student Data Dashboard
+
+Regular 1:1 Adult to Student
+Check ins
+
+Collaboration
+
+Co-planning data protocol
+Co-teaching PD/planning days
+
+Tiered Instruction
+Co-teaching
+
+Culturally Responsive
+Communication
+
+Proactive Text Messaging Program
+Community Partnership with Job Corp
+
+Family & Community
+Engagement
+Transition Community Services
+
+Coaching
+
+School Leadership
+
+Master Schedule focused on SWD needs
+Coaching Agenda & Data protocol
+Transformational Teaming
+
+Master Schedule
+
+Distributed Leadership
+
+May 30, 2022 v.2
+
+Aim
+
+Primary Drivers
+
+Secondary Drivers
+
+Change Ideas
+
+Networked Improvement Community for Students with Disabilities | NIC Playbook 24
+
+Networked Improvement Community for Students with Disabilities | NIC Playbook
+
+Building the improvement playbook:
+
+00
+
+Change Ideas
+
+01
+03
+02
+03
+04 Change Ideas
+05
+06
+
+▸ What it is: Change Ideas are the hypothesized actions, practices, and innovations
+generated by a team to reach their Aim. They tell how the improvement will happen by
+being specific about what will be done differently within the team’s Driver Diagram. They
+are rigorously tested through Plan-Do-Study-Act (PDSA) cycles in order to determine if the
+idea does in fact improve the outcomes and experiences for the target group. Change
+Ideas can be:
+●
+Implemented at multiple levels of a system (e.g. classroom, school, network)
+●
+Different in size and scope
+●
+Entirely new changes to a system: new programs or structures
+●
+Adaptations of what currently exists within a system: small tweaks to something
+that is already working
+▸ Why it matters: While not all changes lead to improvement, all improvement requires
+change. Testing Change Ideas is critical because they provide learning centered around
+what is working, why, for whom and under what conditions. Teams must orient to learning
+and consistently ask, “what might this change help us learn about how to solve the
+problem?” Often in education reform, responses to large-scale and complex changes are
+implemented without knowing if they will actually work, thus reproducing inequitable
+outcomes. This leads to initiative fatigue and resistance to future change. Implementing
+Change Ideas at smaller scales equips teams to learn fast, fail fast, and improve quickly
+before network or school wide implementation.
+
+▸ In This Guide: Process, Examples, Checklist, Tools, and References
+
+Change Ideas are the final component of a Driver Diagram.
+
+“If you want to truly
+understand something,
+Articulate your Problem
+try to change it.”
+Statement and Aim
+- Kurt Lewis
+
+They help teams bridge the gap between “what works in research”
+and “how” to make it work in practice.
+
+Overview
+
+What specifically are we trying to
+accomplish?
+What change might we make and
+why?
+
+Specific CHANGE IDEAS
+linked to a DRIVER DIAGRAM
+
+How will we know that a change is an
+improvement?
+
+Establish Measures to evaluate
+impact of changes
+
+Act
+
+Plan
+
+Study
+
+Do
+25
+
+Process for Identifying Change Ideas
+Step 0: Enroll the Team
+●
+
+Convene a small group of people who are working to solve the problem (e.g. representatives of teachers,
+coaches, school and network leaders) who will have a role in the development, testing and implementation
+of Change Ideas.
+Review the Problem Statement, Aim, and Primary and Secondary Drivers as represented in the Driver
+Diagram. Refer back to any root causes analyses completed because they likely will suggest promising
+Change Ideas.
+
+●
+
+Step 1: Individually Brainstorm Change Ideas for Each Driver
+These can be “quick fixes” to existing systems (“low-hanging fruit”) or entirely new programs/structures. Refer to the
+following questions to initiate the brainstorm:
+●
+Where are the bright spots that are already working within some parts of the organization that can be built
+upon that could improve conditions and outcomes of the Drivers?
+●
+What does the research suggest we should try?
+●
+Where are things already happening reliably and with quality?
+●
+What are innovative ideas that might improve the system?
+Add all of those ideas to the Driver Diagram
+Tip! Use the following sentence stem to support teams in identifying Change Ideas:
+
+Process
+
+If I want to (Aim), then I need to target (Primary Driver) and/by (Secondary Driver), and one way to do that is to (Specific Change Idea).
+
+Step 2: Share Out
+For each Primary Driver, have each person share their top
+2-3 initial ideas and locate the Change Ideas on the
+quadrant (see in tools). Once ideas have been shared and
+posted on the quadrant, refer to the following questions to
+reorganize and cluster:
+●
+How much effort (time, energy, resources) would it
+take for to test these ideas?
+●
+If the idea is successful, what parts of the system
+might positively change or impact the classroom,
+department, school or network?
+
+●
+●
+
+High Impact, Low
+Effort (Yes!)
+
+High Effort, High
+Impact (Maybe)
+
+Low Impact, Low
+Effort (Maybe)
+
+High Effort, Low
+Impact (No!!)
+
+Pause for Equity
+Will these changes address issues of equity throughout the system (i.e. is it in service of those students
+furthest from opportunity and their needs)?
+Do these Change Ideas interrupt and address inequitable practices?
+
+Step 3: Prioritize
+●
+●
+
+Using a consensus building process (see Tools), identify at least 1 Change Idea for each Primary Driver that
+is most impactful and that the team can move quickly on (generally those ideas in the top two quadrants).
+Highlight the prioritized Change Ideas on the Driver Diagram.
+○
+If there are Change Ideas that don’t align to the team’s existing drivers, this could suggest a new
+driver is needed.
+○
+If the team has a driver without any Change Ideas, the driver may not be essential to the current
+theory of improvement. Consider revising or removing the driver.
+
+Networked Improvement Community for Students with Disabilities | NIC Playbook 26
+
+Step 4: Stepping Back
+Have each team member reflect on the completed Driver Diagram. Teams
+should utilize this time to identify starting points of implementing Change
+Ideas and opportunities for further learning. Answer the following questions:
+1.
+What is being tested and at what scale and how does it align to the
+overarching Aim?
+2.
+Does the team believe that the identified Change Ideas are likely to
+make substantive progress towards the Aim?
+3.
+Why does the team believe these hypothesized Change Ideas will
+create more equitable outcomes?
+4.
+What Change Idea is the team most motivated to work on?
+5.
+What Change Ideas does the team worry might not work? Why?
+
+CHANGE IDEA CHECKLIST
+Change Ideas:
+❏
+❏
+❏
+❏
+❏
+
+Process
+
+Step 5: Plan Next Steps
+Identify team members who are leading and monitoring the implementation of
+each identified Change Idea. This includes:
+●
+Setting up a Plan-Do-Study-Act (PDSA) Cycle for each Change Ideas
+●
+Developing complementary resources
+●
+Identifying the dates of the PDSA cycle, and members to include and
+follow up with.
+
+Future Steps for Ensuring Change Ideas Lead to Improvement
+●
+
+Change Ideas
+equip teams to
+learn fast, fail
+fast, and
+improve quickly.
+
+Implement and monitor Change Ideas using PDSA cycles to ensure:
+○
+Change Ideas are being implemented reliability and with quality
+○
+Document learning and share it with stakeholders
+Measurement
+○
+Change Ideas are measured by Process Measures helping teams know if the changes are happening
+and actually leading to improvement in the Driver and Outcome Measures.
+○
+Process measures are collected frequently (daily or weekly) and help teams understand if and how the
+change is happening. Examples may include:
+
+●
+
+Change Idea: Teacher sends weekly
+email reminder for office hours.
+Measurement: # of students attending
+office hours.
+
+Tools to
+Refine
+Change
+Ideas
+
+References
+
+Can be clearly articulated
+and easily observed
+Measured by frequent
+data collection
+Are aligned to Primary and
+Secondary Drivers
+Interrupt inequitable
+outcomes
+Each Change Idea is
+assigned an “owner” with
+a clear next step.
+
+Impact vs. Effort Quadrant
+Tool to prioritize and
+choose high leverage
+Change Ideas identified
+by the team.
+
+Change Idea: Develops student self efficacy by providing a visual
+representation of when students should ask questions
+Measurement: Teacher keeps a tally of students needing help
+during a class period
+
+Dot Voting for Simple Decision-Making
+to give participants voice in
+decision-making by identifying which
+Change Ideas the group perceives as
+most promising
+
+SWOT Analysis to
+unpack and
+develop a specific
+Change Idea.
+
+Change Idea
+Scorecard to
+assess and
+improve specific
+changes before
+testing them out.
+
+●
+
+Bryk, A. S., Gomez, L. M., Grunow, A., &amp; LeMahieu, P. G. (2017). Learning to improve: how America's schools can get better at getting better.
+Harvard Education Press.
+
+●
+
+Langley, G. J., Moen, R. D., Nolan, K. M., Nolan, T. W., Norman, C. L., & Provost, L. P. (2009). The Improvement Guide A Practical Approach to
+Enhancing Organizational Performance (Second). Jossey-Bass.
+
+●
+
+Learning to Improve Glossary. Carnegie Foundation for the Advancement of Teaching.
+https://www.carnegiefoundation.org/resources/learning-to-improve-glossary/#:~:text=Change%20Idea,in%20working%20theory%20of%20improve
+ment.
+
+●
+
+Using Change Concepts for Improvement: IHI. Institute for Healthcare Improvement.
+http://www.ihi.org/resources/Pages/Changes/UsingChangeConceptsforImprovement.aspx.
+
+●
+
+Rennie Center Education Research & Policy. (2018). Choosing a Strategy. Retrieved from
+https://www.renniecenter.org/sites/default/files/Rennie%20Center_Choosing%20a%20Strategy%20Presentation.pdf.
+
+Networked Improvement Community for Students with Disabilities | NIC Playbook 27
+
+Networked Improvement Community for Students with Disabilities | NIC Playbook
+
+Building the improvement playbook:
+
+00
+
+System of Measures
+
+01
+02
+03
+04
+05 Measurement
+06
+
+▸ What it is: A System of Measures for Improvement is inclusive of the full set of data
+points used by the Improvement Team to test their Driver Diagram, chart progress
+toward the Aim, and determine when a change is an improvement. A System of
+Measures is linked to a Driver Diagram to understand how well those key processes,
+structures and the changes being tested are working.
+The data from the measures provides feedback for the team on both long-term
+outcomes and short-term processes. Measurement for Improvement flips the typical
+measurement paradigm of “what data do we have and what can we learn from it?” to
+“what do we need to learn and what data will we need to learn it?”
+▸ Why it matters: Without measures in place, it is hard to know what is working for
+whom, and under what conditions. A System of Measures provides a comprehensive
+understanding of how the improvement effort is progressing toward achieving the
+overarching Aim. The factors contributing to problems and solutions in education are
+diverse. Thus, a comprehensive System of Measures must help teams to learn more
+about processes, norms, learning environments, perceptions, and inputs.
+To achieve reliable quality at scale, teams must understand, address, and learn from
+variation, specifically to highlight inequities across groups. The system of measures is
+only as good as the faith that individuals within the school system have in the
+measures themselves. So, a System of Measures is important because it proactively
+and transparently defines success, progress, and improvement.
+
+Overview
+
+▸ In This Guide: Process, Examples and Checklist, Tools, References
+
+A System of
+Measures helps
+answer the third
+question of
+Continuous
+Improvement:
+How will we
+know that a
+change is
+actually an
+improvement?
+28
+
+Variation is the problem we study to understand what works, for whom, and under what conditions.
+In Continuous Improvement, variation is the core problem to solve because the goal is quality results for all
+students in a target population. A detailed examination of variation helps teams to gain a deeper understanding
+of the systemic problems to be solved as well as what can be learned from those already experiencing a degree
+of success.
+
+Variation
+
+For example, a principal noticed that student course passage data showed that Students with Disabilities (SWD)
+are the subgroup struggling the most to pass their courses. The team identified a dimension (SWD) leading to
+variation against course passage rates, which for the most part, defines success within a secondary school
+system.
+Next, the team studied the variation within the SWD population across other measures, and across various
+subgroups. In this case, survey results showed SWDs reported a high feeling of safety at school, but exhibited an
+especially low growth mindset. If so, some additional variation has been identified across groups: SWDs are
+passing fewer classes, as a group, than other student groups, and they are also reporting the lowest growth
+mindset across all other subgroups. Thus, the team began to adapt their Change Ideas to ensure that growth
+mindset was explicitly addressed to support SWD success.
+Additionally, the team looked to see if there are any courses in which SWDs were succeeding at the same rates
+as all other students, and in which all students are generally successful at higher rates than the network average.
+They found a few teachers and learned that they were more consistently and explicitly planning instruction for
+students’ accommodations, a practice they were then able to spread to others. The team analyzed variation to
+find "positive deviants" - people, programs, and schools to learn from; these are places in which it appears that
+the school system's larger problem has been "solved." Here, variation helped not only add nuance and
+understanding to the problems to solve, but to also begin to understand how people within the school had
+already (at least partially) solved the problem.
+Variation is inherent in all systems. Schools should work for everyone so it’s important to deeply understand the
+experience and outcomes of those positioned furthest from opportunity so that teams can intentionally improve
+the system to reliably, consistently, and equitably meet the needs of all young people, at scale.
+
+Process
+
+Designing a System of
+Measures
+A Measurement Tree visually tells
+the story of how the elements in the
+Driver Diagram are connected to the
+Aim. The focus should be on just
+getting the right set of measures
+before thinking about how to collect
+the data and represent it. Begin with
+the ultimate outcomes (Aim), build
+down to driver measures, and then
+to process measures, creating the
+tree. The tree shows how measures
+can be broken down into their
+components.
+Ensure the Measurement Tree provides indicators of success across drivers and that the measures will actually
+provide insight into how the particular elements of the system are performing. The measures and data collected
+should align with the problems and changes being addressed to determine impact, with data points reported as
+frequently as possible. A System of Measures that links to the Driver Diagram helps Improvement Teams check if
+their theory towards their Aim is right and can help inform changes over time.
+Networked Improvement Community for Students with Disabilities | NIC Playbook 29
+
+Step 1: Outcome Measures
+Outcome Measures indicate how the overall system is performing and track overall movement towards an Aim.
+●
+Identify how the Aim will be measured, at what frequency, and with what instrument or data. This
+measure should be tied to student outcomes and experiences. Outcome Measures include both:
+○
+lagging measures usually reported infrequently (e.g. annually) and usually after-the-fact.
+○
+leading measures collected more frequently (e.g. semesterly) and show progress along the way,
+but lack information about why progress is or is not happening and how to make changes for
+improvement.
+
+Aim: By June 2023, We will increase the average GPA of our Black and Latinx students with disabilities
+experiencing poverty by 50% while maintaining the GPA for all students.
+Outcome Measure (lagging): GPA at the end of the year for all students, disaggregated, reported through SIS
+grading tool.
+Outcome Measure (leading): student grades, semesterly, reported through the report card grading tool
+
+Process
+
+Step 2: Driver Measures
+Driver Measures are early indicators (intermediaries between outcomes and process) of whether or not progress is
+being made on the intermediate outcomes usually connected to the Primary Drivers of the Aim.
+●
+Identify measures that show the performance of specific parts of the system to monitor progress toward
+the Aim and influence future changes. These are usually reported more frequently than Outcome Measures
+(e.g. quarterly, monthly).
+
+Primary Driver: SWD are engaged in high-quality tiered (academic, behavior, social-emotional) instruction.
+Driver Measure (leading): Course assessment scores collected after each unit (approximately every 6 weeks)
+
+Step 3: Process Measures
+Process Measures indicate if the process, norms, and structures of the system are performing with quality and
+reliability. They answer three questions: (1) Are changes happening reliably? (2) Are changes resulting in
+improvement? (3) What do people think of the changes?
+●
+Identify measures that indicate how and where the system (e.g. advisory class, policy implementation,
+school) is changing. These measures will attach to Secondary Drivers and Change Ideas and should
+determine if the changes are working reliably with quality and consistently. These actionable measures are
+reported frequently and are embedded in daily work.
+
+Secondary Driver: Educators are conducting regular 1:1 check-ins to support students in goal setting.
+Process Measure: Students number of goals set, number of goals on track and number of goals completed
+are collected by an adult advisor each week after student 1:1 check ins.
+
+Networked Improvement Community for Students with Disabilities | NIC Playbook 30
+
+Step 3a: Change Ideas/PDSAs
+Measures for PDSAs are used to understand how the tests of change are working. PDSAs are used to record
+what is being learned in order to remove variation in implementation needed for scalability. These measures
+should be embedded in the daily work of enacting the test and simple to collect. The results of these data points
+inform which steps are essential to a change and can help build evidence for spread and scale. These measures
+can be collected just for the purpose of the test.
+●
+Design and utilize PDSAs to record what is being learned. During these cycles the data answers the
+questions, 'What do we need to learn?' and 'How will we know if this change is an improvement?'
+
+Process
+
+Change Idea: Provide educators with an implementation guide for facilitating 1:1 check-ins with specific
+guidelines for supporting student goal setting and monitoring.
+Process Measure: Adult advisors track the amount of time spent with each student at each check-in and the
+number of goals discussed during that time in a spreadsheet, that is recorded after each session.
+
+Step 4: Balancing Measures
+Balancing measures indicate what’s happening to important parts of the system that are not the focus of the
+improvement effort. Defining Balancing Measures ensures that changes being made are not leading to unintended
+consequences in other parts of the system.
+●
+Identify where in the system the changes being made might have unintended consequences. Identify
+measures that will indicate how the change being made impacts other parts of the system.
+
+Improvement Focus: increasing GPA for Black and Latinx students with disabilities experiencing poverty
+through increasing passing course grades by monitoring assessment scores.
+Balancing Measures: Amount of time spent to collect and analyze the assessment scores. Assessment scores
+for students outside the target population.
+
+Data Collection
+
+Planning for Data Collection and Analysis
+Enacting a System of Measures then requires a plan. All organizations have differences in data capacity, data
+systems in place, and norms and processes for how data requests get handled. Operationalizing the measures
+usually requires an additional level of detail (see table below). Priorities and tradeoffs may have to be made. First,
+determine when, how, and by whom data will be collected and analyzed. Include how the data will be presented.
+Data at the Change Idea level should be collected on the most frequent cadence possible (e.g. for classroom tests weekly; for programmatic changes across a school - monthly) and be actionable. Data should be objective and test
+the hypothesis for improvement. Data should not place the blame on students, nor mask a problem in the system.
+●
+
+Define and organize the measures as they are surfaced: outcome, driver, process or balancing.
+
+●
+
+Get specific about types of data (e.g. implementation, fidelity, outcome, feedback), how data will be looked
+at (e.g. dashboards, protocols), and how it will be sliced in different ways (e.g. whole group, subgroups,
+class). Determine which quantitative (e.g. grades, attendance numbers) measures will be used and then
+determine the qualitative measures (e.g. student surveys, teacher interviews) to help give a greater
+understanding of variation in what is or is not working, under what conditions and why.
+
+Networked Improvement Community for Students with Disabilities | NIC Playbook 31
+
+Operationalize the measure by defining the measures being collected. This gives team members and
+stakeholders a common understanding of what is being analyzed. Take the system of grading for example.
+Providing an operationalized definition such as, “grades are determined based on mastery of concepts as
+measured by content assessments”, helps all stakeholders (teachers, students, parents and other faculty)
+understand how grades are determined. Socialize operational definitions with others (e.g. school leaders,
+teachers) by checking for understanding and norming on common definitions .
+○
+Questions to consider asking to define operationalized measures:
+■
+What data will be collected?
+●
+What are the sources of data? Does it include qualitative and quantitative, including
+feedback data from families and students?
+●
+Is the data relevant to the change being tested?
+■
+How will data be collected? When and where will the data be collected?
+■
+Who will collect the data?
+■
+What measures are important to view over time?
+
+●
+
+Interact with the measures: Determine how people will interact with the data (how will the data be looked
+at) and what will they do with it to implement a change in a process or practice.
+○
+Questions to consider for interacting with the measures and data.
+■
+How will the data be reported? Who will get the reports?
+■
+Who will analyze the data? When will the data be analyzed?
+■
+How will the data be analyzed? Will it be disaggregated?
+■
+What will happen after the data is analyzed?
+
+Data Collection
+
+●
+
+Data tools and reports will help teams interact with the
+data. One tool for collecting and analyzing data over time
+is a Run Chart. This simple data tool is used to study
+variation and trends in data. It helps determine if changes
+result in improvement, and if gains are sustained after
+changes have been implemented.
+The run chart at left shows data reported on the High-quality Tiered
+Instruction Driver.
+
+Networked Improvement Community for Students with Disabilities | NIC Playbook 32
+
+Data Collection
+
+Interacting with the Driver Measure: Ms. Gonzalez, the ELA 10 teacher worked with Mr. Perez, the Grade 10
+Advisor to increase the percent of students turning in daily assignments in 4th period ELA class. They ran a PDSA on
+supporting students with weekly goal setting and reflection towards that goal. During the week of 10/5, Ms. Gonzalez
+collected baseline data on the number of assignments turned in and then met with Mr. Perez to discuss. They
+decided to run a PDSA testing a protocol during Advisory sessions explicitly focused on goals for turning in
+assignments. Mr. Perez kept track of the number of students he met with during each session and the goal progress
+and completion of each student. He then met weekly with Ms. Gonzalez to compare his Advisory data with her
+assignment completion data. The two saw progress after the first week the PDSA was enacted. Mr. Perez continued
+to test changes to the goal-setting protocol weekly, asking students for feedback on the process. At the end of PDSA
+cycle 3, the team had met their goal of 90% of students turning in assignments. Mr. Perez and Ms. Gonzalez met with
+the rest of their Grade-Level Team to share their results to begin planning for how they can scale this change idea
+with other Student Advisors as well as sharing the results with their School Leader to enlist her in helping bring the
+change to other grade levels.
+
+Process
+
+●
+
+When reviewing data, pause to check for biases and assumptions. Examine the data with a critical eye to
+understand potential pitfalls, gaps and misrepresentation. Understanding how the data is collected, what it
+represents and how it is presented will give better understanding of the full story.
+○
+Questions to consider when checking for bias and assumptions.
+■
+What data was collected?
+■
+Why was it collected? Is the data being used for the intended purpose?
+■
+How was the data collected?
+■
+What does it show and what is missing?
+■
+How is it represented? Is it presented with asset-based language?
+■
+Look through a DEI lens, are there systematic biases that need to be accounted for?
+
+Checking for assumptions: results for the English MAP test showing SWD at 30% proficiency only tells part of
+the story. There may be an assumption that this data represents students’ actual ability to read and write. What
+this doesn’t tell you is that the test is usually given without reading accommodations or modifications that
+students with disabilities may be getting during instruction. Gathering additional data, such as Lexile level, can
+show actual reading ability and give teachers better information on choosing accessible texts.
+
+References
+
+Tools to
+Help Create
+Systems of
+Measures
+
+Measurement Tree can be
+used to visually attach
+measures to the Aim,
+drivers and Change Ideas.
+
+Sample Measurement Plan shows
+a layout of a measurement tree
+both visually and in a table format.
+
+Data Collection Plan Template (with
+Example) can be used to prioritize
+and operationalize measures for
+collection and analysis.
+
+●
+
+Bryk, A. S. (2015). 2014 AERA Distinguished Lecture: Accelerating How We Learn to Improve. Educational Researcher, 44(9), 467–477.
+https://doi.org/10.3102/0013189X15621543.
+
+●
+
+Huang, M. (2015, September 3). Lessons from Paper Airplanes. https://www.carnegiefoundation.org/blog/lessons-from-paper-airplanes/.
+
+●
+
+Shift. (2020). (publication). Puget Sound Continuous Improvement Summit Series Workbook. Retrieved from
+https://shift-website.s1.umbraco.io/media/sqdfio0a/psciss-workbook.pdf.
+
+●
+
+Takahashi, S. (2014, August 21). Revisiting the Purposes of Practical Measurement for Improvement: Learning from the BTEN Measurement
+System [web log].
+https://www.carnegiefoundation.org/blog/revisiting-purposes-practical-measurement-improvement-learning-bten-measurement-system/.
+
+Networked Improvement Community for Students with Disabilities | NIC Playbook 33
+
+Networked Improvement Community for Students with Disabilities | NIC Playbook
+
+Building the improvement playbook:
+
+00
+
+Plan-Do-Study-Act
+
+01
+02
+03
+04
+05
+06 Plan-Do-Study-Act
+
+▸ What it is: The Plan-Do-Study-Act (PDSA) cycle is a process for testing a change
+and determining whether that change leads to the desired improvement. It is rooted in
+the scientific method, and enables educators to quickly and rigorously conduct action
+research. The PDSA cycle is both a specific set of procedural steps (a form to track
+learning) and a conceptual methodology (a way of thinking and enacting change).
+▸ Why it matters: The PDSA cycle lays the foundation for continuous improvement.
+This process helps to build new knowledge faster informing future scale-up efforts by:
+Compartmentalizing risk by learning rigorously, incrementally, and quickly
+●
+●
+
+PDSAs serve as feedback loops for learning, providing the evidence of
+reliability and quality required to responsibly scale a practice, program, or
+process within a school system.
+The rapid nature of PDSA cycles allows for low risk/high reward opportunities to
+quickly and rigorously learn what does and does not work.
+
+Bridging research and practice
+●
+
+Leading research informs the changes and practices chosen. The PDSA cycle
+enables theory to be applied effectively in targeted contexts, where data helps
+to understand what works, for whom, under what conditions.
+
+Exposing gaps in knowledge about the system
+●
+
+PDSA cycles test the best thinking about how to improve a system or process
+“on the ground”. This testing can expose unknown or unrecognized gaps in the
+system. Learning about the system is a primary goal of PDSA testing.
+
+Empowering stakeholders
+●
+
+PDSAs can empower stakeholders by allowing them test changes they believe
+will lead to improvement in a bounded and disciplined way.
+
+▸ In This Guide: Process, Examples, Tools, References
+
+Plan. This step specifies the details of when, where, and how the idea will be tested, predictions about the testing
+including measure(s) of success.
+
+Do. This step includes collecting the data and noting observations and insights along the way.
+Study. This step compares the experience and data collected with Plan predictions and measure(s).
+Act. This step is to decide whether the Change Idea will be adapted, adopted, or abandoned, or if the PDSA should
+be repeated for more data. This step usually leads into the Plan step of the next PDSA cycle.
+34
+
+From Change Idea to PDSA
+
+Overview
+
+PDSA Cycles allow for rapid testing
+of a Change Idea. For changes at the
+school or network level, such as the
+introduction of a new program,
+individuals and groups can run PDSAs
+focusing on improving specific steps
+or components. The duration of the
+PDSA cycle should be as short as
+possible while adequately testing a
+hypothesis - within 2-4 weeks. There
+are standard forms to guide teams’
+thinking through the process.
+
+PDSA Ramps are a tool to plan
+forward from a starting point to desired
+end-point and define stages of
+progression - which problems need to
+be solved in what order. As a planning
+tool they help illustrate the building of
+learning. Though each stage of the
+PDSA Ramp seeks to answer a
+different set of questions appropriate
+for the stage, the process within each
+PDSA cycle or set of cycles remains
+consistent.
+
+The PDSA cycle turns ideas into action
+and connects action to learning.
+
+Enacting a PDSA requires a clearly
+defined Change Idea (who does what
+when and how) and a common
+understanding of how that change will
+be determined to be an improvement.
+Determining the appropriate level of
+scale to start is important to learn fast,
+build evidence, and preserve will.
+Testing the change with fewer people
+to start if:
+●
+There’s less confidence that
+the idea will lead to
+improvement, or
+●
+Those expected to enact the
+change are indifferent or
+resistant to it.
+
+Tools for
+PDSA
+Cycles
+
+PDSA Form - templates and prompts to
+enact tests of Change Ideas, track learning,
+improve the reliability and quality of the
+change and build evidence for spread and
+scale.
+
+PDSA Ramp Planning Tool
+(with Example) - table with prompts to
+stage and sequence PDSAs from a starting
+place to full implementation.
+
+Networked Improvement Community for Students with Disabilities | NIC Playbook 35
+
+Scope of PDSA Each PDSA should be focused, resulting in a process that easily fits into the workflow of the user
+
+Scoping PDSAs and Planning Ramps
+
+and allows for gathering the necessary data to inform the efficacy of the change. These dimensions are for a single
+PDSA. For a complex Change Idea, there may be multiple, simultaneous PDSAs being conducted at different levels of
+the system.
+Dimensions of Scope:
+●
+Targeted Learning - Each PDSA cycle should target what needs to be learned about a Change Idea. For
+Change Ideas that have many components (for example, deploying a program to all schools) there may be a
+specific step or process to focus on. For Change Ideas already in progress (for example, an existing
+Numeracy program), the PDSA process can help define a target for future learning (for example, learning
+about why someone does or does not participate in the program).
+●
+Short Duration - Each PDSA cycle should be as brief as possible in order to quickly gain knowledge of
+whether or not the Change Idea works. Thus, data collection needs to be quick and simple (“scrappy”) - just
+enough to inform how well the idea works and what people think about it.
+●
+Targeted Sample Size - A PDSA cycle typically involves only a targeted sample size (a few teachers or one
+school, depending on the test). For complex Change Ideas, the first PDSAs can lead to "the margins" (for
+example, the 20% of users that are not using a program) that will be the focus of subsequent PDSAs. As the
+data confirms the change is leading to an improvement, it can be expanded and scaled to more teachers or
+schools and continue to move up the PDSA ramp.
+
+The PDSA Ramp Scoping out
+a rough progression of a Change
+Idea from initial testing to the
+desired endpoint is an important
+step to continue to refine,
+understand, and learn about the
+Change Idea. The PDSA Ramp also
+helps chunk the Change Idea into
+more manageable pieces to
+account for the capacity and
+resources expected to be required
+and forecast what else might be
+needed in the future.
+
+A PDSA Ramp is a plan, but it is not a rigid commitment to follow because each PDSA cycle will provide
+learning about the Change Idea and confidence in the Change Idea to effect improvement, all of which will
+inform the PDSA Ramp. Follow the rule of “1, 5, 25” - get the Change to work in one context, then multiple
+contexts (5), then scale it out (25).
+
+Multiple PDSA Ramps Each
+PDSA Ramp is dedicated to one
+Change Idea. Since there will likely be
+multiple, simultaneous PDSAs testing
+change ideas, there will be multiple
+PDSA Ramps moving those Change
+Ideas through different stages. This is
+an illustration of how multiple PDSA
+Ramps, for multiple Change Ideas
+across Drivers, converge in the
+improvement effort towards the Aim.
+Networked Improvement Community for Students with Disabilities | NIC Playbook 36
+
+Step 1: Plan
+●
+
+Clarify the Test
+○
+What is this test trying to accomplish?
+○
+What needs to be understood about the
+change?
+○
+What would indicate the test was
+successful?
+○
+Record the who, what, when & where of the
+test.
+
+●
+
+Record Questions & Prediction:
+○
+Write down specific questions the test should be designed to answer with predicted “answers”
+for each question. A good format is “If I do X, then will Y happen?” The questions should connect
+to the data collected.
+○
+Specific predictions are important because they illustrate what is currently understood about the
+system. They are often the source of a lot of the learning, especially when they are found untrue.
+Be as specific as possible, for example: “2/3 of the students will write a skills-based goal.”
+Data Collection:
+○
+Identify the data collection strategy so there is data to check predictions against. Data collection
+tools may need to be developed but remember that data collection should be quick and as simple
+as possible. Recommendation: Data should be able to be collected on a sticky note or clipboard
+rather than require a data dashboard. Ensure that it is reasonable to expect a tester to collect this
+type or amount of data.
+Double-check:
+○
+Does everyone have what they need to enact the test? If not, who needs what information or
+resources?
+
+PDSA Process
+
+●
+
+●
+
+Step 2: Do
+●
+
+●
+
+●
+
+●
+
+Record the data and any additional observations, as
+specifically and clearly as possible. For example, a
+classroom teacher running a PDSA is busy, data
+gathering should be as quick and simple as
+possible.
+Describe what happened during the test, especially
+if it differed from the plan: anything that was
+unexpected, difficulties with the test or data
+collection, or general observations about what
+happened during the test.
+PDSA testers often discover new things about processes and the system in which they are operating in
+the Do part. These discoveries can inform both the PDSA for subsequent cycles and the Driver Diagram
+by revealing nuances or new drivers.
+Resist the temptation to begin analyzing the Do as it is described. The first step should be to capture,
+as objectively as possible, what happened and the data collected. The Study step will allow for analysis
+and reasoned interpretation. Of course, as the Do is recorded, any analysis that creeps in can and should
+be recorded for Study.
+
+Networked Improvement Community for Students with Disabilities | NIC Playbook 37
+
+Step 3: Study
+●
+
+For each learning question and prediction made,
+analyze what happened by asking:
+○
+Was each prediction correct or not?
+○
+What data collected supports this answer?
+(These data can be both the planned data
+(from the Plan) and impromptu data that
+were collected during the Do.)
+○
+What was learned in the gap between
+prediction and result?
+Record any other observations about what was
+learned, especially any surprises, as these usually
+reveal new learning about the system.
+
+●
+
+Step 4: Act
+●
+
+PDSA Process
+
+In the Act step, review the results and documented
+learning from the test to decide future action in the
+PDSA cycle. This may be a shift in the test approach
+(adapt), a decision to implement a reliable change in
+other contexts (adopt) or a decision to discontinue a
+change when it has been executed reliably and proven
+ineffective for the desired improvement (abandon). In
+some cases, a cycle may be repeated if the test
+execution failed or proved inconclusive. For subsequent
+PDSA cycles the Act step is usually the foundation for
+the next Plan step.
+
+Decision Guides
+Adapt
+
+Adopt
+
+●
+
+●
+
+More tweaks needed to improve reliability and
+quality. Lack of confidence in overall impact.
+Ready to adapt the idea to other testing conditions.
+If adapting the idea and running another test, record
+ideas about what to do in the next cycle. This
+information becomes the foundation of the next
+cycle’s Plan section.
+
+●
+●
+
+Abandon
+●
+
+References
+
+●
+
+●
+
+●
+
+High degree of confidence that the
+change leads to improvement.
+The Change Idea has been developed
+and is ready to start spreading and
+testing in other contexts.
+
+Repeat
+
+The Change Idea has not led to improvement after
+several test cycles.
+Double-check both the Change Idea itself and its
+execution before abandoning.
+
+●
+
+It is possible that the execution of the
+test failed in some way and it can’t yet
+be determined if the test was
+successful or not. Identify why it failed
+and try another test.
+
+Langley, G. J., Moen, R. D., Nolan, K. M., Nolan, T. W., Norman, C. L., & Provost, L. P. (2009). The Improvement Guide A Practical
+Approach to Enhancing Organizational Performance (Second) (p.97). Jossey-Bass.
+
+Networked Improvement Community for Students with Disabilities | NIC Playbook 38
+
+Acknowledgements
+This Playbook is a publication of the
+Marshall Street Continuous Improvement Initiative.
+Second Edition, printed October 2022, Redwood City, CA.
+Suggested Attribution:
+Marshall Street. (2022). NIC Playbook Fall 2022. Redwood City, CA. www.marshall.org
+
+Contributors
+Tim Burke
+Mira Browne
+Adam Carter
+Marco Castaneda
+Paula Espinoza
+Stephanie Lassalle
+Kyle Moyer
+Heather Piccotto
+Kelley Prosser
+Giovanna Santimauro
+Daria Zhao
+
+This project is generously supported by the Bill and Melinda Gates Foundation.
+
+Networked Improvement Community for Students with Disabilities | NIC Playbook 39
+
+The Networked Improvement Community (NIC) for Students
+with Disabilities is a pilot community of 10 Charter Management
+Organizations (CMOs) working towards the Aim of achieving
+dramatic gains for Black and Latinx students with disabilities
+experiencing poverty. Collectively, these CMOs serve more than
+75,000 students.
+
+With support from technical assistance providers Marshall Street,
+SWIFT Education Center, and research organizations NIRN, RTI
+International, and SRI International, our goal is to systematically
+improve the way we serve students with disabilities and bring these
+solutions back to school systems everywhere.
+
+This work is made possible by the Bill & Melinda Gates
+Foundation. The findings and conclusions contained within are
+those of the authors and do not necessarily reflect positions or
+policies of the foundation.
+
+Marshall Street Initiatives
+780 Broadway
+Redwood City, CA 94063
+www.marshall.org

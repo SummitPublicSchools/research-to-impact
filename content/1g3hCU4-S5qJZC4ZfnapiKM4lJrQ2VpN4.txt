@@ -1,0 +1,4767 @@
+Anchoring
+Emotions
+ONE SCHOOL’S SKILL-BASED
+PRACTICES FOR SUPPORTING
+STUDENTS WITH EMOTIONALBASED DISABILITIES
+
+A Collection of Researchto-Impact Practices
+Developed with the
+Networked Improvement
+Community for Students
+with Disabilities
+
+Table of Contents
+Preface.................................................................iii
+Acknowledgments .............................................. iv
+Collection Overview............................................1.1
+CHAPTER 1
+
+Building Student Leaders: Peer-to-Peer
+Mentorship for Secondary Students...................2.1
+CHAPTER 2
+
+Providing Timely Behavioral Feedback
+Across Classrooms.............................................3.1
+CASE STUDY
+
+Maximizing Student Progress through
+Data-Informed Systems......................................4.1
+CASE STUDY
+
+Refining Program Implementation via
+Quarterly Collaborative Evaluation at
+Mastery Schools.................................................5.1
+Conclusion.........................................................6.1
+
+Preface
+In Anchoring Emotions: One school’s skill-based practices for supporting students with emotional-based
+disabilities, we share a set of best practices for improving learning outcomes in secondary students —
+particularly Black and Latinx students with disabilities experiencing poverty — through an emotional
+support program for students in special education with emotional or behavioral disabilities or other
+health impairments integrated within neighborhood schools. The Networked Improvement Community
+for Students with Disabilities (NIC), a group of 10 public charter school networks serving more than
+75,000 students nationwide, identified the best practices through their work between 2019 and 2023.
+Led by Marshall Street at Summit Public Schools, in partnership with technical assistance providers
+NIRN, RTI International, SRI International, and SWIFT Education Center, the purpose of the three-year
+NIC was to systematically improve the way our education system serves Black and Latinx students
+with disabilities experiencing poverty and share these solutions with school systems everywhere. This
+report is funded by the Bill & Melinda Gates Foundation. The findings and conclusions contained within
+are those of the authors and do not necessarily reflect positions or policies of the Bill & Melinda Gates
+Foundation.
+The NIC used continuous improvement to translate existing research for improving learning outcomes
+into best practices and to iterate the practices to ensure they worked in a variety of school contexts.
+
+In Anchoring Emotions: One school’s skill-based practices for supporting
+students with emotional-based disabilities, we share the results of this vital work:
+Two best practices that Mastery Schools used as part of their supplemental behavioral
+support model while in the NIC to successfully improve outcomes for students who need
+emotional support. Each best practice includes:
+–
+–
+–
+
+Case studies highlighting how Mastery’s Simon Gratz High School implemented
+the practices while in the NIC
+Step-by-step implementation guidance
+Key prerequisites and accelerants for successful implementation in any context
+
+Two case studies that explain how Mastery Schools uses data to make decisions for
+each level of their network: central office, schools, Anchor programs, and students.
+
+We share these best practices so that any school in the country can leverage the learning from the
+NIC to accelerate dramatic gains in learning outcomes for their students with disabilities. We hope
+that administrators and educators across the country can use the stories within this guide to build their
+school cultures of continuous improvement as well.
+
+iii
+
+P RE FACE
+
+Anchoring
+Emotions
+
+Acknowledgments
+About Marshall Street
+Marshall Street is a division of Summit Public Schools based in Redwood City, California. Marshall
+draws from more than 15 years of institutional knowledge and extensive experience in school
+improvement. Through our programs, we increase the capacity of our school partners to carry their
+work forward in the ways most meaningful to their communities.
+Continuous Improvement is a set of principles and practices to help educators “get better at getting
+better.” Marshall’s Continuous Improvement team uses these tools to tackle intricate, systems-level
+problems in K–12 education. From 2019 to 2023, Marshall led a multi-year Networked Improvement
+Community (NIC) to make dramatic gains in the learning experiences, environments, and outcomes for
+Black and Latinx students with disabilities experiencing poverty.
+
+About the Anchor Emotional Support Program
+at Mastery Schools
+The Anchor program at Mastery Schools — a comprehensive therapeutic support program for students
+receiving supplemental emotional support — is a unique, one-of-a-kind program that was developed to
+disrupt national and local outcome disparities related to students with emotional disabilities. By joining
+the NIC, the Anchor team set out to explore how they could create school-wide programmatic supports
+to significantly increase student attendance rates and decrease suspension rates for students with
+emotional and behavioral disabilities, ensuring this group of students had equitable access to their
+education. This project engaged a diverse array of leaders, educators, and practitioners at Mastery
+Schools and Simon Gratz High School who were instrumental to its success.
+
+Anchor Project Leadership
+Elizabeth Farruggia, Deputy Chief of Specialized Services
+Ann McKetta, Director of Specialized Services
+
+Anchor Practitioners
+Festus Aigbokhai, Evangeline Berube, Elizabeth Farruggia, Tom Hausch, Veronica Koff, Angela
+McBride, Ann McKetta, Leon Michael, Virnetta Newman
+
+Contributors to this Collection
+This collection was collaboratively developed by educators at Mastery Schools, members of the
+Marshall improvement team, NIC technical assistance providers, and collaborating content experts.
+
+Lead Author
+Sivan Tuchman, Datability Education Consulting
+
+iv
+
+ACKNO W L ED GM EN T S
+
+Anchoring
+Emotions
+
+Authors & Contributing Editors
+Evangeline Berube, Mastery Schools
+
+Ann McKetta, Mastery Schools
+
+Mira Browne, Marshall Street
+
+Virnetta Newman, Mastery Schools
+
+Sam Eiseman, Blue Engine
+
+Megan Ohllsen, AntiAblest Ed
+
+Elizabeth Farruggia, Mastery Schools
+
+Kelley Prosser, Solas Partners LLC
+
+Veronica Koff, Mastery Schools
+
+Amy Sandoz, Amy Sandoz LLC
+
+Stephanie Lassalle, Marshall Street
+
+Giovanna Santimauro, Marshall Street
+
+The Networked Improvement Community
+NIC PARTICIPANTS
+
+MARSHALL IMPROVEMENT TEAM
+Nykeisha Bryer, Improvement Advisor
+
+Kyle Moyer, Director of Continuous Improvement
+
+Timothy Burke, Improvement Advisor
+
+Greg Ponikvar, Executive Director (2023–
+Present)
+
+Adam Carter, Executive Director (2018–2023)
+Marco Castenada, Improvement Advisor
+Paula Espinoza-Wells, Improvement Advisor
+
+Mark Rizkallah, Improvement Advisor
+Giovanna Santimauro, Improvement Advisor
+
+Stephanie Lassalle, Director of Improvement
+Programs
+CONTENT EXPERTS
+Meg Lembo, Blue Engine
+Genevieve Thomas, Catalyst:Ed and Spark Educational Consulting
+Tova Davis, Amy McCart, and Laura Miltenberger, SWIFT Education Center
+
+v
+
+ACKNO W L E D GME N T S
+
+Anchoring
+Emotions
+
+TECHNICAL ASSISTANCE PROVIDERS
+National Implementation Research Network (NIRN): Caryn Ward, Ximena Franco-Jenkins,
+Taunya Nesin
+RTI International: Jay Feldman, Jon Boyette, Ben Dalton, Elisabeth Hensley, Jennifer Laird
+SRI International: Jared Boyce, Deepa Patel, Debbie Shaver, Daniela Torre-Gibney, Katie Woodworth
+SWIFT Education Center: Amy McCart, Melinda Mitchiner, Andre Mitchell
+Datability Education: Sivan Tuchman
+AntiAbleist Ed: Megan Ohlssen
+COLLABORATORS
+Marshall Street: Megha Kansra, Yumi Lifer, Heather Piccotto, Ginger Wu, Daria Zhao
+RTI: Rebecca McMillan
+SRI: Ryan Grimm, Terry Scott
+SWIFT Education Center: Dennis Carpenter, Angie Caster, Michelle Dunn, Cokethea Hill, Amy
+Jablonski, Andrea Mayfield, Dawn Miller, Karmen Mills, Hollie Pettersson
+Purposeful Impact: Sarah Chandler
+Blue Engine: Jessi Brunken, Megan Carey, Tiffany Galloway, Meg Hutchinson
+Catalyst:Ed: Rachel Klein
+Mathematica: Virginia Knechtel, Alex Resch
+Adam Black LLC: Adam Black
+Dot Grid Creative: Allison Wachtel
+
+This work was made possible through funding from the Bill & Melinda Gates Foundation. Views expressed here do not
+necessarily reflect positions or policies of the foundation.
+
+vi
+
+ACKNO W L ED GM EN T S
+
+Anchoring
+Emotions
+
+Overview
+ANCHORING EMOTIONS
+A collection of research-to-impact practices
+developed with the Networked Improvement
+Community for Students with Disabilities
+
+1.1
+
+COLLECTION OVERVIEW
+
+Anchoring Emotions
+Introduction
+The Challenge
+America’s public schools struggle to meet the
+needs of students with disabilities.
+Public schools across America struggle to meet the diverse
+needs of students, particularly those furthest from opportunity.
+When marginalization intersects with disability, students often
+face low expectations, are systematically segregated, are
+denied access to college and career curricula, and do not
+receive sufficient support to obtain a high school diploma and
+pursue their dreams. In the 2017–18 school year, 8th graders
+with disabilities performed 39–41 points lower than their peers without disabilities in reading
+and math,1 illustrating just how deeply schools are failing students with disabilities.
+
+Students of color are over-identified as needing emotional support.
+In the last few decades, there has been a growing concern regarding the disproportionate number
+of students experiencing poverty, particularly students of color, found eligible for special education
+services.2 Data continues to show that students of color and those living in poverty are also
+disproportionately identified as having emotional disabilities or other health impairments.3 These same
+students are also more likely to be placed in educational settings that are more restrictive learning
+environments. Students who are inappropriately placed in more restrictive environments may not
+receive the level of rigor or expectations academically or behaviorally that they would when educated
+along with their peers without disabilities, putting them at greater risk of negative outcomes.
+
+Suspension and expulsion are more likely for students with
+emotional support needs.
+Researchers have also found that students with emotional and behavioral disabilities and other health
+impairments are also far more likely to be suspended or expelled than their peers with and without
+
+1.2
+
+O V E RV I E W
+
+Anchoring
+Emotions
+
+disabilities.4 This is particularly striking because it may be ineffective to use suspension as a form
+of punishment for students with behavioral or emotional disabilities5 or students with aggressive,
+hyperactive, and social skills concerns.6 Students with these disabilities often also have academic
+challenges, which can be exacerbated by excluding them from educational experiences.7
+
+Exclusionary discipline contributes to a school-to-prison pipeline.
+Research also shows the way in which suspension of students increases their likelihood of entering
+the juvenile justice system or being incarcerated later in life.8 This school-to-prison pipeline is thus
+even more concerning for students with disabilities who have an increased likelihood of experiencing
+suspension or expulsion, particularly students who need additional emotional support. These concerns
+are warranted because there is a clear overrepresentation of students with disabilities in the juvenile
+justice system compared to their peers without disabilities.9
+
+Mastery Schools’ Solution
+Mastery Schools developed a program to address these important realities for their students in special
+education with emotional support needs and to help improve their future outcomes. Mastery’s program
+focuses on using interventions and best practices rooted in research, such as positive behavioral
+support, differentiated instruction, developmental therapy, and life space crisis intervention, for
+addressing challenging behaviors. The program’s intent is to help students in special education receive
+learning within Mastery’s network and to provide them the opportunity to access the general education
+curriculum in the least restrictive environment possible. By addressing problem behaviors and educating
+students in the most rigorous academic setting possible, Mastery is able to reduce the likelihood that
+their students with emotional support needs will require more restrictive levels of support.
+
+Mastery’s Full Continuum of Special Education Services
+for Emotional Support
+Itinerant
+Emotional
+Support
+
+Supplemental
+Emotional
+Support
+(Anchor)
+
+Full-Time
+Emotional
+Support
+within LEA
+
+Approved
+Private
+School
+
+Mastery’s continuum of special education emotional supports includes four tiers, as shown in the
+figure above — from least restrictive to most restrictive. Within each tier, program teams plan for each
+student’s academic needs in addition to the therapeutic system of supports.
+
+1.3
+
+O V E RV I E W
+
+Anchoring
+Emotions
+
+Itinerant Emotional Support
+Students who receive itinerant emotional support are educated within the general education setting
+between 80% and 99% of the day. The student appropriate for this tier of support has a diagnosed
+school-based emotional or behavioral disability that requires mild therapeutic and behavioral
+interventions to meet academic and behavioral goals. The core components of the itinerant emotional
+supports include a functional behavior assessment and a positive behavior support plan, as well as
+aligned behavioral interventions and case management.
+FUNCTIONAL BEHAVIOR ASSESSMENTS AND POSITIVE BEHAVIOR SUPPORT PLANS
+A trained individual assesses each student’s unique behavioral and emotional needs to determine the
+most prevalent negative behaviors the student displays, to establish the function of those behaviors,
+and to identify an aligned replacement behavior. Within the positive behavior support plan, the IEP
+team decides how the student will receive interventions to learn the discrete skills and replacement
+behaviors and what reinforcement will help the student generalize new skills across all settings.
+WEEKLY 1:1 COUNSELING AND/OR SOCIAL SKILLS IN A SMALL GROUP
+Students gain awareness of their negative behaviors and practice appropriate replacement behaviors
+through counseling and discrete skill instruction. Mastery meets each student’s needs by employing
+social workers for each school at a 300:1 ratio and using an evidence-based counseling model or a
+research-based, CASEL standards-aligned social-emotional learning curriculum. Social workers are
+also responsible for many of Mastery’s multi-tiered system of supports’ Tier 2 interventions, as well as
+crisis response and targeted social work case management.
+CASE MANAGEMENT
+Each student receiving itinerant emotional support is assigned a special education case manager
+whose role includes managing the positive behavior support plan across all settings, ensuring that
+interventions are in place, and providing more intensive reinforcements than are provided as part of
+Tier 1 systems. Additionally, case managers are responsible for evaluating the effectiveness of plans,
+sharing progress with families, and supporting the IEP team in determining if the plan and associated
+interventions should be reduced, maintained, or intensified.
+
+Full-Time Emotional Support
+Students receiving full-time emotional support are not educated within general education. Students with
+this level of need require significant therapeutic and behavioral interventions to meet their academic
+and behavioral goals. Mastery contracts with a variety of providers for full-time emotional support,
+including a private school that aligns with Mastery’s suite of curriculum, instruction, and assessments.
+Students at this level access a curriculum that is modified to provide a higher level of daily therapeutic
+programming. The benefit of this private school partnership is that students can return to a less
+restrictive environment with less interruption to learning.
+
+Approved Private School
+Some students do not respond to placement with the full-time emotional support providers and
+subsequently are placed by the IEP team in approved private schools that offer more intensive
+therapeutic environments.
+
+1.4
+
+O V E RV I E W
+
+Anchoring
+Emotions
+
+Anchor: Supplemental Emotional Support
+Anchor is Mastery Schools’
+program to provide supplemental
+emotional support for students in
+special education with emotional
+or behavioral disabilities or other
+health impairments. Students in
+Anchor are educated within general
+education settings between 20%
+and 79% of the day. Students
+in Anchor require moderate
+therapeutic and behavioral
+interventions to meet their
+academic and behavioral goals.
+The Anchor program includes 11
+components, known internally as
+The Must Haves, the most central
+of which are the following:
+•
+•
+•
+•
+•
+
+Full Time
+
+ANCHOR
+
+Supplemental
+
+Itinerant
+
+General Education
+
+Schedule & Staffing
+Level System
+SAM Skills & Behavioral Feedback
+Daily Skills Class
+Counseling Services
+
+Elements of Anchor’s core components were initially developed in partnership with Greentree School,
+an approved private school providing full-time emotional support programming in a private setting.
+Greentree developed their model based on the Student Achievement Model (SAM), the Boys Town
+Education Model, and Life Space Crisis Intervention. Core components of the Anchor model are
+described in depth below and in the collection’s chapters.
+
+Schedule & Staffing
+To ensure appropriate, proactive, and responsive adult support is available for students based on
+need, an increased staff-to-student ratio exists in Anchor compared to similar programs. For every 12
+students within three consecutive grade bands, Anchor has:
+• 1 full-time emotional support teacher who is also a case manager,
+• .5 clinician (20 or 29 hours per week), and
+• 2 classroom counselors.
+This staffing ratio makes it possible for students to spend between 20% and 60% of their day receiving
+emotional support in either a general education or a special education environment. Students’ levels of
+support are determined by their current performance. Staff schedules regularly adapt to meet changing
+student needs.
+
+1.5
+
+O V E RV I E W
+
+Anchoring
+Emotions
+
+Level System
+Anchor’s level system has five total levels, with Level 5 being the highest (most independence and
+greatest inclusion) and Level 1 the lowest (most dependence and least inclusion).
+
+Level 1
+≥ 50% of
+day in sped
+environment
+
+Level 2
+40–50% of
+day in sped
+environment
+
+Level 3
+30–40% of
+day in sped
+environment
+
+Level 4
+20–30% of
+day in sped
+environment
+
+Level 5
+20% of day
+in sped
+environment
+
+Levels are representative of students’ current two-week performance based on attendance, discipline,
+and behavioral feedback data. A student’s level reflects the current adult support and therapeutic
+programming required for them to demonstrate success. Performance is monitored, analyzed, and
+responded to during biweekly level meetings. Read the case study on Maximizing Student Progress
+Through Data-Informed Systems for more information on Anchor’s level system.
+
+SAM Skills & Behavioral Feedback
+A behavioral skill is made up of a
+chain of individual, discrete actions or
+cognitive operations performed in specific
+situations. Instruction on behavioral
+skills must be explicit, intensive,
+comprehensive, and reliant on antecedent
+control, reinforcement, and generalization
+programming. The SAM Model identified
+34 behavioral skills across three domains
+(see the table on the following page) and
+broke them down into discrete teachable
+steps known as the SAM skills. Students
+have from one to five individual SAM skills
+they are working on at any given time.
+
+1.6
+
+O V E RV I E W
+
+Anchoring
+Emotions
+
+Social Skills
+
+Self-Control Skills
+
+Active Learning Skills
+
+1. Keep all Perspectives in Mind
+
+1. Ignoring Negative Behavior
+
+1. Assignment Completion
+
+2. Following Directions
+
+2. Controlling Your Emotions
+
+2. Homework Completion
+
+3. Accepting Feedback/Criticism
+
+3. Self-Control
+
+3. Initiating a Task
+
+4. Accepting “No” for an Answer
+
+4. Remaining on Task (independent
+work)
+
+5. Getting the Teacher’s Attention
+
+5. Asking for Help
+
+6. Making a Request
+
+6. Answering Questions
+
+7. Greeting Others
+
+7. Asking Questions
+
+8. Disagreeing Appropriately
+
+8. Checking Your Work
+
+9. Making an Apology
+
+9. Asking for Feedback
+
+10. Volunteering
+
+10. Working Cooperatively with
+Others
+
+11. Talking with Others
+
+11. Writing Neatly
+
+12. Giving Compliments
+
+12. Completing Accurate Work
+
+13. Accepting Compliments
+14. Introducing Yourself
+15. Resisting Peer Pressure
+16. Reporting Other Youths’
+Behavior
+17. Appropriate Conversation
+(School)
+18. Maintaining Physical
+Boundaries (school)
+19. Treating Others with Respect
+
+Behavioral feedback is the intervention used to reinforce and generalize students’ use of SAM skills
+across all settings. Behavioral feedback is a form of behavioral teaching, which, to be effective, requires
+timely and specific delivery of feedback targeting the correct behaviors. “Positive Praise” scripts are
+based on research to support increasing student motivation, and “Learning Point” scripts provide a
+systematic method to address inappropriate behavior and teach replacement skills.
+
+Daily Skills Class
+Daily Skills Class is the time and space where students in Anchor are provided explicit instruction and
+practice opportunities on discrete skills to promote the learning and generalization of skills across all
+settings. Daily Skills Class is required five days per week for a minimum of 25 minutes per day. The
+course is taught by a special education teacher or clinician and uses evidence-based curricula that
+have shown success as Tier 3 interventions.
+
+1.7
+
+O V E RV I E W
+
+Anchoring
+Emotions
+
+Counseling
+Mastery Schools staff a half-time licensed clinician
+for every 12 students in Anchor. This clinical
+staffing ratio allows for students to receive 1:1
+counseling a minimum of once per week as
+well as therapeutic small groups as determined
+appropriate by the IEP team. The primary focus of
+individual counseling is school-related, including
+appropriate classroom behaviors, coping skills, and
+social functioning. Individual counseling supports
+SAM skill acquisition, skill maintenance, and skill
+generalization across multiple settings. Therapeutic
+small groups support social, emotional, and
+behavioral skill acquisition, maintenance, and generalization. Clinicians use modalities and evidencebased social and emotional curricula designed for schools to support skill development.
+
+Enabling Conditions
+Each of the aforementioned Anchor components contributed to improved experiences and behavioral
+outcomes for Black and Latinx students with disabilities experiencing poverty within the NIC. The
+effective implementation of these practices was made possible because of three core enabling
+conditions that were in place in Mastery Schools’ emotional support programming: a program designed
+for each individual student’s needs, effective data systems, and network-level support. Without these
+three conditions, the impact of the practices is dramatically reduced.
+
+Program Designed for Students
+Mastery developed Anchor as a supplemental emotional support program that individualizes its services
+to meet each student's needs rather than expecting students to fit within the program as designed.
+Mastery's full range of emotional and behavioral support programs, and the Anchor program within it,
+embodies the true intention of providing a full continuum of services for students. Anchor is successful
+because it attempts only to support students who need the level of support that the program was
+designed for. Students requiring less support are served with itinerant services, and those benefiting
+from more support are served in Mastery’s specialized school setting. Anchor itself was designed to be
+flexible, adapting to each student’s individual needs as they progress in the level system. By analyzing
+student data every two weeks — as opposed to waiting for a school suspension or manifestation of
+determination like many emotional support programs — Anchor staff ensure that students always
+receive a level of support that corresponds to their current needs.
+Mastery wanted to ensure that the mindsets held by Anchor staff were shared by all school staff as they
+interact with students with emotional and behavioral disabilities, so they created their Modified Anchor
+Response Plan (MARP) as an adaptation to their existing culture plan. All students at Mastery are held
+to behavioral expectations, but for students in the Anchor program, school staff might need to respond
+differently to behaviors, which MARP helps define. To help all staff understand MARP and feel confident
+
+1.8
+
+O V E RV I E W
+
+Anchoring
+Emotions
+
+implementing it, Anchor network and campus leaders led professional development for assistant
+principals of school culture and specialized services. Anchor and the assistant principals then planned
+training for their school teams. Now, as new leaders Mastery, this training is part of their onboarding
+process. Mastery has also started requiring assistant principals of school culture and specialized
+services to submit annual plans for their implementation of MARP so that network-level leaders can
+support campuses throughout the school year as they work to differentiate how they respond to the
+behavioral needs of students in Anchor.
+
+Effective Data Systems
+Many of Anchor’s systems rely on constant data collection from school administrators, special education
+teachers, classroom counselors, and other school and network staff. Mastery has been able to include
+the data necessary for Anchor’s success in their existing school and network-wide student information
+systems. When adding Anchor-specific data to these systems, a concerted, network-wide data
+integration effort ensured that existing data and new, Anchor-specific data could work together.
+To successfully align the existing student information systems to Anchor program data, Mastery Schools
+spent considerable time and effort developing a network culture that understands emotional and
+behavioral disabilities. A key way in which this was accomplished was by making it possible for network
+staff to analyze the network’s key performance indicators for the subset of students in Anchor. This
+analysis not only allows the network to better respond to trends related to students’ emotional support
+needs, but it also allows network and building leaders to focus on academic growth and proficiency for
+these students. In addition, Mastery has been able to build a system that allows Anchor staff to collect
+granular, real-time data around behavioral feedback. All stakeholders, from network leaders to students
+and families, can view data in real time to see how students are demonstrating their prosocial behaviors.
+These additions to Mastery’s data infrastructure have been invaluable to the continued success
+of emotional support programming, making it possible for network staff to analyze Anchor data by
+aggregating the data from multiple schools’ Anchor programs to determine areas of strength and
+opportunities for growth within the Anchor program as a whole. They are also able to compare the
+different schools’ Anchor programs to learn from programs that are seeing positive outcomes for their
+students and to more intentionally support programs that have additional needs. Each school’s Anchor
+program can similarly analyze data to identify needs within the different areas of their program or to
+respond appropriately for individual students. This type of data support makes it possible for Anchor staff
+to tailor their program to students' needs and ensure that each student is receiving what they need to
+make progress academically as well as emotionally.
+
+Network Support
+Mastery Schools, as a network, has invested significant time and resources into building their full
+continuum of emotional support programs to meet the diverse needs of students with emotional and
+behavioral disabilities. The Anchor program has a team of three network-level staff members who
+oversee and support each school’s Anchor program. These team members have successful schoolbased experience working with students with emotional and behavioral disabilities that lends them
+expertise and credibility. The network team members provide direct coaching and support to each
+school’s Anchor team, provide professional development throughout the school year, document the
+core program components, develop implementation guides, and continue to research and modify the
+
+1.9
+
+O V E RV I E W
+
+Anchoring
+Emotions
+
+current model to ensure it is meeting the needs of each student. In addition, the network team engages
+in ongoing cross-collaborative and teaming structures with other network-level departments to ensure
+Mastery Schools is providing a fully aligned continuum of therapeutic services.
+This mindset within network leadership means that there is also considerable investment in staff
+development, technology, and new strategies. These investments increase programmatic capacity
+and improve outcomes for students, which further demonstrates the effectiveness of providing their full
+continuum of services for students with emotional and behavioral disabilities. Continuous engagement
+from network-level leadership ensures that Anchor programs continue to receive guidance, support,
+and investment.
+
+Mastery’s Role in the NIC
+The partnership between Mastery Schools and the NIC stemmed from a shared commitment to tackling
+systemic inequities in the US education system, particularly for students with emotional and behavioral
+disabilities. Mastery joined the NIC to refine and improve their Anchor program model in a way that
+allowed them to spread it across their organization and, ultimately, to share it with schools nationwide.
+The program was already well-established and showing promising gains for students at Mastery Gratz.
+Yet, Mastery and the NIC recognized the program’s potential to impact the broader field of education by
+sharing it with schools nationwide.
+Participation in the NIC provided Mastery with dedicated improvement coaching, continuous
+improvement tools, and data support to refine and improve their model; access to a community of
+experts and practitioners with whom to learn and collaborate; and resources to help codify the Anchor
+program to share and spread it broadly with schools nationwide. Engaging with the NIC spurred the
+evolution of Mastery’s practices, which led to the piloting and adoption of initiatives such as behavioral
+feedback and peer-to-peer mentorship. During this time, Mastery addressed barriers like staff capacity,
+mindsets, and training, improving staff awareness of how best to serve students with emotional and
+behavioral disabilities across the school. With the benefit of coaching, data assistance, and peer
+networking, Mastery refined its model, increasing student access to general education settings,
+boosting student attendance, and reducing suspensions, while also gearing up to expand the program’s
+impact beyond its current schools.
+
+Members of Mastery, Marshall, and the Bill & Melinda Gates Foundation
+teams together on the NIC New York learning tour
+
+1.10
+
+O V E RV I E W
+
+Anchoring
+Emotions
+
+The Collection
+This collection includes two best practices that support the education of students with emotional or
+behavioral disabilities on behalf of improving learning outcomes for all students and two case studies
+on larger macro-level practices to support a full continuum of services for students with emotional or
+behavioral disabilities.
+Each of the practices detailed in this book is an independently strong and valuable practice. However,
+each practice is most effective when built on a programmatic foundation that provides opportunities for
+academic learning and disability-related skill development.
+
+Building
+Student
+Leaders:
+Peer-to-Peer
+Mentorship
+for Secondary
+Students
+
+Providing
+Timely
+Behavioral
+Feedback
+Across
+Classrooms
+
+Case Study:
+Maximizing
+Student
+Progress
+Through
+Data-Informed
+Systems
+
+Case Study:
+Refining
+Program
+Implementation
+via Quarterly
+Collaborative
+Evaluation
+
+Enabling Conditions:
+Program Designed for Students
+Effective Data Systems
+Network Support
+
+The audience for this collection is educators, schools, and districts who believe that all students are
+capable of increasing their academic achievement, who fundamentally believe that it is the system’s
+responsibility to ensure this is a reality for all students it serves, and who are looking for ideas on
+how to initiate or refine their approach to this work. While a great many research papers, reports, and
+technical assistance centers provide guidance on practices for students with emotional and behavioral
+disabilities, this collection is unique:
+• It ties together the multiple elements critical to addressing the needs of all students, specifically for
+Black and Latinx students with disabilities experiencing poverty.
+• It emphasizes the importance of using data at all levels of the school system to improve outcomes
+for students.
+• Each chapter is grounded in both the foundational and current research on the practice but
+emphasizes (1) detailed, real-world examples of the practice as implemented at Mastery Schools
+and (2) a step-by-step guide to implementation of the practice.
+
+1.11
+
+O V E RV I E W
+
+Anchoring
+Emotions
+
+Chapter 1: Building Student Leaders: Peer-to-Peer Mentorship
+for Secondary Students
+Student mentorship is a peer support structure pairing two students together in a mentee/mentor
+relationship for regular formal and informal check-ins to build positive peer relationships and increase
+student sense of belonging. Mentees in Mastery’s peer mentorship program were able to develop
+relationships with older students whom they could look to for guidance and rely on for additional
+emotional support. This chapter offers the learning from Mastery’s implementation and the steps to
+implement a peer mentorship program in any school context.
+
+Chapter 2: Providing Timely Behavioral Feedback Across Classrooms
+Educators follow a defined protocol to provide immediate feedback to students on their application
+of taught behavioral skills, enabling them to effectively apply these skills in various contexts. To
+successfully implement behavioral feedback, program leaders must also devote time to the training,
+observation, and coaching of staff so that feedback is provided consistently and with fidelity. This
+chapter is a guide to setting up the necessary conditions and implementing behavioral feedback.
+When implemented with quality, behavioral feedback can have significant positive impacts on student
+skill development and overall behavior and, subsequently, on academic learning.
+
+Case Study: Maximizing Student Progress Through Data-Informed
+Systems
+This case study describes Mastery’s goal-setting, collection, analysis, decision-making, and reflection
+of and based on data at essential programmatic points to ensure fidelity, quality, and outcomes at
+all levels of the program. Mastery’s investment in data systems that support data specific to the
+Anchor program ensures that the needs of students with emotional and behavioral disabilities are
+not overlooked by school or network staff. The case study highlights the importance of creating
+clear systems and structures that make it feasible for staff and students alike to make data-informed
+decisions.
+
+Case Study: Refining Program Implementation Via Quarterly
+Collaborative Evaluation at Mastery Schools
+This case study explains how Mastery’s network leaders use rubrics to evaluate and design
+programmatic support for each school’s Anchor program on a quarterly basis to create accountability
+and continuous improvement cycles for programs. Network- and school-level Anchor leaders
+collaborate with one another using data from this program evaluation to highlight areas of strength and
+identify areas for further growth. Mastery’s network leaders also use this data to ensure fidelity across
+their schools’ Anchor programs and to identify individual exemplars that can demonstrate excellence
+across the network.
+
+1.12
+
+O V E RV I E W
+
+Anchoring
+Emotions
+
+How to Approach this Collection
+The pieces in this collection can be read in any order, as one is not necessarily
+dependent on another. Chapters are written to help the reader replicate the practices in
+their own context. Case studies can be read to inspire ideas but will not necessarily give
+the depth needed to implement the practice.
+
+Further Reading
+Mastery Schools’ Modified Anchor Response Plan
+Mastery Schools’ Anchor Program Guidebook
+
+1.13
+
+O V E RV I E W
+
+Anchoring
+Emotions
+
+Appendix
+Notes
+1
+
+US Department of Education, “Focus on NAEP: Students With Disabilities”
+
+2
+
+Artiles and Trent, “Overrepresentation of Minority Students”; Hosp and Reschly,
+“Disproportionate Representation of Minority Students”; Ladner and Hammons, “Special but
+Unequal”; Harris-Murri, King, and Rostenberg, “Reducing Disproportionate Minority
+Representation”
+
+3
+
+Grindal et al., ”Racial Differences in Special Education”
+
+4
+
+Achilles et al., “Sociocultural Correlates of Disciplinary Exclusion”; Anderson, “The Relationship
+between Inclusion, Absenteeism, and Disciplinary Outcomes”; Bowman-Perrott et al., “Patterns
+and Predictors of Disciplinary Exclusion”
+
+5
+
+Krezmien et al., “Suspension, Race, and Disability”
+
+6
+
+Atkins et al., “Suspensions and Detentions in an Urban, Low-Income School”
+
+7
+
+Kutash & Duchnowski, “The Mental Health Needs of Youth with Emotional and Behavioral
+Disabilities”
+
+8
+
+Christle, Jolivette, and Nelson, “Breaking the School to Prison Pipeline”; Fabelo et al., Breaking
+Schools’ Rules
+
+9
+
+Coalition for Juvenile Justice, Abandoned in the Back Row; Kim, Losen, and Hewitt, The
+School-to-Prison Pipeline
+
+Bibliography
+Achilles, Georgianna M., Margaret J. Mclaughlin, and Robert G. Croninger. “Sociocultural Correlates of
+Disciplinary Exclusion Among Students With Emotional, Behavioral, and Learning Disabilities in
+the SEELS National Dataset.” Journal of Emotional and Behavioral Disorders 15, no. 1 (2007):
+33–45. https://doi.org/10.1177/10634266070150010401
+Anderson, Kaitlin P. “The Relationship Between Inclusion, Absenteeism, and Disciplinary Outcomes for
+Students with Disabilities.” Educational Evaluation and Policy Analysis 43, no. 1 (2021): 32–59.
+https://doi.org/10.3102/0162373720968558
+Artiles, Alfredo J., and Stanley C. Trent. “Overrepresentation of Minority Students in Special Education.”
+The Journal of Special Education 27, no. 4 (1994): 410–437.
+https://doi.org/10.1177/002246699402700404
+Atkins, Marc S., Mary M. McKay, Stacy L. Frazier, Lara J. Jakobsons, Patrice Arvanitis, Tim
+Cunningham, Catherine Brown and Linda Lambrecht. “Suspensions and Detentions in an
+Urban, Low-Income School: Punishment or Reward?.” Journal of Abnormal Child Psychology
+30, no. 4 (2002): 361–371. https://doi.org/10.1023/A:1015765924135
+
+1.14
+
+O V E RV I E W
+
+Anchoring
+Emotions
+
+Bowman-Perrott, Lisa, Michael R. Benz, Hsien-Yuan Hsu, Oi-Man Kwok, Leigh Ann Eisterhold, Dalun
+Zhang. “Patterns and Predictors of Disciplinary Exclusion Over Time: An Analysis of the SEELS
+National Data Set.” Journal of Emotional and Behavioral Disorders 21, no. 2 (2013): 83–96.
+Christle, Christine, Kristine Jolivette, and C. Michael Nelson. “Breaking the School to Prison Pipeline:
+Identifying School Risk and Protective Factors for Youth Delinquency.” Exceptionality, 13 (2005):
+69–88. https://doi.org/10.1207/s15327035ex1302_2
+Coalition for Juvenile Justice. Abandoned in the Back Row: New Lessons in Education and
+Delinquency Prevention: 2001 Annual Report. Washington, DC: Coalition for Juvenile Justice,
+2001.
+Fabelo, Tony, Michael D. Thompson, Martha Plotkin, Dottie Carmichael, Minor P. Marchbanks III, and
+Eric A. Booth. Breaking Schools’ Rules: A Statewide Study of How School Discipline Relates to
+Students’ Success and Juvenile Justice Involvement. New York: Council of State Governments
+Justice Center, 2011. https://csgjusticecenter.org/publications/breaking-schools-rules/
+Grindal, Todd, Laura A. Schifter, Gabriel Schwartz, and Thomas Hehir. “Racial Differences in Special
+Education Identification and Placement: Evidence Across Three States.” Harvard Educational
+Review 89, no. 4 | (2019): 525–553. https://doi.org/10.17763/1943-5045-89.4.525
+Harris-Murri, Nancy, Kathleen King Thorius, and Dalia Rostenberg. “Reducing Disproportionate Minority
+Representation in Special Education Programs for Students with Emotional Disturbances:
+Toward a Culturally Responsive Response to Intervention Model.” Education and Treatment of
+Children 29, no. 4 (2006):779–799.
+Hosp, John L., and Daniel J. Reschly. “Disproportionate Representation of Minority Students in Special
+Education: Academic, Demographic, and Economic Predictors.” Exceptional Children 70, no. 2
+(2004): 185–199. https://doi.org/10.1177/001440290407000204
+Kim, Catherine Y., Daniel J. Losen, Damon T. Hewitt. The School-to-Prison Pipeline: Structuring Legal
+Reform. New York: New York University Press, 2010.
+Krezmien, Michael P., Peter E. Leone, and Georgianna M. Achilles. “Suspension, Race, and Disability:
+Analysis of Statewide Practices and Reporting.” Journal of Emotional and Behavioral Disorders
+14, no. 4 (2006). https://doi.org/10.1177/10634266060140040501
+Kutash, Krista and Albert J. Duchnowski. “The Mental Health Needs of Youth with Emotional and
+Behavioral Disabilities Placed in Special Education Programs in Urban Schools.”
+Journal of Child and Family Studies 13, no. 2 (2004): 235–248.
+https://doi.org/10.1023/B:JCFS.0000015710.82421.ad
+Ladner, Matthew and Christopher Hammons. “Special but Unequal: Race and Special Education.” In
+Rethinking Special Education for a New Century, edited by Chester E. Finn, Jr., Andrew J.
+Rotherham, and Charles R. Hokanson, Jr., 85–110. Washington, DC: Thomas B. Fordham
+Foundation and the Progressive Policy Institute, 2001.
+US Department of Education. “Focus on NAEP: Students With Disabilities and NAEP Assessments.”
+The Nation’s Report Card. Accessed March 1, 2024. https://www.nationsreportcard.gov/
+focus_on_naep/student_groups/#/students-with-disabilities/performance
+
+1.15
+
+O V E RV I E W
+
+Anchoring
+Emotions
+
+Building Student
+Leaders: Peer-toPeer Mentorship
+for Secondary
+Students
+A RESEARCH-TO-IMPACT PRACTICE DEVELOPED
+WITH THE NETWORKED IMPROVEMENT COMMUNITY
+FOR STUDENTS WITH DISABILITIES
+
+TA BLE O F C O N T E N T S
+2.3............ Practice Overview
+2.3 | What is the Practice?
+2.3 | Why is Peer-to-Peer Mentorship Important?
+
+2.5............ Implementation at a Glance
+2.5 | Enabling Conditions
+2.6 | Steps to Implement
+
+2.7............ Bringing this Practice to Life
+2.10.......... How to Implement this Practice
+2.10 | Prepare Needed Structures
+2.10 | Step 1: Identify a Peer Mentorship Lead
+2.11 | Step 2: Design Tools, Protocols, and Norms
+2.11 | Step 3: Recruit Students
+2.12 | Step 4: Get Permission from Families
+2.12 | Step 5: Create Student Pairs
+2.13 | Step 6: Create a Mentorship Schedule
+2.13 | Put Peer Mentorship Into Practice
+2.13 | Step 7: Train Student Mentors
+2.14 | Step 8: Hold Pre-meetings
+2.14 | Step 9: Hold Mentorship Sessions
+
+2.15.......... Summary
+2.16.......... Appendix
+2.17 | How to Measure
+2.19 | Notes
+2.19 | Bibliography
+
+Building Student Leaders:
+Peer-to-Peer Mentorship
+for Secondary Students
+Implementation Level
+
+Who Implements
+
+District/Central Office
+
+Teacher(s)
+
+School
+
+Instructional Coach
+
+Program/Department
+
+Principal
+
+Classroom
+
+Central Office Leadership
+Specialist: Classroom Counselor
+
+Practice Overview
+What is the Practice?
+Student mentorship is a peer support structure that pairs two students in a mentee/mentor relationship
+for regular formal and informal check-ins to build positive peer relationships and increase students’
+sense of belonging.
+
+Why is Peer-to-Peer Mentorship Important?
+Developing strong relationships with peers and staff at school is important because it can impact
+students’ sense of belonging and connection to their community, factors essential to students’ success
+for persistence to and through K–12 schooling.1 Strong relationships are especially important for
+students with disabilities who are increasingly included in educational and community settings, yet
+may not always feel a sense of belonging and inclusion socially and emotionally with peers. Students
+with emotional and behavioral disabilities may particularly struggle to connect and relate to their peers.
+This struggle may be related to their disability, the way peers react to their disability, and sometimes a
+combination of related factors. Peer-to-peer mentorship provides opportunities for students to develop
+social bonds, create community, and learn new ways of relating to other students.
+
+2.3
+
+BUILDING STUDENT LEADERS THROUGH PEER-TO-PEER MENTORSHIP
+
+Anchoring
+Emotions
+
+Why it Works
+TEACHING AND MODELING DEVELOPMENT OF SOCIAL SKILLS
+Students participating in peer-to-peer mentorship have the opportunity to work on important prosocial
+skills that many students need modeled and reinforced as they develop relationships with peers.
+Peer mentorship focuses on building prosocial skills that all students need to learn in school and that
+specialized programs for students with emotional and behavioral disabilities work to teach, such as:
+• offering to help someone,
+• considering the feelings and needs of others,
+• sharing and kindness,
+• volunteering time,
+• self-efficacy, and
+• self-awareness.
+These skills can be taught through explicit instruction in the classroom, but it is essential that students
+have opportunities to practice skills in a supportive environment that provides feedback and allows
+for them to make mistakes. Implementing skills with supportive peers can help students, particularly
+students with emotional and behavioral disabilities, generalize their learning to their interactions with
+other students and enhance their application of prosocial skills in other contexts.
+STUDENTS BUILD CONNECTIONS AND COMMUNITY AT SCHOOL
+As students build these interpersonal skills in their peer-to-peer mentorship program, they also gain a
+sense of belonging with students who were not part of their typical social groups at school.2 Developing
+these relationships with other students with disabilities enables students to relate to peers with similar
+experiences and can also help them gain a positive identity and pride related to their disability.3 The
+feeling of understanding from peers and the sense of belonging within a group of students create
+important connections between students and their school, helping them feel more engaged, respond
+more positively to authority, and improve academic achievement.4
+MENTORS GAIN CONFIDENCE AND LEADERSHIP
+The positive messages students receive about their disability from peer mentorship can help combat
+negative and exclusionary social messages students may have previously internalized.5 Mentors also
+have the opportunity to build new leadership skills as they learn how to coach and support their peers
+with a similar disability.6 As mentors see the positive effects of their leadership, their confidence grows,
+helping them in and out of the classroom. This creates a virtuous cycle, in which mentors’ growing
+confidence helps them to further build up and support their mentees.
+
+2.4
+
+BUILDING STUDENT LEADERS THROUGH PEER-TO-PEER MENTORSHIP
+
+Anchoring
+Emotions
+
+BUILDING STUDENT LEADERS: PEER-TO-PEER MENTORSHIP
+FOR SECONDARY STUDENTS
+
+Implementation at a Glance
+The information in this section provides a high-level view of what to consider when implementing
+this practice. Enabling Conditions describes the minimum conditions needed for successful
+implementation, including resources, mindsets, staffing, and recommended time allocation. Steps
+to Implement presents a concise checklist of action items, which are explained in detail in How to
+Implement this Practice, below.
+
+Staff
+Commitment
+
+Recommended
+Materials
+
+Prerequisites
+
+Enabling Conditions
+Network support through financial resources, time, and space to operate sessions, onboard
+staff to lead the program, and support for student attendance
+Private space for students to meet
+Staff member leading the program (mentorship lead) has:
+– Relationships with students
+– Deep awareness of students’ needs and personalities
+– Level of proficiency in SEL, emotional intelligence, and other core program skills
+Data collection tools and processes (e.g., surveys distributed at the beginning and end of
+each grading period)
+Materials to motivate students and support relationship building (board games, snacks,
+bean bag chairs, etc.)
+Incentives for students
+
+Designated part-time mentorship lead to oversee program implementation at the school
+School-level leader to coordinate resources, training, implementation quality, and continuous
+improvement
+
+Recommended
+Time Allocation
+
+Student Participants
+
+2.5
+
+1 hour mentorship period weekly for mentors and mentees to meet formally and program
+lead to monitor
+Program Lead
+Train, monitor, and adapt the program (1–2 hrs/month)
+Regularly observe and monitor formal and informal check-ins and respond to student needs
+(1–2 hours weekly)
+
+BUILDING STUDENT LEADERS THROUGH PEER-TO-PEER MENTORSHIP
+
+Anchoring
+Emotions
+
+Steps to Implement
+PREPARE NEEDED STRUCTURES
+Identify a peer mentorship lead
+Design tools, protocols, and norms
+Recruit students
+Get permission from families
+Create student pairs
+Create mentorship schedule
+PUT PEER MENTORSHIP INTO PRACTICE
+Train student mentors
+Hold pre-meetings
+Hold mentorship sessions
+
+2.6
+
+BUILDING STUDENT LEADERS THROUGH PEER-TO-PEER MENTORSHIP
+
+Anchoring
+Emotions
+
+Bringing this Practice to Life
+FROM PILOT TO PROGRESS: THE SUCCESS OF PEER MENTORING
+AT MASTERY SCHOOLS
+Mastery Schools’ Simon Gratz High School in Philadelphia, PA, began piloting a peer-to-peer mentorship
+program in the 2021–22 school year to cultivate a sense of belonging among students in their school
+community. The program paired older students from their Anchor emotional support program with younger
+students, aiming to foster authentic relationships between them. Each week, mentors and mentees meet
+formally and informally to nurture their relationship and collaboratively address any barriers to learning
+experienced by the mentees. Over the course of two years, the Gratz team has expanded and refined the
+program based on insights gained from the pilot, enabling them to involve more students and better address
+student needs through this initiative.
+
+Starting Small and Seeing Big Problems
+Before the COVID-19 pandemic, Gratz was separated into two campuses. Vernetta Newman, one
+of Gratz’s emotional support counselors, ran a meet-and-greet day bringing together the upper- and
+lower-level students in the Anchor program. The meet-and-greet day was a time for celebration,
+socializing, playing games, and presentations by upperclassmen about the Anchor program on the
+upper campus. Vernetta and the Anchor staff found that these one-day events were insufficient to
+create a sense of belonging and community connection for their students. This need for community
+was particularly acute for students in Anchor who came from alternative placements, and others
+who experienced so many suspensions that they did not feel connected to school or their peers.
+
+2.7
+
+BUILDING STUDENT LEADERS THROUGH PEER-TO-PEER MENTORSHIP
+
+Anchoring
+Emotions
+
+The team also reflected that students in Anchor were not attending school often enough and
+thought giving students a non-academic reason for coming to school might help. The team needed
+to find a strategy to help their students make connections at Gratz that would help them feel
+connected and want to come to school more regularly.
+
+Getting Peer-to-Peer Mentorship Started
+Once students returned to campus for in-person learning during the 2021–22 school year, Vernetta
+began building Anchor’s peer-to-peer mentorship program as a way to connect older students in the
+program with younger ones. Vernetta recruited outgoing, assertive students with strong attendance
+records and demonstrated success within the program to serve as mentors. In the first term, three
+students became mentors, each with one mentee. In order to pair mentees with their mentors,
+Vernetta spoke with Anchor staff and, in some cases, staff at the middle schools attended by the
+students, to deeply understand students’ personalities and needs. Unfortunately, Gratz continued to
+experience temporary school closures due to COVID-19, and the mentorship pairs could only meet
+regularly for about a month. However, during this time, Vernetta was able to learn important lessons
+about matching students, logistical needs, and structures for formal mentorship sessions that she
+could apply to the next school year.
+
+Mentorship as a Way to Build Connection
+For the 2022–23 school year, Vernetta took a different approach to identifying mentors for the
+program. She realized that less outgoing students could learn the skills for good mentoring —
+like how to communicate with new people — and that the program itself could teach those skills.
+Vernetta developed a mentor training curriculum and guidelines with explicit expectations for
+mentors. Twelve students engaged in peer-to-peer mentorship in the second year, and formal
+sessions were able to happen more regularly from the start of the school year. Along with formal
+sessions, Vernetta worked to build informal texting into mentor-mentee relationships to create less
+structured interactions between students. Reworked meeting protocols and solutions for logistical
+barriers meant that mentors and mentees were able to benefit considerably in the second year of
+the mentorship program.
+By the end of this second year, the peer mentorship program was running more consistently. In
+end-of-year surveys, students expressed its value in helping them build connections:
+• “I’ve learned how to control my emotions.”
+• “I can build a relationship with other people. Let’s say I’ve been through a struggle, and they
+are going through it now; I can tell them how to get out of it cause I’ve been there, done that.
+Like having a problem with a teacher. I told [my mentee] to sit there, do the work, and follow
+the teacher’s directions. You’ll be out of that class in no time.”
+• “I was mad one day, and [my mentor] talked to me, ‘Do you need anything? Do you need
+space to calm down?’ Then we just started talking about what happened.”
+• “I always used to get in trouble, and he told me how to act over there, that fighting isn’t worth
+it. Ain’t gonna get you nowhere.”
+
+2.8
+
+BUILDING STUDENT LEADERS THROUGH PEER-TO-PEER MENTORSHIP
+
+Anchoring
+Emotions
+
+Learning to Improve
+As Vernetta became more skilled at mitigating some of the barriers that hindered students from
+attending all their formal meetings, students voiced the value they saw in peer mentorship and
+expressed a desire for more mentoring sessions.
+First, through some trial and error, she worked out how to ensure that mentoring sessions were held
+when students could all attend. This meant making sure that sessions were not during classes that
+students could not or did not want to miss. Finding a schedule that worked helped increase student
+attendance at sessions. Second, to increase attendance, Vernetta created permanent laminated
+passes for students to keep for the day and time peer-to-peer mentorship would be held. This way,
+students did not have to request permission from teachers for a pass each time, and access to
+passes was not a barrier for mentor pairs. In the end, Vernetta also realized she needed a backup
+plan for mentors or mentees who ended up without their partners due to an absence.
+Students reported that they valued their connections and interactions with peers that resulted from
+mentorship even though pairs were not always perfect. Vernetta started to develop a rubric for
+determining which students could make good mentors. She realized that some of the mentees in
+the program could eventually transition to become mentors instead because of how their behavior
+had progressed in the Anchor program. After the first year of implementing explicit mentor training,
+Vernetta had insight into the amount and types of training and support mentors needed to build and
+maintain relationships with their peers.
+Whether they felt they were gaining communication, self-regulation, or leadership skills, Gratz
+students enjoyed and benefited from the Anchor program’s peer-to-peer mentorship. From
+2019 to 2023, during which time Gratz implemented peer-to-peer mentorship, the percentage
+of Anchor students attending school at least 90% of the time increased by 26 points.
+
+Mastery Gratz significantly reduced the attendance gap between student groups between 2019 and 2023.
+
+2.9
+
+BUILDING STUDENT LEADERS THROUGH PEER-TO-PEER MENTORSHIP
+
+Anchoring
+Emotions
+
+BUILDING STUDENT LEADERS: PEER-TO-PEER MENTORSHIP
+FOR SECONDARY STUDENTS
+
+How to Implement this Practice
+This section provides step-by-step guidance for implementing a peer-to-peer mentorship program,
+along with accompanying resources to get started.
+
+Prepare Needed Structures
+Step 1: Identify a Peer Mentorship Lead
+Identify a staff member who can lead the mentorship program. School leaders can support this
+program lead by giving them the authority to make decisions in the best interest of the peer mentorship
+program (e.g., giving students permanent hall passes or creating a schedule for formal mentorship
+sessions). The peer mentorship lead will also be more effective when given a clear set of roles and
+responsibilities for their role that empower them to oversee the effort. Some of the tasks they will be
+responsible for include:
+• coordinating program schedules,
+• creating student pairings,
+• raising awareness and promoting the program among teachers,
+• relaying expectations to mentors and mentees,
+• monitoring formal mentorship sessions, and
+• managing ongoing communication with families and students.
+Because this role requires a considerable amount of time, it is
+important to consider other staff responsibilities when assigning the
+role. If existing responsibilities cannot be reassigned, consider whether
+a stipend can offset the additional tasks for the program leader.
+Mastery Schools provides a $2,000 stipend for their mentorship lead.
+It is helpful to choose a program lead who deeply understands
+students’ backgrounds and needs so that they can properly match
+mentors and mentees, address any emotional or behavioral needs
+during sessions, and communicate easily with students and families.
+A staff member who does not know students well will likely need to
+spend additional time talking to other staff members to gain insight into
+potential mentors and mentees.
+
+2.10
+
+BUILDING STUDENT LEADERS THROUGH PEER-TO-PEER MENTORSHIP
+
+Anchoring
+Emotions
+
+Step 2: Design Tools, Protocols, and Norms
+In order to plan and implement a successful mentorship program, it is important to create specific
+materials and resources that give mentors and mentees an understanding of the structure and
+expectations for their participation, such as the following:
+• Mentorship agreement form to set expectations for participation in the program
+• Mentorship training materials (e.g., presentation, worksheet, readings) to help students
+understand the purpose of peer-to-peer mentorship, their role, and how it can benefit them
+• Mentorship protocol that gives students a structure to follow during their sessions to ensure they
+are communicating and collaborating with their mentor or mentee
+• Attendance logs to track attendance at mentorship sessions to identify which students need help
+mitigating barriers
+Establishing and communicating norms for the program’s operations can build buy-in among school
+staff and minimize conflicts related to students missing class for mentorship sessions and submitting
+make-up work. Consider a regular communication strategy to remind teachers about sessions and
+obtain information about students’ make-up assignments. With teachers’ active support for the program,
+some absences from mentorship sessions can be avoided.
+Because other absences are unavoidable, have concrete plans in place for mentor or mentee
+absences from formal mentorship sessions. Such plans might include alternative activities students do
+independently or an alternative meeting protocol for temporary pairings of students who are not in an
+official mentorship relationship.
+
+Step 3: Recruit Students
+The ideal recruitment strategy will depend upon the size of the population from which mentors and
+mentees will be identified. If students come from a large set of over 100 students or even an entire
+school, it can be helpful to have teachers make announcements, make school-wide announcements,
+and put posters up around school. For smaller populations, such as those within one program or
+classroom, it is best to use existing adult and student relationships to talk directly to students about the
+opportunity to participate in the peer-to-peer mentorship program. This strategy can be effective when
+recruiting students for a larger mentorship program as well. Encourage staff members to consider all
+students as potential mentors who could benefit from developing self-confidence and leadership skills,
+not just those who may already demonstrate those abilities.
+Consider offering incentives to students to recruit their participation and retain them in the program
+long-term. Effective incentives may differ for mentors and mentees. For example, in the first year of
+their mentorship program, Gratz gave mentors a $25 gift card each quarter if they regularly participated
+in mentorship (i.e., they attended 75% of mentorship sessions) but chose not to give incentives
+to mentees. Mentors could earn a bonus $25 gift card if they met certain criteria (see mentorship
+competencies in Step 7). The Gratz team found that students enjoyed the program enough that these
+incentives were unnecessary going forward.
+
+2.11
+
+BUILDING STUDENT LEADERS THROUGH PEER-TO-PEER MENTORSHIP
+
+Anchoring
+Emotions
+
+Step 4: Get Permission from Families
+Engaging with families from the start of the program can be helpful in building buy-in and ensuring
+they can support the program implementation, particularly to encourage their students’ attendance at
+sessions. At the start of any peer mentorship program, schools should provide detailed information
+about the program to families, including its goals, structure, activities, and expected outcomes.
+This information can be shared through written materials, presentations, or virtual meetings. This
+communication also allows staff to highlight the potential benefits of participating in the program for
+both mentors and mentees and address any concerns about how the program will be implemented
+and monitored. Mastery Gratz required all mentees and mentors in their program to have parents or
+caregivers sign a consent form in order to participate. Once the program begins, regular communication
+with families can provide updates on activities, progress, and any changes to the program as needed.
+
+Step 5: Create Student Pairs
+Creating cohesive student pairings is an essential
+part of having a successful mentorship program.
+Consider the factors that most often connect
+students at school, such as:
+• neighborhood,
+• cultural factors (e.g., religion, ethnicity,
+traditions)
+• interests (e.g., video games, the military, hiking),
+• TV shows,
+• music,
+• behaviors exhibited, and
+• student schedules (e.g., out-of-school
+responsibilities, hobbies).
+
+Using Data to Pair
+Mentors and Mentees
+Mastery Gratz initially used student
+attendance and tardy data to pair
+students so that mentors and mentees
+would not be alone during sessions. For
+the second year of implementing peerto-peer mentorship, Vernetta met with
+Anchor staff to gain more anecdotal and
+qualitative data to better understand
+which mentors and mentees would be
+best matched. They found this strategy to
+be more effective for matching students
+than solely relying on quantitative data.
+
+When creating peer mentor pairs, it can be helpful
+to survey participating students to gather specific
+information about them to guide their pairing.
+An alternative strategy could be to allow students to meet in an informal setting and observe which
+students naturally gravitate toward one another. A more structured version of this approach would
+involve a “speed dating” scenario where mentees engage in five-minute conversations with each
+mentor, aided by prompts, to determine which pairs interact most effectively together.
+Have a plan for how to respond if pairings are not working and need to be changed. Pairings may not
+work for a variety of reasons; it is a good exercise for both students in an unsuccessful pairing to meet
+together with the mentorship lead to discuss why the pairing is not working. In situations where there is
+a sensitive personal issue, one-on-one conversations with the mentorship lead can also be very helpful.
+Empower the students by asking what characteristics they now know they need in a mentor or mentee,
+as well as whether there is another student they think may be a better match. It is not recommended
+to change another successful pairing to rematch students. Instead, look for a student not currently
+engaged in peer mentorship to create new pairings.
+
+2.12
+
+BUILDING STUDENT LEADERS THROUGH PEER-TO-PEER MENTORSHIP
+
+Anchoring
+Emotions
+
+Step 6: Create a Mentorship Schedule
+Schedule times for formal mentorship sessions that are regular and consistent. Use student schedules
+to help determine the best day and time for these sessions so they are least likely to impact high-needs
+academic courses (i.e., English and mathematics). It will be important to communicate this schedule
+with teachers, particularly general educators, who will need to excuse students from class to attend
+mentorship sessions.
+Consider what time of the day mentorship sessions will be least disruptive to student learning while
+also encouraging students to attend school. Gratz strategically chose to have the formal mentorship
+sessions during the last period of the day to support students’ timely arrival and consistent attendance
+at sessions. Holding sessions at the end of the day also prevents students from struggling to reregulate for a return to an academic setting after the relative downtime allowed by the mentorship
+check-in (e.g., eating a snack together or playing a game).
+
+Put Peer Mentorship into Practice
+Step 7: Train Student Mentors
+In order to act as an effective mentor to peers, students acting as mentors will need training to help
+them build competencies that will allow them to facilitate conversations with their mentees. A helpful
+first step before designing mentor training is to know what competencies students should have when
+they finish the training. The specific competencies will depend on the mentorship program’s purpose
+and goal. Competencies might include:
+• leading a conversation with a peer,
+• filling out protocols for sessions,
+• making eye contact,
+• requesting adult assistance,
+• using technology for effective informal communication,
+• creating SMART goals, or
+• asking probing questions.
+Plan to conduct mentor training before the first peer-to-peer mentoring session so mentors are ready
+when formal mentoring begins. Some mentors might need continuing training or support after the
+initial session(s). Consider having mentors identify areas of growth they hope to work on. Use these
+areas to coach them throughout the semester or year. This type of self-reflection and goal setting
+for mentors can help them build important leadership skills that will help them as mentors as well as
+outside of the program.
+
+2.13
+
+BUILDING STUDENT LEADERS THROUGH PEER-TO-PEER MENTORSHIP
+
+Anchoring
+Emotions
+
+Step 8: Hold Pre-meetings
+Every mentee should have a pre-meeting with their mentor and a staff member before mentoring
+begins. Use this pre-meeting to make sure students know that participation is voluntary, relay clear
+expectations for the program, have students sign their mentorship agreement form, and set up a
+communication plan. Encourage students to exchange contact information, and remind the mentor
+to reach out to their mentee before the first formal session. Starting the informal communication
+between mentor and mentee during pre-meetings can be very helpful to the success of mentorship. For
+example, using informal communication (e.g., text messaging), mentors can make sure mentees are at
+school for formal mentorship sessions in the future. This can immediately lessen potential attendance
+issues during formal sessions.
+
+Step 9: Hold Mentorship Sessions
+Peer-to-peer mentoring can happen through formal and informal interactions. Both types of interactions
+are important for the mentor and mentee to bond, transfer skills, and create routines.
+FORMAL SESSIONS
+Students can be required to meet for formal sessions on a weekly or biweekly basis, depending on
+the schedule devised. Set an expectation that students will all arrive on time to maximize the session.
+Formal sessions can be as short as 15 minutes or as long as a class period, depending on the protocol
+developed and the ability of the mentor to facilitate the protocol. Initially, mentors may require more time
+to navigate the protocol during the first sessions. Regular, informal interactions can also reduce the
+need for lengthy formal sessions.
+Make sure students have comfortable seating in private, non-classroom spaces to meet with one
+another. Mentoring spaces should allow conversations to be confidential. Consider having snacks
+available for students to help them feel more at ease while talking.
+INFORMAL SESSIONS
+Informal interactions between mentors and mentees
+can be used to help mentees move forward with any
+goals or action items that come out of formal check-ins.
+Ideally, mentors are informally communicating with their
+mentees at least once a week through text, in-person
+check-ins, or emails.
+It is helpful to have a document or structure for mentors
+to communicate to the mentorship lead that an informal
+check-in happened. The mentorship lead can then
+easily follow up with mentors, remind them to check in
+on their mentees, and address any barriers they are
+having with informal check-ins.
+
+2.14
+
+BUILDING STUDENT LEADERS THROUGH PEER-TO-PEER MENTORSHIP
+
+Anchoring
+Emotions
+
+BUILDING STUDENT LEADERS: PEER-TO-PEER MENTORSHIP
+FOR SECONDARY STUDENTS
+
+Summary
+Mentorship can be a powerful way for students with common backgrounds and experiences
+to support one another. Peer-to-peer mentorship programs that pair students who have similar
+disabilities give participants additional common ground. This type of program empowers older
+students to be leaders to younger students, to help teach skills, and to provide support as
+someone who understands the mentees’ disabilities. Younger students have the opportunity to
+connect to older students whom they can look up to and use as part of their support system,
+increasing their sense of belonging at school. Participating in mentorship provides another
+chance for both mentor and mentee to gain new social, academic, and leadership skills that
+will help them navigate personal and professional relationships in the future. Mastery’s peerto-peer mentorship program was correlated with a substantial increase in the number of
+students attending school at least 90% of the time. Their success shows the potential for using
+mentorship as an effective intervention for improving attendance for students with disabilities,
+especially students with emotional and behavioral disabilities.
+
+FURTHE R LE ARNING
+
+5 Strategies to Build
+Student Belonging
+PANORAMA EDUCATION
+
+Building Effective Peer
+Mentoring Programs
+in Schools
+EDUCATION NORTHWEST
+
+2.15
+
+BUILDING STUDENT LEADERS THROUGH PEER-TO-PEER MENTORSHIP
+
+Anchoring
+Emotions
+
+BUILDING STUDENT LEADERS:
+PEER-TO-PEER MENTORSHIP FOR
+SECONDARY STUDENTS
+
+Appendix
+
+How to Measure
+When implementing student mentorship, monitoring how useful, usable, and utilized the practice is by
+participants and across the school system’s programs can accelerate learning to improve outcomes for
+students. Be aware that improved process measures are usually necessary to ensure a high enough level
+of fidelity before outcomes will see improvement. At minimum, these measures are most essential:
+
+PRIMARY MEASURES
+Measure
+Type
+
+Data
+Collection
+Type
+
+Question
+Asked
+
+Process
+
+Attendance
+tracker
+
+Are students
+attending
+formal
+mentorship
+sessions?
+
+Results
+
+What does
+success look
+like?
+
+Examples and
+Notes
+
+Average percent
+of students
+attending formal
+mentorship
+sessions
+
+Increasing
+average percent
+of students who
+attend mentorship
+sessions until
+reaching 100%
+
+It is also useful to
+collect data on the
+reason for absences
+to help determine
+the appropriate
+way to intervene if
+necessary.
+
+Average percent
+of mentors
+conducting
+informal checkins at least once
+a week
+
+Increasing average
+percent of mentors
+conducting
+informal checkins until reaching
+100%
+
+It may be helpful
+to document the
+method used for
+informal check-ins to
+assess the variation
+in methods over
+time.
+
+Percent of
+students who
+report feeling
+a sense of
+belonging
+
+Increasing percent
+of students
+feeling a sense
+of belonging until
+reaching 100%
+
+Panorama, CASEL,
+and other surveys
+can measure sense
+of belonging. This
+could also be a
+process measure
+depending on the
+theory of action.
+
+Percent of
+students
+who have an
+increased
+percent of
+positive points
+for behaviors
+aligned with IEP
+goals
+
+Increasing percent
+of students who
+have a higher rate
+of positive points
+until reaching
+100%
+
+Percentage point
+change in the
+attendance rate
+
+Increasing
+attendance rate
+for participating
+students until
+reaching 100%
+
+Yes / No
+Process
+
+Check-in
+tracker
+
+Are mentors
+conducting
+informal checkins at least
+once a week?
+Yes / No
+
+Outcome
+
+Student
+survey
+Student
+interviews
+
+Do students in
+mentorship feel
+an increased
+sense of
+belonging?
+Yes / No
+
+Outcome
+
+Kickboard
+Feedback
+tracker
+
+Do students
+increase
+prosocial
+behaviors
+aligned with
+their IEP goals?
+Yes / No
+
+Outcome
+
+2.17
+
+Student
+information
+system
+
+How do
+attendance
+rates change
+for participating
+students?
+
+BUILDING STUDENT LEADERS THROUGH PEER-TO-PEER MENTORSHIP
+
+Anchoring
+Emotions
+
+Additional measures can guide a team to know whether peer-to-peer mentoring is leading to the
+desired improvements for students:
+
+SECONDARY MEASURES
+Measure
+Type
+
+Data
+Collection
+Type
+
+Question
+Asked
+
+Results
+
+What does
+success look
+like?
+
+Examples and
+Notes
+
+Process
+
+Attendance
+tracker
+
+Are students
+arriving on
+time to formal
+mentorship
+sessions?
+
+Average percent
+of students
+arriving on time to
+formal mentorship
+sessions
+
+Increasing
+percent of
+students on
+time to session
+until reaching
+100%
+
+It can also be helpful
+to calculate the
+average number of
+minutes that students
+are late to sessions.
+
+Percent of
+mentorship pairs
+who completed
+the entire
+mentorship
+session protocol
+
+Increasing
+percent of pairs
+completing the
+protocol until
+reaching 100%
+
+This measure is good
+for tracking how
+productive sessions
+are for students.
+
+Average percent
+of mentees
+responding to
+informal checkins from their
+mentors
+
+Increasing
+average percent
+of mentees
+responding
+to informal
+check-ins until
+reaching 100%
+
+Percent of
+mentors and
+mentees who feel
+that they benefit
+from mentorship
+
+Increasing
+percent of
+students who
+feel there is
+a benefit until
+reaching 100%
+
+Analyze mentors and
+mentees separately
+as they have very
+different roles in
+mentorship.
+
+Percent of
+students who feel
+that they were
+well matched to
+their mentor or
+mentee
+
+100% of
+students feel
+they were well
+matched to
+their mentor or
+mentee
+
+Disaggregate
+mentors and mentees
+to determine if one
+group may have a
+different perception
+than the other.
+
+BUILDING STUDENT LEADERS THROUGH PEER-TO-PEER MENTORSHIP
+
+Anchoring
+Emotions
+
+Yes / No
+Process
+
+Mentorship
+observations
+Mentor
+protocols
+
+Did mentorship
+pairs complete
+the formal
+session
+protocol?
+Yes / No
+
+Process
+
+Check-in
+tracker
+
+Are mentees
+responding to
+informal checkins from their
+mentors?
+Yes / No
+
+Process
+
+Student
+survey
+Student
+focus groups
+
+Do students
+(both mentor
+and mentee)
+feel there is a
+benefit to the
+mentorship
+relationship?
+Yes / No
+
+Process
+
+Student
+survey
+
+Do students feel
+like they were
+well matched to
+their mentor or
+mentee?
+Yes / No
+
+2.18
+
+Notes
+1
+
+Beck and Malley, “A Pedagogy of Belonging”
+
+2
+
+Welkowitz et al., Students Speak Out
+
+3
+
+Mejias, Gill, and Shpigelman, “Influence of a Support Group
+
+4
+
+Thapa, Cohen, and Gufffey, “A Review of School Climate Research”
+
+5
+
+Mejias, Gill, and Shpigelman, “Influence of a Support Group”
+
+6
+
+Welkowitz et al., Students Speak Out
+
+Bibliography
+Beck, Mitchell, and James Malley. “A Pedagogy of Belonging.” Reclaiming Children and Youth: Journal
+of Emotional and Behavioral Problems 7, no. 3 (1998): 133–137.
+Mejias, Norma J., Carol J. Gill, and Carmit-Noa Shpigelman. “Influence of a Support Group for Young
+Women with Disabilities on Sense of Belonging.” Journal of Counseling Psychology 61, no. 2
+(2014): 208–220. https://doi.org/10.1037/a0035462
+Thapa, Amrit, Jonathan Cohen, and Shawn Guffey. “A Review of School Climate Research.” Review of
+Educational Research 83, no. 3 (2013). https://doi.org/10.3102/0034654313483907.
+Welkowitz, Julie A., Stephen M. Broer, Karen Topper, Cassandra Thomas, Linda Backus, and Ruth
+Hamilton. Students Speak Out: Preliminary Qualitative Findings of a Mentor/Advisor Project.
+Tampa, FL: University of South Florida, 2000. Accessed January 19, 2024. https://files.eric.
+ed.gov/fulltext/ED464463.pdf
+
+2.19
+
+BUILDING STUDENT LEADERS THROUGH PEER-TO-PEER MENTORSHIP
+
+Anchoring
+Emotions
+
+Providing Timely
+Behavioral
+Feedback Across
+Classrooms
+A RESEARCH-TO-IMPACT PRACTICE DEVELOPED
+WITH THE NETWORKED IMPROVEMENT COMMUNITY
+FOR STUDENTS WITH DISABILITIES
+
+TA BLE O F C O N T E N T S
+3.3............ Practice Overview
+3.3 | What is the Practice?
+3.4 | Why is Behavioral Feedback Important?
+
+3.6............ Implementation at a Glance
+3.6 | Enabling Conditions
+3.7 | Steps to Implement
+
+3.8............ Bringing this Practice to Life
+3.13.......... How to Implement this Practice
+3.13 | Lay the Groundwork
+3.13 | Step 1: Train Program Staff
+3.14 | Step 2: Create a Schedule for Staff Rounds and Manager
+Observations
+3.14 | Step 3: Introduce Counselors and Behavioral Feedback to All
+School Staff
+3.15 | Implement Behavioral Feedback
+3.15 | Step 4: Staff Identifies Skills Based on Students’ Needs
+3.16 | Step 5: Teach Students Skills and Behavioral Feedback Routines
+3.17 | Step 6: Staff Follow Rounds Schedule to Observe and Support
+Students
+3.18 | Step 7: Students Conference and Reflect with Staff
+3.18 | Step 8: Staff Reviews Data and Makes Changes as Needed
+
+3.20.......... Summary
+3.21.......... Appendix
+3.22 | How to Measure
+3.24 | Notes
+3.24 | Bibliography
+
+Providing Timely
+Behavioral Feedback
+Across Classrooms
+Implementation Level
+
+Who Implements
+
+District/Central Office
+
+Teacher(s)
+
+School
+
+Instructional Coach
+
+Program/Department
+
+Principal
+
+Classroom
+
+Central Office Leadership
+Other: Classroom Counselor
+
+Practice Overview
+What is the Practice?
+An intervention in which educators follow a
+defined protocol to provide immediate feedback
+to students on their application of taught
+prosocial behavioral skills, enabling them to
+effectively apply these skills in various contexts.
+
+3.3
+
+What is a Prosocial
+Behavioral Skill?
+A prosocial behavioral skill is a chain of
+individual, discrete actions or cognitive
+operations performed in specific situations
+that demonstrate helping, sharing,
+or caring for others.1 The teaching of
+prosocial skills must be explicit and
+comprehensive, and it relies on control
+of the environment, reinforcement, and
+generalization of skills across all settings.
+
+PROVIDING TIMELY BEHAVIORAL FEEDBACK ACROSS CLASSROOMS
+
+Anchoring
+Emotions
+
+Why is Behavioral Feedback Important?
+When school teams provide direct instruction on the prosocial behavioral skills students need,
+partner that instruction with discrete practice, and offer generalized feedback on those skills across
+settings, schools can reduce the number of disciplinary consequences students experience. That
+reduction can have a significant impact on students’ short- and long-term outcomes. Students
+with emotional and behavioral disabilities receive, on average, seven disciplinary consequences
+(suspension or expulsion) per year. Over 60% of students with emotional or behavioral disabilities
+receive at least one disciplinary consequence per year. And almost three quarters (73%) of students
+with emotional or behavioral disabilities are suspended or expelled at least once during their school
+careers.2 Disciplinary consequences can increase negative stereotypes about students with emotional
+and behavioral disabilities and reduce their opportunities for learning by removing them from their
+classroom settings. Furthermore, it is unlikely that these types of consequences help change
+behavioral outcomes for students with emotional or behavioral disabilities.3 Instead, exclusionary
+practices likely contribute to the school-to-prison pipeline — that is, the way in which disciplinary
+systems in K–12 schools increase the likelihood that students will enter the criminal justice system.4
+
+Why it Works
+INTERVENTIONS IN INCLUSIVE SETTINGS HELP GENERALIZE LEARNING.
+Direct instruction on prosocial skills and how to generalize behavioral strategies, as well as feedback
+on the use of strategies, can be more effective when students learn as often as possible in inclusive
+settings, where they can encounter authentic opportunities to apply the prosocial behaviors they have
+been taught. When students spend more time in inclusive settings, they interact with a more diverse
+set of students. As they encounter a wider range of behaviors from these peers, they also learn and
+have the opportunity to apply new strategies for engaging with these diverse behaviors.5 In addition,
+by receiving behavioral feedback in an inclusive setting, students with emotional and behavioral
+disabilities can experience education that is academically rigorous while also improving behaviors
+long-term.
+REGULAR FEEDBACK POSITIVELY REINFORCES PROSOCIAL BEHAVIORS.
+Positive reinforcements (e.g., Positive Points, Kickboard Points, Dojo Points, WOW Points!) and realtime feedback (e.g., “Nice job walking into class on time,” “I appreciate you being in your seat”) for
+even small steps of a behavior are effective interventions when working with students with emotional
+and behavioral disabilities.6 Recognizing small gains helps maintain students’ motivation to continue
+to improve toward the target behavior. Behavioral feedback has also been found to increase student
+engagement in learning, while decreasing the number of times teachers attempt to correct behaviors.7
+As these students spend more time focused on learning, and their teachers spend less time
+addressing behavior, all students benefit from additional learning opportunities.
+
+3.4
+
+PROVIDING TIMELY BEHAVIORAL FEEDBACK ACROSS CLASSROOMS
+
+Anchoring
+Emotions
+
+STAFF TRAINING LEADS TO BETTER FEEDBACK.
+When schools implement deliberate staff training on how to deliver high-quality, timely, and targeted
+behavioral feedback, staff are better equipped to respond to students in ways that reinforce prosocial
+behaviors. With regular, high-quality feedback over time, students can develop skills to address areas
+of need that result from their disability and can better use those skills in a variety of environments.
+Increasing prosocial behaviors through equitably implemented feedback can lead to fewer of the
+disciplinary consequences that can put students with disabilities into the school-to-prison pipeline.
+Behavioral feedback instead increases the amount of time students spend in the classroom to learn
+academic skills for future success.
+
+Students in Anchor practice SAMs skills with staff coaching
+
+3.5
+
+PROVIDING TIMELY BEHAVIORAL FEEDBACK ACROSS CLASSROOMS
+
+Anchoring
+Emotions
+
+PROVIDING TIMELY BEHAVIORAL FEEDBACK ACROSS CLASSROOMS
+
+Implementation at a Glance
+The information in this section provides a high-level view of what to consider when implementing this
+practice. Enabling Conditions describes the minimum conditions needed for successful implementation,
+including resources, mindsets, staffing, and recommended time allocation. Steps to Implement presents a
+concise checklist of action items, which are explained in detail in How to Implement this Practice, below.
+
+Recommended
+Time Allocation
+
+Staff Commitment
+
+Recommended
+Materials
+
+Prerequisites
+
+Enabling Conditions
+
+3.6
+
+Student IEPs clearly state present levels of performance and goals for emotional and behavioral needs.
+Students are receiving discrete skill instruction on current target behaviors in a special education setting.
+Staff have a set of scripts to use when addressing specific behaviors, both positive and negative.
+Schools have access to data systems specifically designed for behavioral data (e.g., Kickboard,
+ClassDojo, and BehaviorSnap).
+
+Paper- or technology-based tools (e.g., iPads) for documentation and data collection
+A school “store” with a variety of items for students to purchase with earned points
+Communication tools and systems to guide staff response and monitoring of student progress
+Clearly defined roles and responsibilities for:
+– School-based lead to oversee, coach, observe, and support staff; strengthen implementation;
+and provide proactive and crisis-related individualized student supports
+– Counselors that are aligned with educators in classroom settings
+– Network-level personnel for oversight to ensure quality, measure progress, support
+implementation, and coach school-based leads
+Appropriate staffing per 12 students (Anchor staffing example):
+– 1 full-time emotional support teacher/case manager
+– 1 part-time clinician (20 or 29 hours per week)
+– 2 part-time classroom counselors
+Counselor training in all elements of the program model
+– 1 hour biweekly training of counselors
+– 1 hour biweekly meetings to review data and address needs and issues with all counselors and
+program lead
+Scheduled time in the school day (about 3–5 min. per student) for daily cashout and conferencing
+Whole school training on behavioral feedback concepts and the role of counselors (1 hour per
+semester)
+
+PROVIDING TIMELY BEHAVIORAL FEEDBACK ACROSS CLASSROOMS
+
+Anchoring
+Emotions
+
+Steps to Implement
+LAY THE GROUNDWORK
+Train program staff
+Create a schedule for staff rounds and
+manager observations
+Introduce counselors and behavioral
+feedback to all school staff
+IMPLEMENT BEHAVIORAL FEEDBACK
+Staff identifies skills based on
+students’ needs
+Teach students skills and behavioral
+feedback routines
+Staff follows rounds schedule to observe
+and support students
+Students conference and reflect with staff
+Staff reviews data and makes
+changes as needed
+
+3.7
+
+Creating a Fully
+Integrated Emotional
+Support Program
+Behavioral feedback is just one evidencebased practice in Mastery’s supplemental
+behavioral support model. Mastery’s
+Anchor program is a larger structure
+that uses evidence-based interventions
+to support and strengthen the impact that
+behavioral feedback has on students.
+These practices include daily conferences,
+discrete skills instruction of the Student
+Achievement Model (SAM) and a
+CASEL-aligned curriculum, IEP goals
+aligned to individual student SAM skills,
+therapeutically trained education and
+clinical staff, de-escalation structures, a
+token economy, differentiated instruction,
+and data-driven decision-making in
+meetings. While research demonstrates
+that behavioral feedback alone is an
+effective practice for students with
+emotional and behavioral disabilities, its
+effectiveness is amplified by the structured
+implementation of all of these practices.
+
+PROVIDING TIMELY BEHAVIORAL FEEDBACK ACROSS CLASSROOMS
+
+Anchoring
+Emotions
+
+Bringing this Practice to Life
+TEACHING BEHAVIORAL SKILLS ONE PIECE OF FEEDBACK AT A TIME
+At Mastery Schools’ Simon Gratz High School, in Philadelphia, PA, classroom counselors provide behavioral
+feedback to students as part of the Anchor program, a structured program that supports students to learn and
+practice important prosocial behavioral skills. The case study below describes how Mr. James, one of Anchor’s
+classroom counselors, interacts with William, a 10th grade Anchor student in Ms. Smith’s science classroom.
+
+Behavioral Feedback in the Classroom
+On a regular Tuesday morning, Ms. Smith is teaching
+students about DNA as students create double helixes
+out of strips of paper. The classroom door opens, and Mr.
+James, one of Anchor’s classroom counselors, joins the
+class. Mr. James’s entrance is unremarkable because he
+is a regular member of the classroom on most days.
+As he enters the room, Mr. James walks over to a table
+grouping to see what students are working on. He talks
+quietly with one student, William, who is working diligently
+on his double helix. Mr. James enters something into his
+
+3.8
+
+PROVIDING TIMELY BEHAVIORAL FEEDBACK ACROSS CLASSROOMS
+
+Anchoring
+Emotions
+
+tablet before moving around the classroom, talking to a few other students one at a time. During the
+ten-minute period Mr. James is in the classroom, he and William interact in this way several times.
+When he is finished, Mr. James leaves with as little fanfare as when he arrived.
+
+Individual Student SAM Skills
+The interactions between Mr. James and William were opportunities for William to receive highquality, specific feedback from Mr. James on his behavior goals and priority SAM skills. SAM
+skills, also called prosocial behaviors, are a collection of 34 social, self-control, and activelearning skills important for success in any environment. Per William’s IEP, Mr. James and
+William are currently building the SAM skills of initiating academic tasks and remaining on-task for
+extended periods of time.
+The interactions between Mr. James and William occurred during Mr. James’s rounds in general
+education classrooms, when William was presented with opportunities to initiate work and
+remain on-task with his
+double helix. When William
+demonstrated his use of
+each of these skills, the
+classroom counselor issued
+“positive points” using
+the behavioral feedback
+script for positive praise. If,
+when the opportunity was
+presented, William had not
+used the skill, Mr. James
+would have issued “learning
+points” using the behavioral
+feedback script for learning
+points. In that instance,
+the counselor would have
+prompted William again to
+practice his use of the skill.
+The figure at right shows
+Anchor’s positive and
+learning scripts for the SAM
+skill of remaining on task.
+
+3.9
+
+PROVIDING TIMELY BEHAVIORAL FEEDBACK ACROSS CLASSROOMS
+
+Anchoring
+Emotions
+
+Collecting Essential Feedback Data
+As classroom counselors like Mr. James
+interact with students in classrooms, they
+use a tablet to document the students’
+behaviors, responses, and the points that
+go into the program’s level system.
+Behavioral feedback is most effective when
+students not only receive verbal feedback
+but also have ongoing visual access to
+the points they’ve been issued. Originally,
+Mastery used a student point card that
+remained with the student all day, but had
+to adapt that system due to COVID-19
+restrictions. Mastery’s integration of tablet
+technology to record and display student
+points and feedback has been an essential
+part of modernizing the behavioral feedback
+system. It allowed Anchor staff to continue
+to implement the intervention with fidelity
+while moving away from paper-based
+tracking. In addition to being able to see
+their feedback and points as counselors
+input them, students can also use their
+own devices or tablets available in Anchor
+program spaces to look at their data
+throughout the day.
+
+ANCHOR’S LEVEL SYSTEM
+Anchor places students in levels
+(1–5) based on the amount
+of support each student needs. A
+student’s current level is representative
+of the student’s most recent two-weeks’
+performance on attendance, discipline,
+and behavioral feedback measures. The
+level reflects the current adult support
+and therapeutic programming required for
+the student to demonstrate success. See
+Maximizing Student Progress Through
+Data-Informed Systems: Mastery Charter
+Schools to learn more about this practice.
+
+Mastery uses an app called Kickboard to
+input behavioral feedback and points across
+the school. Kickboard can be used as a Tier
+1 universal positive behavioral intervention
+support, as well as a Tier 3 behavior support
+tool as it is at Gratz. Anchor and networklevel staff can also easily pull reports to
+understand school- or program-level issues
+that arise and determine how to best
+respond.
+
+3.10
+
+PROVIDING TIMELY BEHAVIORAL FEEDBACK ACROSS CLASSROOMS
+
+Anchoring
+Emotions
+
+Reflecting on the Day’s Behavior and Setting Intentions for Tomorrow
+At the end of every school day, a
+conference is held with each student
+in the Anchor program. The student sits
+with one of the Anchor staff members
+to reflect on the day, set goals for the
+following day, and cash out their positive
+points. The goal of daily conferences
+is for students to understand how each
+individual event during the day fits into
+the bigger picture of their progress and
+highlight small changes as they occur.
+The student and staff member use a
+tablet to look at the student’s data for
+the day on Kickboard. They discuss
+when positive and learning points were
+earned, celebrate successes, and create
+concrete next steps to continue to build
+the student’s skills. In every conference,
+staff attempt to keep student data front
+and center and to have the student carry
+the cognitive load while reviewing the
+day’s performance.
+
+Anchor Reflection Sheet
+Name:______________________________________________________
+Total Points Earned Today:
+
+SAMS Skill Focus Area(s)
+
+Date:____________________
+Points Earned Today in that Skill
+
+DIRECTIONS: Answer the following questions with at least 2 complete sentences for each question.
+1) Look at your previous points sheets. Are you earning more points in your focus skill? Why or why not?
+__________________________________________________________________________________________________
+__________________________________________________________________________________________________
+__________________________________________________________________________________________________
+__________________________________________________________________________________________________
+2) What specific things have you done to increase your points in your focus skill?
+__________________________________________________________________________________________________
+__________________________________________________________________________________________________
+__________________________________________________________________________________________________
+__________________________________________________________________________________________________
+3)
+What specific strategies have you used to increase your
+overall SAMS points?
+
+What positive results occurred because you did those
+strategies? What did you gain?
+
+4) What can you do in order to improve and increase your SAMS skills? (Think about skills you can practice)
+__________________________________________________________________________________________________
+__________________________________________________________________________________________________
+__________________________________________________________________________________________________
+
+When Mr. James and William meet at
+the end of the day described above, Mr.
+James congratulates William on the positive points he earned for staying on task with the double
+helix work. He also probes William on the learning point he earned in Algebra II for the skill of
+remaining on task, when William put his head down during independent work time. Mr. James asks
+William to reflect on that instance and share what, if anything, he might do differently tomorrow to
+earn positive points in a similar situation.
+Through the conference, William realizes that, overall, he did a good job initiating and remaining
+on task — his target SAM skills. His goal is to try to do the same thing the following day. He notes
+these findings on a daily conferencing sheet that goes into his Anchor program binder.
+Nearing the end of the conference, Mr. James and William look at William’s positive points balance.
+William is a saver, so he decides not to use his points to buy anything from the school store just yet.
+Instead, he will save his points for another time. The school day ends on a positive note as William
+departs with an increased bank account of positive points and the realization that he is making
+small, positive changes to his behavior every day.
+
+3.11
+
+PROVIDING TIMELY BEHAVIORAL FEEDBACK ACROSS CLASSROOMS
+
+Anchoring
+Emotions
+
+Using Data to Keep Improving
+Mastery uses data from the behavioral
+feedback process to improve the
+implementation of the practice. On a
+biweekly basis, the Anchor team uses
+Kickboard data to track the number
+of positive and learning points each
+student receives per period and per day
+and analyzes how that data relates to
+attendance, disciplinary referrals, and
+Observation rubric for assessing a counselor's fidelity of
+suspensions. They also look at student
+implementing behavioral feedback
+responses on daily conferencing sheets
+as part of this analysis. The program lead
+conducts regular observations of counselors while they are giving behavioral feedback. These
+observations ensure students are receiving feedback for their behavioral skills, that counselors are
+using the feedback scripts with fidelity, and that counselors are accurately identifying opportunities
+for students to demonstrate SAM skills across settings. This observational data is used for biweekly
+counselor training so implementation of behavioral feedback continues to improve.
+The impact of the behavioral feedback practice at Gratz’s campus has been significant. Decreases
+in the number of suspensions for students in the Anchor program are much larger than those seen
+for other students in special education. Since 2019, the percentage of students in special education
+who have at least one suspension has declined by 22 points, while the percentage of students in
+Anchor who have at least one suspension has declined by 36 points.
+
+Anchor Aim:
+Decrease the
+percent of students
+who are suspended
+1 or more days from
+2019–20 to 2022–23
+School Years
+
+3.12
+
+PROVIDING TIMELY BEHAVIORAL FEEDBACK ACROSS CLASSROOMS
+
+Anchoring
+Emotions
+
+PROVIDING TIMELY BEHAVIORAL FEEDBACK ACROSS CLASSROOMS
+
+How to Implement this Practice
+This section provides step-by-step guidance for implementation of a behavioral feedback program
+specific to a school and community context, along with accompanying resources to get started.
+
+Lay the Groundwork
+Step 1: Train Program Staff
+Program staff will benefit from training on the following:
+• The skills that they need to teach students (e.g., SAM skills, Collaborative Problem Solving)
+• How to recognize opportunities for students to use their skills in different types of classroom
+settings (e.g., specialized program classes, interventions classes, core general education classes,
+electives)
+• How to provide learning and positive feedback with the use of a script
+• How to enter data into a shared system
+• How to use data with students
+When training staff in the practice of behavioral feedback, it is essential to identify priority behavioral
+skills for the start of the year and focus training on how staff can provide targeted feedback to students
+on those skills. Staff training also needs to cover the skills necessary for staff to implement the program.
+For example, staff may need to know how to enter data into data systems as soon as school begins but
+can learn how to use data with students later in the school year. Throughout the year, training can build
+the full set of behavioral skills staff should know and continue to strengthen the implementation of the
+feedback routine with students. This training should be incorporated into regularly held team meetings,
+along with the review of data from feedback.
+Consider how a coaching structure might also
+be used to ensure that staff continue to learn
+and grow in their implementation of the practice.
+All school staff, particularly classroom teachers,
+can benefit tremendously from training on
+the basic concepts of behavioral feedback.
+Teachers can also benefit from understanding
+the types of skills their students may be learning
+throughout the year and the scripts that program
+staff use daily. Whole-school training requires
+coordinating with school leadership, but training
+can also be done during grade-level meetings or
+even through individual coaching sessions.
+
+3.13
+
+Leveraging Team Meetings
+for Reflection and Growth
+At Gratz, weekly team meetings alternate
+between two purposes: (1) reviewing student
+data and (2) assessing students’ levels to home
+in on areas for program improvement through
+staff training. This biweekly cadence for student
+data review and staff training allows the team to
+meet various needs for the program, including
+evaluating the effectiveness of behavioral
+feedback, without taking additional staff time.
+
+PROVIDING TIMELY BEHAVIORAL FEEDBACK ACROSS CLASSROOMS
+
+Anchoring
+Emotions
+
+Step 2: Create a Schedule
+for Staff Rounds and
+Manager Observations
+Scheduling staff so that they can support
+students both in general education classes and
+in specialized program classes can be very
+challenging. It is important to individualize the
+amount of support provided to each student in
+classrooms when creating the schedule for staff
+rounds. A student’s level of need likely varies by
+class period, by subject area, and with regard to
+different adult and peer relationships. This might
+mean, for example, that a given staff member
+visits one student for 30 minutes each period
+of the school day but visits another student for
+only 15 minutes during one class period in which
+that student has particular challenges. Over
+time, data on how students respond to feedback
+can help teams adjust the schedule to most
+effectively meet students’ needs.
+
+Ensuring Sufficient
+Staffing
+Adequate staffing ensures successful
+implementation of behavioral feedback and
+that students receive the necessary support
+to acquire new behavioral skills. Mastery
+generally recommends that for every 12
+students in three consecutive grades (i.e.,
+K–2, 3–5, etc.) Anchor staffing includes:
+• 1 full-time emotional support teacher/
+case manager
+• 1 part-time clinician (20 or 29 hours
+per week)
+• 2 part-time classroom counselors
+The team also regularly analyzes outcome
+data (e.g., student infractions, amount of
+behavioral feedback, teacher and staff
+perceptions) to assess whether the staffing
+of each role is sufficient to support students.
+
+Within the schedule, program leads can identify
+regular opportunities to observe staff enacting
+behavioral feedback. Observations will allow them to provide real-time coaching and to collect data on
+the implementation of the behavioral feedback practice. This data can be tracked both for individual
+staff members and at the program level.
+
+Step 3: Introduce Counselors and Behavioral Feedback
+to All School Staff
+It is important that classroom teachers and staff implementing behavioral feedback are aligned on what
+this intervention looks like across classrooms. General education teachers may only receive minimal
+professional development around how to provide students with behavioral feedback in their classrooms.
+In addition, modified schoolwide behavior systems can help teachers and staff understand the
+alternative ways they may need to respond to students with emotional and behavioral disabilities, as
+these may be different than their standard behavioral response. These teachers can gain considerable
+knowledge about behavioral skills and how feedback is implemented through regular interactions with
+the program staff who implement the behavioral feedback practice.
+Program staff implementing behavioral feedback can themselves be more effective when they have
+the opportunity to communicate with classroom teachers. Schools may want to schedule regular time
+for program staff to formally collaborate with classroom teachers. These structured meetings can
+be used to discuss individual student needs, the different skills behavioral feedback addresses, and
+
+3.14
+
+PROVIDING TIMELY BEHAVIORAL FEEDBACK ACROSS CLASSROOMS
+
+Anchoring
+Emotions
+
+any important programmatic updates (e.g., staffing issues, schedule changes, new resources). If 1:1
+meetings are not possible, program staff can be included in regular grade-level meetings so that they
+are able to communicate student needs to teachers and learn about upcoming activities that will affect
+students.
+
+Implement Behavioral Feedback
+The implementation of a behavioral feedback practice establishes
+a continuous cycle in which student needs are identified, students
+are taught skills, students receive behavioral feedback across
+instructional settings, and data is used for progress monitoring
+and identification of student needs for the next cycle.
+
+Step 4: Staff Identifies Skills Based on Students’ Needs
+Utilizing student individualized education plans,
+transition goals, or other data sources, the staff
+identifies a limited and tangible set of skills to
+emphasize in behavioral feedback intervention
+with the student. The figure below shows some
+examples of how Mastery aligns students’ SAM
+skills with IEP goals and pairs them with data
+collection tools daily, weekly, or per reporting
+period (RP).
+It is important to backward-plan from the skills
+stated in IEP goals the specific prerequisite skills
+students need to learn. For example, a student
+whose IEP has identified the skill of assignment
+completion will need to first master the following
+skills:
+1. Find out exact expectations or instructions
+for the task.
+
+Using IEPs to Determine
+Student Skill Needs
+Use student IEPs — specifically, present
+levels of performance and social and
+emotional goals — to identify the initial
+skills that students will work on with staff
+for targeted behavioral feedback. Present
+levels and goals are best determined using
+data from tools like functional behavior
+assessments, behavior scales, and
+observations. The data from these tools will
+also act as baseline data for measurement
+of students’ responses to behavioral
+feedback and can be used as additional
+data points to supplement behavioral
+feedback for future progress monitoring.
+
+2. Assemble necessary materials.
+3. Carefully begin working. Focus attention on the task.
+4. Continue working until the task is completed or criteria are met.
+5. Check work.
+Each of these prerequisite skills will first need to be addressed and mastered with the support of
+behavioral feedback before the student will be able to master the skill of completing assignments.
+
+3.15
+
+PROVIDING TIMELY BEHAVIORAL FEEDBACK ACROSS CLASSROOMS
+
+Anchoring
+Emotions
+
+Mastery staff all know each student’s target skills so that they can support in addressing them as
+needed during the school day. On the Mastery staff identification badge, shown in the picture below,
+the names of Anchor program students are listed along with abbreviations for the different skills the
+students are working on. This resource allows staff members to easily give any student feedback on
+their target skills whenever they see them, in or out of classes.
+
+Mastery Charter School’s Alignment between IEP goals,
+SAM Skills, and Progress Monitoring
+
+Mastery staff identification badges list the names of Anchor
+program students, along with abbreviations for the different
+skills the students are working on.
+
+Step 5: Teach Students Skills and Behavioral Feedback Routines
+Create structured times for explicit instruction
+of behavioral skills, sub-tasks, and prerequisite
+skills. Just like academic skills, explicit instruction
+is a necessary step in helping students learn
+new skills and behaviors. Structured times may
+include specific courses, pull-out small groups,
+or individual counseling sessions.
+These taught skills will be reinforced by
+behavioral feedback, so students will need to
+learn what that feedback will look like in the
+classroom, as well as the appropriate way to
+respond to feedback. They should know that
+when they have the opportunity to demonstrate
+the skills they have learned in real time, they
+will receive praise along with either positive or
+negative consequences. Students will also need
+to understand that through positive feedback they
+can earn positive points for the program store.
+
+3.16
+
+Skills Class
+Mastery’s Anchor program offers a specific
+skills class that groups students based
+on the skills they are working on, as well
+as their levels of performance. During the
+class, students are explicitly taught the
+various SAM skills and have opportunities
+to apply that learning to books, movies, and
+their own lives. This instruction builds upon
+and reinforces the behavioral feedback
+students receive throughout the day.
+
+PROVIDING TIMELY BEHAVIORAL FEEDBACK ACROSS CLASSROOMS
+
+Anchoring
+Emotions
+
+Step 6: Staff Follow Rounds Schedule to Observe
+and Support Students
+Program staff follow the predetermined schedule to join students in their classrooms throughout the
+day. Staff enter classrooms to observe specific students during parts of the school day when the
+students are likely to have opportunities to demonstrate the skills they are working on. If necessary,
+staff can also create opportunities for students to demonstrate skills if they do not naturally happen. For
+example, staff can ask a student to work actively on an assignment until finished or to get the teacher’s
+attention appropriately if they have a question. When the student correctly demonstrates their skill (e.g.,
+remaining on task), behavioral feedback using positive praise language helps reinforce the skill. The
+staff member gives this praise using predefined steps and an example script, such as the following:
+Steps
+
+Example Script
+
+1. Descriptive praise
+
+John, you are remaining on task by sitting in your seat, having still
+hands, and working quietly on your workbook pages.
+
+2. Reason
+
+This is important so you are not disrupting others and you are able
+to focus and complete your work.
+
+3. Request acknowledgement
+
+Does this make sense?
+
+4. Positive consequence/reinforcer
+
+You earned 2 points for treating others with respect.
+
+If the student has the opportunity to demonstrate the skill but is unsuccessful (e.g., does not remain on
+task), the staff member provides behavioral feedback using “learning language” to redirect the student,
+explain the appropriate behavior, and prompt the student again to practice the skill. Learning language
+includes the following steps:
+Steps
+
+Example Script
+
+1. Initial praise/empathy
+
+Hey John, thanks for listening to me.
+
+2. Description of inappropriate behavior
+
+I see you are not remaining on task. Ms. Johnson asked you to
+quietly complete your workbook pages, but you are out of your seat
+talking to your friend.
+
+3. Negative consequence
+
+You earned two learning points for not remaining on task.
+
+4. Description of appropriate behavior
+
+Make sure you are remaining on task by sitting in your seat and
+working quietly on the workbook pages assigned by Ms. Johnson.
+
+5. Request acknowledgement
+
+Can you get back to work for me?
+
+For progress to occur, students need multiple opportunities each day to practice skills with the support
+of behavioral feedback. Ideally, the established daily rounds schedule accommodates multiple
+opportunities for practice and behavioral feedback from staff.
+
+3.17
+
+PROVIDING TIMELY BEHAVIORAL FEEDBACK ACROSS CLASSROOMS
+
+Anchoring
+Emotions
+
+Step 7: Students Conference and Reflect with Staff
+Students’ daily reflection on their behavior and data is important for learning prosocial behavioral skills
+and for changing how they respond to antecedents in the future. At the end of the school day, conduct
+end-of-day conferences with students to facilitate reflections on:
+• points and feedback they received,
+• the reasons why they received them,
+• what they should have done differently, and
+• what they plan to do the next day.
+After conferencing, students also have the
+opportunity to add up all of their positive points
+and subtract the learning points they earned
+that day. With the net points calculated, students
+can purchase items from the school store or
+choose to save their points, which accumulate
+over time. Regardless, students should be
+given a daily opportunity to use points to
+make purchases, though students with greater
+behavioral needs may require conferences and
+cashing out multiple times per day. The school
+store can offer high-interest items, such as
+snack foods or school supplies, or privileges like
+free dress days. These tangible rewards can be
+essential for many students to feel successful
+and stay motivated.
+
+Anchor staff and students can view behavioral feedback
+data easily on digital devices throughout the day.
+
+Step 8: Staff Reviews Data and Makes Changes as Needed
+Behavioral feedback data can be used to help an emotional support program continuously adapt and
+improve for students. Program leads, network leaders, or teams can analyze measures like these on a
+weekly or biweekly basis:
+• Total number of feedback opportunities
+• Ratio of positive to learning feedback
+• Percent of feedback that is positive
+• Percent of feedback that is learning
+• Total number of opportunities for each student to practice skill(s) across settings
+• Consistency of feedback throughout day (i.e., a similar amount of feedback given each
+class period)
+
+3.18
+
+PROVIDING TIMELY BEHAVIORAL FEEDBACK ACROSS CLASSROOMS
+
+Anchoring
+Emotions
+
+Data can be disaggregated by program staff member, class subject, class period, skill addressed,
+grade-level, or classroom teacher to understand how different staff members and classroom teachers
+are implementing behavioral feedback. This analysis can help program leads identify topics for training
+both the team and individual staff members to improve the fidelity of implementation of behavioral
+feedback.
+
+Gratz’s data tracker shows which students are making progress on their SAM skills.
+
+The team also needs to review individual students’ data on a regular basis (e.g., weekly or biweekly)
+to track how behavioral feedback is (or is not) changing student behavior. The data can help the team
+determine whether:
+• students have demonstrated mastery of their current skills,
+• students need additional explicit instruction around specific skills, or
+• students need more opportunities to demonstrate skills.
+
+Mastery coach models behavioral feedback for counselor
+
+3.19
+
+PROVIDING TIMELY BEHAVIORAL FEEDBACK ACROSS CLASSROOMS
+
+Anchoring
+Emotions
+
+PROVIDING TIMELY BEHAVIORAL FEEDBACK ACROSS CLASSROOMS
+
+Summary
+In order to implement a full continuum of services for students with more intensive behavioral needs
+and to ensure these students have access to general education classrooms, schools must design and
+implement high-quality behavioral interventions that are adaptable across environments. Behavioral
+feedback uses the underpinnings of research on positive reinforcement and token economies to help
+students recognize when they have used the skills they are working on or missed an opportunity to
+respond differently. Behavioral feedback also helps students learn how to generalize their skills to a
+variety of classrooms and groups of students in general and special education settings. Students also
+work with staff on daily reflections of their behavior and planning for the next day, setting themselves up
+for more successful days.
+By investing in their school staff through initial and continuous training, schools can implement
+behavioral feedback with fidelity and quality across learning environments. With these supports in
+place, students can internalize their areas of growth, reflect on their actions, and see positive change
+in their behaviors over time. Mastery School’s reduction in the percentage of Anchor program students
+who experience a suspension demonstrates the potential that effective implementation of behavioral
+feedback can have for students with disabilities in inclusive settings.
+
+FURTHE R LE ARN I NG
+
+“Providing Positive Feedback”
+THE IRIS CENTER
+
+“Provide Positive and Constructive
+Feedback to Guide Students’
+Learning and Behavior”
+THE COUNCIL FOR EXCEPTIONAL CHILDREN
+
+“The Power of Effective Praise:
+A Guide For Teachers”
+UNDERSTOOD.ORG
+
+3.20
+
+PROVIDING TIMELY BEHAVIORAL FEEDBACK ACROSS CLASSROOMS
+
+Anchoring
+Emotions
+
+PROVIDING TIMELY BEHAVIORAL
+FEEDBACK ACROSS CLASSROOMS
+
+Appendix
+
+How to Measure
+When implementing behavioral feedback, monitoring how useful, usable, and utilized the practice is by
+team members and across the school system can accelerate learning to improve outcomes for students.
+Be aware that improved process measures are usually necessary to ensure a high enough level of fidelity
+before outcomes will see improvement. At minimum, these measures are most essential:
+
+PRIMARY MEASURES
+
+3.22
+
+Measure
+Type
+
+Data
+Collection
+Type
+
+Question
+Asked
+
+Results
+
+What does
+success look
+like?
+
+Examples and Notes
+
+Process
+
+Feedback
+data
+collection
+system
+
+How frequently
+do students
+have
+opportunities
+to demonstrate
+their
+behavioral
+skills?
+
+Average
+amount of
+time between
+opportunities
+for students to
+demonstrate
+skills
+
+Students
+should have
+opportunities
+to demonstrate
+their skills every
+5–7 minutes
+when receiving
+support in the
+classroom.
+
+The actual number of
+opportunities a student
+receives depends on:
+(1) how easily authentic
+opportunities arise, which
+varies by type of skills
+being worked on; and
+(2) student need —
+students with higher needs
+receive more support
+time and therefore more
+opportunities to receive
+feedback
+
+Process
+
+Feedback
+data
+collection
+system
+
+What
+percentage of
+feedback given
+to students is
+positive versus
+learning during
+each class
+period?
+
+The ratio
+of positive
+to learning
+feedback
+received in a
+class period
+
+Students should
+work toward
+receiving six
+positive points
+for every
+learning point
+(6:1 ratio).
+
+Consider analyzing
+individual student data as
+well as data disaggregated
+by class, level, or staff
+member giving feedback.
+
+Process
+
+Observation
+notes
+
+When
+observed,
+how often are
+staff using the
+feedback script
+as written?
+
+The percent
+of time during
+observations
+that staff read
+the positive
+and learning
+feedback scripts
+as written
+
+Increasing
+percent of
+observations
+in which staff
+read the script
+as written until
+reaching 100%
+
+Use data to see how
+fidelity varies by staff
+member, as well as by the
+classroom where feedback
+is given.
+
+Outcome
+
+Discipline
+records
+
+How many
+suspensions
+do students
+receive over
+time?
+
+The average
+number of
+suspensions
+students
+receive on a
+weekly, monthly,
+or semesterly
+basis
+
+Decreasing
+number of
+suspensions
+received until
+there are no
+suspensions for
+students
+
+PROVIDING TIMELY BEHAVIORAL FEEDBACK ACROSS CLASSROOMS
+
+Anchoring
+Emotions
+
+Outcome
+
+Feedback
+data
+collection
+system
+Discipline
+records
+
+Did students
+meet their IEP
+goals?
+Yes / No
+
+The percent
+of students
+who met their
+emotional and
+behavioral IEP
+goals
+
+Increasing
+percent of
+students who
+met their IEP
+goals until
+reaching 100%
+
+Additional measures can guide a team to know whether behavioral feedback is leading to the desired
+improvements for students:
+
+SECONDARY MEASURES
+Measure
+Type
+Process
+
+Data
+Collection
+Type
+
+Question
+Asked
+
+Results
+
+What does
+success look
+like?
+
+Feedback
+data
+collection
+system
+
+Are students
+presented with
+the opportunity
+to use the
+skill they did
+not previously
+use to earn a
+positive point?
+
+Average
+number of
+times students
+are given a
+chance to use
+a skill after not
+successfully
+using it during
+the class period
+
+Increasing
+percent of
+time students
+receive
+opportunities to
+use skills after
+not using them
+until reaching
+100% of the
+time
+
+Average
+number of
+occasions for
+feedback given
+by skill
+
+A similar
+average
+number of
+occasions for
+feedback given
+for each skill
+
+Yes / No
+Process
+
+Feedback
+data
+collection
+system
+
+Is feedback
+given for all
+skills at the
+same rate?
+Yes / No
+
+3.23
+
+Process
+
+Feedback
+data
+collection
+system
+
+How long does
+it take students
+to master skills?
+
+Average
+number of
+school days
+until students
+master skills
+
+Decreasing
+number of days
+for students to
+master skills
+
+Outcome
+
+Discipline
+records
+
+How many
+referrals do
+students
+receive over
+time?
+
+The average
+number of
+referrals
+students
+receive on a
+weekly, monthly,
+or semesterly
+basis
+
+Decreasing
+number of
+referrals
+received until
+there are no
+referrals for
+students
+
+PROVIDING TIMELY BEHAVIORAL FEEDBACK ACROSS CLASSROOMS
+
+Examples and Notes
+
+Some skills will naturally
+not be demonstrated
+as often as others. For
+example, apologizing
+to others may not need
+to happen as often as
+writing neatly.
+
+Anchoring
+Emotions
+
+Notes
+1
+
+Dunsfield, “A Construct Divided”
+
+2
+
+Institute of Education Sciences, “Disability Category Differences”
+
+3
+
+Anderson, “The relationship between inclusion, absenteeism, and disciplinary outcomes”
+
+4
+
+Christle, Jolivette, and Nelson, “Breaking the school to prison pipeline”
+
+5
+
+Lamport, Graves, and Ward, “Special needs students in inclusive classrooms”
+
+6
+
+Frey and Nichols, “Intervention Practices”
+
+7
+
+Allday et al., “Training General Educators”
+
+Bibliography
+Allday, R. Allan, Kim Hinkson-Lee, Tina Hudson, Shelley Neilsen-Gatti, Andrew Kleinke, and
+Caroline S. Russel. “Training general educators to increase behavior-specific praise:
+Effects on students with EBD.” Behavioral Disorders 37, no. 2 (2012): 87–98. https://doi.
+org/10.1177/019874291203700203
+Anderson, Kaitlin P. “The relationship between inclusion, absenteeism, and disciplinary outcomes for
+students with disabilities.” Educational Evaluation and Policy Analysis 43, no. 1 (2021): 32–59.
+https://doi.org/10.3102/0162373720968558
+Christle, Christine, Kristine Jolivette, and C. Michael Nelson. “Breaking the school to prison pipeline:
+Identifying school risk and protective factors for youth delinquency.” Exceptionality, 13 (2005):
+69–88. https://doi.org/10.1207/s15327035ex1302_2.
+Dunfield, Kristen A. “A Construct Divided: Prosocial Behavior as Helping, Sharing, and Comforting
+Subtypes.” Frontiers in Psychology 5 (2014). https://doi.org/10.3389/fpsyg.2014.00958
+Frey, Andy and Nancy George-Nichols. “Intervention Practices for Students with Emotional and
+Behavioral Disorders: Using Research to Inform School Social Work Practice.” Children & Schools
+25, no. 2 ( 2003): 97–104. https://doi.org/10.1093/cs/25.2.97.
+Institute of Education Sciences. “Disability Category Differences in Students’ Behavior and Disciplinary
+Actions.” Facts from NLTS2: School Behavior and Disciplinary Experiences of Youth With
+Disabilities. National Center for Special Education Research, the Institute of Education Sciences.
+March 2006. https://ies.ed.gov/ncser/pubs/nlts2200603/disability.asp
+Lamport, Mark A., Lucheia Graves, and Amy Ward. “Special needs students in inclusive classrooms:
+The impact of social interaction on educational outcomes for learners with emotional and
+behavioral disabilities.” European Journal of Business and Social Sciences 1, no. 5 (2012): 54–69.
+
+3.24
+
+PROVIDING TIMELY BEHAVIORAL FEEDBACK ACROSS CLASSROOMS
+
+Anchoring
+Emotions
+
+Maximizing Progress Through
+Data-Informed Systems
+MASTERY SCHOOLS
+
+EXPLORE THE COLLECTION
+To learn more about practices that can help
+you improve outcomes for students with
+emotional and behavioral disabilities, see
+Providing Timely Behavioral Feedback
+Across Classrooms, Building Student
+Leaders: Peer to Peer Mentorship
+for Secondary Students and Refining
+Program Implementation via Quarterly
+Collaborative Evaluation at Mastery
+Schools.
+
+Snapshot
+WHAT IS THE PRACTICE?
+The regular collection and analysis of data for goal-setting, decision-making, and reflection
+to ensure fidelity, quality, and outcomes at all levels of any program.
+
+WHY IS IT IMPORTANT?
+• The purpose of data-based decision-making is to set goals, adapt instruction, evaluate
+the effectiveness of programs and practices, improve policy, and reallocate resources
+to improve student outcomes.1
+• Data-based decision-making is particularly important when supporting students with
+disabilities, to ensure that interventions, instructional strategies, and accommodations
+have their desired effects.
+• It is best not to use just one type of data to provide the necessary information to make
+decisions but to include various types of data.2
+• In the case of Mastery’s Anchor program for students with emotional and behavioral
+disabilities, as with all special education supports and services, it is important to know
+whether students are in the least restrictive environment possible for them to make
+appropriate academic progress. Data needs to be collected and analyzed regularly to
+ensure that students are making progress and are receiving the appropriate level of
+support to do so.
+
+“There are times when data may look a
+little off, but we can look at other data to
+understand what’s going on.”
+— VERONICA KOFF, MASTERY GRATZ ANCHOR PROGRAM DIRECTOR
+
+4.2
+
+M AX I M I Z I N G PR OGR E SS T H R OU GH DATA-INFORMED SYSTEMS
+
+Anchoring
+Emotions
+
+The Challenge
+Ensuring Students Are Receiving the Appropriate Level
+of Support and Services
+Data-driven decision-making has always been a key component of special education when students are
+initially assessed and re-evaluated every three years to determine their eligibility for services. Between
+evaluations, schools do not always make frequent use of data to ensure that they are providing
+students with an education in the least restrictive environment possible for the students to make
+educational progress. As a result, schools often keep students in programs or provide interventions and
+services that are overly restrictive and limit the amount students are educated with their peers without
+disabilities.3 When educators do not collect and review data to take action for their students in a timely
+manner, they often overlook students’ real, current needs.
+At Mastery Schools, using data to make decisions about students’ supports is an essential component
+of their Anchor program. In order for their team to meet the needs of students with emotional and
+behavioral disabilities in their highly individualized program, they need to look at data daily and weekly
+to responsively adjust their programmatic supports for students. The Anchor team also reviews data
+monthly and quarterly to look at the bigger picture of their program in order to monitor its effectiveness
+and identify longer-term improvements they can make.
+At Mastery’s Simon Gratz High School, Specialized Services Program Director Veronica Koff needs
+to ensure that students are continuously receiving the most appropriate level of support within the
+program. The only way Veronica can be confident that students are getting what they need is to know
+with certainty that each component of the program, as well as the overall program, is working. Data is
+critical for her as she makes decisions about what students and the program need.
+
+The Practice
+Using a Variety of Data Sources to Make Decisions about
+Students, Practices, and Programs
+Mastery Schools created a network-wide data infrastructure that makes it possible for each school’s
+Anchor program to make data-driven decisions for students. Veronica and her Anchor team at Gratz
+collect, analyze, and respond to data on a regular basis to help students make progress. But their use
+of data doesn’t stop there. The team regularly aggregates data for analysis at the program and network
+level and uses structured meetings to look at the results and address the needs that arise.
+Veronica and her team collect multiple types of data to make decisions about what students, staff,
+and the program need to be successful. Three particular systems exemplify their use of data to make
+decisions at different levels of their program:
+
+4.3
+
+M AX I M I Z I N G PR OGR E SS T H R OU GH DATA-INFORMED SYSTEMS
+
+Anchoring
+Emotions
+
+1. A behavioral feedback system, supporting daily analysis that includes data from a behavioral
+feedback app, daily conferences, and staff huddles
+2. A level system, which evaluates, in two-week cycles, the data from the system’s leveling criteria
+and student support provided, as well as team meetings and students’ level conferences
+3. A system for program evaluation using quarterly reporting-period analyses of data from a “Must
+Haves” rubric and student progress on IEP goals
+
+Enabling Conditions
+
+Recommended
+Time Allocation
+
+Staff
+Commitment
+
+Recommended
+Materials
+
+Prerequisites
+
+Enabling Conditions describes the minimum conditions needed for successful implementation, including
+resources, mindsets, staffing, and recommended time allocation.
+
+4.4
+
+Network-level leaders set expectations around data culture as a foundational program
+component.
+A system of coaching is in place to help all staff members improve their practice.
+A system-wide belief exists that students with disabilities are best educated when they are with
+their typically developing peers to the greatest extent possible.
+Individual staff members, along with entire programs, are capable of changing when data
+indicates it is necessary.
+
+Pre-existing tools or applications (e.g., Must Haves rubric, Kickboard, student information
+systems) to support data collection, visualization, and analysis
+
+Program lead who analyzes data regularly and supports the team to reflect on trends and devise
+how to respond to data
+Network-level staff who analyze school-level and aggregated data to determine school and
+network supports and professional development
+Staff members who regularly collect data that can be analyzed from the student level to the
+network level
+Training (staff at all levels of the system, from instructional assistants to department directors)
+– Collecting valid data: 30–60 minutes at least quarterly
+– Analyzing data: 30–60 minutes at least quarterly
+Meetings to set goals, analyze data, and respond to data
+– School/program level: 1 hour biweekly or weekly
+– Network level: 1–2 hours monthly
+Coaching to improve data collection and implementation of responses to data
+– 1 hour weekly for all staff
+
+M AX I M I Z I N G PR OGR E SS T H R OU GH DATA-INFORMED SYSTEMS
+
+Anchoring
+Emotions
+
+Behavioral Feedback: Using Daily Data
+for Immediate Action
+Anchor staff use Kickboard, an app for collecting data on student behavior throughout each school
+day, as they observe, support, and coach students on the SAM skills identified in their IEPs. Students
+and staff can use the app to see data from feedback given to students in real time. Counselors enter
+information on tablets, which are also available in Anchor classrooms for students to use throughout
+the day to look at their feedback and at the end of the day to cash out points they earned from their
+behavior. In daily conferences with a staff member, students reflect on their behavior, progress, and
+goals for the next day.
+In the same way that students use the data from Kickboard to reflect and plan, Anchor staff use the
+data from behavioral feedback to make important decisions about students, staff, and the program.
+During short daily huddles, the Anchor team meets to discuss the specific and daily needs of students:
+• They share information they each know about students’ specific situations that can impact the
+students during the day (e.g., Marquis left his phone in the car; Jenna is absent due to a death in
+the family).
+• They ask questions about upcoming schedule changes and related needs and suggest students
+who may need check-ins during that day.
+• They reflect on previous student-teacher interactions, behaviors, and any changes that can be
+made to improve interactions in the future.
+To get a more holistic picture of student
+progress on behavioral outcomes,
+Veronica also regularly conducts
+observations of the behavioral feedback
+intervention to compare qualitative
+observation data with the student
+performance metrics tracked in Kickboard.
+The figure on the following page shows
+an example of observation data collected.
+Alternating weeks, Veronica uses
+qualitative and quantitative data to identify
+bright spots for celebration and prioritize
+areas for further development of staff.
+Her observations are shared with staff in
+Anchor team meetings and drive decisions
+for professional development to continue
+to improve how they implement behavioral
+feedback.
+
+4.5
+
+Using Daily Behavioral
+Feedback Data to Make
+Programmatic Decisions
+The Anchor team repeatedly saw data showing
+that students were struggling behaviorally in
+math classes. Notes recorded in Kickboard
+clearly indicated that a number of students
+in Anchor needed more support with their
+foundational math skills, making math classes
+particularly challenging because academic
+frustration was often the antecedent to students
+being redirected by counselors. In response
+to the data, Anchor added a math skills class
+to their academic offerings to help students
+increase their foundational math skills and feel
+more successful in their math classes.
+
+M AX I M I Z I N G PR OGR E SS T H R OU GH DATA-INFORMED SYSTEMS
+
+Anchoring
+Emotions
+
+Anchor’s observation data tracker on counselors’ implementation of behavioral feedback
+
+Level System: Using Data Regularly to
+Adapt the Support Students Receive
+The Anchor program uses a level
+system to determine the amount
+of support each student receives.
+Every two weeks, Veronica leads
+her team in making the important
+decision of whether students need
+more or less support to make
+progress on their goals. To make a
+level decision, the team uses three
+types of data:
+1. Behavioral feedback data —
+specifically the ratio of positive
+to overall points a student
+received in the previous two
+weeks
+2. School discipline data, such as
+referrals or suspensions, input
+by any Mastery staff member
+3. Attendance data
+At the end of each two-week period,
+students can move up, move down,
+or stay at the same level. While
+
+4.6
+
+Modifying How Staff Respond
+to Students Based on Their
+Disability and Needs
+All students at Mastery Schools are held to behavioral
+expectations. For students in the Anchor program, school
+staff need different ways to respond to schoolwide “culture”
+infractions to support students’ therapeutic needs. To that
+end, Mastery created the Modified Anchor Response
+Plan (MARP) as an adaptation to their existing culture plan.
+The MARP provides questions and protocols to guide staff
+responses, which vary based on the level of infraction:
+• Level I Infraction: A behavior that disrupts the learning
+environment or that is insubordination
+• Level II Infraction: A behavior that impacts the
+school culture and community of safety, respect, and
+cooperation that is fostered at Mastery
+• Level III Infraction: Serious violations of the Mastery
+Disciplinary Code of Conduct and/or behaviors that are
+criminal violations
+The level and frequency of a student’s culture infractions
+impact the student’s Anchor program level.
+
+M AX I M I Z I N G PR OGR E SS T H R OU GH DATA-INFORMED SYSTEMS
+
+Anchoring
+Emotions
+
+changing levels can be perceived as a reward or punishment to students, the purpose of leveling is
+to determine the amount of support students receive from Anchor staff. After leveling decisions are
+made, Anchor staff hold a conference with each student to review their data and discuss their upcoming
+level so students understand why they are placed at that level and how they can continue to grow in
+the program. Students’ levels amount to their least restrictive environment for the subsequent twoweek period of time. The frequent review and adjustment process ensures that students receive the
+necessary support at that moment, enabling them to track their progress and overcome setbacks
+promptly. Additionally, the level system provides valuable data for the Mastery team to assess the
+overall health of the Anchor program and identify any changing resource needs.
+
+The Data Used to Make Level Decisions
+Criteria for each Anchor program level fit into three categories: attendance, culture, and SAM skills.
+A student’s performance in all three categories helps the team determine which level the student
+is in and how the team will provide the appropriate support to help the student move up levels. The
+following table shows the criteria in each category for students in a high school Anchor program. (See
+the Appendix for elementary and middle school criteria).
+
+Anchor Level Criteria for High School
+Attendance
+
+Culture*
+
+SAM Skills
+
+Level 5
+
+90% attendance or more (1 day
+or less unexcused absence out of
+cycle) or 2 or fewer tardies
+
+No level II infractions within
+the cycle
+
+90% or more of
+one individualized
+target skill
+
+Level 4
+
+90% attendance or more (1 day
+or less unexcused absence out of
+cycle) or 2 or fewer tardies
+
+One level II infraction or fewer
+
+80–89% of one
+individualized
+target skill
+
+80% attendance (2 days or less out
+of cycle) or 4 or fewer tardies
+
+Two level II infractions or
+fewer per cycle, OR
+
+80–89% of one
+individualized
+target skill or 40%
+increase
+
+Level 3
+
+Level 2
+
+Level 1
+
+50% decrease in level II
+infractions per cycle
+80% attendance (2 days or less out
+of cycle) or 3–4 tardies
+
+Three level II infractions or
+fewer, OR
+25% decrease in level II
+infractions per cycle
+
+70% attendance or less (3 days or
+less out of cycle) or 5 tardies or more
+
+Any level III culture infraction*
+Four level II infractions or
+fewer
+
+70–79% of one
+individualized
+target skill or 20%
+increase
+0–69% of one
+individualized
+target skill
+
+* Any level III culture infraction will move the student to Level 1 in Anchor, and supports will be adjusted immediately.
+All level III infractions require an IEP meeting where student supports and privileges are adjusted. At a minimum, the
+student will move to Level 1 for one cycle.
+
+4.7
+
+M AX I M I Z I N G PR OGR E SS T H R OU GH DATA-INFORMED SYSTEMS
+
+Anchoring
+Emotions
+
+How the Team Uses this Data to Place Students into Levels
+When measuring data against the criteria for leveling, the team balances how each student is
+progressing in the three categories to determine the appropriate current level. A spreadsheet tracks all
+of the students in the Anchor program, using color coding to indicate at a glance each student’s level for
+each time period:
+
+Level 1
+
+Level 2
+
+Level 3
+
+Level 4
+
+Level 5
+
+The tracking tool allows the Anchor team to easily see which students are progressing through the
+levels, who is consistently struggling or succeeding in the program, and who has had some good and
+some challenging weeks. An example is shown in the table below.
+
+How Level Decisions Inform Student Supports and Services
+Students in Anchor receive a different amount of support and different privileges at each level in
+the system. The supports provided by the Anchor program are in place to help students learn the
+necessary skills to make progress. Privileges vary at each level and serve as incentives for students to
+work on the skills that will help them behaviorally. The table on the following page shows how supports
+decrease and privileges increase as students move up the levels.
+
+4.8
+
+M AX I M I Z I N G PR OGR E SS T H R OU GH DATA-INFORMED SYSTEMS
+
+Anchoring
+Emotions
+
+Anchor Program Supports and Privileges by Level
+
+Supports
+
+Level 1
+
+Level 2
+
+Level 3
+
+Level 4
+
+Level 5
+
+1. Check-in
+each period
+
+1. Check-in
+each period
+
+1. Decreased
+push-in support
+
+1. Decreased
+push-in support
+
+1. Decreased
+push-in support
+
+2. Only shop at
+the end of each
+day
+
+2. Only shop at
+the end of each
+day
+
+2. AM/PM
+Check-ins
+
+3. Supported
+breaks
+
+3. Supported
+breaks
+
+2. Daily
+conferencing
+sheet
+independently
+
+2. Daily
+conferencing
+sheet
+independently
+
+4. Complete
+daily
+conferencing
+sheet (with
+staff)
+
+4. Complete
+daily
+conferencing
+sheet (with
+staff)
+
+3. Break
+independently
+
+3. Break
+independently
+
+5. AM check-in
+
+5. AM check-in
+
+1. Can attend
+field trips/
+school events
+independently
+
+1. Can attend
+field trips/
+school events
+independently
+
+1. Can attend
+field trips/
+school events
+independently
+
+2. Can shop
+independently
+(once a day)
+
+2. Can shop
+independently
+(2 items)
+
+2. Can shop
+independently
+(two items)
+
+3. Can
+purchase gym/
+game time
+
+3. Can
+purchase gym/
+game time/
+dress down
+
+3. Can
+purchase gym/
+game time/
+dress down
+
+4. Break
+outside (1)
+
+4. Break
+outside (1)
+
+5. Homework
+passes
+
+5. Homework
+passes
+
+6. Can receive
+credit for
+mentorship
+
+6. Can receive
+credit for
+mentorship
+
+3. Daily
+conferencing
+sheet
+independently
+
+6. Cannot
+purchase gym
+and game time
+1. Access to
+store (with
+support)
+
+1. Access to
+store (with
+support)
+2. Can
+purchase gym/
+game time
+3. Can attend
+field trips/
+school events
+(with staff)
+
+Privileges
+
+7. Can leave
+early (with
+permission
+from family)
+8. No skills
+classes
+
+4.9
+
+M AX I M I Z I N G PR OGR E SS T H R OU GH DATA-INFORMED SYSTEMS
+
+Anchoring
+Emotions
+
+Based on the amount of support
+students need at each level to make
+progress academically as well as
+behaviorally, students in Anchor may
+spend more or less time in a general
+education setting. The ultimate goal
+for the level system is to provide an
+individualized set of services that
+ensure students can be successfully
+served in their neighborhood
+school and make progress that
+enables them to be educated in
+an increasingly less restrictive
+environment with their peers.
+Anchor’s estimate of the percentage of the day students at each
+level will be outside of the general education classroom
+
+Program Evaluation: Improving a Program
+Using Multiple Sources of Data
+Once each quarter, each campus Anchor program director meets with the network-level director of
+specialized services, Ann McKetta. Together, they use Anchor’s program evaluation rubric to look
+for specific programmatic elements — their “Must Haves” — within the campus’s Anchor program.
+The rubric is broken into two phases of progress: Phase 1, in which the program meets the minimum
+requirements of each criterion, and Phase 2, in which the program exceeds the minimum criteria.
+A major purpose of these evaluations is to create consistency across Anchor program student
+experiences so that students receive high-quality intervention and support regardless of the school they
+attend. The practice ensures campus and network teams partner together to identify bright spots within
+the program implementation they can celebrate, as well as to consider opportunities for growth at the
+campus level and the network level support needed to progress in priority areas.
+At Mastery Gratz, Veronica and Ann walk through Anchor spaces to check for specific program
+elements in the rubric before sitting down to review all the data Veronica and her team have collected.
+They look at Gratz’s data to look for specific areas to celebrate or elements for growth that Veronica
+can work on with her staff or students. While this time gives Veronica a chance to zoom out and look at
+her program’s progress and areas for improvement, Ann is able to observe Gratz as a data point from
+the network’s point of view, as just one of Mastery’s Anchor programs. Currently, Gratz is scoring mostly
+at Phase 2 on all the rubric criteria, so Ann can learn from Gratz’s implementation of the program and
+practices to consider how other campuses can learn from the areas in which Gratz excels.
+
+4.10
+
+M AX I M I Z IN G P R OGR ES S T H R OU G H DATA-INFORMED SYSTEMS
+
+Anchoring
+Emotions
+
+The Impact
+Using Data to Improve
+Student Outcomes
+Veronica and her team at Gratz have made databased decisions to improve Anchor's systems and
+structures. They have also been able to increase
+attendance and reduce the number of suspensions
+for students in their program. The percentage of
+students in Mastery Gratz’s Anchor program attending
+school at least 90% of the time has increased by
+almost 30 percentage points since 2019, before the
+COVID-19 pandemic. Meanwhile, the percentage
+of students in Anchor who received at least one
+suspension declined by about 35 points. By using
+data to drive decisions on the quality and fidelity of
+program implementation, Veronica and her team have
+also helped improve student outcomes that will make
+a difference in those students’ lives for years.
+
+FURTHE R LE ARNING
+
+Significant
+Disproportionality in
+Special Education
+THE NATIONAL CENTER FOR
+LEARNING DISABILITIES
+
+What is Data-Based
+Individualization?
+THE NATIONAL CENTER ON
+INTENSIVE INTERVENTION
+
+4.11
+
+This practice directly supports the use of
+data to make decisions about supports
+and services for students with emotional
+and behavioral disabilities. For more
+specific information on practices to
+support students with emotional and
+behavioral disabilities, see Anchoring
+Emotions.
+
+Mastery Schools serves approximately 14,000
+students in grades K–12 across Philadelphia,
+PA, and Camden, NJ. The focal school for the
+practice was Mastery Simon Gratz High School in
+Philadelphia.
+Mastery Schools is a part of the Marshall Street
+Networked Improvement Community, a threeyear intentional community of 10 public charter
+school networks nationwide aiming to make
+dramatic gains for Black and Latinx students with
+disabilities experiencing poverty. Collectively, the
+10 networks identified over 20 best practices that
+improve learning outcomes and school culture for
+students positioned furthest from opportunity. Learn
+more here.
+
+M AX I M I Z IN G PR OGR E SS T H R OU GH DATA-INFORMED SYSTEMS
+
+Anchoring
+Emotions
+
+Appendix
+Mastery Anchor Level Criteria for High School
+Attendance
+Elementary: 90% attendance or more (1
+day or less unexcused absence out of
+cycle)
+Level 5
+
+Culture*
+
+SAM Skills
+
+No level II infractions
+within the cycle
+
+90% or more of one
+individualized target skill
+
+One level II infraction or
+fewer
+
+80%–89% of one
+individualized target skill
+
+Elementary: 80% attendance (2 days or
+less out of cycle)
+
+Two level II infractions or
+fewer per cycle, OR
+
+Middle & High: 80% attendance (2 days
+or less out of cycle) or 4 or fewer tardies
+
+50% decrease in level II
+infractions per cycle
+
+80%–89% of one
+individualized target skill
+or 40% increase
+
+Elementary: 80% attendance (2 days or
+less out of cycle)
+
+Three level II infractions
+or fewer, OR
+
+Middle & High: 80% attendance (2 days
+or less out of cycle) or 3-4 tardies
+
+25% decrease of level II
+infractions per cycle
+
+Elementary: 70% attendance or less (3
+days or less out of cycle)
+
+Any level III culture
+infraction will move the
+student to level 1 in
+Anchor*
+
+Middle: 90% attendance or more (1 day
+or less unexcused absence out of cycle)
+Or 2 or fewer tardies
+High: 90% attendance or more (1 day or
+less unexcused absence out of cycle) or
+2 or fewer tardies
+
+Level 4
+
+Level 3
+
+Level 2
+
+Level 1
+
+Elementary: 90% attendance or more (1
+day or less unexcused absence out of
+cycle)
+Middle & High: 90% attendance or more
+(1 day or less unexcused absence out of
+cycle) or 2 or fewer tardies
+
+Middle & High: 70% attendance or less (3
+days or less out of cycle) or 5 tardies or
+more
+
+70%–79% of one
+individualized target skill
+or 20% increase
+
+0%–69% of one
+individualized target skill
+
+Four level II infractions or
+fewer
+
+* Any level III culture infraction will move the student to Level 1 in Anchor, and supports will be adjusted immediately. All level
+III infractions require an IEP meeting where student supports and privileges are adjusted. At a minimum, the student will move
+to Level 1 for one cycle.
+
+4.12
+
+M AX I M I Z IN G P R OGR ES S T H R OU G H DATA-INFORMED SYSTEMS
+
+Anchoring
+Emotions
+
+Notes
+1
+
+Skiba et al., “Disparate Access”
+
+2
+
+van Geel et al., “Assessing the Effvects”
+
+3
+
+Hamilton et al., Using Student Achievement Data
+
+Bibliography
+Hamilton, Laura, Richard Halverson, Sharnell S. Jackson, Ellen Mandinach, Jonathan A. Supovitz, and
+Jeffrey C. Wayman. Using Student Achievement Data to Support Instructional Decision Making
+(NCEE 2009-4067). Washington, DC: National Center for Education Evaluation and Regional
+Assistance, Institute of Education Sciences, U.S. Department of Education, 2009.
+https://ies.ed.gov/ncee/wwc/Docs/PracticeGuide/dddm_pg_092909.pdf
+Skiba, Russell J., Lori Poloni-Staudinger, Sarah Gallini, Ada B. Simmons, and Renae Feggins-Azziz.
+“Disparate Access: The Disproportionality of African American Students with Disabilities across
+Educational Environments.” Exceptional Children 72, no.4 (2006): 411–424.
+https://doi.org/10.1177/001440290607200402
+van Geel, Marieke, Trynke Keuning, Adrie J. Visscher, and Paul Fox. “Assessing the Effects of a
+School-Wide Data-Based Decision-Making Intervention on Student Achievement Growth in
+Primary Schools.” American Educational Research Journal 53, no.2 (2016): 360–394.
+https://doi.org/10.3102/0002831216637346
+
+4.13
+
+M AX I M I Z IN G P R OGR ES S T H R OU G H DATA-INFORMED SYSTEMS
+
+Anchoring
+Emotions
+
+Refining Program
+Implementation via Quarterly
+Collaborative Evaluation
+MASTERY SCHOOLS
+
+EXPLORE THE COLLECTION
+This practice directly supports the use of
+data to make decisions about supports
+and services for students with emotional
+and behavioral disabilities. For more
+specific information on practices to support
+students with emotional and behavioral
+disabilities, see Anchoring Emotions.
+
+Snapshot
+WHAT IS THE PRACTICE?
+On a quarterly basis, network leadership and campus leaders collaboratively conduct
+observations and review data against a multi-phase rubric to evaluate the effectiveness of
+program implementation and develop prioritized goals for improvement.
+
+WHY IS IT IMPORTANT?
+• Networks with multiple schools need systems and processes to ensure fidelity and
+quality of program implementation, particularly for programs like Anchor.
+• Across a network, outcomes can vary for students based on the way programs are
+implemented. This variation in outcomes may be even greater for students with
+disabilities and those in emotional support programs.
+• Networks need ways to identify positive examples of programs and determine how
+to allocate resources to ensure students are well served. Networks can measure
+programs against these exemplars and use them to devise action plans for program
+improvement.
+• Importantly, program improvement using a variety of data sources on an ongoing basis
+helps improve the academic, social-emotional, and behavioral learning that students
+experience.
+• Networks can use data from program evaluation to inform network-level support,
+coaching, and professional development.
+
+van Geel, Marieke, Trynke Keuning, Adrie J. Visscher, and Paul Fox. “Assessing the Effects of a School-Wide Data-Based
+Decision-Making Intervention on Student Achievement Growth in Primary Schools.” American Educational Research Journal
+53, no. 2 (2016): 360–394. https://doi.org/10.3102/0002831216637346
+
+1
+
+5.2
+
+REFINING PROGRAM IMPLEMENTATION VIA COLLABORATIVE EVALUATION
+
+Anchoring
+Emotions
+
+The Challenge
+Ensuring High-Quality Programming
+Across the Mastery Network
+Mastery Schools created the Anchor program to provide an educational environment where students
+with emotional and behavioral disabilities can explicitly learn skills that meet their IEP goals. Mastery
+created Anchor to be a supportive setting that can flexibly increase the amount of time students
+receive education in general education classrooms. To accomplish this, Anchor has multiple levels of
+programmatic support and intervention, ranging from students receiving direct support for 20% of their
+day to others receiving support for more than half the day when needed. Mastery now offers Anchor
+programming at each of their secondary campuses.
+School-level program directors need to ensure that the skills students are working to master align with
+their IEP goals, that staffing is adequate to provide various levels of support and education for those
+skills, and that students have the necessary reinforcement and opportunities to master them. Mastery’s
+network-level director for Anchor needs to oversee program implementation fidelity and student
+outcomes across campuses so that all students in Anchor programs receive a high-quality program. To
+make this possible, Mastery needed a valid and reliable way to monitor program effectiveness, provide
+feedback on strengths and growth areas, and provide targeted support for each school’s Anchor
+program.
+
+The Practice
+Using a Program-Specific Rubric
+to Identify Areas of Strength
+and Need
+To keep the Anchor program consistent in implementation
+and outcomes for students, the Mastery network team
+developed a “Must Haves” rubric. The rubric is aligned
+with the Anchor program components that are essential
+for students to experience the program’s full benefits.
+The Must Haves show that the program is implementing
+each component as intended. The rubric also pushes
+each school’s program to progress from meeting minimum
+expectations — referred to as Phase 1 on the rubric —
+to a higher level of implementation that can result in the
+best outcomes for students — the rubric’s Phase 2. The
+table on the following page presents each Must Haves
+component and what it shows about the implementation.
+
+5.3
+
+REFINING PROGRAM IMPLEMENTATION VIA COLLABORATIVE EVALUATION
+
+Anchoring
+Emotions
+
+Mastery Schools Anchor Program Must Haves Rubric Components
+
+5.4
+
+Rubric
+Component
+
+Must Haves Show
+
+Schedule &
+Staffing
+
+There is intentionality given to both student and staff schedules; staffing and schedules
+allow student programming to be responsive based on data trends and needs.
+
+Goal Alignment
+& Progress
+Monitoring
+
+Student programming is data-driven and aligned. Students’ present levels of need drive
+the SAM skills they are working on, the behavioral feedback they are receiving, and
+the IEP goals being progress-monitored. When students’ needs change, programming
+adjusts accordingly and is accurately documented.
+
+SAM Skills
+
+SAM skills are the foundation of the Anchor program and visible to all stakeholders. SAM
+skills are aligned to student needs and at the forefront of student development.
+
+Data Collection
+& Point Card
+
+Student data is front and center, and Kickboard/Point Card is the system to ensure
+strong data collection. The Kickboard/Point data allows staff/student to reflect on student
+performance during the daily conference. This data will be used to reinforce student
+behavior through a token economy. Archived data provides longitudinal data to analyze
+trends over time.
+
+Behavioral
+Feedback
+
+Behavioral Feedback is the evidence-based intervention that we use to change student
+behavior. We use the intervention with fidelity across all settings.
+
+Behavioral
+Escalation
+Response Plan
+
+Trained professionals are available and skilled at supporting our students during all
+phases of the Crisis Development Model. Those trained professionals have a schoolnormed process and designated area(s) where this support occurs. Professionals will
+manage students’ surface behaviors in order to maximize their time spent learning in the
+classroom.
+
+Level System
+
+Multiple data points are consistently collected, analyzed, and responded to in an effort to
+provide appropriate support and reinforcement to students based on trends in their skill
+acquisition. Student’s level is a reflection of their current performance and demonstrates
+the level of adult support and therapeutic programming that is required for the student to
+be successful.
+
+Safety Planning
+& Therapeutic
+Holds
+
+In the rare instance when a student in the Anchor program is displaying significant risk
+behavior(s), members of the Anchor team have both the skills and resources to ensure
+student safety 100% of the time.
+
+Daily Skills
+Class
+
+Students in the Anchor program receive social and emotional skill development through
+a daily skills class in order to promote the transition of skill acquisition across multiple
+settings. Curriculum should be aligned with SAM skills and adjusted to meet trends and
+students’ skill development needs. Participation is based on the student performance
+data (student Level and behavioral goal growth).
+
+Individual
+Counseling
+
+Students receive quality school-based counseling as a related service based on their
+individual needs. Counseling goals are aligned with the students’ IEP goals and should
+be determined by the IEP team by referencing assessment data, observation data, and
+performance data.
+
+Small
+Therapeutic
+Groups
+
+Small therapeutic groups (STG) are readily available to all students within the Anchor
+program and are strategically and effectively used to address targeted student needs.
+
+REFINING PROGRAM IMPLEMENTATION VIA COLLABORATIVE EVALUATION
+
+Anchoring
+Emotions
+
+At Mastery’s Simon Gratz High School in Philadelphia, Veronica Koff manages all of these pieces with
+expertise. Her network-level manager, Ann McKetta, helps her keep the program improving through
+regular meetings to evaluate the program’s health and determine what types of campus support and
+ongoing professional development are needed. Ann and Veronica meet quarterly to document artifacts
+and analyze data demonstrating how Anchor is being implemented using the Must Haves rubric.
+This routine allows Veronica and Ann to set goals for Gratz’s program together and ensure the best
+outcomes for students.
+
+Collecting Data Across the Program
+The quarterly meetings provide the school and network leaders opportunities to gather data across
+Anchor’s whole program for measurement against the rubric’s criteria. To gather evidence on the
+school’s performance on the program components, Veronica leads Ann through various Anchor
+program spaces to observe and collect data together.
+For example, during a recent third-quarter visit to the school, Veronica and Ann focused on Gratz’s
+current performance on Goal Alignment & Progress Monitoring. Ann could see that Gratz had not yet
+set up systems to conduct ongoing progress monitoring three or more times per quarter and therefore
+was performing at Phase 1 of Goal Alignment (see the table on the following page for rubric details).
+In their walkthrough debrief, Ann and Veronica used their observation data to develop a plan for how
+Gratz could progress toward Phase 2 on the program component.
+As Gratz implements the plan, Veronica can ask Ann to come back at any time to observe the changes
+they have made, rather than waiting for the next quarter’s formal observations.
+
+Mastery Schools
+
+5.5
+
+REFINING PROGRAM IMPLEMENTATION VIA COLLABORATIVE EVALUATION
+
+Anchoring
+Emotions
+
+Program Component: Goal Alignment & Progress Monitoring
+Student programming is data-driven and aligned. Students’ present levels of need drive the SAM skills
+they are working on, the behavioral feedback they are receiving, and the IEP goals being progressmonitored. When students’ needs change, programming adjusts accordingly and is accurately
+documented.
+PHASE 1
+
+PHASE 1 LOOK FORS
+
+• 1 or more student behavioral goals in the
+student’s IEP are aligned to a target SAM skill
+and accurately represent frequency and type
+of data collection.
+
+□ Audit 3–5 current IEPs and look for each IEP
+to have 1+ IEP goals aligned to SAM skill(s);
+confirm student is receiving consistent BF on
+those skills via Kickboard.
+
+• Students in Anchor have one or two relevant
+and aligned behavioral goals listed in CMSAT.
+
+□ Review Cognos - Case Manager Student
+Achievement Detail Report and confirm all
+students in Anchor have 1–2 SAM skills listed
+for behavior.
+
+PHASE 2
+
+PHASE 2 LOOK FORS
+
+• If/when a student requires the addition/
+removal of a SAM skill based on current need,
+programming and documentation is adjusted
+to reflect those changes.
+
+□ Provide evidence of objective progress
+monitoring data collected at 3 intervals
+throughout current and/or previous report
+period.
+
+• Anchor team members are utilizing
+appropriate progress monitoring tools to
+collect progress monitoring data a minimum of
+3x per report period
+
+□ Student “Target” SAM skill is aligned across
+all areas: Eschools, IEP, CMSAT, and
+Kickboard.
+
+The Goal Alignment & Progress Monitoring criteria of Anchor’s Must Haves rubric with Phase 1 criteria at the top
+and Phase 2 at the bottom of the table.
+
+Looking for Areas of Growth
+During each quarterly meeting, Ann and Veronica look for
+places where there are opportunities for growth or for greater
+focus on a component of the program. First, they look for
+program fidelity, that is, whether the Must Haves are present
+(Phase 1). Then they work toward program quality (Phase
+2). Gratz’s program has already met Phase 1 expectations
+across most of the program components, so when Veronica
+and Ann meet, they look down and across the entire rubric to
+find components where the program is not yet at Phase 2.
+
+5.6
+
+REFINING PROGRAM IMPLEMENTATION VIA COLLABORATIVE EVALUATION
+
+Anchoring
+Emotions
+
+Adding Context to the Data
+Ann and Veronica review the observation
+data and discuss questions based on their
+observations. Using both their observation data
+and quantitative data from the program, they
+align on what they believe to be the program’s
+strengths and areas for improvement. This is also
+an opportunity for Veronica to discuss barriers
+that she and the program are experiencing.
+
+Making Use of Data to Drive
+Program Improvement
+The Anchor program has a substantial
+amount of data that staff use to evaluate
+the program’s health and identify goals for
+improvement. The team sees all of the data,
+both qualitative and quantitative, as valuable.
+• Call logs (between school leaders,
+teachers, and Anchor staff)
+
+At the example visit described above, the pair
+• Leveling reports (behavioral feedback
+also used rubric components to examine how
+points, infractions, and attendance)
+Veronica was reviewing and using behavioral
+• Calm Corner logs
+feedback data collected in Kickboard to make
+• De-escalation Room log
+programmatic decisions. (Read Providing
+• Student information system (grades,
+Timely Behavioral Feedback Across
+behavioral feedback from Kickboard)
+Classrooms to learn more about this practice.)
+• Student perception survey
+Together, they pulled up Gratz’s behavioral
+• Daily conferences during cashout
+feedback data to see how the team and individual
+• Behavioral feedback points (ratio of
+counselors were implementing the program. By
+positive to negative feedback, with the
+goal of 5:1; timing of feedback, with the
+looking at the frequency of positive and learning
+goal of every 7 min.; notes on class and
+feedback, they could identify trends in what
+opportunity)
+feedback is given, and in which settings, that
+• Phone calls home
+might indicate areas for program improvement.
+On this occasion, the data led them to examine
+the coaching Veronica was providing. Veronica
+had been reviewing each counselor’s feedback
+before checking in one-on-one. Coaching meetings were focused on ensuring that counselors provided
+adequate feedback to students and used the feedback scripts that increased consistency across the
+staff. Through the data, Ann and Veronica discovered that the Gratz counselors would benefit from
+additional coaching to work on the quality of the behavioral feedback they give students specifically
+related to discrete skill development and giving praise. This discovery led Veronica to train the Anchor
+team on how to better identify skills and effectively use behavioral feedback scripts to give praise.
+
+Making Plans for Improvement
+After analyzing the data at each visit, Ann and Veronica devise a plan to reach their improvement goals,
+and they discuss how they will measure improvement.
+In the example visit, for the goal of improving the behavioral feedback students receive, the pair came
+up with a few specific action steps that Veronica could take going forward:
+• Train staff on the quality of discrete skill feedback.
+• Have staff implement discrete skill feedback.
+• Monitor data at the staff and student levels in Kickboard.
+
+5.7
+
+REFINING PROGRAM IMPLEMENTATION VIA COLLABORATIVE EVALUATION
+
+Anchoring
+Emotions
+
+To measure the effect of these changes, they would look at:
+• the change in the frequency of interactions and
+• the change in the quality of interactions.
+By analyzing quantitative and qualitative data, they will be able to discern how effective the action
+steps were and understand how to improve for better results going forward. They will also be able to
+see whether the focus on this component of the rubric makes a difference to the implementation of the
+behavioral feedback program and, ultimately, student outcomes.
+From the quarterly program evaluation visits, Ann also accumulates data that she can bring back to
+her team at the network. She reviews Gratz’s rubric along with those from Mastery’s other Anchor
+programs to prioritize areas of support for program implementation and drive decisions for the types of
+support and coaching each program needs to receive. Ann can determine whether program directors,
+counselors, or school administrators need additional training or other resources in order to implement
+Anchor with quality and fidelity across the network.
+
+The Impact
+Using Data to Drive Program Improvement Across Schools
+The Anchor Must Haves rubric drives goal setting and focus areas for progress for program staff. While
+the data helps identify areas for program improvement at each school, it can also be analyzed at the
+network level to ensure programmatic alignment across Anchor campuses in the Mastery network. Over
+time, Mastery has been able to improve the Anchor program design, fidelity, and quality across their
+network to better educate students with emotional and behavioral disabilities.
+
+FURTHE R LE ARNING
+
+Successful
+K–12 Program
+Implementation
+Toolkit
+HANOVER RESEARCH
+
+Program Evaluation
+THE VIRTUAL LAB SCHOOL
+
+5.8
+
+To learn more about how emotional support
+programs can help you improve learning outcomes
+for students with disabilities, see Anchoring
+Emotions.
+
+Mastery Schools serves approximately 14,000 students in
+grades K–12 across Philadelphia, PA, and Camden, NJ. The
+focal school for the practice was Mastery Simon Gratz High
+School in Philadelphia.
+Mastery Schools is a part of the Marshall Street Networked
+Improvement Community, a three-year intentional
+community of 10 public charter school networks nationwide
+aiming to make dramatic gains for Black and Latinx students
+with disabilities experiencing poverty. Collectively, the 10
+networks identified over 20 best practices that improve
+learning outcomes and school culture for students positioned
+furthest from opportunity. Learn more here.
+
+REFINING PROGRAM IMPLEMENTATION VIA COLLABORATIVE EVALUATION
+
+Anchoring
+Emotions
+
+Conclusion
+ANCHORING EMOTIONS
+A collection of research-to-impact practices
+developed with the Networked Improvement
+Community for Students with Disabilities
+
+6.1
+
+CO NCL US ION
+
+6.1
+
+Anchoring
+Emotions
+
+ANCHORING EMOTIONS
+
+Conclusion
+
+Black and Latinx students with disabilities who are experiencing poverty sit at the intersection of
+three of the most pervasive systemic barriers to a high-quality education in the United States. Add
+this reality to the fact that students of color are disproportionately identified as having emotional
+disabilities1 that lead to their placement in restrictive learning environments away from their peers,
+it is clear that this specific population of students faces significant obstacles before even entering
+the school building. Furthermore, the school-to-prison pipeline is well documented by the ACLU
+and others and disproportionately affects students with emotional support needs based on their
+over-suspension and expulsion.2 It is clear that, while there is no one-stop solution to this problem,
+schools need to be taking steps to ask themselves, “How can we best serve our students?” and
+perhaps more importantly, “Which of our students are we failing to serve at all?”
+Mastery Schools recognized these problems and created the Anchor program — a comprehensive
+therapeutic support program for students who receive supplemental emotional support. Students in
+the Anchor program receive an individualized functional behavior assessment and positive behavior
+support plan as well as supports that may include, but are not limited to, an emotional support
+classroom, access to a clinician and classroom counselor, individual therapy, group therapy, and
+communication with the school social work team and outside mental health service providers.3 When
+Mastery joined the Marshall Street
+Networked Improvement Community
+for Students with Disabilities (NIC),
+they set out to refine the program
+and expand it to more schools within
+their own network, and to disseminate
+it broadly to further the reach of its
+impact. This collection highlights the
+work that Mastery’s Anchor program
+did within the NIC and the promise
+Mastery and Marshall observed in
+pilot efforts between 2019 and 2023.
+
+6.2
+
+CO NCL US ION
+
+Anchoring
+Emotions
+
+The improvement team at Mastery’s Simon Gratz High School, one of the 25 schools in the Mastery
+network, pushed themselves to consider how students in the Anchor program were situated within
+the larger school community. By joining the NIC, the Anchor team set out to explore how they could
+create school-wide programmatic supports to significantly increase student attendance rates and
+decrease suspension rates for students with emotional and behavioral disabilities, ensuring this group
+of students had equitable access to their education. This collection identifies two best practices that
+support students with emotional and behavioral disabilities in the general education setting: Building
+Student Leaders: Peer-to-Peer Mentorship for Secondary Students and Providing Timely
+Behavioral Feedback Across Classrooms. There are also two case studies, Maximizing Student
+Progress Through Data-Informed Systems and Refining Program Implementation via Quarterly
+Collaborative Evaluation at Mastery Schools.
+The improvement team at Gratz focused on practices that would increase attendance and decrease
+multi-day suspensions for the students in their program. They hypothesized that they could achieve
+these outcomes by increasing students’ sense of belonging to the school community, working with
+staff to unpack biases, adjusting school policies that deal with how suspensions are approved, and
+explicitly teaching coping skills and strategies to students with academic and behavioral needs. In
+2019, prior to participating in the NIC, only 37% of students in Anchor had 90% attendance rates,
+compared to 71% of general education students. By June of 2023, after careful implementation
+and adjustment of these strategies, that number had increased from 37% to 63%. Over the same
+time period, the students in Anchor who were suspended one or more days decreased from 76% to
+40%, and the average suspension duration decreased from 3.8 days to 1.5 days. Mastery’s impact
+continues to trend positively, showing further improvements in the first semester of the 2023–24
+school year in attendance rates and ongoing reduction in days of suspensions for students in Anchor.
+Though the Anchor program is comprehensive, the practices that Mastery has implemented are
+accessible to schools and networks of all sizes and could be put into place individually rather than
+all at once. When done well, each of these practices can lead to positive outcomes for students
+with disabilities and for the overall student population. Considering the key lever of ensuring that all
+students feel a sense of belonging and that this target population spends at least some time away
+from the general education setting, implementing peer-to-peer mentorship is a way to build important
+connections, foster a sense of community, and support leadership growth for mentors. Additionally,
+explicitly teaching behavioral skills throughout the year can lead to life-long learnings that are
+transferable across groups and settings. As one student in the Anchor program shared, “Here I can
+be motivated to do the right thing... When my non-Anchor peers get in trouble, I tell them to use the
+things [our counselor] tells us, like calm down and get water or something... I think I will still use what
+Anchor is teaching me throughout my life.”
+
+6.3
+
+CO NCL US ION
+
+Anchoring
+Emotions
+
+Key Takeaways
+IT IS POSSIBLE TO SERVE STUDENTS WITH EMOTIONAL AND BEHAVIORAL
+DISABILITIES IN NEIGHBORHOOD SCHOOLS.
+Too often, schools push out students with emotional and behavioral disabilities to more restrictive
+settings. Yet Anchor demonstrates that many of these students can thrive in traditional schools
+alongside their peers. When schools rethink their policies and interventions to maximize inclusion – and
+educators embrace aligned mindsets, habits, and beliefs – it is possible to create an environment that
+sets up students with emotional and behavioral disabilities for success.
+DATA IS A KEY LEVER IN SUCCESSFULLY SUPPORTING STUDENTS.
+The use of timely, relevant data is crucial in ensuring that all students are receiving the support that they
+need. Too often, schools fall into the trap of infrequent monitoring and static support, leaving students
+stuck at a support level that no longer meets their needs. By using shorter data cycles and fluid resource
+allocation, schools can ensure that their model fits their students, instead of trying to force all students
+into a pre-existing model. As students’ quantitative and qualitative data demonstrate progress, they can
+be gradually integrated into less restrictive environments within their neighborhood school setting.
+CHANGING THE CULTURE CAN DISRUPT THE STATUS QUO.
+The school-to-prison pipeline is pervasive and disproportionately affects students with emotional and
+behavioral disabilities. Only by shifting the culture of how we see and treat students can we begin
+to disrupt the status quo. Programs that focus on acknowledging and eliminating bias in classroom
+discipline, policies that favor additional support rather than longer suspensions, and mentorship
+programs that encourage students to attend school more frequently are all ways that schools can begin
+to change this culture.
+
+The practices laid out in this collection are examples of how
+a school has dedicated time, personnel, and resources to
+addressing inequity within its community.
+Not all schools will be able to make all of these shifts, especially considering the multitude
+of challenges that each individual school faces. However, it is crucial that schools push
+themselves to ensure that each of their students is being supported and that students’
+needs are being addressed regardless of what has been done in the past. Perhaps that
+looks like using data more frequently in evaluating the level of support students receive.
+Perhaps it involves mentorship. Or perhaps this collection provides inspiration for a new
+program. Start by asking, “Which of our students are we failing to serve?” and then make
+a plan for how to start.
+
+6.4
+
+CO NCL US ION
+
+Anchoring
+Emotions
+
+Appendix
+Notes
+1
+
+Grindal et al., “Racial Differences”
+
+2
+
+Achilles, Mclaughlin, and Croninger, “Sociocultural Correlates”; Anderson, “The Relationship
+between Inclusion, Absenteeism, and Disciplinary Outcomes”; Bowman-Perrott et al., “Patterns
+and Predictors”
+
+3
+
+Mastery Schools, “Specialized Services”
+
+Bibliography
+Achilles, Georgianna M., Margaret J. Mclaughlin, and Robert G. Croninger. “Sociocultural Correlates
+of Disciplinary Exclusion Among Students with Emotional, Behavioral, and Learning Disabilities
+in the SEELS National Dataset.” Journal of Emotional and Behavioral Disorders 15, no. 1
+(2007): 33–45. https://doi.org/10.1177/10634266070150010401
+Anderson, Kaitlin P. “The Relationship Between Inclusion, Absenteeism, and Disciplinary Outcomes for
+Students with Disabilities.” Educational Evaluation and Policy Analysis 43, no. 1 (2021): 32–59.
+https://doi.org/10.3102/0162373720968558
+Bowman-Perrott, Lisa, Michael R. Benz, Hsien-Yuan Hsu, Oi-Man Kwok, Leigh Ann Eisterhold, Dalun
+Zhang. “Patterns and Predictors of Disciplinary Exclusion Over Time: An Analysis of the SEELS
+National Data Set.” Journal of Emotional and Behavioral Disorders 21, no. 2 (2013): 83–96.
+https://doi.org/10.1177/1063426611407501
+Grindal, Todd, Laura A. Schifter, Gabriel Schwartz, and Thomas Hehir. “Racial Differences in Special
+Education Identification and Placement: Evidence across Three States.” Harvard Educational
+Review 89, no. 4 (2019): 525–553. https://doi.org/10.17763/1943-5045-89.4.525
+Mastery Schools. “Specialized Services.” Accessed March 15, 2024. https://masterycharter.org/
+specialized-services/
+
+6.5
+
+CO NCL US ION
+
+Anchoring
+Emotions
+
+The Networked Improvement Community for Students with
+Disabilities (NIC), a group of 10 public charter school networks
+serving more than 75,000 students nationwide, identified the
+best practices through their work between 2019 and 2023.
+Led by Marshall Street at Summit Public Schools, in partnership
+with technical assistance providers NIRN, RTI International,
+SRI International, and SWIFT Education Center, the purpose
+of the three-year NIC was to systematically improve the way
+our education system serves Black and Latinx students with
+disabilities experiencing poverty and share these solutions with
+school systems everywhere.
+This report is funded by the Bill & Melinda Gates Foundation.
+The findings and conclusions contained within are those of the
+authors and do not necessarily reflect positions or policies of the
+Bill & Melinda Gates Foundation.

@@ -1,0 +1,135 @@
+Common Barriers and Pitfalls
+in Repeated Reading
+Every team hits barriers to successful repeated reading implementation. Those barriers shift as
+implementation deepens, from mindsets and buy-in to skill development and consistency.
+Browse the General Guidance section for broad direction, or use the Common Barriers table
+below to match a specific barrier to a strategy.
+
+General Guidance
+If you are...
+
+Do this...
+
+new to routine data cycles
+
+review the practice chapter and training deck.
+
+already implementing but need
+to build capacity around specific
+components of the practice
+
+review the common barriers and associated
+strategies/resources (found here and in the
+training deck).
+
+ready to spread and scale
+
+focus on enabling conditions systems.
+
+Common Barriers
+MOST COMMON BARRIERS
+
+PREVENTION AND MITIGATION
+STRATEGIES AND RESOURCES
+
+Limited strategies for giving
+student feedback or
+supporting peer feedback
+
+Review the sentence stems in the chapter (p. 4.17)
+Provide modeling and practice in giving peer feedback
+during training sessions (p. 4.16)
+Use the Repeated Reading Protocol for coaching
+students on error types and correction routines (p.
+4.28–4.29)
+Review the resource on student feedback guidance
+
+Difficulty implementing routine
+in the context of a whole-class
+environment
+
+Implement peer partner variation to scale up for
+groups (p. 4.11)
+Train additional staff to support the spread of
+implementation - review the Protocol for Staff
+Supporting Repeated Reading
+Use the Practice Snapshot: Noble Schools to see
+fluency embedded into content-area classrooms (p.
+4.5–4.7)
+Review Scaling Repeated Reading to Whole-Class,
+Whole-School Implementation
+Review Implementing Repeated Reading Across
+Multiple Tiers of Support
+
+Unable to deliver the routine
+consistently due to a lack of
+protected time
+
+Use the Recommended Time Allocation section to
+advocate for fluency block integration (p. 4.9)
+Build a schedule to plan the frequency and
+expectations (e.g., 3x/weekly) for the delivery of the
+intervention
+Use planning calendars to account for short weeks or
+testing interruptions (p. 4.8)
+
+Need more strategies for
+boosting student motivation
+
+Use goal setting, progress tracking, and fluency
+graphs to boost ownership (p. 4.18)
+Use progress visuals (cold vs. hot reads) to celebrate
+growth with students, and where appropriate, families
+Leverage motivational framing and student
+conferencing as outlined in the engagement section
+(p. 4.13)
+
+Lack of knowledge on how to
+adapt the routine for different
+students
+
+Use student data to determine which variation of the
+practice is most appropriate (peer vs. teacher-led) (p.
+4.10)
+Adjust the number of rereads, support tools, and
+pacing based on student need (p. 4.12)
+Provide visual tracking aids and adjust passage length
+if needed (p. 4.19)
+
+Difficulty tracking or using
+fluency data to inform
+instruction
+
+Use data trackers or simple bar graphs with students,
+such as the progress monitoring graph for cold/hot
+reads (p. 4.18)
+Schedule fluency data huddles every 6–8 weeks to
+analyze trends (p. 4.21)
+
+Lack of appropriate materials
+or passages
+
+Use Intervention Central’s Reading Fluency Passage
+Generator to convert grade-level texts into fluency
+passages (p. 4.12)
+Select short excerpts from existing curriculum
+(200–350 words) (p. 4.12)
+Use AI tools to simplify or adapt content-based texts
+while maintaining rigor - review Leverage AI to build
+fluency passages
+
+Starting Strong
+All schools hit obstacles when starting new
+practices. Use the Enabling Conditions Guide to
+strengthen the minimum conditions necessary for the
+practice’s successful adoption and improve your
+school’s chance of success.
+
+This tool was developed by Marshall Street in
+partnership with educators across the IGNITE
+Network and reflects adaptations and
+innovations from the field.
+It is part of the growing Research to Impact
+Practice toolkit, a set of tools developed as
+IGNITE Network resources, to advance
+outcomes for historically underserved students.

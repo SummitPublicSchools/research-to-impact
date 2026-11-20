@@ -1,0 +1,1746 @@
+Repeated Reading:
+Building Oral
+Reading Fluency
+in Secondary
+Readers
+A RESEARCH-TO-IMPACT PRACTICE DEVELOPED WITH
+THE NETWORKED IMPROVEMENT COMMUNITY
+FOR STUDENTS WITH DISABILITIES
+
+TA BLE O F C O N T E N T S
+4.3............ Practice Overview
+4.3 | What is the Practice?
+4.4 | Why is Repeated Reading Important?
+
+4.5............ Bringing this Practice to Life
+4.8............ Implementation at a Glance
+4.8 | Enabling Conditions
+4.9 | Steps to Implement
+
+4.10.......... How to Implement this Practice
+4.10 | Lay the Groundwork for the Practice
+4.10 | Step 1: Use Data to Identify Students Who Would Benefit
+from Repeated Reading
+4.11 | Step 2: Choose a Repeated Reading Variation and Setting
+4.12 | Step 3: Assign Partners (if Using Repeated Reading with a Peer Partner)
+4.12 | Step 4: Choose Texts and Create Passages
+4.13 | Step 5: Create a Plan to Explicitly Build Student Motivation and Engagement
+4.13 | Put Repeated Reading into Practice
+4.13 | Step 6: Introduce the Purpose and Routine for Repeated Reading
+4.16 | Step 7: Train Students and Staff in Routines for Repeated Reading
+4.18 | Step 8: Conduct Repeated Readings with Students
+4.21 | Monitor the Effectiveness of the Intervention
+4.21 | Step 9: Analyze Student Progress
+4.22 | Practice Snapshot: Exploring Additional Settings for Repeated Reading
+
+4.24.......... Summary
+4.25.......... Appendix
+4.26 | How to Measure
+4.28 | PRACTICE TOOL: Repeated Reading Protocol
+4.30 | Notes
+4.30 | Bibliography
+
+Building Oral Reading
+Fluency in Secondary
+Readers
+Implementation Level
+
+Who Implements
+
+District/Central Office
+
+Teacher(s)
+
+School
+
+Instructional Coach
+
+Program/Department
+
+Principal
+
+Classroom
+
+Central Office Leadership
+Specialist
+
+Practice Overview
+What is the Practice?
+Brief, structured, repeated reading protocols, coupled
+with goal setting and progress monitoring, practiced
+at least three times per week to increase oral reading
+fluency in secondary readers.
+
+4.3
+
+What is reading
+fluency?
+Reading fluency is generally
+defined as accurate reading of
+connected text at a conversational
+rate with adequate prosody.1
+Reading fluency is made up of three
+key elements: accuracy (reading
+the words correctly), rate (reading
+the words at a conversational rate),
+and prosody (reading the words
+with expression).
+
+BUI L DI NG OR A L R E A D IN G F L U EN CY IN S E C ON D A RY R E A D E R S
+
+Literacy
+
+Why is Repeated Reading Important?
+Repeated reading directly builds oral reading fluency skills, which has the potential to unlock access
+to grade level content for students. Fluent, accurate, and automatic word reading is strongly correlated
+with reading comprehension, or the ability to make meaning from text, which is the ultimate goal of
+reading.2 This is in part because, when readers process connected text smoothly and automatically,
+cognitive resources such as working memory are freed up to devote attention to comprehension rather
+than to lifting the words off the page.3 Conversely, the difficult work of slow, effortful decoding taxes a
+reader’s working memory capacity, diminishing their ability to understand the content.4
+Because of this, secondary students who are not yet reading text fluently and automatically often have
+difficulty engaging with the rigor required to meet secondary ELA standards. What’s more, students
+with reading disabilities are more at risk for presenting with difficulties in reading fluency,5 and the
+subsequent lack of participation in grade-level reading instruction can contribute to the achievement
+gap between students with disabilities and their typically developing peers.6
+Repeated reading is one of the most studied and validated methods for increasing reading fluency and
+overall reading proficiency. The application of this practice to authentic, grade-level texts — whether
+through a partner reading protocol or a 1:1 teacher-directed protocol — has strong potential to increase
+access to and comprehension of grade-level texts for students with and without disabilities.
+
+Why It Works
+READING FLUENCY IS CORRELATED WITH
+READING COMPREHENSION.
+Oral reading fluency has been consistently shown
+to correlate with students’ ability to comprehend
+both simple and complex texts at all levels.7
+READING FLUENCY CAN BE POSITIVELY
+INFLUENCED BY INSTRUCTION.
+Encouragingly, reading fluency has consistently
+been proven to be responsive to explicit and
+targeted intervention, and repeated oral reading,
+partner reading, and goal setting with progress
+monitoring are all proven, effective instructional
+strategies for developing reading fluency in
+adolescent readers with disabilities.8
+
+Keep in mind...
+Though reading fluency interventions have
+been proven to have a positive impact
+on oral reading fluency and, ultimately,
+on reading comprehension, they are
+insufficient to meet the myriad reading
+needs that secondary students with
+disabilities might present. This subgroup
+often includes students who may have
+needs in decoding, multisyllabic word
+reading, vocabulary, syntactic knowledge,
+and other literacy skills. See Guiding
+Literacy Interventions Through Tiered
+Assessment for guidance on identifying
+specific reading needs for the purposes of
+instruction and intervention programming.
+
+REPEATED ORAL READING
+IS HIGHLY EFFECTIVE.
+Repeated reading interventions for students with learning disabilities are associated with improvements
+in reading rate, accuracy, and comprehension.9 A recent review of the literature suggests that repeated
+reading is the most effective intervention for improving reading fluency in students with disabilities.10
+This is not only true in the primary grades. While many studies of foundational reading instruction
+do focus on the primary grades, repeated reading has been shown to have a positive impact on oral
+reading fluency specifically with secondary students.11
+
+4.4
+
+BUI L DI NG OR A L R E A D IN G F L U EN CY IN S E C ON D A RY R E A D E R S
+
+Literacy
+
+Bringing this Practice to Life
+INTEGRATING REPEATED READING INTO CONTENT COURSES
+AT NOBLE SCHOOLS
+Noble Schools, a public charter network in Chicago, IL, set out to dramatically improve student reading
+skills across their high school campuses. Noble teachers collaborated with the Networked Improvement
+Community (NIC) professional learning community to learn and apply evidence-based reading interventions
+in core classes to support students to learn skills to improve their reading while learning course content. The
+following case study highlights the efforts of one co-teaching pair at Chicago Bulls College Prep to embed
+the repeated reading practice in their World History course.
+
+Each day at Chicago Bulls College Prep, a school within the Noble Schools network, Megan, a
+learning specialist, welcomes 10th grade students to their co-taught World History class. She
+previews the topic of the day’s reading and reminds students of the protocol for repeated partner
+reading. She thanks several students by name for their attention and preparation, while Derek, a
+content area specialist, quickly reassigns students whose partners are absent.
+Megan prompts the students who will read first to raise their hands, and a calm settles over the
+classroom. When she announces the starting commands — “Ready...Set...Go!” — a cacophony
+of reading voices fills the room. One hundred percent of student eyes are glued to the text, which
+is connected thematically to the current unit. Students are either reading the passage aloud or
+monitoring while their partners read. After one minute, students provide feedback to their partners
+(skipped or misread words, for example), calculate and record a rate and accuracy score, and
+switch roles. The entire procedure is wrapped up in eight minutes, after which Megan and Derek
+transition to the content-focused objectives for the day’s lesson.
+
+4.5
+
+BUI L DI NG OR A L R E A D IN G F L U EN CY IN S E C ON D A RY R E A D E R S
+
+Literacy
+
+A Routine to Support
+All Learners
+Megan and Derek implement this
+structured instructional protocol daily to
+build reading fluency in their co-taught
+course. As a former teacher of a selfcontained special education classroom,
+Megan is well-versed in evidence-based
+practices for building secondary readers’
+foundational reading skills. In her role as
+a co-teacher of general education content
+area classes, she saw that both students
+with disabilities and their peers at times
+had difficulty independently reading gradelevel texts. So, she proposed bringing the
+practices that had supported the diverse
+learners in her self-contained classroom
+into the general education environment.
+Derek understood that in order to reach
+the rigorous academic goals he had for
+his students, he would need to be not
+only a content area expert, but a teacher
+of reading as well. Thus, the idea to
+implement the reading fluency protocol
+was born.
+To implement the fluency protocol, Megan
+and Derek first choose a passage that
+is related to the content in their current
+World History unit and written at a
+Lexile level accessible for the students
+in the class. They then utilize the Oral
+Reading Fluency Passage Generator
+from Intervention Central to translate
+the passage into a curriculum-based
+measurement that includes the total
+number of words per line at the end
+of each line. This supports students in
+calculating a total score (“correct words
+per minute” or CWPM) for their partners.
+
+4.6
+
+School Spotlight
+Students in Noble Schools take a universal
+screening assessment at the beginning and
+end of the school year using one of several
+approved reading assessment platforms: SRI,
+Star Reading assessment, or Achieve3000
+LevelSet. Students with disabilities also take
+a mid-year assessment. Noble campuses in
+the Networked Improvement Community used
+LevelSet as their universal screening tool,
+which provides a Lexile score for each student.
+This numeric score represents both a reader’s
+ability on the Lexile scale and the level of text
+a reader is likely to comprehend.14 Knowing
+students’ Lexile levels helps Megan and Derek
+strategically choose texts that are likely to be
+challenging, yet accessible, for most students.
+
+Example passage used for partner reading in Megan and
+Derek’s World History class. The original opinion article by
+Jamal Khashoggi was published in The Washington Post
+on September 18, 2017.
+
+BUI L DI NG OR A L R E A D IN G F L U EN CY IN S E C ON D A RY R E A D E R S
+
+Literacy
+
+During the
+instructional protocol,
+students take turns
+reading the passage
+in partners. While
+one partner reads,
+the other listens,
+provides feedback on
+the reader’s errors,
+and calculates
+a CWPM score.
+Partners switch and
+repeat the process,
+and the protocol
+ends with students
+graphing their CWPM
+scores.
+Oral reading fluency goal and progress tracker used in
+Megan and Derek’s World History class
+
+After the partner
+reading, the class
+works as a whole
+group through words
+
+that were challenging to decode. The protocol ends with the teacher or a student volunteer
+modeling a fluent reading of the full text. Hearing a model of fluent reading supports the
+development of reading fluency when partnered with repeated reading,12 and reading the text
+aloud ensures that all students have equal access to the vocabulary and concepts from the text,
+regardless of their independent reading ability.13
+
+Seeing Results of Reading Practice
+While the fluency protocol took some time to roll-out to students, Megan and Derek have built
+proficiency with the routines so that it takes an average of six minutes to complete. The impact of
+this small investment of time has been to level the playing field between students with disabilities
+and their peers: students with IEPs in Megan and Derek’s co-taught World History class
+demonstrated beginning- to end-of-year Lexile growth commensurate with students
+without IEPs. As a result of this success, Noble Schools has started to spread this practice
+through professional development designed and delivered by Megan and Derek. (See Enhancing
+Educator Capacity to Implement Evidence-Based Reading Interventions for Secondary
+Readers for more information on this professional development.)
+
+4.7
+
+BUI L DI NG OR A L R E A D IN G F L U EN CY IN S E C ON D A RY R E A D E R S
+
+Literacy
+
+BUILDING ORAL READING FLUENCY IN SECONDARY READERS
+
+Implementation at a Glance
+The information in this section provides a high-level view of what to consider when implementing this
+practice. Enabling Conditions describes the minimum conditions needed for successful implementation,
+including resources, mindsets, staffing, and recommended time allocation. Steps to Implement presents
+a concise checklist of action items, which are explained in detail in the following section.
+
+Enabling Conditions
+
+Prerequisites
+
+INFRASTRUCTURE
+Assessment structures exist to identify students most likely to benefit from this protocol:
+– A universal screening assessment to identify students at risk of not meeting grade-level
+ELA benchmarks and/or standards
+– Diagnostic assessments that identify which students within that group have adequate word
+recognition skills, but low rates of reading fluency
+
+CULTURE AND KNOWLEDGE
+Teacher belief that supporting foundational reading skills is the teacher’s role, and basic
+understanding of the relationship between reading fluency and overall reading proficiency
+
+Staff
+Commitment
+
+Recommended
+Materials
+
+Teacher agency to plan and implement reading interventions within existing classes/schedules;
+i.e., teachers have the autonomy to both plan for literacy interventions based on student need and
+to determine when and where in the instructional day those interventions are best scheduled.
+
+4.8
+
+Passages from grade-level course content to be used for repeated reading practice or as
+curriculum-based measurements
+Timers
+Calculators (for calculating rate and accuracy)
+Progress monitoring graphs
+In addition, a suite of evidence-based reading interventions may enhance the practice by
+addressing student needs across the components of reading.
+
+Dedicated staff members to enact repeated reading practice based on variation selected
+Instructional coach to provide ongoing coaching and implementation support for repeated
+reading
+Designated team to monitor effectiveness of the practice based on student data and make
+adjustments to intervention planning
+
+BUI L DI NG OR A L R E A D IN G F L U EN CY IN S E C ON D A RY R E A D E R S
+
+Literacy
+
+Recommended Time Allocation
+
+CENTRAL AND SCHOOL LEADERSHIP (INCLUDING TEACHER LEADERS)
+Time to develop and implement training (1 hour initial training plus time for development)
+Time to support data-based instructional decision making. This includes identifying the
+students likely to benefit from this practice. If the practice is being implemented as a Tier 2 or
+3 intervention, the student support team should monitor responsiveness to support ongoing
+intervention planning
+
+TEACHERS
+Time to participate in training
+Time to implement the intervention with students, ideally 3 times/week, 5–10 minutes per reading
+Time to participate in data-based instructional decision making (i.e., review progress monitoring
+data, plan intervention adjustments based on student progress, and document decisions)
+
+Steps to Implement
+Throughout the year, school teams complete the following steps to implement an oral reading fluency
+intervention practice.
+LAY THE GROUNDWORK
+Use data to identify students who would benefit from repeated reading
+Choose a repeated reading variation and setting
+Assign partners (if using repeated reading with a peer partner)
+Choose texts and create passages
+Create a plan to explicitly build student motivation and engagement
+PUT REPEATED READING INTO PRACTICE
+Introduce the purpose and routine for repeated reading
+Train students and staff in routines for repeated reading
+Conduct repeated readings with students
+MONITOR THE EFFECTIVENESS OF THE INTERVENTION
+Analyze student progress
+
+4.9
+
+BUI L DI NG OR A L R E A D IN G F L U EN CY IN S E C ON D A RY R E A D E R S
+
+Literacy
+
+BUILDING ORAL READING FLUENCY IN SECONDARY READERS
+
+How to Implement
+There are two primary variations of this reading fluency practice:
+1. repeated reading with a peer partner
+2. repeated reading with a teacher
+Both variations can be implemented across a variety of instructional settings, such as specialized small
+groups, 1:1 pull-outs, or general education settings taught by a single teacher or teaching team. (See
+the case study, Practice Snapshot: Exploring Additional Settings for Repeated Reading, at the
+end of this chapter for additional implementation ideas.) Implement the practice a minimum of three
+times per week, 5–10 minutes at a time.
+
+Lay the Groundwork for the Practice
+This practice requires several pre-implementation steps.
+
+Step 1: Use Data to Identify Students Who Would Benefit
+from Repeated Reading
+Use data from universal screening and diagnostic assessments to identify students who are likely to
+benefit from repeated reading (See Guiding Literacy Interventions Through Tiered Assessment for
+more guidance.)
+Identify students who display a combination of the following:
+• poor performance on grade-level assessments of reading comprehension
+• mastery of basic word-reading skills (i.e., students know the relationships between letters and
+sounds and are able to apply this knowledge to read isolated words)
+• slow (fewer than 120 correct words per minute) and/or inaccurate (below an accuracy rate of 95%)
+reading of grade-level texts
+
+Green Dot team reviews literacy data tools at a NIC convening
+
+4.10
+
+BUI L DI NG OR A L R E A D IN G F L U EN C Y IN S E C ON D A RY R E A D E R S
+
+Literacy
+
+Step 2: Choose a Repeated Reading Variation and Setting
+Choose a variation to implement using the following considerations to guide decision making:
+
+Variation 1: Repeated Reading
+
+Variation 2: Repeated Reading
+
+with a Peer Partner
+
+with a Teacher
+
+BENEFITS
+Repeated reading with a peer partner
+allows students to practice reading in a
+socially supportive context.
+Partner reading can serve more
+students simultaneously, as one teacher
+can monitor multiple partners at the
+same time.
+
+POTENTIAL DRAWBACKS
+Students may be less accurate than an
+adult in calculating rate and accuracy.
+Students may be less consistent than
+an adult in noticing errors and providing
+corrective feedback.
+
+BENEFITS
+While research does support partner
+reading as an effective strategy for
+building fluency, reading to an adult
+has been shown to be more effective.
+
+POTENTIAL DRAWBACKS
+Some students might find it
+stigmatizing to receive 1:1 instruction
+that is “different” from the core
+instruction.
+In 1:1 settings, students miss the
+benefits of cooperative learning
+structures offered in small and whole
+group settings.
+
+Once the variation has been selected, determine the setting in which to implement the practice.
+Possible settings could include:
+• Co-taught content area classrooms
+See Bringing this Practice to Life, above
+• Reading intervention class for students with IEPs
+See Practice Snapshot: Exploring Additional Settings for Repeated Reading, below, for an
+example from Uncommon Charter High School
+• Reading intervention class for students with and without IEPs
+See Practice Snapshot: Exploring Additional Settings for Repeated Reading, below, for an
+example from Green Dot Public Schools
+• As a pull-out from any class within a learning center or other space designated for pull-out
+specialized services
+
+4.11
+
+BUI L DI NG OR A L R EA D IN G F L U E N C Y IN S E C ON D A RY R E A D E R S
+
+Literacy
+
+Step 3: Assign Partners (if Using Repeated Reading with a
+Peer Partner)
+When implementing repeated reading with a peer partner, first determine how students will be paired.
+Use data from a universal screener or diagnostic assessments to rank order students according to their
+reading levels. Divide the rank-ordered group in half, and pair students in the higher-performing half
+with students in the lower-performing half. For example, pair the student with the highest reading level
+with the student with the highest reading level in the lower half of the group. This strategy allows for the
+lower-performing readers to hear a higher-performing reader read the text first.
+After assigning partners, designate the first reader (Student A) and the second reader (Student
+B) within each pair. Student A will always be the partner with the higher reading level. Reassign
+partnerships every 3–4 weeks.
+
+Example of Student Pairing and Role Assignments Based on Reading Level
+Student Pairs
+
+Student A
+
+Lexile
+
+Student B
+
+Lexile
+
+Pair A
+
+Miguel
+
+1150L
+
+Tran
+
+880L
+
+Pair B
+
+James
+
+1080L
+
+Latasha
+
+840L
+
+Pair C
+
+Danielle
+
+1000L
+
+Tiffany
+
+820L
+
+Pair D
+
+Brittney
+
+920L
+
+Carl
+
+800L
+
+Step 4: Choose Texts and Create Passages
+The purpose of developing reading fluency is to
+support students in reading and understanding
+Intervention Central’s Oral Reading
+grade-level texts. As such, the ideal texts for
+Fluency Passage Generator allows
+practice contain mostly words that students
+educators to copy and paste any text to
+create a curriculum-based measurement of that
+can read correctly, but also contain some
+content. The CBM version will have a total word
+challenging words that require practice in order
+count at the end of each line of text, aiding the
+to read fluently. These should be grade-level
+calculation of rate and accuracy for progress
+texts and can come from any content area (e.g.,
+monitoring purposes.
+science, social studies, or a novel from the
+English Language Arts class). Passages should
+be between 200 and 350 words long, and
+should be changed regularly — weekly or after several uses. See the Further Learning section of this
+chapter for more guidance on text selection.
+Convert the selected passage to a curriculum-based measurement (or CBM, a passage that shows the
+word count at the end of each line of text) to facilitate the calculation of rate and accuracy scores.
+
+4.12
+
+BUI L DI NG OR A L R E A D IN G F L U EN C Y IN S E C ON D A RY R E A D E R S
+
+Literacy
+
+Step 5: Create a Plan to Explicitly Build Student
+Motivation and Engagement
+Secondary learners who are not yet reading proficiently have often established a self-concept of
+being incapable readers. This low sense of self-efficacy can manifest as reluctance to participate in
+instructional activities with which these students have not historically been successful. To proactively
+address this, educators can create a plan for sharing the purpose and process of the oral reading
+fluency intervention with students, along with the rationale for their assignment to the intervention. This
+can be done as a whole class, in small groups, or one-on-one with students.
+When first introducing the intervention to students, leverage the theory of malleable intelligence to
+explain how practicing reading can build their reading brains and ultimately make reading a less
+effortful, more productive, and more enjoyable experience. As part of this process, ask students to set
+longer-term goals for themselves as readers, such as goals for the school year, for their educational
+career, or for life. This can help them visualize their long-term goals and connect the short-term
+intervention to their bigger picture.
+Student conferencing during the intervention launch or during progress monitoring activities also
+helps build motivation and engagement and can involve students in goal-setting activities. Educators
+can use these 1:1 conferences to share baseline data with students to support them in developing
+goals for progress, and later to train students to reflect on their goals and progress over time. (See
+Strengthening Timely Interventions through Goal Setting and Progress Monitoring for more
+guidance on student conferencing).
+
+Put Repeated Reading into Practice
+Research suggests that fluency protocols, whether conducted with an educator or with a peer
+partner, can positively impact student reading, even when delivered in short increments of 5–10
+minutes. Protocols should be implemented at least three days per week. A printable protocol for
+repeated reading can be found in the Appendix.
+
+Step 6: Introduce the Purpose and Routine
+for Repeated Reading
+When launching the practice, whether as a partner-based reading activity or 1:1 with an adult, explicitly
+naming the purpose and providing an overview of the routine to students will directly support buy-in
+and investment. This step ensures students understand what the activity is and why they are doing it.
+Though the actions in this step differ by variation, both variations specifically address:
+• what the repeated reading practice is;
+• who is involved;
+• when, where, and how the practice will happen; and
+• why the students are doing repeated reading practice.
+
+4.13
+
+BUI L DI NG OR A L R E A D IN G F L U EN C Y IN S E C ON D A RY R E A D E R S
+
+Literacy
+
+Variation 1: Repeated Reading
+
+Variation 2: Repeated Reading
+
+with a Peer Partner
+
+with a Teacher
+
+As a whole group, provide an introductory
+overview of the practice that shares what the
+practice is, as well as information about how it will
+happen. An introduction may sound like this:
+
+“We’re starting a new practice — repeated
+reading with a partner. This practice will
+include reading a passage from our World
+History textbook, practicing reading the passage
+several times, and timing ourselves both the
+first time we read the passage and again after
+we’ve practiced several times. We will practice
+repeated reading three times a week.”
+
+Share the purpose and larger intention of the
+repeated reading practice with the group:
+
+“The point of this activity is to help us
+become stronger readers and to help us
+better understand what we are reading. Often,
+the first time we read something, it can be
+difficult to read new words and big words that
+we haven’t seen before. We spend a lot of our
+brain’s energy trying to read those words, and
+we don’t have much energy left over to think
+about what the words mean. I know that’s
+true for me when I’m reading a new, complex
+text. When we practice reading something
+a few times, those words get easier, and we
+can think more about the meaning of the text.
+(Continued on following page)
+
+4.14
+
+When first meeting with the student for repeated
+reading practice, share what is happening and
+when and where it will occur. An introduction may
+sound like this:
+
+“I’m excited to be working with you three
+times a week for a reading skill routine.
+It will usually take about 10 minutes from
+the time we meet up in your classroom to
+the time we wrap and send you back into the
+room. Each day, we’ll read a passage together
+several times and record how many words you
+read each time so we can keep track of your
+progress.”
+
+Share with students why they are doing this
+intervention and answer questions that may arise:
+
+“We wanted to offer this reading practice to
+you to strengthen your reading skills and
+build your confidence as a reader. We know
+that, often when we first read passages, it can
+be difficult to read new words and larger words
+we haven’t seen before. We also saw from
+your reading tests that you have a lot of skill
+and strengths as a reader that we can unlock
+with some small, purposeful practice. Our plan
+is to try this reading practice together for the
+first quarter of our school year, and then look
+at your data to see what progress you are
+making. From there, we’ll make a plan with
+you for what we do next.”
+
+BUI L DI NG OR A L R E A D IN G F L U EN C Y IN S E C ON D A RY R E A D E R S
+
+Literacy
+
+I think about this like learning to navigate a
+new city. When I first moved to Los Angeles,
+I hardly noticed my surroundings as I drove
+around. I was so focused on figuring out where
+to turn next, making sure I didn’t miss my
+exit, etc. etc. But after I practiced driving the
+same routes over and over, it became (cont.)
+automatic. I didn’t have to think about where to
+turn or exit anymore, and I could start paying
+attention to what was around me.”
+
+After this introduction, teachers can consider
+goal setting activities for the practice, such as
+creating a class goal for progress, to create shared
+investment in reading growth.
+
+Finally, talk with the student about setting one
+or more goals for the repeated reading practice
+that you will review together daily or weekly. Set an
+initial goal for the student’s improvement in reading
+rate and accuracy from the cold read to the hot read.
+To begin, consider starting with a goal to increase by
+at least 30 CWPM. Write the student’s goal on their
+progress monitoring graph.
+If, after implementing the practice with 3–4 passages
+and practicing each passage 3–5 times, the student
+is not achieving the initial goal, talk with the student
+about adjusting the goal down.
+If the student easily achieves the goal with only one
+practice, adjust the goal up.
+
+Uncommon team members review data together to plan intervention next steps
+
+4.15
+
+BUI L DI NG OR A L R E A D IN G F L U EN C Y IN S E C ON D A RY R E A D E R S
+
+Literacy
+
+Step 7: Train Students and Staff in
+Routines for Repeated Reading
+
+CALCULATING
+RATE: COLD VS.
+HOT READS
+
+Once the purpose of the practice has been established with students,
+A “cold read” is a student’s first
+take time to train them explicitly in the routines of repeated reading.
+attempt at reading a particular
+passage. A “hot read” is their
+If students are doing this practice with peers, there will be more
+final reading, which comes
+training and practice needed to develop proficient partnerships in the
+after repeated practice
+practice. If working with students in a 1:1 setting, it is most important
+readings.
+to make sure the staff leading the intervention, such as a teacher or
+paraeducator, are well trained in how to run the routines and how
+to guide students through them in ways that build students’ confidence and independence as readers.
+When training students and staff in the repeated reading routine, use materials like step cards, written
+directions, and sentence stems to support students in each component of the routine they are learning.
+
+Variation 1: Repeated Reading
+
+Variation 2: Repeated Reading
+
+with a Peer Partner
+
+with a Teacher
+
+If introducing repeated reading for the first time, or
+after a long break, train students in the following
+aspects of the practice:
+• recording mistakes during the “cold” and “hot”
+reads
+• providing feedback during practice reads
+• calculating rate and accuracy
+• graphing results
+• transitioning to partner assignments
+Recording mistakes during the cold and hot
+reads: Provide students with opportunities to
+practice recording mistakes. Read a passage aloud
+as students follow along with their own copy of the
+text. Make several errors as you read. At the end
+of one minute, give students an opportunity to add
+up the total words read and the total errors made.
+Discuss their responses.
+Providing corrective feedback: Feedback on errors
+is an essential component of an effective repeated
+reading practice. You might tell students:
+
+4.16
+
+In a 1:1 setting, the staff member leading the
+intervention will need to understand:
+• how to record mistakes during the “cold” and “hot”
+reads, and
+• how to provide feedback during practice reads.
+A professional development session in advance of the
+roll out is the best setting for this initial training, which
+should be paired with opportunities to observe and/or
+practice with colleagues or students for feedback.
+The facilitating teacher or staff member will subsequently
+train the student in the steps of the practice, often
+in a way that increases student ownership and
+independence with the routine over time.
+Students will need training on:
+• calculating their own rate and accuracy, and
+• graphing their results.
+Recording mistakes during the cold and hot reads:
+Staff members will need to understand and practice
+how to record mistakes as they follow along with
+readers, as well as how to calculate the total words
+read and total errors made. It is often beneficial to mark
+the type of errors students make, such as a substitution
+
+BUI L DI NG OR A L R E A D IN G F L U EN C Y IN S E C ON D A RY R E A D E R S
+
+Literacy
+
+When you are reading aloud, you will likely
+make some mistakes. This might be reading
+a word incorrectly, skipping a word, or adding
+a word. Because we’re practicing reading
+challenging texts, this will happen to all of us
+at some point in our practice. Your partner
+is responsible for listening and giving you
+feedback if they hear a mistake.
+
+Give students sample language for providing
+feedback on the specific types of errors that they
+might notice. To practice using the sample language,
+provide students with a copy of a passage. Read the
+passage aloud, intentionally making several errors.
+After each error, ask students to practice telling a
+partner which feedback they should provide. Finally,
+model going back to the start of the sentence after
+correcting each error.
+Calculating rate and accuracy and graphing
+progress: Provide students with several
+opportunities to practice calculating rate (total
+words read minus total errors) and accuracy
+(words read correctly divided by total words read).
+Make calculators available to students. Provide
+opportunities for students to practice graphing both
+rate and accuracy on their progress monitoring
+graphs.
+Transitioning to partner assignments: Using the
+peer partner assignments prepared before class,
+move students into their pairings. Communicate
+who will be the first reader (Student A) and the
+second reader (Student B). Student A will always
+be the partner with the higher reading level, but do
+not explain to students why they were assigned a
+particular role.
+
+(e.g., being for bring), an omission (i.e., skipping
+the word), or skipping a line while reading. Training
+should include discussion of these errors and results,
+along with ways to teach students about the types of
+errors when regularly running the repeated reading
+intervention 1:1.
+Providing corrective feedback: Feedback on errors
+is an essential component of an effective repeated
+reading practice. Staff will need to understand how
+to prompt and cue students through errors when
+reading, as well as how to introduce this type of
+feedback to students as part of the practice. When
+talking with students, staff might say:
+
+When you are reading aloud, you will likely
+make some mistakes. This might be reading
+a word incorrectly, skipping a word, or adding
+a word. Because we’re practicing reading
+challenging texts, this is something we expect
+to happen. It happens to all of us! I will be
+acting like your reading coach to listen to you
+read and give you feedback if I hear a mistake.
+When that happens, correct the mistake and
+keep reading. Over time, you’ll get better and
+faster as a result.
+
+Calculating rate and accuracy and graphing
+progress: In the 1:1 setting, introduce the progress
+monitoring graph to students, showing them their
+goal on the graph, and guiding them through the
+steps for calculating rate (total words read minus
+total errors) and accuracy (words read correctly
+divided by total words read) each time they do a hot
+and cold read. Allow students to use a calculator to
+calculate their scores themselves, and then coach
+them through graphing their rate and accuracy on the
+progress monitoring graph.
+
+Sentence Stems for Immediate Error Feedback
+Error-specific sentence stems provide appropriate feedback to students. These can be used by
+peer partners or staff members working 1:1 with students. Examples include:
+•
+•
+•
+•
+
+The reader reads the word incorrectly: “That word is...”
+The reader skips a word or a part of a word: “You missed this word...”
+The reader adds a word: “You added a word.”
+The reader hesitates (for 3+ seconds): “That word is...”
+
+With each correction, the reader restarts the sentence to practice reading fluently and accurately.
+
+4.17
+
+BUI L DI NG OR A L R E A D IN G F L U EN C Y IN S E C ON D A RY R E A D E R S
+
+Literacy
+
+Graphing Progress with Students
+Involving students in monitoring their own progress through
+performance feedback and goal setting can increase motivation and
+lead to better academic outcomes.15
+One way to make progress visible between the cold and hot reads
+is to have students graph their rates on a stacked bar graph — the
+cold read in blue and the hot read in red on the same bar of the
+graph. Accuracy graphing can be done the same way.
+
+Step 8: Conduct Repeated Readings with Students
+Once students understand the purpose and routine of repeated reading and have been trained in the
+steps for running the practice, it is time to conduct repeated readings. Keep in mind that, as with any
+new routine, initial practice will likely result in students making mistakes, asking clarifying questions,
+and needing coaching on aspects of the training items. It can be helpful to have students try the
+repeated reading multiple times and debrief questions or celebrations at the end of each practice
+session in order to build skill and buy-in.
+
+4.18
+
+Variation 1: Repeated Reading
+
+Variation 2: Repeated Reading
+
+with a Peer Partner
+
+with a Teacher
+
+Distribute a copy of the passage to each student.
+Have students write their name and their partner’s
+name on the copy and designate which copy will be
+used for notes on each reader’s progress.
+
+Provide the student with a copy of the passage.
+Typically in the 1:1 version, student passages do not
+have word counts, while staff versions have word
+counts.
+
+Introduce the text and restate the objectives of
+the practice. Provide a brief preview of the text
+to the whole group. Remind students of their roles
+during the practice and to focus on reading the text
+accurately, smoothly, and with expression. This might
+sound like the following:
+
+Introduce the text and restate the objectives of
+the practice. Provide a brief preview of the text
+(a passage chosen from a content area text or
+selection) and remind the student to focus on reading
+the text accurately, smoothly, and with expression.
+
+BUI L DI NG OR A L R E A D IN G F L U EN C Y IN S E C ON D A RY R E A D E R S
+
+Literacy
+
+Remember, the reader will focus on
+reading accurately, quickly, and with good
+expression. The reader’s partner will listen,
+record any errors on their copy of the text, and
+tell the reader their total number of words read
+and their total number of errors. The reader will
+then calculate their own rate and accuracy on
+their graph, and then the readers will switch.
+We’re learning about the expansion of the
+Ottoman Empire this week. In this passage,
+you’ll read about the conquest of the city of
+Constantinople. Get ready to read, and begin.
+
+Revisit goals for reading practice growth in skills
+or habits, as appropriate. For example, a teacher
+might say:
+
+This week we’re reading a passage about
+the conquest of the city of Constantinople
+from your English class. You’re going to
+practice reading the text multiple times to build
+your fluency and accuracy as a reader. As you
+read, think about using the tools and strategies
+we have been practicing, like tracking with your
+pencil and using the first syllable to help you
+read the word. Start with the first word and read
+until I tell you to stop. Start when you are ready.
+
+Conduct cold reads.
+1. In partners, student A reads the passage
+aloud. Student B listens and follows along on
+a separate copy of the passage, noting reader
+errors with a slash mark.
+2. At the end of one minute, students stop
+reading. Use a one minute timer and/or teacher
+prompting to stop reading.
+3. Student B tells Student A the total number of
+words read and the number of errors. Student
+A subtracts the number of errors from the total
+number of words read to calculate a rate score
+expressed as correct words per minute, or
+CWPM. Student A also divides the CWPM by
+the total number of words read to calculate an
+accuracy score, represented as a percentage.
+This is the student’s cold read, or baseline.
+4. Student A records the baseline rate and
+accuracy scores on the progress monitoring
+graph.
+5. The students switch roles and repeat the
+process.
+Practice reading the passage: Over the course
+of the three-day protocol, students practice reading
+the passage with the goal of getting faster and more
+accurate each time.
+6. While Student A reads, Student B follows along
+and provides corrective feedback when needed,
+and vice versa.
+
+4.19
+
+Conduct cold reads.
+1. The student reads the passage aloud. While the
+student reads, follow along and record student
+errors on a separate copy of the passage.
+2. After one minute, tell the student to stop
+reading.
+3. Mark the final word read, and share with the
+student the total number of words read as well
+as the total number of errors.
+4. The student subtracts the number of errors
+from the total number of words read to calculate
+a rate score expressed as correct words per
+minute, or CWPM. The student also divides
+the CWPM by the total number of words read
+to calculate an accuracy score, represented as
+a percentage. Coach the student through this
+process, as needed.
+5. The student records their baseline rate and
+accuracy scores on their chart and graphs this
+cold read on their progress monitoring graph.
+Practice reading the passage: The student reads
+the same passage several times (typically 3–5)
+while the teacher listens and provides corrective
+feedback as needed. The teacher can decide,
+depending on the length of the passage and the
+time allocated for the practice, whether the repeated
+readings happen in one session or across 2–3
+sessions.
+
+BUI L DI NG OR A L R E A D IN G F L U EN C Y IN S E C ON D A RY R E A D E R S
+
+Literacy
+
+Conduct hot reads and graph progress: At the end
+of the third day of the protocol, the partners repeat
+steps 1–3 and record their hot-read scores on their
+progress monitoring graphs. (See Strengthening
+Timely Interventions through Goal Setting and
+Progress Monitoring for more details.)
+
+Conduct hot reads and graph progress: When the
+student is ready for a hot read, prompt the student
+to read the same passage for one minute and count
+errors. The student recalculates their rate and
+accuracy scores and records the hot-read score on
+the progress monitoring graph.
+
+Throughout the practice time, monitor and coach.
+While students are reading, circulate to listen in,
+remind students of their roles, provide additional
+feedback, and collect observational data on student
+reading. The teacher can also create a schedule to
+rotate in and partner with students as an assessment
+opportunity.
+
+If the new scores meet the pre-established goal, the
+teacher chooses a new passage for the next practice
+cycle. If not, the student continues to read the same
+passage until the rate and accuracy goal is met.
+
+If the protocol is being used as a whole group, two
+adults (e.g., two teachers or one teacher and one
+paraprofessional) can be leveraged to facilitate,
+monitor, and support student practice.
+
+Throughout the practice, coach student
+reading habits. Provide positive reinforcement to
+encourage the use of strategies. Ask students to
+share their reflections on their reading practice and
+jot observational notes where useful for monitoring
+student progress.
+
+Tips and Tools to Support Oral Reading Fluency with Students
+Sometimes students need additional coaching, or tools, to support their reading tracking or selfmonitoring while reading. There are many useful strategies and tools educators can use with students.
+A few common strategies include:
+• Coaching for visual tracking: Prompt students to use a finger or pencil to point to the words and
+track the text as they read, or use a sticky note or index card to help them build skills for reading
+line over line.
+• Accommodating visual tracking: Provide enlarged text and spacing as an accessibility
+accommodation for students with visual tracking difficulties.
+• Prompting to use strategies: Secondary students often have habits and routines as readers they
+will need to learn or unlearn around reading. Teachers can remind and encourage students to use
+their resources (e.g., error correction prompts) and strategies (e.g., re-reading text after correcting
+errors) to build their reading habits and muscle.
+• Providing tools: Calculators to compute reading rate and accuracy or timers for peer-partner
+coaching use are both valuable tools for developing student skill and engagement.
+
+4.20
+
+BUI L DI NG OR A L R E A D IN G F L U EN C Y IN S E C ON D A RY R E A D E R S
+
+Literacy
+
+Monitor the Effectiveness of the Intervention
+Step 9: Analyze Student Progress
+The ultimate goal of repeated reading practice is to improve student fluency and automaticity to
+facilitate reading comprehension. Monitor the effectiveness and impact of the oral reading practice
+by regularly collecting rate and accuracy data, as well as information about student prosody. After
+6–8 weeks of practice, gather the data for review by individual educators or teams. To understand the
+broader trends in progress and the impact of the practice on other metrics, teams can analyze student
+progress on global reading measures, such as ELA assessments or benchmark reading assessments,
+alongside students’ fluency data. For additional perspective, consider collecting and reviewing student
+feedback, including student perception of the intervention’s impact on their skill development and
+confidence as readers, so student insights and needs are part of the data discussion.
+Use the data gathered to adjust the approach to implementation and to guide additional staff training
+aligned to student and educator needs. Ongoing professional development for teachers might focus on
+using student fluency data to inform additional instruction and intervention planning, working around
+barriers to implementation, and leveling up the practice as routines and procedures are internalized.
+
+Example Google Sheets tracker of student oral reading fluency used by Uncommon
+Charter High School
+
+4.21
+
+BUI L DI NG OR A L R E A D IN G F L U EN C Y IN S E C ON D A RY R E A D E R S
+
+Reading with
+prosody
+means
+reading with
+expression — in
+other words, reading
+with appropriate
+phrasing, pausing,
+stress, and
+intonation. While rate
+and accuracy can
+be calculated easily,
+measuring prosody
+requires more
+teacher discretion. A
+fluency rubric can
+be a helpful way to
+quantify prosodic
+reading.
+
+Literacy
+
+Practice Snapshot
+EXPLORING ADDITIONAL SETTINGS FOR REPEATED READING
+While teachers at Noble Schools are successfully implementing a reading fluency protocol in a co-taught
+World History course, repeated reading interventions can be implemented in a variety of instructional settings.
+
+Uncommon Charter High School
+Val and Giovanni, teachers at Uncommon Charter High School in Brooklyn, New York, include a
+structured reading fluency protocol in their Academic Prep class, a reading intervention class for
+9th grade students with reading disabilities. Academic Prep is designed to build the foundational
+reading skills necessary for meaningful engagement with grade-level content and texts.
+To create a cohesive experience for the
+students in the class, Val and Gio use
+the same text for each of the instructional
+activities within their daily lesson structure.
+Students read the passage with partners
+several times, providing feedback, and
+calculating and graphing a reading rate.
+While partners engage in the protocol,
+Val and Gio circulate to listen in and help
+students as needed. In the context of the
+Academic Prep course, the fluency protocol
+serves both to build reading fluency, and
+to set students up to engage in additional
+reading work with the same passage,
+including word study and vocabulary.
+As a result of the reading intervention, which
+includes the reading fluency protocol, four
+of the five students in the Academic Prep
+course identified as needing additional
+fluency support at the beginning of the year
+increased their reading fluency between
+October and May. The average increase in
+reading fluency rate for these four students
+was 20 CWPM.
+
+4.22
+
+BUI L DI NG OR A L R E A D IN G F L U EN C Y IN S E C ON D A RY R E A D E R S
+
+Literacy
+
+Green Dot Public Schools
+Green Dot Public Schools in Los Angeles, CA, embeds small group reading fluency support for
+students with disabilities into their Read 180 reading intervention class and other small group
+or 1:1 settings throughout the day. Within the Read 180 class, Green Dot identifies a subset of
+students who may benefit from explicit fluency support in addition to the interventions provided in
+Read 180. (See Guiding Literacy Interventions Through Tiered Assessment for an in-depth
+description of Green Dot’s identification process.)
+The selected students work with an instructional aide for approximately 15 minutes of their Read
+180 block three days per week. On the first day, the students are timed for a cold read of the
+passage selected for the week. Over the course of the three days, they read the passage several
+times and receive feedback on errors. At the end of the third day, they are timed on a hot read
+and their progress is graphed.
+Early data indicates that this approach is yielding strong results. Of students participating in the
+supplemental fluency intervention (in addition to the Read 180 class) 75% made progress in their
+oral reading fluency over the course of the 2022–23 school year, with half of students increasing
+their oral reading fluency rates more than 30%. The team continues to monitor progress weekly,
+as well as on 6-week cycles, to ensure that teachers can rapidly adapt their approaches and that
+students who have made sufficient progress are exited from the intervention.
+
+4.23
+
+BUI L DI NG OR A L R E A D IN G F L U EN C Y IN S E C ON D A RY R E A D E R S
+
+Literacy
+
+BUILDING ORAL READING FLUENCY IN SECONDARY READERS
+
+Summary
+English Language Arts standards for secondary students ask readers to engage in deep meaningmaking work with complex texts. Still, many students enter our middle and high schools not having
+had the opportunity to develop the foundational reading skills necessary to engage in this work.
+This problem is particularly pronounced for Black and Latinx students, students experiencing
+poverty, and students with disabilities. Many of these readers are able to apply phonics decoding
+skills to sound out words, yet reading grade-level connected text is a slow, laborious process that
+commandeers much of their working memory capacity while reading, leaving little availability for
+meaning-making processes.
+Encouragingly, decades of research suggest that explicit strategies to develop reading fluency —
+including repeated reading, partner reading, and goal setting with progress monitoring — positively
+impact reading fluency, which in turn leads to improved reading comprehension. These evidencebased practices are a critical component of a comprehensive plan for reading intervention in middle
+and high schools. Implementing a structured protocol for reading fluency has strong potential to
+improve student proficiency and automaticity in reading, ultimately providing greater and more
+equitable access to grade-level instruction and rich, complex texts for all students.
+
+FURTHE R LE ARNIN G
+
+“What Texts to Use
+to Teach Fluency?”
+TIMOTHY SHANAHAN
+
+2023 Plan
+and
+
+Accompanying
+Powerpoint Presentation
+PLANNING MULTI-TIERED READING
+INTERVENTIONS AT GREEN DOT
+PUBLIC SCHOOLS
+
+4.24
+
+BUI L DI NG OR A L R E A D IN G F L U EN C Y IN S E C ON D A RY R E A D E R S
+
+Literacy
+
+BUILDING ORAL READING FLUENCY
+IN SECONDARY READERS
+
+Appendix
+
+How to Measure
+When implementing oral reading fluency interventions to support students in middle and high school,
+the following measures are most essential:
+
+PRIMARY MEASURES
+Measure
+Type
+
+Data
+Collection
+Type
+
+Process
+(utilization)
+
+Intervention
+schedule
+
+Question Asked
+Is the protocol
+taking place at
+least 3 days/
+week?
+Yes / No
+
+Outcome
+
+Student tracker
+of “cold” and
+“hot” reads of
+a passage
+
+Did the student’s
+reading rate
+increase after
+engaging in the
+fluency protocol?
+Yes / No
+
+Outcome
+
+4.26
+
+Correct words
+per minute on
+Oral Reading
+Fluency
+CurriculumBased
+Measurement
+(ORF CBM)
+
+Is the student
+reading rate
+and/or accuracy
+improving as a
+result of engaging
+in the fluency
+protocol?
+
+Results
+
+What does
+success look
+like?
+
+Number of
+days in a
+week that the
+protocol is
+implemented
+
+Reading fluency
+intervention
+takes place at
+least 3 days/
+week
+
+Increase in
+words read
+correctly in
+one minute on
+the passage
+used for
+the fluency
+protocol
+
+Students
+increase by 30
+correct words
+per minute or
+more after 3–5
+readings
+
+A “cold” read is the
+first time a student
+reads a passage,
+and a “hot” read
+is a timed reading
+after the student
+has practiced the
+passage several
+times.
+
+Increase in
+words read
+correctly in
+one minute
+on a criterion
+referenced
+CBM passage
+
+Students
+increase at a
+rate that is more
+accelerated
+than the norm
+
+While a “cold”
+and “hot” read
+will indicate if a
+student increases
+their fluency on
+a passage after
+practicing that
+specific passage, an
+external ORF CBM
+will indicate whether
+they are transferring
+those skills to other
+texts.
+
+BUI L DI NG OR A L R E A D IN G F L U EN C Y IN S E C ON D A RY R E A D E R S
+
+Examples and
+Notes
+
+Literacy
+
+Additional measures can guide a team to know whether the reading fluency protocol is leading to the
+desired improvements for students:
+
+SECONDARY MEASURES
+Measure
+Type
+
+4.27
+
+Data
+Collection
+Type
+
+Question Asked
+
+Results
+
+What does
+success look
+like?
+
+Outcome
+
+ORF CBM and/
+or Universal
+Screening
+Scores
+
+What percentage
+of students in the
+intervention are
+making sufficient
+progress to
+discontinue the
+intervention?
+
+Quarterly,
+some
+students
+demonstrate
+progress on
+assessment
+tools and
+no longer
+require
+intervention.
+
+Student growth
+data is allowing
+students to exit
+the intervention
+after one or more
+intervention
+cycles.
+
+Process
+(useability)
+
+Teacher
+perception
+data
+
+Do teachers feel
+they have the
+knowledge and
+skills needed
+to effectively
+implement the
+protocol?
+
+After
+training and
+coaching,
+teachers
+report
+confidence
+in their ability
+to implement
+the protocol
+as designed.
+
+100% of teachers
+report feeling
+confident in
+implementing
+the protocol as
+designed.
+
+Process
+(utilization)
+
+Student
+participation
+
+Are students
+participating in the
+fluency protocol?
+
+Percentage
+of students
+who engage
+in the steps
+of the fluency
+protocol.
+
+100% of students
+participate in
+the steps of the
+fluency protocol.
+
+BUI L DI NG OR A L R E A D IN G F L U EN C Y IN S E C ON D A RY R E A D E R S
+
+Examples and
+Notes
+Monitor the
+effectiveness of
+the intervention at
+both the individual
+student level and
+the cohort level
+to track student
+movement into
+and out of the
+intervention over
+time.
+
+It can be expected
+that some students
+may be reluctant
+to participate in a
+new instructional
+protocol initially, but
+the goal is to build
+engagement over
+time.
+
+Literacy
+
+PRACTICE TOOL
+
+Repeated Reading Protocol
+Spark Educational Consulting 3-Day Fluency Instruction Task Card
+Day 1 (~10 minutes)
+1. Students conduct “cold read,” calculate rate, and graph progress.
+– Depending on group size, options include: the teacher times the student, a partner times the student,
+or the student times her/himself.
+2. The teacher previews and model reads the passage.
+– Prompt the students to listen for expression and prosody — e.g.: “Good readers do not read word by
+word with one tone of voice, like a robot. They read with expression and in phrases, or meaningful
+chunks of words. As I read this passage, notice how I read in phrases, how I vary my tone, and how I
+pause at the end of sentences.”
+– Model making a prediction for reading based on a preview of the passage — e.g. “Previewing before I
+start reading can help me better understand what I’m reading. This passage is about...I wonder if I will
+learn about...”
+3. Ask students to share what they noticed about the reading, and/or what they learned from the text.
+4. Chorally read the passage. Explicitly notice and comment on expressive and prosodic reading.
+
+Day 2 (~10 minutes)
+1. Provide a review of the passage and reinforce the “why” — good readers read accurately, quickly, and with
+expression, and fluent readers are better able to pay attention to and understand what they are reading.
+2. Echo read the passage.
+– The teacher reads a sentence, modeling expression and prosody, and students chorally read (“echo”)
+the sentence. Repeat for the full passage.
+3. Pair students for partner reading of the passage.
+– Students will either be the reader or the coach.
+– The job of the reader is to read accurately, quickly, and with good expression.
+– The job of the coach is to listen for the reader’s mistakes, help with hard words, and give feedback.
+Types of mistakes and corrective feedback include:
+• Mistake: Saying the wrong word; Correction: Point to the word, provide the correction, and ask the
+reader to read the sentence again.
+• Mistake: Getting stuck on a word (more than ~3 seconds); Correction: point to the word, say the
+word, ask the reader to say the word, and ask the reader to reread the sentence.
+• Mistake: Skipping a word; Correction: Tell the reader a word was skipped and ask the reader to reread the sentence.
+• Mistake: Adding an extra word; Correction: Tell the reader a word was added and ask the reader to
+re-read the sentence.
+• Students read the passage through one time, switch roles and read again.
+
+4.28
+
+BUI L DI NG OR A L R E A D IN G F L U EN C Y IN S E C ON D A RY R E A D E R S
+
+Literacy
+
+Day 3 (~10 minutes)
+1. Provide a review of the passage and reinforce the “why” — good readers read accurately, quickly, and with
+expression, and fluent readers are better able to pay attention to and understand what they are reading.
+2. Students individually read the passage quietly aloud 3–5 times.
+– It is important that students are reading aloud at this phase as silent reading will have less impact on
+oral reading fluency.
+3. When students feel ready, they conduct their “hot read,” calculate their rate, and graph their progress. If
+the oral reading fluency goal was met, celebrate student success.
+
+4.29
+
+BUI L DI NG OR A L R E A D IN G F L U EN C Y IN S E C ON D A RY R E A D E R S
+
+Literacy
+
+Notes
+1
+
+Hudson et al., “The Complex Nature of Reading Fluency”
+
+2
+
+Torgesen and Hudson, “Reading Fluency: Critical Issues”; Stecker et al., “Toward Understanding
+Oral Reading Fluency”
+
+3
+
+Honig et al., Teaching Reading Sourcebook
+
+4
+
+Perfetti and Lesgold, “Coding and Comprehension”
+
+5
+
+Chard et al., “A Synthesis of Research”
+
+6
+
+Gilmour et al., “Are Students With Disabilities Accessing the Curriculum?”
+
+7
+
+Torgesen and Hudson, “Reading Fluency: Critical Issues”; Stecker et al., “Toward Understanding
+Oral Reading Fluency”
+
+8
+
+Furey and Loftus-Rattan, “Actively Involving Students”; Honig et al., Teaching Reading
+Sourcebook; Southward and Goo, “Repeated Reading”
+
+9
+
+Eunice Kennedy Shriver National Institute of Child Health and Human Development, Report of
+the National Reading Panel, 3-15–3-20; Chard et al., “A Synthesis of Research”; Meyer and
+Felton, “Repeated Reading”
+
+10
+
+Stevens et al, “The Effects of Reading Fluency Interventions”
+
+11
+
+Southward and Goo, “Repeated Reading”
+
+12
+
+MetaMetrix, “About Lexile® Measures for Reading
+
+13
+
+Stahl, “Vocabulary Development”
+
+14
+
+Cole et al., “Engaging English Language Learners”
+
+15
+
+Furey and Loftus-Rattan, “Actively Involving Students”
+
+Bibliography
+Chard, David J., Sharon Vaughn, and Brenda-Jean Tyler. “A Synthesis Of Research on Effective
+Interventions for Building Reading Fluency with Elementary Students with Learning Disabilities.”
+Journal of Learning Disabilities 35, no. 5 (2002): 386–406.
+Cole, Mikel Walker, Pamela J. Dunston, and Tracy Butler. “Engaging English Language Learners
+Through Interactive Read-Alouds: a Literature Review.” English Teaching: Practice & Critique
+16, No. 1 (2017): 97–109. https://doi.org/10.1108/ETPC-11-2015-0101
+Eunice Kennedy Shriver National Institute of Child Health and Human Development, NIH, DHHS.
+Report of the National Reading Panel: Teaching Children to Read: Reports of the Subgroups.
+Washington, DC: U.S. Government Printing Office, 2000. 3-15–3-20. https://www.nichd.nih.
+gov/sites/default/files/publications/pubs/nrp/Documents/report.pdf
+
+4.30
+
+BUI L DI NG OR A L R E A D IN G F L U EN C Y IN S E C ON D A RY R E A D E R S
+
+Literacy
+
+Furey, Jenlyn, and Susan M. Loftus-Rattan. “Actively Involving Students With Learning Disabilities in
+Progress Monitoring Practices.” Intervention in School and Clinic 57, no. 5 (2022): 329–337.
+https://doi.org/10.1177/10534512211032618
+Gilmour, Allison F., Douglas Fuchs, and Joseph H. Wehby. “Are Students With Disabilities
+Accessing the Curriculum? A Meta-Analysis of the Reading Achievement Gap Between
+Students With and Without Disabilities.” Exceptional Children 85, no. 3 (2019): 329–346.
+https://doi.org/10.1177/0014402918795830
+Gough, Philip B. and William E. Tunmer. “Decoding, Reading, and Reading Disability.” Remedial and
+Special Education 7, no. 1 (February 1986): 6–10.
+https://doi.org/10.1177/074193258600700104
+Honig, Bill, Linda Diamond, Linda Gutlohn, and Carrie L. Cole. Teaching Reading Sourcebook. Novato,
+CA: Arena Press, 2018.
+Hudson, Roxanne F., Paige C. Pullen, Holly B. Lane, and Joseph K. Torgesen. “The Complex Nature
+of Reading Fluency: A Multidimensional View.” Reading & Writing Quarterly 25, no. 1 (2008):
+4–32. https://doi.org/10.1080/10573560802491208
+MetaMetrics. ”About Lexile® Measures for Reading.” Accessed August 2023. https://lexile.com/
+educators/understanding-lexile-measures/about-lexile-measures-for-reading/
+Meyer, Marianne S., and Rebecca H. Felton. “Repeated Reading to Enhance Fluency: Old Approaches
+and New Directions.” Annals of Dyslexia 49 (1999): 283–306. https://doi.org/10.1007/s11881999-0027-8
+Perfetti, Charles A. and Alan M. Lesgold. “Coding and Comprehension in Skilled Reading and
+Implications for Reading Instruction.” (1977). https://files.eric.ed.gov/fulltext/ED145399.pdf
+Southward, Julie D. and Minkowan Goo. “Repeated Reading as an Intervention for High School
+Students Identified with a Specific Learning Disability.” International Journal of Special
+Education 34, no. 1 (2019): 255–270. http://www.internationalsped.com/ijse/issue/view/11
+Stahl, Steven A. Vocabulary Development: From Reading Research to Practice. Newton Upper Falls,
+MA: Brookline Books, 1999.
+Stevens, Elizabeth A., Melodee A. Walker, and Sharon Vaughn. “The Effects of Reading Fluency
+Interventions on the Reading Fluency and Reading Comprehension Performance of Elementary
+Students with Learning Disabilities: A Synthesis of the Research from 2001 to 2014.” Journal of
+Learning Disabilities 50, no. 5 (2017): 576–590.
+Strecker, Susan K., Nancy L. Roser, and Miriam G. Martinez. “Toward Understanding Oral Reading
+Fluency.” In 47th Yearbook of the National Reading Conference, edited by Timothy Shanahan
+and Flora V. Rodriquez-Brown, 295–310. Chicago: National Reading Conference, 1998.
+Torgesen, Joseph K. and Roxanne F. Hudson, “Reading Fluency: Critical Issues for Struggling
+Readers.” In Reading Fluency: The Forgotten Dimension of Reading Success, edited by S. J.
+Samuels & A. Farstrup, 156–172. Newark, Del.: International Reading Association, 2006.
+
+4.31
+
+BUI L DI NG OR A L R E A D IN G F L U EN C Y IN S E C ON D A RY R E A D E R S
+
+Literacy

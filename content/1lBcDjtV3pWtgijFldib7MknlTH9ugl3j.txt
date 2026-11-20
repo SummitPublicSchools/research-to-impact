@@ -1,0 +1,1594 @@
+Implementing
+Routine Data
+Cycles to Rapidly
+Address Student
+Needs
+A RESEARCH-TO-IMPACT PRACTICE DEVELOPED WITH
+THE NETWORKED IMPROVEMENT COMMUNITY
+FOR STUDENTS WITH DISABILITIES
+
+TA BLE O F C O N T E N T S
+3.3............ Practice Overview
+3.3 | What is the Practice?
+3.4 | Why is the Use of Data Important?
+3.5 | The Data Analysis Cycle
+
+3.6............ Implementation at a Glance
+3.6 | Enabling Conditions
+3.7 | Steps to Implement
+
+3.8............ Bringing this Practice to Life
+3.12.......... How to Implement this Practice
+3.12 | Prepare Needed Structures
+3.12 | Step 1: Determine School-Level Goals for Student Success
+3.12 | Step 2: Set Up Data Dashboard
+3.13 | Step 3: Design Protocols
+3.14 | Step 4: Design Routines and Norms for Using Data
+3.16 | Train Teams
+3.16 | Step 5: Design and Integrate Staff Data Routines and Norms
+3.17 | Implement Routine Data Cycles
+3.19 | Step 6: Analyze Data to Identify Student Needs
+3.19 | Step 7: Plan and Design Interventions
+3.20 | Step 8: Implement Interventions
+3.21 | Provide Ongoing Support
+3.21 | Step 9: Embed Teacher Support
+22 | Step 10: Revise Goals, Data Dashboard, Protocols, and Norms
+3.23 | Practice Snapshot
+
+3.24.......... Summary
+3.26.......... Appendix
+3.26 | How to Measure
+3.28 | PRACTICE TOOL: Routine Data Cycle Protocol
+3.30 | Notes
+3.30 | Bibliography
+
+Implementing Routine
+Data Cycles to Rapidly
+Address Student Needs
+Implementation Level
+
+Who Implements
+
+District/Central Office
+
+Teacher(s)
+
+School
+
+Instructional Coach
+
+Program/Department
+
+Principal
+
+Classroom
+
+Central Office Leadership
+Specialist
+
+Practice
+Overview
+What is the
+Practice?
+The regular analysis of
+student data to proactively
+design classroom-based
+interventions, typically
+using a customized data
+dashboard.
+
+What do we mean by student
+data for interventions?
+For the purposes of this practice, “student data” includes any
+quantitative or qualitative data that is:
+1. Aligned: directly connected to the CMO or school’s mission
+or goals for student learning, giving attention to the needs
+of priority subgroups;
+2. Regularly collected: routinely collected at regular
+and predictable intervals, often on a weekly or biweekly basis;
+3. Actionable: within a teacher’s locus of control so they can
+take steps to improve student performance on the variable
+measures; and
+4. Student-level: related to student outcomes, whether that
+be academic, social/emotional, behavioral, or for college,
+community, or career readiness.
+Student data may include individual assignments, test grades,
+and mastery of standards.
+
+3.3
+
+I M P L E M E N T IN G R OU T IN E D ATA C Y C LE S TO A S S E S S S TU D E N T N E E D S
+
+Multi-Tiered
+Systems of Support
+
+Why is the Use of
+Data Important?
+Data-driven instruction is foundational to
+effectively implementing multi-tiered systems of
+supports (MTSS). Research shows that a lack
+of knowledge and training around data-driven
+problem solving for teachers, administrators,
+and district staff is a key barrier to implementing
+MTSS with fidelity.1 Schools can remove this
+key barrier by thoughtfully designing systems for
+teachers to regularly and frequently use data to
+inform tiered supports. Disaggregating student
+data by priority populations, such as students
+with disabilities, helps educators think about the
+instructional decisions they are making in the
+classroom, as well as interventions that best
+serve these students.
+
+School Spotlight
+Collegiate Academies created a data
+dashboard to track student mastery of
+Louisiana’s prioritized standards for
+students with disabilities. This dashboard
+helps teachers at Collegiate customize
+instruction by allowing them to identify
+specific high priority standards where
+students are struggling and to adapt
+future instruction for those students. The
+dashboard provides teachers with the data
+necessary to better individualize instruction
+for each student, ensuring that all students
+meet each of the standards and master
+content necessary for graduation.
+
+Why it Works
+DISAGGREGATED DATA ALLOWS FOCUS ON PRIORITY POPULATION.
+Whole-class, or aggregate, data masks differences that may exist between groups or individual
+students. Therefore, it is important that data dashboards are able to disaggregate by group —
+particularly for the different subgroups within our priority population, students with disabilities who are
+Black and/or Latinx, and living in poverty — allowing teachers to unpack what is happening in their
+classroom across subgroups. With this detailed data, teachers can ensure they are responding to the
+students who most need additional support.
+DATA CAN IDENTIFY AND MITIGATE BIAS IN THE SYSTEM.
+Reviewing and comparing data across student subgroups can help teachers reflect on how
+instruction was planned, lessons were delivered, and assignments were graded. When educators have
+access to disaggregated data, they can identify trends and patterns of student performance on a variety
+of mastery assessments, such as standardized assessments or teacher-made assignments, to see
+discrepancies and reflect on their own systems or practices that may contribute to them.2
+CUSTOMIZED DATA VISUALIZATION ENHANCES EXISTING SYSTEMS.
+When schools have an existing student information systems (SIS), they are able to provide
+efficient analysis and monitoring that helps teachers analyze student data in order to respond to
+individual needs. Access to these systems, and other available data products, make it possible for
+schools to maintain up-to-date student grades, test scores, disciplinary records, and progress toward
+goals all in one place. It is especially critical for this priority population that data can be viewed in real
+time, before students fall behind their peers. The end of a grading period is too late for a student to
+make up or revise work, demonstrate their knowledge, or earn a passing grade. Timely intervention
+within the school day can prevent very real repercussions for students, like failing to graduate high
+school on time.
+
+3.4
+
+I M P L E M E N T IN G R OU T IN E D ATA C Y C LE S TO A S S E S S S TU D E N T N E E D S
+
+Multi-Tiered
+Systems of Support
+
+The Data Analysis Cycle
+The data analysis cycle — that is, the process of teachers analyzing data, designing interventions
+based on that data, and delivering those interventions — is essential to ensure that students who are
+struggling to master content receive necessary support from teachers to be successful.
+
+3.5
+
+I M P L E M E N T IN G R OU T IN E D ATA C Y C LE S TO A S S E S S S TU D E N T N E E D S
+
+Multi-Tiered
+Systems of Support
+
+IMPLEMENTING ROUTINE DATA CYCLES
+TO RAPIDLY ADDRESS STUDENT NEEDS
+
+Implementation at a Glance
+The information in this section provides a high-level view of what to consider when implementing this
+practice. Enabling Conditions describes the minimum conditions needed for successful implementation,
+including resources, mindsets, staffing, and the like. Steps to Implement presents a concise checklist of
+action items, which are explained in detail in How to Implement this Practice, below.
+
+Recommended Staff Commitment
+and Tme Allocation
+
+Recommended
+Materials
+
+Prerequisites
+
+Enabling Conditions
+
+3.6
+
+A student information system provides all staff access to data related to student success, such
+as student grades, mastery of standards, attendance, or assessment scores. Data can be
+disaggregated by student subgroups (e.g., multilingual learners, students in intervention, students
+with disabilities, students of color).
+Educators know, understand, and are able to implement strategies for differentiating instruction.
+Educators believe that teachers need to meet students where they are, even if that means reteaching material or changing how they teach altogether.
+
+Assessment and progress monitoring measures of student performance (e.g., exit tickets,
+formative and summative assessments, work completion rates)
+Data dashboard tool for data disaggregation
+Intervention strategies and associated instructional resources
+Routine data protocol for analysis and planning
+Regular time for educators to analyze data and plan interventions
+– 1 hour weekly or biweekly during a professional development block or other regularly
+scheduled meeting time
+A data lead to create, iterate upon, and maintain the data tool
+– 40 hours for initial creation and iteration
+– 3 hours monthly for maintenance
+Time for a professional development team to design and lead professional development on the
+use of the dashboard and how to effectively design appropriate interventions for students in
+response to data in the dashboard
+– 1 hour biweekly leading professional development time for educators to analyze data and
+plan interventions
+– 1–2 hours prior to the school year starting for initial training
+– 10–20 hours for development of training materials before the roll-out of the tool
+
+I M P L E M E N T IN G R OU T IN E D ATA C Y C LE S TO A S S E S S S TU D E N T N E E D S
+
+Multi-Tiered
+Systems of Support
+
+Steps to Implement
+At the start of each school year, school leadership take the following steps:
+PREPARE NEEDED STRUCTURES
+Determine school-level goals for student success
+Set up data dashboard
+Design protocols for routine data cycles
+Design routines and norms for using data
+TRAIN TEAMS
+Design and integrate staff data routines and norms
+Throughout each school year, school leadership and their teams take the following steps:
+IMPLEMENT ROUTINE DATA CYCLES
+Analyze data to identify student needs
+Plan and design interventions
+Implement interventions
+PHASE IV: PROVIDE ONGOING SUPPORT
+Embed teacher support
+Revise goals, data dashboard,
+protocols, and norms
+
+3.7
+
+I M P L E M E N T IN G R OU T IN E D ATA C Y C LE S TO A S S E S S S TU D E N T N E E D S
+
+Multi-Tiered
+Systems of Support
+
+Bringing this Practice to Life
+IMPLEMENTING ROUTINE DATA CYCLES TO RAPIDLY
+ADDRESS STUDENT NEEDS AT STEM PREP
+STEM Prep, a college preparatory public charter school network in Los Angeles, CA, was seeking to
+empower teachers with the data tools teachers needed to regularly support students with personalized
+interventions. After introducing a gradebook distribution tool and corresponding professional development,
+math teachers at STEM Prep’s Crown Preparatory Academy (CPA) doubled the percentage of students with
+disabilities with As and Bs in their classes. Their journey is described below.
+
+STEM Prep’s Gradebook Distribution Tool
+The principal and staff at Crown Prep Academy,
+STEM Prep’s 5–8 school in Los Angeles,
+noticed a challenge: the end-of-semester rush
+to support students in completing classwork and
+reassessments was primarily focused on raising
+grades, rather than ensuring mastery of content.
+The principal and staff decided to create a
+system of progress monitoring using grades
+from classes. They hypothesized that a custom
+data dashboard would help teachers analyze
+student grades throughout the grading period so that they could regularly respond to individual
+student needs, and ensure early, targeted intervention to improve mastery of important skills and
+content. Early intervention, they thought, would lead to greater mastery and higher student grades,
+especially for students with disabilities.
+
+3.8
+
+I M P L E M E N T IN G R OU T IN E D ATA C Y C LE S TO A S S E S S S TU D E N T N E E D S
+
+Multi-Tiered
+Systems of Support
+
+Continuous Improvement Cycles
+To start, STEM Prep leaders developed a
+gradebook tool for adoption across the
+teaching staff. The tool allowed teachers to
+frequently monitor student progress toward
+learning goals throughout the semester and
+provide personalized interventions to support
+students in the moment, rather than all at once,
+at the end of a term.
+To pull data into the gradebook tool, teachers
+download a report from PowerSchool, STEM
+Prep’s student information system, containing student letter grades on classwork. The report feeds
+into a spreadsheet that groups students by grades, learning goals, grade reporting periods, and
+subgroup, such as students with disabilities or multilingual learners. A dashboard overview for
+teachers highlights how grades are distributed overall and how students are performing on average
+against specific learning targets. The overview color-codes students with As, Bs, Cs, and nonpassing grades.
+Using the gradebook tool, teachers can easily identify the students who are at risk of not passing
+classes, quickly create short-term SMART goals focused on mastery of content, and immediately
+develop an action plan based on each student’s needs. For example, teachers can use this
+information to determine small-group workshops or invite students to join after-school tutoring.
+The magic of the process is in how often teachers use the tool. When teachers use the gradebook
+tool at scheduled intervals, they can see if previously identified students have met their SMART
+goals, or whether different
+action plans are necessary. This
+approach allows teachers to
+see and celebrate progress with
+students on rapid cycles: students
+do not have to wait months to see
+whether their hard work is paying
+off, and teachers can replicate
+the instructional practices and
+interventions that yielded the
+greatest gains for students.
+In 2021–22, Crown Prep saw
+substantial growth, especially
+for students with disabilities,
+when teachers reviewed data at
+least monthly.
+
+3.9
+
+I M P L E M E N T IN G R OU T IN E D ATA C Y C LE S TO A S S E S S S TU D E N T N E E D S
+
+Multi-Tiered
+Systems of Support
+
+A Culture of Learning
+When first implemented, the dashboard struggled
+to gain traction. The gradebook tool was presented
+as a system teachers would use, yet teachers
+didn’t fully understand why it was needed. Teachers
+said that the tool was difficult to understand and
+navigate. Subsequently, adoption was poor, and
+the leaders needed to rethink the rollout of the
+gradebook tool.
+Approaching with a culture of continuous
+improvement, the Crown Prep leadership team adapted their approach rather than scrapping
+it. School leadership used feedback from teachers to improve the tool and created professional
+development to build staff buy-in. To explain the purpose of the tool, Crown Prep used a thermometer
+and thermostat mental model: PowerSchool, they explained, is the thermometer that shows the
+current temperature of student performance. The tool is the thermostat, enabling teachers to change
+that temperature through focused action.
+The mental model landed well with teachers, who were able to connect the effort to Crown Prep’s
+goals for student performance. According to Kate, an assistant principal at Crown Prep, “Being
+transparent and explicit about our school-wide goals helped teachers to see the bigger picture and
+empowered teachers to create more targeted and clear goals for their subgroups.”
+With teacher buy-in on track, Kate reviewed the initial action plans. She found that they were
+primarily student-centered (i.e., “the student needs to ...”) rather than teacher-centered (i.e., “I will
+... for the student.”). Again, the leadership team adjusted based on what they had learned. School
+leaders created a tool to develop action plans with each data pull. This tool provided guiding
+questions to focus the teacher’s attention on who is struggling, what they’re struggling with, and what
+actions the teacher would take to support the student.
+To further support the use of data-driven instruction, scheduled data pulls and discussions were
+built into the monthly professional development calendar, which proved essential to the success of
+the effort. Teachers shared their goals for students with their coaches and administrators to inform
+professional development and coaching sessions. In return, teachers got feedback on their approach
+and progress. Coaches could also use the data to ask guiding questions to reinforce the protocol
+such as, “How can I help you action-plan?” Repetition made the practice routine.
+Having coaches support the development of interventions for students was a key way for Crown
+Prep to build teacher capacity. Coaches suggested new interventions when prior interventions were
+not successful. Coaches also guided teachers to reflect on why their initial attempts at instruction
+were unsuccessful for particular students. This capacity building particularly benefited students with
+disabilities who regularly need differentiated instruction and accommodations to meet their IEP goals.
+Further success came when teachers began downloading data on their own, between monthly
+professional development sessions, and independently sought opportunities to plan and take action
+using their data.
+
+3.10
+
+I M P L E MEN T IN G R OU T IN E D ATA C Y C LE S TO A S S E S S S TU D E N T N E E D S
+
+Multi-Tiered
+Systems of Support
+
+Making the Grade
+As the tool was adopted, Crown Prep began seeing a gradual increase in the percentage of
+students with disabilities achieving As and Bs in their classes, and a similar decrease in the
+percentage of students with disabilities not passing their classes. Among the 30 students with
+disabilities served, the percentage of A and B grades increased from 25%, when continuous
+improvement efforts began, to 81% in the Fall of 2022.
+By focusing on students placed furthest from opportunity, Crown Prep also saw improvement in the
+experience of all students. Among students at Crown Prep who do not have disabilities, A and B
+grades improved from 49% to 77%.
+
+Carrying it Forward
+After implementing the tool at Crown
+Prep, STEM Prep decided to begin using
+it at their high school, Math & Science
+College Prep (MSCP). MSCP conducted
+professional development with their staff in
+September and ran a follow-up professional
+development in October, to ensure teachers
+knew how to use the tool to analyze data
+and make corresponding intervention plans.
+By the end of the first semester, MSCP
+teachers reflected that they struggled
+to download their data to input into the
+tool outside of monthly meetings, and
+thus were more often going back to their
+student information system instead of the
+dashboard. As a result, MSCP’s leadership
+decided to integrate more explicit time for
+teachers to download data during weekly
+professional development in an effort
+to make the use of the dashboard more
+regular. MSCP continues to iterate on
+their process and find strategies to ensure
+that routine data cycles can occur more
+frequently and consistently for teachers.
+
+3.11
+
+Creating an Effective
+Data Tool
+For STEM Prep, the gradebook
+distribution tool was ultimately
+successful because it ensured student
+data was:
+• aligned to their organizational
+priority to improve student
+passing rates;
+• regularly collected, reviewed in
+monthly meetings, and embedded
+into their broader schedule and
+collaboration methods;
+• actionable through a customized
+tool that allowed teachers to review
+and act upon data to improve
+student mastery; and
+• disaggregated at the student
+level, ensuring teachers could look
+at the classroom, subgroup, and
+individual student data.
+
+I M P L E ME N T IN G R OU T IN E D ATA CY C LE S TO A S S E S S S TU D E N T N E E D S
+
+Multi-Tiered
+Systems of Support
+
+IMPLEMENTING ROUTINE DATA CYCLES
+TO RAPIDLY ADDRESS STUDENT NEEDS
+
+How to Implement this Practice
+This section provides step-by-step guidance for implementing routine data cycles to guide student
+supports, along with accompanying resources to get started. The steps are organized into four phases
+for implementation: Prepare Needed Structures, Train Teams, Implement Routine Data Cycles, and
+Provide Ongoing Support.
+
+Prepare Needed Structures
+Step 1: Determine School-Level Goals for Student Success
+Data-driven instruction systems can fail to be adopted by teams when the systems are not deeply
+aligned to a school’s mission and current student needs. Base goals on existing data and past trends
+so that the goals are realistic and, more importantly, based on specific needs for priority subgroups. Use
+historical data to create a baseline for the goals prior to beginning interventions in order to measure the
+effectiveness of the practice. Goals need to be measured regularly and with fidelity over time.
+For example, a school might explore their baseline data and learn that only 13% of students with
+disabilities are on grade level in reading based on NWEA MAP. They could set a goal of improving to
+25% by the end of the year, with benchmarks of growth at three percentage points per quarter. Then,
+they set up the data tool to collect measures that can show growth on a regular basis throughout the
+year so all educators know if they are on track to meet the goal.
+
+Step 2: Set Up Data Dashboard
+If an existing student information system does not provide educators with easy access to specific,
+disaggregated data aligned to a school’s goals, school leadership will need to develop a data
+dashboard for teacher use. (See Navigating Data for Multi-Tiered Systems of Support Overview for
+more information on creating data dashboards.) Using school-wide goals, determine which classroomlevel data points best measure the goals to be used in the dashboard. These measures need to be
+relatively easy for teachers to collect with fidelity and consistency. Examples of data include:
+• engagement measures: attendance, assignment completion;
+• formative assessments: exit tickets, checkpoints, independent practice; or
+• summative assessments: project grades, course grades, unit tests.
+Once the dashboard is established, test it for usability by teachers. Will teachers be able to easily
+disaggregate data at many different population levels, including class periods and subgroups? Can they
+easily refresh data or upload new data? These factors will help set the dashboard up for successful use.
+
+3.12
+
+I M P L E MEN T IN G R OU T IN E D ATA C Y C LE S TO A S S E S S S TU D E N T N E E D S
+
+Multi-Tiered
+Systems of Support
+
+School Spotlight
+Collegiate Academies uses an SIS that is intended to make it easier for educators to analyze student
+data for a variety of purposes. Unfortunately, school leadership quickly learned that the SIS did not
+allow teachers to view student mastery of standards by the types of filters (e.g., grade levels, class
+periods, and subgroups) they desired. Collegiate’s leaders opted to create their own tool, one that
+would allow teachers to more easily filter by group to see how students were progressing on each
+standard and to devise plans for how to teach and re-teach skills. The image below shows their tracker
+for assessing students’ level of mastery through alternative means of assessment (i.e., network interim
+assessments in place of state standardized assessments).
+
+Step 3: Design Protocols
+A protocol provides directions for each step in a process, as well as the order in which steps should be
+completed, so that different users of the protocol are all doing the same thing to complete the activity.
+When using data for instructional support, it is important to use a protocol to help guide educators
+through the data review, data analysis, and instructional planning process in a systematic way that is
+standardized across teams.
+Design the protocol to encourage teachers not only to look at their overall student trends, but also
+to focus on individual students or small groups of students (e.g., students with disabilities), paying
+particular attention to students who have not met learning expectations across several periods of time.
+The protocol should then lead teachers to devise interventions to support students based on needs
+identified in the data. In subsequent iterations of the protocol, teachers should begin by reflecting on
+
+3.13
+
+I M P L E MEN T IN G R OU T IN E D ATA C Y C LE S TO A S S E S S S TU D E N T N E E D S
+
+Multi-Tiered
+Systems of Support
+
+whether the prior cycles of
+data-driven decision-making
+had the desired effects on
+student outcomes.
+STEM Prep’s protocol
+for reviewing data focuses
+heavily on teachers creating
+goals for students who are
+falling behind in classes.
+Educators also make action
+plans to support students in
+achieving those goals before
+too much time has passed.
+The protocol is an essential
+tool for educators to know
+how to draw meaning from
+the data tool and how to
+use it effectively to create
+individualized supports for
+students.
+
+Step 4: Design Routines and Norms for Using Data
+DATA ENTRY AND USE OF THE TOOL
+Effective use of a data tool to design instructional supports for students relies on the timely — often
+real-time — entry of data into the defined data systems. In addition, it's important to systematize data
+collection and calibrate the quality of data collected in order to establish expectations and create
+accountability for aligned, ongoing use of data for this purpose.
+STEM Prep, for example, requires teachers at their high school, Math and Science College Prep, to have
+all assignment scores updated every Wednesday. This norm allows teachers to pull and input data into
+their dashboards for analysis during weekly professional development time. Without this clear expectation
+for regular data entry from school leadership, teachers might have incomplete data during collaboration
+sessions and may not be able to use the dashboard effectively for planning with colleagues.
+Data dashboards that draw from an external database, such as a student information system, may
+require manual downloads to populate the custom dashboard with up-to-date data. Some schools ask
+teachers to do this themselves, and others do it within their central office. Consider the technical abilities
+and capacity of educators when making this choice.
+Special consideration should also be given to how data is updated in student information systems. For
+example, if teachers are expected to input grades by 5:00 p.m. on Fridays, the data system should
+refresh grade data on Friday nights. These decisions should be made based on teacher input. If these
+systems are not created in a manner that works for teachers, long-term buy-in for the systems may suffer.
+
+3.14
+
+I M P L E MEN T IN G R OU T IN E D ATA C Y C LE S TO A S S E S S S TU D E N T N E E D S
+
+Multi-Tiered
+Systems of Support
+
+IMPLEMENTATION AND PROTOCOL USE
+School leadership should also attend to the
+norms for how teams will use the protocol for
+analyzing data and designing interventions.
+It is important for leadership to consider the
+multitude of priorities schools are faced with to
+decide whether teams can meet for this purpose
+weekly or biweekly. The key to successful
+implementation of this practice is for teachers
+to review data frequently enough so they
+can respond and support students who are
+struggling in areas of concern, and early enough
+that interventions can have a beneficial effect.
+To make this practice routine in implementation,
+school leaders and coaches will also need to
+define the space, time, and teams in which data
+cycles take place, regardless of their cadence.
+One component of that environment will be
+the availability of a staff member to lead the
+team, whether that be an administrator, coach,
+or existing team lead. Grade-level teams that
+meet independently of school-wide professional
+development may be able to use those meetings
+as an opportunity to use the dashboard and
+protocol regularly. Some teams will be able to
+use common prep periods to schedule this work.
+In many cases, school leaders will need to use
+school-wide professional development time to
+divide into teams for an hour to analyze data
+and plan interventions.
+
+Create Norms that are
+Right for the School’s
+Context
+For data input to occur reliably, school
+leaders need either to create a process
+for how input will be done for teachers
+or to make time on a weekly basis for
+data input by teachers. For example,
+to lessen the burden on teachers,
+Collegiate Academies initially decided
+that their data team would enter all data
+into the dashboard. However, teachers
+immediately saw the benefit of the
+dashboard, and soon began entering
+data themselves in order to make more
+frequent use of the tool. Conversely,
+STEM Prep had teachers vinput the
+data into their dashboard, but teachers
+struggled to do so outside of the monthly
+professional development time that had
+been set aside for this purpose. STEM
+Prep’s team determined it was essential
+to set aside time for inputting data on
+routine cycles as part of their process. It is
+important to make these types of decisions
+based on the specific school context and
+its teachers’ needs.
+
+STEM Crown Prep Principal Daniel Moreno sets goals and norms with his staff
+
+3.15
+
+I M P L E MEN T IN G R OU T IN E D ATA C Y C LE S TO A S S E S S S TU D E N T N E E D S
+
+Multi-Tiered
+Systems of Support
+
+Train Teams
+Step 5: Design and
+Integrate Staff Data
+Routines and Norms
+It is important to devote time during summer
+professional development to introduce the
+purpose of routine data cycles, as well as train
+teachers on the school’s goals, data collection
+and quality norms, use of the data dashboard
+tools, and use of the protocols to analyze data
+and design interventions. Training should also
+ensure that teachers know how to complete
+any technical steps, such as downloading data
+into the dashboard (if necessary), using the
+dashboard’s functions effectively, and following
+the protocol for viewing, analyzing, and acting
+upon data.
+A helpful how-to guide, such as this model
+from STEM Prep, can serve teachers as a
+reference for directions on how to download
+and use the data in the future. Follow-up
+professional development may be needed
+to provide additional support to teachers
+who struggle to use the dashboard and its
+functions.
+
+School Spotlight
+Collegiate Academies used a staged
+rollout to implement their standards tracker.
+The team mocked up its standards tracker
+in the fall of 2021. In January 2022, and
+throughout the spring, they launched the
+tracker for pilot testing with a select group of
+assistant principals and staff members. The
+launch group began fully using the tool in the
+last quarter of the school year. This timing
+set up Collegiate’s leaders to train launch
+group members in May, which resulted in a
+smoother training of the broader staff and
+new hires the following fall.
+The new beginning-of-the-year training used
+simulated data to teach educators how to
+populate the tracker and use it effectively.
+Leaders found that this training made it
+easier to set the expectations for the use of
+the tracker before the start of the new school
+year. At every stage, regular professional
+development sessions made it possible for
+teachers to give feedback within the tracker so
+further alterations could be made to the tool.
+Collegiate Academies’ future training will
+enable more school leaders or coaches to
+make edits and create functionalities in the
+tool without needing the technical assistance
+of the original developer.
+
+Staff at Collegiate Academies engage in start of year training
+
+3.16
+
+I M P L E MEN T IN G R OU T IN E D ATA C Y C LE S TO A S S E S S S TU D E N T N E E D S
+
+Multi-Tiered
+Systems of Support
+
+Implement Routine Data Cycles
+Once staff are trained, launch the protocol to implement data cycles on a routine cadence — ideally
+every two weeks, if not weekly. Each iteration of the cycle consists of three key steps: (1) analyze data,
+(2) design interventions, and (3) implement interventions.
+See the Sample Data Cycle Protocol with Guiding Questions for steps teachers might take to analyze
+data and develop action plans based on that analysis. A fillable version of the data protocol template is
+available in the Appendix.
+
+Sample Data Cycle Protocol with Guiding Questions
+Schoolwide
+Goals
+
+[Insert site-wide area of focus or goal for student outcome growth]
+Example: Demonstrate three percentage point growth per quarter to reach 25% of students
+with disabilities on grade level in reading based on NWEA MAP.
+
+Steps to Gather and Review Data
+Confirm data is
+up-to-date.
+
+•
+•
+•
+•
+
+When was the last time grades were entered?
+Do the grades in the data represent mastery?
+Are students turning in assignments?
+Are there any other problems you see in the data that need to be fixed?
+
+Steps to Analyze Data
+
+3.17
+
+Identify student
+strengths in the data.
+
+• What assignments or standards are students finding it easiest to master?
+– Note what was happening in class that might have been different for these
+assignments or standards.
+• Are there areas where almost all students are seeing success?
+– Which students are not seeing success in these places?
+
+Identify areas
+of challenge for
+students in the data.
+
+• What assignments or standards are students finding it most challenging to master?
+– Note what was happening in class that might have been different for these areas.
+– Which students had the greatest challenges in these areas?
+– Which students did not find these areas to be a challenge?
+• Are there areas where almost all students are facing challenges?
+– Which students are not seeing challenges in these places?
+
+Identify priority
+focus areas.
+
+• What specific areas or standards do you need to address?
+• There can be multiple focus areas regardless of how many students need each one to be
+addressed.
+
+Create a SMART goal
+that will move the
+needle for students.
+
+Based on what I’m seeing in the data, my goal is to (do X in order to support students with Y)
+Example: By 11/29 (the next grade check) 25% of students will increase mastery to a C or
+better.
+
+I M P L E MEN T IN G R OU T IN E D ATA C Y C LE S TO A S S E S S S TU D E N T N E E D S
+
+Multi-Tiered
+Systems of Support
+
+Steps to Action Plan
+Identify students
+who need support by
+focus area.
+
+Action Steps
+
+Which students do you need to provide additional support to reach your SMART goal?
+Focus Area 1
+
+Focus Area 2
+
+Focus Area 3
+
+•
+
+•
+
+•
+
+Focus Area 1
+• Who:
+• What:
+• When:
+
+Focus Area 2
+• Who:
+• What:
+• When:
+
+Focus Area 3
+• Who:
+• What:
+• When:
+
+Steps for Focusing on Target Population
+Identify subgroups who
+need support by focus
+area.
+Identify students who
+need support by focus
+area.
+
+Action Steps
+
+Which student subgroup(s) in your class do you need to provide additional support for each
+identified focus area of need?
+
+Which students do you need to provide additional support to reach your SMART goal?
+Focus Area 1
+
+Focus Area 2
+
+Focus Area 3
+
+•
+
+•
+
+•
+
+Focus Area 1
+• Who:
+• What:
+• When:
+
+Focus Area 2
+• Who:
+• What:
+• When:
+
+Focus Area 3
+• Who:
+• What:
+• When:
+
+Coaching Support
+Identify teacher
+needs.
+
+• What help might you, as a teacher, need to implement action steps?
+• Do you need to engage any other specialists (e.g., special educators, literacy specialists,
+administrators, multilingual learner specialist)?
+
+Examples of Action Steps
+• I will invite the following students to tutoring for the next three weeks to work on Learning Target 1, 3, and 5.
+• I will implement small group instruction in my next lesson cycle to focus on the needs of the target population.
+• I will spiral in long-division in the next unit assessment, as 80% of students have made errors connected to this skill.
+
+3.18
+
+I M P L E MEN T IN G R OU T IN E D ATA C Y C LE S TO A S S E S S S TU D E N T N E E D S
+
+Multi-Tiered
+Systems of Support
+
+Step 6: Analyze Data to
+Identify Student Needs
+The purpose of analysis is to identify groups of students with
+common needs, or individual students with specific needs, that can
+be addressed through interventions in future classes. In this step,
+teachers look for commonalities among students, assignments,
+and event dates to better understand why some students
+mastered content and others did not.
+It is often helpful to start by looking at the class as a whole and
+noticing any data points that stand out. Use these outliers in the
+data to guide further analysis. Consider which students may have had
+procedural challenges versus conceptual challenges to help with the next step of planning
+interventions. Sometimes it will be necessary to analyze students’ work in order to better understand
+what they struggle with on an assignment (see A Collaborative Approach to Student Work Analysis
+to learn more).
+For example, imagine a class that averaged 80–90% on exit tickets in the last two weeks. Suddenly,
+over the course of a few days, the average drops closer to 60%. This decrease is a sign that the
+teacher should look carefully at those days to understand what happened. Similarly, they might look at
+data for subgroups — students with disabilities, multilingual learners, students living in poverty, etc. —
+to see whether these subgroups mastered the content at the same level as other students in class or
+whether some assignments arise as concerns. Those outliers in the data tell the teacher to investigate
+which students struggled the most with the content and to reflect on their own instructional practices on
+those days.
+
+Step 7: Plan and Design Interventions
+Once teachers have students grouped by needs based on their
+analysis of the data, they plan interventions aligned to the different
+focus areas. Planning by focus area ensures that students learn
+missing skills, correct misconceptions from prior lessons, or master
+content to help them better access the next lesson. Interventions
+can take many forms, but in every case should be designed based
+on what was learned through the data analysis.
+For example, teachers might determine from the data that
+they should:
+• design a small group session during the Do-Now,
+• spiral in prior concepts for the whole class to practice,
+• provide 1:1 support to help build essential foundational concepts, or
+• coordinate with a special educator to plan a lesson.
+School-level teams should develop a bank of interventions that can serve as a living reference for
+all teachers and teams as they plan interventions that best meet student and classroom needs.
+
+3.19
+
+I M P L E MEN T IN G R OU T IN E D ATA C Y C LE S TO A S S E S S S TU D E N T N E E D S
+
+Multi-Tiered
+Systems of Support
+
+How the NIC Used Data to Make Instructional Decisions
+Schools in the NIC have used data tracking and analysis in different ways. At Collegiate Academies,
+teachers use Collegiate’s custom-made April Dunn Tracker to understand which standards students
+have mastered at different levels over time. The tracker makes it easy for co-teachers to determine
+which students in their class need re-teaching of content or skills related to a standard, to design
+lessons so re-teaching can occur, and to reassess student mastery of the standard.
+At Green Dot Public Schools, teachers have used data from work analyses to guide interventions.
+For example, a co-teaching pair, after introducing a new concept in class and analyzing students’ exit
+tickets, realized that their students had a wide range of needs. Subsequently, they designed mixedability groupings to allow students to learn from one another more easily and to help their peers starting
+with varying amounts of prior knowledge. Using mixed-ability groupings allowed the co-teachers to
+work more closely with individual students or groups that needed additional guidance.
+
+Step 8: Implement Interventions
+The most important part of the routine data cycle is implementation
+of the planned interventions for students. Structures like
+collaborative planning can help teachers design and implement
+interventions with teaching teams (see Establishing Effective Data
+Routines in School-Based Teams). Teachers can also work with
+coaches to find new resources and improve intervention planning
+and implementation across data cycles.
+The following actions and considerations may be helpful for the
+successful implementation of instructional interventions:
+• Teachers develop classroom norms and routines to make
+implementing interventions possible.
+• Teachers plan a new lesson format or activity to re-teach content to reach a group of students.
+• Coaches conduct observations to provide feedback to teachers to support their growth and
+development implementing data-driven interventions.
+• Teachers complete peer observations to access models and examples of interventions in practice.
+• Coaches work with teachers to determine areas of growth in implementing interventions.
+• Coaches schedule short periods of time with teachers when interventions will happen so that
+coaches can maximize how many teachers they observe in a day.
+Once the interventions are implemented, a data cycle is complete. Teachers will begin the next iteration
+of the cycle by analyzing data to determine the effectiveness of their prior data-based decisions and
+subsequent implementation of interventions.
+
+3.20
+
+I M P L E MEN T IN G R OU T IN E D ATA C Y C LE S TO A S S E S S S TU D E N T N E E D S
+
+Multi-Tiered
+Systems of Support
+
+Provide Ongoing Support
+Step 9: Embed Teacher
+Support
+It is important to plan structures and routines
+for coaching and collaboration that will support
+and sustain this practice as a regular activity
+across school teams. Consider how your
+school will embed ongoing support into regular
+teacher planning, collaboration, support, and
+professional development structures. Some
+examples of embedded structures to support
+data cycles include the following:
+• Dedicated weekly grade-level team
+meetings (see Establishing Effective
+Data Routines in School-Based Teams)
+
+School Spotlight
+Collegiate Academies uses biweekly
+coaching sessions as an opportunity to
+review data with teachers and create
+action plans. These sessions can also
+be an opportunity to plan more intensive
+and long-term support that may require
+additional staff, space, or time. STEM
+Prep primarily uses grade-level meetings
+to review data and determine additional
+support for students.
+
+• Co-planning time that allows teachers to work alongside other
+educators to use the protocols to review, analyze, and plan based on student data
+(see Co-Planning for Differentiated Instruction)
+• More frequent data reviews for teachers to determine whether daily routines or supports are
+needed and to measure how effective those supports are for students, particularly if a class or set
+of students continues to struggle during a unit
+• Biweekly instructional coaching to help teachers or co-teaching teams troubleshoot any technical
+issues, as well as to help them build their skills around analyzing student data, identifying which
+students need additional support, designing the type of interventions that will best help students
+achieve mastery of the content, and implementing those interventions
+After the initial implementation of the data dashboard and protocol, differentiate subsequent
+professional development sessions so returning teachers can learn new intervention strategies, while
+new teachers learn the mechanics of using the tool. Veteran and new teachers should be paired at
+different points so newer teachers can build their knowledge of intervention strategies from their peers.
+The implementation of interventions is the most important and difficult step of the process and cannot
+be overlooked. Coaching and professional development should continuously include new strategies
+teachers can use and explain when to use them based on data.
+
+3.21
+
+I M P L E MEN T IN G R OU T IN E D ATA C Y C LE S TO A S S E S S S TU D E N T N E E D S
+
+Multi-Tiered
+Systems of Support
+
+Timing is important!
+When school leaders plan for the implementation of this practice before the start of the school year,
+instructional staff can be oriented to the tools and prepared to start the school year strong. Both STEM
+Prep and Collegiate Academies integrate training into their summer professional development so they
+can onboard new teachers and school leaders to the dashboard. Early training should be followedup regularly through coaching conversations, grade-level and department meetings, and co-planning
+sessions. Summit Atlas focused professional development on this type of content mid-year when they
+saw teachers needed additional guidance on how to choose interventions for their students. STEM
+Prep, Collegiate Academies, and Summit Atlas all identified a need to conduct further training with
+teachers around interventions to implement with students.
+
+Step 10: Revise Goals,
+Data Dashboard,
+Protocols, and Norms
+It will be necessary to regularly revise the
+data system to improve effectiveness as
+teachers use the data system and school
+leaders observe the impact the practice
+is having on student learning. As student
+learning outcomes improve, changes to
+school-wide goals may also be necessary.
+Find opportunities for teachers to share
+feedback on how to improve the tools and
+protocols as they become more familiar with
+using the data dashboard and protocols.
+In the first year of implementing the data
+system, school leaders may prefer rapid
+revisions, perhaps quarterly or even more
+frequently. Revisions may only be needed
+on an annual basis once regular progress is
+observed in the dashboard and start-of-year
+goals are met.
+
+3.22
+
+School Spotlight
+The successful development of any
+new tool or protocol requires its own
+cycles of improvement. Both STEM
+Prep and Collegiate Academies spent
+a semester getting feedback from users
+at regular intervals through surveys and
+interviews, which helped their development
+teams troubleshoot issues and improve
+inefficiencies. For example, Collegiate
+Academies learned that many teachers
+did not know how to create their own filters
+in Google Sheets. As a result, the team
+created filters ahead of time for teachers
+and designed training to increase current
+and future staff capacity to use Google
+Sheets independently. They no longer took
+for granted that teachers could learn how
+to use the necessary features of Google
+Sheets on their own.
+
+I M P L E MEN T IN G R OU T IN E D ATA C Y C LE S TO A S S E S S S TU D E N T N E E D S
+
+Multi-Tiered
+Systems of Support
+
+Practice Snapshot
+COLLEGIATE ACADEMIES’ APRIL DUNN STANDARDS TRACKER
+In collaboration with the Networked Improvement Community, Collegiate Academies in New Orleans
+developed a data system tailored to track progress toward graduation requirements of diverse learners.
+Initially prototyped and tested in collaboration with classroom and school leaders, the data tracker tool and
+the systems designed for its use have been scaled across all campuses.
+
+In 2014, Louisiana’s Legislature passed Act 833, giving students with disabilities an alternative
+method of achieving high school graduation requirements. Specifically, the change meant that
+students with disabilities were no longer required to pass a Louisiana statewide assessment,
+known as the LEAP. Instead, new “April Dunn Act” requirements offered another way for students
+to demonstrate mastery of standards. For some eligible students, IEP teams are able to specify
+that students will graduate through the mastery of state standards using alternative means other
+than passing end-of-course LEAP assessments. The IEP teams are required to document the
+achievement of the standards and fulfillment of requirements for high school graduation.
+Collegiate Academies, like all schools in Louisiana, had to adopt and adapt to April Dunn
+requirements for a subset of their students with disabilities. A key practice Collegiate developed
+to meet the needs around April Dunn requirements was data-driven decision-making. Collegiate
+created a standards tracker that allowed teachers to document and see which April Dunn statewide
+standards each student met and how. Collegiate used their existing tracker for general education
+statewide standards as a model for their April Dunn tracker. Originally separate, the two trackers
+were eventually combined into one tool for all teachers to access.
+The April Dunn tracker was particularly important to Collegiate’s goals for co-teaching. All students
+with April Dunn standards included in their IEP had a plan for graduation, including taking at
+least math and English in co-taught classes. Using a tracker allowed Collegiate’s co-teachers to
+effectively support these students to meet their individual IEP goals and master the standards to
+graduate.
+At the beginning of the 2022–23 school year, after Collegiate had completed prototyping and testing
+of the tracker tool with a subset of teachers, they began training all teachers on the use of the
+tool. Using a fake data set, Collegiate leaders taught educators how to download data and use the
+tracker. They found that it was easier to set expectations for the use of the tracker generally, and
+for its use in co-planning, when launched at the beginning of the school year rather than mid-year.
+Additionally, through the beginning-of-the-year roll-out, Collegiate’s leaders were able to train more
+school leaders to independently edit and create functionalities in the tracker.
+By training both teachers and school leaders, Collegiate created a long-term, sustainable system
+for tracking, reviewing, and making instructional decisions for all learners, especially those in our
+priority population.
+
+3.23
+
+I M P L E MEN T IN G R OU T IN E D ATA C Y C LE S TO A S S E S S S TU D E N T N E E D S
+
+Multi-Tiered
+Systems of Support
+
+IMPLEMENTING ROUTINE DATA CYCLES
+TO RAPIDLY ADDRESS STUDENT NEEDS
+
+Summary
+Systematically reviewing, analyzing, and planning instruction based on specific, disaggregated student
+data is essential in responsive instruction, particularly for addressing the unique needs of priority
+populations such as students with disabilities. The success of this practice relies not only on developing
+high-quality materials for data analysis and disaggregation but also on integrating them effectively
+into the school’s culture, staff training, and teaching practices. Thoughtful design of systems that
+enable frequent data use, particularly when disaggregated by priority populations, ensures informed
+instructional decisions, targeted interventions, and the identification and mitigation of biases in the
+educational system.
+School leaders can ensure educators focus on the needs of students with disabilities by allocating
+regular time and defining clear protocols to identify student performance trends and to review
+disaggregated group and individual student data in light of those trends. Further, associated
+professional development, particularly in the summer, sets educators up to successfully use data to
+design interventions during lesson planning.
+
+FURT HE R L E ARNI NG
+
+“The practice of data use: An introduction”
+CYNTHIA E. COBURN AND ERICA O. TURNER
+AMERICAN JOURNAL OF EDUCATION
+
+“Mathematics Performance Assessment in the Classroom:
+Effects of Teacher Planning and Student Problem Solving”
+LYNN S. FUCHS, DOUGLAS FUCHS, KATHY KARNS, CAROL L. HAMLETT, AND MICHELLE KATZAROFF
+AMERICAN EDUCATIONAL RESEARCH JOURNAL
+
+Visible learning: A synthesis of over 800 meta-analyses
+relating to achievement
+JOHN HATTIE
+
+Foundations for Success: Case Studies of How Urban School Systems
+Improve Student Achievement
+JASON SNIPES, FRED DOOLITTLE, AND CORINNE HERLIHY
+FOR THE COUNCIL OF THE GREAT CITY SCHOOLS
+
+3.24
+
+I M P L E MEN T IN G R OU T IN E D ATA C Y C LE S TO A S S E S S S TU D E N T N E E D S
+
+Multi-Tiered
+Systems of Support
+
+IMPLEMENTING ROUTINE DATA
+CYCLES TO RAPIDLY ADDRESS
+STUDENT NEEDS
+
+Appendix
+
+Appendix
+How to Measure
+When implementing routine data cycles, monitoring how useful, usable, and utilized the practice is
+by team members and across the school system can accelerate learning to improve outcomes for
+students. Be aware that improved process measures are usually necessary to ensure a high enough
+level of fidelity before outcomes will see improvement. At minimum, these measures are most essential:
+
+PRIMARY MEASURES
+Measure
+Type
+Process
+
+Data
+Collection
+Type
+Coaching
+notes
+Observation
+Survey
+
+Process
+
+Coaching
+notes
+
+Question
+Asked
+
+Results
+
+What does
+success look
+like?
+
+Are teachers
+using student
+data when
+planning?
+
+Percent of
+teachers who
+look at student
+data
+
+Increasing
+percent over
+time until
+reaching 100%
+
+Percent of
+teachers
+designing
+interventions
+based on data
+
+Increasing
+percent over
+time until
+reaching 100%
+
+Percent of
+teachers
+implementing
+supports
+to specific
+students
+
+Increasing
+percent over
+time until
+reaching 100%
+
+If teachers can be
+observed frequently,
+this measure can look
+at the average rate of
+teachers implementing
+supports, using
+multiple observations
+per teacher.
+
+Percent of
+assignments
+completed in
+a given time
+period
+
+Increasing
+percent over
+time until
+reaching 100%
+
+Consider looking
+at assignments
+completed at mastery
+levels once you have
+started to see more
+overall completion.
+
+Percent of
+assignments
+completed
+proficiently
+
+Increasing
+percent over
+time until
+reaching 100%
+completion rate
+with proficiency
+
+Ensure that you have
+an existing cut point
+for mastery (e.g., 80%
+correct, 3 out of 5
+points).
+
+Yes / No
+Are teachers
+planning
+targeted
+interventions for
+students based
+on data?
+
+Examples and Notes
+Consider using
+professional
+development and
+coaching session
+agendas to document.
+
+Yes / No
+Process
+
+Observation
+
+Are teachers
+implementing
+targeted
+interventions for
+students?
+Yes / No
+
+Outcome
+
+Student
+information
+system
+
+Are students
+completing
+more
+assignments?
+Yes / No
+
+Outcome
+
+Student
+information
+system
+
+Are students
+completing
+assignments
+proficiently?
+Yes / No
+
+3.26
+
+I M P L E MEN T IN G R OU T IN E D ATA C Y C LE S TO A S S E S S S TU D E N T N E E D S
+
+Multi-Tiered
+Systems of Support
+
+Additional measures can guide a team to know whether the routine data protocol is leading to the
+desired improvements for students:
+
+SECONDARY MEASURES
+Measure
+Type
+Process
+(useful)
+
+Data
+Collection
+Type
+Survey
+Interview
+Focus groups
+
+Question
+Asked
+Is the student
+data dashboard
+easy to use
+for planning
+instruction?
+Yes / No
+
+Process
+(usable)
+
+Survey
+Interview
+Focus groups
+
+Is it easy to
+review data
+for our priority
+populations
+using the
+dashboard?
+Yes / No
+
+Results
+
+What does
+success look
+like?
+
+Examples and Notes
+
+Percent of
+teachers
+reporting that it
+is easy to use
+the dashboard
+for planning
+
+Increasing
+percent over
+time until
+reaching 100%
+of teachers
+
+Ask questions
+about the individual
+components of the
+dashboard as well as
+the overall usefulness
+so that you can isolate
+what does and does
+not meet teacher
+needs.
+
+Percent of
+teachers
+reporting that
+it is easy to
+review data
+for the priority
+population
+
+Increasing
+percent over
+time until
+reaching 100%
+of teachers
+
+Prepare questions by
+anticipating parts of
+the tool that may be
+most difficult to use.
+Sit beside or screen
+share with users. Ask
+questions as they walk
+through the tool.
+Consider A/B testing
+to give the user
+another option for
+how something can
+function.
+
+3.27
+
+I M P L E MEN T IN G R OU T IN E D ATA C Y C LE S TO A S S E S S S TU D E N T N E E D S
+
+Multi-Tiered
+Systems of Support
+
+PRACTICE TOOL
+
+Routine Data Cycle Protocol
+SCHOOLWIDE
+GOAL(S):
+Steps to Gather and Review Data
+Confirm data is
+up-to-date.
+
+Steps to Analyze Data
+Identify student
+strengths in the data.
+Identify areas of
+challenge for students
+in the data.
+
+Identify priority focus
+areas.
+Create a SMART goal
+that will move the
+needle for students.
+
+Steps to Action Plan
+Identify students who
+need support by focus
+area.
+
+Action Steps
+
+3.28
+
+Focus Area 1
+
+Focus Area 2
+
+Focus Area 3
+
+•
+
+•
+
+•
+
+Focus Area 1
+
+Focus Area 2
+
+Focus Area 3
+
+• Who:
+• What:
+• When:
+
+• Who:
+• What:
+• When:
+
+• Who:
+• What:
+• When:
+
+I M P L E MEN T IN G R OU T IN E D ATA C Y C LE S TO A S S E S S S TU D E N T N E E D S
+
+Multi-Tiered
+Systems of Support
+
+Steps for Focusing on Target Population
+Identify subgroups
+who need support by
+focus area.
+
+Identify students who
+need support by focus
+area.
+
+Action Steps
+
+Focus Area 1
+
+Focus Area 2
+
+Focus Area 3
+
+•
+
+•
+
+•
+
+Focus Area 1
+
+Focus Area 2
+
+Focus Area 3
+
+• Who:
+• What:
+• When:
+
+• Who:
+• What:
+• When:
+
+• Who:
+• What:
+• When:
+
+Coaching Support
+Identify teacher
+needs.
+
+3.29
+
+I M P L E MEN T IN G R OU T IN E D ATA C Y C LE S TO A S S E S S S TU D E N T N E E D S
+
+Multi-Tiered
+Systems of Support
+
+Notes
+1
+
+Drury et al, “Educational Leaders’ Perspectives”
+
+2
+
+Kania and Kramer, “The Equity Imperative in Collective Impact”
+
+Bibliography
+Drury, Jodi, Michael P. Krezmien, Kristine Camacho, and Alicia Gonzales. “Educational Leaders’
+Perspectives on Their Preparation, Practice, and Professional Development in Multi-Tiered
+Systems of Support.” Journal of the American Academy of Special Education Professionals (Fall
+2021): 7–29.
+Kania, John, and Mark Kramer. “The Equity Imperative in Collective Impact.” Stanford Social Innovation
+Review (October 2015): 1–6. https://www.doi.org/10.48558/javg-hj19
+
+3.30
+
+I M P L E MEN T IN G R OU T IN E D ATA C Y C LE S TO A S S E S S S TU D E N T N E E D S
+
+Multi-Tiered
+Systems of Support

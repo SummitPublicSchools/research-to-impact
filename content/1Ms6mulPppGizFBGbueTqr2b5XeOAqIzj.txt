@@ -1,0 +1,725 @@
+Mapping the
+Journey from
+Improvement
+to Impact
+S Y 2022– 23
+
+Table of Contents
+Introduction ................................................................... 3
+Underlying Theories ....................................................................................................................... 5
+Results ........................................................................................................................................... 6
+
+The Third Year ............................................................... 8
+1. Spread and Scale ...................................................................................................................... 8
+2. Storytelling as a Key Lever ........................................................................................................ 12
+3. Showing, Not Telling, to Strengthen Stories .............................................................................. 16
+Moving Forward ............................................................................................................................. 18
+
+A Final Word .................................................................. 20
+
+Mapping the Journey from Improvement to Impact
+PAGE 2
+
+Introduction
+This paper is the third in a trilogy documenting the lessons learned by the Gates Foundation–sponsored
+Networked Improvement Community for Students with Disabilities (NIC), a three-year initiative to make
+dramatic gains for Black and Latino students with disabilities experiencing poverty. The first white
+paper chronicles the 2020–21 school year — the NIC’s first — and the second paper does the same
+for the 2021–22 school year. Please consider reading those papers for important context.
+The third installment in our white paper series showcases the significant advancements made by the NIC in
+its final year of research-in-practice with partners spanning content, improvement, measurement, evaluation,
+and, most importantly, educators working in context. Central to our approach are the principles of:
+• Targeted Universalism, which emphasizes uplifting the most marginalized to benefit all;
+• Practice-to-Research, which positions educators as key researchers in developing effective practices;
+• Strategic Alignment, which approaches change management through the lens of inclusivity and the
+prioritization of equitable improvement at all levels of the school system;
+• Spread and Scale, which requires strategic alignment and provides a powerful collaborative role for all
+members of the improvement initiative, whether teacher-testers, district leaders, or contracted experts; and
+• Data for Improvement, which enables all of the above and answers the most pressing questions of
+improvement, including, “Is this change an improvement?” and “Should we adopt, adapt, or abandon
+this practice?”
+
+At Summit Public Schools focal
+sites, at least 82% of students with
+disabilities ended the year on track
+in math and English — and at one
+school that measure was 97%.
+
+Collegiate Academies doubled
+the number of students with
+disabilities meeting graduation
+requirements through alternative
+means of demonstrating mastery.
+
+Mapping the Journey from Improvement to Impact
+PAGE 3
+
+Green Dot Public Schools saw
+nearly three times the percentage
+of students with disabilities
+passing classes with a C or higher.
+
+These principles guided the NIC’s work, keeping the needs of our priority student population at
+the forefront while also fostering systemic improvements that positively impacted all students in
+participating districts.
+Our results underscore the effectiveness of this approach. Remarkably, all ten public charter districts
+maintained their commitment throughout the grant period, with nine expanding these practices
+beyond the initial school sites. This retention and planned expansion highlight the institutionalization of
+continuous improvement processes within these districts. The methods employed, including project
+charters, data decks, and disciplined inquiry with PDSA cycles, were instrumental in achieving these
+results. Moreover, the support from technical experts in literacy, universal design, and data science
+played a crucial role in the NIC’s success. Marshall Street codified over 20 emerging best practices
+from the work of the community, ultimately providing valuable resources from which other schools and
+districts may benefit, thereby advancing educational equity for all students.
+
+Mapping the Journey from Improvement to Impact
+PAGE 4
+
+Underlying Theories
+TARGETED UNIVERSALISM
+The NIC was grounded in targeted universalism: the belief that improvement efforts centered on
+the experiences, environments, and performance of the most marginalized community members uplift
+the community as a whole while providing outsized gains to the individuals of focus. The reason the NIC
+focused efforts on Black and Latino students with disabilities experiencing poverty is because if “every
+system is perfectly designed to get the results it gets,” as American engineer W. Edwards Deming said, then
+the American public education system is designed to exclude and under-serve students at the intersection
+of systemic disadvantage by race, class, and ability status. There are more students with disabilities in
+the United States than there are students attending public K–12 education in any single state. Yet taken
+together as a group, students with disabilities underperform the graduation rates of every state and every
+other statistical subgroup captured by the National Center for Education Statistics (NCES, 2021). Black and
+Latino students with disabilities are placed in exclusionary environments more often than their White
+peers, as are students experiencing poverty.
+
+PRACTICE-TO-RESEARCH
+Another theory underlying the founding of the NIC is the importance of centering practitioner-researchers.
+Although extant academic research exists to promote effective practices for students with particular
+learning differences, and there are bodies of evidence supporting educators who want to best serve
+Black and Latino students, there is no well-established research on highly effective practices for Black
+and Latino students with disabilities experiencing poverty (the “priority student population”). The Gates
+Foundation invested in this student group with the understanding that educators needed the tools of
+continuous improvement to begin documenting emerging best practices for America’s most vulnerable
+student population. These tools — from project charters to data decks to driver diagrams to PDSA cycles
+— facilitated the engagement of practitioners as researchers. The technical assistance provided by experts
+in literacy, universal design, systems design, co-teaching, improvement science, and data science offered
+the wraparound supports practitioners needed for success in their efforts. In many ways, the quality of the
+collaboration among the various expert technical assistance providers in service of practitioners determined
+the effectiveness of the NIC.
+
+LOCAL CONTEXT MATTERS
+Finally, while the networked improvement community coalesced around common focus areas and a shared
+aim — to make dramatic gains in the learning experiences, environments, and outcomes of Black and
+Latino students with disabilities experiencing poverty — we intentionally designed it to empower districts to
+generate context-specific aims. This approach reflected the core belief that, while needs were similar across
+schools, the unique realities of each community would shape the implementation and success of practices.
+As districts collaborated within the NIC to develop practices worthy of spread and scale, it became clear
+that those practices had to be nurtured and codified within each school’s distinct context. For instance,
+developing effective literacy practices for the priority population was a shared goal among multiple schools,
+yet each school brought unique conditions to the table, including their schedules, staffing models, delivery
+methods, charter district priorities, and technology plans.
+
+Mapping the Journey from Improvement to Impact
+PAGE 5
+
+A foundational hypothesis of the NIC is that best practices emerge through collaboration, systematic
+sharing, codification, and iterative cycles of data collection and refinement. In its third year, the NIC
+rigorously tested this hypothesis as district teams translated their initial implementation efforts into
+scalable solutions.
+
+Results
+To effectively illustrate the activities and adaptations that defined the third year of the NIC, it is beneficial to
+begin with its results. The NIC’s successes can be measured both at the network level — through retention
+of partner schools, overall satisfaction with the NIC’s support for participants, and effective spread
+and scale of best practices across charter districts — and at the individual charter district level, where
+improvements in student outcomes, environments, and experiences reflect the ambitious three-year goals
+set by each district.
+
+NETWORK-WIDE IMPACT
+Feedback from charter district participants affirmed the value of the NIC’s work for schools and educators.
+Ninety-six percent of respondents to the end-of-NIC survey agreed that they would continue the work
+beyond the grant period ending in the summer of 2023. More than ninety percent of participants agreed
+or strongly agreed that the NIC had accelerated their equity work in new ways. Eighty-eight percent were
+confident that this work would continue at their organization, and eighty-three percent were optimistic that
+the work would grow.
+
+Tangible outcomes support
+these perceptions:
+• By the end of the grant, nine of the
+ten charter districts had met or made
+significant progress toward their threeyear goals.
+• More than six months after the grant’s
+conclusion, nine charter districts
+reported continuing the equity-focused
+improvement work initiated through the
+NIC, institutionalizing its impact.
+• Eight charter districts have since
+expanded their efforts for students with
+disabilities and have seen measurable
+student gains as a result of their
+extended work.
+
+The NIC’s impact, as seen by the
+participating educators, is manifold:
+• 73% said the NIC enabled them to
+improve an existing program.
+• 69% said the NIC broke silos and
+brought general education and special
+education practitioners and programs
+together.
+• 66% agreed that NIC participation
+enabled them to build or introduce a
+new program for the priority population.
+• 56% said participation enabled or
+encouraged the spread and/or scale of
+best practices.
+
+Mapping the Journey from Improvement to Impact
+PAGE 6
+
+STUDENT OUTCOMES AND EXPERIENCES
+The NIC and the charter districts within this community developed and implemented over 20 emerging best
+practices to improve outcomes for the network’s priority population. The practices — which span literacy,
+multi-tiered systems of support, collaborative teaching, targeted interventions for students with emotionalbased disabilities, and postsecondary transitions — led to dramatic gains for students.
+Marshall Street codified these emerging best practices and published them as “Research-to-Impact
+Practices” for others to employ in their schools and districts so that the practices could benefit the
+nation’s most marginalized student populations, both within charter districts and beyond.
+Additionally, Marshall Street network leadership
+supported the spread of best practices across
+the NIC, demonstrating that the connections
+formed among equity-minded education leaders
+are enduring and continue to serve young people
+across the nation. For instance, Collegiate and
+Uncommon have adopted student conferencing
+practices and routines from KIPP Northern
+California and STRIVE Prep. Collegiate now
+uses quarterly co-planning professional
+development days, a practice that was tested,
+improved, and codified by leaders at Green Dot.
+Green Dot’s influence has also expanded beyond
+the NIC to the broader public charter school
+sector in Los Angeles, where they have led the
+spread of planning days. Countless examples of
+such collaboration exist, and many appear in the
+Spotlights produced throughout the NIC’s
+operation.
+
+Learning tour of Collegiate Academies
+
+Marshall Street sincerely hopes that these
+emerging best practices for Black and Latino
+students with disabilities experiencing poverty can empower students, educators, and school leaders by
+helping make best practice standard practice. We also hope that the model of conducting educational
+research on best practices for students with practitioners will become the norm. The dynamic between
+educators and researchers is healthiest when the playing field is level, and practitioners have the power to
+improvise, create, and adapt practices within their schooling contexts and always in the best interests of
+the students they serve.
+
+Mapping the Journey from Improvement to Impact
+PAGE 7
+
+The Third Year
+How did the NIC leverage its third and final year to achieve these results not only for students in our priority
+population but also for all students?
+To drive dramatically improved outcomes, the NIC focused on three themes:
+1. Spread and scale to broaden the impact of promising practices
+
+2. Storytelling as a key lever in the work of spreading and scaling practices
+
+3. Showing, not telling, to strengthen stories shared by network participants
+
+1. Spread and Scale
+As year two came to a close, there were bright spots throughout the NIC that needed fanning. They needed
+fuel. As leaders of the community, Marshall Street built a set of supports that encouraged behaviors that
+would allow these sparks to grow into roaring fires.
+
+Mapping the Journey from Improvement to Impact
+PAGE 8
+
+CHANGE MANAGEMENT
+Throughout the NIC effort, Marshall leadership often referred to a lightly adapted version of John Kotter’s
+8-Step Change Model. Though each charter district entered year three in different phases of Kotter’s
+model, most were generating some short-term wins and needed to “sustain acceleration.” We thus
+married change management, which tends to feel natural for school and district leaders, with a focus on
+sustainable spread and scale. A few districts had already proven adept at noticing and accelerating the
+adoption of best practices by empowering effective teachers to engage and train others in spreading their
+practices. This practitioner-to-practitioner spread approach helped build momentum, staff ownership, and
+buy-in for best practices to become standard practices, as evidenced at Summit Public Schools, Green
+Dot, STEM Prep, Collegiate, and STRIVE Prep. It also demonstrated the political will necessary for savvy
+administrators to begin scaling ideas in partnership with their most innovative teachers and school leaders.
+
+ALIGNMENT
+To support the type of district-wide adoption that we hoped to achieve in developing a set of scalable
+emerging best practices for students in our priority population, we began the third year with summertime
+alignment meetings. Marshall’s Director of Improvement Programs and our Gates Foundation Program
+Officer collaboratively designed and led these meetings to ensure alignment and clarity with senior leaders
+at each charter district and to build awareness and investment in the work—an especially critical focus at
+this stage of the improvement effort due to the high turnover in many school communities during COVIDrelated facility closures. Commitment took the form of dedicated time for sharing progress, data support,
+opportunities to strategically spread and scale the work, and direct alignment of the work of the NIC with the
+charter district’s annual strategic priorities. These meetings turned out to be a high-leverage way to recruit
+leaders into the effort and develop a shared strategy for prioritizing the NIC’s work across each district.
+Throughout the course of the school year, these leaders were able to efficiently stay engaged in the work’s
+progress, advocate for resources and time to advance the work, and remove barriers at critical moments.
+
+Mapping the Journey from Improvement to Impact
+PAGE 9
+
+DATA FOR IMPROVEMENT
+The final year of the NIC is a testament to the fact that the data work is never done. Indeed, data work
+remained some of the most important work of the NIC’s final year, despite early measures to ensure
+adequate data collection and utilization at each charter district, including pre-launch vetting of schools’
+data systems, dedicated “Data Lead” team members skilled at pulling and visualizing data, on-demand
+support from technical assistance providers, and the first two years’ work to better structure data to
+measure and serve the priority population.
+This investment was well worth making. Both at the local, school level and across the NIC, well-conceived
+data collection, analysis, and visualization tools — and the routines that support their use — drove rapid
+student gains while building improvement team motivation.
+
+Local Data
+As the NIC entered year three, Marshall Street network leaders recommitted to providing proactive and
+regular data support to schools in the NIC, responding to the significant need that had surfaced in year
+two. Marshall engaged technical assistance providers to refine data systems for improvement and supply
+targeted data support, including developing tools and routines and identifying trends in data use across the
+NIC. Regular coaching sessions with members of each charter district’s improvement team supported the
+ongoing demands of data collection, analysis, and visualization.
+The targeted data support supplemented the on-demand assistance provided by the research team —
+RTI International, National Implementation Research Network (NIRN), and SRI International — who joined
+the NIC as evaluators, providing data collection and research expertise. In year three, they spent the bulk
+of their energies conducting measurement and evaluation activities. These activities both fed into the
+technical assistance provided to charter districts and supplied evidence of the effectiveness of ongoing
+data capacity development and routines.
+
+Network Data
+Centralized data that elevated trends and bright spots across the network and hub level also remained
+an essential focus of the final year of the NIC. At the network level, the Marshall Street team produced
+dashboards and PDSA tracker tools that monitored PDSA progress metrics alongside metrics of network
+health, engagement, capacity building, and student outcomes/results. The dashboards tracked not only
+the quantity of PDSAs occurring across the NIC but also the quality and scalability of these PDSAs. This
+data served as a rich repository of information for prioritizing the teams’ coaching and support actions,
+and it fed directly into strategic planning for activities and training priorities at NIC events. Additionally, by
+regularly monitoring PDSAs alongside improvements in student outcomes, the Marshall Street team was
+able to identify bright spots and share practices across charter districts, elevating the most promising
+work. Further, Marshall Street was able to identify network trends and needs to deploy network resources
+most strategically.
+By aggregating network data at the PDSA level, hub-level dashboards could track the progress of different
+schools from PDSAs, up to the driver diagrams, and ultimately toward both the districts’ aims and the
+NIC’s aim. Marshall Street leaders monitored this data weekly and monthly, then aggregated, analyzed, and
+shared this data in a Quarterly Network Review with the network support team — that is, the full Marshall
+Street team and the Gates Foundation’s team. Working collaboratively, the team synthesized trends in
+
+Mapping the Journey from Improvement to Impact
+PAGE 10
+
+progress and surfaced common barriers facing the NIC. In this way, the team formulated aligned plans
+for intervention and support in order to adapt to the needs of charter districts with confidence and
+accountability.
+Finally, one of the primary frameworks employed in the final year of the NIC to roll up data and allocate
+the NIC’s resources was a 2x2 framework of “Replicability x Results” developed by the Marshall team
+to reflect the two dimensions of greatest importance for NIC participants to accelerate impact for young
+people and the educators working daily to support them. Conducting such inherently qualitative analysis
+with confidence requires data from all levels of the improvement systems — from individual PDSA
+progress to aim-level measurement. In each Quarterly Network Review, Marshall Street focused our
+analysis on the four phases this framework provides:
+
+PARTNER SUPPORT PHASES
+
+Replicable
+
+Not
+Replicable
+
+Not getting results for priority
+population
+
+Getting results for priority
+population
+
+Phase 3: Explainable Progress
+
+Phase 4: Explainable Success
+
+The conditions are in place to
+achieve improvement in student-level
+outcomes.
+
+Everyone wants to be here: strong
+documentation of emerging best
+practices.
+
+Phase 1: Inexplicable Stasis
+Nobody wants to be here: little
+evidence of improvement or
+conditions for improvement.
+
+Phase 2: Inexplicable Success
+Evidence of improvement for the
+priority population exists, but not
+evidence for how such improvements
+were achieved.
+
+Where a charter district was not yet demonstrating evidence of progress for the priority student population,
+the job of the network support team was to provide targeted coaching and resources, helping educators
+adapt or refine their approaches to achieve the desired gains for students. Where a charter district was
+demonstrating evidence of student gains, but where there was no evidence of the methods used to make
+such progress, our job was to investigate and better understand the system and individual efforts creating
+such evidence of progress.
+Beyond investigation, our job was largely one of documentation to codify emerging best practices so they
+could be spread and replicated by others. The framework aligned the Marshall Street improvement advisors
+around a set of targeted coaching and improvement actions to best support charter districts in reaching
+the aims they set out to achieve. At the same time, it ensured that the change ideas and best practices
+showing evidence of progress for young people in the NIC’s priority population were able to spread and
+scale both within the charter district and beyond.
+
+Mapping the Journey from Improvement to Impact
+PAGE 11
+
+2. Storytelling as a Key Lever
+While data provides a quantitative foundation for spreading and scaling improvements for the priority
+population (and for examining those improvements against the achievement of students beyond the priority
+student population), data alone does not drive systemic change in educational institutions. The working
+hypothesis of the NIC was that effective storytelling would serve as a key lever to inspire and accelerate the
+spread, scale, and institutionalization of improvements for students. Thus, year three of the NIC prioritized
+the design of opportunities for school communities and district leaders to craft shareable narratives about
+their improvement results and journeys. To support this storytelling, Marshall developed systems for
+district teams and the broader network to reflect on their progress, leveraging network-wide events like
+professional learning communities (PLCs) and convenings to foster collaborative storytelling activities where
+teams could share and expand their narratives. These efforts contextualized the data and engaged diverse
+stakeholder perspectives on progress made and barriers faced, bringing the improvement work to life.
+
+PROFESSIONAL LEARNING COMMUNITIES
+Professional learning communities represented the NIC’s sandbox for storytelling. PLCs convened monthly
+to provide the space and structure for improvement team members from across the network to share
+their stories of progress and challenges. The four PLCs were formed around areas of particular interest to
+charter districts across the NIC, including postsecondary/transition planning, literacy, developing an equitybased MTSS, and collaborative structures. Participants supported one another, mostly in virtual settings,
+in consultancies, deep-dives, targeted content sharing, and facilitated feedback discussions to unearth
+lessons learned from their ongoing work, celebrate successes, share best practices, and plan the next
+cycle of improvement work. These PLCs formed the nucleus of data-based storytelling across the NIC, and
+they facilitated the sharing of themes and practices that were adapted to various school contexts.
+
+CONVENINGS
+Network convenings were always an important
+aspect of the NIC’s design, yet year three of the
+NIC was the first in which the full network could
+come together in person. In-person convenings
+were possible, in part, because the spring 2022
+Los Angeles Learning Tour had provided NIC
+leadership with the confidence to pursue an inperson learning model (as opposed to virtual or
+hybrid) for future convenings.
+The fall 2022 convening, held in Brooklyn,
+incorporated an optional, multi-day learning
+tour immediately before the two-day convening.
+The tour highlighted exceptional schools in the
+New York metro area, including NIC participant
+Uncommon Schools.
+
+March 2023 convening
+
+Mapping the Journey from Improvement to Impact
+PAGE 12
+
+The convening was well-attended, and the feedback was so overwhelmingly positive that the fears of a
+return to an in-person format diminished amid the sharing of data, ideas, and emerging best practices
+across the network.
+One focus of the Brooklyn convening was to orchestrate the sharing of stories across the NIC by
+improvement team leaders. Such storytelling was part and parcel of the objectives of the Brooklyn
+convening, which included:
+• inspiring members to consider new ideas and models to apply to their context,
+• accelerating learning across CMOs,
+• elevating stories and emerging practices of impact,
+• cultivating and deepening connections across the community, and
+• building capacity in continuous improvement process and content expertise to reach our
+collective aim.
+Every charter district had the opportunity to share stories alongside the changes that they introduced
+for students in the priority population. The practice-based storytelling sessions were some of the most
+highly-rated experiences of the convening, and they provided a proof of concept that informed future NIC
+collaborations.
+Building on the success of the convening in Brooklyn, the NIC held an even larger and more successful
+convening in New Orleans in the spring of 2023. For this convening, improvement teams across the NIC
+were tasked with sharing their full improvement journeys, overlaying data and activities onto a multipaneled poster. In contrast to previous convenings, Marshall Street leaders had NIC participants lead the
+sharing and learning. The key objectives of this convening were to enable each charter district to
+• tell their improvement story and set a vision for this work to continue to 2025 and beyond,
+• refine and get feedback on their spread and scale planning from the fall convening,
+• and share their work to seed ideas that could be spread elsewhere.
+With both storytelling and change management in mind, network leaders from Marshall Street encouraged
+improvement team leaders to bring a deeper set of stakeholders from their charter districts to the
+convening to support spreading and scaling the work. Storytelling not only offered a natural touchstone
+for celebration and idea sharing across the NIC, but it also provided a valuable performance task for the
+charter districts — most of whom had aggressive plans to carry the work forward within their organizations.
+Technical assistance contributed to making the improvement narratives as compelling as possible,
+while content and data experts offered feedback to refine and improve the backward-looking stories of
+improvement as well as the forward-looking plans for the stories that charter districts wanted to tell beyond
+the NIC’s existence.
+
+CO-DESIGNED LEADERSHIP RETREAT
+At the New Orleans convening, NIC leaders from Marshall and the Gates Foundation organized a leadership
+dinner. Senior leaders from each charter district participated in a facilitated discussion about the future
+of the work — both the work of continuous improvement within their charter districts and the future of
+the actual improvements that they were making to support Black and Latino students with disabilities
+
+Mapping the Journey from Improvement to Impact
+PAGE 13
+
+experiencing poverty. The event was such a
+success in galvanizing collective efforts, and the
+leaders across the NIC so uniformly expressed
+commitment to carrying the work forward beyond
+any predefined grant period, that the foundation
+and Marshall Street leaders solidified plans for a
+leadership retreat in the summer of 2023.
+
+SUMMER LEADERS RETREAT
+The leadership retreat served several purposes.
+First, it was a celebratory capstone event
+honoring the hard work of the charter district
+leaders who invested time, political capital, and
+significant energy to make dramatic gains in their
+students’ learning environments, experiences,
+Summer Leaders Retreat
+and outcomes. Second, it was an opportunity
+to develop a set of change management tools
+— slide decks, documents, plans, and artifacts
+— that would enable the continued spread and scale of the work within and across school organizations.
+Third, it provided NIC leaders the opportunity to draw inspiration from one another to keep the work of
+equity-based improvement going and commit to the group’s collective success. Finally, the event allowed
+NIC leadership to preview and engage school leaders in the Research-to-Impact Practices designed to
+scale well beyond the NIC. Although Marshall Street regularly convened leaders across the NIC to advise
+and gather feedback on network support activities, the leadership retreat — informed by such feedback
+from charter district leaders — was a final opportunity for NIC leadership to gather end-of-grant stories,
+data, and artifacts to inform the work of the field.
+
+ARTIFACTS
+In the final year of the NIC, the Marshall team prioritized thoughtful and strategic design of artifacts for
+storytelling, both to investigate and explore emerging progress points and to lean into the human side of
+our improvement stories. The primary artifacts driving storytelling and codification in the final year of the
+NIC included:
+1. Wall-sized journey maps developed for presentation and refinement at the Spring 2023 New Orleans
+Convening. These multi-year storyboards provided a structure for charter districts to tell their stories
+of improvement using visual timelines, process and outcomes data, and descriptions of the team
+formations, core activities, and key efforts that accelerated their efforts.
+2. Spread and scale plans, which were refined over the course of the year and presented at the
+Summer 2023 Leadership Retreat in Oceanside. These spread and scale plans offered intensive
+central support for accelerating change management and defining a NIC-wide story of improvement,
+along with key themes and lessons learned.
+
+Mapping the Journey from Improvement to Impact
+PAGE 14
+
+3. Narrative artifacts showcasing the work of charter districts at NIC-internal events, such as PLCs,
+and NIC-external events, such as the Carnegie Summit. These artifacts highlighted the networked
+improvement community’s impact and efforts. Teachers and district leaders designed and presented
+these artifacts collaboratively with Marshall and other network leaders, elevating their voices and
+perspectives as practitioner-experts. They shared practices, challenges, and successes, offering
+insight into the NIC’s work to improve outcomes for students. These artifacts inspired the broader
+educational community to adopt emerging best practices for the NIC’s priority population.
+
+Green Dot journey map
+
+While the artifacts themselves do not tell the story of the NIC, they provide valuable, flexible resources for
+charter districts to manage change within their organizations and for the NIC to codify its work responsibly
+and with significant practitioner engagement, continuing the NIC’s core principle of conducting research
+in close collaboration with practitioners. This collaborative dynamic not only demonstrated a high
+degree of respect for the network’s participants, but it also breathed far greater life into the themes and
+insights drawn from the work of the NIC. By facilitating practitioner engagement throughout the process
+of storytelling, data analysis, and codification, the NIC learned lessons from the effort that were more
+nuanced, authentic, and impactful than they would have by employing a more standard research stance.
+
+Mapping the Journey from Improvement to Impact
+PAGE 15
+
+3. Showing, Not Telling, to Strengthen Stories
+The final year of the NIC was organized around showing-not-telling in order to make the data-driven results
+actionable for others to adopt in their own contexts. With practitioners taking a more visible leadership
+role in the overall NIC activities and events, central NIC leadership invested in learning opportunities and
+communication efforts that made visible the work happening within and beyond the NIC for students in the
+priority population.
+
+COMMUNICATION TOOLS
+Early in the NIC’s launch, leaders across the network dedicated significant time and resources to building
+strong relationships and connections. These efforts fostered communication within and across the network,
+ensuring that community members had a diverse set of contacts to turn to for inspiration and support.
+To further enhance storytelling and support the spread and scale of ideas, Marshall’s team developed a
+communication strategy centered around three key tools: newsletters, spotlights, and site visit roll-ups.
+This trifecta of communication methods sustained high engagement in community activities, encouraged
+resource sharing, and celebrated progress for students.
+Monthly newsletters, always an integral part of the communication strategy employed by central NIC
+leadership, took on greater importance in year three. Newsletters highlighted the work of practitioners
+across the network and showcased the collaboration among schools and charter districts within the
+community. They featured improvement data and explicitly used the language of improvement science — a
+language in which NIC participants were becoming quite fluent. Celebrations of bright spots from PDSA
+cycles, collaborations among general and special education departments, and student and teacher stories
+defined these regular opportunities for showcasing and spreading emerging best practices.
+Spotlights, disseminated on the Marshall Street website and the Gates Foundation’s education
+blog, shared stories of improvement through the lens of individual practitioners, students, schools,
+charter districts, and inter-district collaborations. These spotlights celebrated the process and products of
+improvement so that others could adopt similar approaches, and they provided the central NIC leadership
+with a steady stream of content to use for multiple purposes.
+Additionally, site visit roll-ups took a new form. Each charter district typically received, over the course
+of the year, two site visits from Marshall Street and other technical assistance providers, often a content
+expert or a data expert. After every site visit, Marshall Street improvement advisors wrote a detailed site
+visit roll-up that synthesized observations and interviews to elevate promising lessons and practices at
+the focal school sites. Roll-ups conveyed authentic gratitude to school and charter district leaders and
+provided a written record of the next steps in the charter district’s improvement work. These roll-ups served
+as strategic artifacts to capture key themes and stories to share broadly across site and district teams and
+offered a rallying point and source of truth for accelerating improvement efforts within the charter districts.
+Finally, beneath the surface of so many activities of year three was the deliberate collection of stories, data,
+and artifacts to inform the field. These efforts culminated in a set of change packages that Marshall Street
+has released as Research-to-Impact Practices. Charter district leaders played a pivotal role in this
+
+Mapping the Journey from Improvement to Impact
+PAGE 16
+
+process, dedicating significant effort to codifying their work for the benefit of the field. They shared their
+stories and gathered implementation resources, enabling the spread and scale of these practices to better
+serve more students.
+Leaders also reviewed content to ensure the codified tools accurately reflected their implementation steps,
+critical lessons, and recommendations to the field. We’re deeply grateful for the time and expertise shared
+by so many members of the network community — particularly teachers and leaders across the charter
+districts — who answered our questions, forwarded documents, and shared their stories so that these
+collections would effectively represent those stories, practices, and data for the advancement of the field.
+
+LEARNING TOURS
+Perhaps most importantly — and certainly representing the greatest resource allocation of the showingnot-telling strategy — learning tours presented invaluable opportunities to see schools within and beyond
+the NIC doing innovative and meaningful work for Black and Latino students with disabilities experiencing
+poverty. Led by Marshall Street and with the intensive support of Sarah Chandler at Purposeful Impact
+and content-expert partners, these oversubscribed learning tours took NIC participants on facilitated
+school and non-profit visits in New York City, Brooklyn, and New Orleans. Uncommon and Collegiate
+were particular highlights, as these NIC participants opened their doors to their peers to provide indepth, on-the-ground insights into the operational, cultural, and programmatic elements that defined their
+improvement journeys. The tours engaged both the head and heart, allowing visitors to see the work of
+improvement in action, speak with students and educators, and get a feel for school communities that take
+the work of equity, targeted universalism, and continuous improvement seriously. Every participant who
+opted into the learning tours agreed that they were able to reflect on their experience and develop plans to
+take learnings back to their organization's improvement efforts. Nearly all charter districts attended each
+learning tour, leading to greater commitment and actionable insights that propelled their work for students.
+
+New York learning tour participants
+
+Mapping the Journey from Improvement to Impact
+PAGE 17
+
+Moving Forward
+The vision of the NIC was always greater than simply engaging ten charter districts in continuous
+improvement or just improving results for the districts' 75,000+ students served annually. Though the
+multi-year effort culminated in dramatic gains in the learning experiences, environments, and outcomes
+for Black and Latino students with disabilities experiencing poverty at the schools engaged in the effort,
+the NIC's ambitions also included codifying a set of emerging best practices to extend the benefits of this
+work for students in the priority population beyond the network community.
+Heartened by the unwavering commitment, notable results, and confidence-inspiring strategic plans of
+leaders within the NIC, the Gates Foundation and Marshall Street developed a four-pronged approach to
+driving the adoption of emerging best practices at scale:
+1. Develop long-form Research-to-Impact collections to be disseminated by both the
+Foundation and Marshall Street. These documents codify scalable practices as change packages
+with strong warrant emerging from the NIC and document stories of impact from across the network.
+2. Develop simplified executive summaries for a select set of Research-to-Impact Practices,
+enabling interested practitioners to quickly understand practices and go deeper where they see the
+greatest need and opportunity within their own districts, schools, and classrooms. These, too, are
+available on the Marshall Street website.
+3. Develop a set of white papers — of which this is the third of three — aimed primarily at funders
+and improvement leaders. These white papers aim to contribute to a body of knowledge that
+helps education improvers develop ever more effective, efficient, and equitable networks for school
+improvement. They also demonstrate the limits of current improvement practices and take us into the
+great unknown of bridging exploratory improvement research — as was conducted within this NIC —
+and validated practices in a broader and more diverse range of educational organizations.
+4. Develop a second instantiation of the NIC to spread the codified emerging best practices to
+more schools and regions in order to strengthen confidence at an appropriate scale within the
+public education sector in the United States. With the ongoing support of the Gates Foundation,
+Marshall Street partnered with Mathematica to define a larger follow-up network of charter districts
+interested in taking the work of the first NIC and implementing the emerging practices at a greater
+scale. In so doing, this second network is designed with lower-intensity supports to validate the
+practice areas of greatest promise, namely:
+• Co-planning and systematic collaboration across general education and special education
+services,
+• Repeated reading and literacy strategies for secondary students, particularly young people in
+the priority student population, and
+• Data-driven intervention practices — occurring in short and predictable cycles and with key
+educators and influential leaders — to align supports for the young people of demonstrably
+greatest need.
+
+Mapping the Journey from Improvement to Impact
+PAGE 18
+
+This final strategy — the biggest bet of the bunch — is to refine and implement these best practices in
+more school systems. The IGNITE Network, launched in Fall 2024, will bring co-planning, repeated reading,
+and data-driven intervention practices to up to 30 schools in five states. The goal of this planned network,
+which is informed by Mathematica’s Evidence-Building Pipeline, is the initial validation of best practices
+supporting dramatic gains in the learning experiences, environments, and outcomes of Black and Latino
+students with disabilities experiencing poverty.
+
+Mathematica Evidence-Building Pipeline
+
+Mapping the Journey from Improvement to Impact
+PAGE 19
+
+A Final Word
+At Marshall Street, we sincerely hope that these white papers help practitioners, funders, network leaders,
+and researchers better develop networks and continuous improvement efforts centering the students
+positioned furthest from opportunity in school systems across the country and around the world. We
+also know that white papers can be informative, but they rarely drive action at scale. Thus, we invite you
+to reach out to Marshall Street with any questions, ideas, and feedback. We are dedicated to our own
+continuous improvement, and we are committed to supporting anyone committed to improving schools
+for students.
+This work of systems change for the purpose of equity is complex, contextual, and collaborative. It takes
+sustained commitment well beyond the short horizons and “this-too-shall-pass” fads that come and go in
+our field. To that end, we want to express deep gratitude to our partners in this work. First, to the Gates
+Foundation — and particularly to Vanessa Murietta, Chris Gibbons, Keith Zander, Casey White, Taina
+Knox, Mary Alice Heuschel, Don Shalvey, and Julie Chaloupka — for their vision, support, and leadership.
+The expertise and commitment of this team are second to none, and they offered so much more than
+funding for this effort.
+Additionally, the school organizations who really led the work of this NIC left us continually in awe of
+the creativity, adaptability, and problem-solving abilities of ride-or-die practitioners. Thank you more
+than words can express to these incredible charter districts and to the many individuals within each
+organization who brought the work of improvement to life:
+• Collegiate Academies in Louisiana
+• Ednovate in California
+
+• Green Dot Public Schools in California
+• KIPP Northern California
+
+• Mastery Public Schools in Pennsylvania
+• Noble Public Schools in Illinois
+
+• Rocky Mountain Prep (formerly STRIVE) in Colorado
+• STEM Prep in California
+
+• Summit Public Schools in California and Washington
+• Uncommon Schools in New Jersey and New York
+
+Mapping the Journey from Improvement to Impact
+PAGE 20
+
+Thanks as well to the incredible technical assistance providers who contributed so much in the way of
+content and data expertise. We loved working with you and learning from you:
+• Adam Black, LLC
+
+• Amy Sandoz, LLC
+• Anna Kawar, LLC
+
+• Anti-Ableist Ed, LLC
+• Blue Engine
+• Catalyst:Ed
+
+• Center for Learner Equity
+• Datability
+
+• Dot Grid Studio
+• Mathematica
+
+• Purposeful Impact, LLC
+
+• NIRN at UNC Chapel Hill
+• RTI
+
+• Solas Partners
+
+• Spark Educational Consulting, LLC
+• SRI International
+
+• SWIFT Education Center at the University of Kansas
+Finally, we want to thank team members who committed their days, nights, and weekends to leading the
+improvement processes across the NIC, including Mira Browne, Nykeisha Bryer, Tim Burke, Adam Carter,
+Marco Castaneda, Paula Espinoza, Megha Kansra, Stephanie Lassalle, Yumi Lifer, Kyle Moyer, Greg
+Ponikvar, Mark Rizkallah, Wilita Sanguma, Giovanna Santimauro, Cat Uong, Ginger Wu, and Daria Zhao.
+Thank you for your dedication, scrappiness, and expertise.
+This whitepaper is based on research funded by the Gates Foundation. The findings and conclusions
+contained within are those of the authors and do not necessarily reflect positions or policies of the
+Gates Foundation.
+
+Mapping the Journey from Improvement to Impact
+PAGE 21

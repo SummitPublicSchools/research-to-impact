@@ -124,10 +124,10 @@ Surfacing it costs nothing, returns in 0.2ms, and cannot hallucinate.
 Zero-result queries went from 18/32 to 0/32. Against a never-tuned-on holdout
 set, the right section is the top hit 14 times in 15.
 
-**Still open, if substantive answers are ever wanted:** a question whose answer
-lives *inside* a PDF in Drive can only be pointed at, not answered — the site
-holds metadata, not documents. Closing that means indexing the Drive files,
-which is a real project rather than a setting. The groundwork for a generated
+**Document text is now indexed** (20 November): search reads inside the linked
+PDFs, Docs and decks and quotes the matching passage with its page number — see
+"Searching inside the documents" in `docs/search.md`. It finds and quotes; it
+still does not compose an answer. The groundwork for a generated
 answer layer exists on the `claude/ask-the-resources` branch
 (`docs/ask-the-resources.md`) if it is ever revisited; it was not merged because
 free search covers most of the same ground.

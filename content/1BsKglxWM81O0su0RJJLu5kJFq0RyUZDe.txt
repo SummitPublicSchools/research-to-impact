@@ -1,0 +1,1146 @@
+Building SchoolBased Transition
+Teams to
+Accelerate Student
+Progress Toward
+Postsecondary Goals
+A RESEARCH-TO-IMPACT PRACTICE DEVELOPED
+WITH THE NETWORKED IMPROVEMENT COMMUNITY
+FOR STUDENTS WITH DISABILITIES
+
+TA BLE O F C O N T E N T S
+3.3............ Practice Overview
+3 | What is the Practice?
+4 | Why is a School-Based Transition Team Important?
+
+3.5............ Implementation at a Glance
+5 | Enabling Conditions
+6 | Steps to Implement
+
+3.7............ Bringing this Practice to Life
+3.9............ How to Implement this Practice
+3.9 | At the Start of the School Year
+3.9 | Step 1: Create a Student Tracking System
+3.10 | Step 2: Input Initial Student Data
+3.11 | Step 3: Form and Launch the Transition Team
+3.12 | Step 4: Determine Meeting Cadence and Protocols
+3.12 | Before the Meeting
+3.12 | Step 5: Collect and Update Data
+3.13 | During the Meeting
+3.13 | Step 6: Review Data
+3.14 | Step 7: Plan Action Steps
+3.14 | Step 8: Assign Next Steps
+3.14 | After the Meeting
+3.14 | Step 9: Include Families in Action Steps
+
+3.15.......... Summary
+3.16.......... Appendix
+3.17 | How to Measure
+3.19 | Notes
+3.19 | Bibliography
+
+Building School-Based
+Transition Teams to
+Accelerate Student Progress
+Toward Postsecondary Goals
+Implementation Level
+
+Who Implements
+
+District/Central Office
+
+Teacher(s)
+
+School
+
+Instructional Coach
+
+Program/Department
+
+Principal
+
+Classroom
+
+Central Office Leadership
+Specialist: Social Worker
+
+Practice
+Overview
+What is the Practice?
+A transition team of postsecondary
+counselors, transition coordinators,
+and social workers meet biweekly
+to monitor whether students with
+disabilities are on track to meet
+postsecondary milestones and goals
+and to provide rapid action steps
+when needed.
+
+3.3
+
+Essential Elements of
+Transition Team Meetings
+1. Meetings occur on at least a biweekly basis for
+reviews of student postsecondary milestone data
+and consistent, timely support.
+2. Transition team includes staff with knowledge
+about different postsecondary pathways (2- and
+4-year college, apprenticeships, community living,
+workforce development, etc.).
+3. The team routinely designs rapid action steps for
+any student not on track to meet postsecondary
+milestones and goals.
+
+BUI L DI NG S C H OOL -B A SE D T R A N SITION TE A MS
+
+Postsecondary
+Aspirations
+
+Why is a School-Based Transition Team Important?
+After high school, students with disabilities are less likely to live independently or to enroll in
+postsecondary education, and they experience poorer employment outcomes than their peers without
+disabilities.1 Transition planning combined with rapid support in implementing transition plans can improve
+postsecondary outcomes for students with disabilities, no matter which postsecondary path they pursue.
+
+Why it Works
+TRANSITION PLANNING INCREASES THE LIKELIHOOD THAT STUDENTS WITH
+DISABILITIES RECEIVE SERVICES IN POSTSECONDARY SETTINGS.
+Transition planning, like any other type of academic counseling, can have an outsized impact on a
+student’s ability to meet their long-term goals. Students with disabilities who engaged in postsecondary
+transition-planning education, including education about what services they need after high school,
+were highly correlated with students actually receiving postsecondary services in academic and nonacademic settings.2 Despite this, only about 20% of students with disabilities are enrolled in a high
+school program that provides them with the opportunities and services to meet their transition goals.3
+This low enrollment indicates that, though transition planning and programs can have positive outcomes
+for students, a significant percentage of students with disabilities are not receiving the transition
+services that would best support long-term success.
+TEAMS THAT USE DATA TO SUPPORT TRANSITIONS HELP STUDENTS MAKE
+PROGRESS TOWARD GOALS.
+After establishing transition goals and plans, students with disabilities also need support in navigating
+enrollment in programs or other steps required to progress on their transition plans. School teams that
+provide support in implementation — including tracking student progress towards transition goals and
+intervening when students are falling off track — increase the number of students who successfully
+access their postsecondary pathways.4
+COLLABORATIVE TEAMS BRING TOGETHER DIVERSE PERSPECTIVES.
+Notably, systems for tracking student progress will be most successful when there is collaboration
+between the core stakeholders, including special education case managers, transition coordinators,
+college counselors, and families. Engaging in inter-agency collaboration (e.g., collaboration between
+schools and the state department of rehabilitation) has proven to result in improved outcomes for
+students with disabilities, including increases in both postsecondary employment and enrollment in
+postsecondary education programs.5 When teams that support students’ postsecondary transition
+progress are composed of a diverse set of staff members with various knowledge and viewpoints,
+team members can each give input, keep the team focused on students’ interests, and include family
+preferences, as well as help mitigate potential biases that can unintentionally direct our priority
+population to less lucrative or lower-status occupations.
+TRANSITION PLANNING IS THE LAW
+The Individuals with Disabilities Education Act (IDEA) mandates transition planning activities for students
+with disabilities starting at age 16, though many states require it to begin earlier. The act intends for these
+transition planning services to be a collaborative endeavor that includes all individuals and agencies involved
+in an individual student’s postsecondary plan.
+
+3.4
+
+BUI L DI NG S C H OOL -B A SE D T R A N SITION TE A MS
+
+Postsecondary
+Aspirations
+
+BUILDING SCHOOL-BASED TRANSITION TEAMS TO ACCELERATE
+STUDENT PROGRESS TOWARD POSTSECONDARY GOALS
+
+Implementation at a Glance
+The information in this section provides a high-level view of what to consider when implementing this
+practice. Enabling Conditions describes the minimum conditions needed for successful implementation,
+including resources, mindsets, staffing, and recommended time allocation. Steps to Implement presents a
+concise checklist of action items, which are explained in detail in How to Implement this Practice, below.
+
+Enabling Conditions
+
+Prerequisites
+
+Staff understand state policies that affect postsecondary pathways. Requirements for
+graduation and alternative ways to meet criteria are continuously in flux, and staff need to be
+abreast of these changes.
+Staff believe that meaningful postsecondary pathways can include alternatives to 2- and 4-year
+colleges, such as workforce entry, vocational training/apprenticeships, the military, occupational
+certifications, or community living.
+Staff value student and family voices as the foundation for transition planning.
+Staff that support transition systems and students’ milestone progress hold a deep commitment
+to ongoing problem-solving and take the initiative to connect the student and family to any and
+all available resources.
+
+Staff
+Commitment
+
+Recommended
+Materials
+
+All students have transition plans with a goal for each of the following: postsecondary
+education, employment, and independent living.
+
+3.5
+
+Clear meeting protocol or agenda
+A tracking tool to use during transition planning meetings to track student progress toward
+postsecondary goals (See Implementing Routine Data Cycles to Rapidly Address Student
+Needs.)
+Communication systems and templates (where appropriate) for family, student, and staff
+communication
+
+Dedicated team lead to manage meeting agendas, oversee documentation of meetings, and
+follow up on action items
+Dedicated team of up to 6–8 staff members to sit on the transition team and regularly engage in
+team meetings
+
+BUI L DI NG S C H OOL -B A SE D T R A N SITION TE A MS
+
+Postsecondary
+Aspirations
+
+Recommended Time Allocation
+
+Meeting facilitator/lead:
+Time between meetings to evaluate progress, support staff, and support student action steps
+(up to 10 hours weekly)
+Time between meetings to update programmatic and student information and document
+completed action items (1 hour biweekly)
+Teachers and specialists:
+About an hour biweekly of pre-work for transition team members to:
+–
+
+identify any students or external programs that have needs for the team to address, and
+
+–
+
+complete action steps from prior meeting
+
+Protected time and space for 6–8 team members to meet (1 hour biweekly)
+Staff time to enact action steps and provide individualized support to students and families
+(30–60 minutes per student for follow-up)
+
+Steps to Implement
+AT THE START OF THE SCHOOL YEAR
+Create a student tracking system
+Input initial student data
+Form and launch the transition team
+Determine meeting cadence and protocols
+BEFORE THE MEETING
+Collect and update data
+DURING THE MEETING
+Review data
+Plan action steps
+Assign next steps
+AFTER THE MEETING
+Include families in action steps
+
+3.6
+
+BUI L DI NG S C H OOL -B A SE D T R A N SITION TE A MS
+
+Postsecondary
+Aspirations
+
+Bringing this Practice to Life
+USING DATA REGULARLY TO ENSURE SUCCESSFUL
+POSTSECONDARY TRANSITIONS AT MASTERY SCHOOLS
+Mastery Schools’ Simon Gratz High School, a college preparatory public charter school in Philadelphia, PA,
+wanted to do a better job at keeping track of student progress on transition activities. They saw tracking this
+data as essential for improving postsecondary outcomes for students with disabilities at their school. An
+interdisciplinary team focused on postsecondary transitions began meeting every two weeks to review student
+progress using a data tracker to help guide student-focused conversations. The case study below describes
+Gratz’s process and the encouraging results of the practice.
+
+Mastery Gratz’s Biweekly Transition Milestone Meetings
+Every two weeks, the conference room table on the second floor of Simon Gratz High School
+is surrounded by a team of the school’s veteran staff. College counselors, social workers, the
+transition coordinator, and special education case managers all sit with their laptops open in sight
+of a large TV screen. The screen displays a spreadsheet with data on every senior with an IEP on
+a non-college pathway (e.g., workforce development, career, or military). Within the spreadsheet,
+red, yellow, and green highlighting clearly shows overall student progress.
+
+Keeping Track of Every Student
+These transition meetings and their follow-up actions attempt to ensure that students complete the
+necessary steps — “milestones” is the term Gratz uses — along the pathway to each student’s
+postsecondary goal. The ultimate objective is that every student is engaged in a postsecondary
+
+3.7
+
+BUI L DI NG S C H OOL -B A SE D T R A N SITION TE A MS
+
+Postsecondary
+Aspirations
+
+pathway when they graduate. The tools and protocols used during transition meetings all support
+these purposes. The team keeps track of every student with an IEP, taking action to support those
+furthest off track and regularly highlighting students’ success in dual enrollment programs.
+
+Sharing Knowledge about Students
+The color-coding in the spreadsheet makes it easy for the team to zoom in and focus on individual
+students. The transition team focuses first on students who are furthest off track, those coded in
+red. Team members with deeper knowledge about a given student let the team know any pertinent
+information about barriers that impact the student’s ability to stay on track with their postsecondary
+milestones. Barriers can include challenges at home, attendance issues, or that the student no
+longer enjoys or is not meeting the expectations of their dual enrollment program. Each type of
+barrier requires the team to consider the best way to support the student, whether with a phone call
+home, a tour of a program accepting applications, or some other action to address the obstacle.
+The conversation for each student is relatively short and ends when the team agrees upon one
+or more action items and the team member responsible for executing the action items. The team
+decides the best member to address the student’s needs by considering the type of relationship
+each member has with the student, as well as their knowledge of the selected action step.
+Following the meeting, case managers meet with each student who is off track to discuss the
+proposed action plan. Case managers contact the student’s family with the student present to
+ensure they are aware of the barrier(s) and can support the action plan.
+
+Gains in Student Postsecondary Success
+By using this practice over the last three years, Gratz has increased the number of students with
+a clearly defined postsecondary goal and ensured that students are making progress toward the
+goal during senior year. They also found that students remain engaged in the postsecondary
+pathway after graduation. Gratz’s transition program efforts have increased, from 53% to 77%, the
+percentage of students enrolled and engaged in postsecondary pathways in education, workforce,
+military, or job training six months after graduation. One year after graduation, 90% of these
+recent graduates with disabilities were engaged in their postsecondary pathway.
+
+USING SUMMER TO ENSURE SUCCESS
+Gratz has a summer transition support program for students who graduate without completing their
+postsecondary milestones. The program, known as C3, also leverages rapid-response team actions
+based on milestone data. Offering this summer transition support program would not be possible without
+accurate milestone tracking throughout the school year. See Providing Summer Transition Programming for
+Postsecondary Success for details.
+
+3.8
+
+BUI L DI NG S C H OOL -B A SE D T R A N SITION TE A MS
+
+Postsecondary
+Aspirations
+
+BUILDING SCHOOL-BASED TRANSITION TEAMS TO ACCELERATE
+STUDENT PROGRESS TOWARD POSTSECONDARY GOALS
+
+How to Implement this Practice
+This section provides step-by-step guidance along with accompanying resources for building a schoolbased transition team to accelerate student progress toward postsecondary goals.
+
+At the Start of the School Year
+Step 1: Create a Student Tracking System
+A postsecondary milestone tracker can be as simple as a spreadsheet that lists each student, their
+pathway, their current milestones, and any next steps the transition team needs to take to support the
+students. Color coding the tracker can make it easier to quickly identify which students are on track
+along their pathways and which need extra support to complete their steps.
+The table below is an example of what a tracker can look like.
+Student
+Name
+
+Case
+Manager
+
+Seminar
+Period
+
+PS Pathway
+
+Work
+Completion
+
+Other
+Classes?
+
+Suggested Next
+Step
+
+Tegan,
+Emery
+
+Rivera
+
+T/Th — 3
+
+Workforce
+Development
+
+Job Corps,
+Hopeworks
+
+Yes
+
+Rivera will meet
+with Emery and
+discuss attendance
+and impact on
+grades
+
+Jones,
+Jaden
+
+Guenther
+
+N/A
+
+Competitive
+Employment
+with Support
+
+OVR
+
+N/A
+
+Quick,
+Naomi
+
+Guenther
+
+M/F — 5
+
+Workforce
+Development
+
+Careerlink
+
+Yes
+
+Guenther will
+schedule a meeting
+with Naomi &
+guardian to discuss
+the need for Naomi
+to advocate for
+herself.
+
+Note: Programs listed under “Work Completion” are dual enrollment programs. For more information about how to develop
+these programs, see Establishing External Partnerships to Strengthen Work-Based Learning Opportunities.
+
+3.9
+
+BUI L DI NG S C H OOL -B A SE D T R A N SITION TE A MS
+
+Postsecondary
+Aspirations
+
+Milestones for Mastery’s Pathways
+All students at Mastery Schools have increasing access to pathway options aside from just college.
+These pathways each have a set of milestones that students need to complete before graduation.
+Some of these pathways are outlined below. The pathways and milestones are the foundation for
+Mastery’s transition planning and tracking student progress toward transition goals.
+4-Year College
+
+2-Year College
+
+• College Essay
+• FSA ID
+• FAFSA
+• Submit
+applications
+• Complete
+financial aid
+analyzer
+
+• Submit applications
+• FSA ID
+• FAFSA
+• Complete financial aid
+analyzer
+• Activate student portal
+• Complete placement test
+• Complete online student
+orientation
+• Register for fall semester
+courses
+
+Workforce
+Development Program
+
+Military
+
+• Submit interest forms
+• Final resume
+• Submit applications
+• Obtain driver’s license
+• Application
+documentation
+• Logistics planning
+
+• Meet with
+recruiter
+• ASVAB
+• Confirm
+Bootcamp /
+MEPS date
+• Interview with
+recruiter
+
+Step 2: Input Initial Student Data
+Create a system so that prior-year case managers, advisors, or seminar teachers can give the new
+transition team information about students’ postsecondary goals to populate the tracker. During the
+summer, transition teams can use this information in the tracker to map out milestones for the coming year.
+Mapping milestones is considerably easier if the school has a clearly developed set of postsecondary
+pathways outlining the necessary steps that lead to successful engagement after graduation. (See
+Establishing External Partnerships to Strengthen Work-Based Learning Opportunities.)
+
+The First Meeting of the School Year
+At Gratz, all students learn about the school’s available pathways in their 11th grade seminar classes
+and identify which pathway they are most interested in by the end of the year. Thus, transition
+coordinators have the information they need to start tracking seniors’ milestones before school begins
+in the fall. If a school does not have a system like this in place, the transition teams can meet in the
+summer or early fall to share information about IEP transition plans, discuss milestones, and request
+information from college counselors about students’ postsecondary plans. Teams can also use this
+opportunity to clarify individualized expectations for seniors with IEPs, confirm necessary modifications
+for specific students, and identify events or activities that students with disabilities need to attend.
+
+3.10
+
+BUI L DI NG S C H OOL -B A SE D T R A N SITION TE A MS
+
+Postsecondary
+Aspirations
+
+Step 3: Form and Launch the Transition Team
+Including a variety of general and special education staff will improve school transition teams’
+effectiveness. Each team member will have unique information about students, the various pathways
+they may choose, and the necessary resources to support them as they work toward their goals. It is
+helpful for the transition team to have a leader, such as the transition coordinator, the school leader, or
+a postsecondary advisor.
+Consider including the following individuals in transition teams:
+TRANSITION COORDINATOR
+The transition coordinator is the special education team’s postsecondary expert and will often possess
+more information about alternatives to 4-year college. They also often have relationships with external
+organizations or agencies that can support students during and after their transition out of high school.
+
+SPECIAL EDUCATION CASE MANAGERS
+Special education case managers are responsible for ensuring transition plans are updated and easily
+accessible for the transition team. In addition, case managers are often the primary contact for families.
+
+COLLEGE COUNSELORS
+The college counselors — who may also work with general education students in advisory or seminar
+classes — hold the majority of information around college application deadlines and requirements, and
+they can communicate that information to the transition team for students with goals to attend college.
+College counselors may also be responsible for follow-up with graduates to ensure they receive any
+additional support for their disability after graduation. While not all students will attend college, college
+counselors have their own contacts, networks, and resources that can also apply to non-college
+postsecondary education. Having college counselors present at transition team meetings is an easy way
+to ensure that they are informed about the needs of students with disabilities and can support them in
+reaching their goals with the same success as their peers.
+
+SOCIAL WORKERS
+Social workers are essential to help address student needs outside of academics or employment. At
+times, social workers may be the only appropriate staff to take a deeper level of support or action steps
+for students or families. They can add valuable input regarding services, agencies, or other resources
+students may need in order to reach their postsecondary goals. Social workers can help the transition
+team develop a plan to address housing and food insecurity, along with mental health and other social
+services that a student may require to be successful.
+
+SCHOOL LEADER (OPTIONAL)
+Including a school leader as part of the transition team can help ensure that the leader is knowledgeable
+about different types of postsecondary goals and the steps students need to take to reach those goals.
+School leaders may also be helpful in communicating with families, ensuring that students can leave
+school if necessary for transition activities, removing any barriers to implementing plans, and considering
+how the larger school program can support students with goals apart from a 4-year college. However,
+when transition team members mentioned above have been with the school for many years, they may
+hold enough capital and sway within the school to make the addition of the school leader less essential to
+the transition team.
+
+3.11
+
+BUI L DI NG SC H OOL -B A S ED T R A N S ITION TE A MS
+
+Postsecondary
+Aspirations
+
+The entire transition team is responsible
+for reviewing student progress toward
+postsecondary goals documented in each
+student’s IEP and for identifying additional
+support students may need to be successful.
+The transition team delegates tasks to the team
+member most appropriate to provide support
+based on their expertise or relationship with the
+student and family.
+
+Step 4: Determine Meeting
+Cadence and Protocols
+A biweekly meeting cadence is recommended
+for transition teams. Teams can meet during
+common prep periods, professional development
+time, or before or after school.
+A clear meeting protocol and agenda for each
+meeting ensures transition teams discuss the
+critical updates for each student and establish
+clear action steps, interventions, and ownership.
+
+Before the Meeting
+Step 5: Collect and
+Update Data
+
+Including All
+Interested Parties
+After several years of holding biweekly
+meetings to review student progress on
+transition milestones, Gratz’s transition
+team realized that social workers were key
+members missing from their team. Many
+students needed support with aspects
+of transitioning out of high school that
+postsecondary counselors and transition
+coordinators didn’t have the expertise to
+provide. Social workers added knowledge
+about housing, insurance, and food
+assistance that was essential to the
+transition team and student success.
+
+Starting as Early
+as Possible
+Transition teams will often prioritize the
+review of progress for seniors, yet it is
+important to proactively build capacity
+so the team can work through junior,
+sophomore, and freshman transition needs.
+The earlier students identify potential
+pathways and transition teams start
+tracking progress, the greater the impact
+transition planning can have on positive
+postsecondary outcomes for students.
+
+Having up-to-date information on student
+progress and the action steps of students,
+families, or staff members is essential to the
+success of the transition team meetings.
+There are two ways to ensure data on student progress is up-to-date:
+CONTINUOUS UPDATES
+Transition teams may consider their tracker to be live and update it whenever they gather new
+information. When updating in this manner, the transition team needs to establish a deadline for
+updates before each milestone meeting.
+
+3.12
+
+BUI L DI NG S C H OOL -B A SE D T R A N SITION TE A MS
+
+Postsecondary
+Aspirations
+
+UPDATE AT MEETINGS
+All transition team members bring their notes and update the tracker at the biweekly meeting for
+reviewing student progress. The team needs to be in agreement to spend meeting time in this way
+rather than using it to discuss students. Updating data at meetings can use valuable time, and teams
+should agree that this use of time is appropriate.
+
+During the Meeting
+Step 6: Review Data
+Using the up-to-date data, the transition team reviews each student’s progress toward postsecondary
+goals and determines whether students are on track, somewhat off track, or off track. The review will be
+most effective if it includes academic (e.g., grades) and non-academic (e.g., attendance and discipline)
+variables, as well as transition data.
+To decide which students to focus on during meetings, creating a set of priority concerns can be
+particularly helpful. Some areas of concern may be more urgent than others, or in some cases,
+addressing one concern depends on first addressing another. For example, fixing a student’s
+attendance issue is necessary to improve work completion and grades.
+The following table shows how Mastery Gratz prioritized students of concern they focused on during
+their biweekly meetings:
+
+Category
+
+Data Source
+
+Attendance
+
+Students missing 3+ seminar classes in a 2-week
+period (consider decreasing to 2+ missed classes)
+
+Student information
+system
+
+Grades
+
+Students failing seminar and have not handed in
+missing work in a 2-week period
+
+Gradebook
+
+Work Completion
+
+Students missing key assignments within their intended
+pathway
+
+Gradebook
+
+Credit Deficient
+
+Students needing more than 1 additional course (in
+addition to current course load) to graduate this year
+
+Student information
+system
+
+Students whose quantile/Lexile levels are significantly
+below the recommended levels for their chosen
+pathway
+
+Student information
+system
+
+Pathway Misaligned
+to Levels/Pathway
+Concerns
+
+3.13
+
+Who Qualifies?
+
+Consider students with low quantile/Lexile levels
+enrolled in seminar to discuss the support needed
+
+BUI L DI NG S C H OOL -B A SE D T R A N SITION TE A MS
+
+Postsecondary
+Aspirations
+
+Step 7: Plan Action Steps
+For students who are not on track to meet their postsecondary milestones, the transition team
+collaboratively designs action steps to address student needs.
+Action steps could include the following:
+• The student works with a case manager to complete a resume.
+• The student meets 1:1 with the college counselor to complete the FAFSA.
+• An educator emails follow-up reminders for students.
+• An educator holds meetings with outside agencies.
+• A team member contacts the family to discuss progress and problem solve barriers.
+• The student changes their dual enrollment program.
+• The student changes their pathway.
+• The IEP team convenes to discuss the transition plan.
+• A team member supports with situation-specific interventions (e.g., community resources,
+advocates, legal support for families).
+
+Step 8: Assign Next Steps
+Finally, the transition team determines which adults will support students with each action step. Action
+steps are reviewed by the team and documented in the tracker. The transition team lead may send
+a summary of the meeting discussion and action items to the team following the team meeting to
+communicate plans to absent team members and supporting leadership. This summary can also serve
+as a reminder of action items, as well as confirm dates for completion and convey collaboration needs
+from those not in attendance.
+
+After the Meeting
+Step 9: Include Families in Action Steps
+After the meeting, case managers follow up with students and families on current data, including
+attendance, grades, discipline, and transition activities that need to be completed. The case
+manager also collaborates with families on action steps the transition team recommended so that
+families can support current action plans.
+Whether a student is on track or off track, keeping families informed about student progress toward
+transition goals is an important part of helping students stay motivated and focused on their longterm goals.
+
+3.14
+
+BUI L DI NG S C H OOL -B A SE D T R A N SITION TE A MS
+
+Postsecondary
+Aspirations
+
+BUILDING SCHOOL-BASED TRANSITION TEAMS TO ACCELERATE
+STUDENT PROGRESS TOWARD POSTSECONDARY GOALS
+
+Summary
+Ensuring that students with disabilities have a smooth transition into their life after high
+school is the ultimate goal for most special education programs. To ensure that students
+with disabilities engage in meaningful activities that help them meet their individualized
+postsecondary goals, schools need to convene interdisciplinary teams of special and general
+educators to review data on student transition progress toward transition goals and intervene
+when students are not on track to meet their goals. These interdisciplinary transition teams are
+most successful when they meet at a regular cadence and include a diverse set of educators
+who support students with postsecondary transitions. Students also benefit tremendously
+from having clear pathways with specific milestones that lead to their identified postsecondary
+goals. Mastery Gratz has been able to help students successfully graduate and enroll in
+postsecondary placements by using biweekly transition team meetings to keep students on
+track along their pathways and intervene during the school year and into the summer after
+graduation. This data-centered meeting structure is something that any transition team can put
+into place to help improve postsecondary outcomes for students with disabilities.
+
+FURT HE R L E ARNI NG
+
+“Guideposts for Success: What All Youth Need
+to Successfully Transition into Adulthood”
+US DEPARTMENT OF LABOR OFFICE OF DISABILITY EMPLOYMENT POLICY
+
+“Guideposts for Policy and Practice:
+Framework for the Future”
+THE CENTER FOR ADVANCING POLICY ON EMPLOYMENT FOR YOUTH
+
+“A Transition Guide to Postsecondary Education and
+Employment for Students and Youth with Disabilities”
+THE US DEPARTMENT OF EDUCATION OFFICE OF SPECIAL EDUCATION
+AND REHABILITATIVE SERVICES
+
+3.15
+
+BUI L DI NG S C H OOL -B A SE D T R A N SITION TE A MS
+
+Postsecondary
+Aspirations
+
+BUILDING SCHOOL-BASED
+TRANSITION TEAMS TO ACCELERATE
+STUDENT PROGRESS TOWARD
+POSTSECONDARY GOALS
+
+Appendix
+
+How to Measure
+When building a school-based transition team, monitoring how useful, usable, and utilized the practice
+is by team members and across the school system can accelerate learning to improve outcomes for
+students. Be aware that improved process measures are usually necessary to ensure a high enough level
+of fidelity before outcomes will see improvement. At minimum, these measures are most essential:
+
+PRIMARY MEASURES
+Measure
+Type
+Process
+
+Data
+Collection
+Type
+Review of
+calendars
+Meeting note
+review
+
+Question
+Asked
+
+Results
+
+What does
+success look
+like?
+
+Examples and
+Notes
+
+Are
+postsecondary
+milestone
+meetings
+occurring
+biweekly?
+
+Percent of
+scheduled
+meetings held
+
+Increasing
+percentage of
+meetings held
+until reaching
+100%
+
+Use shared digital
+calendars to help
+keep track of
+meetings.
+
+Yes / No
+
+3.17
+
+Process
+
+Meeting note
+review
+
+How often are
+postsecondary
+team members
+implementing
+action steps by
+their specified
+date?
+
+Percent of
+action steps
+implemented
+by team
+members by
+their specified
+date
+
+Increasing
+percentage of
+action steps that
+are completed
+by the specified
+date until
+reaching 100%
+
+Consider analyzing
+whether some action
+steps are completed
+more often than
+others to determine
+if specific barriers
+exist for some action
+steps.
+
+Outcome
+(short term)
+
+Postsecondary
+tracker
+
+What
+percentage of
+students are
+on track toward
+meeting their
+milestones?
+
+Percent of
+students on
+track
+
+Increasing
+percentage
+of students
+on track until
+reaching 100%
+
+It can be helpful to
+disaggregate the
+percent of students
+on track by the type
+of pathway.
+
+Outcome
+
+Postsecondary
+tracker
+
+What
+percentage of
+students have
+completed the
+requirements for
+their pathway?
+
+Percent of
+students
+who have
+completed the
+requirements
+for their
+pathway
+
+Increasing
+percentage of
+students who
+have completed
+all requirements
+until reaching
+100%
+
+Each postsecondary
+pathway needs to
+have a scope and
+sequence developed
+with the skills and
+activities students
+need to master to
+meet their goals.
+
+BUI L DI NG S C H OOL -B A SE D T R A N SITION TE A MS
+
+Postsecondary
+Aspirations
+
+Additional measures can guide a team to know whether the school-based transition team is leading to
+the desired improvements for students:
+
+SECONDARY MEASURES
+Measure
+Type
+
+Data Collection
+Type
+
+Question
+Asked
+
+Results
+
+What does
+success look like?
+
+Examples and
+Notes
+
+Process
+
+Audit of plans
+
+What
+percentage of
+students with
+IEPs have
+postsecondary
+plans?
+
+Percent of
+students with a
+complete plan
+
+Increasing
+percentage of
+students with
+complete plans until
+reaching 100%
+
+All students must
+have a transition
+plan in their IEP
+by age 16, but
+IEP teams can
+start to develop
+them earlier.
+
+Postsecondary
+tracker
+
+3.18
+
+Process
+
+Postsecondary
+tracker
+
+Which action
+steps are most
+effective to get
+students back
+on track?
+
+Percent of time
+each action step
+is successful in
+getting students
+back on track
+
+A list of 3–5 action
+steps that are
+successful at least
+75% of the time
+
+May also track
+the frequency
+that action
+steps are being
+implemented.
+
+Outcome
+
+Postsecondary
+tracker
+
+What
+percentage of
+students who
+were off track
+are now on
+track on their
+pathways?
+
+Percent of
+students who
+are moved from
+off track to on
+track
+
+Increasing
+percentage of
+students who move
+from off track to on
+track until reaching
+100%
+
+Consider
+calculating the
+average number
+of weeks it takes
+for a student to
+move from off to
+on track.
+
+Process
+
+Postsecondary
+tracker
+
+How often
+are students
+who need
+interventions
+for their
+postsecondary
+goals receiving
+them?
+
+Percent of
+students who
+were identified
+as needing
+intervention
+and received
+intervention
+
+Increasing percent
+of students who
+need intervention
+receiving them until
+reaching 100%
+
+Consider
+measuring
+the number
+of minutes of
+intervention if
+frequency of
+intervention
+isn’t informative
+enough.
+
+BUI L DI NG S C H OOL -B A SE D T R A N SITION TE A MS
+
+Postsecondary
+Aspirations
+
+Notes
+1
+
+Newman, Madaus, and Javitz, “Effect of Transition Planning”
+
+2
+
+Ibid.
+
+3
+
+Cameto, Levine, and Wagner, Transition Planning for Students with Disabilities
+
+4
+
+Frazier, Perryman, and Kucharczyk, “Transition services”
+
+5
+
+Kohler, et al., Taxonomy
+
+Bibliography
+Cameto, Renee, Phyllis Levine, and Mary Wagner. Transition Planning for Students with Disabilities:
+A Special Topic Report of Findings from the National Longitudinal Transition Study-2 (NLTS2).
+National Center for Special Education Research (2004). www.nlts2.org/reports/2004_11/nlts2_
+report_2004_11_complete.pdf
+Frazier, Kimberly F., Kristi Perryman, and Suzanne Kucharczyk. “Transition services: Building
+successful collaborations among School Professionals.” Journal of School-Based Counseling
+Policy and Evaluation 2, no. 2 (2020): 131–141. https://doi.org/10.25774/80b3-kc43
+Kohler, Paula, June Gothberg, Catherine Fowler, and Jennifer Coyle. Taxonomy for Transition
+Programming 2.0 A Model for Planning, Organizing, and Evaluating Transition Education,
+Services, and Programs. Western Michigan University (2016). https://transitionta.org/taxonomyfor-transition-programming-2-0
+Newman, Lynn A., Joseph W. Madaus, and Harold S. Javitz. “Effect of Transition Planning on
+Postsecondary Support Receipt by Students With Disabilities.” Exceptional Children, (2016):
+497–514. Accessed January 19, 2024. https://doi.org/10.1177/0014402915615884
+
+3.19
+
+BUI L DI NG S C H OOL -B A SE D T R A N SITION TE A MS
+
+Postsecondary
+Aspirations

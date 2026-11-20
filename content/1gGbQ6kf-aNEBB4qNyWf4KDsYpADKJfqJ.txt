@@ -1,0 +1,1166 @@
+Developing
+Multisyllabic Word
+Reading Skills
+in Adolescent
+Readers
+A RESEARCH-TO-IMPACT PRACTICE DEVELOPED WITH
+THE NETWORKED IMPROVEMENT COMMUNITY
+FOR STUDENTS WITH DISABILITIES
+
+TA BLE O F C O N T E N T S
+5.3............ Practice Overview
+5.3 | What is the Practice?
+5.4 | Why is this Practice Important?
+
+5.5............ Bringing this Practice to Life
+5.8............ Implementation at a Glance
+5.8 | Enabling Conditions
+5.9 | Steps to Implement
+
+5.10.......... How to Implement this Practice
+5.10 | Lay the Groundwork
+5.10 | Step 1: Identify Students Likely to Benefit from Interventions in
+Multisyllabic Word Reading
+5.10 | Step 2: Select or Design a Systematic Scope and Sequence for Teaching
+Syllabication Skills
+5.10 | Step 3: Determine the Setting for the Intervention
+5.12 | Plan the Intervention
+5.12 | Step 4: Identify Anchor Texts to Leverage for Instruction
+5.12 | Step 5: Prepare for Daily Lessons
+5.13 | Implement the Intervention
+5.13 | Step 6: Introduce the Purpose of Multisyllabic Word Work to Students
+5.13 | Step 7: Deliver the Word Study Intervention
+5.17 | Step 8: Provide Ongoing Opportunities for Practice
+5.18 | Monitor the Effectiveness of the Intervention
+5.18 | Step 9: Analyze Student Progress
+5.19 | Practice Snapshot
+
+5.21.......... Summary
+5.22.......... Appendix
+5.23 | How to Measure
+5.25 | Notes
+5.25 | Bibliography
+
+Developing Multisyllabic
+Word Reading Skills in
+Adolescent Readers
+Implementation Level
+
+Who Implements
+
+District/Central Office
+
+Teacher(s)
+
+School
+
+Instructional Coach
+
+Program/Department
+
+Principal
+
+Classroom
+
+Central Office Leadership
+Specialist
+
+Practice Overview
+What is the
+Practice?
+Systematic and explicit instruction
+for secondary students in the
+subskills that contribute to fluent and
+automatic reading of multisyllabic
+words, including syllabication
+strategies (how to break multisyllabic
+words into syllables) and
+morphological awareness (the ability
+to recognize and read commonly
+occurring morphemes, or word parts,
+efficiently).
+
+5.3
+
+Key Terms for this Practice
+Syllabication and morphological awareness are two
+important skills that proficient and fluent readers apply
+in order to decode unknown multisyllabic words.
+Syllabication refers to dividing multisyllabic words into
+individual syllables, each of which contains one vowel
+sound. Syllable division principles generalize how and
+where to break a multisyllabic word into syllables. See
+How To: Teach Syllabication for more.
+Morphological awareness refers to an understanding
+of how morphemes — that is, the smallest meaningful
+parts of words, like prefixes, suffixes, and roots —
+contribute to word meaning. See How To: Teach
+Morphological Awareness for more.
+
+MULTISYLLABIC WORD READING SKILLS IN ADOLESCENT READERS
+
+Literacy
+
+Why is this Practice Important?
+Often, older students who are not yet reading grade-level texts fluently and accurately can decode
+single-syllable words but have difficulty decoding multisyllabic words.1 Because the majority of words
+that secondary students encounter in grade-level texts are multisyllabic, slow and effortful reading of
+these words is a significant impediment to comprehension of the overall text. This barrier to meaningful
+participation in grade-level instruction grounded in complex texts contributes to the achievement gap
+between students with disabilities and their typically developing peers.2
+Word study instruction, or instruction in word analysis and word recognition, is often recommended
+as an essential focus of instruction for secondary students with reading disabilities.3 Word study
+intervention can improve reading outcomes for struggling students by teaching them to be flexible
+decoders and to access word analysis and word recognition strategies.4 Explicit instruction designed to
+build morphological awareness has been shown to be especially helpful for English language learners5
+and secondary students with disabilities.6
+
+Students meet in their reading intervention group at
+Green Dot Public Schools Ánimo Mae Jemison.
+
+5.4
+
+MULTISYLLABIC WORD READING SKILLS IN ADOLESCENT READERS
+
+Literacy
+
+Bringing this Practice to Life
+HOW UNCOMMON USED WORD STUDY TO BUILD READING FLUENCY
+At Uncommon Charter High School (UCHS) in Brooklyn, New York, Literacy Innovation Specialist Val Dutta
+co-teaches Academic Prep with Giovanni (Gio) Zaccheo, a UCHS special education teacher and department
+chair. Academic Prep is a reading intervention class for 9th grade students with reading disabilities designed
+to build the foundational reading skills necessary to facilitate meaningful engagement with grade-level
+content and texts. The case study below opens with a scene describing a typical interaction in Academic
+Prep, where word study has become integral to reading instruction.
+
+Uncovering a Need
+Chance, a 9th grade student, is reading aloud a passage about social activism:
+CHANCE: Social activism refers to the use of... dee... del... delibate?
+GIO: [listening carefully, prompts Chance] Let’s pause and break this down. How many
+consonants are between the two vowels?
+Gio and Chance work to break the word deliberate into syllables, and soon the text Chance is
+reading has been marked up with divisions: de.lib.er.ate. They continue:
+GIO: Let’s read the word by syllables. Then try for the real word and be careful, there are a
+few schwas in this one.
+
+5.5
+
+MULTISYLLABIC WORD READING SKILLS IN ADOLESCENT READERS
+
+Literacy
+
+CHANCE: De...lib...er...ate... [He recognizes the word as one he is familiar with.]
+CHANCE: Deliberate! [starting again] Social activism refers to the use of deliberate actions
+to bring about social change...
+This interaction represents the instruction that Chance and his Academic Prep classmates are
+receiving in explicit strategies for recognizing and decoding multisyllabic words. This focus on
+multisyllabic word reading was the result of deliberate, data-driven planning on the part of Val and Gio.
+It all began at the start of the 2022–23 school year when Val administered an Oral Reading
+Fluency Curriculum-Based Measurement (ORF CBM) to the students enrolled in Academic
+Prep to more deeply understand their reading skills and needs. She then met with the Networked
+Improvement Community literacy content expert, Genevieve Thomas, to analyze the results.
+Genevieve and Val noticed that students were largely successful with single-syllable and highfrequency words, and the vast majority of errors on the ORF CBM were made with multisyllabic
+words. Students didn’t seem to have a strategy to attack these longer words and the “slow down”
+caused by these inefficiencies was interfering with their ability to read the passage fluently. Val and
+Genevieve acknowledged that, if students were encountering these roadblocks when reading a
+relatively short, isolated passage, they were almost certainly facing even more challenges with the
+longer and more complex texts they were seeing in their content area classes — challenges that
+would prevent a cohesive understanding of the ideas in the text. It was clear that building proficiency
+with multisyllabic word reading would need to be a key goal of instruction in Academic Prep.
+Val and Gio decided to focus first on explicitly teaching syllabication — that is, the principles for
+where to divide a multisyllabic word into syllables — starting with basics and, over the course of
+several weeks, moving from less to more complex concepts. They worked with Genevieve to develop
+a progression of instructional targets. (See How To: Teach Syllabication below for a detailed
+instructional progression.)
+
+Building the Skills for Reading
+Val and Gio began by teaching students
+the concept of open and closed syllables.
+First, they provided many opportunities
+for students to practice reading open and
+closed syllables in isolation. As students
+became more automatic and fluent in
+this practice, Val and Gio began to teach
+students the basic syllabication principles
+they could use to break multisyllabic words
+into individual syllables. Automaticity with
+reading those isolated syllables — that is,
+their quick and precise recognition — would
+free up students’ working memory for more
+
+5.6
+
+Syllabication Basics
+Open syllables end in a vowel sound,
+and the vowel sound is long (like the
+sound of a in the first syllable of paper:
+[pā]). Closed syllables end in one or
+more consonants, and the vowel sound
+is short (like the sound of a in the first
+syllable of rabbit: [rӑb]).
+Open and closed syllables comprise
+almost 75 percent of English syllables
+and thus comprise “the building blocks of
+polysyllabic decoding.”7
+
+MULTISYLLABIC WORD READING SKILLS IN ADOLESCENT READERS
+
+Literacy
+
+complex word analysis. Val and Gio were
+careful to teach one syllabication strategy
+at a time and to give students extended
+opportunities to practice in isolation
+before teaching a new strategy.
+After Val and Gio explicitly taught all the
+syllabication strategies in isolation, they
+Words are selected from an anchor text for syllabication practice in
+transitioned to providing students with
+an Academic Prep lesson plan.
+opportunities to practice syllabication
+when reading connected texts. The Academic Prep course leverages one anchor text in each
+lesson, and students develop various reading skills, including syllabication, through this text.
+
+Seeing Results
+As a result of the explicit instruction and extended opportunities to practice and apply syllabication
+strategies, Val and Gio noticed an improvement both in students’ accuracy of multisyllabic word
+reading and in their confidence as readers. The 2022–23 end-of-school-year administration of the
+ORF CBM indicated that all students in the Academic Prep course were reading text with 98–100%
+accuracy. Describing the results of the practice, Gio shared, “Students have seen growth and are
+building their confidence in reading. I’m seeing students volunteer to read who I never would have
+thought at the beginning of the year would be reading in front of the whole class.”
+
+5.7
+
+MULTISYLLABIC WORD READING SKILLS IN ADOLESCENT READERS
+
+Literacy
+
+DEVELOPING MULTISYLLABIC WORD READING SKILLS
+IN ADOLESCENT READERS
+
+Implementation at a Glance
+The information in this section provides a high-level view of what to consider when implementing
+this practice. Enabling Conditions describes the minimum conditions needed for successful
+implementation, including resources, mindsets, staffing, and recommended time allocation. Steps
+to Implement presents a concise checklist of action items, which are explained in detail in How to
+Implement this Practice below.
+
+Enabling Conditions
+INFRASTRUCTURE
+
+Prerequisites
+
+Assessments and data tracking practices that indicate who might benefit from intervention in
+multisyllabic word reading
+Curricular resources and/or instructional guidance that includes evidence-based interventions for
+developing multisyllabic word reading skills
+Initial educator training in the implementation of the intervention
+Dedicated time for the instruction to take place (likely within an existing reading intervention time)
+
+CULTURE AND KNOWLEDGE
+Teacher agency to plan and implement reading interventions within existing classes/schedules.
+For example, teachers have the autonomy both to plan for literacy interventions based on student
+needs and to determine when and where in the instructional day those interventions are best
+scheduled.
+Teacher ownership of reading skill development in all students
+Authentic texts from core content courses for word study practice and application
+
+Recommended Materials
+
+A list of commonly-occurring prefixes, suffixes, and root words to teach
+
+5.8
+
+Evidence-based word study scope and sequence
+
+The What Works Clearinghouse (WWC) is a website maintained by the National Center for
+Education Evaluation and Regional Assistance. The WWC provides accessible information
+about the scientific evidence on programs, products, and practices and is an excellent
+resource for educators looking for evidence-based programs.
+CORE’s Teaching Reading Sourcebook provides comprehensive guidance on the research behind
+each of the key elements of effective reading instruction coupled with practical recommendations for
+implementation. It includes a chapter on multisyllabic word reading and is an excellent resource for
+identifying and defining evidence-based reading strategies.
+
+MULTISYLLABIC WORD READING SKILLS IN ADOLESCENT READERS
+
+Literacy
+
+Staff
+Commitment
+
+Ongoing teacher coaching to support the continued refinement of instructional planning and
+implementation
+Possible financial commitment if engaging an external partner or if purchasing a packaged
+curriculum
+
+Recommended Time Allocation
+
+TEACHERS
+Time to participate in training (2–3 hours, ideally divided over multiple sessions)
+Time to implement (minimum 5–10 minutes daily), ideally three times a week
+Time to participate in data-based instructional decision-making (review progress-monitoring data,
+plan intervention adjustments based on student progress, and document decisions)
+Time to engage in ongoing coaching conversations
+
+SCHOOL LEADERSHIP
+Time to develop and implement training (if doing training internally) or to vet and select an
+external partner for training
+Time to provide real-time coaching and engage in coaching conversations (or to identify an
+external partner to lead this aspect of the work)
+Time to support data-based instructional decision-making
+
+Steps to Implement
+LAY THE GROUNDWORK
+Identify students likely to benefit from intervention in multisyllabic word reading
+Select or design a systematic scope and sequence for teaching syllabication skills
+Determine the setting for the intervention
+PLAN THE INTERVENTION
+Identify anchor texts to leverage for instruction
+Prepare for daily lessons
+DELIVER THE INTERVENTION
+Introduce the purpose of multisyllabic word work to students
+Deliver the word study intervention
+Provide ongoing opportunities for practice
+MONITOR THE EFFECTIVENESS OF THE INTERVENTION
+Analyze student progress
+
+5.9
+
+MULTISYLLABIC WORD READING SKILLS IN ADOLESCENT READERS
+
+Literacy
+
+DEVELOPING MULTISYLLABIC WORD READING SKILLS
+IN ADOLESCENT READERS
+
+How to Implement this Practice
+Lay the Groundwork
+Step 1: Identify Students Likely to Benefit from Interventions
+in Multisyllabic Word Reading
+Use data from universal screening and diagnostic assessments to identify students who are likely to
+benefit from intervention in multisyllabic word reading (see Guiding Literacy Interventions Through
+Tiered Assessment for more guidance).
+Identify students for whom a combination of the following statements are true:
+• They perform poorly on grade-level assessments of reading comprehension.
+• They read grade-level texts slowly (below a rate of 120 correct words per minute) and/or
+inaccurately (below an accuracy rate of 95%).
+• They have mastered single-syllable word reading (i.e., these students know the relationships
+between letters and sounds and are able to apply this knowledge to read isolated single-syllable
+words).
+• They have difficulty reading words with more than one syllable fluently and automatically.
+
+Step 2: Select or Design a Systematic Scope and Sequence
+for Teaching Syllabication Skills
+Advanced planning is required to select or design a systematic scope and sequence for teaching
+syllabication skills. Instruction should progress from less to more complex concepts, generally starting
+with teaching open and closed syllables and then teaching syllabication strategies. See How To: Teach
+Syllabication below for a recommended scope and sequence of instruction and Further Learning for
+additional instructional guidance.
+
+Step 3: Determine the Setting for the Intervention
+Determine the setting in which to implement the practice. Potential settings include the following:
+• Within a scheduled reading intervention class (e.g., Read 180) for students who are not yet
+reading at grade level
+• In 1:1 conferences or in small groups of students with reading disabilities within a resource room,
+learning center, or other environment dedicated to specialized instruction
+• In core content classes, like science and social studies, using vocabulary words from the course
+
+5.10
+
+MULTISYLLABIC WORD READING SKILLS IN ADOLESCENT READERS
+
+Literacy
+
+PROS AND CONS OF CURRICULUM VS. STRATEGIES
+Some schools may decide to utilize a structured curriculum to build students’
+multisyllabic word reading skills, rather than designing their own. When using a
+curriculum, educators will sometimes need to adapt or supplement the curriculum
+to meet the needs of students.
+
+Curriculum
+
+Pros
+
+Cons
+
+Well-designed curricular programs for
+teaching multisyllabic word reading
+will have a systematic scope and
+sequence, potentially reducing the
+planning load for teachers.
+
+Curricular programs may feel
+disconnected from grade-level
+instruction and content.
+
+Curricular programs can provide
+a helpful starting place for new
+teachers and may represent a
+reduced training load.
+
+There is generally a cost for
+purchasing and maintaining
+curricular resources.
+
+Many curricular programs include
+in-program teacher supports that
+help build teacher knowledge as they
+teach the program.
+Strategies can be applied to authentic
+texts that students are reading in
+their content area classes, which can
+support transfer of skills.
+Strategies
+
+The time to teach and practice
+strategies can be flexibly adjusted to
+fit within existing class structures.
+
+Strategy instruction may
+require more initial and ongoing
+teacher training and coaching,
+particularly if teachers are not
+knowledgeable about reading
+instruction.
+Strategy instruction may require
+a more significant planning load
+(choosing words from texts, for
+example) for teachers.
+
+There are many commercially available programs that use evidence-based
+practices to systematically and explicitly teach word study, including programs
+like REWARDS and SIPPS Challenge. To accelerate progress for nonproficient
+secondary students in our priority population in both skill development and gradelevel course mastery, the NIC prioritized using an instructional sequence and
+authentic texts from content area courses.
+
+5.11
+
+MULTISYLLABIC WORD READING SKILLS IN ADOLESCENT READERS
+
+Literacy
+
+Plan the Intervention
+Step 4: Identify Anchor Texts to Leverage for Instruction
+Leveraging grade-level ELA or content area texts for word study instruction can support
+comprehension of grade-level material, improve students’ ability to transfer syllabication skills and
+morphological knowledge to unique texts, and support motivation to read increasingly complex texts.
+Choose an anchor text (for example, an article related to a topic of instruction in a World History class
+or a passage from a novel in an ELA class) from which target words for word study instruction will
+be selected.
+
+Step 5: Prepare for Daily Lessons
+Carefully select, in advance, words from the selected anchor text. Ideally, after initial syllabication
+strategies have been explicitly taught, students practice syllabication and morphological awareness —
+explained further in the How To sections below — with three to five words daily. Consider the following
+guidance when selecting words for instruction:
+• Choose words that align with the specific syllabication strategies that have already been taught.
+For example, if students have learned only one pattern for syllabication division, choose only
+words that include that pattern.
+• Once students have learned all of the syllabication division rules, choose words with different
+patterns to provide practice with a variety of syllabication strategies.
+• When initially teaching syllabication division rules, choose words that “follow the rules.” Once
+students become more proficient with the division principles, introduce words that are “rule
+breakers” (e.g., words that include a schwa).
+• For teaching morphological awareness, choose words that include affixes that have high
+instructional value. Consider using vocabulary words for syllabication and morphology work. For
+example, if autocracy were a vocabulary word in a World History class, the teacher might have
+students first practice syllabication — by dividing the word into syllables, reading the word by
+syllables, then reading the full word — and then teach them the meaning of the prefix auto-.
+When planning for daily lessons, practice syllabication of the target words to identify any potential
+misunderstandings and prepare scaffolds and explanations. If teaching a specific prefix, suffix, or root
+that has meaning, craft the language to explain the meaning (e.g., “The affix auto means self.”)
+
+5.12
+
+MULTISYLLABIC WORD READING SKILLS IN ADOLESCENT READERS
+
+Literacy
+
+Implement the Intervention
+Step 6: Introduce the Purpose of Multisyllabic Word Work
+to Students
+Explain to students that it can be challenging to read long words that are unfamiliar, especially when
+taking on the entire word at once. However, when readers have strategies for breaking words apart,
+they can more easily read those smaller “word parts” and then put them together to read the whole
+word. Introduce the idea that many word parts appear frequently in text, so becoming fluent with those
+commonly occurring word parts (or morphemes) can help build reading fluency.
+A teacher might use the following sample script to introduce word study when taking the strategies
+approach described above:
+We’re starting a new practice — breaking words into syllables. We’ll learn rules for how to break big
+words into smaller parts so we can tackle the words part-by-part.
+We will practice breaking words apart three times a week using words from the stories we are
+reading in class. The point of this is to help us become stronger readers and to help us better
+understand what we are reading. Often, the first time we try to read a big word that we haven’t seen
+before, we aren’t quite sure how to read it correctly. We spend a lot of our brain’s energy trying to
+read those words, and we don’t have much energy left over to think about what the words mean.
+I know that’s true for me when I come across complex words in my reading. If we have strategies
+to break apart those big words, it’s a lot easier to read the small parts and then put them together
+to read the whole word. There are also lots of word parts that show up over and over in lots of the
+words we read. When we practice reading those common word parts, it becomes easier and more
+automatic to recognize them even in big words.
+
+Step 7: Deliver the Word Study Intervention
+Using the chosen vocabulary words and selected texts,
+deliver the word study intervention. Both syllabication
+and morphology strategies should be employed in this
+step, though the depth of focus on each skill may vary in
+lessons. This step is broken into detailed explanations
+for How To: Teach Syllabication and How To: Teach
+Morphological Awareness.
+Research suggests that word study instruction can
+positively impact student reading, even in short
+increments of 5–10 minutes daily. Explicit instruction
+should be provided at least three days per week.
+
+5.13
+
+MULTISYLLABIC WORD READING SKILLS IN ADOLESCENT READERS
+
+Literacy
+
+How To: Teach Syllabication
+TEACH STUDENTS HOW TO READ OPEN AND CLOSED SYLLABLES.
+Follow this sequence for teaching open and closed syllables:
+1. Explain that a syllable is a smaller part within a larger word and each syllable contains
+one vowel sound.
+2. Write a closed syllable (e.g., [man]) on a board and ask students to read it.
+3. Explain that [man] ends in a consonant, which makes it a closed syllable. Closed
+syllables always end in a consonant, and the vowel sound in a closed syllable is always
+short.
+4. Write 3–5 more closed syllables on a board and ask students to read them. Point out
+that each syllable ends in one or more consonants, and that the vowel sound in each
+syllable is short.
+5. Write an open syllable (e.g., [pā] as in paper) on the board. Tell the students that the
+syllable is [pā] and ask them to read the syllable. Explain that [pā] ends in a vowel,
+which makes it an open syllable. Open syllables always end in a vowel, and the vowel
+sound in an open syllable is always long.
+6. Write 3–5 more open syllables on a board and ask students to read them. Point out that
+each syllable ends in a vowel, and that the vowel sound in each open syllable is long.
+After teaching students the generalization, provide daily opportunities to practice reading
+isolated open and closed syllables until students consistently read both syllable types
+accurately. This can be a brief warm-up before engaging in syllabication division work.
+Note that students are often more proficient in reading closed syllables and need more
+practice reading open syllables. Some students may need to be retaught short and long
+vowel sounds before they are ready for open- and closed-syllable instruction.
+
+TEACH SYLLABICATION DIVISION STRATEGIES.
+Teach students the basic syllabication division strategies, moving from less complex to
+more complex. The most useful syllabication strategies to teach are explained in the table
+on the following page.
+
+5.14
+
+MULTISYLLABIC WORD READING SKILLS IN ADOLESCENT READERS
+
+Literacy
+
+How To: Teach Syllabication (continued)
+Division
+
+Description
+
+Rule
+
+Examples
+
+VC/CV
+
+Two consonants
+between two
+vowels
+
+When two consonants come
+between two vowels, the word
+will be divided between the two
+consonants.
+
+rab.bit
+
+One consonant
+between two
+vowels
+
+When one consonant comes
+between two vowels:
+
+pa.per
+
+V/CV
+or
+VC/V
+
+• 75% of the time, the word
+will be divided before the
+consonant.
+• 25% of the time, the word
+will be divided after the
+consonant.
+
+VC/CCV
+or
+VCC/CV
+
+Three consonants
+between two
+vowels
+
+When three consonants
+come between two vowels,
+a consonant blend (two
+consonants that represent two
+distinct sounds) or digraph (two
+consonants that represent one
+sound) is included and is kept
+together.
+
+nap.kin
+
+ti.ger
+riv.er
+mag.ic
+
+hun.dred
+ath.lete
+
+Use a gradual release sequence to teach each syllabication strategy:
+1. Explain the syllabication division rule.
+2. Model dividing 1–2 words using the division rule and explaining your thinking. After dividing
+the word, read each syllable and then read the full word.
+3. Practice dividing 2–3 words along with students, asking them where to divide the word, and
+then asking them to read each syllable and read the full word.
+4. Provide students with 3–5 words to divide and read independently or with a partner.
+Teach one syllabication division rule at a time, and introduce the next only when students
+are consistently dividing words correctly, reading the syllables accurately, and reading the
+full words accurately.
+
+5.15
+
+MULTISYLLABIC WORD READING SKILLS IN ADOLESCENT READERS
+
+Literacy
+
+How To: Teach Syllabication (continued)
+TEACH STUDENTS TO BE FLEXIBLE DECODERS.
+Once students are proficient with the rules for dividing and reading multisyllabic words,
+teach students the concept of “flexible decoding.”
+Explain that the syllabication division rules will help them read many words, but in some
+cases, it won’t lead to the exact pronunciation of a word. In such cases, readers need to
+be flexible and think about whether the unfamiliar word sounds like a word they’ve heard
+before. This is because English can be a complicated language and it doesn’t always follow
+the rules.
+Provide an example, sharing your thinking aloud. For example, a teacher might write the
+word classify on a board, and use the following script:
+Let’s look at an example of a word that doesn’t follow the rules. Now, you may know this
+word, but remember that our syllabication rules help us read words we don’t know, so
+I’m going to pretend I don’t know this one. Following my syllabication rules, I’m going
+to divide this word like this: clas.si.fy. Based on my open and closed syllables, I would
+read these syllables as [clăs-sī-fī]. Hmm... does that sound like a word I know? Oh,
+it sounds like [clăs.sə.fī]! Breaking this word into syllables didn’t get me to the exact
+pronunciation, but it got me close enough that I could match it to a word that I know and
+that makes sense.
+One reason the pronunciation of a multisyllabic word may not match its syllable-by-syllable
+pronunciation is that it has a schwa. A schwa is a vowel sound that is distorted in the
+unstressed syllable (such as the second syllable in the classify example above), and the
+schwa occurs frequently in multisyllabic words. Teach students the definition of schwa and
+include words with a schwa in practice.
+One reason the pronunciation of a multisyllabic word may not match its syllable-by-syllable
+pronunciation is that it has a schwa. A schwa is a vowel sound that is distorted in the
+unstressed syllable (such as the second syllable in the classify example above), and the
+schwa occurs frequently in multisyllabic words. Teach students the definition of schwa and
+include words with a schwa in practice.
+
+5.16
+
+MULTISYLLABIC WORD READING SKILLS IN ADOLESCENT READERS
+
+Literacy
+
+How To: Teach Morphological Awareness
+Morphemes are the smallest meaningful parts of words, like prefixes, suffixes, and roots.
+Instruction in morphology should co-occur with syllabication instruction. When words
+selected for syllabication practice include commonly occurring morphemes, use the
+following process to build students’ morphological awareness (see Further Learning for a
+resource listing commonly occurring morphemes):
+1. Teach students the meaning and pronunciation of commonly occurring morphemes.
+Focus on one morpheme at a time.
+Isolate the morpheme from the full word and teach students its pronunciation and, if
+applicable, its meaning. For example:
+Today we are going to learn the word part rupt, which means “to break.”
+Ask students to read the morpheme rupt.
+2. Ask students to read a word that includes the morpheme by syllables then read the full
+word.
+Let’s read a word that has this word part in it.
+Ask students to read bank.rupt by syllables.
+3. If it is a morpheme that holds meaning, engage students in a conversation about what
+the full word might mean based on the meaning of the morpheme.
+If rupt means “to break,” what might bankrupt mean?
+4. Provide students with 3–5 more words that include the target morpheme, and instruct
+them to read by syllables, read the full word, and discuss.
+
+Step 8: Provide Ongoing Opportunities for Practice
+Once the discrete multisyllabic word reading skills have been taught, provide students with many
+opportunities to practice applying the skills with new and authentic words. This is important whether
+students have been taught syllabication using anchor texts or a structured, commercially available
+program. Students should be explicitly encouraged to apply these skills not only during multisyllabic
+word reading instruction but also in their independent reading when they encounter a multisyllabic word
+they don’t know.
+
+5.17
+
+MULTISYLLABIC WORD READING SKILLS IN ADOLESCENT READERS
+
+Literacy
+
+Monitor the Effectiveness of the Intervention
+Step 9: Analyze Student Progress
+Monitor the effectiveness and impact of the protocol by collecting data. This might include assessing
+student accuracy of reading isolated multisyllabic words and/or ORF CBMs (see Strengthening
+Timely Interventions Through Goal Setting and Progress Monitoring). Evaluate the effectiveness
+of the word study intervention by assessing the extent to which word study instruction increases the
+accuracy and fluency with which students are able to read multisyllabic words.
+
+Students at Green Dot Ánimo Mae Jemison receive small
+group instruction using the Wilson Reading System.
+
+5.18
+
+MULTISYLLABIC WORD READING SKILLS IN ADOLESCENT READERS
+
+Literacy
+
+Practice Snapshot
+GREEN DOT’S WILSON INTERVENTION
+At Ánimo Mae Jemison, a Green Dot Public Schools California middle school, students with disabilities with
+the most intensive reading needs are scheduled into an Academic Prep course where they receive small
+group instruction using the Wilson Reading System (WRS). The implementation of the WRS is enhanced by
+Green Dot’s deep commitment to the program — shown in the collaboration between teachers, counselors,
+and school leaders to prioritize the needs of this group of students — and by the supportive atmosphere
+they have built around it. The case study below describes how Green Dot students work with the classroom
+teacher or trained paraeducator to build word reading skills using the structured literacy program and
+accompanying materials.
+
+On a typical day, seven to nine students enter the reading intervention classroom, retrieve their
+binders from a bookshelf, and sit down around one of two kidney-shaped tables. Looking to the
+front of the room, students greet their teacher, Whitney, as they open their workbooks to the day’s
+lesson warm-up activity.
+The warm-up begins with a word study drill for students to break words into syllables and mark
+known sounds and word parts (e.g., suffixes) following a routine they’ve been taught. They place
+slash marks between the syllables within each word and use a coding system to mark the spelling
+sounds and morphemes they recognize within the words. Whitney monitors this activity, using the
+extensive training she has received to support students in their work and to reinforce the positive
+culture of the classroom. She offers praise to individuals and the group while prompting students to
+persist when they get stuck.
+When this word analysis work is complete, Whitney asks each student to read the syllables aloud
+and then read the full word. When Whitney notices a student error with a word, she provides an
+immediate and brief correction. The student re-reads the word correctly and the practice continues.
+This process allows a virtuous cycle to be created between students, their teachers, and one
+another. Often, secondary students who are not yet proficient with reading also struggle with selfdoubt, frustration, and negative self-talk. Green Dot’s intervention method establishes a learning
+environment in which taking risks and making mistakes is encouraged and valued as part of the
+reading process. Students learn to complete the error correction protocol with their teacher’s
+prompting, and eventually, with the support of peer coaches. Corrective feedback is a normalized
+part of the process.
+The Wilson Reading System is a teacher-directed instructional program that provides systematic
+and explicit instruction in the key elements of reading, including word study. At the upper levels
+of WRS, students learn strategies for reading multisyllabic words, progressing from less complex
+
+5.19
+
+MULTISYLLABIC WORD READING SKILLS IN ADOLESCENT READERS
+
+Literacy
+
+tasks — such as reading two-syllable words with two closed syllables — to multisyllabic words
+including both open and closed syllables and tricky concepts such as the schwa.
+Each day’s lesson generally includes four to eight steps:
+• Teach and review concepts for spelling
+• Passage reading
+• Comprehension
+• Sentence reading
+• Sound quick drill
+• Dictation at the sound, word, and phrase level
+• Sound instruction
+• Word reading drills
+While the Uncommon case study
+shared above illustrates how
+evidence-based strategies for
+developing multisyllabic word
+reading skills can be implemented
+without a structured curriculum,
+Green Dot offers an example of
+this instruction being provided via
+a commercially available program.
+Green Dot students participating in
+the WRS program have reported
+that they are able to read more
+challenging words, have improved
+their reading fluency, and are
+reading more in general, both in
+class and outside of class. Students
+also report improvements in
+comprehension and their confidence
+as readers. Green Dot, seeing the
+value of the program, is spreading
+the practice to high schools in its
+network.
+
+5.20
+
+MULTISYLLABIC WORD READING SKILLS IN ADOLESCENT READERS
+
+Literacy
+
+DEVELOPING MULTISYLLABIC WORD READING SKILLS
+IN ADOLESCENT READERS
+
+Summary
+English Language Arts standards for secondary students ask readers to engage in deep meaningmaking work with complex texts, yet many students enter middle and high school not having had the
+opportunity to develop the foundational reading skills necessary to engage in this work. This problem
+is particularly pronounced for Black and Latinx students, students experiencing poverty, and students
+with disabilities. Many of these readers are able to apply phonic decoding skills to sound out words, yet
+do not yet read multisyllabic words fluently and automatically. Because multisyllabic words make up the
+majority of words that secondary readers encounter in text, weak or dysfluent multisyllabic word reading
+can significantly impact a reader’s ability to access and make meaning from complex grade-level texts.
+Encouragingly, research suggests that explicit strategies to build multisyllabic word reading skills,
+including teaching syllabication principles and building morphological awareness, have strong potential
+to positively impact reading fluency, which in turn leads to improved reading comprehension. These
+evidence-based practices to support the development of multisyllabic word reading skills are a
+critical component of a comprehensive plan for reading intervention in middle and high schools, and
+implementing evidence-based multisyllabic word reading instructional strategies has strong potential to
+improve student proficiency and automaticity in reading, ultimately providing greater and more equitable
+access to grade-level instruction and rich, complex texts for all students.
+
+FURT HE R L E ARNI NG
+
+“What is growth mindset?”
+UNDERSTOOD.ORG
+
+The Teaching Reading Source Book, 3rd Edition
+(CHAPTER 8, MULTISYLLABIC WORD READING)
+CORE
+
+Root Words, Suffixes, and Prefixes
+READING ROCKETS
+
+“Using Morphology to Teach Vocabulary”
+JOAN SEDITA
+
+Morphology Matters: Building Vocabulary Through Word Parts”
+WILLIAM VAN CLEAVE
+
+5.21
+
+MULTISYLLABIC WORD READING SKILLS IN ADOLESCENT READERS
+
+Literacy
+
+DEVELOPING MULTISYLLABIC WORD
+READING SKILLS IN ADOLESCENT READERS
+
+Appendix
+
+How to Measure
+When implementing literacy instruction for students with disabilities at the secondary level, the following
+measures should be implemented to support students in growing their literacy skills in fluency and
+identifying multisyllabic words. At a minimum, these measures are most essential:
+
+PRIMARY MEASURES
+Measure
+Type
+Process
+
+Data
+Collection
+Type
+Intervention
+schedule
+
+Question
+Asked
+Is the
+intervention
+taking place at
+least 3 days per
+week?
+
+Results
+
+Observation or
+teacher report
+
+Are teachers
+implementing
+the intervention
+as intended?
+Yes / No
+
+Outcome
+(formal;
+criterionreferenced)
+
+5.23
+
+Correct words
+per minute on
+Oral Reading
+Fluency
+Curriculum
+Based
+Measurement
+
+What is the
+change in the
+number of
+correct words
+per minute for
+students in the
+intervention?
+
+Examples and
+Notes
+
+Number of days
+per week that
+the intervention
+is implemented
+
+Multisyllabic
+word reading
+intervention
+takes place at
+least 3 days per
+week.
+
+Percent of
+teachers
+implementing
+the intervention
+as intended
+
+100% of
+teachers
+implement the
+intervention as
+intended.
+
+As intended means
+frequency, duration,
+and adherence to the
+specific instructional
+routines.
+
+Number of
+words read
+correctly in
+one minute
+on a criterionreferenced
+CBM passage
+
+Students’
+progress is
+sufficient to
+meet or exceed
+established
+goals/targets.
+
+This measure can
+look at both accuracy
+and rate to measure
+progress in decoding
+skills of students
+receiving multisyllabic
+word reading
+intervention.
+
+Yes / No
+Process
+
+What does
+success look
+like?
+
+MULTISYLLABIC WORD READING SKILLS IN ADOLESCENT READERS
+
+Literacy
+
+Additional measures can guide a team to know whether the multisyllabic word reading intervention is
+leading to the desired improvements for students:
+
+SECONDARY MEASURES
+Measure
+Type
+
+5.24
+
+Data
+Collection
+Type
+
+Question Asked
+
+Results
+
+What does
+success look
+like?
+
+Process
+
+Teacher
+perception
+data
+
+Do teachers feel
+they have the
+knowledge and
+skills needed
+to effectively
+implement the
+instruction?
+
+After training
+and coaching,
+teachers report
+confidence in
+their ability to
+implement the
+instruction (1–5
+scale).
+
+100% of
+teachers report
+feeling confident
+in implementing
+the instruction.
+
+Process
+
+Student
+participation
+
+Are students
+participating in the
+intervention?
+
+Percent of
+students who
+engage in the
+steps of the
+intervention
+
+Increasing
+percent
+until 100%
+of students
+participate in
+the steps of the
+intervention
+
+Process
+
+Student
+perception
+
+Do students who
+participated in
+the intervention
+report increased
+confidence when
+reading gradelevel texts?
+
+Percent of
+students who
+report higher
+confidence in
+reading gradelevel texts after
+the intervention
+than before it
+
+Increasing
+percent of
+students who
+increased their
+confidence in
+reading gradelevel texts until
+reaching 100%
+
+MULTISYLLABIC WORD READING SKILLS IN ADOLESCENT READERS
+
+Examples and
+Notes
+
+It can be expected
+that some students
+may be initially
+reluctant to
+participate in a
+new instructional
+sequence, but the
+goal is to build
+engagement over
+time.
+
+Literacy
+
+Notes
+1
+
+Archer, Gleason, and Vachon, “Decoding and Fluency”
+
+2
+
+Gilmour et al., “Are Students with Disabilities Accessing the Curriculum?”
+
+3
+
+Roberts et al., “Evidence-Based Strategies”
+
+4
+
+Scammacca et al., Interventions for Adolescent Struggling Readers
+
+5
+
+Haager and Osipova, “Enhancing Academic Instruction”
+
+6
+
+Harris, Schumacher, and Deshler, “The Effects of Strategic Morphological Analysis Instruction”
+
+7
+
+Shefelbine and Newman, SIPPS Plus Teacher’s Manual
+
+Bibliography
+Archer, Anita L., Mary M. Gleason, and Vicky L. Vachon. “Decoding and Fluency: Foundation Skills
+for Struggling Older Readers.” Learning Disability Quarterly 26, no. 2 (2003): 89–101.
+https://doi.org/10.2307/1593592
+Gilmour, Allison F., Douglas Fuchs, and Joseph H. Wehby. “Are Students with Disabilities
+Accessing the Curriculum? A Meta-Analysis of the Reading Achievement Gap Between
+Students With and Without Disabilities.” Exceptional Children 85, no. 3 (2019): 329–346.
+https://doi.org/10.1177/0014402918795830
+Haager, Diane and Anna V. Osipova. “Enhancing Academic Instruction for Adolescent English
+Language Learners with or at Risk for Learning Disabilities.” Insights into Learning Disabilities
+14, no. 1 (2017): 7–26. Retrieved March 21, 2024, from https://eric.ed.gov/?id=EJ1165739
+Harris, Monica L., Jean B. Schumaker, and Donald D. Deshler. “The Effects of Strategic
+Morphological Analysis Instruction on the Vocabulary Performance of Secondary Students
+with and without Disabilities.” Learning Disability Quarterly 34, no. 1 (2011): 17–33.
+https://doi.org/10.1177/073194871103400102
+Honig, Bill, Linda Diamond, Linda Gutlohn, and Carrie L. Cole. Teaching Reading Sourcebook (3rd
+Ed.). Novato, CA: Arena Press, 2018.
+Roberts, Greg, Joseph K. Torgesen, Alison Boardman, and Nancy Scammacca. “Evidence-Based
+Strategies for Reading Instruction of Older Students with Learning Disabilities.” Learning
+Disabilities Research & Practice 23, no. 2 (2008): 63–69. https://doi.org/10.1111/j.15405826.2008.00264.x
+Scammacca, Nancy, Greg Roberts, Sharon Vaughn, Meaghan Edmonds, Jade Wexler, Colleen Klein
+Reutebuch, and Joseph K. Torgesen. Interventions for Adolescent Struggling Readers: A
+Meta-Analysis with Implications for Practice. Portsmouth, NH: RMC Research Corporation,
+Center on Instruction, 2007.
+Shefelbine, John, and Katherine K. Newman. SIPPS Plus Teacher’s Manual. 3rd ed. Oakland, CA:
+Developmental Studies Center, 2014.
+
+5.25
+
+MULTISYLLABIC WORD READING SKILLS IN ADOLESCENT READERS
+
+Literacy
