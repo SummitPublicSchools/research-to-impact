@@ -86,14 +86,26 @@ Two different things behind one button:
 
 ## 4. A button to continue to the next module
 
-**Status:** not started. Her words: "this feels essential, though not urgent.
-The functionality to move through the modules is important since we designed
-them intentionally as a sequence."
+**Status:** done 19 November (`e67e02f`).
 
-Buildable as described: the Modules tab already carries `module_order`, so the
-sequence exists in the data. Needs a previous/next control at the foot of a
-module page, and a decision about what happens at the end of a section — stop,
-or roll into the next section.
+Each module page now ends with the step either side of it. Ordering comes from
+`modulesOf()`, the same list the section page renders from, so the pager can
+never disagree with the module list a visitor just came from — including the
+modules it rescues when a published resource names one the Modules tab does not.
+
+Two decisions, recorded because they are the kind that get re-litigated:
+
+- **The sequence stops at the section boundary** rather than rolling into the
+  next toolkit. These are the steps within one practice; running Co-Planning's
+  last module into Repeated Reading's first would imply an order across
+  practices that does not exist.
+- **The last module offers the way back up** — "End of <section> / All
+  modules" — rather than a dead end or a greyed-out control.
+
+Verified across all 34 modules in all six sections: every Previous and Next
+points at the right neighbour, all 6 first modules have no Previous, all 6 last
+modules carry a correct end link, 0 problems. Clicking Next three times from
+Co-Planning / Overview walks the real sequence.
 
 ## 5. Photos on module pages — the field does not exist
 
