@@ -681,6 +681,14 @@ nav.main .nav-div{display:none}
 .matchhd{font-size:var(--t-label);letter-spacing:.1em;text-transform:uppercase;color:var(--muted);font-weight:var(--w-semi);margin-bottom:10px}
 .matchhd .mcount{color:var(--muted);font-weight:var(--w-semi);letter-spacing:0}
 .matchhint{font-size:var(--t-meta);color:var(--muted);padding:6px 0}
+.lens{display:flex;flex-wrap:wrap;align-items:center;gap:6px;margin:0 0 16px}
+.lens[hidden]{display:none}
+.lens .lenslbl{font-size:var(--t-label);color:var(--muted);font-weight:var(--w-semi);margin-right:2px}
+.lens button{font:inherit;font-size:var(--t-label);line-height:1.2;color:var(--navy);background:#fff;border:1px solid var(--line);border-radius:999px;padding:7px 12px;cursor:pointer}
+.lens button:hover{border-color:var(--navy)}
+.lens button:focus-visible{outline:2px solid var(--blue);outline-offset:2px}
+.lens button[aria-pressed="true"]{background:var(--navy);border-color:var(--navy);color:#fff}
+.matchdiv{font-size:var(--t-label);letter-spacing:.1em;text-transform:uppercase;color:var(--muted);font-weight:var(--w-semi);margin:14px 0 2px}
 .matchlist{display:flex;flex-direction:column;gap:var(--s-2)}
 .matchrow{display:flex;align-items:center;gap:var(--s-3);padding:9px 11px;border:1px solid var(--line);border-radius:var(--r-ctl);background:#fff;transition:border-color .12s}
 .matchrow:hover{border-color:var(--navy)}
@@ -806,12 +814,13 @@ header #findBtn .ftxt{display:none}header #findBtn .ftxt-s{display:inline}
       <div class="findbar"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4-4"/></svg><input id="findInput" type="text" autocomplete="off" placeholder="Search or ask a question" aria-label="Search or ask a question"/></div>
     </div>
     <div class="askbody">
+      <div class="lens" id="lensBar" role="group" aria-label="Show results for" hidden></div>
       <section class="ansz" id="ansCard" aria-label="Where to start" hidden>
         <div class="anshd">Where to start</div>
         <div class="ansbody" id="ansBody"></div>
       </section>
       <section class="matchz" aria-label="Matching resources">
-        <div class="matchhd">Matching resources <span id="matchCount" class="mcount"></span></div>
+        <div class="matchhd"><span id="matchLabel">Matching resources</span> <span id="matchCount" class="mcount"></span></div>
         <div id="matchList" class="matchlist"></div>
       </section>
     </div>
@@ -1924,6 +1933,14 @@ function searchAll(q){
  for(const x of rs) if(x.inside&&x.inside.hit>x.hit) found.set(x.r.id,x.inside);
  return {resources:rs.map(x=>x.r),modules:ms.map(x=>x.m),terms,inside:found};
 }
+/* The audience lens reorders, never removes: results written for this reader
+   first, in their ranked order, then everything else in its ranked order. */
+function lensSplit(res,lens){
+ if(!lens)return{mine:[],rest:res};
+ const mine=[],rest=[];
+ for(const r of res)((r.audience||[]).includes(lens)?mine:rest).push(r);
+ return{mine,rest};
+}
 /* Kept for the live-edit panel and anything else expecting the old shape. */
 function searchResources(q){return searchAll(q).resources;}
 
@@ -1964,10 +1981,19 @@ function sSnip(src,terms,dense){
 }
 
 function runSearch(q){
- const list=document.getElementById('matchList'), count=document.getElementById('matchCount');
+ const list=document.getElementById('matchList'), count=document.getElementById('matchCount'), label=document.getElementById('matchLabel');
+ label.textContent='Matching resources';
  if(!(q||'').trim()){
+  count.textContent=''; renderWhere(null);
+  const picks=LENS?lensStarters():[];
+  if(picks.length){
+   label.textContent='Good places to start for '+lensLabel().toLowerCase();
+   list.innerHTML=picks.map(r=>matchRow(r,esc(String(r.summary||'').trim().slice(0,140).replace(/\s+\S*$/,''))+(String(r.summary||'').trim().length>140?'&hellip;':''))).join('')
+    +'<div class="matchhint">Or start typing to search every guide, template, and tool on the site.</div>';
+   return;
+  }
   list.innerHTML='<div class="matchhint">Start typing to search every guide, template, and tool on the site &mdash; or ask a question in your own words.</div>';
-  count.textContent=''; renderWhere(null); return;
+  return;
  }
  const {resources:res,modules:mods,terms,inside}=searchAll(q);
  /* "Where to start" is an answer. Two or three letters of one word are not yet
@@ -1983,14 +2009,65 @@ function runSearch(q){
  if(!res.length){ list.innerHTML='<div class="matchhint">Nothing matched that. Try a practice name, a format, or fewer words.</div>'; return; }
  const CAP=25;
  const more=res.length>CAP?`<div class="matchhint">Showing the ${CAP} closest of ${res.length}. Add a word to narrow it.</div>`:'';
- list.innerHTML=more+res.slice(0,CAP).map(r=>{
+ const row=r=>{
   /* A line from inside the file when that is where the match is; otherwise
      the sheet's own description, as before. */
   const pin=inside.get(r.id);
   const ps=pin?sSnip(pin.text,terms,true):'';
-  const sn=ps?`<span class="mrin">Inside the ${r.video?'resource':'document'}${pin.page?', p.&nbsp;'+pin.page:''}</span> ${ps}`:matchSnippet(r,terms);
-  return `<a class="matchrow ${r.published?'':'soon'}" href="#" data-go="module:${escAttr(r.section)}|${escAttr(r.module)}">${icon(r.format,16)}<span class="mrtxt"><span class="mrtitle">${esc(r.title)}</span><span class="mrmeta">${esc(r.section)} &middot; ${esc(r.module)} &middot; ${esc(r.format)}</span>${sn?`<span class="mrsnip">${sn}</span>`:''}</span><span class="dot ${r.published?'ok':'soon'}" title="${r.published?'Available':'Coming soon'}"></span></a>`;
- }).join('');
+  return matchRow(r,ps?`<span class="mrin">Inside the ${r.video?'resource':'document'}${pin.page?', p.&nbsp;'+pin.page:''}</span> ${ps}`:matchSnippet(r,terms));
+ };
+ const {mine,rest}=lensSplit(res.slice(0,CAP),LENS);
+ if(!LENS){ list.innerHTML=more+rest.map(row).join(''); return; }
+ const who=lensLabel().toLowerCase();
+ list.innerHTML=more
+  +(mine.length?`<div class="matchdiv" style="margin-top:0">For ${esc(who)} (${mine.length})</div>`+mine.map(row).join('')
+               :`<div class="matchhint">Nothing matching this was written specifically for ${esc(who)}. Here is everything that matches.</div>`)
+  +(rest.length?(mine.length?`<div class="matchdiv">Written for other roles (${rest.length})</div>`:'')+rest.map(row).join(''):'');
+}
+
+/* (The lens lives below runSearch on purpose: tools/search-eval.mjs lifts everything
+   above it out of the page and runs it in Node, where there is no document.) */
+/* ---- "I'm a…" — the audience lens ----
+   Four broad lenses, derived by the build from each resource's who_for line
+   (see AUDIENCES in build.js). A lens never hides anything: a filter that
+   empties the panel teaches people that the site has nothing for them, when
+   the truth is only that nothing was TAGGED for them. It reorders instead —
+   what was written for this reader first, everything else under a divider.
+   The choice is remembered in this browser and nowhere else. */
+const LENSES=(DATA.audiences||[]).filter(a=>a.count>0);
+let LENS='';
+try{ const v=localStorage.getItem('r2i.lens'); if(v&&LENSES.some(a=>a.key===v))LENS=v; }catch(e){}
+function lensLabel(){ const a=LENSES.find(a=>a.key===LENS); return a?a.label:''; }
+function renderLens(){
+ const bar=document.getElementById('lensBar');
+ if(LENSES.length<2){ bar.hidden=true; return; }
+ bar.hidden=false;
+ const btn=(key,label)=>`<button type="button" data-lens="${escAttr(key)}" aria-pressed="${LENS===key?'true':'false'}">${esc(label)}</button>`;
+ bar.innerHTML=`<span class="lenslbl">I&rsquo;m a&hellip;</span>`+btn('','Anyone')+LENSES.map(a=>btn(a.key,a.label.replace(/s$/,'').replace(/ leaders?\b/i,' leader').replace(/Funders & researchers?/,'Funder or researcher'))).join('');
+}
+document.addEventListener('click',e=>{
+ const b=e.target.closest('[data-lens]'); if(!b)return;
+ LENS=b.getAttribute('data-lens')||'';
+ try{ LENS?localStorage.setItem('r2i.lens',LENS):localStorage.removeItem('r2i.lens'); }catch(err){}
+ renderLens(); runSearch(document.getElementById('findInput').value);
+});
+function matchRow(r,sn){
+ return `<a class="matchrow ${r.published?'':'soon'}" href="#" data-go="module:${escAttr(r.section)}|${escAttr(r.module)}">${icon(r.format,16)}<span class="mrtxt"><span class="mrtitle">${esc(r.title)}</span><span class="mrmeta">${esc(r.section)} &middot; ${esc(r.module)} &middot; ${esc(r.format)}</span>${sn?`<span class="mrsnip">${sn}</span>`:''}</span><span class="dot ${r.published?'ok':'soon'}" title="${r.published?'Available':'Coming soon'}"></span></a>`;
+}
+/* Before anything is typed, a chosen lens is itself a question: "what is here
+   for me?" Answer it with the resources each module already marks as its
+   focal ones, in the site's own section order. */
+function lensStarters(){
+ const order=new Map((DATA.sections||[]).map((s,i)=>[s.name,i]));
+ const by=new Map();
+ DATA.resources.filter(r=>r.published&&r.focal&&(r.audience||[]).includes(LENS))
+  .sort((a,b)=>((order.has(a.section)?order.get(a.section):99)-(order.has(b.section)?order.get(b.section):99))||((+a.focal_order||99)-(+b.focal_order||99)))
+  .forEach(r=>{ if(!by.has(r.section))by.set(r.section,[]); by.get(r.section).push(r); });
+ /* One from each section in turn, so the first practice in the nav does not
+    fill all eight places. */
+ const out=[], qs=[...by.values()];
+ for(let i=0;out.length<8&&qs.some(q=>q[i]);i++) for(const q of qs) if(q[i]&&out.length<8)out.push(q[i]);
+ return out;
 }
 
 /* "Where to start" — the panel's answer to a question. It is the best-matching
@@ -2025,7 +2102,7 @@ function ensureDocs(){
   if(askWrap.classList.contains('open'))runSearch(findInputEl.value);
  }).catch(()=>{});
 }
-function askOpen(o){askWrap.classList.toggle('open',o);askWrap.setAttribute('aria-hidden',o?'false':'true');if(o){ensureDocs();runSearch(findInputEl.value);setTimeout(()=>findInputEl.focus(),60);}}
+function askOpen(o){askWrap.classList.toggle('open',o);askWrap.setAttribute('aria-hidden',o?'false':'true');if(o){renderLens();ensureDocs();runSearch(findInputEl.value);setTimeout(()=>findInputEl.focus(),60);}}
 findInputEl.addEventListener('input',()=>{runSearch(findInputEl.value);});
 document.getElementById('findBtn').addEventListener('click',()=>askOpen(true));
 document.addEventListener('click',e=>{

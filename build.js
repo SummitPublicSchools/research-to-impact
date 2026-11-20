@@ -415,6 +415,35 @@ async function fetchVimeoPosters(holders) {
   if (missed) info.push(`${missed} intro video(s) have no poster frame from Vimeo — they show a plain panel with a play button instead.`);
 }
 
+// ---------------------------------------------------------------- audience lens
+// "I'm a …" in the search panel. Deliberately broad — four lenses, not job
+// titles — and deliberately DERIVED from the who_for line each resource already
+// carries, rather than a second column an editor has to keep in step with it.
+// The price is that who_for must name a role in words these patterns know; the
+// build warns about any published resource that lands in no lens, so a miss is
+// loud rather than silent.
+//
+// Coaches and counselors read with School leaders (decided 20 Nov 2026: broad
+// beats specific). A resource can sit in more than one lens.
+const AUDIENCES = [
+  { key: 'teachers', label: 'Teachers',
+    test: /teacher|educator|co-teach|classroom|interventionist|paraeducator|instructional aide|teaching associate|tutor|\bpairs?\b/i },
+  { key: 'school', label: 'School leaders',
+    test: /school leader|principal|\bdean|administrator|counselor|coach|leadership team|\b(?:literacy|data) leads?\b|mtss|(?<!(?:network|district|system)\s)\bleaders?\b/i },
+  { key: 'district', label: 'District & network leaders',
+    test: /district|network|system leader|central office|superintendent/i },
+  { key: 'funders', label: 'Funders & researchers',
+    test: /funder|researcher|polic(?:y|ies)|philanthrop|evaluator/i },
+];
+function audienceOf(whoFor) {
+  const w = String(whoFor || '');
+  const hit = AUDIENCES.filter(a => a.test.test(w)).map(a => a.key);
+  // "Teams who want to know what a data cycle is": a school team is teachers and
+  // the people who lead them, so an otherwise unplaced "team" belongs to both.
+  if (!hit.length && /\bteams?\b/i.test(w)) return ['teachers', 'school'];
+  return hit;
+}
+
 // Minimal RFC-4180-ish CSV parser: handles quoted fields, embedded commas,
 // newlines, and "" escapes. Returns an array of row-arrays.
 function parseCSV(text) {
@@ -594,6 +623,7 @@ async function main() {
         gated: TRUE(r.gated),
         practice: (r.practice || '').trim(),
         summary: r.summary || '', who_for: r.who_for || '',
+        audience: audienceOf(r.who_for),
         isnew: isRecent(r.date_published),
         video: String(r.link_type || '').trim() === 'embed' || !!video_url,
         // Carried through so the page can label the button honestly. An
@@ -857,7 +887,21 @@ async function main() {
     }
   }
 
-  const DATA = { site, sections, nav, resources, r2iHome, proof, startHere, storiesSection: storiesSec ? storiesSec.name : null, searchDocs };
+  // ----- audience lens -----
+  const audiences = AUDIENCES.map(a => ({ key: a.key, label: a.label,
+    count: resources.filter(r => r.published && r.audience.includes(a.key)).length }));
+  {
+    // A blank who_for is a different gap (and the fixtures are mostly blank); this
+    // is about a line that IS written but names no role the lenses recognise.
+    const unplaced = resources.filter(r => r.published && String(r.who_for).trim() && !r.audience.length);
+    if (unplaced.length) {
+      warn.push(`${unplaced.length} published resource(s) fit no audience lens, so "I'm a…" in search will never favour them: ` +
+        `${unplaced.slice(0, 8).map(r => r.id).join(', ')}${unplaced.length > 8 ? ', …' : ''}. ` +
+        `Name a role in who_for (teacher, school leader, coach, district or network leader, funder, researcher).`);
+    }
+  }
+
+  const DATA = { site, sections, nav, resources, r2iHome, proof, startHere, storiesSection: storiesSec ? storiesSec.name : null, searchDocs, audiences };
 
   // ----- SEO / social metadata (build-time so crawlers and link unfurlers,
   // which don't run our JS, see real title/description/image) -----
