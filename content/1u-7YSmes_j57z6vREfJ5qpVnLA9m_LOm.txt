@@ -1,0 +1,1393 @@
+A Collaborative
+Approach to
+Student Work
+Analysis
+A RESEARCH-TO-IMPACT PRACTICE DEVELOPED
+WITH THE NETWORKED IMPROVEMENT COMMUNITY
+FOR STUDENTS WITH DISABILITIES
+
+TA BLE O F C O N T E N T S
+4.3............ Practice Overview
+4.3 | What is the Practice?
+4.4 | Why is Student Work Analysis Important?
+
+4.5............ Implementation at a Glance
+4.5 | Enabling Conditions
+4.6 | Steps to Implement
+
+4.7............ Bringing this Practice to Life
+4.12.......... How to Implement this Practice
+4.12 | Before School Begins
+4.12 | Step 1: Determine Analysis Cadence
+4.12 | Step 2: Select a Student Work Analysis Protocol
+4.12 | Step 3: Launch the Protocol with the Entire Staff and Schedule in
+Spiraled Sessions
+4.14 | Step 4: Establish Coaching Support
+4.15 | Before the Meeting
+4.15 | Step 1: Collect Student Work
+4.15 | During the Meeting
+4.17 | Practice Snapshot
+
+4.18.......... Summary
+4.19.......... Appendix
+4.20 | How to Measure
+4.22 | Green Dot’s Student Work Analysis Protocol (2022–23)
+4.25 | Notes
+4.25 | Bibliography
+
+A Collaborative Approach
+to Student Work Analysis
+Implementation Level
+
+Who Implements
+
+District/Central Office
+
+Teacher(s)
+
+School
+
+Instructional Coach
+
+Program/Department
+
+Principal
+
+Classroom
+
+Central Office Leadership
+Specialist
+
+Practice Overview
+What is the Practice?
+The collaborative analysis of student
+work by an interdisciplinary teaching
+team, specifically a general and a special
+educator, to collect and review data on
+student strengths and needs in order to
+plan instructional next steps.
+
+4.3
+
+Student Work Analysis
+Across Any Team
+Within the NIC, CMOs featured in this
+chapter focused their energy on the
+collaborative student work analysis done
+between a general and a special education
+teacher. However, it is important to
+highlight that whenever multiple educators
+come together and look at students’ work,
+particularly when those educators possess
+different areas of expertise, the findings
+will be more nuanced than those coming
+from individual or siloed review of the
+same work. We encourage leaders to think
+about other teams within their schools,
+such as grade-level or department-level
+teams, that can benefit from a student
+work analysis routine to drive data-based
+decision-making together.
+
+A CO L L AB OR AT IVE A PP R OA C H TO S TU D E N T W OR K A N A LY S IS
+
+Collaboration
+
+Why is Student Work Analysis Important?
+Black and Latinx students with disabilities experiencing poverty have been underserved for decades.
+To reverse the effects of learning and opportunity gaps, students must receive the learning support
+they need, when they need it. When teachers engage in rigorous student work analysis, they are
+enabled to meet students’ exact needs in a rapid manner.1
+
+Why it Works
+Collaborative student work analysis using an instructionally focused protocol meets the needs of Black
+and Latinx students with disabilities experiencing poverty by:
+BUILDING EDUCATORS’ CAPACITY TO UNDERSTAND ROOT CAUSES
+OF MISUNDERSTANDINGS
+Reviewing student work with an explicit focus on students’ “misconceptions, errors and learning
+difficulties” allows teachers to identify the best instructional practices to address said needs. Doing this
+review with a colleague who has a different area of expertise allows a teacher to see a wider and more
+nuanced set of root causes.2 This was demonstrated by collaborating teachers in the NIC, who, after
+multiple rounds of collectively engaging in a student work analysis protocol, began to “take on” each
+other’s lenses. This allowed them to expedite students’ growth because they were gradually learning
+from one another and “thinking” like their colleagues.
+ENSURING CRITICAL ALIGNMENT BETWEEN TEACHERS
+Collaborative work analysis helps teachers gain a shared understanding of grade-level rigor so that
+both teachers can teach toward it. This makes instruction from each teacher and toward IEP and
+course goals more efficient and more impactful.
+EXPLICITLY ACKNOWLEDGING THE IMPACT OF STUDENTS’ LEARNING NEEDS
+ON THEIR WORK
+By including specific knowledge of students’ learner profiles and IEPs (including their disabilities and
+accommodations) in the analysis of student work, educators reduce blind spots around the “why” of
+students’ approach to content and learning activities.
+LEVERAGING MULTIPLE FORMS OF DATA
+Focusing regular analysis on students’ work in addition to quantitative data allows teachers to
+supplement numbers with rich, illustrative examples of students’ work and processing.3 For many
+teachers, this can reinvigorate their investment in data-informed instruction as it is highly studentcentric.4
+
+4.4
+
+A CO L L AB OR AT IVE A PP R OA C H TO S TU D E N T W OR K A N A LY S IS
+
+Collaboration
+
+A COLLABORATIVE APPROACH TO STUDENT WORK ANALYSIS
+
+Implementation at a Glance
+The information in this section provides a high-level view of what to consider when implementing this
+practice. Enabling Conditions describes the minimum conditions needed for successful implementation,
+including resources, mindsets, staffing, and recommended time allocation. Steps to Implement presents a
+concise checklist of action items, which are explained in detail in How to Implement this Practice, below.
+
+Prerequisites
+
+Enabling Conditions
+A belief among school leaders that special and general educators both have valuable
+perspectives to bring to student work analysis
+A shared belief in the value of data-informed instruction
+An approach to data that prioritizes investigation and inquiry, valuing deep curiosity over
+judgment
+
+Recommended Time Allocation
+
+Staff
+Commitment
+
+Recommended
+Materials
+
+An expectation that student work is regularly collected and scored in alignment to standards
+
+4.5
+
+A protocol for student work analysis:
+– Green Dot Example Meeting Protocol and Data Analysis Template
+– Blue Engine Data Analysis Protocol
+
+Collaborating teachers or co-teachers
+Coaching support for student work analysis implementation, particularly as it is
+being launched
+Content and instructional support for teachers
+Regular, weekly shared meeting time for collaborating teachers
+–
+
+This does not replace weekly co-planning. It can, however, occur during schoolwide
+professional development time or, if timing allows, precede a co-planning block.
+
+–
+
+Ideally, this is a 30–45 minute block.
+
+Regular time for collaborating teachers to meet for student work analysis
+–
+
+Ideal for co-teachers: daily (5–10 min.)* + weekly (45 min.)
+
+–
+
+Ideal for collaborating teachers: weekly (45 min.)
+
+–
+
+Sufficient: biweekly (45 min.)
+
+–
+
+Minimum: monthly or quarterly (45–60 min.)
+
+* For schools interested in and able to provide daily time for student work analysis, consider an
+abbreviated protocol such as Blue Engine’s Daily Data Huddle.
+
+A CO L L AB OR AT IVE A PP R OA C H TO S TU D E N T W OR K A N A LY S IS
+
+Collaboration
+
+Steps to Implement
+BEFORE SCHOOL BEGINS
+Determine analysis cadence
+Select a student work analysis protocol
+Launch the protocol with the entire staff
+and schedule in spiraled sessions
+Establish coaching support
+BEFORE THE MEETING
+Collect student work
+DURING THE MEETING
+Celebrate successes
+Review data
+Plan interventions
+Assign next steps
+
+A small group meets with one co-teacher in math class at STEM Prep MSCP.
+
+4.6
+
+A CO L L AB OR AT IVE A PP R OA C H TO S TU D E N T W OR K A N A LY S IS
+
+Collaboration
+
+Bringing this Practice to Life
+INTEGRATING STUDENT WORK ANALYSIS INTO ROUTINES
+AT GREEN DOT PUBLIC SCHOOLS CALIFORNIA
+In 2020–21, the principal at Green Dot Public Schools’ Ánimo Watts College Preparatory Academy (“Watts”)
+came into her role with a deep investment in engaging teachers in student work analysis in service of
+proactively addressing student needs. As she was iterating on that practice, co-teachers were simultaneously
+beginning to participate in quarterly co-planning days.
+A year later, though survey data showed that teachers loved the co-planning days, student outcomes data
+continued to display large achievement gaps. The improvement team hypothesized that, perhaps, teachers
+weren’t making substantial changes to their instruction based on student work. They grappled with how
+to address this discrepancy without overwhelming teachers with a “new” initiative and completed a larger
+stepback to look at their performance data. This led the team to identify a bright spot in grade improvements
+at Ánimo Watts. Upon investigation, the team learned that the site had adopted a new student work analysis
+practice at the school that worked well with the schoolwide collaboration and coaching structures. Based on
+data and stakeholder interviews, the team decided to adopt Watts’s student work analysis protocol (SWA) for
+further iteration and spread across programs.
+
+In the fall of 2022, Green Dot made the SWA the central focus of the professional development
+hour that launches each co-planning day. The focus on student work analysis has three core goals:
+• Ground teachers’ collaboration time in students’ learning
+• Provide a direct link to the subsequent co-planning time
+• Enable teachers to intentionally plan to address the newly uncovered needs
+
+4.7
+
+A CO L L AB OR AT IVE A PP R OA C H TO S TU D E N T W OR K A N A LY S IS
+
+Collaboration
+
+After a semester of use, promising data began cropping up throughout Watts’s classrooms. Of their
+eight co-taught classrooms, seven of them saw students’ grades increase such that more than 84%
+of students were passing their courses.
+The example below describes how two teachers, Heather, an 11th grade general education math
+teacher, and Justin, her special education counterpart, used the shortened SWA protocol to review
+student exit tickets from the previous day in one of their biweekly co-planning meetings.
+
+Sorting Student Work and Discussing the Lesson’s Context
+For this meeting, Heather and Justin decided to review a set of work for the full class. Heather
+brought the exit tickets she had scored against their standards-aligned rubric in advance of the
+meeting. The teachers confirmed their shared understanding of exemplary completion of the
+exit ticket, which asked students to (1) interpret a word problem, (2) create an aligned one-step
+equation, (3) solve that equation, and (4) explain and justify their work in writing.
+Next, they sorted their students’ work twice: first to gain a picture of overall performance, then to
+identify any gaps between students with and without disabilities.
+
+Rubric Score
+
+Entire Class
+
+Students with IEPs
+
+0–1
+
+18%
+
+25%
+
+2
+
+21%
+
+33%
+
+3–4
+
+61%
+
+42%
+
+Their findings showed Heather and Justin that they needed to dedicate ample time to
+understanding the exact needs of their students with disabilities. Understanding the root of
+students’ misconceptions would allow them to provide the necessary support to close the gaps
+between students with and without IEPs.
+Before moving to the next part of their student work analysis — noticing and wondering about
+students’ work — Heather and Justin talked through what they had done to instruct on this skill
+prior to the exit ticket. In previous days, they had taught students the skill of using arrows to
+connect components of a word problem to portions of the aligned equation. They had also taught
+students the acronym “RAD” — that is, “Restate the question, Answer the question, Defend your
+work and thinking.”
+
+Noticing and Wondering
+Next, Heather and Justin shifted into “noticings and wonderings,” focusing on work at each score
+level one by one. The teachers reviewed the work of students who scored a 3 or 4 and noted
+that these students were able to successfully interpret the word problem, accurately solve their
+equation, and then provide a correct explanation of their work. Heather noticed that students had
+
+4.8
+
+A CO L L AB OR AT IVE A PP R OA C H TO S TU D E N T W OR K A N A LY S IS
+
+Collaboration
+
+correctly justified their answers, yet wrote responses that were superfluous, adding unnecessary
+detail that clouded their explanations. Justin first wondered if the accommodation that he had
+previously provided for students with disabilities – providing sentence stems – might have confused
+students and led them to add more than was necessary. He then noticed that more students with
+disabilities had demonstrated mastery of this skill than they had in the past, leading him to believe
+that, in fact, the accommodation was likely supportive.
+Heather and Justin then moved on to discussing students who scored a 0 or 1. This group was
+composed entirely of students with IEPs, so their noticings and wonderings here allowed them to
+focus entirely on that subgroup. Justin noticed that two students, Jayme and Edwin, had struggled
+mightily to articulate their answers. They had either made no attempt or had written responses
+that were disconnected from the math work that they had done. Conversely, another student
+who scored a 0-1, Kayla, had incorrectly transcribed numbers from the word problem and had
+completed the equation in the wrong order. This caused her to produce a wrong answer which she
+had then attempted to defend in writing using the provided accommodation appropriately for written
+justification, yet incorrectly. Across their analysis of this group, Heather and Justin were able to
+group these and other students into categories depending on the needs students had demonstrated
+with the multi-step problem-solving process.
+Finally, the conversation shifted to looking at the work of students who scored a 2. For the entire
+class as well as the subset of students with disabilities, Heather noticed a clear trend: students
+had correctly interpreted the word problem and accurately solved the ensuing equation, yet they
+had struggled to defend their work in writing. The teachers focused their attention on students with
+IEPs, noticing that their written responses were highly literal. So, rather than explaining how they
+had arrived at their answer to the equation, these students had detailed the steps of their work (for
+example, “First, I wrote 250, then, I wrote a division sign...”). Justin again wondered if his sentence
+starter accommodations had confused students who received them. Whereas for students scoring
+a 3 or 4 he had realized that those accommodations were in fact helpful, for the students scoring a
+2 he wondered if his sentence starters were too long and should have, instead, been more concise
+(“Restate, Answer, Defend”).
+
+Clarifying Root Causes
+Having extensively reviewed students’ work, Heather and Justin worked to uncover the root causes
+of students’ misunderstandings. They began by discussing students who had scored a 3 or 4.
+For these students, they realized that most of the students who had struggled with concision had
+arrived to class late, thereby missing the mini-lesson that Heather and Justin had team-taught at
+the beginning of the lesson focused on being targeted and specific in written responses.
+Next, they focused on students who scored a 2. With her increased knowledge of students’
+accommodations and needs based on multiple rounds of student work analysis, Heather built on
+Justin’s wondering about the sentence stems and realized that students scoring at this level were
+getting lost in the complicated explanations that they had provided. Justin posited that “less could
+be more” for this group of students.
+
+4.9
+
+A CO L L AB OR AT IVE A PP R OA C H TO S TU D E N T W OR K A N A LY S IS
+
+Collaboration
+
+Finally, they focused on students who scored
+a 0 or 1. They focused first on Jayme, with
+Justin noting that her disability impacts her
+oral and written expression. She had been
+able to successfully complete the math, but
+had struggled to articulate and write out her
+thought processes. Justin noted that Edwin’s
+disability relates to occupational therapy, which
+causes additional challenges when writing
+his explanation. The team also noted Kayla
+struggled with both transcription of the numbers
+for the problem set, as well as the order of
+steps for solving. This, they hypothesized, was
+likely related to her dyscalculia, making it more
+difficult for her to solve the equation in the
+correct order and then to explain her results.
+
+Green Dot co-teachers Roane and Schacher implement
+station teaching in their classroom based on a recent
+student work analysis.
+
+Defining Focus and Brainstorming Aligned Supports
+Finally, Heather and Justin moved to action. They began by articulating their focus and goals for
+the entire class. Based on what they had seen in their students’ work, they decided to focus on the
+skill of explaining mathematical processes and thinking in writing. They agreed that this skill applies
+broadly to the application of multiple content standards within their mathematics course, and it
+helps students with other courses and content, namely English Language Arts.
+They set the goal that within three weeks, 85% of all students will score a 3 or higher on their
+written explanations of the day’s math content. They did not set a separate goal for students
+with IEPs, but instead planned to focus their instructional efforts to offer re-teaching and
+accommodations to ensure these students could demonstrate proficiency at the same target levels
+as their peers. They agreed that regardless of the math content for the next three weeks, they
+would add in opportunities for students to practice written defenses of their thinking.
+Finally, they discussed aligned instructional strategies. Justin noted specific considerations for
+students based on their learning profiles. For example, Edwin has a speech-to-text accommodation
+he is often hesitant to use that could assist in his written justification of his response, while
+Jayme benefits from examples of what is expected in order to reference them as models for his
+own attempts. Justin decided that a focus on shared writing for daily written defenses was an
+instructional approach that could meet both of these students’ needs. He decided to work with the
+two students together in a small group to model aloud exactly how a strong written response could
+sound and to practice multiple examples verbally, then in written form, so they could gradually
+demonstrate the skill with greater independence. Justin decided that after a week of this practice,
+he would gradually shift the task of articulating a response to Edwin and Jayme so that they could
+gain practice with it on their own. Turning their attention to Kayla, Justin and Heather discussed
+
+4.10
+
+A CO L L A B OR AT IV E A P PR OA C H TO S TU D E N T W OR K A N A LY S IS
+
+Collaboration
+
+Heather checking in with Kayla following the next lesson to share feedback on where she got stuck
+and assist her in making a step card to check her work, first for the accuracy of her transcription of
+information, then for completion of the steps. If that strategy worked well, Heather would continue
+to check in with Kayla 1:1 following instruction to check her understanding and give her immediate
+feedback to help her self-monitor for errors over time.
+For the remaining students, Heather and Justin decided to use stations during class time, creating
+intentional, small, homogeneous groupings of students based on this exit ticket data. They realized
+that while students had learned the description of “RAD” and had heard the criteria for strong
+written responses, they hadn’t yet seen a classmate do that work successfully and succinctly. They
+decided to use students’ work samples in an upcoming lesson to show the rest of the class what a
+clear and concise response looks like. After that lesson, they would weave error analyses into the
+coming weeks’ lessons based on one or two pieces of student work. Heather and Justin agreed
+that having students use an aligned rubric to evaluate their peers’ work would enable them to more
+effectively evaluate their own work.
+
+Co-teachers at Green Dot Ánimo Watts meet to complete a student work analysis
+
+Heather and Justin’s next steps relied on station teaching in their co-taught classroom.
+For more details, see Achieving High-Impact Co-Teaching: A Gradual Release Model.
+
+4.11
+
+A CO L L A B OR AT IVE A PP R OA C H TO S TU D E N T W OR K A N A LY S IS
+
+Collaboration
+
+A COLLABORATIVE APPROACH TO STUDENT WORK ANALYSIS
+
+How to Implement this Practice
+Before School Begins
+Step 1: Determine Analysis Cadence
+Regular student work analysis dramatically improves the quality of student interventions when paired
+with collaborating teachers’ co-planning time. As school leaders are working to carve out time for
+multiple collaborative practices, they may consider creative ways to structure in student work analysis
+time, such as:
+• using a portion of regular professional development time for collaborating teachers to meet;
+• supporting teachers to use 5–10 minutes of longer instructional blocks for daily work analysis; or
+• having collaborating teachers use an alternating schedule for their weekly common prep,
+focusing on student work analysis in week A and co-planning in week B.
+Note: This structure does not work for co-teachers who need to co-plan weekly.
+
+Step 2: Select a Student Work Analysis Protocol
+Having a standardized protocol is essential to help teachers understand how to analyze student work.
+School leaders can choose to adopt a strong, existing protocol, such as Green Dot’s, or they might
+modify or create their own protocol. Successful protocols include the following elements:
+•
+•
+•
+•
+•
+
+Bringing relevant work samples
+Celebrating successes
+Reviewing data together
+Planning interventions
+Assigning next steps
+
+Of paramount importance is that school leaders and instructional coaches are clear on and fluent in the
+SWA protocol prior to introducing it to teachers.
+
+Step 3: Launch the Protocol with the Entire Staff and Schedule
+in Spiraled Sessions
+Prior to having collaborating teachers initiate their student work analysis practice, leaders launch
+the protocol.
+Commit 45–60 minutes to initial professional development that:
+• shares rationale for the collaborative analysis of students’ work, focusing on the unique lenses that
+general and special educators bring to this practice, and
+• introduces staff to the student work analysis and response protocol.
+
+4.12
+
+A CO L L A B OR AT IV E A P PR OA C H TO S TU D E N T W OR K A N A LY S IS
+
+Collaboration
+
+As the school year progresses, bring the school wide team together regularly for 45–60 minute blocks
+of professional development that focuses on skillfully reviewing and analyzing student work. These
+sessions can be led by any skilled instructional or teacher leader. Less experienced teachers will
+benefit from development led by someone focused on their specific content area(s) so as to build
+expertise in the process within the context of the curriculum they are teaching. This is inclusive of
+special education services. School leaders should ensure that experienced special educators on staff
+(or, as needed, external consultants) are available to explicitly support teachers in analyzing students’
+work for the impact of students’ disabilities on their output.
+These sessions can occur within the context of
+department professional development, regular
+grade or department team meetings, or other
+structures that are already built into teachers’
+schedules. When built into schoolwide professional
+development time, this type of session is an
+excellent opportunity to bring broader teams
+together to collaboratively analyze work.
+For example:
+• The occupational therapist is invited to join
+the 9th grade ELA team’s analysis time to
+share insights about students’ writing.
+• The vertical math team comes together,
+allowing 10th grade teachers to provide
+insight into 12th grade work where
+misconceptions may be related to prior grade
+levels’ content.
+
+School Spotlight
+A pair of Ednovate co-teachers were
+excited about incorporating different coteaching models into their instruction,
+but were anxious about setting up
+systems for routine analysis of their
+students’ work. As they planned for new
+models, they realized that they needed
+a better understanding of their students’
+needs in order to plan the most effective
+groupings.5 They discovered that by
+regularly analyzing students’ responses
+on mid-lesson checks for understanding,
+they could more effectively adjust
+upcoming instruction to meet students’
+precise needs.
+
+Protocol Overview: GD Student Work Analysis Protocol
+
+STEP 1: Prior to the Protocol
+• Choose 5–10 student work samples
+
+STEP 2: Getting Started
+• Facilitator reviews norms
+• Teacher provides a very brief description of
+the assignment
+
+STEP 3: Describing the Student Work
+• Discuss the question:
+– What do you see?
+• Describe work without judgment or
+interpretation
+
+STEP 4: Interpreting the Student Work
+• Discuss the question:
+– What do these work samples reveal
+about what students understand or
+know how to do?
+• Use evidence to determine what students
+understand and don’t understand
+
+STEP 5: Implications for Practice
+• Discuss the question:
+– “What are the implications of this
+work for teaching and assessment?”
+• Consider what skills and content you
+need to build and re-teach
+
+STEP 6: Planning for Implementation
+• Consider when and how you will implement
+the next steps related to re-teaching
+• Each participant shares their actionable
+next steps
+
+STEP 7: Reflecting on the Process
+• Each participant shares key takeaways about student
+learning and instruction
+• Discuss the process itself and next steps from
+implementation next round
+
+4.13
+
+STEP 8: Suggestions for Support
+• Participants may request implementation support for the
+next steps generated by reflection and feedback from
+colleagues, CSs, and admin
+
+A CO L L A B OR AT IV E A P PR OA C H TO S TU D E N T W OR K A N A LY S IS
+
+Collaboration
+
+Step 4: Establish
+Coaching Support
+The impact of coaching on the efficacy of
+student work analyses is highly beneficial. When
+a supportive third party joins the discussion,
+collaborating teachers can be pushed to amplify
+their individual expertise in reviewing students’
+work and to think more creatively about how to
+address the root causes of students’ needs.
+Before launching this practice with collaborating
+teachers, school leaders should determine
+when coaches will support work analysis
+meetings. Coaches’ presence is crucial to
+the initial success of the collaborative student
+work analysis and to the increasing efficacy of
+analysis by pairs who need additional support.
+Ideally, coaches join every student work
+analysis meeting:
+• as the protocol is launching at their site, or
+• if either collaborating teacher is very new to
+their content or to teaching.
+
+School Spotlight
+A gradual release of responsibility
+coaching model can help teachers feel
+supported as they grow their expertise
+in the practice. For example, at KIPP
+Northern California’s Navigate College
+Prep, two collaborating teachers were in
+their early years of teaching, limiting the
+depth of their analysis of students’ work.
+To deepen their knowledge of what to
+look for, both a math coach and a special
+education coach joined the teachers’
+student work analysis meetings to share
+noticings and instructional next steps,
+voicing over the deeper pedagogical
+knowledge that informed their insights.
+Over time, this type of support built the
+collaborating teachers’ expertise and
+enabled them to notice key findings
+independently. Even after the teachers’
+expertise grew, one coach continued to
+join the student work analysis meetings
+throughout the semester to probe the
+teachers or to facilitate when needed.
+
+Coaches join meetings monthly or quarterly:
+• if coach availability and portfolio do not
+allow for weekly attendance, or
+• once teachers are effectively going through the protocol with minimal facilitation.
+When coaching collaborative teaching teams in the use of student work analysis, there are two common
+needs for coaches to keep in mind to ensure teams leverage their individual and collective expertise
+and knowledge of students:
+• Push teachers to “notice and wonder” deeply. A coach at Green Dot noticed that, when
+learning how to use the SWA protocol, collaborating teachers often have the inclination to move
+quickly to instructional next steps. By encouraging collaborating teachers to linger on the notice
+and wonder step and go deeper in the analysis of students’ work — especially through each
+teacher’s unique lens and expertise — the collaborating teachers have more time to bounce ideas
+off of one another. This back-and-forth builds rapport and understanding and gets to the most
+accurate and pressing needs for students’ learning.
+• Inquire about accommodations. Coaches should ensure that students have received their
+appropriate accommodations before the analysis begins. This inquiry creates a space for
+necessary dialogue to occur if accommodations are not being provided, and also ensures that
+teachers are looking at the most accurate representation of students’ learning.
+
+4.14
+
+A CO L L A B OR AT IV E A P PR OA C H TO S TU D E N T W OR K A N A LY S IS
+
+Collaboration
+
+Before the Meeting
+Step 1: Collect Student Work
+In order to analyze student work, teachers gather a representative sample of their class’s most recent
+scored work (for example, an exit slip, quiz, or test).
+
+During the Meeting
+The goal of collaborative, interdisciplinary
+student work analysis and response is to
+carefully review representative students’ work
+for progress toward rigorous, grade-level
+content standards and for manifestations of
+disabilities that may be inhibiting students from
+accessing that content. The findings from the
+student work analysis process inform upcoming
+lessons so that barriers to access are removed
+before instruction occurs, increasing the
+ability for all students — particularly those with
+disabilities — to successfully master content the
+first time.
+During the meeting, teachers follow their
+school’s student work analysis protocol. Most
+protocols include the four steps described on
+the following page.
+
+4.15
+
+The Value of Recent Data
+After the first year of implementing SWA
+efforts, Green Dot’s improvement lead
+realized that when teachers focused their
+student work analysis on the previous
+day’s exit ticket or writing sample, they
+were able to spend their time addressing
+their students’ most immediate, pressing
+needs. Conversely, when teachers
+brought a “bigger” unit assessment from
+three weeks prior, the findings were often
+outdated or too broad to feel immediately
+actionable.
+
+When analyzing students’ work,
+it is imperative that teachers are
+getting an accurate assessment
+of what students know. For students who
+have designated accommodations, it is
+crucial that those accommodations are
+provided. If not, collaborating teachers
+will have an incorrect understanding of a
+students’ knowledge and skill. For example,
+a student who is entitled to having text read
+aloud before responding to comprehension
+questions, but who does not receive that
+accommodation, may present as struggling
+with inferential questions when, in fact, they
+were struggling with decoding the text.
+
+A CO L L A B OR AT IV E A P PR OA C H TO S TU D E N T W OR K A N A LY S IS
+
+Collaboration
+
+Collaborative Student Work Analysis Protocol
+STEP 1: CELEBRATE SUCCESSES
+Collaborating teachers reflect on ways in which their collaborative student
+work analysis and planning has positively impacted their practice and their
+students’ outcomes. Teachers ground themselves in the work’s criteria for
+success and revisit the instructional support that was provided prior to and
+during the work sample or assessment, including accommodations.
+STEP 2: REVIEW DATA
+Collaborating teachers review each representative set of students’ work
+and elevate what is seen in the work itself without planning solutions. Both
+teachers are taking an investigative stance, seeking to note objectively what
+they see, and an inquisitive stance, seeking to determine why and how
+these results came about. They use guiding questions to push themselves to
+elaborate on noticings and wonderings, identifying causes of strengths that
+can be replicated and using their unique expertise to get to the root causes of
+misconceptions or challenges.
+STEP 3: PLAN INTERVENTIONS
+Collaborating teachers identify specific next steps for each group of students
+reflected in the representative samples, ensuring that there is an explicit focus
+on the needs of students with disabilities. Teachers articulate what they want
+to see next in students’ work.
+Collaborating teachers discuss what they need to address next, based on the
+root cause reflections and aligned to their articulated foci, as well as how they
+can best proceed in ways that are accessible to students.
+STEP 4: ASSIGN NEXT STEPS
+Collaborating teachers explicitly connect their proposed intervention
+responses to their next steps for planning and instruction, confirming what role
+and specific responsibilities each will take to enact their plans.
+For a more detailed description and guidance, see Green Dot’s Student Work Analysis Protocol
+(2022–23) in the appendix. Alternative versions available for reference include the Green Dot
+Biweekly Co-Planning Agenda with embedded student work analysis (2022–23) and the
+Green Dot Student Work Analysis Spreadsheet Template (2023–24).
+
+4.16
+
+A CO L L A B OR AT IV E A P PR OA C H TO S TU D E N T W OR K A N A LY S IS
+
+Collaboration
+
+Practice Snapshot
+ACHIEVING ALIGNMENT FOR GRADE-LEVEL RIGOR AT EDNOVATE
+Collaborative student work analysis has benefits beyond highlighting students’ most pressing needs. The
+practice requires reviewing students’ work together against the expectations of student performance for that
+activity. At Ednovate, collaborating teachers Katie (general education, English) and Jerry (special education)
+found that by collaboratively analyzing students’ work, they grew in their shared understanding of what
+should be expected of their students, regardless of IEP status.
+
+In the spring of 2023, Katie and Jerry began
+working with a coach to help them optimize
+their collaborative partnership. Prior to
+that time, Katie was inconsistently scoring
+work and inputting the information into
+Gradebook, their grades platform, but Jerry
+neither helped with evaluating work nor
+had access to the submitted results. In an
+effort to increase alignment as a teaching
+team, the teachers, with the support of
+their coach, began engaging in daily data
+tracking, collecting, scoring, and analyzing
+against a standards-aligned rubric.
+Through this process, Katie and Jerry
+realized that they were not, in fact, in
+alignment about what rigorous student work
+looked like at the end of the lesson. Through
+their discussions, the teachers realized
+that Jerry was holding a higher bar for
+student responses than Katie. v realization
+pushed them to collectively raise the bar
+for what they expected when evaluating
+students’ work and to amplify the rigor of the
+questions that they were asking of students
+during lessons and in students’ work. At the
+close of the quarter in which they shifted to
+this type of student work analysis, Katie and
+Jerry’s class saw an increase in their course
+pass rate from 79% to 97%.
+
+4.17
+
+Jerry and
+Katie used
+the Ednovate
+Student Work
+Analysis
+agenda
+for their
+collaborative
+planning.
+
+A CO L L A B OR AT IV E A P PR OA C H TO S TU D E N T W OR K A N A LY S IS
+
+Collaboration
+
+A COLLABORATIVE APPROACH TO STUDENT WORK ANALYSIS
+
+Summary
+The practice of analyzing student work to inform future instruction is relatively common in schools.
+However, when general and special teachers collectively analyze students’ work through their unique
+lenses, they are able to build a rich and detailed understanding of strengths and needs in a way that a
+single educator cannot. In order to best serve the needs of all students, particularly Black and Latinx
+students with disabilities, instruction needs to be highly tailored and targeted to individual student
+needs. When students’ work and learning are evaluated simultaneously by content experts (general
+education teachers) and accessibility experts (special education teachers), students’ needs are
+identified more precisely, and aligned supports are crafted with both high rigor and access in mind.
+All teachers are then able to more effectively respond to the needs of individual students as well
+as the whole class. This response might look like implementing high-impact small groups based on
+academic data, rather than simply grouping students based on their ability designations. Alternatively,
+this collaborative student work analysis could lead educators to identify important moments for wholeclass instruction. Analyzing student work as a team ensures that all teachers in a classroom are deeply
+knowledgeable about student needs and the gaps of the class as a whole. This leads to a greater
+feeling of shared responsibility for all learners.
+
+FURTHE R LE ARN I NG
+
+Weekly Data Meeting Protocol
+UNCOMMON SCHOOLS
+
+ATLAS — Learning
+From Student Work
+NATIONAL SCHOOL REFORM FACULTY
+
+Using a Student Work Analysis
+Protocol to Improve Outcomes
+RELAY GRADUATE SCHOOL OF EDUCATION
+
+Looking Collaboratively at Student
+Work: An Essential Toolkit
+COALITION OF ESSENTIAL SCHOOLS
+
+4.18
+
+A CO L L A B OR AT IV E A P PR OA C H TO S TU D E N T W OR K A N A LY S IS
+
+Collaboration
+
+A COLLABORATIVE APPROACH
+TO STUDENT WORK ANALYSIS
+
+Appendix
+
+Appendix
+How to Measure
+When content and accessibility experts work together to implement student work analysis protocols,
+monitoring how useful, usable, and utilized the practice is by team members and across the school system
+can accelerate learning to improve outcomes for students. At a minimum, these measures are most essential:
+
+PRIMARY MEASURES
+Measure
+Type
+
+Data
+Collection
+Type
+
+Process
+(utilization)
+
+Log
+
+Question
+Asked
+
+Results
+
+What does success
+look like?
+
+Examples and Notes
+
+Are teachers
+meeting
+to analyze
+student work?
+
+Percent of
+planned
+meetings held
+by teachers
+for student
+work analysis
+
+Teachers are
+consistently engaging
+in student work
+analysis 100% of the
+time as scheduled.
+
+Teams can (briefly) log
+their meetings to denote
+that the meeting(s)
+occurred and/or log the
+key trends identified in
+each meeting and 1–2 key
+next steps.
+
+Percentage of
+time (and/or
+teams) using
+the protocol
+
+All collaborating teams
+use the SWA protocol
+100% of the time.
+
+School leaders or
+instructional coaches
+can collect completed
+protocols as an alternative
+to observing the student
+work analysis meetings.
+
+Yes / No
+Process
+(utilization)
+
+Observation
+
+Are teachers
+using the
+protocol?
+Yes / No
+
+Process
+(utilization)
+
+Observation
+
+To what
+extent are
+teachers
+using all
+components
+of the
+protocol?
+
+Percentage
+of teams
+using all
+components
+of the protocol
+
+Teachers are
+addressing all intended
+components of the
+SWA protocol during
+their meeting time.
+
+It may be beneficial to
+measure implementation
+by section. A coach may
+sit in on a student work
+analysis conversation
+with a copy of the agenda
+in hand, noting which
+sections are addressed,
+how much time teachers
+spend on each section,
+and the outcomes of each
+protocol section.
+
+Outcome
+
+Student
+Outcomes
+Data
+
+Are students’
+academic
+outcomes
+improving as
+a result of
+student work
+analysis–
+informed
+instruction?
+
+Percent
+mastery of
+individual
+work samples
+
+Levels of mastery
+increase for students
+overall and for priority
+subgroups of students.
+
+Percent
+mastery on
+summative
+assessments
+(overall and
+for priority
+subgroups)
+
+Gaps in measured
+academic performance
+between students with
+and without disabilities
+are shrinking.
+
+Quarterly, leaders and
+teachers review the
+mastery percentages for
+students with disabilities
+for a subset of focal
+standards that have been
+reviewed.
+
+4.20
+
+A CO L L A B OR AT IV E A P PR OA C H TO S TU D E N T W OR K A N A LY S IS
+
+Collaboration
+
+Additional measures can guide a team to know whether student work analysis is leading to the desired
+improvements for students:
+
+SECONDARY MEASURES
+Measure
+Type
+
+4.21
+
+Data
+Collection
+Type
+
+Question
+Asked
+
+Results
+
+What does
+success look
+like?
+
+Examples and
+Notes
+
+Process
+
+Observation
+
+To what
+extent is each
+teacher’s
+unique
+expertise being
+leveraged
+when analyzing
+students’ work?
+
+Percent of
+time that each
+teacher is
+contributing to
+discussions of
+students’ work
+
+Both teachers
+are actively
+and equitably
+participating
+in the student
+work analysis
+discussion at
+nearly equal
+levels.
+
+A coach might join
+the student work
+analysis and gather
+frequency and/
+or duration data
+for each teacher
+as they participate
+in the SWA
+discussion.
+
+Process
+(usefulness)
+
+Survey
+
+How valuable
+do teachers find
+student work
+analysis?
+
+Average of
+scores (1–5) on
+survey
+
+Increasing
+average of
+survey scores
+over time
+
+After each student
+work analysis
+meeting, teachers
+are provided with
+an anonymous
+survey which asks,
+“How valuable
+do you find the
+student work
+analysis process?”
+
+Process
+
+Observation
+
+How are
+teacher
+practices
+changing as
+a result of
+using the SWA
+protocol?
+
+Percent of
+observed
+instances where
+teachers are
+implementing
+practices
+aligned to the
+student work
+analysis plan
+
+Collaborative
+teams are
+implementing
+instructional
+practices that
+are directly
+aligned to
+needs surfaced
+through
+students’ work.
+
+A CO L L A B OR AT IV E A P PR OA C H TO S TU D E N T W OR K A N A LY S IS
+
+Collaboration
+
+PRACTICE TOOL
+
+Green Dot’s Student Work Analysis Protocol (2022–23)
+Note: Questions that are likely to be within the unique purview of special educators are denoted with “SPED.” Ideally, however,
+as this process occurs more regularly, many of these questions can be increasingly answered by either educator.
+
+INTERDISCIPLINARY, COLLABORATIVE STUDENT WORK ANALYSIS
+Necessary
+Resources
+
+Bring a representative sample of the most recent scored work (exit slip, quiz, test, etc.):
+2 students who demonstrated mastery and above (earned an 80+% or a 3–4)
+2 students who are approaching mastery (i.e., earned 60–79% or a 2)
+2 students who are not yet approaching mastery (i.e., earned <60% or a 0–1)
+1–2 students with disabilities
+1–2 students who are emergent multilingual learners
+
+Celebrating
+Successes
+3 minutes
+
+Collaborating teachers reflect on ways in which their collaborative student work analysis
+and planning has positively impacted their practice and their students’ outcomes. For
+example:
+• What is one way in which you are using student work that is making an impact on
+your students’ learning, experiences and/or outcomes, specifically for students with
+disabilities?
+• What is one way you are currently using student work that has made an impact on
+your teaching practice, particularly when supporting students with disabilities?
+
+Articulating
+the Context
+for the Work
+Sample
+5 minutes
+
+Collaborating teachers ground their analysis in a reminder of the instructional support that
+was provided prior to the work sample or assessment. For example:
+• What type of methods were used to introduce new material? For practice?
+• What small group instruction was provided? Who participated? What was the focus?
+• What are students’ accommodations (per their IEP or 504)? Were those
+accommodations provided when students were producing this work? (SPED)
+• What specially designed instruction was provided leading up to this work? (SPED)
+• If relevant, what co-teaching models were used to support this content?
+Teachers also ground themselves in the criteria for success for the work by:
+• Reviewing the standard and stating, in their own words, what it demands of learners.
+• Reviewing the rubric used to assess any written work.
+
+4.22
+
+A CO L L A B OR AT IV E A P PR OA C H TO S TU D E N T W OR K A N A LY S IS
+
+Collaboration
+
+Notice and
+Wonder
+12 minutes
+
+Teachers review each representative set of students’ work and elevate what is seen in the
+work itself without planning solutions.
+Collaborating teachers aim to be as generative as possible, taking an investigative stance
+to review students’ work through their unique lens and perspective.
+What are we NOTICING
+in students’ work?
+
+Clarifying
+Root Causes
+8 minutes
+
+What are we WONDERING
+about students’ work?
+
+Collaborating teachers use guiding questions to push themselves to elaborate on noticings
+and wonderings, identifying causes of strengths that can be replicated and using their
+unique expertise to get to root causes of misconceptions or challenges.
+• What strengths do you see in the student work samples?
+–
+
+What supports were provided to students to bring about or amplify these
+strengths? Within their general education course? In any additional services they
+receive? (SPED)
+
+–
+
+How can we replicate those supports?
+
+• What is keeping students back from the next level of understanding and mastery?
+
+Defining the
+Focus
+5 minutes
+
+–
+
+What prerequisite content gaps exist? Be as specific as possible.
+
+–
+
+Why do those content gaps exist?
+
+–
+
+What accessibility gaps exist? Be as specific as possible. (SPED)
+
+–
+
+Are any gaps a manifestation of disabilities or language acquisition needs?
+How so? (SPED)
+
+–
+
+What supports toward those gaps have been provided in class and through
+specially designed instruction?
+
+–
+
+What about those supports has not yet led to content mastery?
+
+–
+
+What connections, if any, exist between students’ IEP goals and the demands
+of the current work sample? How can we connect those IEP goals to this work?
+(SPED)
+
+Collaborating teachers identify specific next steps for each group of students reflected
+in the representative samples, ensuring that there is an explicit focus on the needs of
+students with disabilities.
+Teachers articulate what we want to see next in students’ work by X date.
+
+4.23
+
+A CO L L A B OR AT IV E A P PR OA C H TO S TU D E N T W OR K A N A LY S IS
+
+Collaboration
+
+Brainstorming
+Aligned
+Responses
+8 minutes
+
+Based on the root cause reflections and aligned to their articulated foci, collaborating
+teachers discuss:
+• What steps could we take with these students (and by extension - all of our students)
+to support their learning and help them progress in their work?
+• What accommodations and/or specially designed instruction will be necessary to
+support students’ learning? (SPED)
+• Do the content or skills require quick touchpoints or a full re-teach?
+
+Finalizing
+Next Steps
+4 minutes
+
+4.24
+
+–
+
+What teaching strategies might be most effective in building these skills, reteaching this content, and assessing them again?
+
+–
+
+What consistent strategies could we implement to build student skills?
+
+–
+
+What instructional model(s) would be most effective to use?
+For co-teachers, this includes different models of co-teaching.
+
+–
+
+How will we re-engage, review, or re-teach to build student knowledge or repair
+misconceptions?
+
+–
+
+What opportunities can we use to reassess the student skills or knowledge we
+build?
+
+–
+
+What type of data would provide evidence of progress?
+
+• What is the timeline for implementing each of your next steps?
+• What will we specifically do in our next co-planning time to address the needs
+identified above?
+
+A CO L L A B OR AT IV E A P PR OA C H TO S TU D E N T W OR K A N A LY S IS
+
+Collaboration
+
+Notes
+1
+
+National Center for Learning Disabilities and Understood, Forward Together, 20
+
+2
+
+Langer et al, Collaborative analysis of student work, 19
+
+3
+
+Bella, “Benefits of Analyzing Student Work”
+
+4
+
+Knight and Faggella-Luby, “‘Data’ Shouldn’t Be a Dirty Word.”
+
+5
+In their publication, “Forward Together,” The National Center for Learning Disabilities cites datainformed flexible grouping as one of the strongest practices for effectively supporting students with
+learning and attention challenges. When teachers know, specifically, what students need, they can plan
+strategically for groups of students who have similar needs.
+
+Bibliography
+Bella, Norene J. “What Are the Benefits of Analyzing Student Work?” Chap. 1 in Reflective Analysis
+of Student Work: Improving Teaching Through Collaboration. 1–8. Thousand Oaks, California:
+Corwin Press, 2004.
+Knight, Jim and Michael Faggella-Luby. “‘Data’ Shouldn’t Be a Dirty Word.” The Learning Professional
+43, no. 2 (April 2022): 48–51. https://learningforward.org/journal/coaching-for-change/datashouldnt-be-a-dirty-word/
+Langer, Georgea M., Amy B. Colton, and Loretta S. Goff. Collaborative Analysis of Student Work:
+Improving Teaching and learning. Alexandria, VA: ASCD, 2003.
+National Center for Learning Disabilities and Understood. Forward Together: Helping Educators Unlock
+the Power of Students Who Learn Differently. Washington, DC, 2019. https://drive.google.com/
+file/d/1empIVwsXWcyHhYt7UmwkYrxZ5bKLwasN/view?usp=share_link
+
+4.25
+
+A CO L L A B OR AT IV E A P PR OA C H TO S TU D E N T W OR K A N A LY S IS
+
+Collaboration

@@ -1,0 +1,1285 @@
+Student
+Conferencing
+for Life and
+Academic Skills
+A RESEARCH-TO-IMPACT PRACTICE DEVELOPED WITH
+THE NETWORKED IMPROVEMENT COMMUNITY
+FOR STUDENTS WITH DISABILITIES
+
+TA BLE O F C O N T E N T S
+5.3............ Practice Overview
+5.3 | What is the Practice?
+5.3 | Why is Student Conferencing Important?
+
+5.6............ Implementation at a Glance
+5.6 | Enabling Conditions
+5.7 | Steps to Implement
+
+5.8............ Bringing this Practice to Life
+5.10.......... How to Implement this Practice
+5.10 | Getting Started
+5.10 | Step 1: Use Data to Identify Students Who Need Student Conferencing
+5.11 | Step 2: Help Teachers Determine Student Conference Schedule
+5.12 | Step 3: Help Teachers Develop a Standardized Meeting Protocol
+5.14 | Step 4: Establish a Communication System for Collaborating Teachers
+5.14 | Step 5: Embed Student Conferencing Supports in Coaching Structures
+5.15 | Holding Student Conferences
+5.15 | Step 6: Students Complete Pre-Work
+5.15 | Step 7: Educators Create Independent or Partner Work for All Students
+5.15 | Step 8: Educators Set Up Conferencing Space
+5.15 | Step 9: Students and Educators Hold Student Conferences
+5.17 | Step 10: Students Implement Their Plans
+5.17 | Step 11: Educators Document Outcomes from Student Conferencing
+5.18 | Practice Snapshot
+
+5.20.......... Summary
+5.21.......... Appendix
+5.22 | How to Measure
+5.24 | Notes
+5.24 | Bibliography
+
+Student Conferencing for
+Life and Academic Skills
+Implementation Level
+
+Who Implements
+
+District/Central Office
+
+Teacher(s)
+
+School
+
+Instructional Coach
+
+Program/Department
+
+Principal
+
+Classroom
+
+Central Office Leadership
+Specialist
+
+Practice Overview
+What is the Practice?
+Student conferencing is a regular, consistent time during school days for educators to coach students 1:1
+on how to set goals, make plans to achieve their goals, enact their plans, and reflect on their progress.
+
+Why is Student
+Conferencing Important?
+Many Black and Latinx students with disabilities
+experiencing poverty are subjected to school
+cultures with low expectations, are not given
+autonomy to direct their own learning, and are
+not given opportunities to engage in deeper
+learning.1 Student conferencing is a structure
+that helps interrupt the negative cycle of low
+expectations. It builds students’ skills for success
+by providing a time for students to explicitly learn
+habits through 1:1 reflections with educators.
+
+5.3
+
+S T UDE NT C ON F ER EN C IN G F OR L IFE A N D A C A D E MIC S K ILLS
+
+Multi-Tiered
+Systems of Support
+
+Why it Works
+David Yeager, Carol Dwek, Angela Duckworth, and many other researchers have demonstrated the
+importance of habits and skills such as grit, perseverance, and agency for student success in school
+and life. There is a strong body of evidence that underpins student conferencing as a structure that
+works to build these critical habits and skills for success:
+SENSE OF BELONGING AND DEEPER RELATIONSHIPS
+The regular 1:1 interaction between students and teachers during student conferencing helps students
+build positive relationships with adults in the school building. When students have strong relationships
+with adults, as well as with other students in their school, they can feel a sense of belonging that can
+translate into increased engagement and, eventually, academic success.2
+GOAL SETTING
+Goal setting is associated with increased
+perseverance, higher aspirations, and positive
+homework behavior, as well as some improved
+outcomes for the lowest-performing students.3 By
+explicitly teaching students how to self-monitor
+grades, identify achievable goals, and reflect
+on progress, students can be empowered to
+drive their educational futures forward. Student
+conferencing gives students the opportunity to
+practice identifying their goals and to learn from
+their educators how best to achieve them.
+SELF-DETERMINATION
+
+Teaching and Using
+SMART Goals
+At KIPP Northern California, special
+education case managers begin their
+conferencing work by teaching students
+how to create their own SMART (Specific,
+Measurable, Achievable, Relevant, and
+Time-Bound) goals. By focusing first on
+SMART goal setting, case managers can
+easily direct future check-ins based on those
+goals. Clear data on student goal attainment
+also helps case managers consider what
+steps are most effective in helping students
+reach their goals.
+
+Students build self-determination — the initiative
+to plan, implement, and evaluate their own
+learning needs and outcomes, with or without
+the help of others4 — by developing a host of skills that are generally not explicitly taught to students
+outside of conferencing.
+Some of the skills include:
+• understanding how assignment completion impacts a final grade, including how some assignments
+are worth more than others;
+• creating a goal to address the high-leverage assignments to get the desired grade;
+• making a plan for how to study more effectively for a test;
+• connecting learning to personal goals;
+• advocating to teachers when extra time or additional help is needed; and
+• regulating emotions in response to setbacks.
+
+5.4
+
+S T UDE NT C ON F ER EN C IN G F OR L IFE A N D A C A D E MIC S K ILLS
+
+Multi-Tiered
+Systems of Support
+
+EXECUTIVE FUNCTIONING
+Students with disabilities, especially those
+who are Latinx, Black, and living in poverty,
+particularly benefit from this practice because
+many disabilities affect executive functioning
+skills and thus require explicit instruction to
+increase these skills.5
+
+“I like that I get to talk to
+someone about school.
+Even though I see [my
+teacher] every day, I like
+having one-on-one time.”
+— 10TH GRADE STUDENT,
+KIPP NAVIGATE COLLEGE PREP
+
+Summit’s Mentorship
+Structure
+Nearly two decades ago, Summit Public
+Schools pioneered weekly 1:1s for every
+individual student. Over time, Summit
+has evolved the structure, content, and
+process for these meetings to better meet
+all students’ needs. Through long-term
+mentoring relationships, teacher-mentors
+become the students’ advocates, inside and
+outside of the classroom. Mentors provide
+guidance, support, and skill-building so
+that, eventually, the leadership of weekly
+meetings shifts to students. Mentors also
+come together to meet and discuss individual
+student’s needs in a structure called Kid Talk.
+Summit’s teacher-mentors use their time with
+students to address important habits and
+skills, such as the following:6
+• Challenge seeking: students pushing
+themselves to achieve higher goals
+• Persistence: continuing to work toward
+a goal despite challenges or setbacks
+• Strategy shifting: finding alternative
+ways to accomplish a goal when their
+original strategy does not work
+• Appropriate help-seeking: reaching
+out to others for support when they hit a
+roadblock they cannot overcome alone
+• Response to setbacks: regulating
+their emotions in response to barriers
+or negative outcomes when trying to
+achieve their goals.
+
+5.5
+
+S T UDE NT C ON F ER EN C IN G F OR L IFE A N D A C A D E MIC S K ILLS
+
+Multi-Tiered
+Systems of Support
+
+STUDENT CONFERENCING FOR LIFE AND ACADEMIC SKILLS
+
+Implementation at a Glance
+The information in this section provides a high-level view of what to consider when implementing
+this practice. Enabling Conditions describes the minimum conditions needed for successful
+implementation, including resources, mindsets, staffing, and recommended time allocation. Steps
+to Implement presents a concise checklist of action items, which are explained in detail in How to
+Implement this Practice, below.
+
+Recommended
+Time Allocation
+
+Staff Commitment
+
+Recommended
+Materials
+
+Prerequisites
+
+Enabling Conditions
+
+5.6
+
+System for communication across teachers to share information about student needs, priorities,
+and plans
+A schoolwide understanding of the concepts of universal, additional, and intensified supports
+Belief among teachers that holding student conferencing can help students achieve their goals
+
+Conference protocol or agenda
+Student goal and progress tracker for whole-staff communication
+
+Initial Training
+1 hour of teacher training on using the school grade reporting system, particularly from the
+student’s perspective
+Ongoing PD and Meeting Time
+1 hour per quarter for ongoing teacher professional development
+1 hour per month meeting time for educators to share student information from conferences
+
+Class time for the general or special education teacher to implement 10–15 minute 1:1
+student conferencing (see Conferencing Cadence and Class Blocks)
+
+S T UDE NT C ON F ER EN C IN G F OR L IFE A N D A C A D E MIC S K ILLS
+
+Multi-Tiered
+Systems of Support
+
+Steps to Implement
+GETTING STARTED
+To get started at the beginning of the school year, school leaders:
+Use data to identify students who need student conferencing
+Help educators determine student conferencing schedule
+Help educators develop a standardized meeting protocol
+Establish a communication system for collaborating teachers
+Embed student conferencing supports in coaching structures
+HOLDING STUDENT CONFERENCES
+Throughout the school year, to hold student conferences:
+Students complete pre-work
+Educators create independent or partner work for all students
+Educators set up a conferencing space
+Students and educators hold student conferences
+Students implement their plans
+Educators document outcomes from student conferencing
+
+5.7
+
+S T UDE NT C ON F ER EN C IN G F OR L IFE A N D A C A D E MIC S K ILLS
+
+Multi-Tiered
+Systems of Support
+
+Bringing this Practice to Life
+ACCELERATING LEARNING WITH STUDENT CONFERENCES
+AT STRIVE PREP
+STRIVE Prep Federal7 in Denver, Colorado wanted their students to take ownership over their short- and
+long-term goals, grades, and study habits. Teachers there realized that these self-determination skills
+needed to be taught explicitly for students with disabilities. To do that, STRIVE Prep Federal introduced
+student conferencing structures. The team piloted student conferencing in one special education math class,
+and encouraged by the pilot’s success helping students pass classes, they have since spread the practice
+to multiple classrooms across grade levels. The scene described below shows a typical conference between
+one student and her teacher.
+
+Starting a Conference
+Jolisa and her math teacher, Mr. Miller, get settled and organized across from each other at a table
+with their laptops. Mr. Miller helps Jolisa find the right bookmark and pull up her student portal,
+while he also pulls out a paper form to start their check-in.
+Mr. Miller: How is your week going, Jolisa?
+Jolisa: I’m yellow. [points to “yellow” on her check-in sheet]
+Mr. Miller: Why are you a yellow?
+Jolisa: I’m tired from staying up too late.
+Mr. Miller: How do you think being tired impacts you at school? I love how much energy
+you bring to my math class, and I’d love to see you be able to give the same energy to all
+your classes. How can we find some ways to help you get enough sleep each night?
+
+5.8
+
+S T UDE NT C ON F ER EN C IN G F OR L IFE A N D A C A D E MIC S K ILLS
+
+Multi-Tiered
+Systems of Support
+
+This initial interaction between Mr. Miller and Jolisa starts their check-in with an opportunity to build
+their relationship. Mr. Miller shows Jolisa that he cares about her well-being and sees the positives
+in her even when she isn’t feeling like she’s at her best.
+
+Reflecting Using Data
+From there, Mr. Miller asks Jolisa questions about her academic successes and challenges
+from the last week. Her reflections naturally lead them into a conversation about Jolisa’s current
+grades. Mr. Miller guides Jolisa through the process of looking for patterns in her grades. When he
+sees some troubling grades in her math and English classes, Mr. Miller asks Jolisa to look at her
+assignments in those classes. Jolisa acknowledges that despite turning in all the assignments, she
+didn’t complete them all and doesn’t feel confident that what she turned in was correct.
+Mr. Miller then spends time asking about specific, low-scoring assignments, which allows him to
+work with Jolisa on regulating her negative emotions around her struggles with some assignments.
+He reminds her of her past successes and tries to redirect her. Mr. Miller also explains to Jolisa that
+it is helpful to look at her grades in classes to see how she did on assignments because she can
+usually meet with her teachers to revise her work and get higher grades.
+
+Planning for the Future
+Key to this redirection is focusing on Jolisa’s long-term goals of going to college and studying art.
+Mr. Miller reminds Jolisa that passing her classes is the way to achieve those goals. He is then able
+to help Jolisa make a plan of action for how she can revise and then resubmit high-quality work.
+The two create a new goal for Jolisa to revise one assignment that she needs to resubmit by their
+next check-in. Mr. Miller asks Jolisa to restate her goal and then to write it on a sticky note to put on
+the class’s public goal board.
+
+Outcomes from Conferencing
+The entire student conference takes Mr.
+Miller about 13 minutes. These steps help
+develop a culture of care, accountability,
+and reflection that are reinforced every two
+weeks during student conferencing.
+The initiative has already benefited
+students. All of the students who had an IEP
+and met with Mr. Miller for student conferencing passed all of their classes. When Mr. Miller spread
+student conferencing to his advisory class, 80% of students who had an IEP and met with him
+for student conferencing increased their GPA that semester. They did that by using self-advocacy
+skills, by learning routines for completing tasks, and by learning how to transfer good work habits
+from classes they liked to use in classes they did not enjoy. Improving their grades was just the
+beginning for Mr. Miller’s students, who now also feel valued, empowered, and motivated to reach
+for their goals in life.
+
+5.9
+
+S T UDE NT C ON F ER EN C IN G F OR L IFE A N D A C A D E MIC S K ILLS
+
+Multi-Tiered
+Systems of Support
+
+STUDENT CONFERENCING FOR LIFE AND ACADEMIC SKILLS
+
+How to Implement this Practice
+This section provides step-by-step guidance for implementing student conferencing, along with
+accompanying resources to get started. The steps are organized into two sections for implementation:
+Getting Started and Holding Student Conferences.
+
+Getting Started
+When school leaders set up school-wide systems and supports for student conferencing, the
+practice thrives and student outcomes improve. Below are various system elements school leaders
+can implement prior to the start of the school year to enable successful student conferencing.
+
+Step 1: Use Data to Identify Students Who Need
+Student Conferencing
+While conferencing can be structured as a system-wide universal intervention, it can also be done
+to provide targeted or more intensive support to a subset of students who need additional support
+in building social-emotional skills, study skills, or relationships. School-based teams can use data to
+identify a select number of students who need student conferencing the most or to determine whether
+an entire caseload or class should receive conferencing as a universal intervention. (See Establishing
+Effective Data Routines in School-Based Teams.)
+Student conferencing can
+THE LEVELS OF INTERVENTION STUDENTS NEED
+also be implemented at
+IN AN MTSS SYSTEM
+varying levels of frequency
+and intensity. Conferencing
+can happen weekly,
+biweekly, monthly, or even
+quarterly, depending upon
+individual student needs and
+educator capacity. In many
+circumstances, it is not feasible
+to check in with all students on
+a biweekly basis, so it is useful
+to prioritize the students who
+need conferencing the most.
+It is helpful to use a variety of
+data sources to determine which students need conferencing at what level. Student grades, surveys
+(e.g., Panorama Climate Survey), and staff feedback can all be used to make these determinations.
+A few students will need the most frequent student conferencing schedule, while students who are
+independently succeeding in all their classes may just need periodic check-ins.
+
+5.10
+
+S T UDE N T C ON F ER EN C IN G F OR LIFE A N D A C A D E MIC S K ILLS
+
+Multi-Tiered
+Systems of Support
+
+Step 2: Help Teachers
+Determine Student
+Conference Schedule
+
+Focusing on Students with
+the Highest Needs
+
+Conferences are generally most
+effective when educators are able
+to devote 10 to 15 minutes to each
+conference. When establishing a
+schedule, educators can use the data
+analysis from Step 1 to determine
+how many days per week to devote to
+conferencing and how often per month
+they can meet with each student.
+
+KIPP Northern California started implementing
+student conferencing with their special educators with
+just a few students each and gradually added more.
+They developed the following criteria to decide which
+students would be introduced to conferencing next:
+
+CONFERENCING CASELOADS
+
+The team amended their criteria as identified student
+needs changed. Instead of focusing on multilingual
+learners, they decided to prioritize:
+
+Available time to conference with
+students often restricts the number
+of students who can feasibly have
+conference sessions.
+
+1. Students who are failing (or are in jeopardy of
+failing) one or more core content classes
+2. Students who are multilingual learners
+3. Students who special educators identify as
+needing the additional support of a check-in
+
+1. Students who are recovering credits from previous
+semesters
+2. Students who have behavior improvement plans
+
+CONFERENCING CADENCE AND
+CLASS BLOCKS
+The table below presents a variety of
+ways that schools within the Marshall
+Street Networked Improvement
+Community (NIC) built conferencing
+cadences and class blocks into their
+school schedules.
+
+By leveraging student information from project goals
+as well as educator knowledge to create these
+priorities, KIPP Northern California was able to
+maintain teacher buy-in for conferencing.
+
+Advisory/Homeroom
+
+Core Classes
+
+Block Classes
+
+Class Schedule
+
+30-minute period, three
+days per week
+
+50-minute period, two
+days per week
+
+120-minute period, once
+per week
+
+1:1s per Class
+
+Two
+
+Three
+
+Seven
+
+Targeted Conferencing*
+
+Targeted Conferencing
+
+Targeted Conferencing
+
+Universal Conferencing**
+
+Universal Conferencing
+
+Level of Intervention
+
+* Targeted Conferencing: Up to 12 students receiving biweekly 1:1s
+** Universal Conferencing: Up to 28 students receiving monthly 1:1s
+
+5.11
+
+S T UDE N T C ON F E R E N C IN G F OR LIFE A N D A C A D E MIC S K ILLS
+
+Multi-Tiered
+Systems of Support
+
+Implementing
+Conferencing with
+Less Structure
+KIPP Northern California began
+implementing student conferencing with three
+special education case managers. Each
+case manager first conferenced with only
+one student who they knew would be willing
+to participate for several months, and later
+added to their conferencing schedule two
+additional students who had a greater need
+for this time. These conferences had to be
+slotted into the weekly schedule wherever
+possible because the case managers did not
+necessarily have the students they managed
+in their advisory periods. The challenge
+for case managers was to ensure they still
+prioritized student conferences amid the
+multitude of other tasks they were responsible
+for in a week.
+KIPP’s initial pilot was able to prove the value
+and effectiveness of student conferencing to
+the school leader, who created two dedicated
+conferencing periods for special educators
+the following year. By making this shift to
+teacher’s schedules, the school was able to
+offer biweekly conferences to more than
+twice as many students.
+
+Keeping Conferences
+Meaningful While Scaling
+STRIVE Prep initially implemented student
+conferencing in a math class for students
+with disabilities. The special educator was
+able to use classroom stations during normal
+class periods to conference with students.
+As STRIVE Prep looked to scale its student
+conferencing practice to more classrooms,
+they found a way to do student conferencing
+during shorter advisory periods. The
+implementation meant conferences went from
+12 or 13 minutes to less than 10 minutes,
+but they accomplished the same purpose of
+helping students set and meet goals.
+
+Step 3: Help Teachers Develop a Standardized
+Meeting Protocol
+A conference protocol guides the conversation between teacher and student and provides an
+accessible way of taking notes and recording information. The protocol can be built into a web
+or paper form for ease of use. Consider how the protocol can let students have control and
+responsibility for conferences and for decisions made during conferences. It may also be helpful to
+have slightly different protocols based on the time of year:
+Use beginning-of-the-school-year conferences to build relationships, establish trust, and
+ensure a strong foundation.
+
+5.12
+
+S T UDE N T C ON F ER EN C IN G F OR LIFE A N D A C A D E MIC S K ILLS
+
+Multi-Tiered
+Systems of Support
+
+Beginning-of-year conference protocols could
+include the following:
+• Relational check-ins for teachers to get
+to know their students and their students’
+values, mindsets, motivations, and
+roadblocks. This is also when teachers can
+discover students’ long-term goals to better
+understand what students and teacher are
+building toward.
+• Opportunities to build trust, create a
+space where students want to be, and
+establish a relationship that they value as
+an important part of their week.
+• Explicit instruction on writing SMART
+goals, how to get into student portals,
+expectations around independent or
+partner work, and the difference between
+short-term goals and IEP goals.
+Orientation is a great time to set the stage for
+these foundational conversations so that when
+conferences become more data-driven and
+students start setting more concrete goals,
+teachers can use students’ personal information
+to provide them guidance.
+Middle-of-year conference protocols could
+include:
+•
+•
+•
+•
+
+Explicit Instruction of
+Conferencing Skills
+STRIVE Prep’s math teacher who piloted
+student conferencing taught his classes
+the steps of the conferencing process with
+activities to illustrate each strategy. For
+example, he started with lessons explicitly
+teaching his entire class how to write SMART
+goals. KIPP Northern California, on the other
+hand, chose to teach these lessons during
+the first few conferences between students
+and their case managers.
+
+Letting Conferences
+Change During the Year
+KIPP Northern California created a series of
+conference protocols, which changed based
+on the time of year each conference would
+be held. This allowed case managers and
+students to shift their discussions, for example,
+to set new goals at the beginning of a semester
+or focus on course finals at the end.
+
+focus on academic performance,
+setting specific learning goals,
+creating plans to reach those goals, and
+reflecting on previous weeks.
+
+By the end of the school year, some students may be able to run conferences themselves.
+Educators can use various gradual release strategies to support this level of student agency. Some
+strategies include:
+• asking students to check and document their grades before their check-in,
+• providing students a script for leading each section of the check-in,
+• having students calculate their progress toward their goal, and
+• asking students to write their own SMART goals and give feedback during check-ins.
+Because conference meetings are very short, staying on schedule may be the biggest implementation
+challenge. Schools in the NIC used several successful strategies to manage time during conferences:
+• Teachers gave conference pre-work to students, prompting students to review previous goals and
+to reflect on progress and barriers prior to their conference check-in. This ensured students came
+to conferences ready to share.
+
+5.13
+
+S T UDE N T C ON F ER EN C IN G F OR LIFE A N D A C A D E MIC S K ILLS
+
+Multi-Tiered
+Systems of Support
+
+• Teachers used a clear time-keeping strategy — such as assigning students to keep time or use a
+projected timer on the board — to help keep conferences at their designated times.
+• Teachers prepared a bank of action steps for students to choose from, rather than having them
+come up with ideas for actions on their own.
+• Teachers created cloze statements and sentence starters for key elements of the meeting so
+students could focus on the objective of each task — creating SMART goals, for example —
+rather than on constructing sentences.
+• Teachers adjusted the protocol to meet individual student needs, focusing on specific components
+different students may need rather than trying to cover every subject.
+
+Step 4: Establish a Communication System
+for Collaborating Teachers
+It is important that collaborating teachers can easily document and share student goals, plans, and
+progress. This information aids teacher follow-up with students and communicates the current status
+with other staff. A shared spreadsheet can allow staff members convenient access to conference
+documentation. School leaders can use existing structures to create a time and place for sharing
+information from conferencing, such as grade-level meetings, co-planning sessions, or schoolwide
+“kid talk” sessions.
+
+Step 5: Embed Student Conferencing Supports
+in Coaching Structures
+Collaborating teachers benefit from coaching support and professional development focused
+specifically on student conferencing. Examples of this might include the following:
+• Observations of student conferencing: Ideally, instructional coaches observe student
+conferencing so educators can receive constructive feedback on how to improve conferences.
+• Training on school grade reporting system: By giving teachers training on using the school
+grade reporting system, particularly from the student perspective, teachers are then equipped to
+help students navigate the systems.
+• Professional development on teaching skills: Through school-wide professional development,
+teachers can gain skills to build relationships with their students, coach students on habits of
+success, and help students manage setbacks.
+A simple guide can also help educators hold high-quality conferences.
+
+A STRIVE Prep High School teacher confers with a student.
+5.14
+
+S T UDE N T C ON F ER EN C IN G F OR LIFE A N D A C A D E MIC S K ILLS
+
+Multi-Tiered
+Systems of Support
+
+Holding Student Conferences
+Step 6: Students
+Complete Pre-Work
+Student conference meetings are very short,
+typically 10–15 minutes. Completing pre-work
+before the conference ensures the best use of that
+10–15 minutes. For example, students can look
+up grades or other data related to their goals and
+begin filling out information on the conference
+form. This pre-work can be assigned as either
+homework or classwork.
+
+Differentiating
+Conference Structures
+At STRIVE Prep, some students
+complete their grade reflections
+independently, ahead of the 1:1, once
+they’ve shown that they know how to
+independently review and reflect on
+current grades. This practice can also
+save time in cases where a teacher
+needs to shorten the conference length
+for some students.
+
+Step 7: Educators Create
+Independent or Partner
+Work for All Students
+In order to be free to conduct 1:1 conferences during class, teachers must create independent or
+partner activities for all students to work on during conferencing. Additionally, teachers will need to
+spend sufficient time setting expectations for students during independent work.
+
+Step 8: Educators Set Up Conferencing Space
+Because teachers conduct 1:1 conferences in the same classroom as the rest of the students, a
+dedicated space for conferencing will be needed. Teachers should set up a conferencing space in
+the classroom such that they can see the rest of the students while maintaining some privacy for the
+student in the 1:1 conference.
+
+Step 9: Students and Educators Hold Student Conferences
+Though students need different amounts of support and time in each part of their check-in, 1:1s
+typically will cover the following steps:
+•
+•
+•
+•
+
+Relational check-in (2–5 min.)
+Goal setting (2–4 min.)
+Plan (2–6 min.)
+Accountability and next steps (2–4 min.)
+
+The sample agenda on the following page is for a biweekly conference with a middle or high school
+student with a disability.
+
+5.15
+
+S T UDE N T C ON F ER EN C IN G F OR LIFE A N D A C A D E MIC S K ILLS
+
+Multi-Tiered
+Systems of Support
+
+SAMPLE CONFERENCE AGENDA
+Relational Check-in (~3 min.)
+• Ask the student how they’re doing.
+• Ask a follow-up question for more detail, to clarify, or to ensure they feel heard.
+• Ask for a “win” the student has experienced since the last conference.
+Goal Setting (~2 min.)
+• Pull up the student’s goals from the prior meeting, along with data on whether or not
+they met their goals.
+• Ask the student what the data tells them about their progress. Help them understand
+whether it shows that they got closer or further from their goal.
+• Ask students which classes they want to focus on this week and why, based on their
+progress, they have selected those classes.
+Plan (~2 min.)
+• Ask the student to consider barriers to reaching the SMART goal they just created.
+Gut check whether there is a “root cause” that is going unaddressed that could inhibit
+the student’s progress toward their goal.
+• Help the student modify their plan based on both where they are focusing their
+energy this cycle and their reflection on prior barriers. Make sure the student can
+give their rationale for modifications. For example:
+– “I will go to the teacher’s office hours two days a week because I’m running into
+too many questions that I need the teacher’s help to understand.”
+– “My ‘plan B’ for when my parents can’t give me a ride to school is to text my
+neighbor by 7:30 a.m. to get a ride with them instead.”
+• Ask the student if there is anything they need from you or other staff members at the
+school to help them be successful in acting on their plan.
+Accountability and Next Steps (~5 min.)
+• Have the student set reminders, identify how they want to communicate with other
+teachers or do follow-up, and publicly post their goal (to support accountability,
+transparency, and relatability across students).
+• Set a date for the next check-in and any intermediate steps. Provide recommendations
+based on knowledge of schedule, upcoming deadlines, and the like.
+
+5.16
+
+S T UDE N T C ON F ER EN C IN G F OR LIFE A N D A C A D E MIC S K ILLS
+
+Multi-Tiered
+Systems of Support
+
+Step 10: Students
+Implement Their Plans
+After the meeting, have students fill in any data
+that will be public, whether in a shared document
+or on a poster in class. Additionally, students will
+be responsible for implementing the plan they
+created during the conference.
+There will likely be more times than not that
+students struggle to enact their plans. A host
+of barriers both within and outside of school
+can impede a students’ ability to do what
+they said they would. Educators can use
+these opportunities to model the compassion
+and mental fortitude necessary to overcome
+obstacles to achieving one’s goals. Both students
+and educators are likely to experience frustration
+at times, but persevering in the face of frustration
+is what will lead to success.
+
+Characteristics of a
+Good Conference at
+Summit Public Schools
+1. Uses an agenda with timings set for the
+meeting
+2. Allows time for personal matters, but
+does not let those impede having time to
+focus on academics
+3. Builds trust by demonstrating active
+listening techniques
+4. Spends time on both reflection (looking
+back) and goal setting (looking forward)
+5. Gives the student feedback on their
+habits and skills
+
+Step 11: Educators
+Document Outcomes from
+Student Conferencing
+Once conferences are over, educators
+document outcomes to aid in their own followup with the student, as well as to have a way
+to communicate the information to other staff.
+Use the communication channels established in
+Step 4 to share this information with other staff
+members and use structures such as grade-level
+meetings, co-planning sessions, or schoolwide
+conversations about students as a time and
+place for sharing information from conferencing
+with other staff members. Educators can also
+help students feel accountable and see that
+other students are working on the same skills by
+having a place in class to display students’ goals
+and progress publicly.
+Goal setting and goal tracking tools for students at
+STRIVE Prep Federal
+
+5.17
+
+S T UDE N T C ON F ER EN C IN G F OR LIFE A N D A C A D E MIC S K ILLS
+
+Multi-Tiered
+Systems of Support
+
+Practice Snapshot
+BUILDING MEANINGFUL STUDENT CONFERENCES AT KIPP PUBLIC
+SCHOOLS NORTHERN CALIFORNIA
+KIPP Navigate College Prep’s special educators built relationships with students while teaching them
+essential skills through biweekly student conferences. The team built their conferencing program gradually
+to ensure that time spent in conferences benefitted students as much as possible. Whether writing SMART
+goals or advocating their needs to teachers, students who participated in student conferencing demonstrated
+that KIPP Navigate created systems and structures that can benefit all students.
+
+The special education team at KIPP Navigate noticed a trend that was negatively impacting
+student performance. Students, particularly students with disabilities, were waiting until the end of
+a semester to take action on missing work that was preventing them from passing courses. The
+end-of-semester rush made it difficult for students failing multiple classes to catch up. Students
+needed to learn the skills to help them stay on track in their classes all semester through regular
+touchpoints with their special educators.
+To address this challenge, the special educators wanted time to meet personally with students to
+discuss their grades and to help students devise action steps to improve those grades. Holding
+biweekly student conferences during advisory seemed like a feasible way for the school’s special
+educators to have the types of interactions with students that they felt could have a real impact on
+their attendance and grades.
+
+5.18
+
+S T UDE N T C ON F ER EN C IN G F OR LIFE A N D A C A D E MIC S K ILLS
+
+Multi-Tiered
+Systems of Support
+
+Yet KIPP Navigate special educators had a logistical barrier: special educators each taught an
+advisory class that was made up of students not necessarily in their caseload. This meant that
+special educators had to find time outside of advisory when they could pull students from class to
+hold conferences with them. Making this time within the weekly schedule also meant that special
+educators would only be able to conference with a subset of students.
+KIPP Navigate identified eight students for biweekly conferencing in their first year of
+implementation.
+With the students identified, the special educators developed a conferencing protocol focused
+on students identifying SMART goals and developing steps to achieve them. Additionally, special
+educators reviewed how to write high-quality SMART goals in order to then support students in
+developing their own.
+The results of student conferencing were positive. All of the participating students increased the
+number of classes they were passing during the school year, and over 75% of them passed all
+their classes. Even the most skeptical students at the beginning of their conferencing experience
+were, by the end, convinced of its benefits to them, as they were able to see their own progress
+and meet their goals.
+
+“I’ve learned [through the check-ins] that I need to be specific because it helps
+me meet my goals. I also learned how to better organize my thought process
+about my grades. The meetings helped me pass my classes because they kept
+me accountable.”
+— KIPP STUDENT
+
+Based on the initial positive reception to student conferencing, in 2023–24, KIPP Navigate built in
+two periods per week for special educators to conference with their students, more than doubling
+the number of students with whom they can meet. Additionally, special educators are continuing
+to calibrate their protocol and train students to complete prework, both of which will help reduce
+the length \of each conference. Special educators hope that spreading student conferencing to all
+of their students with disabilities will help them more quickly achieve their network goals for these
+students.
+
+“I like the check-ins and talking. I do work better after the check-in because I set
+up goals for myself. They’ve helped me with completing school work, and are a
+reminder for me to do my work in order to pass.”
+— KIPP STUDENT
+
+5.19
+
+S T UDE N T C ON F ER EN C IN G F OR LIFE A N D A C A D E MIC S K ILLS
+
+Multi-Tiered
+Systems of Support
+
+STUDENT CONFERENCING FOR LIFE AND ACADEMIC SKILLS
+
+Summary
+Student conferencing is a useful strategy
+for helping students acquire habits and
+skills that aren’t explicitly taught in school.
+Conferencing helps break the cycle of low
+expectations as students learn to monitor
+their grades and set reasonable goals for
+themselves. The time spent conferencing
+with students also helps develop studentteacher relationships that enhance a
+sense of belonging in the school setting.
+Implementation of student conferencing
+requires careful consideration of the
+needs of students, as well as planning of
+schedules and conference protocol. With
+such planning, student conferencing can
+be an effective way of improving student
+outcomes, particularly for Black and Latinx
+students with disabilities experiencing
+poverty.
+
+FURTHE R LE ARNING
+
+Introducing Students
+to Goal Setting
+PANORAMA EDUCATION
+
+What is active
+listening?
+COURSERA
+
+5.20
+
+S T UDE N T C ON F ER EN C IN G F OR LIFE A N D A C A D E MIC S K ILLS
+
+Multi-Tiered
+Systems of Support
+
+STUDENT CONFERENCING FOR
+LIFE AND ACADEMIC SKILLS
+
+Appendix
+
+Appendix
+How to Measure
+When implementing student conferencing, monitoring how useful, usable, and utilized the practice
+is by team members and across the school system can accelerate learning to improve outcomes for
+students. At minimum, these measures are most essential:
+
+PRIMARY MEASURES
+Measure
+Type
+Process
+(utilization)
+
+Process
+(usefulness)
+
+Data
+Collection
+Type
+Survey
+Conference
+notes
+Conference
+notes
+Goal tracker
+
+Question
+Asked
+Are check-ins
+being held?
+Yes / No
+Are students
+meeting their
+conference
+goals?
+Yes / No
+
+Outcome
+
+Gradebooks
+
+Are students
+submitting
+assignments
+at a higher
+rate?
+Yes / No
+
+5.22
+
+Results
+
+What does
+success look like?
+
+Percent of
+students with
+a check-in
+held at desired
+cadence
+
+Increasing percent
+until 100% of
+students receive a
+check-in at desired
+cadence
+
+Percent of
+students who
+met their
+conference
+goals
+
+Increasing percent
+over time until
+100% of conference
+goals met
+
+This measure
+can be displayed
+publicly in the
+classroom so
+students can
+see the whole
+class’s progress
+graphically.
+
+Percent of
+assignments
+missing in each
+class
+
+Decreasing percent
+of assignments
+missing until
+reaching zero
+
+Fraction of
+classes with
+no missing
+assignments
+
+Increasing fraction
+of classes with
+no missing
+assignments
+
+This measure
+can be used to
+prioritize which
+classes to focus
+on with students
+during student
+conferences.
+
+S T UDE N T C ON F ER EN C IN G F OR LIFE A N D A C A D E MIC S K ILLS
+
+Examples and
+Notes
+
+Multi-Tiered
+Systems of Support
+
+Additional measures can guide a team to know whether the routine data protocol is leading to the
+desired improvements for students:
+
+SECONDARY MEASURES
+Measure
+Type
+
+Data
+Collection
+Type
+
+Process
+(usability)
+
+Conference
+notes
+Calendar
+review
+
+Outcome
+
+Gradebooks
+
+Question
+Asked
+
+Results
+
+On average,
+how long
+do student
+conferences
+take?
+
+Are students
+passing
+classes at a
+higher rate?
+Yes / No
+
+5.23
+
+What does
+success look like?
+
+Examples and
+Notes
+
+Average
+duration
+in minutes
+of student
+conferences
+
+There is no one
+correct conference
+duration; the ideal
+conference length
+will be adequate
+to hold meaningful
+conferences for all
+of the participating
+students at the
+desired frequency.
+
+Consider looking
+at the range
+of conference
+durations as well
+to see if some
+students need more
+time and why.
+
+Average
+percent
+of classes
+students are
+passing
+
+Increasing average
+percent of classes
+passed until
+reaching 100%
+
+Outcome
+
+Survey
+
+To what extent
+are students
+feeling an
+increased
+sense of selfefficacy?
+
+Average
+student ratings
+on a selfefficacy survey
+construct
+
+Increasing average
+rating over time
+
+A survey construct
+is composed of
+several questions
+that target the same
+concept. Example
+survey question: “I
+believe I can meet
+the goal that I set
+this week.”
+
+Outcome
+
+Survey
+
+Are students
+feeling a
+greater sense
+of belonging?
+
+Average
+student ratings
+on a 1–5 Likert
+scale
+
+Increasing average
+rating until reaching
+5
+
+This measure could
+be considered a
+process measure
+depending on the
+theory of action
+for conferencing.
+Sense of belonging
+is best measured
+using a survey
+construct rather
+than using one
+survey question.
+
+S T UDE N T C ON F ER EN C IN G F OR LIFE A N D A C A D E MIC S K ILLS
+
+Multi-Tiered
+Systems of Support
+
+Notes
+1
+
+Haberman, “The pedagogy of poverty versus good teaching”
+
+2
+
+Hattie, Visible learning
+
+3
+
+Martin et al, “Growth Goal Setting in High School”
+
+4
+
+Knowles, Self-directed learning
+
+5
+
+Perna and Loughan, “Executive Functioning Skills”
+
+6
+
+The habits and skills listed come from the work of Dr. David Yeager.
+
+7
+
+Strive Prep Federal is now known as Rocky Mountain Prep Federal.
+
+Bibliography
+Haberman, Martin. “The pedagogy of poverty versus good teaching.” Phi Delta Kappan 92, no.2 (2010):
+81–87.
+Hattie, John. Visible learning: A synthesis of over 800 meta-analyses related to achievement. London:
+Routledge, 2009.
+Knowles, Malcolm. Self-directed learning: A guide for learners and teachers. Chicago: Follett Publishing
+Company, 1975.
+Martin, Andrew. J., Emma C. Burns, Rebecca J. Collie, Keiko C.P. Bostwick, Anaïd Flesken, and
+Ian McCarthy. “Growth Goal Setting in High School: A Large-Scale Study of Perceived
+Instructional Support, Personal Background Attributes, and Engagement Outcomes.” Journal of
+Educational Psychology 114, no. 4 (2022): 752–771. https://doi.org/10.1037/edu0000682
+Perna, Robert and Ashlee Loughan. “The Development and Facilitation of Executive Functioning Skills.”
+In Executive Functioning: Role in Early Learning Processes, Impairments in Neurological
+Disorders and Impact of Cognitive Behavior Therapy (CBT), edited by Katherine P. Bennett,
+185–198. New York: Nova Science Publishers, 2014.
+
+5.24
+
+S T UDE N T C ON F ER EN C IN G F OR LIFE A N D A C A D E MIC S K ILLS
+
+Multi-Tiered
+Systems of Support

@@ -1,0 +1,106 @@
+Common Barriers and Pitfalls
+in Routine Data Cycles
+Every team hits barriers when implementing routine data cycles. Those barriers shift as
+implementation deepens, from mindsets and buy-in to skill development and consistency.
+Browse the General Guidance section for broad direction, or use the Common Barriers table
+below to match a specific barrier to a strategy.
+
+General Guidance
+If you are...
+
+Do this...
+
+new to routine data cycles
+
+review the practice chapter and training deck.
+
+already implementing but need
+to build capacity around specific
+components of the practice
+
+review the common barriers and associated
+strategies/resources (found here and in the
+training deck).
+
+ready to spread and scale
+
+focus on enabling conditions systems.
+
+Common Barriers
+MOST COMMON BARRIERS
+
+Limited time to collect or
+analyze student data
+
+PREVENTION AND MITIGATION
+STRATEGIES AND RESOURCES
+Build 10–15 minutes of data review time into existing
+weekly team meetings or PLCs.
+Use streamlined dashboards that auto-populate from
+SIS or require minimal manual entry.
+Design usable teacher-facing data dashboards and
+provide ongoing training to support implementation.
+● Check out How-to Design and Prototype a Data
+Dashboard.
+Designate a data lead to prepare data ahead of
+meetings.
+Pair data review with planning routines—avoid
+separating them into different meetings.
+Provide quick data-check protocols, so teachers focus
+on patterns, not perfection.
+
+Difficulty planning / designing
+effective interventions based
+on data
+
+Use a structured data-to-action protocol. This includes
+steps to analyze trends, name focus areas, set
+SMART goals, and choose interventions (review pgs.
+3.17–3.18, 3.28–3.29 in chapter).
+Embed coaching in the data cycle. Coaches support
+teachers in interpreting the data and designing precise
+instructional responses (review pg. 3.21 in chapter).
+Review student work alongside the data. This helps
+clarify misunderstandings and informs stronger
+intervention choices.
+Create and use an intervention strategy bank.
+Ready-to-use strategies aligned to common needs
+reduce planning time and improve the quality of
+interventions.
+
+Limited time to deliver
+interventions
+(Schedule challenges or
+student absences interrupt the
+delivery of intervention)
+
+Identify flexible delivery opportunities. Examples
+include small-group time, workshop rotations, or
+embedding supports into upcoming lessons.
+Right-size interventions to available time.
+Interventions can be delivered through reteaching
+within core lessons, spiraled review, pre-teaching, or
+focused small groups—not just through pull-outs or a
+separate block.
+Use collaborative planning structures to help design
+interventions that are feasible within the available
+schedule (review pg. 3.21 in chapter).
+Build a culture that prioritizes intervention time.
+Protect intervention delivery in the same way schools
+protect co-planning or collaborative time.
+
+Starting Strong
+All schools hit obstacles when starting new
+practices. Use the Enabling Conditions Guide to
+strengthen the minimum conditions necessary for the
+practice’s successful adoption and improve your
+school’s chance of success.
+
+This tool was developed by Marshall Street in
+partnership with educators across the IGNITE
+Network and reflects adaptations and
+innovations from the field.
+It is part of the growing Research to Impact
+Practice toolkit, a set of tools developed as
+IGNITE Network resources, to advance
+outcomes for historically underserved students.

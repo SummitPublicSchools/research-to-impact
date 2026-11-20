@@ -1,0 +1,402 @@
+IGNITE Research to Impact Practice Training Deck
+What Conditions Enable Routine Data Cycles?
+A Practitioner’s Overview
+
+<Session> | <Date>
+
+📌 FACILITATOR / SITE ADAPTATION NOTE
+Template Training Deck – Adapt for Your Site
+This deck is designed as a foundational template for sites to copy, customize, and make their own based on local needs and goals.
+Grounded in our experience training educators across the IGNITE Network, this deck reflects high-impact practices for explaining the conditions that lead to effective and sustained routine data cycles.
+
+This training deck accompanies the IGNITE Network's Research to Impact Practices
+These resources were developed and tested in partnership with educators implementing the IGNITE Research to Impact practices in school settings across the United States.
+©2026 Marshall CoLab. Shared with permission from partner schools.
+Free to copy and distribute with attribution, in unadapted form, for noncommercial use. (CC BY-NC-ND 4.0)
+
+The IGNITE Network is a coalition of schools committed to making dramatic gains in the experiences, environments and outcomes of our most vulnerable students – Black and Latino students with disabilities experiencing poverty – whose success strengthens outcomes for every student. Our Research-to-Impact Practices were originally developed by educators across the United States through the Networked Improvement Community for Students with Disabilities (2019–2023) and continue to be refined and scaled by IGNITE schools today.
+
+The IGNITE Network
+35 Schools | 3 Communities | 13,000+ Students
+IGNITE Nashville
+IGNITE Newark
+
+IGNITE Founders
+
+Objectives
+At the end of the workshop, participants will be able to...
+
+describe a high-quality routine data cycle
+name the key steps school leaders need to take to launch the practice
+explain the conditions needed for successful implementation of the practice
+
+1
+2
+3
+
+Launching the Practice for High-Quality Implementation
+
+What Makes a Data Cycle High-Quality?
+Uses student-level, actionable data aligned to a school-wide learning goal
+Follows a consistent routine (weekly/biweekly) embedded in staff planning time
+Relies on a teacher-facing dashboard—easy to use, disaggregated by subgroup, and refreshed regularly
+Involves clear roles and protocols for how teams analyze data and plan interventions
+Prioritizes proactive intervention over reactive reteaching
+Tracks and celebrates student progress, especially for students with disabilities
+Emphasize that high-quality cycles feel doable and meaningful to teachers—"not another thing," but the way they plan better instruction
+
+Prepare needed structures
+Train teams
+Implement routine data cycles
+Provide ongoing support
+
+School Leader Steps to Implement - Overview
+1
+2
+3
+4
+This section provides step-by-step guidance for implementing routine data cycles to guide student supports, along with accompanying resources to get started. The steps are organized into four phases for implementation:
+Prepare Needed Structures
+Train Teams
+Implement Routine Data Cycles
+Provide Ongoing Support
+
+Routine Data Cycle Process Map - Overview
+Train teams
+Determine school-level goals for student success
+Set up data dashboard
+Design protocols for routine data cycles
+Enable and nurture teacher investment and a culture of data
+Design and integrate staff data routines and norms
+Implement routine data cycles
+
+Analyze data to identify student needs
+Plan and design interventions
+Implement interventions
+Provide ongoing support
+Prepare needed structures
+Design routines and norms for using data
+Embed teacher support
+Revise goals, data dashboard, protocols, and norms
+1
+2
+3
+4
+
+Determine school-level goal for student success
+Set up data dashboard
+Design protocols
+Design routines and norms for using data
+Data entry and use of tool
+Implementation and protocol use
+Prepare Needed Structures
+
+1
+If an existing SIS does not provide educators with access to disaggregated data aligned to a school’s goals, school leadership will need to develop a data dashboard.
+
+Check out How-to - Design and Prototype a Data Dashboard
+Determine school-level goal for student success
+Data-driven instruction systems can fail to be adopted by teams when the systems are not deeply aligned to a school’s mission and current student needs. Base goals on existing data and past trends so that the goals are realistic and, more importantly, based on specific needs for priority subgroups. Use historical data to create a baseline for the goals prior to beginning interventions in order to measure the effectiveness of the practice. Goals need to be measured regularly and with fidelity over time.
+
+Set up data dashboard
+Using school-wide goals, determine which classroom-level data points best measure the goals to be used in the dashboard. These measures need to be relatively easy for teachers to collect with fidelity and consistency. Examples of data include: engagement measures, formative assessments, summative assessments.
+Once the dashboard is established, test it for usability by teachers. Will teachers be able to easily disaggregate data at many different population levels, including class periods and subgroups? Can they easily refresh data or upload new data? These factors will help set the dashboard up for successful use.
+
+Design protocols
+A protocol provides directions for each step in a process, as well as the order in which steps should be completed, so that different users of the protocol are all doing the same thing to complete the activity. When using data for instructional support, it is important to use a protocol to help guide educators through the data review, data analysis, and instructional planning process in a systematic way that is standardized across teams.
+Design the protocol to encourage teachers not only to look at their overall student trends, but also
+to focus on individual students or small groups of students (e.g., students with disabilities), paying particular attention to students who have not met learning expectations across several periods of time.
+The protocol should then lead teachers to devise interventions to support students based on needs identified in the data.
+
+Design routines and norms for using data
+Data entry and use of tool - it's important to systematize data collection and calibrate the quality of data collected in order to establish expectations and create accountability for aligned, ongoing use of data for this purpose.
+Implementation and protocol use - School leadership should also attend to the norms for how teams will use the protocol for analyzing data and designing interventions.
+
+Design and integrate staff data routines and norms
+Socialize the purpose of routine data cycles
+Train teachers on the school’s goals, data collection and quality norms, use of the data dashboard tools, and use of the protocols to analyze data and design interventions
+Training should ensure teachers know how to complete technical steps: downloading data into dashboard, using dashboard’s functions effectively, and following the protocol for viewing, analyzing, and acting upon data
+Train Teams
+2
+
+Implement Routine Data Cycles
+3
+Once staff are trained, launch the protocol to implement data cycles on a routine cadence — ideally every two weeks, if not weekly. Each iteration of the cycle consists of three key steps: (1) analyze data, (2) design interventions, and (3) implement interventions.
+
+Analyze Data to Identify Student Needs
+Educators, individually and then as a team, look for trends in student data and identify topics or standards that groups of students struggled to master
+
+Key Steps:
+Review student data to identify who is struggling, what they’re struggling with, and why
+Look for patterns by student group, assignment, or time period
+
+Explore the Example Meeting Protocol and Data Analysis Template from Green Dot
+The purpose of analysis is to identify groups of students with common needs, or individual students with specific needs, that can be addressed through interventions in future classes. In this step, teachers look for commonalities among students, assignments, and event dates to better understand why some students mastered content and others did not.
+
+Plan and Design Instruction or Interventions
+Based on the needs identified during data analysis, teachers determine how to re-teach content or skills that students missed in prior assignments
+
+Key Steps:
+Plan specific interventions aligned to focus area of the root cause
+Interventions can take many forms, but in every case should be designed based on what was learned through the data analysis
+Set short-term SMART goals for specific students as needed
+Once teachers have students grouped by needs based on their analysis of the data, they plan interventions aligned to the different focus areas. Planning by focus area ensures that students learn missing skills, correct misconceptions from prior lessons, or master content to help them better access the next lesson. Interventions can take many forms, but in every case should be designed based on what was learned through the data analysis.
+
+Deliver Interventions
+Educators use student groupings identified by the data and implement the interventions they determined would best support those students
+
+Key Steps:
+Implement the planned interventions (most important part of the routine data cycle)
+Leverage collaborative planning to support in the design and implementation of interventions
+Partner with coaches to strengthen practice and identify new resources for improved planning and implementation
+The most important part of the routine data cycle is implementation of the planned interventions for students. Structures like collaborative planning can help teachers design and implement interventions with teaching teams. Teachers can also work with coaches to find new resources and improve intervention planning and implementation across data cycles.
+
+The following actions and considerations may be helpful for the successful implementation of instructional interventions:
+• Teachers develop classroom norms and routines to make implementing interventions possible.
+• Teachers plan a new lesson format or activity to re-teach content to reach a group of students.
+• Coaches conduct observations to provide feedback to teachers to support their growth and development implementing data-driven interventions.
+• Teachers complete peer observations to access models and examples of interventions in practice.
+• Coaches work with teachers to determine areas of growth in implementing interventions.
+• Coaches schedule short periods of time with teachers when interventions will happen so that coaches can maximize how many teachers they observe in a day.
+
+Once the interventions are implemented, a data cycle is complete. Teachers will begin the next iteration of the cycle by analyzing data to determine the effectiveness of their prior data-based decisions and subsequent implementation of interventions.
+
+4
+Embed teacher support into regular teacher planning, collaboration, support, and PD structures
+differentiate coaching and PD sessions
+returning teachers can learn new intervention strategies
+new teachers learn the mechanics of using the tool
+
+Revisit (and revise as needed) goals, data dashboard, protocols, and norms
+Regularly revise the data system to improve effectiveness
+As student learning outcomes improve, changes to school-wide goals may also be necessary
+
+Provide Ongoing Support
+
+Creating the Conditions that Enable Successful Routine Data Cycles
+
+What are Enabling Conditions?
+For routine data cycles, this includes:
+Mindsets
+Infrastructure (e.g., student information system, scheduling, protocols)
+Assessment materials and data dashboards
+Staff commitment and time
+Ongoing support
+Enabling conditions are the minimum conditions needed for successful implementation of a practice
+Enabling Conditions describes the minimum conditions needed for successful implementation, including resources, mindsets, staffing, and time allocations.
+
+19
+Enabling Conditions: Mindsets
+All staff believe that students with disabilities can achieve at grade level when supported with timely, responsive instruction and intervention.
+Educators believe they must meet students where they are—even if that means re-teaching concepts, changing lesson structures, or differentiating expectations and supports.
+School culture embraces data as a tool for proactive support rather than evaluation.
+Teachers and leaders see themselves as collectively responsible for closing gaps, especially for students furthest from opportunity.
+
+20
+Enabling Conditions: Infrastructure
+Educators must have access to a student information system (SIS) or custom dashboard that:
+Provides access to student-level data aligned to school goals
+Enables disaggregation by subgroup (e.g., SWD, multilingual learners)
+Supports real-time analysis and refreshes predictably (e.g., weekly grade updates)
+
+If an existing SIS does not provide educators with access to disaggregated data, leadership will need to develop a dashboard.
+
+See RDC Teacher Facing Data Dashboard Prototype and How-To: Design and Prototype a Data Dashboard
+A student information system provides all staff access to data related to student success, such as student grades, mastery of standards, attendance, or assessment scores. Data can be disaggregated by student subgroups (e.g., multilingual learners, students in intervention, students with disabilities, students of color).
+
+21
+Enabling Conditions: Recommended Materials
+Educators also benefit from the following guidance:
+Assessment and progress monitoring measures of student performance
+Examples: exit tickets, formative and summative assessments, work completion rates
+Intervention strategies and associated instructional resources
+Routine data protocol for analysis and planning
+
+22
+Enabling Conditions: Protected Time
+Various team members must be give time to complete their key tasks
+Educators need regular time to analyze data and plan interventions
+Recommended: 1 hour weekly or biweekly
+A Data Lead needs capacity to create, iterate upon, and maintain the data tool
+Recommended: 40 hours for initial creation and iteration, followed by 3 hours monthly for maintenance
+School leaders and educators need time for professional development on the use of the dashboard and how to design appropriate interventions for students in response to data
+Recommended for school leaders: 10–20 hours for development of training materials
+Recommended 1–2 hours prior to the school year for initial training, followed by 1 hour biweekly PD time for educators
+
+A Field Example: STEM Prep
+
+Studying RDC in Practice: STEM Prep
+STEM Prep’s model of routine data cycles uses a Gradebook Distribution Tool and Gradebook Distribution Protocol. The site has a school-wide strategy and goal for impact, and all staff use the protocol across the campus.
+
+The practice has several key activities that sustain its impact:
+All-staff training on the data tool and protocol in Summer PD
+Guided use of the protocol in staff meeting sessions
+Embedded use of the practice in collaboration structures
+Coaching and feedback in biweekly instructional coaching sessions
+
+1. Staff Training
+All-staff professional development sessions review the WHAT, WHY, WHEN and HOW of the tool and protocol.
+
+The school principal and leadership team led the session, with support from the data team.
+
+Principal Danny Moreno (left) of STEM Prep CPA reviews site-wide goals for student growth with staff
+School-wide Goal: improve % of students passing math and science with an 80% or higher and achieve 0 No Pass (NP) rates each quarter.
+Site goals are embedded in RDC guidance resources for staff.
+
+2. Guided Practice: Building Skill and Capacity
+Staff complete the first few data cycles in PD sessions while seated with their grade level teams.
+In advance of the staff meeting:
+Teachers collect and score exit tickets. Data is entered into the gradebook.
+Teachers export gradebook data into the teacher dashboard (following summer PD training steps).
+At the meeting:
+Teachers work through the protocol individually while seated with their GLT.
+Coaches and lead teachers provide support as needed so all teachers complete the cycle by the end of the session.
+← Teacher screen: The data protocol is being completed on their own using the template.
+Teachers review their data dashboard while seated with their grade level team. →
+
+3. Embedding RDC in Grade Level Collaboration
+Collect Data
+Implement Instruction or Interventions
+Set Goals
+Analyze Data
+Identify Focus Areas
+Design Instruction or Interventions
+Tool used by Stem Prep for individually and collectively analyzing data to identify focus areas and set goals.
+
+4. Coaching and Feedback
+STEM Prep coaches (e.g. APs, Directors of Academics) integrated the completed protocol into their coaching cycles with teachers to review, give feedback and set goals with teachers.
+Improving Implementation
+Teachers shared goals with coaches/administrators to align PD and coaching
+Feedback reinforced teacher progress and guided action planning
+Coaches used guiding questions (e.g., “How can I help you action-plan?”) to sustain routines
+Repetition normalized the practice, making it routine
+
+Building Technical Skills
+Coaches troubleshoot technical issues with data tools and support teachers in analyzing student data
+Guide identification of students needing additional support
+Build capacity to design interventions that drive mastery
+
+Shifting mindsets and Ownership
+From “My students need to...” to “I will... because students need X”
+
+Close
+
+30
+Tools and Resources
+Resource Link
+Brief Description
+Implementing Routine Data Cycles to Rapidly Address Student Needs (Chapter)
+This chapter details the specific practice of implementing routine data cycles. It is the anchor resource for this practice. The resource provides information on what the practice is, it’s evidence base and importance, the steps to implementing it, enabling conditions for optimal success, and a variety of embedded case studies and supplementary resources/tools.
+Navigating Data for Multi-Tiered Systems of Support: Equity-based practices for using data at the district, school, and classroom levels to accelerate student supports (Full Change Package)
+A set of best practices for leveraging data to respond to student academic and social-emotional needs with a particular focus on Black and Latinx students with disabilities experiencing poverty.
+Implementing Routine Data Cycles to Rapidly Address Student Needs
+(Practice Factsheet)
+A brief overview factsheet on the practice.
+Routine Data Cycle Protocol and Sample Data Cycle Protocol with Guiding Questions (Practice Tools)
+These are the anchor tools for the practice.
+How-To: Design and Prototype a Data Dashboard
+When existing data tools do not meet current needs and a school or network chooses to design a custom data tool, it is important to invest the necessary time and effort to ensure the tool is useful, usable, and utilized. This resource guides school and network leaders in developing a data dashboard by outlining steps to take when planning for this process.
+
+Download the Practices
+http://tinyurl.com/ResearchToImpact
+
+Thank You.
+<Survey>
+
+Name
+Role
+Email
+
+Appendix A. Improving Enabling Conditions
+
+Driving High-Impact Implementation
+When the right mindset, tools, time, and support are in place, routine data cycles become a powerful driver of equitable, high-quality instruction—not just another meeting or task
+
+This section will explore:
+How to build shared belief that data is for student support—not compliance—and that all students can succeed with the right instruction
+How to create a teacher-facing dashboard with the right data, designed to support timely instructional decisions
+How meeting time is essential to making data analysis and planning routine, not reactive
+How coaching and PD help teachers move from looking at data to designing effective, targeted interventions
+Effective implementation doesn’t just happen—it’s the result of intentionally designing the right conditions for teachers to succeed.
+
+Routine Data Cycles only succeed when teachers believe that data is a tool for helping students—not judging them. A shared belief that all students can succeed is foundational.
+
+Key Strategies:
+Connect data use to a clear student success goal
+Reinforce that data helps change outcomes—not monitor failure
+Model vulnerability—leaders participate in the process
+Celebrate small wins to build buy-in and momentum
+Use simple metaphors: “The dashboard is the thermostat, not just a thermometer”
+
+Review pgs. 3.4 and 3.10 in the practice chapter
+Building a Culture Where Data Drives Support
+
+Leadership actions are about setting vision, ensuring accountability, coaching, and iterating. Structures are the concrete systems, tools, schedules, and routines that make the practice sustainable.
+
+Building a Culture Where Data Drives Support
+Leadership Actions:
+Set clear goals: Establish school-level goals aligned to mission and student needs.
+Communicate purpose and build buy-in: Explain why data cycles matter and connect them to broader school goals.
+Model norms and expectations: Reinforce consistent data entry, use of protocols, and timely analysis.
+Provide coaching and feedback: Embed regular coaching sessions, grade-level meetings, and co-planning to support teachers.
+Use continuous improvement mindset: Collect teacher feedback, adjust tools/protocols, and revise goals as needed.
+Celebrate progress and hold accountability: Recognize improvements in student outcomes and ensure fidelity of implementation.
+Allocate resources and time: Protect PD time, schedule team meetings, and set aside time for teachers to analyze data.
+Structures that Sustain:
+Data dashboard: A usable, disaggregated, regularly updated dashboard aligned to school goals.
+Protocols: Step-by-step guides for reviewing, analyzing, and acting on data to ensure consistency.
+Routines and norms: Expectations for data entry (e.g., weekly grade updates), meeting frequency, and collaborative use of dashboards.
+Professional development calendar: Scheduled training sessions to teach use of dashboards, protocols, and intervention planning.
+Team structures: Grade-level or content teams, data leads, and designated facilitators for cycles.
+Coaching structures: Biweekly coaching cycles, co-planning time, peer observations.
+Revision processes: Built-in reviews of goals, dashboard functionality, and protocols on a quarterly/annual basis.
+
+If the dashboard is hard to use, misaligned, or designed for leadership—not teachers—data routines fall apart. Teachers can’t act on what they can’t easily see.
+
+Key Strategies:
+Build teacher-facing dashboard focused on instructional decisions
+Use real-time, student-level data disaggregated by student groups
+Start simple—track key metrics (e.g., assignment completion, assessment mastery)
+Refresh data regularly based on grading schedules
+Provide hands-on training on both dashboard use and data interpretation
+
+Review pg. 3.12 in the practice chapter
+Designing Tools Teachers Actually Use
+
+Without protected time, data analysis and intervention planning won’t happen consistently. Time is the difference between reflective action and surface-level compliance.
+
+Key Strategies:
+Embed 45–60 minutes weekly or biweekly into team meetings or PD sessions
+Make time sacred: no interruptions or deprioritization from other meetings or duties
+Connect data time to existing planning or intervention routines
+Use creative scheduling models built around student needs
+Include time for both data analysis and designing next steps
+
+Making Time for What Matters
+
+The most common breakdown isn’t in reading data—it’s in translating it into precise, effective instructional moves. Coaching and PD are what turn data into action.
+
+Key Moves for Coaches:
+Coach for analysis and instructional action
+Facilitate use of the data protocol and guide teams through structured routines
+Build an intervention bank to help teachers choose effective strategies
+Differentiate your coaching:
+New teachers: Focus on dashboard fluency, reading patterns, and following the protocol
+Experienced teachers: Push for deeper root-cause analysis and sharper, more targeted intervention design
+Support data fluency over time. Use recurring coaching cycles to deepen teachers’ comfort with both the dashboard and the analysis-to-action process
+Coaching Data into Action
+Coach for analysis and action. Support teachers not just in identifying patterns, but in determining what instructional moves will address them.
+
+Facilitate use of the data protocol. Guide teams through structured routines that move from trend identification to SMART goals and intervention plans.
+
+Model and scaffold intervention design. Offer example moves for common gaps (e.g., reteaching key concepts, using scaffolds, small groups).
+
+Build and reference an intervention bank. Help teachers choose from ready-to-use strategies aligned to student needs.
+
+Differentiate your coaching.
+
+New teachers: Focus on dashboard fluency, reading patterns, and following the protocol.
+
+Experienced teachers: Push for deeper root-cause analysis and sharper, more targeted intervention design.
+
+Support data fluency over time. Use recurring coaching cycles to deepen teachers’ comfort with both the dashboard and the analysis-to-action process.

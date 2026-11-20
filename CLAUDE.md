@@ -18,6 +18,11 @@ SEO into `template.html` → writes `dist/index.html` → **Netlify auto-deploys
   modal, and inline video players.
 - **`fixtures/`** — sample CSVs mirroring the sheet. `SHEET_SOURCE=local node build.js` builds
   from them with no network. CI builds strict from fixtures.
+- **`content/`** — plain text extracted from every file a published resource links to
+  (`<drive-id>.txt`, pages split by a form feed, plus `manifest.json`). Written by
+  `tools/index-files.mjs`, never by hand; `build.js` cuts it into passages and writes
+  `dist/search-docs.json`, which the page fetches when search opens. `fixtures/content/`
+  is invented sample text for CI.
 - **`docs/`** — `editor-guide.md`, `sheet-guardrails.md`, `file-hosting.md`, `dashboard.md`,
   `sheet-sync.md`, `sheet-bridge.md`, `sheet-diff.md`, `design-plan.md`, `build-day.md`,
   `search.md`,
@@ -27,7 +32,8 @@ SEO into `template.html` → writes `dist/index.html` → **Netlify auto-deploys
   via an **"R2I" menu** in the sheet whose top item, **Update everything**, runs both; plus
   `Bridge.gs`, the write bridge (below), which has no menu item.
 - **`tools/`** — `sheet.js` (bridge client), `publish.sh` (triggers the rebuild workflow),
-  `preview.js`, `punchlist.js`, `accesscheck.sh`, `search-eval.mjs` (+ `search-queries.json`,
+  `preview.js`, `punchlist.js`, `accesscheck.sh`, `index-files.mjs` (document text for
+  search; needs `pdftotext`), `search-eval.mjs` (+ `search-queries.json`,
   the labelled query set).
 
 ## Build / test locally
@@ -138,6 +144,12 @@ contains one.
   it was added. Keep `who_for` filled on new resources: it carries the role words
   ("instructional coach", "paraeducator", "counselor") that appear nowhere else in the
   sheet. See `docs/search.md`.
+- **Search also reads inside the linked files.** Extraction is deliberately *not* in the
+  build: `tools/index-files.mjs` (weekly in `rebuild.yml`, or by hand) commits text to
+  `content/`, and the build only does string work. **The sheet decides which resources
+  come back; document passages only re-rank them or add a miss on stronger evidence** —
+  letting passages vote on coverage buried correct results. A new file is searchable
+  inside only after the tool has run. Sign-in-only files can never be indexed.
 - **Gated email ask**: `gated=TRUE` shows a skippable HubSpot email prompt (a harmless
   placeholder until `hubspot_portal_id` / `hubspot_form_id` are set on the Site tab).
 - **Lists tab + guardrails**: the `Lists` tab centralizes every dropdown's values; `Guardrails.gs`

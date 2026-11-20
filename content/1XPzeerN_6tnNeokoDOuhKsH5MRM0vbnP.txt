@@ -1,0 +1,175 @@
+Implementing Repeated Reading Across
+Multiple Tiers of Support
+A Decision-Making Checklist for Practitioners and Coaches
+This tool supports educators in using student data to make informed decisions about how to
+implement repeated reading effectively across multiple tiers of support. Grounded in
+Multi-Tiered System of Supports (MTSS) and Universal Design for Learning (UDL) principles,
+this checklist ensures that repeated reading is tailored to meet students’ diverse fluency needs
+while remaining scalable. This approach aligns with the updates recommended in the Repeated
+Reading chapter.
+
+Decision-Making Checklist
+ELEMENT
+
+KEY ACTION STEPS
+
+A. Data Review &
+Entry Criteria
+
+Gather fluency data (e.g., CWPM, accuracy, expression)
+Identify students below benchmark fluency thresholds
+Cross-reference with decoding and comprehension data
+
+B. Determine
+Group Size
+
+Whole Class: All students with scaffolded support (Tier 1)
+Small Group: 2–6 students with similar needs (Tier 2)
+Individual: Students with the most intensive needs (Tier 3)
+
+C. Determine
+Frequency
+
+2 times/week for general fluency development
+2–3 times/week for targeted support
+4–5 times/week for intensive support
+
+D. Determine
+Intensity
+
+Light-touch: Teacher read-aloud followed by choral or echo reading
+Moderate: Peer readings, partner support, visual tracking
+High: Timed rereads, direct modeling, immediate feedback
+
+E. Exit Criteria
+
+3 consecutive progress points at/above the benchmark
+Demonstrated fluency on new/unpracticed texts
+Student uses self-monitoring tools or fluency graphs
+
+Why These Elements Matter
+Data Review &
+Entry Criteria
+
+Repeated reading is most effective when it targets students who have
+already acquired basic decoding but struggle with automaticity and
+expression. Entry decisions should be based on triangulated data (e.g.,
+DIBELS, WCPM, IEP fluency goals), ensuring the right match between
+student need and intervention strategy.
+
+Group Size
+
+Smaller groups allow for more targeted, corrective feedback and
+scaffolded modeling. However, whole-class implementation is key for
+inclusive Tier 1 fluency development and reduces the stigma often
+attached to "intervention groups."
+
+Frequency
+
+Research shows fluency gains correlate directly with the number of
+repeated exposures to text per week. More frequent sessions benefit
+students with greater need, but even low-frequency routines build
+consistency and classroom reading culture.
+
+Intensity
+
+Intensity is shaped by the complexity of the support—timing, scaffolding,
+error correction, and teacher involvement. Intensity doesn't mean
+harder—it means more precise and more tailored.
+
+Exit Criteria
+
+Clear, pre-determined exit points avoid "intervention drift" and ensure that
+support is removed once a student shows sustainable growth. Exit criteria
+also affirm student progress and promote self-efficacy.
+
+Coaching Moves
+FOCUS AREA
+
+COACHING PRACTICE
+
+LOOK-FORS
+
+Data Use
+
+Review fluency growth data with
+educators in coaching or team
+meetings
+
+Educators have progress
+monitoring tools or data trackers in
+place to adjust frequency or
+approach throughout the
+intervention
+
+Implementation
+Fidelity
+
+Conduct short fluency walkthroughs
+using a simple checklist
+
+Students rereading texts, timing
+tools in use, active feedback
+
+Reflection and
+Calibration
+
+Use audio or video clips of repeated
+reading for coaching debriefs
+
+Track educator and student
+Building
+questions and talk time. Look for
+Student Agency who is asking and answering
+questions and reflecting on reading.
+
+Evidence of modeling, student error
+correction, scaffolded praise
+
+Students are asked to reflect on
+their reading and encouraged to
+ask questions or give feedback to
+peers and/or educators.
+
+Paraeducator
+Support
+
+Offer modeling sessions and pair
+paraeducators with teachers for
+co-reflection
+
+Paraeducators referencing student
+data and using consistent routines
+
+Tier 1
+Integration
+
+Support teachers to embed fluency
+into core instruction
+
+Repeated reading appearing in
+whole-class warm-ups or transitions
+
+Student
+Selection
+
+Facilitate 1:1 data reviews with
+teachers to identify entry/exit
+candidates
+
+Teams using 2+ data sources to
+justify placement
+
+Capacity Building Opportunities:
+● Collaborative planning on how to adapt fluency materials for whole-class or multilingual
+learners
+● Peer learning labs or coaching cycles focused on oral fluency strategies
+● Student work analysis focused on fluency data tracking and self-monitoring
+By equipping educators with both the checklist and the reasoning behind it, this tool supports
+not only technical decision-making but also builds professional judgment and instructional
+coherence across settings. Coaching routines ensure that implementation is not only consistent
+but continually improving. Full guidance can be found in the Repeated Reading chapter.
+
+This tool was developed by Marshall CoLab and reflects adaptations and innovations from the field. It is
+part of the growing Research to Impact Practice toolkit, a set of tools developed as IGNITE Network
+resources, to advance outcomes for historically underserved students.

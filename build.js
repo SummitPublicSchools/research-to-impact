@@ -201,6 +201,117 @@ async function resolveVimeoLinks(holders) {
   }
 }
 
+// ---------------------------------------------------------------- document index
+// Search looks INSIDE the linked files, not just at the sheet's description of
+// them. The text itself is extracted ahead of time by tools/index-files.mjs and
+// committed under content/ (one <drive-id>.txt per file, pages separated by a
+// form feed) — so this step is pure string work: no network, no PDF tooling, no
+// dependencies. It cuts that text into passages and writes them to a separate
+// file the page fetches only when someone opens search, so the page itself does
+// not grow. See docs/search.md.
+const CONTENT_DIR = process.env.CONTENT_DIR ||
+  (SOURCE === 'local' ? path.join(FIXTURE_DIR, 'content') : 'content');
+const PASSAGE_WORDS = 110;      // target passage length
+const PASSAGE_MAX   = 170;      // a paragraph longer than this is cut into windows
+const DUP_SHINGLE   = 6;        // words per shingle when spotting repeated pages
+const DUP_FRACTION  = 0.6;      // share of a page already seen elsewhere => repeat
+
+function linkedFileId(url) {
+  const m = String(url || '').match(/(?:docs\.google\.com\/(?:document|presentation)|drive\.google\.com\/file)\/d\/([\w-]+)/);
+  return m ? m[1] : '';
+}
+const docToks = s => String(s).toLowerCase().replace(/[^a-z0-9\s]+/g, ' ').split(/\s+/).filter(Boolean);
+
+function buildDocIndex(resources) {
+  const empty = { index: { v: 1, docs: [], passages: [] }, files: 0, words: 0, kept: 0 };
+  if (!fs.existsSync(CONTENT_DIR)) return empty;
+
+  // 1. One "doc" per distinct text, however many resources link to it. Two
+  //    resources can share a Drive file, and two Drive files can be the same
+  //    document uploaded twice (each Collection's "full collection" PDF is).
+  const byText = new Map();
+  let files = 0;
+  const seenFile = new Map();
+  for (const r of resources) {
+    if (!r.published) continue;
+    const fid = linkedFileId(r.link); if (!fid) continue;
+    if (!seenFile.has(fid)) {
+      const f = path.join(CONTENT_DIR, fid + '.txt');
+      seenFile.set(fid, fs.existsSync(f) ? fs.readFileSync(f, 'utf8') : null);
+      if (seenFile.get(fid) != null) files++;
+    }
+    const text = seenFile.get(fid); if (text == null) continue;
+    const key = docToks(text).join(' ');
+    if (!key) continue;
+    if (!byText.has(key)) byText.set(key, { ids: [], text, n: key.split(' ').length });
+    const d = byText.get(key); if (!d.ids.includes(r.id)) d.ids.push(r.id);
+  }
+
+  // 2. Smallest first, so that when a compilation repeats a stand-alone
+  //    document, the stand-alone one keeps the passage. Otherwise a 179-page
+  //    "full collection" would match every query its parts match and crowd the
+  //    specific resource out of its own result.
+  const docs = [...byText.values()].sort((a, b) => a.n - b.n || a.ids[0].localeCompare(b.ids[0]));
+  const seen = new Set();
+  const out = { v: 1, docs: [], passages: [] };
+  let words = 0, kept = 0;
+
+  for (const d of docs) {
+    words += d.n;
+    let pages = d.text.split('\f').map(p => p.trim());
+    const paged = pages.length > 1;
+
+    // Running heads and footers repeat on every page; they would otherwise be
+    // the most "frequent" text in the document and pad every snippet.
+    if (pages.length >= 4) {
+      const count = new Map();
+      for (const p of pages) {
+        for (const l of new Set(p.split('\n').map(x => x.replace(/\d+/g, '#').trim()).filter(x => x && x.length < 120))) {
+          count.set(l, (count.get(l) || 0) + 1);
+        }
+      }
+      const furniture = new Set([...count].filter(([, c]) => c >= pages.length * 0.5).map(([l]) => l));
+      if (furniture.size) pages = pages.map(p => p.split('\n').filter(l => !furniture.has(l.replace(/\d+/g, '#').trim())).join('\n'));
+    }
+
+    const mine = [];
+    const di = out.docs.length;
+    pages.forEach((page, pi) => {
+      const tk = docToks(page);
+      if (tk.length < 8) return;
+      const sh = [];
+      for (let i = 0; i + DUP_SHINGLE <= tk.length; i++) sh.push(tk.slice(i, i + DUP_SHINGLE).join(' '));
+      mine.push(...sh);
+      if (sh.length && sh.filter(x => seen.has(x)).length / sh.length >= DUP_FRACTION) return;
+
+      // Cut the page into passages on paragraph boundaries.
+      const paras = page.split(/\n\s*\n/).map(x => x.replace(/\s+/g, ' ').trim()).filter(Boolean);
+      const chunks = []; let cur = [], n = 0;
+      const flush = () => { if (cur.length) { chunks.push(cur.join(' ')); cur = []; n = 0; } };
+      for (const para of paras) {
+        const w = para.split(' ');
+        if (w.length > PASSAGE_MAX) {
+          flush();
+          for (let i = 0; i < w.length; i += PASSAGE_WORDS) chunks.push(w.slice(i, i + PASSAGE_WORDS).join(' '));
+          continue;
+        }
+        if (n && n + w.length > PASSAGE_MAX) flush();
+        cur.push(para); n += w.length;
+        if (n >= PASSAGE_WORDS) flush();
+      }
+      flush();
+      for (const c of chunks) {
+        if (c.split(' ').length < 6) continue;
+        out.passages.push([di, paged ? pi + 1 : 0, c]); kept += c.split(' ').length;
+      }
+    });
+    for (const x of mine) seen.add(x);
+    // A doc whose every page was a repeat still gets its slot, so indexes stay aligned.
+    out.docs.push(d.ids);
+  }
+  return { index: out, files, words, kept };
+}
+
 // Poster frames for the intro players. An embedded Vimeo iframe paints a black
 // box with a spinner until the player has loaded, which on a toolkit page is
 // the first thing under the intro. The page instead shows the video's own still
@@ -644,7 +755,36 @@ async function main() {
     return !!r;
   });
 
-  const DATA = { site, sections, nav, resources, r2iHome, proof, startHere, storiesSection: storiesSec ? storiesSec.name : null };
+  // ----- document index (text inside the linked files) -----
+  const docIdx = buildDocIndex(resources);
+  const docJson = JSON.stringify(docIdx.index);
+  // The hash in the URL lets the file be cached hard and still change the moment
+  // its contents do. `null` tells the page there is nothing to fetch.
+  const searchDocs = docIdx.index.passages.length
+    ? { url: 'search-docs.json?v=' + require('crypto').createHash('sha1').update(docJson).digest('hex').slice(0, 10),
+        passages: docIdx.index.passages.length }
+    : null;
+  if (searchDocs) {
+    info.push(`Document index: ${docIdx.files} files, ${docIdx.words.toLocaleString('en-US')} words read; ` +
+      `${docIdx.kept.toLocaleString('en-US')} kept after removing repeats, in ${searchDocs.passages} passages ` +
+      `(${Math.round(Buffer.byteLength(docJson) / 1024)} KB before compression).`);
+  } else {
+    info.push(`Document index: empty (no extracted text in ${CONTENT_DIR}/ — run tools/index-files.mjs).`);
+  }
+  {
+    // A published resource whose file has no cached text is searchable by its
+    // sheet row only. Say so once, as a count — the index tool names them.
+    const missing = resources.filter(r => r.published && linkedFileId(r.link) &&
+      !fs.existsSync(path.join(CONTENT_DIR, linkedFileId(r.link) + '.txt')));
+    // (Not on a fixtures build: the fixtures carry sample text for a few files only.)
+    if (searchDocs && missing.length && SOURCE !== 'local') {
+      info.push(`Document index: ${missing.length} published resource(s) link to a file with no extracted text ` +
+        `(${missing.slice(0, 6).map(r => r.id).join(', ')}${missing.length > 6 ? ', …' : ''}). ` +
+        `Run tools/index-files.mjs; a sign-in-only file can never be indexed.`);
+    }
+  }
+
+  const DATA = { site, sections, nav, resources, r2iHome, proof, startHere, storiesSection: storiesSec ? storiesSec.name : null, searchDocs };
 
   // ----- SEO / social metadata (build-time so crawlers and link unfurlers,
   // which don't run our JS, see real title/description/image) -----
@@ -680,6 +820,7 @@ async function main() {
   for (const [k, v] of Object.entries(seo)) html = html.split(k).join(v);
   fs.mkdirSync(OUT_DIR, { recursive: true });
   fs.writeFileSync(path.join(OUT_DIR, 'index.html'), html);
+  fs.writeFileSync(path.join(OUT_DIR, 'search-docs.json'), docJson);
 
   // Copy committed static assets (images, etc.) into the publish dir, so links
   // like assets/foo.jpg resolve. Netlify publishes dist/, so assets must land

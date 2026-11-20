@@ -647,6 +647,7 @@ nav.main .nav-div{width:1px;height:16px;background:rgba(255,255,255,.22);margin:
 .wherealso a:hover{border-bottom-color:var(--navy)}
 /* Why a result matched: the resource's own line, with the words marked. */
 .mrsnip{display:block;margin-top:5px;font-size:var(--t-label);color:var(--muted);line-height:1.5}
+.mrsnip .mrin{font-weight:600;color:var(--ink,inherit);margin-right:2px}
 .mrsnip mark{background:rgba(237,143,71,.26);color:inherit;padding:0 1px;border-radius:2px}
 .matchhd{font-size:var(--t-label);letter-spacing:.1em;text-transform:uppercase;color:var(--muted);font-weight:var(--w-semi);margin-bottom:10px}
 .matchhd .mcount{color:var(--muted);font-weight:var(--w-semi);letter-spacing:0}
@@ -1649,19 +1650,82 @@ function sExpand(q,vocab){
  return terms;
 }
 function sBm25(wf,dl,terms,idf,avgdl,hay,phrase,title){
- let sc=0,hit=0;
+ let sc=0,hit=0; const ks=[];
  for(const [k,w] of terms){
   const f=wf.get(k); if(!f)continue;
   sc+=w*idf(k)*(f*(S_K1+1))/(f+S_K1*(1-S_B+S_B*dl/avgdl));
-  if(w===1)hit++;
+  if(w===1){hit++;ks.push(k);}
  }
- if(!sc)return{sc:0,hit:0};
+ if(!sc)return{sc:0,hit:0,ks};
  if(phrase.length>3){
   if(title&&title.includes(phrase))sc*=2.4;
   else if(hay.includes(phrase))sc*=1.35;
  }
- return {sc,hit};
+ return {sc,hit,ks};
 }
+
+/* ---- inside the documents ----
+   Everything above ranks the sheet's DESCRIPTION of a resource. This ranks the
+   resource itself: the text of each linked PDF, Doc and deck, extracted ahead
+   of time (tools/index-files.mjs), cut into passages by the build, and fetched
+   as a separate file the first time search opens — so the page does not carry
+   it. Until it arrives, and if it never does, search works exactly as before.
+
+   A resource is credited with its single best passage, never the sum: a
+   150-page document must not outrank a two-page one for mentioning a word
+   more often. And the passage counts for less than the sheet row (S_DOCW),
+   because a title or a who_for line is a curated statement of what a resource
+   is for, while a passage only shows a phrase occurs somewhere in it. */
+const S_DOCW=0.35;
+/* The bar for a resource the sheet did NOT return: this share of the visitor's
+   words must sit together in one passage (the sheet needs half), and that
+   passage must score within this fraction of the best passage found. */
+const S_DOCNEED=0.6, S_DOCFLOOR=0.7;
+let SDOC=null;
+function loadDocIndex(j){
+ if(!j||!Array.isArray(j.passages)||!Array.isArray(j.docs))return null;
+ const idx=SIDX||buildSearchIndex();
+ const post=new Map(), len=new Array(j.passages.length);
+ j.passages.forEach((p,i)=>{
+  const ts=sFieldToks(p[2]); len[i]=ts.length;
+  const tf=new Map(); for(const t of ts)tf.set(t,(tf.get(t)||0)+1);
+  for(const [t,f] of tf){ let a=post.get(t); if(!a)post.set(t,a=[]); a.push(i,f); }
+ });
+ const N=len.length||1;
+ /* The spelling rescue only fires for a word "the library has never seen".
+    A word that appears inside a document has been seen. */
+ for(const k of post.keys()) idx.vocab.add(k);
+ SDOC={j,post,len,N,avg:len.reduce((a,b)=>a+b,0)/N||1};
+ return SDOC;
+}
+/* resource id -> its best passage for this query. `need` is how many of the
+   visitor's own words one passage must contain: the words have to land
+   TOGETHER, in one passage, or a long document matches every question. */
+function sDocBest(terms,phrase,need,literal){
+ const D=SDOC, acc=new Map();
+ for(const [k,w] of terms){
+  const a=D.post.get(k); if(!a)continue;
+  const df=a.length/2, idf=Math.log(1+(D.N-df+0.5)/(df+0.5));
+  for(let i=0;i<a.length;i+=2){
+   const p=a[i], f=a[i+1];
+   let e=acc.get(p); if(!e)acc.set(p,e={sc:0,ks:[]});
+   e.sc+=w*idf*(f*(S_K1+1))/(f+S_K1*(1-S_B+S_B*D.len[p]/D.avg));
+   if(w===1)e.ks.push(k);
+  }
+ }
+ const best=new Map();
+ for(const [p,e] of acc){
+  if(e.ks.length<need)continue;
+  const ps=D.j.passages[p];
+  if(literal>=2&&e.ks.length>=literal&&phrase.length>3&&sNorm(ps[2]).includes(phrase))e.sc*=1.35;
+  for(const id of D.j.docs[ps[0]]||[]){
+   const b=best.get(id);
+   if(!b||e.sc>b.sc)best.set(id,{sc:e.sc,ks:e.ks,page:ps[1],text:ps[2]});
+  }
+ }
+ return best;
+}
+
 function searchAll(q){
  const idx=SIDX||buildSearchIndex();
  const phrase=sNorm(q), sqq=sSquash(q);
@@ -1683,28 +1747,57 @@ function searchAll(q){
   const got=tk.filter(t=>terms.has(t)).length;
   if(got)secHit.set(name,1+0.55*(got/tk.length));
  }
- let rs=idx.docs.map(d=>{
+ const need=literal>=2?Math.max(1,Math.ceil(literal*0.5)):1;
+ const mult=r=>{
+  let m=1;
+  if(namedSec.has(r.section))m*=2.6;
+  if(namedMod.has(r.section+'|'+r.module))m*=1.6;
+  if(idx.flagship.has(r.section))m*=1.45;
+  if(secHit.has(r.section))m*=secHit.get(r.section);
+  return m;
+ };
+ const all=idx.docs.map(d=>{
   const b=sBm25(d.wf,d.dl,terms,idx.idf,idx.avgdl,d.hay,phrase,d.title);
-  if(b.sc){
-   if(namedSec.has(d.r.section))b.sc*=2.6;
-   if(namedMod.has(d.r.section+'|'+d.r.module))b.sc*=1.6;
-   if(idx.flagship.has(d.r.section))b.sc*=1.45;
-   if(secHit.has(d.r.section))b.sc*=secHit.get(d.r.section);
-  }
-  return {r:d.r,...b};
- }).filter(x=>x.sc>0);
+  return {r:d.r,sc:b.sc*mult(d.r),hit:b.hit};
+ });
+ let rs=all.filter(x=>x.sc>0);
  /* Coverage: at least half the words the visitor actually typed must land.
     Far looser than the old strict AND — which is why a question can no longer
     return nothing — but tight enough that one incidental word cannot drag in a
     third of the library. */
  if(literal>=2){
-  const need=Math.max(1,Math.ceil(literal*0.5));
   const kept=rs.filter(x=>x.hit>=need);
   if(kept.length>=3)rs=kept;
  }
  if(rs.length){
   const top=Math.max(...rs.map(x=>x.sc));
   rs=rs.filter(x=>x.sc>=top*(literal>=3?0.34:0.3));
+ }
+ /* Everything above is decided from the sheet alone, exactly as it was before
+    the documents existed — deliberately. WHICH resources the sheet returns is
+    settled first; the documents then do two narrower things:
+      1. lift a returned resource whose file also contains the words, and
+      2. add a resource the sheet missed, but only on stronger evidence than
+         the sheet needs (more of the words, together in one passage, and a
+         passage score near the best one found).
+    An earlier version let passage matches count toward the coverage rule
+    above. A question like "anything for a principal rolling this out" then
+    had its sheet results — the right ones — filtered out in favour of any
+    passage containing "roll out". Prose matches loose questions too easily to
+    be allowed to vote on that. */
+ const inside=SDOC?sDocBest(terms,phrase,need,literal):new Map();
+ if(inside.size){
+  const got=new Set(rs.map(x=>x.r.id));
+  const needDoc=literal>=2?Math.max(2,Math.ceil(literal*S_DOCNEED)):1;
+  let topP=0; for(const p of inside.values()) if(p.sc>topP)topP=p.sc;
+  const top=rs.length?Math.max(...rs.map(x=>x.sc)):0;
+  for(const x of all){
+   /* Only a published resource has a file the visitor can open. */
+   const p=x.r.published?inside.get(x.r.id):null; if(!p)continue;
+   const bonus=S_DOCW*p.sc*mult(x.r);
+   if(got.has(x.r.id)){ x.sc+=bonus; x.inside=p; }
+   else if(p.ks.length>=needDoc&&p.sc>=topP*S_DOCFLOOR&&x.sc+bonus>=top*0.3){ x.sc+=bonus; x.inside=p; rs.push(x); }
+  }
  }
  rs.sort((a,b)=>((b.r.published?1:0)-(a.r.published?1:0))||(b.sc-a.sc));
  let ms=idx.mods.map(m=>{
@@ -1717,7 +1810,12 @@ function searchAll(q){
   return {m,...b};
  }).filter(x=>x.sc>0).sort((a,b)=>b.sc-a.sc);
  if(ms.length){ const top=ms[0].sc; ms=ms.filter(x=>x.sc>=top*0.6).slice(0,3); }
- return {resources:rs.map(x=>x.r),modules:ms.map(x=>x.m),terms};
+ /* Which results to explain with a line from inside the file rather than from
+    the sheet: those where the passage carries more of the visitor's words than
+    the sheet row does. */
+ const found=new Map();
+ for(const x of rs) if(x.inside&&x.inside.ks.length>x.hit) found.set(x.r.id,x.inside);
+ return {resources:rs.map(x=>x.r),modules:ms.map(x=>x.m),terms,inside:found};
 }
 /* Kept for the live-edit panel and anything else expecting the old shape. */
 function searchResources(q){return searchAll(q).resources;}
@@ -1727,7 +1825,9 @@ function searchResources(q){return searchAll(q).resources;}
    walking words rather than character offsets, because normalising for the
    match would shift every position in the raw string. */
 function matchSnippet(r,terms){
- const src=String(r.summary||'').trim()||String(r.body||'').trim();
+ return sSnip(String(r.summary||'').trim()||String(r.body||'').trim(),terms);
+}
+function sSnip(src,terms,dense){
  if(!src)return '';
  const parts=src.split(/(\s+)/);
  let hit=-1;
@@ -1736,6 +1836,18 @@ function matchSnippet(r,terms){
   if(w&&terms.has(w)&&terms.get(w)===1){hit=i;break;}
  }
  if(hit<0)return '';
+ /* A passage is ~110 words and the first match is often its heading. Quote the
+    stretch where the most of the visitor's words sit together instead — that
+    is the sentence that answers them. */
+ if(dense){
+  const at=[];
+  parts.forEach((p,i)=>{const w=sStem(sNorm(p)); if(w&&terms.get(w)===1)at.push([i,w]);});
+  let best=0;
+  for(const [i] of at){
+   const n=new Set(at.filter(([j])=>j>=i-14&&j<i+30).map(x=>x[1])).size;
+   if(n>best){best=n;hit=i;}
+  }
+ }
  const start=Math.max(0,hit-14), end=Math.min(parts.length,hit+30);
  const out=parts.slice(start,end).map(p=>{
   const w=sStem(sNorm(p));
@@ -1750,14 +1862,18 @@ function runSearch(q){
   list.innerHTML='<div class="matchhint">Start typing to search every guide, template, and tool on the site &mdash; or ask a question in your own words.</div>';
   count.textContent=''; renderWhere(null); return;
  }
- const {resources:res,modules:mods,terms}=searchAll(q);
+ const {resources:res,modules:mods,terms,inside}=searchAll(q);
  renderWhere(mods.length?{mods,terms}:null);
  count.textContent=res.length?`(${res.length})`:'';
  if(!res.length){ list.innerHTML='<div class="matchhint">Nothing matched that. Try a practice name, a format, or fewer words.</div>'; return; }
  const CAP=25;
  const more=res.length>CAP?`<div class="matchhint">Showing the ${CAP} closest of ${res.length}. Add a word to narrow it.</div>`:'';
  list.innerHTML=more+res.slice(0,CAP).map(r=>{
-  const sn=matchSnippet(r,terms);
+  /* A line from inside the file when that is where the match is; otherwise
+     the sheet's own description, as before. */
+  const pin=inside.get(r.id);
+  const ps=pin?sSnip(pin.text,terms,true):'';
+  const sn=ps?`<span class="mrin">Inside the ${r.video?'resource':'document'}${pin.page?', p.&nbsp;'+pin.page:''}</span> ${ps}`:matchSnippet(r,terms);
   return `<a class="matchrow ${r.published?'':'soon'}" href="#" data-go="module:${escAttr(r.section)}|${escAttr(r.module)}">${icon(r.format,16)}<span class="mrtxt"><span class="mrtitle">${esc(r.title)}</span><span class="mrmeta">${esc(r.section)} &middot; ${esc(r.module)} &middot; ${esc(r.format)}</span>${sn?`<span class="mrsnip">${sn}</span>`:''}</span><span class="dot ${r.published?'ok':'soon'}" title="${r.published?'Available':'Coming soon'}"></span></a>`;
  }).join('');
 }
@@ -1784,7 +1900,17 @@ function renderWhere(d){
 
 const askWrap=document.getElementById('askWrap');
 const findInputEl=document.getElementById('findInput');
-function askOpen(o){askWrap.classList.toggle('open',o);askWrap.setAttribute('aria-hidden',o?'false':'true');if(o){runSearch(findInputEl.value);setTimeout(()=>findInputEl.focus(),60);}}
+/* The document text is fetched once, the first time search opens — not with
+   the page. Any failure is silent on purpose: search simply stays as it was. */
+let docsAsked=false;
+function ensureDocs(){
+ if(docsAsked||!DATA.searchDocs||!DATA.searchDocs.url)return; docsAsked=true;
+ fetch(DATA.searchDocs.url).then(r=>r.ok?r.json():null).then(j=>{
+  if(!j||!loadDocIndex(j))return;
+  if(askWrap.classList.contains('open'))runSearch(findInputEl.value);
+ }).catch(()=>{});
+}
+function askOpen(o){askWrap.classList.toggle('open',o);askWrap.setAttribute('aria-hidden',o?'false':'true');if(o){ensureDocs();runSearch(findInputEl.value);setTimeout(()=>findInputEl.focus(),60);}}
 findInputEl.addEventListener('input',()=>{runSearch(findInputEl.value);});
 document.getElementById('findBtn').addEventListener('click',()=>askOpen(true));
 document.addEventListener('click',e=>{

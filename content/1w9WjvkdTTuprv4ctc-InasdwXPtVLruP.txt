@@ -1,0 +1,946 @@
+Literature
+Review
+TURNING THE PAGE TO
+SECONDARY LITERACY
+A collection of research-to-impact practices
+developed with the Networked Improvement
+Community for Students with Disabilities
+
+2.1
+
+TURNING THE PAGE TO SECONDARY LITERACY
+
+Literature Review
+ABSTRACT
+Proficient reading is a critical contributor to positive postsecondary outcomes, yet US
+schools fail to consistently and equitably equip students with the reading skills necessary
+to participate meaningfully in college and career opportunities. This literature review
+provides a synthesis of the existing research base of reading intervention for students
+in grades 4–12. We define secondary reading intervention, explain why it is important,
+summarize what is known about reading development generally, and synthesize the
+literature on evidence-based instructional practices for nonproficient readers. We
+provide a summary of the limited research findings specific to Black and Latinx students
+with disabilities experiencing poverty and highlight relevant findings related to teacher
+professional development.
+
+Introduction
+In addition to the specific college and career-ready standards specified for each grade level, the authors
+of the Common Core State Standards have articulated the characteristics of literate individuals,
+including that they:
+• demonstrate independence,
+• build strong content knowledge,
+• respond to varying text demands,
+• comprehend as well as critique,
+• value evidence,
+• use technology capably, and
+• come to understand other perspectives and cultures (National Governors Association Center for
+Best Practices 2010).
+
+2.2
+
+L I T E RAT U R E R E VIE W
+
+Literacy
+
+Achieving these characteristics requires secondary readers to flexibly and strategically employ a range
+of complex reading behaviors, including reading text fluently, deducing the meaning of unknown words,
+using strategies to support comprehension actively and flexibly, bringing background knowledge on a
+wide range of topics to the reading experience, reasoning and making inferences while reading, and
+maintaining motivation to read and engagement in the reading process (Torgesen et al. 2007). Indeed,
+the demands on secondary readers are significant, yet current and historical assessments of reading
+proficiency suggest that many middle and high school students do not demonstrate proficient reading
+skills (National Assessment of Educational Progress 2022).
+This literature review was written for an audience of educators, schools, and districts seeking to change
+these outcomes for secondary students with a focus on Black and Latinx students with disabilities
+experiencing poverty. Our goal is to provide a comprehensive yet concise summary of recent research,
+literature reviews, and meta-analyses on this topic to aid our audience in understanding (1) which
+practices are most likely to improve reading proficiency for secondary readers and (2) under what
+conditions these practices should be applied. We begin with defining and clarifying the importance of
+secondary reading intervention and proceed to summarize the following subtopics:
+
+UNDERSTANDING READING DEVELOPMENT
+UNDERSTANDING ADOLESCENT READING
+INSTRUCTIONAL TARGETS FOR NONPROFICIENT SECONDARY READERS
+CROSS-CUTTING FEATURES OF EFFECTIVE SECONDARY READING
+INTERVENTIONS
+READING INTERVENTION FOR BLACK AND LATINX STUDENTS WITH
+DISABILITIES EXPERIENCING POVERTY
+BUILDING EDUCATOR CAPACITY
+
+The review focuses on literature published in the last 20 years and includes older, seminal studies
+where relevant (e.g., Gough and Tunmer 1986). We focus on summarizing the findings of several
+comprehensive literature reviews and meta-analyses of reading interventions for older readers and
+include additional studies published in scholarly journals where applicable. Because the reading profiles
+and instructional needs of upper elementary students are often more similar to those of middle and high
+school students than students in the primary elementary grades, students in grades 4–12 are included
+in the research summarized in the review. While the literature review does include research specific
+to our target population, this population is also underrepresented in the literature, and thus we also
+summarize the research related to nonproficient secondary readers more broadly.
+
+2.3
+
+L I T E RAT U R E R E VIE W
+
+Literacy
+
+This literature review is part of a larger collection of improvement tools for districts. The Networked
+Improvement Community for Students with Disabilities (NIC), a group of 10 public charter school
+networks serving more than 75,000 students nationwide, launched in 2019 to make dramatic gains in
+the learning experiences, environments, and outcomes for Black and Latinx students with disabilities
+experiencing poverty. Led by Marshall Street at Summit Public Schools in partnership with technical
+assistance providers NIRN, RTI International, SRI International, and SWIFT Education Center, NIC
+participants used continuous improvement methods, supported by this literature review of leading
+research and a corresponding toolkit of best practices, to improve implementation in these areas with
+the potential to increase academic outcomes for students with disabilities: Collaboration, Literacy, Multitiered Systems of Support, Transitions, and Emotional and Behavioral Supports.
+
+What is secondary reading intervention?
+Secondary reading intervention refers most simply to interventions implemented by educators and
+school systems to improve reading outcomes for nonproficient secondary readers.
+Lupo et al. (2024) offer a conceptual framework for literacy intervention at the secondary level which
+defines literacy intervention as “any instructional effort to support adolescents’ reading, including
+foundational skills, cognitive processes, meaning-making, agency, and identity.” The framework
+further differentiates within-classroom from supplemental supports and emphasizes the importance of
+professional learning that addresses critical content, supports a collaborative approach, and is aligned
+with broader school and district structures, vision, and goals.
+
+Why is secondary reading intervention important?
+Reading intervention in the secondary setting is important because reading proficiency is associated
+with myriad school-based factors, including achievement in content area classes and graduation
+rates (Kamil et al. 2008; Snow and Biancarosa 2003), as well as overall life outcomes such as
+employment, earnings, and physical and psychological well-being (Mulcahy et al. 2016). For students
+with disabilities, especially students with multiple disabilities, the ability to read and learn contributes to
+increased levels of independence in life skills (Kauffman 1996 in Almalki 2016). Additionally, reading is
+the primary vehicle for learning in the secondary grades (Vaughn and Fletcher 2012). However, based
+on the 2022 National Assessment of Educational Progress assessment, just 29% of 8th grade students
+attending public schools in the US are reading proficiently. When the results are disaggregated by the
+subgroups that represent the Networked Improvement Community’s target population, the numbers are
+even more concerning; just 16% of Black 8th grade students and 21% of Hispanic 8th grade students
+are reading proficiently, compared to 38% of white students. Nine percent of 8th grade students with
+disabilities are reading proficiently compared with 34% of students without disabilities.
+While preventing reading difficulties in the primary grades has historically received more attention than
+secondary reading intervention, this population has been increasingly studied in recent years. In fact,
+“Enough is already known about adolescent reading—both the nature of the problems of struggling
+readers and the types of interventions and approaches to address these needs—in order to act
+immediately on a broad scale” (Biancarosa and Snow 2006, 10). The focus of reading instruction at the
+
+2.4
+
+L I T E RAT U R E R E VIE W
+
+Literacy
+
+secondary level is unique from that focus on early prevention in the primary grades. Middle and high
+school students must be able to learn and make meaning from a diverse range of texts across content
+areas (Biancarosa and Snow 2006). Secondary educators, then, are tasked with ensuring that students
+move beyond basic word reading toward the more complex and challenging reading requirements
+of secondary texts. This is particularly challenging given that secondary nonproficient readers tend
+to demonstrate a broad and complex range of difficulties ranging from deficits in word reading to
+underdeveloped vocabulary and background knowledge.
+Encouragingly, research indicates that adolescence is not too late to intervene and that nonproficient
+secondary readers can benefit from reading intervention when it is planned carefully, implemented
+consistently, and based on evidence-based instructional practices. The purpose of this literature review
+is to synthesize the current research on secondary reading interventions with a particular focus on
+the NIC’s target population in the interest of providing schools and educators with a comprehensive
+understanding of the current landscape and thereby informing the implementation of evidence-based
+practices.
+
+Collegiate Academies
+
+2.5
+
+L I T E RAT U R E R E VIE W
+
+Literacy
+
+Understanding Reading Development
+To effectively design and implement interventions for nonproficient secondary readers, it is important
+to first understand how reading develops. The phrase “Science of Reading ‘’ has become common
+vernacular for educators interested in improving student reading outcomes. The Reading League, a
+national nonprofit organization with a mission to advance the awareness, understanding, and use of
+evidence-aligned reading instruction, defines the science of reading as follows:
+
+“The science of reading is a vast, interdisciplinary body of scientificallybased research about reading and issues related to reading and writing.
+This research has been conducted over the last five decades across the
+world, and it is derived from thousands of studies conducted in multiple
+languages. The science of reading has culminated in a preponderance
+of evidence to inform how proficient reading and writing develop; why
+some have difficulty; and how we can most effectively assess and teach
+and, therefore, improve student outcomes through prevention of and
+intervention for reading difficulties.”
+THE READING LEAGUE, N.D., 6
+
+For this literature review, three key frameworks proposed within the science of reading will lay the
+foundation for understanding how reading develops: the Simple View of Reading, Scarborough’s
+Reading Rope, and the National Reading Panel Report.
+First, the Simple View of Reading (Gough and Tunmer 1986) offers a straightforward way of
+conceptualizing the factors that contribute to a process that is anything but simple. The Simple View
+of Reading emphasizes that reading comprehension, which is the ultimate goal of reading, is the
+product of two factors: word recognition and language comprehension. Word recognition refers to the
+understanding that graphemes (or letters and letter combinations) represent sounds (or phonemes),
+learning the relationship between phonemes and graphemes, and using this knowledge to read
+unknown words, while language comprehension refers to understanding the meaning of words,
+phrases, sentences, and passages. The Simple View of Reading illustrates the importance of these two
+factors as individual but equally influential elements of proficient reading.
+
+2.6
+
+L I T E RAT U R E R E VIE W
+
+Literacy
+
+The Simple View of Reading
+Word Recognition
+The ability to
+transform print into
+spoken language
+
+X
+
+Language
+Comprehension
+The ability to
+understand spoken
+language
+
+=
+
+Reading
+Comprehension
+
+Scarborough’s Reading Rope (Scarborough 2001) expands upon the Simple View of Reading
+in several important ways. First, the Reading Rope illustrates word recognition and language
+comprehension as two individual yet intertwined strands of a rope. Second, it identifies the specific
+subcomponents that comprise each strand, including:
+• Word Recognition:
+– Phonological awareness (awareness of the sound structure of language)
+– Decoding (alphabetic principle, phoneme-grapheme knowledge, and phonic decoding)
+– Sight word recognition (ability to recognize words automatically)
+• Language Comprehension:
+– Background knowledge (facts, concepts, etc.)
+– Vocabulary (breadth and depth of word knowledge, word learning strategies)
+– Language structures (syntax, semantics)
+– Verbal reasoning (inferences, metaphor, etc.)
+– Literacy knowledge (print concepts, genres, text
+features)
+The Reading Rope illustrates the synergy between
+the two strands; as word recognition skills become
+increasingly automatic for developing readers, language
+comprehension skills become increasingly strategic,
+ultimately leading to skilled and proficient reading.
+The National Reading Panel (NRP) was commissioned by
+Congress in the late 1990s to review the existing literature
+on different approaches to teaching reading and to produce
+a report summarizing the panel’s conclusions. Based on their
+comprehensive review, the panel identified five essential
+components of reading to be addressed in reading instruction
+(National Reading Panel 2000):
+
+2.7
+
+L I T E RAT U R E R E VIE W
+
+Literacy
+
+Image source: We Are Teachers, https://www.weareteachers.com/scarboroughs-rope/
+
+Phonemic
+awareness
+
+Phonics
+
+Fluency
+
+Vocabulary
+
+Comprehension
+
+The ability to
+recognize and
+manipulate
+the individual
+phonemes, or
+sounds, within
+words
+
+Knowledge of
+the relationship
+between graphemes
+(or letters) and
+phonemes and the
+application of these
+relationships to
+decoding words
+
+Reading text with
+speed, accuracy,
+and prosody
+
+Word knowledge
+and word learning
+strategies
+
+Comprehension
+strategies, such
+as summarization,
+asking and
+answering
+questions, and
+monitoring
+comprehension
+while reading
+
+The NRP report also provided recommendations for targeted and intensive interventions for at-risk
+readers and comprehensive professional development for teachers.
+
+2.8
+
+L I T E RAT U R E R E VIE W
+
+Literacy
+
+Understanding Adolescent Reading
+While these three frameworks are helpful for understanding the components of proficient reading, much
+of the science of reading has focused on emerging and developing readers in the primary grades.
+For example, while the NRP report highlighted important findings from the field and is still frequently
+referenced today, it focused primarily on instruction and outcomes in the early elementary grades.
+Since that time, researchers have endeavored to better understand and communicate the science of
+teaching adolescent readers and, more specifically, adolescent readers who have not yet developed
+reading proficiency.
+In a review of the impact of reading interventions on adolescent readers, Edmonds and colleagues
+(2009) note that proficient readers engage the following skills while reading: efficient decoding of
+unknown words, fluent and accurate reading of text, knowledge of word meanings, connecting new
+content to prior schema and knowledge, applying strategic reading comprehension strategies, and
+monitoring their understanding while they read. These skills represent the myriad ways in which
+the reading process can break down for nonproficient adolescent readers. In fact, the majority of
+nonproficient secondary readers will have deficits in more than one subcomponent of reading (Roberts
+et al. 2008; Clemens et al. 2017; Biancarosa and Snow 2006).
+While research consistently suggests that early intervention is both more efficient and more effective
+than intervening in the later grades, there is also evidence that targeted interventions can benefit older
+nonproficient readers (Scammacca et al. 2007). The instructional targets for nonproficient secondary
+readers, however, will differ slightly from the focus on preventing reading failure in the primary grades.
+
+Instructional Targets for Nonproficient
+Secondary Readers
+Research on reading interventions for nonproficient secondary readers highlights instructional foci
+that differ only slightly from the recommendations of the National Reading Panel. The recommended
+instructional targets include multisyllabic word reading, reading fluency, reading comprehension
+strategies, vocabulary, and motivation and engagement (Boardman et al. 2008; Roberts et al. 2008;
+Vaughn et al. 2022). .
+
+Multisyllabic Word Reading
+Often, older students who are not yet reading grade-level text fluently and accurately can decode
+single-syllable words but have difficulty decoding multisyllabic words, or words comprised of more than
+one syllable (Archer et al. 2003; Vaughn et al. 2022). The majority of words that students will encounter
+in the middle and high school classroom are words of two or more syllables (Nagy and Anderson
+1984), and the slow, effortful reading of these words represents a serious impediment to overall text
+comprehension.
+
+2.9
+
+L I T E RAT U R E R E VIE W
+
+Literacy
+
+Word study instruction, which focuses on teaching word analysis skills and building morphological
+awareness, has been shown to benefit older nonproficient readers (Boardman et al 2008; Scammaca
+et al. 2007). Fluency with multisyllabic word reading can improve overall reading fluency and
+comprehension, build students’ confidence in reading grade-level texts, and improve motivation and
+engagement in reading (Vaughn et al. 2022).
+Word analysis instruction typically consists of teaching students syllabication strategies, or strategies
+for breaking words into syllables (Honig et al. 2018; Vaughn et al. 2022), then reading the word by
+syllables and blending the segments to form a word that is in the student’s oral working vocabulary
+(Bhattacharya and Ehri 2004). It is important to ensure that students have adequate monosyllabic
+word reading skills, such as mastery of phoneme-grapheme relationships and phonic decoding skills,
+before focusing on multisyllabic word reading instruction (Vaughn et al. 2022).
+Instruction designed to build students’ morphological awareness focuses on teaching the
+pronunciation, orthography, and meaning of morphemes, or the smallest unit of words that hold
+meanings, including prefixes, suffixes, and roots (Honig et al. 2018). Explicit instruction designed
+to build morphological awareness has been shown to be especially helpful for multilingual learners
+(Haager and Osipova 2017; Cárdenas-Hagan 2020) and secondary students with disabilities (Harris et
+al. 2011; Roberts et al. 2008).
+Word study instruction should teach students to be flexible decoders who are able to apply word
+analysis and morphological awareness skills to reading of unknown words and who are also able to
+recognize irregular words that do not follow predictable phonological and/or orthographic patterns
+(Boardman et al. 2008). Embedding spelling instruction within word study and providing students
+with many opportunities to practice word analysis skills during independent reading can increase the
+impact of word study instruction (Vaughn et al. 2022).
+
+Fluency
+Reading fluency is defined as accurate reading of connected text, at a conversational rate and with
+adequate prosody (Hudson et al. 2008) and fluent older readers typically read texts at rates ranging
+from 120 to 170 correct words per minute (Hasbrouck and Tindal 2005). Fluent text reading is
+strongly correlated with reading comprehension (Torgesen and Hudson 2006). This is in part because
+fluent and automatic reading frees up cognitive resources, allowing the reader to devote attention
+to meaning-making rather than word reading (Honig et al. 2018). This is especially important for
+adolescent readers who are tasked with acquiring a significant amount of content area knowledge
+through reading (Boardman et al. 2008).
+Nonproficient adolescent readers, including students with reading disabilities, often struggle to read
+grade-level text fluently and automatically (Boardman et al. 2008; Meyer and Felton 1999) and when
+reading is slow and effortful, working memory is taxed and reading comprehension is compromised
+(Perfetti and Lesgold 1977). There is some evidence that instruction targeting reading fluency can
+increase oral reading fluency rates, but the degree to which these increases generalize to nonpracticed passages and overall comprehension for older nonproficient readers is mixed. Some
+researchers suggest that reading fluency instruction is more effective when it is paired with targeted
+word-learning instruction, such as the word study strategies described above (Roberts et al. 2008).
+
+2.10
+
+L I T E RAT U R E R EV IEW
+
+Literacy
+
+Instructional practices for building reading fluency that are supported by research included repeated
+reading (Honig et al. 2018; Therrien 2004; Stevens et al. 2017), partner reading (Honig et al. 2018),
+and goal-setting and progress-monitoring procedures that actively involve students (Boardman et
+al. 2008), with repeated reading cited as the most promising practice for building fluency. Repeated
+reading has been shown to increase both reading rate and reading accuracy for Black middle school
+students with disabilities (Paige 2006). Strategies to increase the effectiveness of repeated reading
+include establishing a clear purpose for the activity with the student, pre-teaching difficult words,
+explicitly teaching students to read with prosody, and checking for understanding after reading (Vaughn
+et al. 2022).
+
+Comprehension Strategies
+Reading comprehension is a complex, multidimensional endeavor, and proficient adolescent readers
+strategically link new learning to existing knowledge, monitor their understanding as they read, and
+deploy “fix-up” strategies when reading breaks down. Nonproficient readers, even those with adequate
+word reading and fluency skills, often fail to use these strategies (Roberts et al. 2008). Explicit
+instruction in reading comprehension strategies can improve students’ strategy use and overall reading
+comprehension (Scammacca et al. 2007; Edmonds et al. 2009; Swanson et al. 2017; Sohn et al. 2023).
+The following reading comprehension strategies are recommended for explicit instruction (Roberts et
+al. 2008; Kamil et al. 2008; Vaughn et al. 2022):
+• Activating prior knowledge: As described previously, nonproficient secondary readers develop
+less background knowledge than their proficient peers and often fail to access the knowledge they
+have while reading. Explicitly teaching students to activate prior knowledge supports meaningmaking by building connections between the known and the new. Educators can build and activate
+prior knowledge by providing brief introductions to the topic(s) prior to reading, sharing multimedia
+and asking students to notice specific elements of the information presented, and asking targeted
+questions.
+• Use of graphic organizers to categorize information: Nonproficient secondary readers often
+fail to apply strategies to organize new information as they read. The use of graphic organizers
+can support students in activating prior knowledge, making connections between key ideas, and
+recording important information to support summarizing.
+• Comprehension monitoring: Nonproficient secondary readers often fail to notice when
+comprehension breaks down while reading, so they are unable to apply “fix-up” strategies.
+Teaching students explicit techniques for monitoring comprehension, such as visualizing, asking
+questions while reading, pausing periodically to summarize, and re-reading can support overall
+comprehension.
+• Summarizing: Nonproficient secondary readers often have difficulty synthesizing large amounts
+of information into main ideas. Modeling the steps to organizing a summary, teaching students
+to use text structures to support summarizing, using metacognitive “think alouds,” and analyzing
+examples and non-examples of accurate summaries can support students in developing
+independence with summarization.
+
+2.11
+
+L I T E RAT U R E R E VIE W
+
+Literacy
+
+Research has suggested that, while comprehension strategy instruction must be explicit, direct
+instruction can be brief, and instructional routines can quickly shift to focus on both collaborative
+and independent application (Vaughn et al. 2022). In fact, some researchers argue that the specific
+strategies that are taught are less important than the active engagement of comprehension strategies
+generally (Kamil et al. 2008). Further recommendations include embedding comprehension strategy
+instruction within multiple content areas, direct and explicit teaching of strategies using a metacognitive
+approach, and modeling of strategies accompanied by guided practice opportunities (Swanson et al.
+2017; Boardman 2008; Scammacca et al. 2007).
+
+Vocabulary
+Vocabulary knowledge is strongly correlated with reading comprehension across grade levels and
+reading abilities (Beck et al. 2013). This is particularly true for secondary readers who are tasked with
+learning through content-area texts in which specialized vocabulary represents much of the text’s
+meaning (Kamil et al. 2008). While students do learn word meanings through direct instruction, the
+majority of new word learning in the middle and high school grades occurs through extensive reading
+practice across a range of genres (Roberts et al. 2008). Nonproficient adolescent readers tend to
+avoid reading and often lack the reading skills necessary for independent engagement with grade-level
+texts. This results in fewer opportunities to develop the depth and breadth of vocabulary knowledge
+necessary for reading comprehension (Hirsch 2003).
+Recommended instructional practices for developing vocabulary included strategic selection of words
+for direct instruction, providing student-friendly definitions of target words, multiple exposures to words
+over time, providing opportunities for students to actively engage with word meanings, and explicitly
+teaching word learning strategies (Boardman et al. 2008; Kamil et al. 2008; Swanson and Wexler
+2017).
+Beck and colleagues (2013) suggest that educators focus explicit word instruction on “Tier 2 words,”
+or those words that students are likely to encounter frequently in text but are unlikely to implicitly learn
+via conversation. These words are typically drawn from content-area texts and represent those that
+students will encounter frequently in grade-level reading.
+Researchers suggest that it can take up to 17 exposures for a student to learn a new word, and
+educators should plan for multiple exposures to target words both within a single lesson and over time
+(Kamil et al. 2008). Activities to encourage students to actively engage with word meanings include
+asking students to distinguish between and identify examples and non-examples of words, to describe
+how a target word is related to another known word, and to include target vocabulary words in their
+writing (Beck et al. 2013).
+Word learning strategies include using context clues, leveraging morphological awareness, and
+accessing resources such as online dictionaries (Beck et al. 2013; Vaughn et al. 2013).
+Similar to the findings related to fluency instruction, vocabulary instruction has mixed results in
+improving overall reading comprehension for nonproficient secondary readers (Scammacca et al.
+2007). The most promising avenue to improved vocabulary instruction for older readers is likely to be
+“reading a lot, reading well, and reading widely” (Cunningham and Stanovich 1998 as cited in Roberts
+et al. 2008).
+
+2.12
+
+L I T E RAT U R E R EV IEW
+
+Literacy
+
+Motivation and Engagement
+Making meaning from complex texts is an active, effortful process that requires the conscious
+application of strategies on the part of the reader. Motivated students “usually want to understand text
+content fully and therefore, process information deeply. As they read frequently with these cognitive
+purposes, motivated students gain in reading comprehension proficiency” (Guthrie et al. as cited in
+Roberts 2008, 67). Nonproficient adolescent readers often lack motivation to read (Boardman et al.
+2008; Roberts et al. 2008), resulting in a lower volume of reading and fewer opportunities to practice
+strategy use and develop the vocabulary and background knowledge necessary to comprehend gradelevel texts.
+Evidence-based practices for fostering reading motivation and engagement among nonproficient
+adolescent readers include (Kamil et al. 2008; Boardman et al. 2008, Roberts et al. 2008; Biancarosa
+and Snow 2006):
+• Establishing concrete goals for reading and engaging students in monitoring progress
+toward those goals: Studies show that, when educators establish performance goals, emphasize
+the learning process, and provide verbal praise based on effort, students are more likely to
+develop personal learning goals and are more likely to be motivated and engaged in reading.
+• Supporting student autonomy through choice: Offering students choice in both reading
+materials and reading activities is associated with greater ownership of learning and overall
+engagement.
+• Leveraging texts that are aligned with student interests: Students are more likely to persist
+in reading texts about topics they are interested in, and they are also more likely to remember
+information from these materials. In designing libraries of texts for independent reading, secondary
+educators should consider cultivating texts on topics about which students have background
+knowledge, texts that students perceive they will be successful at reading, and texts that are
+relevant to students’ lived experiences.
+• Increasing social interactions related
+to reading: Secondary students are
+motivated by opportunities to learn
+collaboratively, and social interaction
+during reading activities can increase
+both motivation and comprehension.
+Collaborative reading activities can
+be fostered by explicitly teaching
+and reinforcing collaboration and
+communication skills, strategically
+partnering students based on reading
+proficiency, and allowing students to read
+together and present their learning to
+peers.
+
+2.13
+
+L I T E RAT U R E R EV IEW
+
+Literacy
+
+Cross-Cutting Features of Effective
+Secondary Reading Interventions
+In addition to a general consensus on the instructional priorities for secondary reading intervention,
+research has identified several cross-cutting features of effective approaches to improving reading
+outcomes for nonproficient secondary readers.
+FIRST, NONPROFICIENT SECONDARY READERS OFTEN NEED SUPPORT IN
+DEVELOPING MORE THAN ONE OF THE SUBCOMPONENT SKILLS RELATED TO
+PROFICIENT READING.
+It is not surprising, then, that interventions that target multiple components tend to be more effective
+than those that target a single component of reading (Edmonds et al. 2009). It is particularly important
+that educators focus secondary reading interventions on the ultimate goal of reading comprehension,
+and word-level or fluency interventions should also integrate reading comprehension instruction
+(Edmonds et al. 2009; Sohn et al. 2023).
+SECOND, READING INTERVENTION AT THE SECONDARY LEVEL SHOULD BE
+CONTENT-EMBEDDED.
+This involves both direct teachers of reading (e.g., English Language Arts (ELA) teachers, reading
+intervention teachers) providing content-area texts for instruction and independent practice and
+content-area teachers reinforcing those reading skills that are most applicable to their subject areas
+during instruction (Biancarosa and Snow 2006). Embedding reading instruction within content-area
+texts supports generalization, increases student access to reading instruction across the day, and
+provides students with more opportunities to practice applying reading skills in a variety of texts.
+THIRD, SECONDARY READING INTERVENTIONS ARE MOST EFFECTIVELY
+IMPLEMENTED WITH A MULTI-TIERED SYSTEM OF SUPPORT (MTSS) (VAUGHN AND
+FLETCHER 2012).
+Because secondary nonproficient readers have diverse and complex needs, it is important that
+interventions are aligned with students’ identified areas of need (Scammacca et al. 2007; Kamil et al.
+2008; Boardman et al. 2008). Categorizing students into subgroups by priority skills for development
+is a process that can be achieved via universal screening and follow-up diagnostic assessment for
+students identified as nonproficient readers. See the Multi-tiered Systems of Support Literature
+Review for a comprehensive review of the literature on MTSS.
+FINALLY, ONE CONTRIBUTOR TO POOR READING SKILLS FOR SECONDARY READERS
+IS A LACK OF EXPOSURE.
+Nonproficient readers tend to engage in a lower volume of reading than proficient readers, meaning
+they have fewer opportunities to practice strategies and build important vocabulary and background
+knowledge. Therefore, successful secondary reading interventions will include extended opportunities
+for readers to practice applying skills independently while reading connected text. Educators seeking to
+build libraries to support independent text reading should consider the following:
+
+2.14
+
+L I T E RAT U R E R EV IEW
+
+Literacy
+
+• Including “stretch texts,” or those texts that are at the higher end of students’ instructional levels
+and will expose students to rich vocabulary and complex syntax (Vaughn et al. 2022)
+• Texts that are aligned with students’ interests and world experiences and texts in which students
+see themselves represented (Roberts et al. 2008; Biancarosa and Snow 2006)
+• Texts that are high interest but at an a range of readability levels (Biancarosa and Snow 2006)
+
+Reading Intervention for Black and
+Latinx Students with Disabilities
+Experiencing Poverty
+Black and Latinx students with disabilities experiencing poverty have significantly lower reading
+proficiency rates than white students, students without disabilities, and students who are ineligible for
+federal free and reduced lunch (Snow and Biancarosa 2003). Factors that explain the link between
+socioeconomic status (SES) and reading achievement include both home environmental factors, such
+as the home literacy environment, parental stress, and oral language exposure, and school-based
+factors, such as the percentage of students reading below grade level, the concentration of students
+from low SES backgrounds, and teacher perception, expectations, and knowledge of the language and
+literacy skills that contribute to reading development (Aikens and Barbarin 2008; Romeo et al. 2022).
+While SES is a strong predictor of reading achievement, it is not predictive of responsiveness
+to evidence-based reading interventions, and studies have shown that students from low SES
+backgrounds respond at least as favorably to these interventions as students from average to high SES
+backgrounds (Morris et al. 2012).
+
+“This we know: reading failure can be prevented in all but a small percentage
+of children with serious learning disorders. It is possible to teach most students
+how to read if we start early and follow the significant body of research showing
+which practices are most effective. Students living in poverty, students of color,
+and students who are eligible for remedial services can become competent
+readers — at any age. Persistent “gaps” between more advantaged and less
+advantaged students can be narrowed and even closed. Fundamentally, these
+gaps are the result of differences in students’ opportunities to learn — not their
+learning abilities”
+MOATS 2020, 4
+
+2.15
+
+L I T E RAT U R E R EV IEW
+
+Literacy
+
+There has been long-standing concern in the field of special education that particular subgroups
+of students, including Black students, students who are multilingual learners, and students from
+households with a low socioeconomic status are disproportionately represented within special
+education (Morgan 2020) and that they experience poorer outcomes as a result (Bal and Trainor 2016).
+However, more recent analyses have found that Black and Hispanic children are significantly less likely
+than otherwise similar white children to receive special education services. Farkas and Morgan (2018)
+found that 74% of 4th grade white students with reading difficulties were receiving specialized reading
+services through special education, whereas only 44% of Black and 43% of Hispanic students with
+reading difficulties received such specialized services. Schools with majority white student populations
+have, on average, 3.5 specialists who have been trained in specialized instruction for students with
+reading disabilities, compared to schools with student populations that are less than 15% white who
+employ just one such specialist on average (Carr 2022). White students are also more likely than Black
+students to be diagnosed with dyslexia, resulting in Black students having less access to programs
+designed to support their academic success (Farkas and Morgan 2018). Even when students who
+are experiencing poverty and students living in households speaking languages other than English
+do receive specialized reading services in schools, this instruction tends to rely on the availability of
+commercial programs that focus on the procedural subskills that contribute to reading, such as word
+reading and reading fluency, at the exclusion of conceptual and knowledge-based skills, such as
+vocabulary knowledge and verbal reasoning skills (Lesaux 2012).
+This literature review suggests that Black and Latinx students with disabilities experiencing poverty are
+likely to experience reading difficulty due to myriad factors and that they are less likely than their white
+and higher-income peers to receive quality reading intervention in school. Research suggests that
+this population of students does respond favorably when provided with evidence-based reading
+interventions and that it is not that the approach must be significantly different, but rather
+that the practices that have been shown to be effective for nonproficient secondary readers
+must be more consistently available to all students, regardless of socioeconomic status, racial
+background, or disability status.
+
+Summit Public Schools
+
+2.16
+
+L I T E RAT U R E R EV IEW
+
+Literacy
+
+Building Educator Capacity
+These recommendations require specialized knowledge and expertise on the part of secondary
+educators. In a survey of professional development practices within US schools, Darling-Hammond
+and colleagues (2009) found that while most teachers participate in multiple professional development
+opportunities each year, nearly half are dissatisfied with these activities. It is not surprising, then,
+that secondary educators report feeling underprepared to meet the needs of nonproficient readers
+(Kamil et al. 2008; Boardman et al. 2008). Still, other secondary content-area teachers do not feel that
+teaching reading is their responsibility (Kamil et al. 2008). Even when educators do receive training in
+strategies to support nonproficient readers, they rarely receive ongoing support, resulting in low fidelity
+of implementation (James-Burdumy et al. 2009).
+Because professional development delivered in a conducive environment has been associated with
+improved student outcomes (Wayne et al. 2008; Basma and Savage 2018), schools need to consider
+the features of effective professional development. Structurally, professional development activities
+should be:
+• “intensive, connected to practice, and ongoing,
+• directly connected to student learning goals and address the teaching of specific curriculum
+content,
+• aligned with school improvement goals,
+• designed to build strong, professional relationships among teachers, and
+• designed to include active learning for teachers” (Kosanovich et al. 2010, 86).
+At the secondary level, professional development
+should focus on building teacher understanding of
+the process of reading comprehension, instructional
+routines and approaches that support reading
+development, and how students’ cultural and
+linguistic backgrounds impact their interactions
+with texts (Lupo et al. 2024). When applicable,
+professional development should also center the
+curricular resources teachers are using in their
+classrooms (Hayes-Jacobs and Johnson 2009).
+Finally, professional development that occurs
+through varied avenues, including coaching,
+analysis of student data to inform instruction, and
+communities of practice contributes to increased
+knowledge and implementation of evidence-based
+reading instruction (Connor et al. 2014).
+
+2.17
+
+L I T E RAT U R E R EV IEW
+
+Literacy
+
+Conclusion
+In conclusion, reading proficiency is an essential component of college and career readiness, and
+learning demands in the secondary setting require a wide set of complex reading skills. While reading
+proficiency rates for secondary students, and in particular Black and Latinx students with disabilities
+experiencing poverty, are disappointing, educators and schools interested in improving these outcomes
+can be encouraged by the finding that secondary students can benefit from appropriately designed and
+implemented reading interventions.
+As district officials make program decisions on their approaches to reading intervention, the following
+key points from the research can serve as a north star:
+• The Simple View of Reading and Scarborough’s Reading Rope provide useful models for
+understanding how individuals learn to read. These models can be used to think strategically and
+tactically about the literacy programs and interventions needed to support students in becoming
+skilled readers.
+• Recommended instructional targets for nonproficient secondary readers include multisyllabic word
+reading, reading fluency, vocabulary, reading comprehension strategy use, and motivation and
+engagement.
+• Nonproficient secondary readers tend to have deficits in more than one subcomponent of reading,
+and intervention for these students should target multiple components.
+• Secondary reading intervention is most effective when implemented in the context of a multi-tiered
+system of support and, more specifically, when diagnostic assessment is used to identify students’
+specific areas of need and interventions are aligned accordingly.
+• Secondary reading intervention is most impactful when it is embedded in content-area instruction
+and texts.
+• Students need extensive opportunities to practice
+reading skills while independently reading connected
+texts, and educators should be mindful of providing
+both the time and the materials to support independent
+reading across the day.
+• Secondary teachers feel unprepared to teach
+nonproficient secondary readers. Professional
+development should serve to build an understanding
+of the reading process, increase capacity to design
+and deliver evidence-based reading instruction, and
+develop an awareness of the ways in which students’
+cultural and linguistic backgrounds impact their
+interactions with text.
+
+2.18
+
+L I T E RAT U R E R EV IEW
+
+Literacy
+
+Appendix
+References
+Aikens, Nikki L. and Oscar Barbarin. 2008. “Socioeconomic Differences in Reading Trajectories: The
+Contribution of Family, Neighborhood, and School Contexts.” Journal of Educational Psychology
+100 (2): 235–251. https://doi.org/10.1037/0022-0663.100.2.235
+Almalki, Nabil. 2016. “What Is the Best Strategy ‘Evidence-Based Practice’ to Teach Literacy Skills for
+Students with Multiple Disabilities? A Systematic Review.” World Journal of
+Education 6 (6): 18–30. https://search-ebscohost-com.msj.idm.oclc.org/login.
+aspx?direct=true&db=eric&AN=EJ1157620
+Archer, Anita L., Mary M. Gleason, and Vicky L. Vachon. 2003. “Decoding and Fluency: Foundation
+Skills for Struggling Older Readers.” Learning Disability Quarterly 26 (2): 89–101.
+https://doi.org/10.2307/1593592
+Bal, Aydin, and Audrey A. Trainor. 2016. “Culturally Responsive Experimental Intervention Studies: The
+Development of a Rubric for Paradigm Expansion.” Review of Educational Research 86 (2):
+319–359. http://doi.org/10.3102/0034654315585004
+Basma, Badriah and Robert Savage. 2018. “Teacher Professional Development and Student Literacy
+Growth: A Systematic Review and Meta-analysis.” Educational Psychology Review 30 (2): 457–
+481. https://doi.org/10.1007/s10648-017-9416-4
+Beck, Isabel L., Margaret G. McKeown, and Linda Kucan. 2013. Bring Words to Life. New York: The
+Guilford Press.
+Bhattacharya, Alpana and Linnea C. Ehri. 2004. “Graphosyllabic Analysis Helps Adolescent Struggling
+Readers Read and Spell Words.” Journal of Learning Disabilities 37 (4): 331–348.
+https://doi.org/10.1177/00222194040370040501
+Biancarosa, Gina, and Catherine E. Snow. 2006. Reading Next—A Vision for Action and Research in
+Middle and High School Literacy: A Report to Carnegie Corporation of New York (2nd ed.).
+Washington, DC: Alliance for Excellent Education.
+Boardman, Allison. G., Greg Roberts, Sharon Vaughn, Jade Wexler, Christy S. Murray, and Marcia
+Kosanovich. 2008. Effective Instruction for Adolescent Struggling Readers: A Practice Brief.
+Portsmouth, NH: RMC Research Corporation, Center on Instruction.
+Cardenas-Hagan, Elsa. 2020. Literacy Foundations for English Learners. Baltimore, MD: Paul H.
+Brookes Publishing Co.
+
+2.19
+
+L I T E RAT U R E R EV IEW
+
+Literacy
+
+Carr, Sarah. 2022. “While White Students Get Specialists, Struggling Black and Latino Readers Often
+Get Left on Their Own.” The Hechinger Report, December 19. http://hechingerreport.org/
+while-white-students-get-specialists-struggling-black-and-latino-readers-often-left-ontheir-own/
+Clemens, Nathan H., Deborah Simmons, Leslie E. Simmons, Huan Wang, and Oi-man Kwok. 2017.
+“The Prevalence of Reading Fluency and Vocabulary Difficulties among Adolescents Struggling
+with Reading Comprehension.” Journal of Psychoeducational Assessment 35 (8): 785–798.
+https://doi.org/10.1177/0734282916662120
+Connor, Carol M., Paul A. Alberto, Donald L. Compton, Rollanda E. O’Connor. 2014. Improving Reading
+Outcomes for Students with or at Risk for Reading Disabilities: A Synthesis of the Contributions
+from the Institute of Education Sciences Research Centers (NCSER 2014-3000). Washington,
+DC: National Center for Special Education Research, Institute of Education Sciences, US
+Department of Education.
+Darling-Hammond, Linda, Ruth Chung Wei, Alethea Andree, Nikole Richardson, and Stelios Orphanos.
+2009. Professional Learning in the Learning Profession: A Status Report on Teacher
+Development in the United States and Abroad. Dallas, TX: National Staff Development Council.
+Edmonds, Meaghan, Sharon Vaughn, Jade Wexler, Colleen Reutebuch, Amory Cable, Kathryn Klingler
+Tackett, and Jennifer Wick Schnakenberg. 2009. “A Synthesis of Reading Interventions and
+Effects on Reading Comprehension Outcomes for Older Struggling Readers.” Review of
+Educational Research, 79 (1): 262–300. https://doi.org/10.3102/0034654308325998
+Farkas, George and Paul L. Morgan. 2018. “Risk and Race in Measuring Special Education Need.”
+Contexts 17 (4): 72–74. https://doi.org/10.1177/1536504218812876
+Gough, Philip B. and William E. Tunmer. 1986. “Decoding, Reading, and Reading Disability.” RASE:
+Remedial and Special Education 7 (1): 6–10. https://doi.org/10.1177/074193258600700104
+Haager, Diane and Anna V. Osipova. 2017. “Enhancing Academic Instruction for Adolescent English
+Language Learners with or at Risk for Learning Disabilities.” Insights into Learning Disabilities
+14 (1): 7–26.
+Harris, Monica L., Jean B. Schumaker, and Donald D. Deshler. 2011. “The Effects of Strategic
+Morphological Analysis Instruction on the Vocabulary Performance of Secondary
+Students with and without Disabilities.” Learning Disability Quarterly 34 (1): 17–33.
+https://doi.org/10.1177/073194871103400102
+Hasbrouck, Jan and Tindal, Gerald. 2005. Oral Reading Fluency: 90 Years of Measurement: Technical
+Report No. 33. Eugene, OR: University of Oregon, Behavioral Research and Teaching.
+https://eric.ed.gov/?id=ED531458
+Hayes-Jacobs, Heidi and Ann Johnson. 2009. The Curriculum Mapping Planner: Templates, Tools,
+and Resources for Effective Professional Development. Association for Supervision &
+Curriculum Development.
+
+2.20
+
+L I T E RAT U R E R EV IEW
+
+Literacy
+
+Hirsch, E. D., Jr. 2003. “Reading Comprehension Requires Knowledge — of Words and the World:
+Scientific Insights into the Fourth-Grade Slump and the Nation’s Stagnant Comprehension
+Scores.” American Educator 27 (1): 10–29.
+Honig, Bill, Linda Diamond, Linda Gutlohn, and Carrie L. Cole. 2018. Teaching Reading Sourcebook
+(3rd Ed.). Novato, CA: Arena Press.
+Hudson, Roxanne F., Paige C. Pullen, Holly B. Lane, and Joseph K. Torgesen. 2008. “The Complex
+Nature of Reading Fluency: A Multidimensional View.” Reading & Writing Quarterly 25 (1): 4–32.
+https://doi.org/10.1080/10573560802491208
+James-Burdumy, Susanne, Wendy Mansfield, John Deke, Nancy Carey, Julieta Lugo-Gil, Alan Hershey,
+Aaron Douglas, Russell Gersten, Rebecca Newman-Gonchar, Joseph Dimino, and Bonnie
+Faddis. 2009. Effectiveness of Selected Supplemental Reading Comprehension Interventions:
+Impacts on a First Cohort of Fifth-Grade Students (NCEE 2009-4032). Washington, DC:
+National Center for Education Evaluation and Regional Assistance, Institute of Education
+Sciences, US Department of Education.
+Kamil, Michael L., Geof frey D. Borman, Janice Dole, Cathleen C. Kral, Terry Salinger, and Joseph
+Torgesen. 2008. Improving Adolescent Literacy: Effective Classroom and Intervention Practices:
+A Practice Guide (NCEE #2008-4027). Washington, DC: National Center for Education
+Evaluation and Regional Assistance, Institute of Education Sciences, US Department of
+Education.
+Kosanovich, Marcia L., Deborah K. Reed, and Deborah H. Miller. 2010. Bringing Literacy Strategies
+into Content Instruction: Professional Learning for Secondary-Level Teachers. Portsmouth, NH:
+RMC Research Corporation, Center on Instruction.
+Lesaux, Nonie K. 2012. “Reading and Reading Instruction for Children from Low-Income and
+Non-English-Speaking Households.” Future of Children 22 (2), 73–88. https://doi.org/10.1353/
+foc.2012.0010
+Lupo, Sarah M., Katherine K. Frankel, Mark A. Lewis, and Ali M. Wilson. 2024. “Literacy Intervention in
+Secondary Schools Exploring Educators’ Beliefs and Practices about Supporting
+Adolescents’ Literacy Learning.” Journal of Teacher Education 75 (1): 13–28.
+https://doi.org/10.1177/00224871231156371
+Meyer, Marianne S. and Rebecca H. Felton. 1999. “Repeated Reading to Enhance Fluency: Old
+Approaches and New Directions.” Annals of Dyslexia 49: 283–306. https://doi.org/10.1007/
+s11881-999-0027-8
+Moats, Louisa C. 2020. “Teaching Reading is Rocket Science, 2020: What Expert Teachers of Reading
+Should Know and Be Able to Do.” American Federation of Teachers.
+Morgan, Hani. 2020. “Misunderstood and Mistreated: Students of Color in Special Dducation.” Voices of
+Reform 3 (2): 71–81. https://doi.org/10.32623/3.10005
+
+2.21
+
+L I T E RAT U R E R EV IEW
+
+Literacy
+
+Morris, Robin D., Maureen W. Lovett, Maryanne Wolf, Rose A. Sevcik, Karen A. Steinbach, Jan C.
+Frijters, and Marla B. Shapiro. 2012. “Multiple-Component Remediation for Developmental
+Reading Disabilities: IQ, Socioeconomic Status, and Race as Factors in Remedial Outcome.”
+Journal of Learning Disabilities 45 (2): 99–127. https://doi.org/10.1177/0022219409355472
+Mulcahy, Ellie, Eleanor Bernardes, and Sam Baars. 2019. The Relationship Between Reading Age,
+Education and Life Outcomes. The Center for Education & Youth. Retrieved on December 28,
+2023 from https://cfey.org/reports/2016/12/the-relationship-between-reading-ageeducation-and-life-outcomes/
+Nagy, William E., and Richard C. Anderson. 1984. “How Many Words Are There in Printed School
+English?” Reading Research Quarterly 19: 304–330. https://doi.org/10.2307/747823
+National Assessment of Educational Progress. 2022. US Department of Education. Institute of
+Education Sciences, National Center for Education Statistics, National Assessment of
+Educational Progress (NAEP), 2022 Reading Assessment.
+National Governors Association Center for Best Practices, Council of Chief State School Officers. 2010.
+Common Core State Standards. Washington, DC: Authors.
+National Reading Panel. 2000. Report of the National Reading Panel: Teaching Children to Read:
+Reports of the Subgroups (00-4754). Eunice Kennedy Shriver National Institute of Child Health
+and Human Development, NIH, DHHS. Washington, DC: US Government Printing Office.
+Paige, David D. 2006. “Increasing Fluency in Disabled Middle School Readers: Repeated Reading
+Utilizing Above Grade Level Reading Passages.” Reading Horizons 46 (3): 167–181.
+Perfetti, Charles A. and Allen M. Lesgold. 1977. Coding and Comprehension in Skilled Reading and
+Implications for Reading Instruction. Learning Research and Development Center, University of
+Pittsburgh. http://files.eric.ed.gov/fulltext/ED145399.pdf
+Roberts, Greg, Joseph K. Torgesen, Alison Boardman, and Nancy Scammacca. 2008. “Evidence-Based
+Strategies for Reading Instruction of Older Students with Learning Disabilities.” Learning
+Disabilities Research & Practice 23: 63–69. https://doi.org/10.1111/j.1540-5826.2008.00264.x
+Romeo, Rachel R., Lili Uchida, and Joanna A. Christodoulou. 2022. “Socioeconomic Status and
+Reading Outcomes: Neurobiological and Behavioral Correlates.” New Directions for Child and
+Adolescent Development 2022 (183–184): 57–70. https://doi.org/10.1002/cad.20475
+Scammacca, Nancy, Greg Roberts, Sharon Vaughn, Meaghan Edmonds, Jade Wexler, Colleen
+Klein Reutebuch, and Joseph K. Torgesen. 2007. Interventions for Adolescent Struggling
+Readers: A Meta-analysis with Implications for Practice. Portsmouth, NH: RMC Research
+Corporation, Center on Instruction.
+Scarborough, Hollis S. 2001. “Connecting Early Language and Literacy to Later Reading (Dis)abilities:
+Evidence, Theory, and Practice.” In S. Neuman and D. Dickinson (Eds.), Handbook for research
+in early literacy. New York: Guilford Press.
+Snow, Catherine E. and Gina Biancarosa. 2003. Adolescent Literacy and the Achievement Gap: What
+Do We Know and Where Do We Go from Here? New York: Carnegie Corporation of New York.
+
+2.22
+
+L I T E RAT U R E R EV IEW
+
+Literacy
+
+Sohn, Hyojong, Kelly Acosta, Mary T. Brownell, Nicholas A. Gage, Eilish Tompson, and Carolyn
+Pudvah. 2023. “A Meta-analysis of Interventions to Improve Reading Comprehension Outcomes
+for Adolescents with Reading Difficulties.” Learning Disabilities Research & Practice 38 (2):
+85–103. https://doi.org/10.1111/ldrp.12307
+Stevens, Elizabeth A., Melodee A Walker, and Sharon Vaughn. 2017. “The Effects of Reading Fluency
+Interventions on the Reading Fluency and Reading Comprehension Performance of Elementary
+Students with Learning Disabilities: A Synthesis of the Research from 2001 to 2014.” Journal of
+Learning Disabilities 50 (5): 576–590. https://doi.org/10.1177/0022219416638028
+Swanson, Elizabeth, Sharon Vaughn, and Jade Wexler. 2017. “Enhancing Adolescents’ Comprehension
+of Text by Building Vocabulary Knowledge.” TEACHING Exceptional Children 50 (2): 84–94.
+https://doi.org/10.1177/0040059917720777
+The Reading League. n.d. Science of Reading: Defining Guide. https://www.thereadingleague.org/
+what-is-the-science-of-reading/
+Therrien, William J. 2004. “Fluency and Comprehension Gains as a Result of Repeated Reading.”
+Remedial and Special Education 25 (4): 252–261. https://doi.org/10.1177/0741932504025004
+0801
+Torgesen, Joseph K., and Roxanne F. Hudson. 2006. “Reading Fluency: Critical Issues for Struggling
+Readers.” In What Research Has to Say About Fluency Instruction, edited by S. J. Samuels and
+A. E. Farstrup, 130–158. International Reading Association.
+Torgesen, Joseph K., Debra D. Houston, Lila M. Rissman, Susan M. Decker, Greg Roberts, Sharon
+Vaughn, Jade Wexler, David J. Francis, Mabel O. Rivera, and Nonie Lesaux. (2007). Academic
+Literacy Instruction for Adolescents: A Guidance Document from the Center on Instruction.
+Portsmouth, NH: RMC Research Corporation, Center on Instruction.
+Vaughn, Sharon and Jack M. Fletcher. 2012. “Response to Intervention with Secondary School
+Students with Reading Difficulties.” Journal of Learning Disabilities 45 (3): 244–256.
+https://doi.org/10.1177/0022219412442157
+Vaughn, Sharon, Russell Gersten, Joseph Dimino, Mary Jo Taylor, Rebecca Newman-Gonchar, Sarah
+Krowka, Michael J. Kieffer, Margaret McKeown, Deborah K. Reed, Michele Sanchez, Kimberley
+St. Martin, Jade Wexler, Seth Morgan, Armando Yañez, and Madhavi Jayanthi. 2022. Providing
+Reading Interventions for Students in Grades 4–9 (WWC 2022007). Washington, DC: National
+Center for Education Evaluation and Regional Assistance (NCEE), Institute of Education
+Sciences, US Department of Education. Retrieved from https://whatworks.ed.gov/
+Vaughn, Sharon, Elizabeth A. Swanson, Greg Roberts, Jeanne Wanzek, Stephanie Stillman-Spisak,
+Michael Solis, Deborah Simmons. 2013. “Improving Reading Comprehension and Social
+Studies Knowledge in Middle School.” Reading Research Quarterly 48 (1): 77–93.
+Wayne, Andrew J., Kwang Suk Yoon, Pei Zhu, Stephanie Cronen, and Michael S. Garet. 2008.
+“Experimenting with Teacher Professional Development: Motives and Methods.” Educational
+Researcher 37 (8): 469–479. https://doi.org/10.3102/0013189X08327154
+
+2.23
+
+L I T E RAT U R E R EV IEW
+
+Literacy

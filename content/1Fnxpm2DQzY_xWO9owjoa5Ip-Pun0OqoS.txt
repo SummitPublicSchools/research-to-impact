@@ -1,0 +1,754 @@
+Literature
+Review
+NAVIGATING DATA FOR MULTI-TIERED
+SYSTEMS OF SUPPORT
+A collection of research-to-impact practices
+developed with the Networked Improvement
+Community for Students with Disabilities
+
+2.1
+
+NAVIGATING DATA FOR MULTI-TIERED
+SYSTEMS OF SUPPORT
+
+Literature Review
+ABSTRACT
+Multi-Tiered System of Support (MTSS) is a framework for schools and districts to address
+barriers to learning for students. This literature review synthesizes the existing research
+base on MTSS; namely what MTSS is, why it is important, the benefits and challenges
+of the framework, an overview of common implementation strategies, and what is
+currently known about the efficacy of MTSS. This review is designed for school district
+administrators considering adopting or improving MTSS practices at their district.
+
+Introduction
+This literature review was written for an audience of educators, schools, and districts seeking to
+improve outcomes for secondary students with a focus on Black and Latinx students with disabilities
+living in poverty. In this literature review, we share a concise overview of MTSS, an adaptive organizing
+framework for data-informed academic and behavioral instruction and support that meets student
+needs in a timely manner. The purpose of this review is to equip district- and school-level staff who
+are considering adopting or improving MTSS practices with a summary of the research on MTSS so
+that staff can make informed, thoughtful implementation decisions for their districts. The literature
+review was conducted by Marshall Street, a coalition of educators working to systematically improve
+opportunities for students across the United States.
+This literature review is part of a larger collection of improvement tools for districts. The Networked
+Improvement Community for Students with Disabilities (NIC), a group of 10 public charter school
+networks serving more than 75,000 students nationwide, launched in 2019 to make dramatic gains in
+the learning experiences, environments, and outcomes for Black and Latinx students with disabilities
+experiencing poverty. Led by Marshall Street at Summit Public Schools in partnership with technical
+assistance providers NIRN, RTI International, SRI International, and SWIFT Education Center, NIC
+participants used continuous improvement methods, supported by this literature review of leading
+
+2.2
+
+L I T E RAT U R E R E VIE W
+
+Multi-Tiered
+Systems of Support
+
+research and a corresponding toolkit of best practices, to improve implementation in these areas with
+the potential to increase academic outcomes for students with disabilities: Collaboration, Literacy, Multitiered Systems of Support, Transitions, and Emotional and Behavioral Supports.
+This literature review provides a brief overview of the research regarding the following questions:
+
+WHAT IS MTSS?
+WHY IS MTSS IMPORTANT?
+WHAT ARE THE BENEFITS OF MTSS?
+WHAT ARE THE LIMITATIONS OF MTSS?
+WHAT IS THE MOST COMMON FRAMEWORK(S) OF MTSS?
+HOW EFFECTIVE IS MTSS AND FOR WHOM?
+WHAT ARE THE NECESSARY CONDITIONS FOR SUCCESSFUL
+IMPLEMENTATION?
+
+What is MTSS?
+A Multi-Tiered System of Support is a framework for educators for organizing, aligning, and
+implementing a system of academic, behavioral, social-emotional learning, and mental health support
+for all students (California Department of Education, n.d.; Choi, McCart, and Sailor, “Achievement of
+Students With IEPs,” 2020; Colorado Department of Education 2017; Drury et al. 2021; Horner and
+Halle 2020; McCart and Miller 2020; McIntosh and Goodman 2016; Thurlow et al. 2020). MTSS not
+only integrates the service delivery of two existing support models — response-to-intervention (RTI)
+for academics and schoolwide positive behavioral intervention and support (PBIS) for behavior —
+but it also incorporates social-emotional learning and mental health support service delivery in order
+to increase the efficiency and efficacy of support (California Department of Education, n.d.; McCart
+and Miller 2020; McIntosh and Goodman 2016). The hallmarks of MTSS include multiple tiers of
+student support, high-quality instruction utilizing evidence-based practices, universal screening,
+decision guidelines, progress monitoring, collaborative teacher teams, and the use data for continuous
+improvement practices to improve implementation (McCart and Miller 2020; McIntosh and Goodman
+2016; ESSA, Sec 8101(33) in Thurlow et al. 2020; McMaster and Wagner 2007 in Drury et al. 2021).
+MTSS is a prevention-based framework for systematically addressing barriers to learning in pursuit of
+improved academic and social outcomes for all learners (Averill and Rinaldi, n.d.; Drury et al. 2021;
+Horner and Halle 2020; Leonard, Coyne, Oldham, Burns, and Gillis 2019).
+
+2.3
+
+L I T E RAT U R E R E VIE W
+
+Multi-Tiered
+Systems of Support
+
+The multiple tiers offer differentiated and increasingly intensive support for academic, behavioral, and
+social learning (IRIS Center, n.d.). As McCart and Miller (2020, 4) state “MTSS is a comprehensive
+set of academic, behavioral, and social supports that rely on data to mobilize and coordinate diverse
+resources for students.”
+
+Why is MTSS Important?
+For decades, the public education system in the United States has struggled to effectively serve
+students with a diverse set of needs, particularly students with disabilities. Inclusive classrooms — that
+is, classrooms in which both students with and without disabilities are served together — are both an
+educational requirement and a best practice for serving students with disabilities due to governmental
+mandates such as No Child Left Behind (NCLB), the Individuals with Disabilities Education Act (IDEA),
+and the Every Student Succeeds Act (ESSA), as well as evidence-based research showing academic
+gains from such classrooms (Alnasser 2020; Brendle, Lock, and Piazza 2017; Cole et al., n.d.; Cramer
+et al. 2010; Weiss, Glaser, and Lloyd 2020). Yet, many schools struggle with the school-wide cultural
+shift that is required to actualize inclusive education (Sailor 2015).
+MTSS is a leading strategy for advancing the school-wide cultural shift to inclusion through efficiently
+and equitably allocating resources to meet the needs of all students, including students with disabilities
+and traditionally marginalized students. Schools across the United States have embraced MTSS due to
+multiple factors:
+• The potential for all students to receive timely support for their unique student needs,
+including academic, behavioral, and social-emotional needs (Gage et al. 2015; Nelson et al.
+2004 in Scott et al. 2019; McIntosh and Goodman 2016; McCart and Miller 2020; Sailor 2015),
+particularly those students who typically are not served well by the existing education
+system, including students with disabilities and students “who live in poverty, who
+experience high mobility, who benefit from an accelerated curriculum, or who struggle to
+learn for other reasons” (Choi, McCart, and Sailor, “Reshaping Educational Systems,” 2020, 8).
+• The potential to increase the efficiency of teachers
+by reducing the time it takes to regularly identify
+student needs and prepare individualized support
+for those needs (Lane, Oakes, and Menzies 2019
+in Choi, McCart, and Sailor, “Reshaping Educational
+Systems,” 2020; McIntosh and Goodman 2016; McCart
+and Miller 2020; Sailor 2015).
+• The ability to use federal and local funds to
+implement MTSS activities via the Individuals with
+Disabilities Act and the Every Student Succeeds Act
+(ESSA, Sec 2103(b)(3)(F) in Thurlow et al. 2020; IDEA
+2004 in Drury et al. 2021; Sugai and Simonsen 2012).
+Today, all 50 states have adopted some form of MTSS
+(Zhang et al. 2023).
+
+2.4
+
+L I T E RAT U R E R E VIE W
+
+Multi-Tiered
+Systems of Support
+
+Benefits of MTSS
+The literature surveyed cited the efficacy of MTSS on behavioral and academic outcomes (see
+Efficacy of MTSS and for Whom) and noted a number of additional benefits, which are outlined in the
+table below:
+
+BENEFIT
+
+CITATION
+
+Builds an organizational structure that provides a
+continuum of support for students
+
+Averill and Rinaldi, n.d.
+
+Promotes Local Educational Agency (LEA)
+participation in aligning and coordinating a
+spectrum of student support
+
+California Department of Education, n.d.
+
+Spurs system-wide shift to educational best
+practices
+
+California Department of Education, n.d.; Lane,
+Oakes, and Menzies 2019 in Choi, McCart, and
+Sailor, “Reshaping Educational Systems,” 2020;
+McCart and Miller 2020; Sailor 2015
+
+MTSS framework can be applied to many domains
+such as literacy, behavior, math, and resilience
+
+McIntosh and Goodman 2016
+
+Enables integration of extra-academic systemslevel evidence-based practices into the framework
+
+School-family partnerships: Averill and Rinaldi,
+n.d.; McCart et al. 2009; Sullivan and Daily 2013
+in McIntosh and Goodman 2016
+Wraparound and parenting supports: Averill
+and Rinaldi, n.d.; Eber, Hyde, and Suter 2011 in
+McIntosh and Goodman 2016; Stormshak, Fosco,
+and Dishion 2010 in McIntosh and Goodman
+2016
+Mental health supports: Barrett, Eber, and Weist
+2013 in McIntosh and Goodman 2016
+Drop-out prevention: Legters and Balfanz 2010
+in McIntosh and Goodman 2016
+
+2.5
+
+Provides more sustainable, effective, and efficient
+delivery of services and support
+
+Choi, McCart, and Sailor, “Reshaping Educational
+Systems,” 2020; McIntosh and Goodman 2016
+
+Presents opportunity to reframe focus from the
+place where instruction occurs to the allocation
+of staff, supports, and services in an equitable
+manner
+
+Choi, McCart, and Sailor, “Reshaping Educational
+Systems,” 2020
+
+Provides more seamless support to students
+through combined academic and behavioral
+support system, reducing the number of students
+who “fall through the cracks”
+
+McIntosh and Goodman 2016
+
+Reduces stigmatization of students with disabilities
+or otherwise marginalized students who receive
+additional support
+
+Giangreco and Suter 2015
+
+L I T E RAT U R E R E VIE W
+
+Multi-Tiered
+Systems of Support
+
+Limitations of MTSS
+No limitations to the MTSS framework were raised in the literature surveyed, however, multiple
+challenges to implementation were mentioned. Those challenges include:
+• initiative change fatigue on the part of educators (McIntosh and Goodman 2016);
+• lack of MTSS knowledge and training for teachers, administrators, and district staff (Drury et al. 2021);
+• difficulties actually using data to inform tiered support (Drury et al. 2021; Leonard et al. 2019);
+• lack of access to or funding for tools such as progress monitoring tools and aligned curriculum based
+on evidence-based practices (Mason et al. 2019; Minnesota Department of Education 2019);
+• limited time for implementation of tiered support (Mason et al. 2019);
+• difficulties serving students with the most significant cognitive disabilities (Thurlow et al. 2020); and
+• lack of systems, structures, and policies (Drury et al. 2021; Leonard et al. 2019).
+Because these challenges to implementation can forestall the adoption of MTSS in schools, the
+Necessary Conditions for Implementation section of this literature review examines them more
+thoroughly.
+
+Common Implementation Frameworks
+The MTSS model is based on a public health approach to intervention (Brown-Chidsey and Bickford 2016
+in Drury et al. 2021) and combines three, or sometimes more, tiers of student services:
+• Universal Support / Tier 1: high-quality instruction and support available to all students,
+• Additional Support / Tier 2: different instruction and support for students who need more in addition
+to Universal Support
+• Intensified Support / Tier 3: instruction and support provided with variations in intensity (such as
+greater frequency and duration) in addition to Universal and Additional Supports
+(Averill and Rinaldi, n.d.; Batsche et al. 2005 in Averill and Rinaldi, n.d.; Drury et al. 2021; Horner and
+Halle 2020; McIntosh and Goodman 2016; McCart and Miller 2020; Thurlow et al. 2020; National Center
+on Response to Intervention 2010 in Thurlow et al. 2020).
+To support the appropriate use of services within the tiers, most MTSS models incorporate the elements
+of teaming structures, data for decision-making, evidence-based curriculum instruction and support
+materials, and continuous improvement processes (McCart and Miller 2020, 10). There are many names
+for the different elements used in the research including universal screening, progress monitoring, and
+problem-solving models (a term based on RTI practices) (Batsche et al. 2005; Drury et al. 2021; Fuchs
+and Fuchs 2006, Gresham 2007 in Averill and Rinaldi, n.d.; Horner and Halle 2020; Hughes and Dexter
+2011 in Drury et al. 2021; Leonard et al. 2019; Mason et al. 2019; McIntosh and Goodman 2016).
+A commonly used visual depiction of the tiers is a triangle, “representing levels of prevention (primary,
+secondary, or tertiary), types of support for students (universal, targeted, or intensive), curricula (core,
+strategic, individualized), or tiers of instruction (Tier 1, Tier 2, Tier 3)” (McIntosh and Goodman 2016, 13).
+Each layer is additive, meaning that all students receive Universal Support / Tier 1 services, some students
+will then receive Universal Support / Tier 1 and Additional Support / Tier 2 services, and few students
+
+2.6
+
+L I T E RAT U R E R E VIE W
+
+Multi-Tiered
+Systems of Support
+
+receive Universal Support / Tier 1, Additional Support / Tier 2, and Intensified Support / Tier 3 services
+(Averill and Rinaldi, n.d.; McCart and Miller 2020; McIntosh and Goodman 2016; Thurlow et al. 2020).
+Common misperceptions of the tiers include the following:
+• The perception that students need to move through all tiers in succession before receiving the
+level of service that they need (Fuchs et al. 2003 in McIntosh and Goodman 2016). Thurlow et al.
+(2020, 6) notes that no student should only receive Tier 3 support, as doing so would ignore the
+other instruction and support in Tiers 1 and 2.
+• The perception that the tiers are only applicable to some domains, such as early literacy and
+behavior. In contrast, the tiers can be applied to nearly any topic in education (McIntosh and
+Goodman 2016).
+• The perception that the tiers are a way to label students. In contrast, the tiers are used to describe
+supports that a student needs in the moment; the tiers are not a permanent descriptor of a student
+(McCart and Miller 2020; McIntosh and Goodman 2016).
+• The perception that MTSS is only for some students, not all students. In contrast, MTSS is
+designed to provide services and resources to all students based on their needs (McCart and
+Miller 2020).
+• The perception that Tier 3 is the “special education” tier. In contrast, this tier is for any student who
+needs intensive interventions in a particular domain (Thurlow et al. 2020).
+
+Efficacy of MTSS and for Whom
+When viewed in sum, the literature on the effect of MTSS on academic outcomes shows varied results.
+Researchers typically attribute the variation in outcomes to the degree of fidelity of implementation
+(Coyne et al. 2016; Fuchs, Fuchs, and Malone 2017 in Coyne et al. 2018). Generally, researchers have
+found that MTSS, when implemented with fidelity, can have a positive impact on math performance
+and mixed results on reading performance (Gersten et al. 2009; Montague and Jitendra 2012 in Choi,
+McCart, and Sailor “Achievement of Students With IEPs,” 2020; Choi et al. 2016; Choi, McCart, and
+Sailor, “Achievement of Students With IEPs,” 2020; Scott et al. 2019). One study hypothesized that
+because the schools in their study had so many existing supports for reading, MTSS’s ability to impact
+reading was limited as compared to math (Choi, McCart, and Sailor, “Achievement of Students With
+IEPs,” 2020).
+Recently, researchers have been able to more precisely measure the fidelity of MTSS implementation
+to draw more definitive conclusions on the efficacy of MTSS on academic performance. Scott et al.
+(2019) obtained fidelity measurements from 29 elementary, middle, and high schools in the United
+States over four years. They found that schools with higher MTSS fidelity in the reading domain
+were positively associated with more students at or above proficient in language mechanics and
+mathematics, but not in reading. Conversely, higher MTSS fidelity in the math domain was associated
+with more students at or above proficient in language mechanics, but not mathematics nor reading.
+Additionally, higher MTSS implementation fidelity in the behavioral domain resulted in significantly fewer
+suspension events, as compared to matched comparison schools (Scott et al. 2019, 308). As relates
+to the Networked Improvement Community’s target population, schools with higher MTSS fidelity in
+this study had student demographics of 14% Black, 7% Latinx, and 63% free/reduced lunch status,
+though the study did not report on specific outcomes by sub-groups. The study also did not report the
+percentage of students with disabilities in the sample (310).
+
+2.7
+
+L I T E RAT U R E R E VIE W
+
+Multi-Tiered
+Systems of Support
+
+Choi, McCart, and Sailor (“Achievement of Students With IEPs,” 2020) were also able to more precisely
+measure MTSS implementation in order to draw conclusions on academic performance. Their study
+examined impacts on academic performance specifically for students with disabilities (as measured
+by students with Individualized Education Plans (IEPs)) at 14 schools in the same large, urban
+school district serving students in Pre-K–5th grade and Pre-K–8th grade (3). Similar to Scott et al.
+(2019), this study found that students with disabilities in high-fidelity implementation schools showed
+increased math state assessment scores, as compared to comparison schools; however, reading
+score growth was equivalent to comparison schools (1, 6). The study did not report on race/ethnicity or
+socioeconomic demographics, nor on combined race/ethnicity, socioeconomic, and disability status.
+Importantly, researchers in both of these studies noted the intensive support the sample schools
+received, including coaching and targeted technical assistance, in order to achieve high fidelity of
+implementation. Coyne et al. (2018, 15) observed that “there are many difficulties and challenges
+associated with implementing MTSS in schools under real-world conditions (Arden et al. 2017; Coyne
+et al. 2016)” and though sample schools may demonstrate consistent implementation as recommended
+by research, “that level of implementation may not mirror current practice in the field (Balu et al. 2015),”
+which can result in uneven academic performance.
+Beyond academic scores, other academic- and behavior-related gains have been observed in schools
+implementing MTSS at varying levels of fidelity, including the results described in the table below.
+
+2.8
+
+RESULTS
+
+FOR WHOM
+
+CITATION
+
+Reduced gap between actual reading
+performance and grade-level standards
+for children at risk (e.g., the gap
+between kindergarten performance and
+3rd grade standards)
+
+For students in sample
+with disabilities, including
+students at risk
+
+Simmons et al. 2008 in
+Choi, McCart, and Sailor,
+“Achievement of Students With
+IEPs,” 2020
+
+Reduced identification rate of students
+with reading disabilities and increased
+passing rate on assessments
+
+For students in sample
+with disabilities, including
+students at risk
+
+Harn, Chard, and Kame’enui
+2011 in Choi, McCart, and
+Sailor, “Achievement of
+Students With IEPs,” 2020
+
+Increased time on tasks and academic
+outcomes through an integrated
+academic and behavioral MTSS
+framework
+
+For students in sample
+with disabilities, including
+students at risk
+
+Algozzine, et al. 2016; McIntosh
+et al. 2008 in Choi, McCart,
+and Sailor, “Achievement of
+Students With IEPs,” 2020
+
+Significant improvement on ELA and
+Math scores
+
+Students of color in
+elementary and middle
+schools in sample
+
+Choi et al. 2022
+
+Improvement of academic performance
+and of educational equity (i.e., reduced
+impact of race, socioeconomic status,
+and gender), in schools implementing
+equity-based MTSS with high fidelity
+
+Students in elementary
+and middle schools in
+sample
+
+Choi et al. 2022
+
+Fewer suspension events
+
+For all students in sample
+
+Scott et al. 2019
+
+L I T E RAT U R E R E VIE W
+
+Multi-Tiered
+Systems of Support
+
+Necessary Conditions for
+Implementation
+As MTSS is a schoolwide system of support and services for students, much of the research suggested
+addressing the implementation challenges and preparing for successful adoption by focusing on
+system-wide levers. As a brief review, the implementation challenges raised in the literature include the
+following:
+• initiative change fatigue on the part of educators leading to a loss of enthusiasm and willingness to
+try new educational approaches (McIntosh and Goodman 2016);
+• lack of MTSS knowledge and training for teachers, administrators, and district staff, particularly
+around data-driven problem-solving (Drury et al. 2021);
+• lack of systems, structures, and policies that support MTSS implementation and remove barriers to
+implementation (Drury et al. 2021, Leonard et al. 2019);
+• difficulties actually using the data that is collected to inform tiered support in a dynamic fashion
+(Drury et al. 2021, Leonard et al. 2019);
+• lack of access to/funding for tools such as progress monitoring tools, and aligned curriculum
+and intervention programs based on evidence-based practices (Mason et al. 2019; Minnesota
+Department of Education 2019);
+• limited time for implementation of tiered support, particularly Additional Support / Tier 2 and
+Intensified Support / Tier 3 (Mason et al. 2019); and
+• difficulties serving students with the most significant cognitive disabilities (Thurlow et al. 2020).
+Networks in the NIC that focused on improving
+MTSS implementation found that they needed to
+first find ways to create accessible data systems
+that would allow educators to understand and
+respond to the needs of all learners. Once that
+infrastructure was built, they could focus on
+training network and school leaders as well as
+educators in the new data tools.
+The SWIFT Education Center (2024) identifies
+the system-wide levers as the MTSS framework,
+administrative leadership, integrated educational
+framework, family and community engagement,
+and inclusive policy structure and practice. A
+synthesized list of system-wide levers found in
+the literature are listed on the following page as
+necessary conditions.
+
+2.9
+
+L I T E RAT U R E R E VIE W
+
+Multi-Tiered
+Systems of Support
+
+NECESSARY
+CONDITION
+
+2.10
+
+EXPLANATION
+
+Build
+administrative
+leadership and
+support
+
+The literature noted that administrators need to build consensus to commit to
+implementing MTSS (Batsche et al. 2005 and Castillo et al. 2010 in Averill and
+Rinaldi, n.d.); build a shared vision and supportive data-driven problemsolving culture school-wide (Batsche et al. 2005 and Castillo, et al. 2010 in
+Averill and Rinaldi, n.d.; Colorado Department of Education 2017); cultivate
+their instructional leadership skills in MTSS (Mellard, Prewett, and Deshler
+2012 in Drury et al. 2021); foster inclusive decision-making (SWIFT Education
+Center 2024); and deliver targeted professional development for staff (SWIFT
+Education Center 2024).
+
+Build a schoolwide MTSS
+infrastructure
+
+In collaboration with their districts, schools need to build a school-wide MTSS
+infrastructure (Batsche et al. 2005 and Castillo, et al. 2010 in Averill and Rinaldi,
+n.d.) that includes data collection methods (McIntosh and Goodman 2016); a
+variety of collaborative teaming structures across systems (general education,
+special education, administration, and school- and district-level support staff)
+(Averill and Rinaldi, n.d.; McIntosh and Goodman 2016) to utilize the data for
+problem-solving (Gersten et al. 2008; Sugai and Horner 2009 in McIntosh and
+Goodman 2016); aligning and organizing the tiered support, including those
+for special education services (SWIFT Education Center 2024; Thurlow et al.
+2020); incorporating aligned curriculum and intervention programs based
+on Universal Design for Learning and other evidence-based practices (SWIFT
+Education Center 2024); and building knowledge on continuous improvement
+cycles (SWIFT Education Center 2021).
+
+Integrate the
+school’s resources
+and organizational
+structure
+
+Integrating resources and organizational structures includes actions such
+as acquiring assessment and intervention programs (Mason et al. 2019;
+Minnesota Department of Education 2019), redefining roles for paraeducators
+and specialists (SWIFT Education Center 2024); hiring and training MTSS
+coaches (Coyne et al. 2018); ensuring every student has a primary general
+education classroom placement (SWIFT Education Center 2024); scheduling
+appropriate time in the school week for data analysis and problem-solving,
+planning, and implementing tiered support (Mason et al. 2019); ensuring the use
+of language and practices that are based on service needs as opposed to
+disability labels (SWIFT Education Center 2024) and creating a positive school
+culture where all students have access to extracurricular activities and all staff are
+contributing to student outcomes (SWIFT Education Center 2024).
+
+Include families
+and community
+members as
+partners
+
+MTSS is a whole school transformation that requires the partnership of families and
+community members. As part of the MTSS adoption process, schools and districts
+should engage authentically with families for input and feedback (SWIFT
+Education Center 2024), provide opportunities for families and community
+members to participate in school and the education of the students (Fan and
+Chen 2001 and Jeynes 2012 in Gross, Choi, and Francis 2018; SWIFT Education
+Center 2024) and provide families with information needed to support their
+students (Fan and Chen 2001 and Jeynes 2012 in Gross, Choi, and Francis 2018;
+SWIFT Education Center 2024).
+
+L I T E RAT U R E R EV IEW
+
+Multi-Tiered
+Systems of Support
+
+Evaluate and
+adapt district
+policies and
+practices for MTSS
+
+A variety of district changes are needed to support MTSS adoption and
+implementation. Those changes include recalibrating district office roles
+to cross-functionally support MTSS implementation (Averill and Rinaldi, n.d.),
+building knowledge of district staff (including the superintendent) in MTSS
+(Drury et al. 2021; SWIFT Education Center 2024), incorporating opportunities for
+district staff to attend school-level meetings (SWIFT Education Center 2024),
+building a regular process for reviewing and revising policies that impact
+MTSS implementation (SWIFT Education Center 2024), and removing barriers to
+implementing MTSS (SWIFT Education Center 2024).
+
+Schools and districts can use tools such as the Schoolwide Integrated Framework for Transformation
+Fidelity of Implementation Tool (Pollitt et al. 2019) or the Academic and Behavior Response to
+Intervention School Assessment (ASA) fidelity tool (Scott et al. 2019) to track their MTSS adoption
+progress.
+Further, the literature noted that the order in which schools and districts implement the above
+system changes matters for successful MTSS adoption. A study by Choi et al. (2018, 10) found that
+administrative leadership played a critical role in school transformation and that “meaningful schoolwide change might not occur without the mediation of high-quality school leadership.” This suggests
+that schools and districts in early stages of adoption focus on first building administrative leadership in
+order to propel the other system changes.
+
+Conclusion
+In conclusion, MTSS is truly a school-wide approach to meeting students’ needs. When implemented
+with fidelity, MTSS can be an effective approach to meeting all students’ needs, not just students with
+disabilities. For successful implementation, schools and districts must understand they are committing
+to a whole-school transformation and subsequently invest significant time to continuously align systemwide resources, professional development, policies, structures, and systems.
+Schools implementing MTSS with high fidelity have seen strong gains in math and limited gains in
+reading for all students, in addition to reduced suspensions. For staff, high-fidelity implementation
+provides organizational clarity on educational practices and policies; accessible data systems;
+increased whole-school collaboration; and more sustainable, efficient, and effective implementation
+of student services. In short, MTSS is a framework for meeting student needs that, if implemented
+with high fidelity, has the potential to improve academic and behavioral outcomes for Black and Latinx
+students with disabilities experiencing poverty.
+Best practices for implementing MTSS are discussed in Navigating Data for Multi-Tiered Systems of
+Support: Equity-based practices for using data at the district, school, and classroom levels.
+
+2.11
+
+L I T E RAT U R E R E VIE W
+
+Multi-Tiered
+Systems of Support
+
+Appendix
+References
+Algozzine, Bob, Holly Morsbach Sweeney, Jeong Hoon Choi, Rob Horner, Wayne Sailor, Amy
+B. McCart, Allyson Satter, and Kathleen Lynne Lane. 2016. “Development and Preliminary
+Technical Adequacy of the Schoolwide Integrated Framework for Transformation Fidelity of
+Implementation Tool.” Journal of Psychoeducational Assessment 35, no. 3: 302–322.
+https://doi.org/10.1177/0734282915626303
+Alnasser, Yazeed Abdulaziz. 2020. “The Perspectives of Colorado General and Special Education
+Teachers on the Barriers to Co-Teaching in the Inclusive Elementary School Classroom.”
+Education 3, no.13: 1–14. https://doi.org/10.1080/03004279.2020.1776363
+Arden, Sarah V., Allison G. Gandhi, Rebecca Zumeta Edmonds, and Louis Danielson. 2017. “Toward
+More Effective Tiered Systems: Lessons from National Implementation Efforts.” Exceptional
+Children 83, no. 3: 269–280. https://doi.org/10.1177/0014402917693565
+Artiles, Alfredo J., and Elizabeth B. Kozleski. 2016. “Inclusive Education’s Promises and Trajectories:
+Critical Notes about Future Research on a Venerable Idea.” Education Policy Analysis Archives
+24: 43. https://doi.org/10.14507/epaa.24.1919
+Averill, Orla Higgens, and Claudia Rinaldi. (n.d.). Research Brief: Multi-tier System of Supports (MTSS).
+Tempe, AZ: Urban Special Education Leadership Collaborative. Retrieved March 20, 2024 from
+https://www.researchgate.net/publication/257943832
+Balu, Rekha, Pei Zhu, Fred Doolittle, Ellen Schiller, Joseph Jenkins, and Russell Gersten. 2015.
+Evaluation Of Response To Intervention Practices For Elementary School Reading (NCEE
+2016–4000). Washington, DC: National Center for Education Evaluation and Regional
+Assistance, Institute of Education Sciences, US Department of Education.
+Batsche, George, Judy Elliott, J.L. Graden, J. Grimes, J. Kovaleski, D. Prasse, et al. 2005. Response to
+Intervention: Policy Considerations and Implementation. Alexandria, VA: National Association of
+State Directors of Special Education.
+Brendle, Joanna, Robert Lock, and Kate Piazza. 2017. “A Study of Co-Teaching Identifying Effective
+Implementation Strategies.” International Journal of Special Education 32, no. 3: 538–550.
+https://files.eric.ed.gov/fulltext/EJ1184155.pdf
+California Department of Education. n.d. “Multi-Tiered System of Supports.” Last reviewed October 4,
+2023. Accessed March 18, 2024. https://www.cde.ca.gov/ci/cr/ri/
+Choi, Jeong Hoon, Amy B. McCart, Dawn H. Miller, and Wayne Sailor. 2022. “Issues in Statewide
+Scale-Up of a Multi-Tiered System of Support.” Journal of School Leadership 32, no. 5: 514–
+536. https://doi.org/10.1177/10526846211067650
+
+2.12
+
+L I T E RAT U R E R EV IEW
+
+Multi-Tiered
+Systems of Support
+
+Choi, Jeong Hoon, Amy B. McCart, Tyler A. Hicks, and Wayne Sailor. 2018. “An Analysis of Mediating
+Effects of School Leadership on MTSS Implementation.” The Journal of Special Education 53,
+no.1. http://doi.org/10.1177/0022466918804815
+Choi, Jeong Hoon, Amy B. McCart, and Wayne Sailor. 2020. “Achievement of Students with IEPs and
+Associated Relationships with an Inclusive MTSS Framework.” The Journal of Special
+Education 54, no. 3. http://doi.org/10.1177/0022466919897408
+Choi, Jeong Hoon, Amy B. McCart, and Wayne Sailor. 2020. “Reshaping Educational Systems to
+Realize the Promise of Inclusive Education.” FIRE: Forum for International Research in
+Education 6, no. 1: 8–23. https://files.eric.ed.gov/fulltext/EJ1241233.pdf
+Choi, Jeong Hoon, Jessica M. Meisenheimer, Amy B. McCart, and Wayne Sailor. 2016. “Improving
+Learning for All Students Through Equity-Based Inclusive Reform Practices: Effectiveness of a
+Fully Integrated Schoolwide Model on Student Reading and Math Achievement.” Remedial and
+Special Education 38, no. 1: 28–41. http://doi.org/10.1177/0741932516644054
+Cole, Sandi, Hardy Murphy, Michael Frisby, Teresa Grossi, and Hannah Bolte. n.d. A Longitudinal Study
+to Determine the Impact of Inclusion on Student Academic Outcomes. Executive Summary
+Report. Indiana University Center on Education and Lifelong Learning. Accessed March 18,
+2024. https://iidc.indiana.edu/cell/what-we-do/pdf/Inclusion-study-handout.pdf
+Colorado Department of Education. 2017. “Multi-tiered Systems of Support (MTSS) Guidance
+Article.” Accessed March 18, 2024. https://www.cde.state.co.us/mtss/handouts-mtssoverviewshpgbreakoutsept-2017
+Coyne, Michael D., Ashley Oldham, Kaitlin Leonard, Darci Burns, and Nicholas Gage. 2016. “Delving
+into the Details: Implementing Multi-Tiered K–3 Reading Supports in High Priority Schools.”
+New Directions in Child and Adolescent Development 2016, no. 154: 67–85.
+https://doi.org/10.1002/cad.20175
+Coyne, Michael D., Ashley Oldham, Shaun M. Dougherty, Kaitlin Leonard, Taylor Koriakin, Nicholas
+A. Gage, Darci Burns, and Margie Gillis. 2018. “Evaluating the Effects of Supplemental Reading
+Intervention within an MTSS or RTI Reading Reform Initiative Using a Regression Discontinuity
+Design.” Exceptional Children 84, no. 4: 350–367. https://doi.org/10.1177/0014402918772791
+Cramer, Elizabeth, Andrea Liston, Ann Nevin, and Jacqueline Thousand. 2010. “Co-Teaching in Urban
+Secondary School Districts to Meet the Needs of all Teachers and Learners: Implications for
+Teacher Education Reform.” International Journal of Whole Schooling 6, no. 2: 59–76.
+https://files.eric.ed.gov/fulltext/EJ912017.pdf
+Drury, Jodi, Michael P. Krezmien, Kristine Camacho, and Alicia Gonzales. 2021. “Educational Leaders’
+Perspectives on Their Preparation, Practice, and Professional Development in Multi-Tiered
+Systems of Support.” Journal of the American Academy of Special Education Professionals, Fall
+2021: 7–29.
+Fuchs, Douglas and Lynn S. Fuchs. 2006. “Introduction to Response to Intervention: What, Why, and
+How Valid Is It?” Reading Research Quarterly 41, no. 1: 93–99.
+
+2.13
+
+L I T E RAT U R E R EV IEW
+
+Multi-Tiered
+Systems of Support
+
+Gage, Nicholas A., Ashley S. MacSuga-Gage, Debra Prykanowski, Michael Coyne, and Terrance M.
+Scott. 2015. “Investigating the Collateral Effects of Behavior Management on Early Literacy
+Skills.” Education and Treatment of Children 38, no. 4: 523–540.
+http://doi.org/10.1353/etc.2015.0018
+Gersten, Russell, David J. Chard, Madhavi Jayanthi, Scott K. Baker, Paul Morphy, and Jonathan
+Flojo. 2009. “Mathematics Instruction for Students with Learning Disabilities: A Meta-Analysis
+of Instructional Components.” Review of Educational Research 79, no. 3: 1202–1242.
+https://doi.org/10.3102/0034654309334431
+Giangreco, Michael F. and Jesse C. Suter. 2015. “Precarious or Purposeful? Proactively Building
+Inclusive Special Education Delivery on Solid Ground.” Inclusion 3, no. 3: 112–131.
+https://doi.org/10.1352/2326-6988-3.3.112
+Gross, Judith M. S., Jeong Hoon Choi, and Grace L. Francis. 2018. “Perceptions of Family
+Engagement and Support in SWIFT Schools.” Inclusion 6, no. 1: 60–74.
+https://www.doi.org/10.1352/2326-6988-6.1.60
+Horner, Rob H., and James W. Halle. 2020. “Implications of Emerging Educational Reforms for
+Individuals with Severe Disabilities.” Research and Practice for Persons with Severe Disabilities
+45, no. 2: 75–80. https://doi.org/10.1177/1540796919872210
+IRIS Center. (n.d.). MTSS/RTI. Accessed March 18, 2024. https://iris.peabody.vanderbilt.edu/wpcontent/uploads/misc_media/brochures/IRIS_MTSS_RTI_rsrc_brochure.pdf
+Leonard, Kaitlin M., Michael D. Coyne, Ashley C. Oldham, Darci Burns, and Margie B. Gillis. 2019.
+“Implementing MTSS in Beginning Reading: Tools and Systems to Support Schools and
+Teachers.” Learning Disabilities Research & Practice 34, no. 2: 110–117.
+http://doi.org/10.1111/ldrp.12192
+Mason, Erica N., Sarah A. Benz, Erica S. Lembke, Matthew K. Burns, and Sarah R. Powell. 2019.
+“From Professional Development to Implementation: A District’s Experience Implementing
+Mathematics Tiered Systems of Support.” Learning Disabilities Research & Practice 34, no. 4:
+207–214. https://doi.org/10.1111/ldrp.12206
+McCart, Amy B. and Dawn Miller, D. 2020. Leading Equity-Based MTSS for All Students. Thousand
+Oaks, CA: Corwin Press.
+McCart, Amy B., Nikki Wolf, Holly M. Sweeney, and Jeong Hoon Choi. 2009. “The Application of
+a Family-Based Multi-Tiered System of Support.” NHSA Dialog 12, no. 2: 122–132.
+https://doi.org/10.1080/15240750902774692
+McIntosh, Kent, and Steve Goodman. 2016. Integrated Multi-Tiered Systems of Support: Blending
+Academic RTI and Schoolwide PBIS. New York, NY: Guilford.
+Minnesota Department of Education. 2019. “Using Multi-Tiered Systems of Support in the Identification
+of ELs with Disabilities.” Chapter 7 in English Learner Companion to Promoting Fair
+Evaluations. Accessed March 18, 2024. https://education.mn.gov/MDE/dse/sped/div/el/
+MDE087755
+
+2.14
+
+L I T E RAT U R E R EV IEW
+
+Multi-Tiered
+Systems of Support
+
+Pollitt, Daniel T., Amy B. McCart, Allyson Satter, Jessica Meisenheimer, Holly Morsbach Sweeney, Rob
+Horner, Bob Algozzine, Kathleen Lynne Lane, B. Roger, Jeong Hoon Choi, and Wayne Sailor.
+2019. Schoolwide Integrated Framework for Transformation Fidelity of Implementation Tool,
+Version 2.2. SWIFT Education Center.
+Rinaldi, Claudia, and Jennifer Samson. 2008. “English Language Learners and Response to
+Intervention: Referral Considerations.” TEACHING Exceptional Children 40, no. 5: 6–14.
+https://doi.org/10.1177/004005990804000501
+Sailor, Wayne. 2015. “Advances in Schoolwide Inclusive School Reform.” Remedial and Special
+Education 36, no. 2: 94–99. https://doi.org/10.1177/0741932514555021
+Scott, Terrance M., Nicholas A. Gage, Regina G. Hirn, Amy Shearer Lingo, and Jon Burt. 2019.
+“An Examination of the Association between MTSS Implementation Fidelity Measures and
+Student Outcomes.” Preventing School Failure: Alternative Education for Children and Youth 63,
+no. 4: 308–316. https://doi.org/10.1080/1045988x.2019.1605971
+Sugai, George and Brandi Simonsen. 2012. PBIS Revisited 1: Positive Behavior and Supports: History,
+Defining Features, and Misconceptions. Center for PBIS & Center for Positive Behavioral
+Interventions and Supports, University of Connecticut. Accessed March 19, 2024.
+https://www.pbis.org/resource/positive-behavioral-interventions-and-supports-historydefining-features-and-misconceptions
+SWIFT Education Center. 2021. “Professional Learning Community: MTSS Session One: 10.29.21”
+Slide presentation at the Networked Improvement Community for Students with Disabilities
+MTSS Professional Learning Community on October 29, 2021. https://docs.google.com/
+presentation/d/1kDHBatC9TYX4LzY9_W0t3KVEWFoQg9at/
+SWIFT Education Center. 2024. SWIFT Resources: MTSS. Retrieved March 19, 2024 from:
+https://swiftschools.org/docs/
+Thurlow, Martha L., Gail Ghere, Sheryl S. Lazarus, and Kristin K. Liu. 2020. MTSS for All: Including
+Students with the Most Significant Cognitive Disabilities. Minneapolis, MN: University of
+Minnesota, National Center on Educational Outcomes/TIES Center. Accessed March 19, 2024.
+https://nceo.umn.edu/docs/OnlinePubs/NCEOBriefMTSS.pdf
+Weiss, Margaret P., Holly Glaser, and John Wills Lloyd. 2020. “An Exploratory Study of an Instructional
+Model for Co-Teaching.” Exceptionality 30, no. 4: 232–245. http://doi.org/10.1080/09362835.20
+20.1727338
+Zhang, Jingyuan, Ronald C. Martella, Sungwoo Kang, and Busra Yilmaz Yenioglu. 2023. “Response
+to Intervention (RTI)/Multi-Tiered Systems of Support (MTSS): A Nationwide Analysis.”
+Journal of Educational Leadership & Policy Studies 7, no 2. Retrieved March 20, 2024 from
+https://go.southernct.edu/jelps/
+
+2.15
+
+L I T E RAT U R E R EV IEW
+
+Multi-Tiered
+Systems of Support

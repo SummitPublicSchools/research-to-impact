@@ -1,0 +1,1039 @@
+Strengthening
+Timely Interventions
+Through
+Goal Setting and
+Progress Monitoring
+A RESEARCH-TO-IMPACT PRACTICE DEVELOPED WITH
+THE NETWORKED IMPROVEMENT COMMUNITY
+FOR STUDENTS WITH DISABILITIES
+
+TA BLE O F C O N T E N T S
+6.3............ Practice Overview
+6.3 | What is the Practice?
+6.4 | Why are Goal Setting and Progress Monitoring Important?
+
+6.5............ Bringing this Practice to Life
+6.9............ Implementation at a Glance
+6.9 | Enabling Conditions
+6.10 | Steps to Implement
+
+6.11.......... How to Implement this Practice
+6.11 | Before Implementing
+6.11 | Step 1: Select a Progress-Monitoring Tool
+6.11 | Step 2: Train Faculty on Administering the Tool and Interpreting
+the Data
+6.12 | Implementing Goal Setting and Progress Monitoring
+6.12 | Step 3: Collect Baseline Data
+6.13 | Step 4: Collaborate with Students to Set Goals
+6.13 | Step 5: Conduct Progress Monitoring and Enter
+Progress-Monitoring Data
+6.14 | Step 6: Analyze Progress-Monitoring Data, Engage in
+Decision-Making, and Document Decisions
+
+6.16.......... Summary
+6.17.......... Appendix
+6.18 | How to Measure
+6.20 | Notes
+6.20 | Bibliography
+
+Strengthening Timely
+Interventions Through
+Goal Setting and
+Progress Monitoring
+Implementation Level
+
+Who Implements
+
+District/Central Office
+
+Teacher(s)
+
+School
+
+Instructional Coach
+
+Program/Department
+
+Principal
+
+Classroom
+
+Central Office Leadership
+Specialist
+
+Practice Overview
+What is the Practice?
+Educators establish reading goals, monitor student
+progress toward those goals, and analyze progressmonitoring data to inform decisions to continue,
+intensify, or discontinue reading interventions.
+
+What do we mean by
+progress monitoring?
+Progress monitoring serves three
+primary purposes within multi-tiered
+systems of support:1
+• Assess students’ performance
+• Quantify a student’s
+responsiveness to intervention
+• Evaluate the effectiveness of
+interventions using valid and
+reliable measures
+
+6.3
+
+G O AL S E T T IN G A N D PR OGR E SS M O N ITOR IN G
+
+Literacy
+
+Why are Goal Setting and Progress Monitoring Important?
+When coupled with structures for reviewing the data and using data to guide intervention decisions,
+consistent progress monitoring can ensure that (1) students receive more intensive support if they aren’t
+responding adequately to intervention and (2) students are referred for a less restrictive plan when they
+no longer demonstrate a need for the current level of service.
+Students with disabilities often are not as responsive as students without disabilities to standard
+administration of evidence-based academic interventions. For this reason, a primary function of
+the specially designed academic instruction provided through special education is to intensify and
+individualize instruction for this population. Using data to inform decisions while intensifying instruction
+for students can result in improved outcomes for students with disabilities,2 and using established criteria
+to inform decision-making can reduce bias and ensure equitable services and access for all students.
+It is also critical that students don’t remain in an intervention when they no longer need the support.
+While a primary goal of special education is to close academic achievement gaps between students
+with disabilities and their typically developing peers, the majority of students, including students with
+high-incidence disabilities, who are found eligible to receive special education services continue in
+special education across the duration of their school careers, and students experiencing socioeconomic
+disadvantage are even less likely to exit special education services.3 Consistent progress monitoring and
+data-driven planning can serve to ensure instruction is provided within the least restrictive environment.
+
+Why it Works
+PROGRESS MONITORING ENABLES CONTINUOUS IMPROVEMENT OF INSTRUCTION.
+Progress monitoring using tools such as curriculum-based measurements (CBMs) helps teachers
+design more effective instructional programs that result in improved student outcomes.4 See Guiding
+Literacy Interventions Through Tiered Assessment for more information on CBMs.
+WHEN COUPLED WITH DATA-BASED DECISION-MAKING PROCESSES, PROGRESS
+MONITORING DEMANDS A BALANCE OF SCAFFOLDS AND STUDENT INDEPENDENCE.
+Data-based program modification is defined as a “sequence of decisions that are made when modifying
+a student’s program and a parallel set of evaluation activities that are intended to increase the likelihood
+that program modifications [will] be successful.”5 This regular monitoring and analysis of progress spurs
+actions such as increasing scaffolds in response to low rates of improvement and increasing student
+independence as mastery and progress are achieved.
+ENGAGING STUDENTS IN GOAL SETTING AND PROGRESS MONITORING CAN
+SUPPORT MOTIVATION TO READ AND BUILD BENEFICIAL SKILLS.
+Many secondary students who are not yet proficient readers have a history of reading failure and a low
+sense of reading self-efficacy. Being able to visualize their own progress toward a goal via a progressmonitoring graph can serve as a strong motivator and reinforce the benefits of reading practice.6
+Oftentimes, progress monitoring is something that is done to students, instead of being a collaborative
+process completed with students.7 When implemented appropriately, goal setting and progress
+monitoring build self-determination skills and strategies like self-monitoring and self-evaluation, which
+have been found to be especially beneficial for students with learning disabilities.8
+
+6.4
+
+G O AL S E T T IN G A N D PR OGR E SS M O N ITOR IN G
+
+Literacy
+
+Bringing this Practice to Life
+PRACTICE SNAPSHOTS OF GOAL SETTING AND PROGRESS
+MONITORING FOR ADOLESCENT READERS
+Across the Networked Improvement Community, organizations tried out different approaches to progress
+monitoring and goal setting with secondary readers to discover what would work for their student
+populations. Each team focused on developing data-rich routines and resources that engaged students as
+key stakeholders in their process.
+
+DESIGNING A PROGRESS-MONITORING SYSTEM
+AT UNCOMMON CHARTER HIGH SCHOOL
+Uncommon Charter High School set out to redesign
+Academic Prep, a reading intervention course for 9th grade
+students with disabilities. Literacy Innovation Specialist
+Val Dutta and Special Education Coordinator Giovanni
+(Gio) Zaccheo worked in partnership with the Networked
+Improvement Community (NIC) team to develop a process for
+monitoring student progress and using data to drive instructional
+decision-making. The following case study highlights their
+journey from selecting a progress-monitoring tool to analyzing
+student data and adapting interventions.
+
+6.5
+
+G O AL S E T T IN G A N D PR OGR E SS M O N ITOR IN G
+
+Literacy
+
+Early in the process of redesigning Uncommon Charter High School’s reading intervention
+class, Val knew that she and Gio would need a way to quickly and efficiently monitor students’
+responsiveness to the word study and fluency interventions they were implementing in the
+classroom. Val set about designing a progress-monitoring system that allowed her team to
+efficiently and accurately answer the following questions:
+• Which students are responding as expected to interventions? Which students may no longer
+need these interventions?
+• Which students are not responding as expected to interventions? Which students may require
+a more intensive level of reading support?
+• How is our program working overall? Are most students responding as expected to
+interventions, or do we need to redesign our overall approach to better reach students?
+With an understanding of the importance of selecting progress-monitoring assessments that are
+valid and reliable while also quick and easy to administer, Val decided to leverage curriculum-based
+measurements (CBMs) as the primary assessment to support progress monitoring for the students
+participating in the Academic Prep class.
+Students’ reading progress in Academic Prep is now monitored monthly via ORF CBMs. Val and
+Gio meet regularly to review student data and evaluate student progress in rate and accuracy. As
+an example of the decisions that they reach in these meetings, upon noting that students were
+misreading words that included inflectional endings (e.g., -er, -ing, -ed), Val and Gio included
+explicit instruction and practice targeting inflectional endings in upcoming lesson plans. Consistent
+progress monitoring allows Val and Gio to evaluate the effectiveness of their interventions and
+adjust their instruction as needed, celebrate success with students, and report on student progress
+to key stakeholders.
+
+An oral reading fluency curriculum-based measurement (ORF CBM) is a one-minute
+timed assessment of the rate and accuracy of a student’s oral reading fluency. ORF CBMs
+are administered in a 1:1 setting, during which the student reads aloud for one minute from
+a leveled passage while an adult listens and scores, noting errors and the number of words the
+student reads in one minute. The administrator of the assessment calculates both accuracy (the
+percentage of the total words read that were read correctly) and rate (the total number of words
+read correctly, typically expressed as “correct words per minute,” or CWPM). ORF CBMs are one
+of the strongest predictors of a student’s overall reading performance9 and are widely used as
+screening, diagnostic, and progress-monitoring tools. Common commercial publishers of ORF
+CBMs include DIBELS, Acadience, and AIMSweb. Explore the repeated reading chapter for
+more detailed information on oral reading fluency assessment and intervention.
+
+6.6
+
+G O AL S E T T IN G A N D PR OGR E SS M O N ITOR IN G
+
+Literacy
+
+SETTING PROGRESS-MONITORING GOALS AT NOBLE SCHOOLS
+Noble Schools has a mission to ensure all students have
+“school experiences that equip them to complete college and
+lead choice-filled lives.” As they examined their data at the
+outset of their work with the NIC and faced the reality that less
+than three percent of their students with IEPs were considered
+proficient readers at their two focal campuses, they knew
+redesigning their approach to supporting literacy would be a
+necessary focus of their improvement work.
+
+The Noble team understood that to improve student reading outcomes, they would need to create
+systems to support students in understanding their reading levels, investing in setting personal
+growth goals, and naming strategies to work toward those goals.
+Upon selecting a common universal screening tool at two focal sites piloting reading systems
+in their network, Noble Schools began administering the Achieve3000 LevelSet assessment
+three times yearly as a means of regularly collecting information on student reading proficiency
+and growth via a Lexile score (a number
+representing both a reader’s ability on the Lexile
+scale as well as the level of text a reader is likely
+Building Motivation
+to comprehend). Rowe-Clark Math & Science
+and Engagement in
+Academy, one of the two focal sites, initiated
+the goal-setting process by educating students
+Adolescent Readers
+on the meaning and importance of their Lexile
+Adolescent readers who are not yet
+scores. They leveraged a centrally created
+reading proficiently often experience
+slide deck to provide staff and students with
+lower motivation to read than their
+shared language for defining Lexile, connecting
+peers who don’t experience reading
+Lexile levels to specific college and career
+difficulty. Explicit strategies for building
+motivation and engagement are a
+paths, and providing guidance on realistic and
+key feature of adolescent literacy
+ambitious Lexile growth goals. With this shared
+instruction. A primary recommendation
+understanding in place, general education
+for increasing motivation to read
+teachers now meet 1:1 with students after
+among secondary learners is to provide
+each administration of the LevelSet to review
+interesting content goals for reading,
+their individual Lexile scores, set a growth
+such as exploring different genres,
+goal, and name one or more strategies to
+building reading stamina, or learning
+support progress toward that goal. Students are
+about a specific topic of interest via
+provided with a graphic organizer to support
+reading.10
+active engagement in the conferencing process.
+
+6.7
+
+G O AL S E T T IN G A N D PR OGR E SS M O N ITOR IN G
+
+Literacy
+
+As a result of the goal-setting conferences, Noble has found that students not only express
+investment in knowing their Lexile levels but also are able to articulate the connection between their
+reading levels and future college and career goals. Taking what they have learned from the smallscale pilot at their focal sites, Noble has now standardized universal screening across all campuses
+in their network so all Noble students engage in universal assessment of Lexile levels two times per
+year, with an additional mid-year assessment for Noble students with IEPs. Noble is also currently
+expanding their student conferencing and goal-setting practices to further their impact on student
+reading growth and self-determination skill development.
+
+USING PROGRESS-MONITORING DATA TO GUIDE INTERVENTION
+PLANNING AT GREEN DOT PUBLIC SCHOOLS
+
+Green Dot Public Schools has worked to design a
+suite of evidence-based reading interventions to support
+their students who are not yet reading grade-level text
+proficiently. For students who are receiving interventions
+targeting word reading and/or reading fluency skills,
+intervention teams are collecting ORF CBM data to evaluate
+students’ responses to interventions.
+
+Green Dot has developed a structured protocol to support collaborative instructional decisionmaking rooted in student data. This protocol asks teams to:
+• individually review student data against Green Dot’s decision-making criteria, and
+• discuss individual and group-level trends and determine which students are ready to exit
+intervention, which students will continue in the current interventions, and which students
+need adaptations or adjustments to their intervention plans to accelerate progress.
+Specific decision-making guidance supports these conversations (see Guiding Literacy
+Interventions Through Tiered Assessment for advice on creating decision-making guidelines).
+Half of the students who participated in the reading fluency intervention during the 2022–
+23 school year increased their oral reading fluency by over 30 words per minute from fall
+to spring, and in a follow-up conversation using the protocol, a Green Dot intervention team
+decided to exit these students from an oral reading fluency intervention because they had met the
+benchmark. Structured processes to support collaborative, data-driven intervention decisions are
+supporting Green Dot to ensure not only that students are responding to the reading interventions
+they are participating in, but also that they are exited from those interventions as soon as they no
+longer need them.
+
+6.8
+
+G O AL S E T T IN G A N D PR OGR E SS M O N ITOR IN G
+
+Literacy
+
+STRENGTHENING TIMELY INTERVENTIONS THROUGH
+GOAL SETTING AND PROGRESS MONITORING
+
+Implementation at a Glance
+The information in this section provides a high-level view of what to consider when implementing this
+practice. Enabling Conditions describes the minimum conditions needed for successful implementation,
+including resources, mindsets, staffing, and recommended time allocation. Steps to Implement presents a
+concise checklist of action items, which are explained in detail in How to Implement This Practice below.
+
+Enabling Conditions
+INFRASTRUCTURE
+Progress-monitoring assessments that are valid and reliable for the population being served
+A platform for collecting data and generating reports (see Implementing Routine Data Cycles to
+Rapidly Address Student Needs)
+
+Prerequisites
+
+Defined roles and timelines for monitoring the collection of data, data cleaning as necessary, and
+report generation
+
+CULTURE
+Investment in the use of data to drive instructional planning and programming decisions
+
+HABITS AND ROUTINES
+Collaborative data-based decision-making processes and structures, including:
+– protected time for meetings immediately following the close of each screening assessment
+window,
+– established data-based decision-making guidelines, and
+– meeting agendas and protocols
+
+Recommended Materials
+
+Processes and structures to support goal setting with students
+
+6.9
+
+Resources:
+– An established progress-monitoring schedule (at least monthly)
+– Student-facing documents or resources to track progress toward goals and document
+goal-setting conversations
+POTENTIAL FINANCIAL COST OF BOTH THE PROGRESS-MONITORING
+PLATFORM AND TRAINING
+Cost will vary by assessment and by the number of assessments purchased. The current
+cost of some common progress-monitoring systems used in secondary schools include:
+• AIMSweb Plus: $8.50/student/year
+• Acadience: Test materials are free; Data management is $1.50/student/year
+
+G O AL S E T T IN G A N D PR OGR E SS M O N ITOR IN G
+
+Literacy
+
+Staff
+Commitment
+
+Dedicated staff member(s) (teachers or paraprofessionals) to conduct progress monitoring and
+lead goal-setting conversations with students
+Dedicated staff member(s) (instructional coach, special education leader, lead teacher) to
+oversee the implementation of progress-monitoring plans, data-based decision-making and
+documentation, revision of instructional plans, and student conferencing
+
+Recommended Time Allocation
+
+CENTRAL AND SCHOOL LEADERSHIP (INCLUDING TEACHER LEADERS)
+Time to vet and select progress-monitoring tools (or supervise this process if teachers lead it)
+(1–2 hours)
+Time to provide training (or secure external partners for training) on the administration of new
+progress-monitoring tools and interpretation of the data (1–2 hours)
+Time to participate in data-based decision-making meetings (1–3 hours per intervention cycle)
+
+TEACHERS
+Time to administer progress-monitoring assessment
+– This will depend on (1) the measure chosen and (2) the frequency of progress monitoring.
+– Weekly administration of oral reading fluency curriculum-based measurements will require
+approximately five minutes per student, including preparation, administration, and scoring.
+Time to facilitate student goal-setting and progress-monitoring conferences
+– Approximately five minutes per student per conference
+
+Steps to Implement
+BEFORE IMPLEMENTING
+Select a progress-monitoring tool
+Train faculty on administering the tool
+and interpreting the data
+IMPLEMENTING GOAL SETTING AND
+PROGRESS MONITORING
+Collect baseline data
+Collaborate with students to set goals
+Conduct progress monitoring and enter progressmonitoring data
+Analyze progress-monitoring data,
+engage in decision-making, and
+document decisions
+
+6.10
+
+G O AL S E T T IN G A N D P R OGR ES S MON ITOR IN G
+
+Literacy
+
+STRENGTHENING TIMELY INTERVENTIONS THROUGH
+GOAL SETTING AND PROGRESS MONITORING
+
+How to Implement this Practice
+Before Implementing
+Step 1: Select a Progress-Monitoring Tool
+Choose a progress-monitoring tool that meets the following criteria:
+• It is valid and reliable (see Guiding Literacy Interventions Through Tiered Assessment
+for more guidance on assessment validity and reliability).
+• It has a sufficient number of alternative forms (e.g., different passages that are equally leveled)
+to allow for regular monitoring of progress.
+• It provides performance benchmarks.
+• It is efficient to administer and score.
+
+Step 2: Train Faculty on Administering the Tool and
+Interpreting the Data
+Prepare for progress monitoring by establishing the systems
+and routines required for implementation, including the data
+management system where staff will input student scores
+and monitor student progress, and training staff in their use.
+Training on progress-monitoring tools can be orchestrated
+through in-person and online learning options. If using a
+common progress-monitoring tool such as CBMs, free
+training is available via several online resources:
+• “How to: Assess Reading Speed with DBM: Oral
+Reading Fluency Passages” from Jim Wright and
+Intervention Central
+• “Reading Curriculum Based Measurement (Oral
+Reading Fluency)” from Vanderbilt University
+• DIBELS 8th Edition Administration and Scoring
+Guide from the University of Oregon
+These online resource platforms often include handouts for
+families and students alongside training videos and tools
+that can be useful for staff training and support.
+
+6.11
+
+G O AL S ET T IN G A N D PR OGR E SS M ON ITOR IN G
+
+Literacy
+
+Implementing Goal Setting and Progress Monitoring
+Step 3: Collect Baseline Data
+Assess students using the selected progress-monitoring tool at the onset of the intervention and record
+this as the baseline score. When using CBMs for progress monitoring, common practice is to administer
+three passages and use the median score as the baseline score. Subsequent progress monitoring only
+collects data on one passage.
+Baseline data should be gathered in the established data management system for staff to access
+and review at the individual level, as well as at group levels (e.g., classroom or grade levels) and at
+subgroup levels (e.g., students with IEPs, students identified as multi-lingual learners).
+It is also important to consider how baseline data will be shared with students and families. While
+conferencing protocols can account for sharing this information with students, schools will also want
+to consider when and how baseline data from universal and progress-monitoring assessments will be
+shared with families, and gather key resources that can aid families in understanding the information
+shared. The University of Oregon’s Resource Page includes a number of handouts in English and
+Spanish that can be shared with families for such purposes. Additional guidance for engaging with
+students and families can be found in the Further Learning section below.
+
+DIBELS® 8th Edition Benchmark Goals, updated July 2020
+
+6.12
+
+G O AL S E T T IN G A N D P R OGR ES S MON ITOR IN G
+
+Literacy
+
+Step 4: Collaborate with Students to Set Goals
+More often than not, goals are established by schools for students rather than in collaboration with
+them. To ensure goals are meaningful and motivating to students, schools need to review student
+baseline data, establish individual goals for student growth grounded in research, and engage
+with students in goal-setting activities. Document these goals in a central location, such as a data
+management system shared across the school, for team reference.
+There are two primary evidence-based methods for setting student goals:
+• Benchmarks: Progress-monitoring tools include internal benchmarks that can be used for goal
+setting. For example, the benchmark rate for oral reading fluency for 8th grade students at the
+beginning of the year using the DIBELS 8th Edition is 125 words correct per minute.
+• Rate of Improvement (ROI): Use an expected rate of improvement to set a goal representing
+gap-closing growth. For example, if typical 8th grade students increase their reading fluency at a
+rate of .5 words per week, a goal might be set for a student to increase their fluency at a rate of .75
+words per week.
+See Further Learning below for detailed guidance on setting goals using both methods.
+Schools can take a variety of approaches to goal setting with students, including 1:1 conferences,
+small group conferences, or classroom goal-setting routines with a focused mini-lesson, like the one
+highlighted in the Noble case study above. School teams may share the baseline score and growth
+target they have established and are tracking internally. Alternatively, they may share suggested
+reading growth targets for rate and accuracy and encourage students to establish their own growth
+goals, as well as goals around reading confidence, habits, or personal accomplishments. It is highly
+encouraged that students and staff share these goals with families to build buy-in and engage in
+school-home partnership to support student growth.
+For students with Individualized Education Plans (IEPs), align progress-monitoring goals with reading
+goals in the IEP to streamline data collection and reporting.
+
+Step 5: Conduct Progress Monitoring and
+Enter Progress-Monitoring Data
+MTSS frameworks recommend progress monitoring at least monthly for
+students receiving Tier 2 support and weekly for students receiving intensive,
+individualized interventions at Tier 3. While it may not always be possible
+to progress-monitor at this frequency, establishing a progress-monitoring
+schedule and calendar can ensure progress monitoring happens regularly.
+Progress-monitoring data should be graphed to facilitate communication
+of progress and data-based decision-making. Some assessment platforms
+(e.g., Acadience, AIMSweb) have internal platforms that graph student
+progress when data is entered. Free online tools such as EasyCBM or
+the National Center on Intensive Intervention’s Student Progress
+Monitoring Tool can also facilitate the graphing of progress-monitoring data.
+
+6.13
+
+G O AL S E T T IN G A N D P R OGR ES S MON ITOR IN G
+
+Literacy
+
+Building Student Agency Through Progress Monitoring
+Educators can use these activities regularly to involve and engage students in the
+progress-monitoring process:
+• Teaching students how to calculate their scores
+• Asking students to complete progress-monitoring graphs
+• Co-creating progress-monitoring goals with students
+• Explicitly naming behaviors contributing to progress and gradually encouraging students to reflect
+on similar behaviors
+A specific six-step protocol for engaging students in progress monitoring suggests that schools:11
+1. Provide explicit performance feedback (actual numbers).
+2. Share true, specific, affirmative feedback (anecdotal feedback on growth/performance).
+3. Work with every student to graph data.
+4. Collaboratively analyze the data with the student.
+5. Engage the student in a reflective discussion about their behaviors/actions that have contributed to
+performance.
+6. Work together to reflect on the current goal, adjust as needed, and discuss an action plan.
+The Further Learning section includes the full six-step protocol, including a sample script for
+engaging students in progress monitoring. Adaptations can be made by school teams to involve
+families during or after these collaborative steps to bolster student agency and motivation.
+
+Step 6: Analyze Progress-Monitoring Data, Engage in
+Decision-Making, and Document Decisions
+Review student data at the end of each intervention cycle (approximately every six to eight weeks). It is
+recommended that six to eight data points be collected before engaging in decision-making.12 Identify
+next steps for individual students based on progress-monitoring data, which might include the following:
+• The student has made accelerated progress, has met their growth goal and the benchmark target,
+and no longer needs this intervention.
+• The student is making good progress but has not yet met the benchmark target and should
+continue in the intervention as it is currently implemented.
+• The student is making some progress but it could be more accelerated. They will continue in the
+current intervention with adaptations.
+• The student is not making progress and needs a more intensive level of intervention.
+Team agendas and protocols can facilitate decision-making and support documentation of decisions.
+Teams should document the intervention next steps in a central location and plan for how decisions will
+be shared with students, families, and other staff members.
+
+6.14
+
+G O AL S E T T IN G A N D P R OGR ES S MON ITOR IN G
+
+Literacy
+
+Diagnostic Data Informs Intensification of Interventions
+One outcome of consistent progress monitoring and data-based decision-making can be the
+identification of students for whom interventions are not working. Often, teams will need to collect
+additional diagnostic data to guide the intensification of intervention for these students. The National
+Center on Intensive Intervention provides technical assistance on the implementation of databased individualization, a framework for leveraging data and evidence-based interventions to design
+intensive intervention plans.
+
+Ánimo Watts teacher Mr. Soria meets 1:1 with a high
+school student to set goals for reading growth.
+
+6.15
+
+G O AL S E T T IN G A N D P R OGR ES S MON ITOR IN G
+
+Literacy
+
+STRENGTHENING TIMELY INTERVENTIONS THROUGH
+GOAL SETTING AND PROGRESS MONITORING
+
+Summary
+Consistent progress monitoring using
+valid and reliable measures is an essential
+component of an effective reading
+intervention program for secondary students.
+When educators regularly review progressmonitoring data, it supports a decisionmaking process that not only flags students
+for more intensive support if progress is
+insufficient, but also ensures students
+don’t continue in intervention after they no
+longer need it. While the goal of special
+education is to facilitate full participation in
+the general education program for students
+with disabilities, most students found eligible
+for special education services, and students
+experiencing poverty in particular, continue in
+specialized programs for the duration of their
+educational careers. Consistent progress
+monitoring and data-driven planning can
+increase participation in general education
+programming and ensure that students
+with disabilities are educated in the least
+restrictive environment.
+
+F URT HE R L E ARNI NG
+
+Assessment Practices
+Within a Multi-Tiered
+System of Support
+CEEDAR CENTER
+
+Six-Step Instructional Routine
+for Engaging Students in
+Progress Monitoring
+PROGRESS CENTER
+
+Progress Monitoring
+CENTER ON MULTI-TIERED SYSTEM
+OF SUPPORTS
+
+Academic Progress
+Monitoring Tools Chart
+NATIONAL CENTER ON INTENSIVE
+INTERVENTION
+
+Strategies for Setting
+High-Quality Academic
+Individualized Education
+Program Goals
+NATIONAL CENTER ON INTENSIVE
+INTERVENTION
+
+How To Speak With
+Families and Communities
+About MTSS
+BRANCHING MINDS
+
+6.16
+
+G O AL S E T T IN G A N D P R OGR ES S MON ITOR IN G
+
+Literacy
+
+STRENGTHENING TIMELY
+INTERVENTIONS THROUGH GOAL
+SETTING AND PROGRESS MONITORING
+
+Appendix
+
+How to Measure
+When implementing goal setting and progress monitoring, measuring how useful, usable, and utilized
+the practice is by team members and across the school system can accelerate learning to improve
+outcomes for students. At minimum, these measures are most essential:
+
+PRIMARY MEASURES
+Measure
+Type
+
+Data
+Collection
+Type
+
+Process
+
+Baseline data
+
+Do all students
+have an
+established
+baseline score
+and progressmonitoring
+goal based on
+established cut
+points?
+
+Percent of
+students who
+have a baseline
+score and goal
+established and
+documented
+in the data
+management
+system
+
+100% of
+students have
+both a baseline
+score and goal
+documented.
+
+Process
+
+Progressmonitoring
+data
+
+Is progress
+monitoring
+happening with
+the expected
+frequency?
+
+Percent of
+students who
+have consistent
+progressmonitoring
+scores
+documented
+in the data
+management
+system
+
+100% of
+students have
+consistent
+progressmonitoring
+scores.
+
+Percent of
+students on
+track to meet
+or exceed
+their progressmonitoring
+goals
+
+100% of
+students are
+on track to
+meet or exceed
+progressmonitoring
+goals.
+
+Question Asked
+
+Yes / No
+
+Outcome
+
+Progressmonitoring
+data
+
+Are students
+meeting their
+progressmonitoring goals?
+Yes / No
+
+6.18
+
+Results
+
+G O AL S E T T IN G A N D P R OGR ES S MON ITOR IN G
+
+What does
+success look
+like?
+
+Examples and
+Notes
+A plan for makeup assessment is
+critical to ensure
+all students have
+baseline data
+available.
+
+Curriculum-based
+measurements lend
+themselves to this
+type of analysis
+because the results
+can easily be
+graphed.
+
+Literacy
+
+Additional measures can guide a team to know whether the reading fluency protocol is leading to the
+desired improvements for students:
+
+SECONDARY MEASURES
+Measure
+Type
+Process
+
+Data
+Collection
+Type
+Data-based
+decisionmaking
+meetings
+outcome
+tracker
+
+Results
+
+Do students who
+are off track to
+meet progressmonitoring goals
+have a plan for
+an intervention
+change?
+
+Percent of
+students
+identified as
+“off track”
+who have an
+intervention
+change
+documented
+
+100% of
+students
+who are “off
+track” have an
+intervention
+change
+documented.
+
+Percent of
+students
+who meet
+progressmonitoring
+goals have
+a plan for
+reduced
+intervention
+
+100% of
+students
+who meet
+progressmonitoring
+goals have
+a plan for
+reduced
+intervention.
+
+Percent of
+students who
+believe they
+are making
+progress on
+their reading
+goal.
+
+100% of
+students
+report they
+are making
+progress in
+their reading.
+
+After training
+and coaching,
+teachers
+report
+confidence
+in their ability
+to implement
+progress
+monitoring as
+designed.
+
+100% of
+teachers
+report feeling
+confident in
+implementing
+progress
+monitoring as
+designed.
+
+Yes / No
+Process
+
+Data-based
+decisionmaking
+meetings
+outcome
+tracker
+
+Do students who
+meet progressmonitoring goals
+have a plan
+for reduced
+intervention?
+Yes / No
+
+Perception
+
+Student
+perception
+survey
+
+Do students
+believe they are
+making progress
+on their reading
+goal(s)?
+Yes / Somewhat
+/ No
+
+Process
+
+6.19
+
+Teacher
+perception
+data
+
+What does
+success look
+like?
+
+Question Asked
+
+Do teachers feel
+they have the
+knowledge and
+skills needed
+to effectively
+implement
+progress
+monitoring?
+
+G O AL S E T T IN G A N D P R OGR ES S MON ITOR IN G
+
+Examples and Notes
+
+In some cases, this
+may mean a student
+exits from intervention
+altogether (e.g., if the
+student is now reading
+at grade level), and
+in other cases, it may
+mean that the student
+continues to receive
+reading intervention but
+a less intensive support.
+
+Literacy
+
+Notes
+1
+
+American Institutes for Research, “Progress Monitoring”
+
+2
+
+Austin and Filderman, “Selecting and Designing Measurements”
+
+3
+
+Woods, “Examining Longitudinal Patterns”
+
+4
+
+Fuchs and Fuchs, What is Scientifically-Based Research
+
+5
+
+Deno, “Data-Based Decision-Making”
+
+6
+
+Ming, “Five Oral Reading Fluency Strategies”
+
+7
+
+Furey and Loftus-Rattan, “Actively Involving Students”
+
+8
+
+Harris, Graham, and Mason, “Self-Regulated Strategy Development”; Montague, “SelfRegulation Strategies”
+
+9
+
+Ardoin et al., “Examining the Incremental Benefits”
+
+10
+
+Guthrie and Humenick, “Motivating Students to Read”
+
+11
+
+Ardoin et al., “A Systematic Review and Summarization”
+
+12
+
+American Institutes for Research, Six-Step Protocol
+
+Bibliography
+American Institutes for Research. “Progress Monitoring.” Center on Multi-tiered System of Supports.
+Accessed March 1, 2024. https://mtss4success.org/essential-components/progressmonitoring
+American Institutes for Research. “Six-Step Protocol: Progress Monitoring Performance Feedback
+and Goal-Setting Instructional Routine.” PROGRESS Center at the American Institutes for
+Research. Accessed April 9, 2024. https://promotingprogress.org/resource/instructionalroutine-progress-monitoring-student-engagement
+Ardoin, Scott P., Joseph C. Witt, Shannon M. Suldo, James E. Connell, Jennifer L. Koenig, Jennifer
+L. Resetar, Natalie J. Slider, and Kashunda L. Williams. “Examining the Incremental Benefits of
+Administering a Maze and Three Versus One Curriculum-Based Measurement Reading Probes
+When Conducting Universal Screening.” School Psychology Review 33, no. 2 (2004): 218–233.
+https://doi.org/10.1080/02796015.2004.12086244
+Ardoin, Scott. P., Theodore J. Christ, Laura S. Morena, Damien C. Cormier, and David Klingbeil.
+“A Systematic Review and Summarization of the Recommendations and Research Surrounding
+Curriculum-Based Measurement of Oral Reading Fluency (CBM-R) Decision Rules.” Journal of
+School Psychology 51, no. 1 (2013): 1–18. https://doi.org/10.1016/j.jsp.2012.09.004
+Austin, Christy R., and Marissa J. Filderman. “Selecting and Designing Measurements to Track the
+Reading Progress of Students With Disabilities.” Intervention in School and Clinic 56, no. 1
+(2020): 13–21. https://doi.org/10.1177/1053451220910736
+
+6.20
+
+G O AL S E T T IN G A N D P R OGR ES S MON ITOR IN G
+
+Literacy
+
+Deno, Stanley L. “Data-Based Decision-Making.” In Handbook of Response to Intervention (2nd
+edition), edited by Shane R. Jimerson, Matthew K. Burns, and Amanda M. VanDerHeyden,
+9–28. Boston, MA: Springer, 2016. https://doi.org/10.1007/978-1-4899-7568-3_2
+Fuchs, Lynn S., and Douglas Fuchs. (2001). What is Scientifically-Based Research on Progress
+Monitoring? Washington, DC: National Center on Student Progress Monitoring.
+https://eric.ed.gov/?id=ED502460
+Furey, Jenlyn, and Susan M. Loftus-Rattan. “Actively Involving Students With Learning Disabilities in
+Progress Monitoring Practices.” Intervention in School and Clinic 57, no. 5 (2022): 329–337.
+https://doi.org/10.1177/10534512211032618
+Guthrie, John T., and Nicole M. Humenick. “Motivating Students to Read: Evidence for Classroom
+Practices that Increase Reading Motivation and Achievement. In The Voice of Evidence in
+Reading Research, edited by Peggy McCardle and Vinita Chhabra, 329–354. Baltimore, MD:
+Paul H. Brookes Publishing Co., 2004.
+Harris, Karen, Steve Graham, and Linda Mason. “Self-Regulated Strategy Development in the
+Classroom: Part of a Balanced Approach to Writing Instruction for Students With Disabilities.”
+Focus on Exceptional Children 35, no 7. http://doi.org/10.17161/fec.v35i7.6799
+Ming, Kavin M. “Five Oral Reading Fluency Strategies for Supporting Struggling Adolescent Readers.”
+National Youth-At-Risk Journal 3, no. 1 (2018): 13–24. https://doi.org/10.20429/
+nyarj.2018.030103
+Montague, Marjorie. “Self-Regulation Strategies to Improve Mathematical Problem Solving for
+Students with Learning Disabilities.” Learning Disability Quarterly 31, no. 1 (2008): 37–44.
+https://doi.org/10.2307/30035524
+Woods, Adrienne. D. “Examining Longitudinal Patterns of Special Education Service Receipt.”
+Exceptional Children 87, no. 1 (2020): 5–26. https://doi.org/10.1177/0014402920960655
+
+6.21
+
+G O AL S E T T IN G A N D P R OGR ES S MON ITOR IN G
+
+Literacy

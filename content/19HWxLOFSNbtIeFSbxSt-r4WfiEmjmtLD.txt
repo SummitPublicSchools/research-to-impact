@@ -1,0 +1,329 @@
+Enabling Conditions: Routine Data Cycles
+A Guide for Leaders
+This guide is a companion to the Routine Data Cycles practice in the Marshall
+Research-to-Impact Practices, addressing common needs and barriers at a systems and
+site-leader level.
+
+Why School Leaders Matter
+School leaders play a decisive role in whether practices take hold and endure at a school site.
+Their responsibilities include:
+● Setting clear priorities for routine data cycles and creating culture and mindsets
+where data-driven reflection leads to improved outcomes for every student (aligned
+vision and mindsets);
+● providing time, tools, and protocols to help teachers analyze and act on data
+(infrastructure);
+● ensuring access to quality assessments and instructional materials so teachers
+can act on timely, relevant data (assessment and instructional materials); and
+● cultivating skills that make high-quality implementation possible with training and
+coaching (staff commitment and ongoing support).
+By modeling data-use as a learning practice, establishing the conditions that sustain the
+practice, and reinforcing a culture of shared responsibility, leaders ensure that routine data
+cycles become a consistent, scalable, and lasting part of a school’s work.
+
+Enabling Conditions for Routine Data Cycles
+Aligned Vision & Mindsets
+● School leaders share a clear expectation for routine data cycles, including an explicit
+definition of roles and responsibilities.
+● All staff believe that students with disabilities can achieve at grade level when supported
+with timely, responsive instruction and intervention
+● School culture values data as a shared language for understanding student progress
+and driving instructional decisions
+● Teachers and leaders see themselves as collectively responsible for closing gaps for all
+students through grade-level access and targeted support that meets students where
+they are
+
+Infrastructure (e.g., student information system, scheduling, protocols)
+● Ensure (or design) a data dashboard or student information system (SIS) report template
+that provides access to disaggregated student-level data aligned to school goals and
+that supports real-time analysis, ideally at the classroom level. Start with a simple
+teacher-facing tracker and build toward a schoolwide tool over time.
+● Adopt a common data-to-action protocol for routine data analysis and action planning
+(start with the RDC Template Protocol and adapt it for your site)
+● Build a site-wide schedule that protects weekly or biweekly data cycles in teacher prep
+or team collaboration spaces
+● Build a site calendar that sets data entry due dates and aligns benchmark assessment
+windows and staff training with data cycles
+
+Assessment and instructional materials
+● Assessment and progress-monitoring measures of student performance (e.g., exit
+tickets, formative and summative assessments) with staff trained to administer and score
+them consistently
+● High-quality instructional materials, including curriculum and intervention strategies and
+resources teachers can use when responding to student data
+
+Staff commitment and ongoing support
+● A data lead to create, iterate upon, and maintain the data tool
+● Time for professional development (PD) on the use of the dashboard and how to design
+appropriate interventions for students in response to data
+● Coaching that helps educators translate data into targeted instructional responses
+The resources provided below strengthen these enabling conditions and offer solutions to common
+barriers.
+
+Starting Strong
+
+Assess Your Conditions
+
+Few schools begin with every enabling
+condition in place. Focus on protecting and
+strengthening one or two priority conditions as
+you launch the practice. Use the guidance
+here to strengthen these conditions.
+
+Use these tools to assess your site and
+team’s readiness factors, then invite your
+teacher teams to do the same:
+● Self-Assessment Tool for Leaders
+● Self-Assessment Tool for Educators
+
+Aligned Vision & Mindsets
+Building a Culture Where Data Drives Support
+Routine Data Cycles only succeed when teachers believe that data is a tool for monitoring the
+effectiveness of instruction and for helping students make progress. A shared belief that all
+students can succeed when provided with the needed supports is foundational.
+
+Leadership Actions:
+Establish goals for student growth,
+using historical data as a baseline, both
+at the school level and for priority
+subgroups (e.g., students with IEPs)
+Align routine data cycle practice to site
+goals and mission for student impact
+Explain why data cycles matter and
+connect them to broader school goals
+Model and reinforce consistent data
+entry, use of protocols, and timely
+analysis
+Protect PD time, schedule team
+meetings, and set aside time for
+teachers to analyze data
+
+Structures that Sustain:
+Expectations for data entry (e.g., weekly
+entry of assessments and assignment
+grades), protocol completion frequency,
+and collaborative use of dashboards
+Calendar-designated data-entry time to
+provide reminders and support time
+management
+Scheduled training sessions to teach staff
+use of dashboards, protocols, and
+intervention planning
+Built-in reviews of goals, dashboard
+functionality, and protocols on a
+quarterly/annual basis
+
+Key Strategies:
+● Connect data-use to a clear student success goal
+● Reinforce that data helps change outcomes—not monitor failure
+● Model vulnerability by participating in the practice alongside educators. Engage in
+coaching with a set of educators to sit close to their work, or run your own data cycle on
+schoolwide data with your leadership team and share what you’re learning and changing
+● Celebrate small wins to build buy-in and momentum
+● Use simple metaphors: “The dashboard is the thermostat, not just a thermometer.”
+BARRIERS
+
+SOLUTIONS
+
+Leaders and
+teachers see
+data as judging
+skill or a pass /
+fail, not as a
+measure for
+learning.
+
+● Train educators and leaders explicitly in the difference between
+using data for improvement and data for evaluation or compliance,
+then model it with them in guided data reviews.
+● Set norms with teacher teams for being curious with data, rather
+than judgmental.
+● Use a structured data protocol for data reflection activities in group
+or coaching sessions to model and support the use of data for
+reflection and progress monitoring.
+
+Infrastructure
+Designing Tools Teachers Actually Use
+If the dashboard is hard to use, misaligned, or designed for leadership rather than teachers,
+data routines fall apart. Teachers can’t act on what they can’t easily see.
+
+Key Strategies:
+● Build a teacher-facing dashboard focused on instructional decisions (see How-To:
+Design and Prototype a Data Dashboard); Refresh data based on grading schedules
+● Use real-time, student-level data disaggregated by student groups (e.g., exit tickets)
+● Start simple—track 1-2 key metrics (e.g., power standards, assignment completion (as a
+leading indicator only) and assessment mastery)
+● Establish step-by-step protocols for reviewing, analyzing, and acting on data to ensure
+consistency. For example, a structured data-to-action protocol includes steps to analyze
+trends, name focus areas, set SMART goals, and choose interventions (see the full
+chapter for detailed guidance).
+
+Making Time for What Matters
+Without protected time, data analysis and intervention planning won’t happen consistently. Time
+is the difference between reflective action and surface-level compliance.
+
+Key Strategies:
+● Embed 45–60 minutes for the full protocol weekly or biweekly into teacher prep blocks,
+department or team meetings, or PD sessions when first starting out. Over time, 30-45
+minutes will likely be sufficient.
+● Make time sacred: take proactive action to ensure there are no interruptions or
+deprioritization from other meetings or duties
+● Connect data time to existing planning or intervention routines
+● Use creative scheduling models built around student needs
+● Include time for both data analysis and designing next steps
+
+BARRIERS
+
+SOLUTIONS
+
+Limited time to
+collect or
+analyze student
+data
+
+● As a starting point, build 10–15 minutes of data review time into
+existing weekly team meetings or PLCs for educators to begin their
+data protocol, then follow up with trends and action planning in
+coaching sessions
+● Use streamlined dashboards that auto-populate from SIS or require
+minimal manual entry
+● Design usable teacher-facing data dashboards and provide ongoing
+training to educators on how to access and use dashboards to
+support implementation (STEM Prep example)
+○ Check out How-to Design and Prototype a Data Dashboard
+● Designate a data lead to help prepare data reports for teachers
+ahead of meetings
+● Pair data review with planning routines—avoid separating them into
+different meetings
+● Provide quick data-check protocols, so teachers focus on patterns,
+not perfection
+○ Leverage Google Forms or other automated tools that can
+quickly summarize results for action
+○ Consider real time exit-ticket sorting to identify who needs extra
+support or enrichment
+○ Make use of student self-scoring of exit tickets to gather data
+and group students based on need.
+
+Limited time to
+deliver
+interventions
+
+(Schedule
+challenges or
+student
+absences
+interrupt the
+delivery of
+intervention)
+
+● Identify flexible delivery opportunities. Examples include small-group
+time, workshop rotations, or embedding supports into upcoming
+lessons.
+● Right-size interventions to available time. Interventions can be
+delivered through reteaching within core lessons, spiraled review,
+pre-teaching, or focused small groups—not just through pull-outs or
+a separate block.
+● Use collaborative planning structures to help design interventions
+that are feasible within the available schedule (see the full chapter
+for additional guidance).
+● Build a culture that prioritizes intervention time. Protect intervention
+delivery in the same way schools protect co-planning or
+collaborative time.
+
+Assessment and Instructional Materials
+High-Quality Assessment and Instructional Materials
+Educators are supported with updated and relevant assessment data, clear progress-monitoring
+measures, and instructional resources that enable effective data analysis and planning.
+
+Key Strategies
+● Assessment and progress-monitoring measures of student performance with staff
+trained to administer, score, and enter them consistently.
+○ Examples: exit tickets, formative and summative assessments
+● Data tool for entering assessment and progress-monitoring results that allows for easy
+disaggregation (see Infrastructure above)
+● Intervention strategies and associated instructional resources
+BARRIERS
+
+SOLUTIONS
+
+Difficulty
+planning or
+designing
+effective
+interventions
+based on data
+
+● Create and use an intervention strategy bank. Ready-to-use
+strategies aligned to common needs reduce planning time and
+improve the quality of interventions
+● Use whole-class reteaching when most students miss the same
+concept. When it becomes the default, ask teams to name which
+students need what, and choose a targeted strategy from the
+intervention bank
+● Use a structured data-to-action protocol with guiding questions to
+take educators through how they analyze trends, name focus areas,
+set SMART goals, and choose interventions. (See the full chapter
+for additional guidance.)
+● Embed coaching in the data cycle. Coaches support teachers in
+interpreting the data and designing precise instructional responses
+(See the full chapter for additional guidance.)
+● Review student work alongside the data. This helps clarify
+misunderstandings and informs stronger intervention choices.
+● Leverage existing curriculum resources. Teachers can use what
+already exists in the curriculum—such as built-in reteach lessons,
+practice activities, or extension tasks—to respond directly to what
+the data shows
+
+Staff Commitment and Ongoing Support
+From Data to Action: Investing in Staff and Support Systems
+Sustaining effective routine data cycles requires dedicated time, consistent coaching, and
+ongoing professional learning that help educators translate data into actionable instructional
+moves.
+
+Tips for Implementation
+● Regular time for educators to analyze data and plan interventions on their own or with
+the guidance and support of their grade level or department team
+● Include special education teachers and interventionists in data cycles, connecting
+findings between course mastery and IEP goal progress
+● A data lead to create, iterate upon, and maintain the data tool
+
+○ Getting started: 1-3 hours to set up a simple teacher-facing tracker that each
+educator can copy and use in their setting (see example template)
+○ Building a schoolwide tool (e.g., STEM Prep): up to 40 hours for initial creation and
+iteration, plus 3+ hours monthly for maintenance
+● Time for professional development (PD) on the use of the dashboard and how to design
+appropriate interventions for students in response to data
+○ Provide hands-on training on both dashboard use and data interpretation. Follow up
+with coaching or personalized support as needed.
+○ 1 hour biweekly PD time for educators when first launching the practice
+○ 1–2 hours prior to the school year for initial training for new and returning staff
+○ 10–20 hours for development of training materials
+See Making Time for What Matters under “Infrastructure”
+
+Coaching Data into Action
+The most common breakdown isn’t in reading data—it’s in translating it into precise, effective
+instructional moves. Coaching and PD are what turn data into action.
+
+Key Moves for Coaches:
+●
+●
+●
+●
+
+Coach for analysis and instructional action
+Facilitate use of the data protocol and guide teams through structured routines
+Build an intervention bank to help teachers choose effective strategies
+Differentiate your coaching. For new teachers, focus on dashboard fluency, reading
+patterns, and following the protocol. For experienced teachers, push for deeper
+root-cause analysis and sharper, more targeted intervention design
+● Support data fluency over time. Use recurring coaching cycles to deepen teachers’
+comfort with both the dashboard and the analysis-to-action process
+● Start each cycle by checking whether students targeted last cycle moved
+
+Explore More
+To learn more about implementing Routine Data Cycles, explore the following
+resources:
+● Executive Summary: A concise overview of the practice
+● Full Chapter: A comprehensive resource on how to implement the practice with
+detailed guidance, tools, and examples from schools
+Visit the full collection of practices to explore additional tools and resources for improving
+outcomes for students with disabilities.

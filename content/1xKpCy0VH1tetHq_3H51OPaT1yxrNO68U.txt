@@ -1,0 +1,1533 @@
+Guiding Literacy
+Interventions
+Through Tiered
+Assessment
+A RESEARCH-TO-IMPACT PRACTICE DEVELOPED WITH
+THE NETWORKED IMPROVEMENT COMMUNITY
+FOR STUDENTS WITH DISABILITIES
+
+TA BLE O F C O N T E N T S
+3.3............ Practice Overview
+3.3 | What is the Practice?
+3.4 | Why is Tiered Assessment Important?
+
+3.5............ Bringing this Practice to Life
+3.9............ Implementation at a Glance
+3.9 | Enabling Conditions
+3.11 | Steps to Implement
+
+3.12.......... How to Implement this Practice
+3.12 | Phase I: Create an Assessment Plan
+3.12 | Step 1: Vet and Select a Universal Screener and Diagnostic
+Assessment Tools
+3.14 | Step 2: Create an Administration Plan
+3.16 | Step 3: Plan Structures to Support Data-Based Decision-Making
+3.17 | Phase II: Administer Assessments
+17 | Step 1: Administer the Universal Screener
+18 | Step 2: Administer the Diagnostic Assessments
+3.19 | Phase III: Align Evidence-Based Interventions with Identified Skill Gaps
+3.20 | Step 1: Gather Data and Complete Data Analysis
+3.20 | Step 2: Review Universal Screening Data
+3.21 | Step 3: Review Diagnostic Data and Group Students by Specific Skill Gaps
+3.22 | Step 4: Match Each Student Identified as Reading Below Grade-Level
+Expectations with an Aligned Evidence-Based Intervention and Document
+Intervention Decisions
+3.22 | Step 5: Make a Plan to Communicate Intervention Decisions with Teachers,
+Students, Families, and Other Stakeholders
+
+3.23.......... Summary
+3.24.......... Appendix
+3.25 | How to Measure
+3.27 | Notes
+3.27 | Bibliography
+
+Guiding Literacy
+Interventions Through
+Tiered Assessment
+Implementation Level
+
+Who Implements
+
+District/Central Office
+
+Teacher(s)
+
+School
+
+Instructional Coach
+
+Program/Department
+
+Principal
+
+Classroom
+
+Central Office Leadership
+Specialist
+
+Practice Overview
+What is the Practice?
+Guiding literacy interventions through tiered assessment refers to the practice of identifying secondary
+students who are reading below grade-level expectations, pinpointing specific reading skill gaps for
+these students, and planning aligned evidence-based interventions to address the identified skill gaps.
+The ultimate goal of this tiered assessment process is the delivery of evidence-based reading
+interventions aligned with student need to promote accelerated reading achievement for secondary
+students who are not yet proficient readers.
+
+This process is accomplished through three steps:
+STEP 1
+
+3.3
+
+STEP 2
+
+STEP 3
+
+Universal Screening
+of Reading
+
+Diagnostic Assessment
+of Reading
+
+Aligning Evidence-Based
+Interventions to Student Need
+
+Administer a valid assessment of
+reading to all students at least once
+(but ideally three times) yearly for
+the purpose of identifying students
+not meeting grade level ELA
+benchmarks or standards.
+
+Administer valid diagnostic
+assessments (assessments
+designed to measure discrete
+reading skills such as fluency or
+vocabulary) to identified students
+for the purpose of identifying
+specific reading skill gaps.
+
+Match students with evidencebased reading interventions that
+target the skill gaps identified by
+diagnostic assessments.
+
+GUIDING LITERACY INTERVENTIONS THROUGH TIERED ASSESSMENT
+
+Literacy
+
+Why is Tiered Assessment Important?
+Many secondary students, particularly Black and Latinx students with disabilities experiencing poverty,
+are not yet proficient readers of grade-level text.1 For students with disabilities, a lack of participation in
+grade-level reading instruction contributes to the achievement gap between students with disabilities
+and their typically developing peers.2
+Secondary readers have diverse reading profiles and the degree and nature of support can vary greatly
+among students; however, interventions at the secondary level have historically reflected a “one-sizefits-all approach” to limited success. Further, commonly administered assessments of reading at the
+secondary level fail to pinpoint specific skill gaps for individual readers.
+Using tiered assessments that include both universal screening and diagnostic assessments allows
+educators to identify individual reading needs and deliver precisely planned reading interventions to
+accelerate reading progress.
+
+Why it Works
+Quality universal
+screening assessments
+allow schools to efficiently
+identify students who are
+not reading at grade-level
+expectations at least annually.
+While these assessments
+indicate which students need
+support, they generally don’t
+provide information about what
+support is needed.
+
+Diagnostic
+assessments
+administered to the students
+identified as reading
+below grade level provide
+information on the specific
+reading skills students need
+to develop in order to reach
+proficiency with grade-level
+reading benchmarks and
+standards (e.g., multisyllabic
+word reading or reading
+fluency).
+
+Aligning evidencebased reading
+interventions with these
+identified skills ensures
+that students are getting the
+right support, which facilitates
+accelerated reading growth
+and supports engagement
+in rigorous grade-level ELA
+content and access to diverse
+and complex texts.
+
+“Over the last three years, we have found ways to
+improve reading levels for our most impacted readers
+that are replicable and scalable, focusing on identifying
+specific gaps so intervention is highly targeted.”
+— Glynis Shulters, Improvement Lead,
+Green Dot Public Schools California
+
+3.4
+
+GUIDING LITERACY INTERVENTIONS THROUGH TIERED ASSESSMENT
+
+Literacy
+
+Bringing this Practice to Life
+BUILDING A TIERED ASSESSMENT APPROACH AT GREEN DOT
+CALIFORNIA PUBLIC SCHOOLS
+Green Dot Public Schools has a long history of providing reading intervention to students who enter their
+schools not yet reading at grade level. For many years, the network used one assessment, the Reading
+Inventory, to identify students to be programmed into just one intervention, Read 180. While Read 180 met
+the needs of many students, other students participated in Read 180 for multiple years and continued to
+read below grade-level benchmarks.
+Green Dot did not have a clear way of understanding why these students weren’t comprehending gradelevel text, even after multiple years of receiving interventions targeted at reading comprehension. Was it
+because the students did not have the phonics skills to read the words on the page? Perhaps the students
+could read the individual words, but reading was effortful and slow, leaving reduced cognitive capacity to
+think about meaning? Or could it be that some students could read the words accurately and fluently, yet
+had language gaps that were impeding their ability to make meaning from the text? Green Dot needed a
+way to better understand these students’ reading needs so that they could refine their reading intervention
+offerings with the goal of accelerating reading growth for all.
+To address this, Green Dot decided to try using a tiered assessment approach. Their plan was to continue to
+use their universal screening, the Reading Inventory, to identify students reading below grade level and then
+complement that screening with additional diagnostics to better understand specific reading difficulties.
+
+3.5
+
+GUIDING LITERACY INTERVENTIONS THROUGH TIERED ASSESSMENT
+
+Literacy
+
+Identifying Students Reading Below Grade Level
+All Green Dot students take the Reading Inventory
+assessment three times a year so that Green Dot can
+regularly identify any student reading below grade level.
+Rising sixth and ninth grade students take the Reading
+Inventory for the first time during summer programming
+prior to the start of the school year, and the remaining
+grade levels participate in the assessment during the first
+two weeks of the school year.
+
+The cut points were
+established with guidance
+from the assessment
+publisher; Reading Inventory
+recommends that students scoring
+below a Lexile 600L (approximately
+second-grade equivalent) participate
+in further diagnostic assessment of
+foundational reading skills.
+
+Reading Inventory is an
+adaptive, computer-based
+assessment that provides
+a Lexile score for each student.
+This Lexile score is a number
+representing both a reader’s
+ability on the Lexile scale and the
+level of text a reader is likely to
+comprehend.3
+
+After the fall
+administration
+of the Reading
+Inventory, the data is analyzed by reading intervention
+teachers, counselors, and the special education team.
+The team evaluates each student’s score against
+decision-making criteria — cut points that are used to
+classify students by the degree of discrepancy with
+grade-level targets — to efficiently sort students and
+inform the next steps.
+
+Green Dot’s Universal Screening Decision-Making Criteria
+Classification
+
+Criteria
+
+Instructional Plan
+
+Within grade-level
+expectations
+
+Lexile score at or above
+grade-level expectations
+
+Core ELA class with no
+supplemental reading support
+
+Slightly below grade-level
+expectations
+
+Lexile score that is greater than
+600L but a year or more below
+grade-level expectations
+
+Core ELA class with an additional
+reading intervention (Read 180)
+class for one block period
+
+Significantly below grade-level
+expectations
+
+Lexile score below 600L
+
+Additional diagnostic assessment
+to further pinpoint specific reading
+needs
+
+Selecting, Administering, and Analyzing Diagnostic Assessments
+To identify the reading needs of the students reading below grade-level expectations, Green Dot
+decided to use diagnostic assessments. Oral reading fluency curriculum-based measurements
+(ORF CBMs) were already being used by Green Dot’s education specialists (their special education
+teachers) to develop student IEPs. Because their specialists were already familiar with the ORF
+CBMs, Green Dot decided to use the same tools for the administration, scoring, and interpretation
+of diagnostic assessments at the middle and high school levels.
+
+3.6
+
+GUIDING LITERACY INTERVENTIONS THROUGH TIERED ASSESSMENT
+
+Literacy
+
+What is a Curriculum-Based Measurement for Reading?
+An Oral Reading Fluency Curriculum-Based Measurement (ORF CBM) is a one-minute timed
+assessment of the rate and accuracy of a student’s oral reading fluency. ORF CBMs are
+administered in a 1:1 setting during which the student reads aloud for one minute from a leveled
+passage while an adult listens and scores, noting errors and the total number of words the student
+read in one minute. The administrator of the assessment calculates both accuracy (the percentage
+of the total words read that were read correctly) and rate (the total number of words read
+correctly, typically expressed as “correct words per minute,” or CWPM). ORF CBMs are one of the
+strongest predictors of a student’s overall reading performance4 and are widely used as screening,
+diagnostic, and progress monitoring tools. Common commercial publishers of ORF CBMs include
+DIBELS, Acadience, AIMSweb, and FastBridge.
+
+As soon as Green Dot designed decision-making criteria to guide the analysis of universal
+screening data, they realized that it would be important to establish similar criteria to guide
+the analysis of the diagnostic ORF CBM data. The criteria could then be used efficiently either
+to organize students into specific interventions or, for the students with the most significant
+literacy needs, to conduct additional diagnostic assessments to pinpoint specific needs. After
+identifying reading needs in phonics and fluency via the diagnostic assessment, Green Dot added
+interventions targeting these two areas.
+
+Green Dot’s Diagnostic Reading Assessment Decision-Making Criteria
+Criteria
+
+Hypothesis
+
+The student reads fewer
+than 50 correct words per
+minute (CWPM).
+
+The student may have
+foundational phonics gaps.
+
+The student reads 51–
+125 CWPM with <90%
+accuracy.
+
+The student is reading slowly
+and inaccurately. They may
+have foundational phonics gaps.
+
+The student reads 51–
+125 CWPM with 90%+
+accuracy.
+
+The student is reading
+accurately but slowly. Low
+fluency may be impairing
+comprehension.
+
+Intervention Plan
+Conduct additional diagnostic
+assessment to identify specific phonics
+needs as needed, or conduct further
+analysis of student assessment data. If
+phonics needs are confirmed, the student
+is programmed into evidence-based
+intervention targeting phonics.
+The student is placed into Read 180 class
+with a supplemental evidence-based
+intervention targeting reading fluency.
+
+At a glance, Green Dot’s approach to tiered assessment after one year of implementation looked
+like this: Green Dot’s Approach to Tiered Assessment to Guide Literacy Intervention
+Planning.
+
+3.7
+
+GUIDING LITERACY INTERVENTIONS THROUGH TIERED ASSESSMENT
+
+Literacy
+
+While the heaviest data analysis and planning lift follows the beginning-of-year administration of
+the Reading Inventory, Green Dot leverages two subsequent assessments (midyear and end-ofyear) to catch additional students who may not have been identified via previous screenings and to
+inform intervention regrouping.
+There are several reasons students may not have been identified via previous screenings:
+• A student transferred into the school after the start of the school year.
+• A student was absent for the beginning-of-year screening and make-up assessments.
+• A student was reading within grade-level expectations at the beginning of the year but did not
+make sufficient progress in reading during the first part of the year, and because norms or
+cut points increase at each benchmarking period, the student is now performing in the belowgrade-level range.
+• A student was identified as reading below grade level at the beginning of the year, received
+intervention, and is now performing within grade-level targets.
+
+Tiered Assessment Delivered Dramatic Gains for Students
+Thanks to the new tiered assessment approach, Green Dot students with disabilities now have
+access to a wider range of evidence-based interventions more closely aligned with their specific
+reading needs. In addition to Read 180, Green Dot now provides supplemental reading fluency
+intervention (see Repeated Reading: Building Oral Reading Fluency in Secondary Readers)
+and phonics intervention (using the Wilson Reading System) to students identified with phonics
+and/or fluency needs.
+Early results indicate that the tiered assessment approach is yielding strong results. In 2022–23,
+75% of students participating in Read 180 receiving additional reading interventions made
+progress in their oral reading fluency, with 50% of students increasing their oral reading
+fluency rates by over 30%.
+
+Green Dot Public Schools California
+
+3.8
+
+GUIDING LITERACY INTERVENTIONS THROUGH TIERED ASSESSMENT
+
+Literacy
+
+GUIDING LITERACY INTERVENTIONS
+THROUGH TIERED ASSESSMENT
+
+Implementation at a Glance
+The information in this section provides a high-level view of what to consider when implementing
+this practice. Enabling Conditions describes the minimum conditions needed for successful
+implementation, including resources, mindsets, staffing, and time allocations. Steps to Implement
+presents a concise checklist of action items, which are explained in detail in the following section.
+
+Prerequisites
+
+Enabling Conditions
+Established universal screening and diagnostic assessment tools
+Clear roles and responsibilities for administering assessments and coordinating collaborative
+conversations for decision-making
+Shared belief that (1) all students are capable of reaching grade-level reading benchmarks and
+standards and (2) it is the school’s responsibility to provide the supplemental support needed for
+this to be true for all students
+
+An assessment schedule that ensures the beginning-of-year assessments are administered
+in a timeframe that allows for interventions to start as early as possible within the school year
+A platform or data tracker for collecting data and generating reports, built into the
+assessment system and/or internally created
+
+Reocmmended Materials
+
+A protocol for data-based decision-making for teams to evaluate both universal screening and
+diagnostic assessment data
+An intervention calendar that includes clearly delineated intervention cycles (approximately
+8 weeks long), at the end of which collaborative data conversations occur and additional
+intervention programming is conducted
+Master schedules that both designate time for interventions to take place and allow for
+students to flexibly move between interventions and core content as they progress in reading
+Funding to purchase assessment systems; cost will vary by assessment and by the number of
+assessments purchased. The costs of some common 6–12 universal screeners of reading as
+of spring 2023 are as follows:
+– Achieve3000’s LevelSet: $11/student
+– NWEA MAP: $15/student
+– iReady: $30/student
+– Lexia: $40/student
+Many diagnostic assessments are low cost or free. For example, DIBELS assessments
+can be downloaded for free via the DIBELS website, and purchasing the scoring and
+reporting platform (Amplify) costs $1/student/year. Really Great Reading is another
+source for free, science-of-reading aligned diagnostic tools.
+
+3.9
+
+GUIDING LITERACY INTERVENTIONS THROUGH TIERED ASSESSMENT
+
+Literacy
+
+Staff Commitment
+Recommended Time Allocation
+
+A team of educators focused on the implementation and analysis of tiered assessments.
+– Staffing will vary by school: The team is likely to include a literacy specialist or instructional
+leader and two or more supporting staff members. The team will need training or existing
+knowledge of universal and diagnostic reading assessments, as well as ongoing skill
+development for interpreting assessment results.
+To enhance the implementation: A data analyst responsible for data cleaning and report generation
+Teacher and school leader knowledge of universal and diagnostic reading assessments and
+skill in interpreting assessment results
+
+CENTRAL AND SCHOOL LEADERSHIP
+Time to participate in training related to the assessment (2–3 hours)
+Leadership/coaching to oversee process and facilitate decision-making conversations (likely a
+school leader or instructional coach) (5–10 hours/screening period)
+– Time to generate and share reports (1–2 hours)
+
+TEACHERS
+Time to administer the assessment (approximately 60 minutes plus time for make-up
+assessments)
+Time to participate in training related to the assessment (ideally in summer or back-to-school
+professional development) (1–2 hours)
+Time to engage in data analysis and intervention planning (1–2 hours/intervention cycle)
+
+The guidance document
+How-To: Assessment
+of Adolescent Readers
+provides school and
+district leaders with
+considerations for making
+data-driven decisions
+across assessment
+tiers within an MTSS
+framework.
+
+3.10
+
+GUIDING LITERACY INTERVENTIONS THROUGH TIERED ASSESSMENT
+
+Literacy
+
+Steps to Implement
+The implementation of tiered assessment to guide literacy intervention planning unfolds over three phases:
+
+PHASE III
+
+PHASE I
+
+Create an
+Assessment Plan
+
+PHASE II
+
+Administer Assessments
+
+Align Evidence-Based
+Interventions with
+Identified Skill Gaps
+
+PHASE I: CREATE AN ASSESSMENT PLAN
+Vet and select a universal screener and diagnostic assessment tools
+Create an administration plan
+Plan structures to support data-based decision-making
+PHASE II: ADMINISTER ASSESSMENTS
+Administer the universal screener
+Administer the diagnostic assessments
+PHASE III: ALIGN EVIDENCE-BASED INTERVENTIONS WITH IDENTIFIED SKILL GAPS
+Gather data and complete data analysis
+Review universal screening data
+Review diagnostic data and group students by specific skill gaps
+Match each student identified as reading below grade-level
+expectations with an aligned evidence-based intervention
+and document intervention decisions
+Make a plan to communicate intervention
+decisions with teachers, students, families,
+and other stakeholders
+
+3.11
+
+GUIDING LITERACY INTERVENTIONS THROUGH TIERED ASSESSMENT
+
+Literacy
+
+GUIDING LITERACY INTERVENTIONS
+THROUGH TIERED ASSESSMENT
+
+How to Implement
+Phase I: Create an Assessment Plan
+To effectively create an assessment plan, preplanning work is needed, including:
+• vetting and selecting assessment tools;
+• creating an administration plan; and
+• planning the structures to support data-based decision-making.
+
+Step 1: Vet and Select a Universal Screener
+and Diagnostic Assessment Tools
+The Center on Multi-Tiered System of Supports recommends a three-step process for designing a
+screening assessment:
+• Clarify the purpose of screening.
+• Assess needs, priorities, and logistics.
+• Select screening tools.5
+See the Further Learning section of this chapter for a detailed guide with questions to direct
+conversations at each step of the screening design process.
+The usefulness of universal screening data for the purpose of instructional planning is highly dependent
+on the validity and reliability of the assessment for the school population. When evaluating potential
+screeners, schools should consider factors related both to the quality of the assessment and to the
+school’s specific context.
+THE FOLLOWING QUESTIONS CAN BE USED TO CONSIDER AN ASSESSMENT’S QUALITY:
+• Classification accuracy: Do scores on this assessment accurately identify students reading
+below grade level?
+• Validity: Does this assessment measure what it is supposed to measure?
+• Reliability: Are the scores on this assessment consistent with other measures of the same skills?
+• Statistical bias: Is this assessment biased against any subgroups of students?
+• Sample representativeness: Is the normative sample for this assessment representative of my
+school’s target population?
+See Further Learning for a resource from the National Center on Intensive Intervention that
+provides additional guidance for determining validity and reliability of screening assessments.
+
+3.12
+
+GUIDING LITERACY INTERVENTIONS THROUGH TIERED ASSESSMENT
+
+Literacy
+
+These questions examine specific school
+context considerations:
+• Does the assessment provide the data needed
+to inform instruction and intervention planning
+and programming? If reports are provided, will
+the reports support efficient decision-making?
+For example, is it possible to easily sort
+students to quickly identify all students scoring
+below a particular cut score?
+• What training is needed for staff to administer,
+score, and interpret the assessment accurately?
+• What is the total per-student cost of the
+assessment? What costs might be associated
+with training? Is the assessment appropriate for
+the resources and materials we have?
+The National Center on Intensive Intervention
+provides a chart of screening tools with ratings and
+additional information (e.g., cost, training needs, and
+administration logistics) for commonly used universal
+screening assessments. See Further Learning for
+more information.
+
+School Spotlight
+When Noble Schools in Chicago set
+out to select a universal screening
+assessment to be used across the
+network, the literacy leadership
+team engaged with partners at
+Marshall Street to evaluate several
+assessment tools against a set of
+criteria including cost, administration
+time, usability as a progress
+monitoring system, functionality of
+reports, and ability to recommend
+specific interventions. The team
+created lists of advantages and
+drawbacks for each tool and ultimately
+selected Achieve3000 LevelSet as
+the universal screening tool.
+
+When selecting a diagnostic tool, first consider what information is needed to efficiently “sort” students for
+the purpose of intervention planning. While non-proficient secondary readers are a heterogenous group,
+they can generally be divided into two subgroups: students with average word recognition skills but low
+language comprehension skills (i.e., they can lift the words off the page but have difficulty understanding
+what they read) and students who have difficulty understanding what they read because they have
+difficulty with word recognition. Consider the following resources for diagnostic assessment tools:
+
+3.13
+
+Assessment
+
+Description
+
+Resources
+
+Oral Reading
+Fluency—
+Curriculum-Based
+Measurements (ORF
+CBMs)
+
+Students read a leveled passage
+for one minute. Rate and accuracy
+scores are calculated and can be
+compared to norms or benchmarks.
+
+• DIBELS (Dynamic Indicators of
+Basic Early Literacy Skills)
+• aimswebPlus
+• Amplify
+• easyCBM
+
+Phonics or Decoding
+Surveys
+
+Students read isolated lists of words
+and pseudowords containing specific
+phonics patterns so that errors with
+specific patterns can be identified.
+
+• Really Great Reading Advanced
+Decoding Survey
+• National Center on Intensive
+Intervention Phonics Inventory
+• Gallistel-Ellis Test of Decoding
+
+Phonological
+Awareness Screener
+
+Students are asked to complete
+phonological awareness tasks of
+increasing complexity.
+
+• The Phonological Awareness
+Skills Test (PAST)
+
+GUIDING LITERACY INTERVENTIONS THROUGH TIERED ASSESSMENT
+
+Literacy
+
+Step 2: Create an
+Administration Plan
+IDENTIFY THE NECESSARY PERSONNEL
+AND INFRASTRUCTURE RESOURCES.
+Start by identifying a team or individual to
+coordinate the screening process at the district
+or network and school levels. Depending
+on expertise and capacity within the school
+or network, this might be a school leader,
+an instructional coach, a special education
+staff member, or a team of these individuals.
+Based on the selected screening tool, identify
+the resources and infrastructure needed to
+implement the tool. This includes hardware
+(e.g., student computers and headphones) and
+software needs (e.g., a system for creating,
+documenting, and communicating student and
+teacher logins).
+IDENTIFY THE RESOURCES AND
+INFRASTRUCTURE NEEDED TO IMPLEMENT
+THE DIAGNOSTIC ASSESSMENTS.
+For example, if using an ORF CBM as a diagnostic
+tool, consider whether it will be administered via
+paper/pencil or digitally. If the former, make a plan
+for providing physical resources to assessors, and
+if the latter, create a plan for providing the
+resources needed for digital administration.
+
+School Spotlight
+Identifying the infrastructure needed to
+implement the universal screening tool
+also requires consideration of the platform
+that will be used for data reporting. Most
+assessment tools include some sort of
+internal platform for creating data reports,
+but some schools elect to build universal
+screening reporting into existing data
+reporting tools. For example, when Noble
+Schools selected Achieve3000 LevelSet
+as their universal screening tool, they
+decided to create reporting systems within
+Tableau to align with the broader network
+approach to data collection and reporting.
+
+Amplify, a digital platform for administering
+the DIBELS assessment, provides an
+option for educators to administer the
+assessments digitally via an iPad. This saves the
+step of entering data into a data reporting system.
+
+IDENTIFY WHO WILL BE RESPONSIBLE FOR ADMINISTERING THE UNIVERSAL SCREENER
+AND THE DIAGNOSTIC ASSESSMENTS.
+The universal screener is often administered by classroom teachers, and diagnostic assessments
+are often administered by the educators who will be providing supplemental interventions, such as a
+reading intervention teacher or a special education teacher.
+CREATE AN ASSESSMENT SCHEDULE.
+Determine how much time will be needed for administration, and create a schedule for administering
+the universal screening, including a window for make-up assessments. The screener should be
+implemented at minimum one time yearly at or before the start of the school year. In order to ensure
+interventions begin as quickly as possible, aim for a short window (e.g., one week, including makeup assessments). Consider whether some or all students can participate in the assessment before
+the start of the school year. For example, if the school hosts a back-to-school day for students and
+families, consider setting up a room where the universal screener can be proctored to students on
+
+3.14
+
+GUIDING LITERACY INTERVENTIONS THROUGH TIERED ASSESSMENT
+
+Literacy
+
+a rolling basis. Best practices
+within an MTSS implementation
+recommend administration three
+times yearly — at the beginning,
+middle, and end of year.
+For efficiency, consider scheduling
+diagnostics immediately following
+the universal screener. For
+example, if students take the
+universal screening assessment
+during summer enrollment, a
+staff member reviews their score
+and, if it falls below the set cut
+point, immediately administers the
+additional diagnostic assessment.
+If this schedule isn’t feasible,
+create a separate schedule for
+diagnostic assessments.
+Most diagnostic assessments are
+administered in a 1:1 setting and
+should be conducted in a quiet,
+distraction-free environment when
+possible to allow the examiner to
+clearly hear student responses.
+Consider these requirements
+when designing the assessment
+schedule.
+BUILD RESOURCES TO
+SUPPORT STUDENT
+INVESTMENT.
+Create a resource to support
+communication about the
+universal screening assessment to
+students and families. This should
+include explicit explanations of
+what the universal screener is,
+what decisions are made based
+on the screening results, and
+how this process is designed to
+support students’ development
+as readers. Shared resources
+(such as scripts and slide decks)
+can ensure students and families
+have access to consistent and
+accurate information regarding the
+screening process.
+
+3.15
+
+STEP- BY- STEP PROCESS
+Beginning of Year
+Administer universal screening assessment (during
+summer or within the first two weeks of school).
+Administer make-up assessments to students who
+were absent for the universal screener. (Set a one-week
+window for make-ups following the administration of the
+screener.)
+Decision Point: Identify students below cutoff.
+Administer diagnostic assessments to students falling
+below cut points (ideally immediately after screener or at
+a minimum within one week).
+Meet to review data and plan/document interventions
+(as soon as diagnostic assessments are complete; ideally
+within 3–4 weeks of the first day of school).
+
+Implement and Monitor Intervention Cycles
+Launch first intervention cycle (Monday following
+team meeting).
+Communicate decisions with students and families
+(within a week of team meeting).
+Implement interventions and monitoring progress
+(for a 6–8 week intervention cycle).
+Meet to review data and make/document decisions
+(see Strengthening Timely Interventions through Goal
+Setting and Progress Monitoring).
+
+Middle of Year
+Reassess students with universal screener
+Administer make-ups and diagnostics based
+on cut-offs
+
+Implement and Monitor Intervention Cycles
+End of Year
+Administer universal screener (last 4–6
+weeks of school)
+
+GUIDING LITERACY INTERVENTIONS THROUGH TIERED ASSESSMENT
+
+Literacy
+
+Step 3: Plan Structures to Support Data-Based Decision-Making
+BUILD THE TEAM.
+Designate the team that will be involved in analyzing the screening and diagnostic data. The team should
+be composed of individuals who are familiar with both the data yielded by the assessments and the
+decision-making criteria (see Establish Decision-Making Criteria below), and who are responsible for
+implementing the instructional next steps following the screener. This might include special education
+leadership, school leaders, ELA instructional coaches, counselors, and/or reading intervention teachers.
+Schedule team data meetings to occur immediately following each screener administration (1–3 times
+yearly) and calendar the meetings on the school and/or district calendar.
+TRAIN STAFF.
+Provide training of staff members responsible for (1) administering the assessments and (2) analyzing
+the results to support intervention planning and programming decisions. Consider how to onboard staff
+members who miss the initial training. Many assessment platforms provide options for low-cost virtual
+training in the administration of the assessment and interpretation of results. Particularly for diagnostic
+assessments that are administered in a 1:1 format, providing opportunities for teachers to practice
+administering and scoring the assessments during the training can support implementation fidelity.
+ESTABLISH DECISION-MAKING CRITERIA.
+Establish the cut points or decision-making criteria that will be used to classify students as reading within
+grade-level expectations, slightly below grade-level expectations, and significantly below grade-level
+expectations. Plan the response for students in each group. Decision-making criteria should include:
+• A score above which students are likely reading within grade-level expectations and below which
+students are likely reading below grade-level expectations. This score will represent the first “sort”
+of students into within-grade-level and below-grade-level groups.
+• The next step for students scoring below this cut point. This will likely involve a specific intervention
+or further diagnostic assessment to pinpoint specific skill gaps.
+• Criteria for sorting based on diagnostic results. See the case study for an example of decisionmaking criteria applied to ORF CBM diagnostic data and the Further Learning section of this
+chapter for a detailed guide to establishing decision rules published by the North Carolina
+Department of Public Instruction.
+
+School Spotlight
+Establishing clear cut points or decision-making criteria is a critical component of an efficient universal
+screening process. Many assessment publishers provide recommended cut point scores to inform
+decision-making, and schools should leverage this guidance when it is available. Green Dot California
+utilized the suggested cut points provided by the Reading Inventory assessment publishers for both
+grade-level targets and the indicator of reading significantly below grade level. Additional resources to
+guide the establishment of cut points are local or national norms (e.g., students scoring below the 20th
+percentile when compared to a local or national normative sample) or criterion-referenced benchmark
+scores (e.g., students scoring below a specific benchmark).
+
+3.16
+
+GUIDING LITERACY INTERVENTIONS THROUGH TIERED ASSESSMENT
+
+Literacy
+
+Phase II: Administer Assessments
+In Phase 2, school teams:
+• administer the universal screening assessment, and
+• administer the diagnostic assessment(s) to students identified
+as reading below grade level on the universal screener.
+
+Step 1: Administer the
+Universal Screener
+Administer the universal screener according to
+the defined assessment schedule.
+
+School Spotlight
+
+For school teams to confidently use universal
+screening data to inform instruction and
+intervention planning and programming, the
+data yielded by the screener must be as
+accurate as possible. Therefore it is important
+to implement a system for monitoring the
+accuracy and fidelity of both assessment
+administration and data collection.
+
+To build student awareness of, and
+investment in, their Lexile scores, Noble
+Schools implemented a process of
+student Lexile conferences. The literacy
+leadership team developed resources for
+teachers, including a script, slide deck,
+and goal-setting sheet. Teachers met
+with students for 10-minute conferences to
+explain what a Lexile score is, review their
+Lexile scores from the universal screener,
+and collaboratively generate strategies for
+continuing their development as readers.
+Teachers reported students to be engaged
+and reflective in the conferencing process,
+with one student sharing, “This was the
+first time I tried my best,” after taking the
+universal screener following a conference.
+
+Many assessment systems provide alerts
+if a student’s data may not be an accurate
+indication of their proficiency because they
+clicked quickly through test items. Another
+strategy for ensuring accurate data is to
+build buy-in with students by explicitly
+communicating the purpose of the assessment
+and how universal screening data will be used.
+See Further Learning for more guidance on
+ensuring fidelity of assessment administration
+and data entry.
+
+Val Dutta (Uncommon Schools) delivers literacy instruction
+with NIC Literacy Content Expert Genevieve Thomas
+
+3.17
+
+GUIDING LITERACY INTERVENTIONS THROUGH TIERED ASSESSMENT
+
+Literacy
+
+Step 2: Administer the
+Diagnostic Assessments
+Administer the diagnostic assessments to all
+students identified as reading below grade level
+on the universal screener. Because this data
+is used to inform decisions about students’
+instructional plans, it is critical that assessments
+are administered and scored with fidelity. Consider
+providing teachers with brief “how to” documents
+with reminders of key administration points.
+At right: Excerpt from DIBELS ORF CBM Fidelity
+Checklist. (The full checklist is available in the
+DIBELS Administration and Scoring Guide.)
+
+How do you analyze the diagnostic data
+to determine specific reading needs?
+At Uncommon Schools, teachers participating in Marshall Street’s Networked
+Improvement Community (NIC) are working to improve the use of tiered assessment
+data to plan effective interventions. In an early coaching conversation, Val, a high school
+literacy innovation specialist at Uncommon Schools, worked with Genevieve Thomas, a
+literacy content area expert, to collaboratively analyze the results of an oral reading fluency
+curriculum-based measurement that Val had administered to the students in her reading
+intervention class.
+1. Are students reading fluently and accurately?
+Val and Genevieve first looked to see if there were students who were reading both
+fluently and accurately. Fluently meant reading an eighth-grade passage at a rate of at
+least 120 CWPM. Accurately meant with at least 95% accuracy.
+The data showed that no students met this criterion, yet some students were reading
+accurately (95%+) but slowly (fewer than 100 CWPM). Additionally, some students
+were reading both inaccurately and slowly.
+2. What do word reading errors indicate?
+Val and Genevieve then reviewed the individual assessments of the students who were
+reading both slowly and inaccurately to determine what type of word reading errors the
+students were presenting. Together, Val and Genevieve determined that most students
+seemed to have basic word reading skills, but many struggled to read multisyllabic
+words fluently and automatically.
+Based on this conclusion, Val and Genevieve focused on building word study activities
+for these students. (See Developing Multisyllabic Word Reading Skills in Adolescent
+Readers.)
+
+3.18
+
+GUIDING LITERACY INTERVENTIONS THROUGH TIERED ASSESSMENT
+
+Literacy
+
+Phase III: Align Evidence-Based Interventions
+with Identified Skill Gaps
+In phase III, school teams analyze screening and diagnostic data in order to align
+evidence-based reading interventions with identified skill gaps for each student reading
+below grade level.
+
+In preparation for phase III, school leadership will want to plan and prepare for the team
+review meetings at the start of the year or start of the process if beginning midyear.
+Early preparation will allow the team collaboration during data review and intervention
+planning to be timely and effective for team discussion and aligned action.
+The following steps are not required when implementing phase II, yet they are considered highly beneficial
+to support the process:
+• Develop the protocol or agenda for the data meeting, including the specific questions the team
+will need to answer when they meet. Create space in the meeting protocols for the team to clearly
+document instruction and intervention decisions for at least the students in the “some” and “significant”
+risk categories. Make this information accessible for key stakeholders (for example, stored in a shared
+Google Drive).
+• Identify the reports that will facilitate efficient decision-making and allow the team to answer the
+questions of focus for the meeting. Most often, these will be pre-built reports in assessment platforms,
+but may include other spreadsheets, trackers, or data dashboards.
+• Identify the team members who will convene for the meeting. This may be a new structure that
+requires scheduling and communication of purpose, or it may be situated in an existing meeting where
+the team has agreed on the use of the time for this purpose.
+• Inventory evidence-based interventions currently available on campus and the number of students that
+can be served in each intervention slot or block. Consider how the team might plan for supplementing
+as needed for gaps in skills addressed or spaces available for students. The following resources may
+be helpful for researching evidence-based literacy interventions for secondary students:
+– Evidence for ESSA
+– The What Works Clearinghouse
+– The National Center on Intensive Intervention’s Academic Intervention Tools Chart
+• Align on roles, responsibilities, and timelines for data meeting preparation, collaboration, and action.
+This includes:
+– who will monitor assessment completion rates and follow up with make-up assessment needs,
+– who will gather and prepare the data for the team to review,
+– who will lead the meeting and prepare the agenda,
+– who will bring intervention knowledge and resources for student assignment,
+– who will develop or manage tracker tools to document student levels and assigned
+interventions, and
+– who will communicate decisions about interventions to stakeholders, including staff, students,
+and families.
+
+3.19
+
+GUIDING LITERACY INTERVENTIONS THROUGH TIERED ASSESSMENT
+
+Literacy
+
+Step 1: Gather Data and Complete Data Analysis
+In preparation for data review meetings, a team or data leader gathers and audits assessment data to
+ensure it is ready for team review and action planning. This includes:
+• confirming there are universal screening scores for students (i.e., most or all students have
+completed the screening, and make-ups have been attempted),
+• following up on any errors or warnings on data quality, such as student scores that may not be
+valid due to quick completion times, and
+• cleaning data in preparation for reports to be run (e.g., removing duplicate scores or removing
+students who have unenrolled).
+Once the data is scrubbed as best as possible, assessment reports are generated using automated
+tools or custom-built resources. Often reports can be run via the universal screening platform (e.g., a
+report with student scores by grade level, sorted from high to low scores), while data from diagnostic
+assessments require team-created tools or resources (e.g., a spreadsheet with rate and accuracy
+scores from a curriculum-based measurement).
+There are many ways to represent and prepare the data. A few helpful considerations include the
+following:
+• Apply cut points to the data to identify students who scored below established targets.
+• Sort data by grade level or classroom.
+• Filter data by subgroups (e.g., students with disabilities, multilingual learners, students who are
+experiencing homelessness) to better understand performance strengths or gaps.
+
+Step 2: Review Universal Screening Data
+Literacy intervention planning begins by reviewing universal screening data. The focus of the team
+will depend on the goals and priorities of an individual school or network, but may serve to answer the
+following questions:
+• Which students are reading below grade-level expectations?
+• What percentage of our total student population does this represent?
+• What implications do these numbers have for our tiers of support?
+If administering the universal screening assessment multiple times yearly, use the screening data to
+evaluate student growth. Consider the following questions as guidance for middle- and end-of-year data
+meetings:
+• What progress have students receiving supplemental interventions made, and how does that
+compare to the general population of students? Does it represent accelerated, “gap-closing” growth?
+• What is the performance and progress of disaggregated subgroups of students, and how does
+this compare to the general population? For example, do students with disabilities grow at rates
+commensurate with the general student population?
+
+3.20
+
+GUIDING LITERACY INTERVENTIONS THROUGH TIERED ASSESSMENT
+
+Literacy
+
+Step 3: Review Diagnostic Data and Group Students
+by Specific Skill Gaps
+After reviewing universal screening data, review the diagnostic data. Use the established decisionmaking criteria to group students by specific skill gaps. Examples of groups designated by specific skill
+gaps are provided in the table below:
+
+Student Criteria
+
+Hypothesized Skill Gaps
+
+Students who score below benchmark on the universal
+screener, yet are reading text fluently and accurately
+according to the ORF CBM
+
+Comprehension
+Vocabulary
+
+Students who score below benchmark on the universal
+screener, below benchmark for rate, yet at or above
+benchmark for accuracy on the ORF CBM
+
+Reading fluency
+
+Students who score below benchmark on the universal
+screener and below benchmark for both rate and accuracy
+on the ORF CBM
+
+Polysyllabic word reading
+
+Students who score below benchmark on the universal
+screener and the ORF CBM, and who also demonstrate
+weak decoding skills on a phonics inventory
+
+Phonic decoding
+
+When reviewing data and grouping students, document
+which students fall into the at-risk range, as well as
+the next step for each student. Once groupings are
+completed and the team has a sense of the needs by
+skill area, compare student needs against interventions
+currently available on campus. Discuss adjustments
+that may be needed at the school, classroom, or
+intervention level based on student skill gaps and
+needs. The team may need to supplement intervention
+availability with additional time or staff support, or
+establish prioritization decision criteria based on
+available resources and student needs. If prioritizing
+students for available interventions, it is important to
+document prioritization decisions for review in future
+cycle meetings or as space becomes available for
+additional students to cycle into interventions.
+
+3.21
+
+GUIDING LITERACY INTERVENTIONS THROUGH TIERED ASSESSMENT
+
+Literacy
+
+Step 4: Match Each Student Identified as Reading Below
+Grade-Level Expectations with an Aligned Evidence-Based
+Intervention and Document Intervention Decisions
+Intervention decisions should be documented in a centrally accessible location (e.g., within the student
+information system or in a spreadsheet within a shared drive).
+The table below provides examples of aligned interventions, using the groups from the examples above:
+
+Student Criteria
+Students who score below benchmark on
+the universal screener, yet are reading
+text fluently and accurately according to
+the ORF CBM
+
+Hypothesized
+Skill Gaps
+
+Evidence-Based
+Intervention
+
+Comprehension
+Vocabulary
+
+Read 180
+
+Students who score below benchmark on
+the universal screener, below benchmark
+for rate, yet at or above benchmark for
+accuracy on the ORF CBM
+
+Reading fluency
+
+Repeated reading
+intervention (see Repeated
+Reading: Building Oral
+Reading Fluency in
+Secondary Readers)
+
+Students who score below benchmark
+on the universal screener and below
+benchmark for both rate and accuracy on
+the ORF CBM
+
+Polysyllabic word
+reading
+
+Word study intervention (see
+Developing Multisyllabic
+Word Reading Skills in
+Adolescent Readers)
+
+Students who score below benchmark
+on the universal screener and the ORF
+CBM, and who also demonstrate weak
+decoding skills on a phonics inventory
+
+Phonic decoding
+
+Wilson Reading System
+
+Step 5: Make a Plan to Communicate Intervention Decisions
+with Teachers, Students, Families, and Other Stakeholders
+As a final step in the data analysis process, create a plan to communicate results, decisions, and next
+steps to key stakeholders, including teachers, students, and families. When sharing assessment results
+with students and families, communicate the student’s score, explain what the score means, and share
+what the score means for the student’s plan.
+Monitor progress for students participating in interventions at regular (6–8 week) intervals. Creating a
+schedule of progress monitoring meetings at the start of the year can ensure educators meet regularly
+throughout the school year to evaluate progress and make decisions about continuing, exiting, or
+intensifying interventions for students. See Strengthening Timely Interventions through Goal
+Setting and Progress Monitoring for more guidance on this process.
+
+3.22
+
+GUIDING LITERACY INTERVENTIONS THROUGH TIERED ASSESSMENT
+
+Literacy
+
+GUIDING LITERACY INTERVENTIONS
+THROUGH TIERED ASSESSMENT
+
+Summary
+As a result of historically ineffective reading instruction across US K–12 schools, an alarming number
+of secondary students are not proficient readers, and Black and Latinx students with disabilities
+experiencing poverty are disproportionately represented within this population. Because low reading
+skills are a barrier to accessing grade-level content and standards, this reality results in inequitable
+access to the rigorous academic content students need to engage with in order to be prepared for
+postsecondary success.
+Multiple root causes contribute to low literacy rates for this population, and while evidence does
+suggest that instruction can develop reading skills in older readers, reading interventions are most
+impactful when they are aligned with individual student needs. Universal screening of reading ability
+helps identify which students are reading below grade level. Additional diagnostic assessment is
+necessary to illuminate why these students are not yet reading proficiently. This tiered approach to
+reading assessment supports schools and networks to effectively and efficiently provide aligned and
+evidence-based reading interventions at the secondary level.
+
+FURT HE R L E ARNI NG
+
+“Guide to Designing the Screening Process”
+THE CENTER ON MULTI-TIERED SYSTEM OF SUPPORTS
+AT THE AMERICAN INSTITUTES FOR RESEARCH
+
+“Understanding Screening: What Do the Screening Standards Mean?”
+THE NATIONAL CENTER ON INTENSIVE INTERVENTION
+AND NATIONAL CENTER FOR IMPROVING LITERACY
+
+“Academic Screening Tools Chart”
+THE NATIONAL CENTER ON INTENSIVE INTERVENTION
+
+“Ensuring Fidelity of Assessment and Data Entry Procedures”
+THE NATIONAL CENTER ON INTENSIVE INTERVENTION
+
+“Data Decision Rules”
+THE NORTH CAROLINA DEPARTMENT OF PUBLIC INSTRUCTION MTSS IMPLEMENTATION GUIDE
+
+“Diagnostic Data”
+THE NATIONAL CENTER ON INTENSIVE INTERVENTION
+
+3.23
+
+GUIDING LITERACY INTERVENTIONS THROUGH TIERED ASSESSMENT
+
+Literacy
+
+GUIDING LITERACY INTERVENTIONS
+THROUGH TIERED ASSESSMENT
+
+Appendix
+
+How to Measure
+When implementing tiered assessment for reading intervention, team members can use a set of
+measures to understand how students are performing against grade-level expectations, identify needs
+for responsive intervention, and monitor the fidelity of the tiered assessment process to identify and
+match students with skill-based reading interventions. At minimum, these measures are most essential:
+
+PRIMARY MEASURES
+Measure
+Type
+
+3.25
+
+Data
+Collection
+Type
+
+Question Asked
+
+Results
+
+What does
+success look
+like?
+
+Examples and Notes
+
+Outcome
+
+Student
+performance
+score
+
+What percentage
+of our students
+are reading
+within grade-level
+expectations,
+slightly below
+grade-level
+expectations,
+and significantly
+below grade-level
+expectations?
+
+% of students
+scoring in
+each range
+
+A reduction
+over time in
+the number
+of students
+reading below
+grade-level
+expectations
+
+The data collection
+type will depend on
+the measure used,
+but examples are
+Lexile, RIT (Reading
+Inventory) score,
+percentile, etc.
+
+Outcome
+
+Assessment
+tracking
+systems
+
+What percent
+of our student
+population
+requires additional
+supports beyond
+our core ELA
+program?
+
+Percent of
+students
+referred
+to Tier 2
+and Tier
+3 reading
+intervention
+
+Strive for
+20% or less
+of the student
+population
+requiring
+supplemental
+interventions
+beyond the core
+
+Most MTSS models
+suggest a target of
+no more than 20%
+of students requiring
+supplemental
+interventions as an
+indicator that the core
+instructional program
+is effective
+
+GUIDING LITERACY INTERVENTIONS THROUGH TIERED ASSESSMENT
+
+Literacy
+
+Additional measures can guide a team to know whether tiered assessment to guide literacy intervention
+planning is leading to the desired improvements for students:
+
+SECONDARY MEASURES
+Measure
+Type
+
+Data
+Collection
+Type
+
+Process
+
+Observation
+
+Results
+
+Is the assessment
+being
+administered
+(and scored,
+if applicable)
+accurately?
+
+% of
+observed
+assessments
+that are
+administered
+according to
+established
+procedures
+
+100% of
+observed
+assessments
+are
+administered
+according to
+procedures
+outlined in the
+assessment
+manual(s)
+
+% of
+observed
+data entry
+processes
+are
+completed
+according to
+established
+procedures
+
+100% of
+observed data
+entry processes
+are completed
+according to
+established
+procedures
+
+% of students
+who have
+a score
+entered
+
+100% of
+students
+participate in
+the screening
+assessment
+
+Yes / No
+
+Process
+
+Observation
+
+Is assessment
+data being entered
+accurately?
+Yes / No
+
+Process
+(utilization)
+
+3.26
+
+Student
+scores within
+assessment
+system
+
+What does
+success look
+like?
+
+Question Asked
+
+What percent of
+students have
+a valid score
+entered in the
+assessment
+platform?
+
+GUIDING LITERACY INTERVENTIONS THROUGH TIERED ASSESSMENT
+
+Examples and Notes
+
+Many assessment
+platforms have
+templates to generate
+reports for this
+purpose.
+
+Literacy
+
+Notes
+1
+
+US Department of Education, National Assessment of Educational Progress (NAEP)
+
+2
+
+Gilmour et al., “Are Students With Disabilities Accessing the Curriculum?”
+
+3
+
+MetaMetrics, “About Lexile® Measures for Reading”
+
+4
+
+Ardoin et al., “Examining the Incremental Benefits”
+
+5
+
+“Guide to Designing the Screening Process,” American Institutes for Research, Center on MultiTiered System of Supports, accessed August 2023, https://mtss4success.org/resource/
+guide-designing-screening-process
+
+Bibliography
+American Institutes for Research. “Guide to Designing the Screening Process.” Center on Multi-tiered
+System of Supports. Accessed August 2023. https://mtss4success.org/resource/guidedesigning-screening-process
+Ardoin, Scott P., Joseph C. Witt, Shannon M. Suldo, James E. Connell, Jennifer L. Koenig, Jennifer
+L. Resetar, Natalie J. Slider, and Kashunda L. Williams. “Examining the Incremental Benefits of
+Administering a Maze and Three Versus One Curriculum-Based Measurement Reading Probes
+When Conducting Universal Screening.” School Psychology Review 33, no. 2 (2004): 218–233.
+https://doi.org/10.1080/02796015.2004.12086244
+Gilmour, Allison F., Douglas Fuchs, and Joseph H. Wehby. “Are Students With Disabilities
+Accessing the Curriculum? A Meta-Analysis of the Reading Achievement Gap Between
+Students With and Without Disabilities.” Exceptional Children 85, no. 3 (2019): 329–346.
+https://doi.org/10.1177/0014402918795830
+MetaMetrics. ”About Lexile® Measures for Reading.” Accessed August 2023. https://lexile.com/
+educators/understanding-lexile-measures/about-lexile-measures-for-reading/
+US Department of Education, Institute of Education Sciences, National Center for Education Statistics.
+National Assessment of Educational Progress (NAEP), 2022 Reading Assessment. 2022.
+https://www.nationsreportcard.gov/reading/?grade=12
+
+3.27
+
+GUIDING LITERACY INTERVENTIONS THROUGH TIERED ASSESSMENT
+
+Literacy
