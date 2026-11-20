@@ -1,5 +1,10 @@
 # Design audit — November 2026
 
+> **Status:** findings 1, 2, 5 and 6 were implemented on 19 November (`template.html`).
+> Finding 3 (full-bleed) and finding 4 (accent colour) are still open — 3 is a
+> structural layout change worth reviewing before it ships, and 4 is best done
+> after it, since the bands in 3 create the places blue belongs.
+
 Written against the live site, measured rather than eyeballed. The brief was
 "it still feels a little blocky… is there a way for this to feel more modern".
 
@@ -146,6 +151,28 @@ The About page and section intros are better (16px / 82ch) but still long.
 costs nothing and is probably the single biggest readability win on the site.
 
 ---
+
+## Implemented on 19 November
+
+Measured across all six page types after the change:
+
+| | before | after |
+|---|---|---|
+| font sizes | 30 declared | **8 rendered** (44/34/28/22/18/16/14/12) |
+| font weights | 5 (300,400,500,600,700) | **3** (300/400/600) |
+| corner radii | 15 | **3 tokens** + `50%` for circular badges |
+| gap values | 18 | **5 tokens** (1px micro-stacks left alone) |
+| running text | 14px / 86-97 chars | **16px / 69-72 chars** |
+| practice photos | 11px radius in a tinted, bordered box | **hard-edged, no frame** |
+
+A base `h1..h6{font-weight:var(--w-semi)}` rule was needed: the toolkit card
+`h3`s were rendering at 700 purely from the browser default, which is how a
+fourth weight survived the first pass.
+
+One trap worth recording: `--measure` was first set to `68ch` and measured out
+at **86 real characters**. `1ch` is the width of "0", which in Figtree at 16px
+is 10.25px against an average character nearer 8. It is now `54ch`, set from
+counting characters per rendered line rather than from the unit.
 
 ## What I would do, in order
 
