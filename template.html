@@ -1180,12 +1180,32 @@ document.addEventListener('click',e=>{
 document.getElementById('demoToggle')?.addEventListener('click',()=>togglePanel());
 /* ---- combined search + ask ---- */
 const AI_ANSWERS=false; // flip to true when the retrieval bot is live
+// Punctuation is stripped from both the query and the text, so "co-planning",
+// "coplanning" and "co planning" all find the same thing. Not an edge case here:
+// the flagship practice is hyphenated, and "coplanning" used to return nothing
+// at all.
+function searchNorm(s){
+ return String(s==null?'':Array.isArray(s)?s.join(' '):s).toLowerCase().replace(/[^a-z0-9\s]+/g,'');
+}
 function searchResources(q){
- q=(q||'').trim().toLowerCase(); if(!q) return [];
+ q=searchNorm(q).trim(); if(!q) return [];
  const terms=q.split(/\s+/);
  return state.map(r=>{
-   const hay=`${r.title} ${r.summary||''} ${r.section} ${r.module} ${r.format} ${r.who_for||''}`.toLowerCase();
-   let score=0; for(const t of terms){ if(hay.includes(t)) score++; if((r.title||'').toLowerCase().includes(t)) score++; }
+   // body, why and quote carry the narrative, the "why it works" bullets and the
+   // field outcomes — which is where the school names, the percentages and terms
+   // like IEP and mastery actually live. Leaving them out meant all four schools
+   // named on the homepage proof band returned nothing when searched, though
+   // eight resources mention them.
+   const title=searchNorm(r.title);
+   const hay=[title,r.summary,r.section,r.module,r.format,r.who_for,r.practice,
+              r.body,r.why,r.quote].map(searchNorm).join(' ');
+   let score=0; for(const t of terms){ if(hay.includes(t)) score++; if(title.includes(t)) score++; }
+   // Terms match as substrings, which is what makes "plan" find "planning" — but
+   // it also let "pass" match "Passages" in a title and outrank the resource
+   // whose quote literally reads "the course pass rate increased from 79% to
+   // 97%". A whole-phrase hit is a much stronger signal than two loose ones, so
+   // it is weighted above any combination of single terms.
+   if(terms.length>1){ if(hay.includes(q)) score+=3; if(title.includes(q)) score+=3; }
    return {r,score,all:terms.every(t=>hay.includes(t))};
  }).filter(x=>x.all).sort((a,b)=>((b.r.published?1:0)-(a.r.published?1:0))||(b.score-a.score)).map(x=>x.r);
 }
@@ -1195,7 +1215,9 @@ function runSearch(q){
  const res=searchResources(q);
  count.textContent=res.length?`(${res.length})`:'';
  if(!res.length){ list.innerHTML='<div class="matchhint">No matching resources yet. Try a practice name, format, or topic.</div>'; return; }
- list.innerHTML=res.slice(0,40).map(r=>`<a class="matchrow ${r.published?'':'soon'}" href="#" data-go="module:${r.section}|${r.module}">${icon(r.format,16)}<span class="mrtxt"><span class="mrtitle">${esc(r.title)}</span><span class="mrmeta">${esc(r.section)} &middot; ${esc(r.module)} &middot; ${esc(r.format)}</span></span><span class="dot ${r.published?'ok':'soon'}" title="${r.published?'Available':'Coming soon'}"></span></a>`).join('');
+ const CAP=40;
+ const more=res.length>CAP?`<div class="matchhint">Showing the first ${CAP} of ${res.length}. Add a word to narrow it.</div>`:'';
+ list.innerHTML=more+res.slice(0,CAP).map(r=>`<a class="matchrow ${r.published?'':'soon'}" href="#" data-go="module:${r.section}|${r.module}">${icon(r.format,16)}<span class="mrtxt"><span class="mrtitle">${esc(r.title)}</span><span class="mrmeta">${esc(r.section)} &middot; ${esc(r.module)} &middot; ${esc(r.format)}</span></span><span class="dot ${r.published?'ok':'soon'}" title="${r.published?'Available':'Coming soon'}"></span></a>`).join('');
 }
 function renderAnswer(q){
  const b=document.getElementById('ansBody');
