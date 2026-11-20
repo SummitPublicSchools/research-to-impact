@@ -423,10 +423,10 @@ async function main() {
   const S = {}; siteRows.forEach(r => { if ((r.setting || '').trim()) S[r.setting.trim()] = r.value; });
   const site = {
     name: (S.site_name || 'Research to Impact').split('|')[0].trim(),
-    // What the header prints beside the logo. Shorter than site_name, which
-    // feeds page titles and is free to be descriptive ("... Practice Toolkit");
-    // a header_name setting on the Site tab overrides it.
-    header_name: String(S.header_name || 'Research to Impact').trim(),
+    // The site's name as the homepage prints it above the headline. Shorter
+    // than site_name, which feeds page titles and is free to be descriptive
+    // ("... Practice Toolkit"); a short_name setting on the Site tab overrides it.
+    short_name: String(S.short_name || 'Research to Impact').trim(),
     tagline: S.tagline, hero_headline: S.hero_headline, hero_subhead: S.hero_subhead,
     cta: S.hero_cta_label, footer: S.footer_attribution, license: S.license_line,
     about: aboutBlocks(S),

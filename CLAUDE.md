@@ -85,10 +85,11 @@ contains one.
   is decided in `template.html` (`navHtml`/`navDrawerHtml`) from the data, so the dropdown
   returns by itself when the sheet makes a second section live. The live sheet currently has
   one secondary section; the fixtures still have two, so CI covers both paths.
-- **The header fits because the toolkits are one menu.** Logo, site name
-  (`header_name` on the Site tab, default "Research to Impact"), four nav items and Search
-  need about 870px and sit on the page's 996px column; the Menu button takes over at 960px.
+- **The header fits because the toolkits are one menu.** Logo, four nav items and Search
+  need about 710px and sit on the page's 996px column; the Menu button takes over at 820px.
   Putting the toolkits back as separate links breaks that fit — re-measure before doing it.
+  The site's name is not in the header (it read as clutter there): it is the eyebrow above
+  the homepage headline (`short_name` on the Site tab, default "Research to Impact").
 - **"Start here" is automatic** (`startPicks` in `template.html`). A toolkit page shows the
   first three featured resources of its Overview module, topped up from the modules after
   it; the homepage shows each toolkit's introduction. The Site tab's `start1_id`.. picks

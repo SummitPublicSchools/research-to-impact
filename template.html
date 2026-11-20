@@ -112,11 +112,7 @@ header .logo{height:22px;display:flex;align-items:center;margin-right:8px;flex:0
 header .logo:focus-visible{outline-offset:6px}
 header .logo:hover{opacity:.85}
 header .logo img{height:22px;width:auto;display:block}
-/* The site's own name, beside the logo and inside the same home link: the logo
-   says whose site this is, the name says what it is. Regular weight and a hair
-   rule so it reads as a label next to the logo, not as part of the wordmark. */
-header .sitename{margin-left:12px;padding-left:12px;border-left:1px solid rgba(255,255,255,.32);font-size:var(--t-body);line-height:22px;color:#fff;white-space:nowrap}
-header .sitename:empty{display:none}
+
 /* Nav type was 12px, the smallest text on the site doing the most important
    job. It is 14px now, and each item is a padded target with a soft fill on
    hover: the old hover changed #dfe6ee to #fff, which nobody could see. The
@@ -300,12 +296,12 @@ a.pfact:hover .pgo{transform:translateX(2px)}
    the one place blue may carry white text. "On blue: large white type only",
    hence display size here rather than body size. Kept off .band, which a
    module's empty state shares and which is a small light-blue panel. */
-.closer{background:var(--blue);color:#fff;padding:var(--s-12) 0;margin-top:var(--s-8)}
-/* Deliberately larger than --t-display. White on blue is 3.51:1 — it clears
-   the 3:1 AA bar for large text, but the brand pairs that ratio with 60pt+
-   on its own divider pages, and Light weight thins the strokes further. This
-   lands between 32 and 56px so it is unambiguously display type. */
-.closer p{font-size:clamp(32px,4.6vw,56px);font-weight:var(--w-light);line-height:1.1;letter-spacing:-.02em;margin:0;max-width:20ch}
+.closer{background:var(--blue);color:#fff;padding:var(--s-8) 0;margin-top:var(--s-8)}
+/* One line of 24-28px type. It was 32-56px and four lines tall, which made a
+   passing note about the resource count the loudest thing on the page. White
+   on blue is 3.51:1, which clears the 3:1 AA bar only for large text, so this
+   must not drop below 24px: Regular weight, not Light, to keep the strokes. */
+.closer p{font-size:clamp(24px,2.6vw,28px);line-height:1.25;letter-spacing:-.01em;margin:0}
 .band{background:var(--accent);border-radius:var(--r-card);padding:18px 22px;margin-top:22px;color:var(--navy);font-size:var(--t-meta);display:flex;align-items:center;gap:var(--s-3)}
 .section-h{margin:34px 0 0}
 .section-h h1{font-size:var(--t-display);color:var(--navy);margin:0}
@@ -356,6 +352,13 @@ a.pfact:hover .pgo{transform:translateX(2px)}
 .sechero.tall .shimg{object-position:center 30%}
 .sechero.tall::after{background:rgba(33,51,76,.62)}
 .sechero-sub{font-size:var(--t-body);color:#41505f;max-width:var(--measure);margin:0;line-height:1.62}
+/* An intro with no video or photo beside it used to stop at the 54ch measure
+   and leave the right half of the row empty, above cards that run the full
+   width. A long one now sets in two columns, which fills the row at the same
+   line length; a short one stays a single block. */
+@media(min-width:860px){
+  .pagehead.wide .sechero-sub,.pagehead.wide .section-h p{max-width:none;columns:2;column-gap:var(--s-12)}
+}
 .lab .labnote{text-transform:none;letter-spacing:normal;font-weight:var(--w-body);color:var(--muted);margin-left:9px;font-size:var(--t-label)}
 /* R2I Practices landing */
 .r2ihero{max-width:780px;margin:0 0 6px}
@@ -547,8 +550,20 @@ a.pfact:hover .pgo{transform:translateX(2px)}
    label: navy-grey capitals under a short orange rule. */
 .about{margin-top:var(--s-6)}
 .about h1{font-size:var(--t-display);color:var(--navy);margin:0 0 var(--s-2)}
-.about h2{font-size:var(--t-label);letter-spacing:.1em;text-transform:uppercase;color:var(--muted);font-weight:var(--w-semi);margin:var(--s-8) 0 var(--s-2)}
+.about h2{font-size:var(--t-label);letter-spacing:.1em;text-transform:uppercase;color:var(--muted);font-weight:var(--w-semi);margin:0 0 var(--s-2)}
 .about h2::before{content:"";display:block;width:28px;height:3px;background:var(--orange);margin-bottom:var(--s-2)}
+/* Each section is a row: its heading in a rail on the left, its text in a
+   reading-width column on the right. The prose used to sit in a 54ch column
+   on the left with the other half of the page empty, above a panel that ran
+   the full width. The rail takes the space the measure leaves, so the text's
+   right edge and the panel's now line up. */
+.abrow{margin-top:var(--s-8)}
+@media(min-width:860px){
+  .abrow{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,560px);gap:var(--s-12);margin-top:var(--s-12)}
+  .abrow h2{font-size:var(--t-sub);letter-spacing:-.005em;text-transform:none;color:var(--navy);font-weight:var(--w-light);line-height:1.2;margin:0}
+  .abrow p{max-width:none}
+  .abrow p:last-child{margin-bottom:0}
+}
 .about p{font-size:var(--t-body);color:#41505f;max-width:var(--measure);margin:0 0 var(--s-3);line-height:1.62}
 /* The way out to Marshall Street itself. A flat light-blue panel, the brand's
    own panel colour, so it reads as a different kind of block from the prose
@@ -707,15 +722,15 @@ header #findBtn .ftxt{display:none}header #findBtn .ftxt-s{display:inline}
   footer.site{padding-left:16px;padding-right:16px}
 }
 /* The nav gives way to the Menu button. With the toolkits under one menu the
-   bar is four items wide, so this happens at 960px rather than at 1200px: measured,
-   the bar needs 870px of content and has 929 at 961. */
-@media (max-width:960px){
+   bar is four items wide, so this happens at 820px rather than at 1200px: measured,
+   the bar needs about 710px of content and has 789 at 821. */
+@media (max-width:820px){
   nav.main{display:none}
   #menuBtn{display:inline-flex}
   header #findBtn{padding:8px 11px;max-width:none;margin-left:auto}
   header .logo{margin-right:0}
 }
-@media (max-width:620px){header .sitename{display:none}header #findBtn .ftxt-s{display:none}}
+@media (max-width:620px){header #findBtn .ftxt-s{display:none}}
 /* Phone header. After reclaiming the dead logo margin and the mismatched gutter
    above, the bar still needs 351px — 7px of slack on a 360px phone once the
    Helvetica Neue fallback's wider metrics are allowed for (measured: 2px of
@@ -748,7 +763,7 @@ header #findBtn .ftxt{display:none}header #findBtn .ftxt-s{display:inline}
        are both navy, so CW is the colour version here. NOT
        marshall-secondary-color.png, which is the C variant — its wordmark is navy
        and would disappear against this bar. -->
-  <a class="logo" data-go="home" href="#" aria-label="Home" title="Home"><img class="logo-img" src="assets/brand/marshall-secondary-cw-tight.png" width="954" height="112" alt="Marshall Street" fetchpriority="high"/><span class="sitename" id="siteName"></span></a>
+  <a class="logo" data-go="home" href="#" aria-label="Home" title="Home"><img class="logo-img" src="assets/brand/marshall-secondary-cw-tight.png" width="954" height="112" alt="Marshall Street" fetchpriority="high"/></a>
   <nav class="main" id="nav"></nav>
   <button id="findBtn" aria-label="Search or ask a question" aria-haspopup="dialog"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4-4"/></svg><span class="ftxt">Search or ask a question</span><span class="ftxt-s" aria-hidden="true">Search</span></button>
   <button id="menuBtn" aria-label="Menu" aria-haspopup="dialog" aria-expanded="false"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18"/></svg><span>Menu</span></button>
@@ -1219,7 +1234,7 @@ function home(){
  // is not what "Explore the toolkits" says. "See the results" appears only
  // when the proof band does.
  const site=DATA.site;
- return `<section class="hero bleed"><div class="htext"><div class="eyebrow">${esc(site.tagline)}</div><h1 class="serif">${esc(site.hero_headline)}</h1><p class="hsub">${esc(site.hero_subhead)}</p>
+ return `<section class="hero bleed"><div class="htext"><div class="eyebrow">${esc(site.short_name||site.tagline||'')}</div><h1 class="serif">${esc(site.hero_headline)}</h1><p class="hsub">${esc(site.hero_subhead)}</p>
   <div class="hacts"><button class="btn" data-scroll="cards">${esc(site.cta)}</button>${DATA.proof&&DATA.proof.length>1?'<a class="hlink" href="#" data-scroll="proof">See the results</a>':''}</div></div><div class="himg"><img src="assets/practices/hero-home-students.jpg" width="1400" height="1034" alt="" fetchpriority="high"/></div></section>
  ${proofBand()}
  <div class="cards">${cards}</div>
@@ -1262,7 +1277,7 @@ function section(sec){
  const headText=s.header_image
    ? (s.intro?`<p class="sechero-sub">${esc(s.intro)}</p>`:'')
    : `<div class="section-h"><h1 class="serif">${esc(sec)}</h1>${s.intro?`<p>${esc(s.intro)}</p>`:''}</div>`;
- const head=(headText||vid)?`<div class="pagehead${headText&&vid?' has-media':''}">${headText}${vid}</div>`:'';
+ const head=(headText||vid)?`<div class="pagehead${headText&&vid?' has-media':''}${headText&&!vid&&(s.intro||'').length>260?' wide':''}">${headText}${vid}</div>`:'';
  const modLabel=sec==='Leading Implementation'?'Collections':'Modules';
  const modNote=availTotal===0?`<span class="labnote">resources publishing soon &mdash; check back</span>`:'';
  return `${hero}
@@ -1315,7 +1330,7 @@ function module(sec,mod){
  const mhtml=more.length?`<div class="lab">More resources and tools</div><div class="morelist">${more.map(row).join('')}</div>`:'';
  const empty=(!focal.length&&!more.length)?`<div class="band">Resources coming soon for this module.</div>`:'';
  return `<nav class="crumb" aria-label="Breadcrumb"><a href="#" data-go="section:${escAttr(sec)}"><span class="arr" aria-hidden="true">&larr;</span>${esc(sec)}</a></nav>
- ${(()=>{const media=moduleMedia(m);return `<div class="pagehead${media?' has-media':''}"><div class="section-h"><h1 class="serif">${esc(mod)}</h1>${m.intro?`<p>${esc(m.intro)}</p>`:''}</div>${media}</div>`;})()}
+ ${(()=>{const media=moduleMedia(m);return `<div class="pagehead${media?' has-media':''}${!media&&(m.intro||'').length>260?' wide':''}"><div class="section-h"><h1 class="serif">${esc(mod)}</h1>${m.intro?`<p>${esc(m.intro)}</p>`:''}</div>${media}</div>`;})()}
  ${fhtml}${mhtml}${empty}
  ${modulePager(sec,mod)}
  ${sObj.homepage?attrib():''}`;
@@ -1381,7 +1396,7 @@ function about(){
  ${/* Every section comes from the Site tab now, in the order build.js lists them.
       The Team paragraph used to be hardcoded here — a single sentence — while a
       fuller about_team sat unread on the tab; the sheet's version wins. */''}
- ${(DATA.site.about||[]).map(s=>`<h2>${esc(s.heading)}</h2>${s.body.map(p=>`<p>${esc(p)}</p>`).join('')}`).join('')}
+ ${(DATA.site.about||[]).map(s=>`<section class="abrow"><h2>${esc(s.heading)}</h2><div class="abbody">${s.body.map(p=>`<p>${esc(p)}</p>`).join('')}</div></section>`).join('')}
  ${(m=>m&&m.text?`<div class="aboutms"><p>${esc(m.text)}</p><a class="btn navy" href="${escAttr(m.url)}" target="_blank" rel="noopener">${esc(m.cta)}<span class="ext" aria-hidden="true">&#8599;</span></a></div>`:'')(DATA.site.marshall)}</div>`;
 }
 // The "R2I Practices" landing — recreated from the old CoLab research-to-impact home.
@@ -2011,7 +2026,6 @@ if(DATA.site.hubspot_portal&&DATA.site.hubspot_form){
 
 document.getElementById('footAttr').textContent=DATA.site.footer;
 document.getElementById('footLic').textContent=DATA.site.license;
-document.getElementById('siteName').textContent=DATA.site.header_name||'';
 // The footer logo leads out to Marshall Street when the sheet gives its address.
 (()=>{const m=DATA.site.marshall,f=document.getElementById('footLogo');if(!m||!f)return;
  const a=document.createElement('a');a.href=m.url;a.target='_blank';a.rel='noopener';a.setAttribute('aria-label','Marshall Street website');
