@@ -312,6 +312,42 @@ function buildDocIndex(resources) {
   return { index: out, files, words, kept };
 }
 
+// Poster frames for the intro players. An embedded Vimeo iframe paints a black
+// box with a spinner until the player has loaded, which on a toolkit page is
+// the first thing under the intro. The page instead shows the video's own still
+// with a play button and only loads the player on click, so it needs the still's
+// URL — which the same public oEmbed endpoint returns, with the duration.
+//
+// Only the section and module intro videos get one (a resource's Watch button
+// opens a modal and never shows a resting frame). Live builds only: a fixtures
+// build stays network-free. On any failure the entry is simply left without a
+// poster and the page falls back to a plain navy panel with the play button.
+async function fetchVimeoPosters(holders) {
+  if (SOURCE === 'local') return;
+  const isVimeo = v => /^https:\/\/(?:player\.)?vimeo\.com\//i.test(v || '');
+  const pending = holders.filter(h => isVimeo(h.obj[h.key]));
+  const found = {};
+  await Promise.all([...new Set(pending.map(h => h.obj[h.key]))].map(async u => {
+    try {
+      const ctrl = new AbortController();
+      const timer = setTimeout(() => ctrl.abort(), 10000);
+      const res = await fetch('https://vimeo.com/api/oembed.json?width=1280&url=' + encodeURIComponent(u), { signal: ctrl.signal });
+      clearTimeout(timer);
+      const j = res.ok ? await res.json() : null;
+      if (j && /^https:\/\/i\.vimeocdn\.com\//.test(j.thumbnail_url || '')) {
+        found[u] = { poster: j.thumbnail_url, duration: Number(j.duration) || 0 };
+      }
+    } catch { /* no poster; the page has a fallback */ }
+  }));
+  let missed = 0;
+  for (const h of pending) {
+    const f = found[h.obj[h.key]];
+    if (f) { h.obj[h.key + '_poster'] = f.poster; h.obj[h.key + '_duration'] = f.duration; }
+    else missed++;
+  }
+  if (missed) info.push(`${missed} intro video(s) have no poster frame from Vimeo — they show a plain panel with a play button instead.`);
+}
+
 // Minimal RFC-4180-ish CSV parser: handles quoted fields, embedded commas,
 // newlines, and "" escapes. Returns an array of row-arrays.
 function parseCSV(text) {
@@ -635,11 +671,19 @@ async function main() {
     ...modRows.map(m => ({ obj: m, key: 'video', where: `Modules tab, module "${m.name}" module_video` })),
   ]);
 
+  // ----- poster frames for the intro players (after the links are numeric) -----
+  await fetchVimeoPosters([
+    ...allSections.map(s => ({ obj: s, key: 'landing_video' })),
+    ...modRows.map(m => ({ obj: m, key: 'video' })),
+  ]);
+
   // ----- shape exactly what the page render expects -----
   const sections = pageSections.map(s => ({
     name: s.name, intro: s.intro, header_image: s.header_image,
     homepage: HOMEPAGE_TIERS.includes(s.tier), video: s.landing_video,
-    modules: s.modules.map(m => ({ name: m.name, order: m.order, intro: m.intro, image: m.image, video: m.video })),
+    poster: s.landing_video_poster || '', duration: s.landing_video_duration || 0,
+    modules: s.modules.map(m => ({ name: m.name, order: m.order, intro: m.intro, image: m.image, video: m.video,
+      poster: m.video_poster || '', duration: m.video_duration || 0 })),
   }));
   // ----- Homepage proof band -----
   // Four field outcomes under the hero. Read from indexed Site keys, the same
