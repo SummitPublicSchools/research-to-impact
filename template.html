@@ -481,6 +481,41 @@ a.pfact:hover .pgo{transform:translateX(2px)}
    navy icon on a navy button — an unexplained gap before the word. */
 .dl .ic,.rcard .dl .ic,.morerow .dl .ic,.scard .dl .ic{color:currentColor;margin-top:0}
 
+/* Save (star) and Opened marks — personal, kept in this browser only. */
+.savebtn{display:inline-flex;align-items:center;gap:6px;background:transparent;border:1px solid var(--line);border-radius:var(--r-ctl);padding:7px 11px;font-family:inherit;font-size:var(--t-meta);font-weight:var(--w-semi);color:var(--navy);cursor:pointer}
+.savebtn:hover{border-color:var(--navy)}
+.savebtn:focus-visible,.openedmark:focus-visible,header #savedBtn:focus-visible{outline:2px solid var(--blue);outline-offset:2px}
+.savebtn svg{fill:none;stroke:currentColor;flex:none}
+.savebtn[aria-pressed="true"] svg{fill:var(--orange);stroke:var(--orange)}
+.morerow .savebtn{padding:5px 8px}
+.morerow .savebtn .stxt{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+.openedmark{display:inline-flex;align-items:center;gap:5px;background:#e3f3ec;color:#1d6a4d;border:0;border-radius:var(--r-pill);padding:3px 10px;font-family:inherit;font-size:var(--t-label);font-weight:var(--w-semi);cursor:pointer}
+.openedmark[hidden]{display:none}
+.openedmark:hover{background:#d2ebe0}
+.modprog{font-size:var(--t-meta);color:var(--muted);margin-top:10px}
+.modprog:empty{display:none}
+header #savedBtn{display:flex;align-items:center;gap:6px;background:transparent;border:0;border-radius:var(--r-ctl);padding:8px 10px;color:#dfe6ee;font-size:var(--t-meta);font-family:inherit;flex:0 0 auto;cursor:pointer}
+header #savedBtn:hover{background:rgba(255,255,255,.12)}
+header #savedBtn svg{fill:none;stroke:currentColor}
+header #savedBtn.has svg{fill:var(--orange);stroke:var(--orange)}
+header #savedBtn .scount:empty{display:none}
+header #savedBtn .scount{background:rgba(255,255,255,.16);border-radius:var(--r-pill);padding:0 7px;font-size:var(--t-label);font-weight:var(--w-semi)}
+/* On a phone the header is already full (logo, search, menu); Saved moves into the menu. */
+@media(max-width:760px){header #savedBtn{display:none}}
+/* A row carries a title plus up to four controls. On a narrow screen the title
+   takes the first line and the controls wrap beneath it, instead of the title
+   being squeezed to one word per line. */
+@media(max-width:560px){
+  .morerow.have{flex-wrap:wrap;row-gap:8px}
+  .morerow.have .rt{flex:1 1 calc(100% - 40px)}
+  .morerow.have .chip.fmt{margin-left:28px}
+}
+.savedbar{display:flex;flex-wrap:wrap;align-items:center;gap:var(--s-3);margin-top:18px}
+.savedbar .note{font-size:var(--t-meta);color:var(--muted)}
+.savedlist .morerow .rt a{color:var(--ink);text-decoration:none}
+.savedlist .morerow .rt a:hover{text-decoration:underline}
+.savedlist .morerow .rt .sub{display:block;font-size:var(--t-label);color:var(--muted)}
+.mrstar{color:var(--orange);margin-left:6px}
 .chip{display:inline-flex;align-items:center;gap:var(--s-2);font-size:var(--t-label);font-weight:var(--w-semi);padding:2px 9px;border-radius:var(--r-pill)}
 /* .chip.ok ("Available") was retired from resource cards: a card that is on the
    page and carries a Download button is self-evidently available, and the badge
@@ -784,6 +819,7 @@ header #findBtn .ftxt{display:none}header #findBtn .ftxt-s{display:inline}
   <a class="logo" data-go="home" href="#" aria-label="Home" title="Home"><img class="logo-img" src="assets/brand/marshall-secondary-cw-tight.png" width="954" height="112" alt="Marshall Street" fetchpriority="high"/></a>
   <nav class="main" id="nav"></nav>
   <button id="findBtn" aria-label="Search or ask a question" aria-haspopup="dialog"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4-4"/></svg><span class="ftxt">Search or ask a question</span><span class="ftxt-s" aria-hidden="true">Search</span></button>
+  <button id="savedBtn" data-go="saved" aria-label="Saved resources" title="Your saved resources"><svg width="15" height="15" viewBox="0 0 24 24" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><path d="M12 3.6l2.6 5.3 5.8.8-4.2 4.1 1 5.8L12 16.9 6.8 19.6l1-5.8-4.2-4.1 5.8-.8z"/></svg><span class="stxt">Saved</span><span id="savedCount" class="scount"></span></button>
   <button id="menuBtn" aria-label="Menu" aria-haspopup="dialog" aria-expanded="false"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18"/></svg><span>Menu</span></button>
 </header>
 <!-- Mobile menu. nav.main is a hover/dropdown bar that cannot work on a touch screen,
@@ -1025,9 +1061,11 @@ function navDrawerHtml(){
    ?`<a href="#" data-go="module:${esc(col.section||col.name)}|${esc(c)}">${esc(c)}</a>`
    :`<a href="#" data-dd-soon="1">${esc(c)}<span class="nd-soon">soon</span></a>`).join('');
  }
- if(nav.about){
-  out+=`<div class="nd-grp">More</div><a href="#" data-go="about" class="${view.type==='about'?'active':''}">${esc(nav.about.name)}</a>`;
- }
+ /* The header has no room for a Saved button on a phone, so it lives here. */
+ const nSaved=MY.saved.filter(id=>MY_RES.has(id)).length;
+ out+=`<div class="nd-grp">${nav.about?'More':'Yours'}</div>`;
+ if(nav.about)out+=`<a href="#" data-go="about" class="${view.type==='about'?'active':''}">${esc(nav.about.name)}</a>`;
+ out+=`<a href="#" data-go="saved" class="${view.type==='saved'?'active':''}">Saved${nSaved?' ('+nSaved+')':''}</a>`;
  return out;
 }
 
@@ -1065,11 +1103,12 @@ window.addEventListener('resize',()=>{
  if(window.innerWidth>1200&&!document.getElementById('navDrawer').hidden)navDrawer(false);
 });
 
-function render(){renderApp();renderPanel();document.getElementById('nav').innerHTML=navHtml();document.getElementById('navDrawerList').innerHTML=navDrawerHtml();document.title=titleFor(view);}
+function render(){renderApp();refreshMarks();renderPanel();document.getElementById('nav').innerHTML=navHtml();document.getElementById('navDrawerList').innerHTML=navDrawerHtml();document.title=titleFor(view);}
 function titleFor(v){
  const site=(DATA.site&&DATA.site.name)?DATA.site.name:'Research to Impact';
  if(!v||v.type==='home')return site;
  if(v.type==='about')return 'About — '+site;
+ if(v.type==='saved')return (v.shared?'A shared list':'Saved')+' — '+site;
  if(v.type==='r2ihome')return (DATA.r2iHome&&DATA.r2iHome.heading||'R2I Practices')+' — '+site;
  if(v.type==='section')return v.section+' — '+site;
  if(v.type==='module')return v.module+' — '+v.section+' — '+site;
@@ -1079,6 +1118,7 @@ function titleFor(v){
 function viewToHash(v){
  if(!v||v.type==='home')return '#/';
  if(v.type==='about')return '#/about';
+ if(v.type==='saved')return '#/saved'+(v.shared&&v.shared.length?'/'+v.shared.map(encodeURIComponent).join(','):'');
  if(v.type==='r2ihome')return '#/practices';
  if(v.type==='section')return '#/'+encodeURIComponent(v.section);
  if(v.type==='module')return '#/'+encodeURIComponent(v.section)+'/'+encodeURIComponent(v.module);
@@ -1089,6 +1129,11 @@ function hashToView(){
  if(!raw)return {type:'home'};
  const parts=raw.split('/').map(s=>{try{return decodeURIComponent(s)}catch(_){return s}});
  if(parts[0]==='about')return {type:'about'};
+ /* #/saved is this browser's own list; #/saved/id,id,… is a list someone sent. */
+ if(parts[0]==='saved'){
+  const ids=(parts[1]||'').split(',').map(x=>x.trim()).filter(x=>MY_RES.has(x));
+  return ids.length?{type:'saved',shared:[...new Set(ids)]}:{type:'saved'};
+ }
  if(parts[0]==='practices'&&DATA.r2iHome)return {type:'r2ihome'};
  const sec=DATA.sections.find(s=>s.name===parts[0]);
  if(!sec)return {type:'home'};
@@ -1104,6 +1149,7 @@ function renderApp(){
  else if(view.type==='section') a.innerHTML=section(view.section);
  else if(view.type==='module') a.innerHTML=module(view.section,view.module);
  else if(view.type==='about') a.innerHTML=about();
+ else if(view.type==='saved') a.innerHTML=savedView(view);
  window.scrollTo({top:0,behavior:'instant'});
  proofReveal();
 }
@@ -1349,15 +1395,119 @@ function module(sec,mod){
  const mhtml=more.length?`<div class="lab">More resources and tools</div><div class="morelist">${more.map(row).join('')}</div>`:'';
  const empty=(!focal.length&&!more.length)?`<div class="band">Resources coming soon for this module.</div>`:'';
  return `<nav class="crumb" aria-label="Breadcrumb"><a href="#" data-go="section:${escAttr(sec)}"><span class="arr" aria-hidden="true">&larr;</span>${esc(sec)}</a></nav>
- ${(()=>{const media=moduleMedia(m);return `<div class="pagehead${media?' has-media':''}${!media&&(m.intro||'').length>260?' wide':''}"><div class="section-h"><h1 class="serif">${esc(mod)}</h1>${m.intro?`<p>${esc(m.intro)}</p>`:''}</div>${media}</div>`;})()}
+ ${(()=>{const media=moduleMedia(m);return `<div class="pagehead${media?' has-media':''}${!media&&(m.intro||'').length>260?' wide':''}"><div class="section-h"><h1 class="serif">${esc(mod)}</h1>${m.intro?`<p>${esc(m.intro)}</p>`:''}<div class="modprog" data-prog="${escAttr(sec)}|${escAttr(mod)}" aria-live="polite"></div></div>${media}</div>`;})()}
  ${fhtml}${mhtml}${empty}
  ${modulePager(sec,mod)}
  ${sObj.homepage?attrib():''}`;
 }
+/* ---- saved & opened ---------------------------------------------------------
+   A visitor can star a resource and see which ones they have already opened,
+   with no account. Both lists live in this browser's localStorage and nowhere
+   else: nothing is sent, nothing is tracked, and there is nothing to log in
+   to. The honest cost is that it is per browser, per device — a private
+   window or cleared site data starts empty — so the Saved page can turn the
+   list into a link (#/saved/id,id,…) to carry it to another device or hand it
+   to a colleague. Resource ids never change (the sheet bridge refuses to edit
+   them), which is what makes a stored id safe to keep.
+
+   Every read and write is wrapped: localStorage can throw or come back empty,
+   and the page must render exactly as before when it does. */
+const MY_RES=new Map(DATA.resources.filter(r=>r.published).map(r=>[r.id,r]));
+const MY={saved:[],opened:[]};
+let myGateRid='';
+(function(){
+ const read=k=>{ try{ const v=JSON.parse(localStorage.getItem(k)||'[]'); return Array.isArray(v)?[...new Set(v.filter(x=>typeof x==='string'))]:[]; }catch(e){ return []; } };
+ MY.saved=read('r2i.saved'); MY.opened=read('r2i.opened');
+})();
+function myStore(){ try{ localStorage.setItem('r2i.saved',JSON.stringify(MY.saved)); localStorage.setItem('r2i.opened',JSON.stringify(MY.opened)); }catch(e){} }
+function isSaved(id){return MY.saved.includes(id);}
+function isOpened(id){return MY.opened.includes(id);}
+function setIn(list,id,on){ const i=list.indexOf(id); if(on&&i<0)list.push(id); if(!on&&i>=0)list.splice(i,1); }
+function markSaved(id,on){ setIn(MY.saved,id,on); myStore(); refreshMarks(); }
+function markOpened(id,on){ setIn(MY.opened,id,on); myStore(); refreshMarks(); }
+const STAR=`<svg width="15" height="15" viewBox="0 0 24 24" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><path d="M12 3.6l2.6 5.3 5.8.8-4.2 4.1 1 5.8L12 16.9 6.8 19.6l1-5.8-4.2-4.1 5.8-.8z"/></svg>`;
+function saveBtn(r){
+ const on=isSaved(r.id);
+ return `<button type="button" class="savebtn" data-save="${escAttr(r.id)}" aria-pressed="${on}" aria-label="${on?'Saved':'Save'}: ${escAttr(r.title)}" title="${on?'Remove from your saved list':'Save to your list'}">${STAR}<span class="stxt">${on?'Saved':'Save'}</span></button>`;
+}
+/* Shown only once a resource has been opened; pressing it takes the mark off. */
+function openedMark(r){
+ return `<button type="button" class="openedmark" data-opened="${escAttr(r.id)}" title="You opened this. Click to clear the mark." ${isOpened(r.id)?'':'hidden'}>&#10003; Opened</button>`;
+}
+/* Marks change without re-rendering the view: a re-render scrolls to the top,
+   which would yank the page away from the card that was just starred. */
+function refreshMarks(){
+ for(const b of document.querySelectorAll('[data-save]')){
+  const id=b.getAttribute('data-save'), on=isSaved(id), r=MY_RES.get(id);
+  b.setAttribute('aria-pressed',on?'true':'false');
+  b.setAttribute('aria-label',(on?'Saved':'Save')+': '+(r?r.title:''));
+  b.title=on?'Remove from your saved list':'Save to your list';
+  const t=b.querySelector('.stxt'); if(t)t.textContent=on?'Saved':'Save';
+ }
+ for(const b of document.querySelectorAll('[data-opened]')) b.hidden=!isOpened(b.getAttribute('data-opened'));
+ for(const el of document.querySelectorAll('[data-prog]')){
+  const [sec,mod]=el.getAttribute('data-prog').split('|');
+  const list=resOf(sec,mod).filter(r=>r.published), n=list.filter(r=>isOpened(r.id)).length;
+  el.textContent=n?`You have opened ${n} of ${list.length} here.`:'';
+ }
+ const n=MY.saved.filter(id=>MY_RES.has(id)).length;
+ const dl=document.getElementById('navDrawerList'); if(dl&&dl.innerHTML)dl.innerHTML=navDrawerHtml();
+ const sb=document.getElementById('savedBtn');
+ if(sb){ sb.classList.toggle('has',n>0); document.getElementById('savedCount').textContent=n?String(n):''; sb.setAttribute('aria-label',n?`Saved resources (${n})`:'Saved resources'); }
+}
+document.addEventListener('click',e=>{
+ const s=e.target.closest('[data-save]');
+ if(s){ e.preventDefault(); const id=s.getAttribute('data-save'), on=!isSaved(id); markSaved(id,on); toast(on?'Saved. Your list is under Saved in the menu bar.':'Removed from Saved.'); return; }
+ const o=e.target.closest('[data-opened]');
+ if(o){ e.preventDefault(); markOpened(o.getAttribute('data-opened'),false); return; }
+ const a=e.target.closest('[data-rid]');
+ if(a){
+  const id=a.getAttribute('data-rid');
+  /* A gated resource is only "opened" once the visitor gets past the email
+     ask, so that one is marked in gateProceed instead. */
+  if(a.hasAttribute('data-gate')) myGateRid=id; else markOpened(id,true);
+  return;
+ }
+ if(e.target.closest('#copySaved')){
+  const url=location.origin+location.pathname+viewToHash({type:'saved',shared:MY.saved.filter(id=>MY_RES.has(id))});
+  const done=()=>toast('Link copied. Open it on another device, or send it to a colleague.');
+  const fail=()=>{ const f=document.getElementById('savedLink'); if(f){ f.hidden=false; f.value=url; f.focus(); f.select(); } toast('Copy the link from the box.'); };
+  if(navigator.clipboard&&navigator.clipboard.writeText) navigator.clipboard.writeText(url).then(done,fail); else fail();
+  return;
+ }
+ if(e.target.closest('#saveShared')){
+  for(const id of (view.shared||[])) setIn(MY.saved,id,true);
+  myStore(); navigate({type:'saved'}); toast('Added to your saved list.');
+ }
+});
+function savedRow(r){
+ return `<div class="morerow have">${icon(r.format,16)}<span class="rt"><a href="#" data-go="module:${escAttr(r.section)}|${escAttr(r.module)}">${esc(r.title)}</a><span class="sub">${esc(r.section)} &middot; ${esc(r.module)}</span></span><span class="chip fmt">${esc(r.format)}</span>${openedMark(r)}${resAction(r)}${saveBtn(r)}</div>`;
+}
+function savedView(v){
+ const shared=!!(v&&v.shared&&v.shared.length);
+ const ids=shared?v.shared:MY.saved;
+ const order=new Map(DATA.sections.map((s,i)=>[s.name,i]));
+ const list=ids.map(id=>MY_RES.get(id)).filter(Boolean);
+ const groups=new Map();
+ for(const r of list){ if(!groups.has(r.section))groups.set(r.section,[]); groups.get(r.section).push(r); }
+ const body=[...groups].sort((a,b)=>(order.has(a[0])?order.get(a[0]):99)-(order.has(b[0])?order.get(b[0]):99))
+  .map(([sec,rs])=>`<div class="lab">${esc(sec)}</div><div class="morelist savedlist">${rs.map(savedRow).join('')}</div>`).join('');
+ if(shared){
+  const fresh=list.filter(r=>!isSaved(r.id)).length;
+  return `<div class="pagehead"><div class="section-h"><h1 class="serif">A shared list</h1><p>Someone sent you ${list.length===1?'this resource':'these '+list.length+' resources'}. Open them here, or add them to your own saved list.</p>
+   <div class="savedbar">${fresh?`<button type="button" class="btn" id="saveShared">Save ${fresh===list.length?(list.length===1?'it':'all '+list.length):fresh+' new'} to my list</button>`:'<span class="note">These are all in your saved list already.</span>'}<a href="#" class="note" data-go="saved">Go to my saved list</a></div></div></div>${body}`;
+ }
+ const opened=list.filter(r=>isOpened(r.id)).length;
+ const head=`<div class="pagehead"><div class="section-h"><h1 class="serif">Saved</h1><p>Resources you star are kept here, in this browser, with no account. They stay on this device, so use the link to move your list to another one or to share it.</p>`
+  +(list.length?`<div class="savedbar"><button type="button" class="btn" id="copySaved">Copy a link to this list</button><span class="note">${list.length} saved${opened?`, ${opened} opened`:''}</span></div><input id="savedLink" type="text" readonly hidden aria-label="Link to this list" style="width:100%;max-width:640px;margin-top:10px;padding:8px 10px;border:1px solid var(--line);border-radius:var(--r-ctl);font:inherit;font-size:var(--t-meta)"/>`:'')
+  +`</div></div>`;
+ return head+(list.length?body:`<div class="band">Nothing saved yet. Choose <b>&nbsp;Save&nbsp;</b> on any resource and it will be waiting here.</div>`);
+}
+
 function resAction(r){
  if(r.video){
   const u=r.video_url||r.link||'';
-  return u?`<button class="dl" data-video="${escAttr(u)}">${icon('Video',14)} Watch</button>`
+  return u?`<button class="dl" data-rid="${escAttr(r.id)}" data-video="${escAttr(u)}">${icon('Video',14)} Watch</button>`
           :`<button class="dl" onclick="toast('Video link not set yet — add a video_url in the sheet')">${icon('Video',14)} Watch</button>`;
  }
  // link_type "external_link" means a Google Doc, template or page that opens in
@@ -1371,15 +1521,15 @@ function resAction(r){
  const missing=ext?'Link not set yet — add a link_url in the sheet'
                   :'File link not set yet — add it to the Drive 01 - Published folder';
  const u=r.link||'';
- if(r.gated) return `<button class="dl" data-gate="1" data-title="${escAttr(r.title)}" data-link="${escAttr(u)}">${ic} ${label}</button>`;
- return u?`<button class="dl" data-open="${escAttr(u)}">${ic} ${label}</button>`
+ if(r.gated) return `<button class="dl" data-rid="${escAttr(r.id)}" data-gate="1" data-title="${escAttr(r.title)}" data-link="${escAttr(u)}">${ic} ${label}</button>`;
+ return u?`<button class="dl" data-rid="${escAttr(r.id)}" data-open="${escAttr(u)}">${ic} ${label}</button>`
          :`<button class="dl" onclick="toast('${missing}')">${ic} ${label}</button>`;
 }
 function card(r){
  if(!r.published){
   return `<div class="rcard soon"><div class="top">${icon(r.format,19)}<div class="ttl">${esc(r.title)}</div><span class="chip soon">Coming soon</span></div>${r.summary?`<div class="desc" style="color:#5f6770">${esc(r.summary)}</div>`:''}</div>`;
  }
- const acts=`<div class="acts"><span class="chip fmt">${esc(r.format)}</span>${r.gated?'<span class="chip gate-chip">Email to download</span>':''}${resAction(r)}</div>`;
+ const acts=`<div class="acts"><span class="chip fmt">${esc(r.format)}</span>${r.gated?'<span class="chip gate-chip">Email to download</span>':''}${resAction(r)}${saveBtn(r)}${openedMark(r)}</div>`;
  // Full-collection card: a clean, accented download CTA (no per-practice detail).
  if(r.overview){
   return `<div class="rcard collhero"><div class="eyebrow">Full collection</div><div class="ttl serif">${esc(r.title)}</div>${r.summary?`<div class="desc">${esc(r.summary)}</div>`:''}${acts}</div>`;
@@ -1406,7 +1556,7 @@ function row(r){
  // action as a card, just in a compact row (with a light-blue hover). focal only
  // controls prominence (featured card vs. compact row), not whether you can get it.
  if(r.published){
-  return `<div class="morerow have">${icon(r.format,16)}<span class="rt">${esc(r.title)}</span><span class="chip fmt">${esc(r.format)}</span>${resAction(r)}</div>`;
+  return `<div class="morerow have">${icon(r.format,16)}<span class="rt">${esc(r.title)}</span><span class="chip fmt">${esc(r.format)}</span>${openedMark(r)}${resAction(r)}${saveBtn(r)}</div>`;
  }
  return `<div class="morerow soon">${icon(r.format,16)}<span class="rt">${esc(r.title)}</span><span class="chip fmt">${esc(r.format)}</span><span class="chip soon">Coming soon</span></div>`;
 }
@@ -1483,6 +1633,7 @@ document.addEventListener('click',e=>{
  if(v==='home')nv={type:'home'};
  else if(v==='r2ihome')nv={type:'r2ihome'};
  else if(v==='about')nv={type:'about'};
+ else if(v==='saved')nv={type:'saved'};
  else if(v.startsWith('section:'))nv={type:'section',section:v.slice(8)};
  else if(v.startsWith('module:')){const [sec,mod]=v.slice(7).split('|');nv={type:'module',section:sec,module:mod};}
  if(nv)navigate(nv);
@@ -2052,7 +2203,7 @@ document.addEventListener('click',e=>{
  renderLens(); runSearch(document.getElementById('findInput').value);
 });
 function matchRow(r,sn){
- return `<a class="matchrow ${r.published?'':'soon'}" href="#" data-go="module:${escAttr(r.section)}|${escAttr(r.module)}">${icon(r.format,16)}<span class="mrtxt"><span class="mrtitle">${esc(r.title)}</span><span class="mrmeta">${esc(r.section)} &middot; ${esc(r.module)} &middot; ${esc(r.format)}</span>${sn?`<span class="mrsnip">${sn}</span>`:''}</span><span class="dot ${r.published?'ok':'soon'}" title="${r.published?'Available':'Coming soon'}"></span></a>`;
+ return `<a class="matchrow ${r.published?'':'soon'}" href="#" data-go="module:${escAttr(r.section)}|${escAttr(r.module)}">${icon(r.format,16)}<span class="mrtxt"><span class="mrtitle">${esc(r.title)}${isSaved(r.id)?'<span class="mrstar" title="Saved" aria-label="Saved">&#9733;</span>':''}</span><span class="mrmeta">${esc(r.section)} &middot; ${esc(r.module)} &middot; ${esc(r.format)}</span>${sn?`<span class="mrsnip">${sn}</span>`:''}</span><span class="dot ${r.published?'ok':'soon'}" title="${r.published?'Available':'Coming soon'}"></span></a>`;
 }
 /* Before anything is typed, a chosen lens is itself a question: "what is here
    for me?" Answer it with the resources each module already marks as its
@@ -2189,7 +2340,7 @@ function askEmail(title,link){
  gateReturnFocus=document.activeElement;const x=g.querySelector('.gate-x');if(x)x.focus();
 }
 function gateClose(){const g=document.getElementById('gate');if(!g.classList.contains('open'))return;g.classList.remove('open');g.setAttribute('aria-hidden','true');if(gateReturnFocus&&gateReturnFocus.focus){gateReturnFocus.focus();gateReturnFocus=null;}}
-function gateProceed(){const u=gatePendingLink;gateClose();if(u)openUrl(u);else toast('File link not set yet — add a link_url in the sheet');}
+function gateProceed(){const u=gatePendingLink;gateClose();if(u){openUrl(u);if(myGateRid)markOpened(myGateRid,true);}else toast('File link not set yet — add a link_url in the sheet');}
 document.getElementById('gate').addEventListener('click',e=>{if(e.target.id==='gate')gateClose();});
 document.addEventListener('click',e=>{const b=e.target.closest('[data-gate]');if(b){e.preventDefault();askEmail(b.getAttribute('data-title'),b.getAttribute('data-link'));}});
 /* Load the HubSpot embed script only when IDs are configured (no surprise calls before setup). */
