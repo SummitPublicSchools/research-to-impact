@@ -68,16 +68,27 @@ contains one.
 ## Key concepts & gotchas
 
 - **Tiers** (`tier` on the Sections tab) drive prominence: `IGNITE` (practice toolkits) +
-  `Own` (Leading Implementation) = homepage cards + top nav; `Stories` + `Evidence` =
+  `Own` (Leading Implementation) = homepage cards + the **"Toolkits"** menu in the top nav; `Stories` + `Evidence` =
   secondary, shown in the **"Evidence & Stories"** dropdown; `R2I` = the **"Collections"**
   dropdown (cross-cutting topics, shown as "soon" chips until that section is live);
   `Site` = the About page. The two dropdown labels are constants in `build.js`
-  (`SECONDARY_NAV_LABEL`, `COLLECTIONS_NAV_LABEL`); their **contents stay sheet-driven**.
+  (`SECONDARY_NAV_LABEL`, `COLLECTIONS_NAV_LABEL`, plus `TOOLKITS_NAV_LABEL` for the
+  toolkits menu); their **contents stay sheet-driven**.
   **A dropdown with one section left renders as a plain link to that section**, under its
   own name rather than the group label — a label promising a menu of one reads badly. That
   is decided in `template.html` (`navHtml`/`navDrawerHtml`) from the data, so the dropdown
   returns by itself when the sheet makes a second section live. The live sheet currently has
   one secondary section; the fixtures still have two, so CI covers both paths.
+- **The header fits because the toolkits are one menu.** Logo, site name
+  (`header_name` on the Site tab, default "Research to Impact"), four nav items and Search
+  need about 870px and sit on the page's 996px column; the Menu button takes over at 960px.
+  Putting the toolkits back as separate links breaks that fit — re-measure before doing it.
+- **"Start here" is automatic** (`startPicks` in `template.html`). A toolkit page shows the
+  first three featured resources of its Overview module, topped up from the modules after
+  it; the homepage shows each toolkit's introduction. The Site tab's `start1_id`.. picks
+  override the automatic ones only for the toolkit they all sit in.
+- **About's Marshall Street panel and the footer logo link** come from three Site settings:
+  `marshall_url` (https only), `about_marshall`, `about_marshall_cta`. No URL, no panel.
 - **`nav_visible` is a sentinel, not a boolean**: `build.js` tests it against the literal
   string `'hidden-until-live'`. Any other value (including blank) means visible. Setting it
   to `no` or `FALSE` will **not** hide a section.

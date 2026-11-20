@@ -312,9 +312,22 @@ async function main() {
   const S = {}; siteRows.forEach(r => { if ((r.setting || '').trim()) S[r.setting.trim()] = r.value; });
   const site = {
     name: (S.site_name || 'Research to Impact').split('|')[0].trim(),
+    // What the header prints beside the logo. Shorter than site_name, which
+    // feeds page titles and is free to be descriptive ("... Practice Toolkit");
+    // a header_name setting on the Site tab overrides it.
+    header_name: String(S.header_name || 'Research to Impact').trim(),
     tagline: S.tagline, hero_headline: S.hero_headline, hero_subhead: S.hero_subhead,
     cta: S.hero_cta_label, footer: S.footer_attribution, license: S.license_line,
     about: aboutBlocks(S),
+    // The closing panel on About that points at Marshall Street itself, and the
+    // target of the footer logo. All three come from the Site tab; with no
+    // marshall_url the panel does not render and the footer logo is not a link.
+    // Only an https URL is accepted, so a typo cannot become a script link.
+    marshall: (u => /^https:\/\/[^\s"'<>]+$/.test(u) ? {
+      url: u,
+      text: String(S.about_marshall || '').trim(),
+      cta: String(S.about_marshall_cta || '').trim() || 'Visit Marshall Street',
+    } : null)(String(S.marshall_url || '').trim()),
     // Optional HubSpot capture (soft email ask on gated resources). Blank = a
     // placeholder shows instead of a live form, so nothing breaks before setup.
     hubspot_portal: (S.hubspot_portal_id || '').trim(),
@@ -469,6 +482,11 @@ async function main() {
   const TOP_NAV_TIERS = ['IGNITE', 'Own'];
   const SECONDARY_NAV_LABEL = 'Evidence & Stories';
   const COLLECTIONS_NAV_LABEL = 'R2I Practices';
+  // The toolkits used to be four links across the bar. Grouped under one menu
+  // they leave room for the site's name beside the logo and let the header sit
+  // on the same column as the page. Like the two labels above, this is
+  // presentation only: which sections appear in the menu stays sheet-driven.
+  const TOOLKITS_NAV_LABEL = 'Toolkits';
   const groups = [];
   pageSections.filter(s => TOP_NAV_TIERS.includes(s.tier)).forEach(s => {
     const g = groups.find(x => x.label === s.header_label);
@@ -494,6 +512,7 @@ async function main() {
     : [];
   const nav = {
     groups,
+    toolkitsLabel: TOOLKITS_NAV_LABEL,
     secondary: secondarySections.length
       ? { name: SECONDARY_NAV_LABEL, sections: secondarySections }
       : null,
