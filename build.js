@@ -212,6 +212,7 @@ async function resolveVimeoLinks(holders) {
 const CONTENT_DIR = process.env.CONTENT_DIR ||
   (SOURCE === 'local' ? path.join(FIXTURE_DIR, 'content') : 'content');
 const PASSAGE_WORDS = 110;      // target passage length
+const PASSAGE_MIN   = 15;       // shorter than this is a heading, not a passage
 const PASSAGE_MAX   = 170;      // a paragraph longer than this is cut into windows
 const DUP_SHINGLE   = 6;        // words per shingle when spotting repeated pages
 const DUP_FRACTION  = 0.6;      // share of a page already seen elsewhere => repeat
@@ -222,8 +223,56 @@ function linkedFileId(url) {
 }
 const docToks = s => String(s).toLowerCase().replace(/[^a-z0-9\s]+/g, ' ').split(/\s+/).filter(Boolean);
 
+// Many of the PDFs set their headings with wide letter-spacing, and text
+// extraction reads the gaps as word breaks: "PROGRESS MONITORING" comes out as
+// "PR OGR E SS M O N ITOR IN G". Left alone, those fragments are indexed as
+// words — typing "pr" matched exactly that and nothing else — and they are what
+// a snippet then quotes. A run is recognised by being made of pieces rather
+// than words (checked against the documents' own vocabulary), and repaired by
+// closing the gaps and re-cutting the letters into words the documents
+// themselves use elsewhere. A run that cannot be re-cut cleanly is dropped: a
+// missing heading costs little, a wrong word in the index costs trust.
+// (A heading can wrap, so a single line break counts as a gap; a blank line does not.)
+const SPACED_GAP = /(?:[ \t]+|[ \t]*\n(?!\s*\n)[ \t]*)/;
+const SPACED_RUN = new RegExp('(?<![A-Za-z])[A-Z&]{1,14}(?:' + SPACED_GAP.source + '[A-Z&]{1,14}){3,}(?![A-Za-z])', 'g');
+function isLetterSpaced(run, vocab) {
+  // Real capitals are made of words; a letter-spaced run is made of pieces.
+  // Short pieces, specifically: a row of acronyms ("IEP ELL MTSS") is not words
+  // either, and must be left alone.
+  const t = run.split(/\s+/).filter(x => x && x !== '&');
+  const pieces = t.filter(x => !vocab.has(x.toLowerCase())).length;
+  return pieces >= 2 && pieces / t.length >= 0.3 && t.filter(x => x.length <= 2).length / t.length >= 0.3;
+}
+function segmentWords(letters, vocab) {
+  // Fewest words wins; a tie goes to whichever cut came first.
+  const n = letters.length, best = new Array(n + 1).fill(null);
+  best[0] = [];
+  for (let i = 0; i < n; i++) {
+    if (!best[i]) continue;
+    for (let j = i + 1; j <= Math.min(n, i + 24); j++) {
+      const w = letters.slice(i, j);
+      if (!vocab.has(w)) continue;
+      if (!best[j] || best[i].length + 1 < best[j].length) best[j] = best[i].concat(w);
+    }
+  }
+  return best[n];
+}
+function repairLetterSpacing(text, vocab, stats) {
+  return text.replace(SPACED_RUN, run => {
+    if (!isLetterSpaced(run, vocab)) return run;
+    // "&" is a real word boundary; everything else is closed up and re-cut.
+    const parts = run.split('&').map(part => {
+      const letters = part.replace(/\s+/g, '').toLowerCase();
+      return letters ? segmentWords(letters, vocab) : [];
+    });
+    if (parts.some(x => !x)) { stats.dropped++; if (process.env.DEBUG_SPACING) console.error('DROP ' + JSON.stringify(run)); return ' '; }
+    stats.repaired++;
+    return parts.map(x => x.join(' ').toUpperCase()).join(' & ');
+  });
+}
+
 function buildDocIndex(resources) {
-  const empty = { index: { v: 1, docs: [], passages: [] }, files: 0, words: 0, kept: 0 };
+  const empty = { index: { v: 1, docs: [], passages: [] }, files: 0, words: 0, kept: 0, spacing: { repaired: 0, dropped: 0 } };
   if (!fs.existsSync(CONTENT_DIR)) return empty;
 
   // 1. One "doc" per distinct text, however many resources link to it. Two
@@ -251,6 +300,23 @@ function buildDocIndex(resources) {
   //    document, the stand-alone one keeps the passage. Otherwise a 179-page
   //    "full collection" would match every query its parts match and crowd the
   //    specific resource out of its own result.
+  // The dictionary the repair cuts against: the words these documents actually
+  // use. Counted from lower-case text only — the damage is confined to
+  // capitalised headings, so a word seen in running prose is a real word, while
+  // a fragment like "ARN" repeated in every page header is not.
+  const wordCount = new Map();
+  for (const d of byText.values()) {
+    for (const w of d.text.match(/\b[A-Za-z][a-z]+\b/g) || []) {
+      const k = w.toLowerCase(); wordCount.set(k, (wordCount.get(k) || 0) + 1);
+    }
+  }
+  const vocab = new Set(['a', 'i']);
+  // Short "words" need more evidence: a stray "gn" or "ls" in prose would
+  // otherwise vouch for the very fragments this is trying to catch.
+  for (const [w, c] of wordCount) if (c >= (w.length === 2 ? 25 : w.length === 3 ? 6 : 2)) vocab.add(w);
+  const spacing = { repaired: 0, dropped: 0 };
+  for (const d of byText.values()) d.text = repairLetterSpacing(d.text, vocab, spacing);
+
   const docs = [...byText.values()].sort((a, b) => a.n - b.n || a.ids[0].localeCompare(b.ids[0]));
   const seen = new Set();
   const out = { v: 1, docs: [], passages: [] };
@@ -301,7 +367,8 @@ function buildDocIndex(resources) {
       }
       flush();
       for (const c of chunks) {
-        if (c.split(' ').length < 6) continue;
+        // A passage this short is a title page or a divider, not something to rank.
+        if (c.split(' ').length < PASSAGE_MIN) continue;
         out.passages.push([di, paged ? pi + 1 : 0, c]); kept += c.split(' ').length;
       }
     });
@@ -309,7 +376,7 @@ function buildDocIndex(resources) {
     // A doc whose every page was a repeat still gets its slot, so indexes stay aligned.
     out.docs.push(d.ids);
   }
-  return { index: out, files, words, kept };
+  return { index: out, files, words, kept, spacing };
 }
 
 // Poster frames for the intro players. An embedded Vimeo iframe paints a black
@@ -768,6 +835,12 @@ async function main() {
     info.push(`Document index: ${docIdx.files} files, ${docIdx.words.toLocaleString('en-US')} words read; ` +
       `${docIdx.kept.toLocaleString('en-US')} kept after removing repeats, in ${searchDocs.passages} passages ` +
       `(${Math.round(Buffer.byteLength(docJson) / 1024)} KB before compression).`);
+    if (docIdx.spacing.repaired || docIdx.spacing.dropped) {
+      info.push(`Document index: ${docIdx.spacing.repaired} letter-spaced heading(s) repaired, ${docIdx.spacing.dropped} dropped as unreadable.`);
+    }
+    // Belt and braces: if broken headings ever get through, say so in the build.
+    const broken = docIdx.index.passages.filter(p => /(?:\b[A-Za-z]\b[ ]){4,}/.test(p[2])).length;
+    if (broken) warn.push(`Document index: ${broken} passage(s) still contain letter-spaced fragments (e.g. "P R O G R E S S") — search will match and quote them as nonsense. See repairLetterSpacing in build.js.`);
   } else {
     info.push(`Document index: empty (no extracted text in ${CONTENT_DIR}/ — run tools/index-files.mjs).`);
   }

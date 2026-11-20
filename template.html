@@ -1641,7 +1641,7 @@ function buildSearchIndex(){
   names.push({section:s.name,text:sNorm(s.name),sq:sSquash(s.name)});
   for(const m of (s.modules||[])) names.push({section:s.name,module:m.name,text:sNorm(m.name),sq:sSquash(m.name)});
  }
- SIDX={docs,mods,idf,vocab:new Set(df.keys()),avgdl,names,flagship,
+ SIDX={docs,mods,idf,df,vocab:new Set(df.keys()),avgdl,names,flagship,
        secTokens:sections.map(s=>[s.name,[...new Set(sFieldToks(s.name))]])};
  return SIDX;
 }
@@ -1669,6 +1669,34 @@ function sExpand(q,vocab){
  const sq=sSquash(q);
  if(sq.length>3&&vocab&&vocab.has(sStem(sq))) terms.set(sStem(sq),1);
  for(const w of sContent(extra)){ const k=sStem(w); if(!terms.has(k)) terms.set(k,0.55); }
+ /* Match as you type. Until a word is finished it is not a word: "pr" matched
+    nothing (or, worse, matched a stray fragment), and every keystroke on the
+    way to "progress" showed "Nothing matched". The word still being typed is
+    therefore read as the START of a word, and stands for the library's most
+    common words that begin that way.
+    All of its completions count as ONE of the visitor's words (terms.pre) —
+    otherwise typing two letters would look like a twenty-word query and the
+    coverage rule would throw everything out.
+    A finished word is left exactly as it was: once "class" is a word, it does
+    not also mean "classroom". Letting longer words add even a little weight
+    re-ranked a complete question and cost it its answer, and it means a
+    finished query behaves precisely as it did before this existed. */
+ const partial=sPartial(q);
+ if(partial&&vocab){
+  /* "Finished" means a word the SHEET uses. Document text alone does not vouch
+     for one: it contains "pro", "para" and "st" as scraps of hyphenated words,
+     and stems like "advantag" (from "advantaged") that are really the front of
+     the word being typed. Such a word keeps its own match and gains the
+     completions alongside it. */
+  const stem=sStem(partial), whole=vocab.has(stem)&&SIDX.df.has(stem);
+  const comps=sCompletions(partial).filter(k=>k!==stem&&!terms.has(k));
+  if(comps.length&&!whole){
+   terms.delete(partial);
+   if(vocab.has(stem))comps.push(stem); else terms.delete(stem);
+   terms.pre=new Set(comps);
+   for(const k of comps) terms.set(k,1);
+  }
+ }
  /* Spelling rescue, only for a word the library has never seen — so a real word
     is never quietly swapped for a different real word. */
  if(vocab) for(const [k,w] of [...terms]){
@@ -1678,6 +1706,44 @@ function sExpand(q,vocab){
  }
  return terms;
 }
+/* The word the visitor is still typing: the last one, unless they have already
+   typed a space after it. */
+function sPartial(q){
+ if(/\s$/.test(String(q||'')))return '';
+ const w=sToks(q).pop()||'';
+ return (w.length>=2&&!SEARCH_STOP.has(w))?w:'';
+}
+const S_PREFIX_MAX=24;
+function sCompletions(p){
+ const idx=SIDX; if(!idx)return [];
+ if(!idx.vlist){
+  /* Most common first, so a two-letter prefix resolves to the words people
+     are most likely reaching for. A word in the sheet counts for more than a
+     word that only occurs inside a document. */
+  const f=k=>(idx.df.get(k)||0)*4+((SDOC&&SDOC.post.get(k))?SDOC.post.get(k).length/2:0);
+  idx.vlist=[...idx.vocab].sort((a,b)=>f(b)-f(a));
+ }
+ const out=[];
+ for(const v of idx.vlist){ if(v.length>p.length&&v.startsWith(p)){ out.push(v); if(out.length>=S_PREFIX_MAX)break; } }
+ /* The index holds stems, so "monitori" is not the start of anything in it
+    ("monitoring" is stored as "monitor"). Undo a half-typed ending. */
+ for(let cut=1;cut<=2&&cut<p.length-2;cut++){
+  const tail=p.slice(-cut);
+  if(!['ing','ed','es','ies'].some(sf=>sf.length>cut&&sf.startsWith(tail)))continue;
+  /* (…and "tardi" is on its way to "tardies", which is stored as "tardy".) */
+  for(const base of [p.slice(0,-cut),p.slice(0,-cut).replace(/([^aeiou])\1$/,'$1'),...('ies'.startsWith(tail)?[p.slice(0,-cut)+'y']:[])]){
+   if(idx.vocab.has(base)&&!out.includes(base))out.unshift(base);
+  }
+ }
+ return out;
+}
+/* How many of the visitor's own words these matched terms account for. */
+function sHits(ks,terms){
+ if(!terms.pre)return ks.length;
+ let n=0,pre=false;
+ for(const k of ks){ if(terms.pre.has(k))pre=true; else n++; }
+ return n+(pre?1:0);
+}
 function sBm25(wf,dl,terms,idf,avgdl,hay,phrase,title){
  let sc=0,hit=0; const ks=[];
  for(const [k,w] of terms){
@@ -1686,6 +1752,7 @@ function sBm25(wf,dl,terms,idf,avgdl,hay,phrase,title){
   if(w===1){hit++;ks.push(k);}
  }
  if(!sc)return{sc:0,hit:0,ks};
+ hit=sHits(ks,terms);
  if(phrase.length>3){
   if(title&&title.includes(phrase))sc*=2.4;
   else if(hay.includes(phrase))sc*=1.35;
@@ -1725,6 +1792,7 @@ function loadDocIndex(j){
     A word that appears inside a document has been seen. */
  for(const k of post.keys()) idx.vocab.add(k);
  SDOC={j,post,len,N,avg:len.reduce((a,b)=>a+b,0)/N||1};
+ idx.vlist=null;   /* completions are ranked by frequency, which just changed */
  return SDOC;
 }
 /* resource id -> its best passage for this query. `need` is how many of the
@@ -1744,12 +1812,13 @@ function sDocBest(terms,phrase,need,literal){
  }
  const best=new Map();
  for(const [p,e] of acc){
-  if(e.ks.length<need)continue;
+  e.hit=sHits(e.ks,terms);
+  if(e.hit<need)continue;
   const ps=D.j.passages[p];
-  if(literal>=2&&e.ks.length>=literal&&phrase.length>3&&sNorm(ps[2]).includes(phrase))e.sc*=1.35;
+  if(literal>=2&&e.hit>=literal&&phrase.length>3&&sNorm(ps[2]).includes(phrase))e.sc*=1.35;
   for(const id of D.j.docs[ps[0]]||[]){
    const b=best.get(id);
-   if(!b||e.sc>b.sc)best.set(id,{sc:e.sc,ks:e.ks,page:ps[1],text:ps[2]});
+   if(!b||e.sc>b.sc)best.set(id,{sc:e.sc,hit:e.hit,page:ps[1],text:ps[2]});
   }
  }
  return best;
@@ -1760,7 +1829,7 @@ function searchAll(q){
  const phrase=sNorm(q), sqq=sSquash(q);
  const terms=sExpand(q,idx.vocab);
  if(!terms.size)return{resources:[],modules:[],terms};
- const literal=[...terms.values()].filter(v=>v===1).length;
+ const literal=sHits([...terms].filter(([,v])=>v===1).map(([k])=>k),terms);
  /* The site's own taxonomy is the strongest signal it has: someone typing a
     section or module name is not guessing. */
  const named=idx.names.filter(n=>n.text&&(phrase.includes(n.text)||(n.sq.length>4&&sqq.includes(n.sq))));
@@ -1825,7 +1894,16 @@ function searchAll(q){
    const p=x.r.published?inside.get(x.r.id):null; if(!p)continue;
    const bonus=S_DOCW*p.sc*mult(x.r);
    if(got.has(x.r.id)){ x.sc+=bonus; x.inside=p; }
-   else if(p.ks.length>=needDoc&&p.sc>=topP*S_DOCFLOOR&&x.sc+bonus>=top*0.3){ x.sc+=bonus; x.inside=p; rs.push(x); }
+   else if(p.hit>=needDoc&&p.sc>=topP*S_DOCFLOOR&&x.sc+bonus>=top*0.3){ x.sc+=bonus; x.inside=p; rs.push(x); }
+  }
+  /* The sheet found nothing and no passage cleared the higher bar. Rather than
+     a blank panel, fall back to the best passages there are — the same promise
+     the sheet-only ranking makes: a question never returns nothing. */
+  if(!rs.length){
+   for(const x of all){
+    const p=x.r.published?inside.get(x.r.id):null;
+    if(p&&p.sc>=topP*S_DOCFLOOR){ x.sc+=S_DOCW*p.sc*mult(x.r); x.inside=p; rs.push(x); }
+   }
   }
  }
  rs.sort((a,b)=>((b.r.published?1:0)-(a.r.published?1:0))||(b.sc-a.sc));
@@ -1843,7 +1921,7 @@ function searchAll(q){
     the sheet: those where the passage carries more of the visitor's words than
     the sheet row does. */
  const found=new Map();
- for(const x of rs) if(x.inside&&x.inside.ks.length>x.hit) found.set(x.r.id,x.inside);
+ for(const x of rs) if(x.inside&&x.inside.hit>x.hit) found.set(x.r.id,x.inside);
  return {resources:rs.map(x=>x.r),modules:ms.map(x=>x.m),terms,inside:found};
 }
 /* Kept for the live-edit panel and anything else expecting the old shape. */
@@ -1892,8 +1970,16 @@ function runSearch(q){
   count.textContent=''; renderWhere(null); return;
  }
  const {resources:res,modules:mods,terms,inside}=searchAll(q);
- renderWhere(mods.length?{mods,terms}:null);
+ /* "Where to start" is an answer. Two or three letters of one word are not yet
+    a question, so do not answer them — just list what matches so far. */
+ const guessing=terms.pre&&terms.size===terms.pre.size&&sPartial(q).length<4;
+ renderWhere(mods.length&&!guessing?{mods,terms}:null);
  count.textContent=res.length?`(${res.length})`:'';
+ /* One letter, or only words like "the": nothing has been asked yet, so do not
+    report a failed search. */
+ if(!terms.size){ list.innerHTML='<div class="matchhint">Keep typing &mdash; a word or two is enough.</div>'; return; }
+ /* Mid-word, an empty panel is not a verdict yet. */
+ if(!res.length&&sPartial(q)){ list.innerHTML='<div class="matchhint">Nothing yet &mdash; keep typing, or try a different word.</div>'; return; }
  if(!res.length){ list.innerHTML='<div class="matchhint">Nothing matched that. Try a practice name, a format, or fewer words.</div>'; return; }
  const CAP=25;
  const more=res.length>CAP?`<div class="matchhint">Showing the ${CAP} closest of ${res.length}. Add a word to narrow it.</div>`:'';

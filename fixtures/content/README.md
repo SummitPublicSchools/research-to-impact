@@ -6,3 +6,7 @@ keyed by the fake Drive ids in `fixtures/Files.csv`, and exist so CI exercises
 the document index end to end: passage cutting, page numbers, and the rule
 that a page repeated in a compilation stays with the stand-alone document
 (the white-paper file repeats both pages of the enabling-conditions file on purpose).
+
+Page 2 of the enabling-conditions file opens with a letter-spaced heading
+(`S E L F A S S E S S M EN T`), the way many of the real PDFs extract. The build
+must repair it to `SELF ASSESSMENT`; `tools/search-eval.mjs` fails if it does not.

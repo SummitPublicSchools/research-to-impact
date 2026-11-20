@@ -66,7 +66,7 @@ function loadEngine(html) {
   if (start < 0 || end < 0) throw new Error('could not find the search block in ' + PAGE);
   const m = html.match(/const DATA = (\{.*?\});\nlet state/s);
   if (!m) throw new Error('could not find DATA in ' + PAGE);
-  const src = html.slice(start, end) + '\n;return {searchAll, buildSearchIndex, loadDocIndex, DATA};';
+  const src = html.slice(start, end) + '\n;return {searchAll, buildSearchIndex, loadDocIndex, sPartial, DATA};';
   return new Function('DATA', src)(JSON.parse(m[1]));
 }
 
@@ -84,8 +84,8 @@ let failed = false;
    exactly the kind of change that can quietly bury the curated results, so the
    original floors have to hold in BOTH states — not just the old one. */
 function run(label, withDocs) {
-  const { searchAll, buildSearchIndex, loadDocIndex, DATA } = loadEngine(html);
-  buildSearchIndex();
+  const { searchAll, buildSearchIndex, loadDocIndex, sPartial, DATA } = loadEngine(html);
+  const idx = buildSearchIndex();
   let passages = 0;
   if (withDocs) {
     const j = JSON.parse(readFileSync(DOCS, 'utf8'));
@@ -149,6 +149,40 @@ function run(label, withDocs) {
     if (bad) failed = true;
     console.log(`  inside   ${withDocs ? (bad ? 'FAIL' : 'ok  ') : '    '}  ` +
       `right document in top ${INSIDE_TOP}: ${got}/${n}${withDocs ? ` (min ${INSIDE_FLOOR})` : '  (baseline — not gated)'}`);
+  }
+
+  /* Match as you type. Search used to match whole words only, so every
+     keystroke before a word was finished showed "Nothing matched" — "pr" found
+     nothing although the library is full of words that begin that way — and
+     nobody testing with finished queries could see it. So every labelled query
+     is replayed keystroke by keystroke: whenever the word being typed is the
+     start of a word the library knows, the panel must have something in it. */
+  {
+    let tried = 0; const blankAt = [];
+    const stems = [...idx.vocab];
+    for (const c of [...SET.tune, ...SET.holdout, ...(SET.inside || [])]) {
+      for (let n = 2; n <= c.q.length; n++) {
+        const part = c.q.slice(0, n);
+        const w = sPartial(part);             // '' after a space, or for a stopword
+        if (!w || !stems.some(v => v.startsWith(w))) continue;
+        const r = searchAll(part);
+        if (!r.terms.size) continue;          // a stopword so far: the panel says "keep typing"
+        tried++;
+        if (!r.resources.length) blankAt.push(part);
+      }
+    }
+    console.log(`  ${blankAt.length ? 'FAIL' : 'ok  '}  half-typed words the library knows, returning nothing: ${blankAt.length}/${tried}`);
+    if (blankAt.length) { failed = true; blankAt.slice(0, 8).forEach(x => console.log('        "' + x + '"')); }
+  }
+
+  /* Letter-spaced headings extract as "PR OGR E SS M O N ITOR IN G". If those
+     reach the index, a two-letter query matches them and the panel quotes
+     them. The build repairs them; this is the check that it still does. */
+  if (withDocs) {
+    const j = JSON.parse(readFileSync(DOCS, 'utf8'));
+    const broken = j.passages.filter(p => /(?:\b[A-Za-z]\b[ ]){4,}/.test(p[2]));
+    console.log(`  ${broken.length ? 'FAIL' : 'ok  '}  document passages containing letter-spaced fragments: ${broken.length}/${j.passages.length}`);
+    if (broken.length) { failed = true; broken.slice(0, 4).forEach(p => console.log('        ' + p[2].match(/(?:\b[A-Za-z]\b[ ]){4,}\S*/)[0])); }
   }
 
   /* --expect-inside "query::resource-id" — an end-to-end assertion on a build

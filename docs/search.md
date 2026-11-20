@@ -68,6 +68,13 @@ word so `coplanning` still finds `co-planning`, and a one-edit spelling rescue
 that fires **only** for a word the library has never seen — so a real word is
 never quietly swapped for a different real word.
 
+**Match as you type.** The word still being typed is read as the *start* of a
+word and stands for the library's most common words beginning that way ("pr" →
+practice, progress, protocol…), all counting as one of the visitor's words. A
+finished word — one the sheet itself uses — is left exactly alone, so a
+complete query ranks precisely as it did before. Without this, every keystroke
+on the way to a word showed "Nothing matched".
+
 Instead of strict AND, a result must match **at least half** the words the
 visitor actually typed, and score within a fraction of the top hit. A question
 can no longer return nothing; one incidental word can no longer drag in a third
@@ -121,6 +128,16 @@ That ordering is the lesson of this build. The first version let passage
 matches vote on the coverage rule, and "anything for a principal rolling this
 out" lost its (correct) sheet results to any passage containing "roll out".
 Prose matches loose questions far too easily to be given that vote.
+
+**5. Letter-spaced headings are repaired.** Many of the PDFs set headings with
+wide letter-spacing, and extraction reads the gaps as word breaks: "PROGRESS
+MONITORING" arrives as "PR OGR E SS M O N ITOR IN G". Those fragments were
+being indexed as words — typing "pr" matched exactly that — and quoted in
+snippets. `repairLetterSpacing` in `build.js` spots a run made of pieces rather
+than words (judged against the documents' own lower-case vocabulary), closes the
+gaps and re-cuts the letters into real words; a run it cannot re-cut is
+dropped. About 1,000 headings are repaired and a dozen dropped. Passages under
+15 words (title pages, dividers) are not indexed at all.
 
 **To refresh by hand** (needs `pdftotext`: `brew install poppler`):
 
@@ -197,6 +214,12 @@ passages, so they prove retrieval works rather than measure it blind.
 Every check runs twice — on the sheet-only index the page loads with, and again
 with the document text loaded — because those are the two states the page
 really runs in, and the original floors must hold in both.
+
+Two more invariants run on every build, scored or not: **replaying every
+labelled query keystroke by keystroke never empties the panel** while the word
+being typed is the start of a word the library knows, and **no document passage
+contains letter-spaced fragments**. Both failures shipped once, and both were
+invisible to tests made of finished, whole-word queries.
 
 **CI runs the invariant only** (`node tools/search-eval.mjs`, no `--score`): *no
 natural-language question returns a blank panel.* That holds whatever is in the
