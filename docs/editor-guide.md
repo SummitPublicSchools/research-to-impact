@@ -275,15 +275,24 @@ Also worth adding: **conditional formatting** to flag a blank `summary` when
 When in doubt, ask a teammate to run the build and read the warnings — every problem
 is reported by name, nothing fails silently.
 
-## Saved and Opened (what visitors can do on their own)
+## Save, Done and Share (what visitors can do on their own)
 
-Visitors can **star** any published resource to keep it in a personal **Saved** list
-(top right; inside the menu on a phone), and the site ticks each resource they have
-**opened**. There is no login: the lists are stored in the visitor's own browser and
-never leave it, so nobody at Marshall can see them, and they do not follow the visitor
-to another device. The Saved page has **Copy a link to this list** for that — the link
-opens the same list anywhere, and is also a simple way to send a colleague a hand-picked
-set of resources.
+Every published resource has three small controls:
 
-For editors there is one thing to know: these lists remember a resource by its `id`.
-Changing an `id` in the sheet silently drops that resource from everyone's saved list.
+- **Save** (the star) keeps it in the visitor's personal **Saved** list (top right;
+  inside the menu on a phone).
+- **Done** is a checkbox they tick once they have read or used it. The Saved page works
+  as a to-do list, and each module page shows how many they have finished.
+- **Share** gives a link to that one resource. It opens the resource on this site, on its
+  module page, so a colleague sees it in context. On a phone it uses the phone's own share
+  sheet; on a computer it offers **Copy link** and **Email it**, which opens the visitor's
+  own mail program with a short message ready. The Saved page can share the whole list the
+  same way.
+
+There is no login. Saved and Done are stored in the visitor's own browser and never leave
+it, so nobody at Marshall can see them, and they do not follow the visitor to another
+device. Sharing sends nothing from the site either.
+
+For editors there is one thing to know: all of this remembers a resource by its `id`.
+Changing an `id` in the sheet silently drops that resource from everyone's saved list and
+breaks any link to it that has already been shared.
