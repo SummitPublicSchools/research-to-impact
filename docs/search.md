@@ -132,7 +132,7 @@ Everything is at the top of the search block in `template.html`:
 |---|---|
 | `SEARCH_SYN` | The vocabulary table. **Start here** — most "it didn't find X" reports are a missing phrase, and adding one is a one-line change. |
 | `SEARCH_STOP` | Function words. Note `getting` is stopped but `start`/`started` are not: "Getting Started" is a module on every practice. |
-| `S_FIELDS` | Field weights. |
+| `S_FIELDS` | Field weights. **A field missing from this list is not searched at all** — `who_for` sat unindexed because it was empty when the search was written, so filling it would have done nothing on its own. |
 | `S_K1`, `S_B` | BM25 saturation and length normalisation. |
 
 Re-run the scored eval after any change. If a floor fails, the floor is doing
@@ -145,9 +145,11 @@ passes and a regression does not.
 
 - **Vocabulary not in the table and not in the sheet won't be found.** That is
   the real ceiling, and it is why `SEARCH_SYN` is the first place to look.
-- **`who_for` is empty on all 119 resources.** It is the single field that would
-  most improve ranking — it is what lets "I'm an instructional coach" find the
-  right thing. Filling it is editorial work in the sheet, not code.
+- **`who_for` is now filled on all 119 resources** and indexed at weight 3, above
+  `summary`. It is short and curated, so every word in it is a role a visitor
+  might use for themselves. Keeping it filled on new resources matters: it is
+  what lets "I'm an instructional coach", "paraeducator" or "for deans" find
+  anything at all.
 - **A term the whole library is about cannot discriminate.** "Students with
   disabilities" is the premise of the entire site, so it is a weak signal
   within it.
