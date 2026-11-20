@@ -179,18 +179,17 @@ main{max-width:none;margin:0;padding:0 0 60px}
 .hero .hacts{display:flex;flex-wrap:wrap;align-items:center;gap:var(--s-3) var(--s-6)}
 .hero .hlink{color:var(--navy);font-size:var(--t-meta);font-weight:var(--w-semi);border-bottom:1px solid rgba(33,51,76,.35);padding-bottom:2px}
 .hero .hlink:hover{border-bottom-color:var(--orange)}
-.hero .hkits{display:flex;flex-wrap:wrap;gap:6px 22px;margin-top:30px;padding-top:16px;border-top:1px solid var(--line);font-size:var(--t-meta)}
-.hero .hkits a{color:#41505f}
-.hero .hkits a:hover{color:var(--navy);text-decoration:underline;text-underline-offset:4px}
 .hero .himg{grid-column:3/5;position:relative;min-height:420px;overflow:hidden}
 .hero .himg img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:88% 40%;display:block}
+/* Side by side, the image is a fifth wider than its box and anchored right,
+   which trims the out-of-focus shoulder on the photo's left edge. */
+@media(min-width:900px){.hero .himg img{inset:0 0 0 auto;width:122%}}
 .hero+.proof{margin-top:0}
 @media(max-width:1200px){#app>.hero{grid-template-columns:minmax(16px,1fr) minmax(0,510px) minmax(0,486px) minmax(16px,1fr)}}
 @media(max-width:899px){
   #app>.hero{grid-template-columns:16px minmax(0,1fr) 16px}
   .hero .himg{grid-column:1/-1;order:-1;min-height:0;height:min(56vw,420px)}
   .hero .htext{grid-column:2;padding:28px 0 32px}
-  .hero .hkits{margin-top:24px}
 }
 @media(max-width:560px){.hero+.proof{border-radius:0;padding-left:0;padding-right:0}}
 /* Homepage proof band — the field outcomes, directly under the hero. Navy and
@@ -210,7 +209,22 @@ main{max-width:none;margin:0;padding:0 0 60px}
 @media(max-width:560px){.pgrid{grid-template-columns:minmax(0,1fr)}}
 .pfact{display:flex;flex-direction:column;color:#fff;padding-right:10px}
 .pstat{font-size:var(--t-stat);font-weight:var(--w-light);line-height:1.05;letter-spacing:-.015em;transition:color .12s}
-.plabel{font-size:var(--t-meta);line-height:1.4;color:#dfe6ee;margin-top:6px}
+/* A "before -> after" stat is drawn as one: the starting figure small and
+   muted, the result large and white, and a bar underneath whose pale part is
+   where the school started and whose orange part is what it gained. Orange is
+   a fill here, never text. The bar draws itself when the band scrolls into
+   view. A stat that is not two percentages renders as plain text, as before. */
+.pstat.ba{display:flex;align-items:baseline;gap:10px;letter-spacing:0}
+.pfrom{font-size:var(--t-sub);color:#a9bace}
+.parr{font-size:var(--t-heading);color:#a9bace}
+.pto{font-size:clamp(34px,4.2vw,48px);letter-spacing:-.02em;line-height:1}
+.pbar{position:relative;display:block;height:6px;margin-top:14px;background:rgba(255,255,255,.14);overflow:hidden}
+.pbar i{position:absolute;left:0;top:0;bottom:0;display:block}
+.pbar .pb-to{background:var(--orange);width:var(--from);transition:width .9s cubic-bezier(.2,.7,.2,1) .15s}
+.pbar .pb-from{background:var(--accent);width:var(--from)}
+.proof.in .pbar .pb-to{width:var(--to)}
+a.pfact:hover .pfrom,a.pfact:hover .parr{color:#dfe6ee}
+.plabel{font-size:var(--t-meta);line-height:1.4;color:#dfe6ee;margin-top:12px}
 /* margin-top:auto so the source lines sit on one baseline across the row — the
    labels wrap to one or two lines, which otherwise staggers them. */
 .psrc{font-size:var(--t-label);letter-spacing:.06em;text-transform:uppercase;color:#a9bace;margin-top:auto;padding-top:8px;transition:color .12s}
@@ -504,7 +518,11 @@ a.pfact:hover .pgo{transform:translateX(2px)}
    white rectangle on the tinted page, cropped at the feet. Multiply lets the
    page colour through the white, and contain shows the whole drawing. */
 .modimg.illus{object-fit:contain;background:none;mix-blend-mode:multiply}
-.attrib{font-size:var(--t-label);color:var(--muted);font-style:italic;margin-top:20px}
+.attrib{font-size:var(--t-meta);color:var(--muted);font-style:italic;margin-top:20px}
+.attrib a{display:inline-flex;align-items:center;gap:6px;padding:4px 0}
+.attrib a:hover{color:var(--navy);text-decoration:underline;text-underline-offset:4px}
+.attrib .arr{display:inline-block;font-style:normal;transition:transform .15s ease}
+.attrib a:hover .arr{transform:translateX(3px)}
 
 /* The title matches every other page (it was 28px against their 44). The
    section headings were orange text, which the brand does not allow — orange
@@ -961,11 +979,11 @@ document.getElementById('menuBtn')?.addEventListener('click',()=>navDrawer(true)
 document.addEventListener('click',e=>{if(e.target.closest('[data-nav-close]'))navDrawer(false);});
 // Any destination inside the drawer closes it; navigate() re-renders underneath.
 document.addEventListener('click',e=>{if(e.target.closest('#navDrawer [data-go]'))navDrawer(false);});
-// "See the results" in the homepage hero: scroll to the proof band, clear of the sticky header.
-document.addEventListener('click',e=>{const a=e.target.closest('[data-scroll="proof"]');if(!a)return;e.preventDefault();
- const t=document.querySelector('.proof');if(!t)return;
+// The two homepage hero actions: scroll to the toolkit cards or the proof band, clear of the sticky header.
+document.addEventListener('click',e=>{const a=e.target.closest('[data-scroll]');if(!a)return;e.preventDefault();
+ const t=document.querySelector(a.getAttribute('data-scroll')==='cards'?'.cards':'.proof');if(!t)return;
  const h=document.querySelector('header.site');
- window.scrollTo({top:t.getBoundingClientRect().top+window.scrollY-(h?h.offsetHeight:0),behavior:matchMedia('(prefers-reduced-motion:reduce)').matches?'auto':'smooth'});});
+ window.scrollTo({top:t.getBoundingClientRect().top+window.scrollY-(h?h.offsetHeight:0)-(t.classList.contains('cards')?24:0),behavior:matchMedia('(prefers-reduced-motion:reduce)').matches?'auto':'smooth'});});
 document.addEventListener('keydown',e=>{
  if(e.key==='Escape'&&!document.getElementById('navDrawer').hidden)navDrawer(false);
 });
@@ -1014,6 +1032,18 @@ function renderApp(){
  else if(view.type==='module') a.innerHTML=module(view.section,view.module);
  else if(view.type==='about') a.innerHTML=about();
  window.scrollTo({top:0,behavior:'instant'});
+ proofReveal();
+}
+// Draws the proof-band bars when the band first scrolls into view. Without
+// IntersectionObserver the bars are simply shown at full length.
+function proofReveal(){
+ const p=document.querySelector('.proof');
+ if(!p)return;
+ if(!('IntersectionObserver' in window)){p.classList.add('in');return;}
+ const io=new IntersectionObserver(es=>{if(es.some(e=>e.isIntersecting)){p.classList.add('in');io.disconnect();}},{threshold:.35});
+ io.observe(p);
+ // Belt and braces: never leave the bars half drawn if the observer stays silent.
+ setTimeout(()=>p.classList.add('in'),4000);
 }
 // The outcome numbers under the hero. Everything here comes from the sheet
 // (indexed Site keys, read in build.js); with none defined this renders nothing
@@ -1030,7 +1060,14 @@ function proofBand(){
   const src=p.source
    ?`<span class="psrc">${esc(p.source)}${linked?'<span class="pgo" aria-hidden="true">&rarr;</span>':''}</span>`
    :'';
-  const inner=`<span class="pstat">${esc(p.stat)}</span><span class="plabel">${esc(p.label)}</span>${src}`;
+  // "79% -> 97%" (any arrow, or "to") becomes the two-figure treatment plus a
+  // bar. Anything else — a single number, a count, words — stays plain text.
+  const ba=String(p.stat||'').match(/^\s*(\d+(?:\.\d+)?)\s*%\s*(?:\u2192|->|to)\s*(\d+(?:\.\d+)?)\s*%\s*$/i);
+  const ok=ba&&+ba[1]<=100&&+ba[2]<=100;
+  const stat=ok
+   ? `<span class="pstat ba" aria-label="${escAttr(ba[1])}% to ${escAttr(ba[2])}%"><span class="pfrom" aria-hidden="true">${esc(ba[1])}%</span><span class="parr" aria-hidden="true">&rarr;</span><span class="pto" aria-hidden="true">${esc(ba[2])}%</span></span><span class="pbar" aria-hidden="true" style="--from:${Math.min(+ba[1],+ba[2])}%;--to:${Math.max(+ba[1],+ba[2])}%"><i class="pb-to"></i><i class="pb-from"></i></span>`
+   : `<span class="pstat">${esc(p.stat)}</span>`;
+  const inner=`${stat}<span class="plabel">${esc(p.label)}</span>${src}`;
   return linked
    ? `<a class="pfact" href="#" data-go="module:${escAttr(p.to.section)}|${escAttr(p.to.module)}">${inner}</a>`
    : `<div class="pfact">${inner}</div>`;
@@ -1075,6 +1112,15 @@ function startHere(){
   <div class="sgrid">${items.map(cell).join('')}</div>
  </section>`;
 }
+// The line under a toolkit that says where its practices come from. It had an
+// arrow and went nowhere; it now goes to the practices page, and drops the
+// arrow when that page is not live rather than promising a link.
+function attrib(){
+ const t='Built on the Marshall Research to Impact practices';
+ return DATA.r2iHome
+  ? `<p class="attrib"><a href="#" data-go="r2ihome">${t}<span class="arr" aria-hidden="true">&rarr;</span></a></p>`
+  : `<p class="attrib">${t}</p>`;
+}
 function home(){
  // The cards used to say only "7 modules", which tells a visitor nothing about whether
  // the toolkit is worth opening. Lead with how much is actually in it, then the first
@@ -1087,13 +1133,13 @@ function home(){
   return `<a class="tcard" href="#" data-go="section:${s.name}">${icon(s.name==='Leading Implementation'?'Protocol':'Document',22)}<h3>${s.name}</h3><div class="sub">${n?`<b>${n} resource${n===1?'':'s'}</b> &middot; ${mods} ${unit}`:`${mods} ${unit}`}</div>${blurb?`<p class="tdesc">${esc(blurb)}</p>`:''}<span class="go">View toolkit <span class="arr" aria-hidden="true">&rarr;</span></span></a>`;
  }).join('');
  const live=state.filter(r=>r.published).length;
- // The toolkit names under the buttons come from the same sheet rows as the
- // cards below; "See the results" appears only when the proof band does.
+ // Both hero actions scroll: the toolkit cards and the proof band are on this
+ // page, directly below. The button used to jump into the first toolkit, which
+ // is not what "Explore the toolkits" says. "See the results" appears only
+ // when the proof band does.
  const site=DATA.site;
- const kits=DATA.sections.filter(s=>s.homepage).map(s=>`<a href="#" data-go="section:${escAttr(s.name)}">${esc(s.name)}</a>`).join('');
  return `<section class="hero bleed"><div class="htext"><div class="eyebrow">${esc(site.tagline)}</div><h1 class="serif">${esc(site.hero_headline)}</h1><p class="hsub">${esc(site.hero_subhead)}</p>
-  <div class="hacts"><button class="btn" data-go="section:Co-Planning">${esc(site.cta)}</button>${DATA.proof&&DATA.proof.length>1?'<a class="hlink" href="#" data-scroll="proof">See the results</a>':''}</div>
-  ${kits?`<nav class="hkits" aria-label="Toolkits">${kits}</nav>`:''}</div><div class="himg"><img src="assets/practices/hero-home-students.jpg" width="1400" height="1034" alt="" fetchpriority="high"/></div></section>
+  <div class="hacts"><button class="btn" data-scroll="cards">${esc(site.cta)}</button>${DATA.proof&&DATA.proof.length>1?'<a class="hlink" href="#" data-scroll="proof">See the results</a>':''}</div></div><div class="himg"><img src="assets/practices/hero-home-students.jpg" width="1400" height="1034" alt="" fetchpriority="high"/></div></section>
  ${proofBand()}
  <div class="cards">${cards}</div>
  ${startHere()}
@@ -1142,7 +1188,7 @@ function section(sec){
  ${head}
  <div class="lab">${modLabel}${modNote}</div><div class="mcards">${mcards}</div>
  ${shtml}
- ${s.homepage?'<p class="attrib">Built on the Marshall Research to Impact practices &rarr;</p>':''}`;
+ ${s.homepage?attrib():''}`;
 }
 // The modules are a designed sequence, so a module page ends with the step
 // either side of it. Ordering comes from modulesOf(), the same list the section
@@ -1190,7 +1236,7 @@ function module(sec,mod){
  ${(()=>{const media=moduleMedia(m);return `<div class="pagehead${media?' has-media':''}"><div class="section-h"><h1 class="serif">${esc(mod)}</h1>${m.intro?`<p>${esc(m.intro)}</p>`:''}</div>${media}</div>`;})()}
  ${fhtml}${mhtml}${empty}
  ${modulePager(sec,mod)}
- ${sObj.homepage?'<p class="attrib">Built on the Marshall Research to Impact practices &rarr;</p>':''}`;
+ ${sObj.homepage?attrib():''}`;
 }
 function resAction(r){
  if(r.video){
@@ -1271,8 +1317,7 @@ function r2iHomeView(){
  ${practices?`<div class="lab">The five practice collections</div><div class="pcards">${practices}</div>`:''}
  ${quotes?`<div class="lab">From the field</div><div class="tqgrid">${quotes}</div>`:''}
  ${journey?`<div class="lab">Our three-year journey</div><div class="jrow">${journey}</div>`:''}
- ${map}${partners}
- <p class="attrib">Built on the Marshall Research to Impact practices &rarr;</p>`;
+ ${map}${partners}`;
 }
 
 /* ---- live edit panel ---- */
