@@ -675,6 +675,7 @@ const ICONS={
  'Case Study':'M6 4h9a3 3 0 0 1 3 3v13H9a3 3 0 0 1-3-3z M9 4v13',
  Infographic:'M5 20V11 M10 20V4 M15 20v-7 M20 20V8',
  Video:'M6 4v16l13-8z',
+ Open:'M19 13v6a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h6 M15 4h5v5 M20 4l-9 9',
  Other:'M12 6a6 6 0 1 0 0 12 6 6 0 0 0 0-12z'
 };
 function icon(f,size){const p=ICONS[f]||ICONS.Other;size=size||20;return `<svg class="ic" aria-hidden="true" focusable="false" width="${size}" height="${size}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">${p.split(' M').map((seg,i)=>`<path d="${i?'M'+seg:seg}"/>`).join('')}</svg>`}
@@ -1000,10 +1001,20 @@ function resAction(r){
   return u?`<button class="dl" data-video="${escAttr(u)}">${icon('Video',14)} Watch</button>`
           :`<button class="dl" onclick="toast('Video link not set yet — add a video_url in the sheet')">${icon('Video',14)} Watch</button>`;
  }
+ // link_type "external_link" means a Google Doc, template or page that opens in
+ // a new tab — nothing is downloaded. That is 70 of the 119 published
+ // resources, and every one of them used to say "Download". "download" rows are
+ // Marshall's own published files, resolved through the Files manifest, where
+ // Download is the right word.
+ const ext=r.link_type==='external_link';
+ const label=ext?'Open':'Download';
+ const ic=ext?icon('Open',14):icon('Document',14);
+ const missing=ext?'Link not set yet — add a link_url in the sheet'
+                  :'File link not set yet — add it to the Drive 01 - Published folder';
  const u=r.link||'';
- if(r.gated) return `<button class="dl" data-gate="1" data-title="${escAttr(r.title)}" data-link="${escAttr(u)}">${icon('Document',14)} Download</button>`;
- return u?`<button class="dl" data-open="${escAttr(u)}">${icon('Document',14)} Download</button>`
-         :`<button class="dl" onclick="toast('File link not set yet — add a link_url in the sheet')">${icon('Document',14)} Download</button>`;
+ if(r.gated) return `<button class="dl" data-gate="1" data-title="${escAttr(r.title)}" data-link="${escAttr(u)}">${ic} ${label}</button>`;
+ return u?`<button class="dl" data-open="${escAttr(u)}">${ic} ${label}</button>`
+         :`<button class="dl" onclick="toast('${missing}')">${ic} ${label}</button>`;
 }
 function card(r){
  if(!r.published){
