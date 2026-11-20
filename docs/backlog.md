@@ -99,16 +99,27 @@ and outrank the resource whose quote reads "the course pass rate increased from
 The list also capped at 40 while the count showed the true total, so a search
 could say 51 and show 40 with nothing to explain the gap.
 
-### Still open: "Ask the Resources"
+### "Ask the Resources"
 
-A labelled placeholder — "Experimental · coming soon" badge, disabled send
-button, and a panel that says an answer "is on the way". There is no answer
-quality to evaluate; building it is its own project and needs a decision about
-what generates the answer.
+**Status:** built 19 November. Needs `ANTHROPIC_API_KEY` set in Netlify before it
+answers anything — until then the panel falls back to search, which is the
+intended degradation. Setup steps, cost and tuning: `docs/ask-the-resources.md`.
 
-One thing worth deciding sooner: **the mock answer occupies most of the panel**,
-pushing the search results that do work below the fold. That is a product call
-about whether to tease the feature, not a bug.
+The measurement that decided the design: the entire published library is **~21k
+tokens**, small enough to ship in one prompt, so there is no retrieval layer,
+no embeddings and no vector store. But **78% of resources carry under 300
+characters** of text, and the site holds metadata rather than the documents
+themselves — so this routes a question to the right resource and says why. It
+does not teach the practice, and the prompt forbids it from pretending to.
+
+The mock that occupied most of the panel is gone; a real answer takes its place
+and the search results sit directly below it, rendering instantly while the
+answer loads.
+
+**Still open, and worth doing before this is shown to funders:** read two or
+three dozen real answers with Stephanie. Nothing automated can judge answer
+quality — the self-test covers the citation guard and the failure paths, not
+whether the sentences are good.
 
 ---
 

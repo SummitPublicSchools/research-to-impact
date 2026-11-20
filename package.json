@@ -1,0 +1,16 @@
+{
+  "name": "research-to-impact",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Sheet-driven static site for Marshall Street's Research to Impact public goods. The page build (build.js) uses only the Node standard library; the dependency below is for the Ask the Resources function alone.",
+  "license": "CC-BY-4.0",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "build": "node build.js",
+    "build:local": "SHEET_SOURCE=local STRICT=1 node build.js",
+    "test:ask": "node tools/ask-selftest.mjs"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "1.11.0"
+  }
+}

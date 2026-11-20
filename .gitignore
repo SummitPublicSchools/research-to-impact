@@ -1,6 +1,11 @@
 # Build output — Netlify regenerates this on every deploy
 dist/
 
+# The Ask-the-Resources corpus, written by build.js on every build and bundled
+# into the function. Generated like dist/, so it is not committed: a stale copy
+# in git would be a second source of truth for what the library contains.
+netlify/functions/corpus-data.mjs
+
 # Node dependencies (none committed; build uses only stdlib)
 node_modules/
 

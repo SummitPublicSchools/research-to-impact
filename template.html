@@ -505,6 +505,19 @@ nav.main .nav-div{width:1px;height:16px;background:rgba(255,255,255,.22);margin:
 .askbadge2{font-size:var(--t-label);letter-spacing:.04em;text-transform:uppercase;background:var(--soon-bg);color:var(--soon-tx);border-radius:var(--r-pill);padding:2px 9px;font-weight:var(--w-semi)}
 .ansbody{margin-top:10px}
 .anssoon{font-size:var(--t-meta);color:#41505f;margin:0 0 12px}
+/* Ask button, loading state and the source link on a live answer. */
+.askgo{display:inline-flex;align-items:center;gap:var(--s-2);background:var(--navy);color:#fff;border:0;border-radius:var(--r-pill);padding:8px 14px;font-size:var(--t-meta);font-weight:var(--w-semi);font-family:inherit;cursor:pointer}
+.askgo:hover{filter:brightness(1.22)}
+.askgo .kbd{font-size:var(--t-label);opacity:.8}
+.askgo[disabled]{background:var(--gray);cursor:default}
+.ansload{font-size:var(--t-meta);color:var(--muted);padding:4px 0;display:flex;align-items:center;gap:var(--s-2)}
+.ansload .bl{width:7px;height:7px;border-radius:50%;background:var(--teal);animation:ansp 1.1s ease-in-out infinite}
+@keyframes ansp{0%,100%{opacity:.25}50%{opacity:1}}
+@media (prefers-reduced-motion:reduce){.ansload .bl{animation:none;opacity:.7}}
+a.cite{text-decoration:none}
+a.cite:hover{border-color:var(--navy);background:var(--slate)}
+.ansfine{font-size:var(--t-label);color:var(--muted);margin:10px 0 0;line-height:1.45}
+.anserr{font-size:var(--t-meta);color:#41505f;margin:0}
 .matchhd{font-size:var(--t-label);letter-spacing:.1em;text-transform:uppercase;color:var(--muted);font-weight:var(--w-semi);margin-bottom:10px}
 .matchhd .mcount{color:var(--muted);font-weight:var(--w-semi);letter-spacing:0}
 .matchhint{font-size:var(--t-meta);color:var(--muted);padding:6px 0}
@@ -624,7 +637,7 @@ nav.main .nav-div{width:1px;height:16px;background:rgba(255,255,255,.22);margin:
     </div>
     <div class="askbody">
       <section class="ansz" aria-label="Answer">
-        <div class="anshd"><span class="sp">&#10024;</span> Ask the Resources <span class="askbadge2">Experimental &middot; coming soon</span></div>
+        <div class="anshd"><span class="sp">&#10024;</span> Ask the Resources <span class="askbadge2">Experimental</span></div>
         <div class="ansbody" id="ansBody"></div>
       </section>
       <section class="matchz" aria-label="Matching resources">
@@ -1179,7 +1192,9 @@ document.addEventListener('click',e=>{
 });
 document.getElementById('demoToggle')?.addEventListener('click',()=>togglePanel());
 /* ---- combined search + ask ---- */
-const AI_ANSWERS=false; // flip to true when the retrieval bot is live
+const AI_ANSWERS=true;          // the /api/ask function is live
+const ASK_URL='/api/ask';
+const ASK_MIN=3, ASK_MAX=300, ASK_TIMEOUT=15000;
 // Punctuation is stripped from both the query and the text, so "co-planning",
 // "coplanning" and "co planning" all find the same thing. Not an edge case here:
 // the flagship practice is hyphenated, and "coplanning" used to return nothing
@@ -1219,20 +1234,70 @@ function runSearch(q){
  const more=res.length>CAP?`<div class="matchhint">Showing the first ${CAP} of ${res.length}. Add a word to narrow it.</div>`:'';
  list.innerHTML=more+res.slice(0,CAP).map(r=>`<a class="matchrow ${r.published?'':'soon'}" href="#" data-go="module:${r.section}|${r.module}">${icon(r.format,16)}<span class="mrtxt"><span class="mrtitle">${esc(r.title)}</span><span class="mrmeta">${esc(r.section)} &middot; ${esc(r.module)} &middot; ${esc(r.format)}</span></span><span class="dot ${r.published?'ok':'soon'}" title="${r.published?'Available':'Coming soon'}"></span></a>`).join('');
 }
+/* Asking costs money and takes a couple of seconds, so it never fires on a
+   keystroke — only on Enter or the button. Typing still filters the search list
+   below instantly, which is what makes the latency tolerable: there is always
+   something useful on screen while the answer is on its way. */
 function renderAnswer(q){
  const b=document.getElementById('ansBody');
- if(AI_ANSWERS){ b.innerHTML='<div class="ansreal" id="ansReal"></div>'; /* future: call retrieval bot with q and render answer + source here */ return; }
- b.innerHTML=`<p class="anssoon">A short answer drawn only from the resources on this site, with a link to the source, is on the way. Search results below are live now.</p>
- <p class="exlabel">Example of how an answer will look</p>
- <div class="bub u">How do I start co-planning with a new co-teacher?</div>
- <div class="bub a">Start with the enabling conditions: shared planning time, clear roles, and a routine you both agree to. The Enabling Conditions guide walks through each one and includes a first-meeting agenda.<span class="cite">Source: Co-Planning &middot; Enabling Conditions</span></div>`;
+ if(!AI_ANSWERS){
+  b.innerHTML=`<p class="anssoon">A short answer drawn only from the resources on this site, with a link to the source, is on the way. Search results below are live now.</p>
+  <p class="exlabel">Example of how an answer will look</p>
+  <div class="bub u">How do I start co-planning with a new co-teacher?</div>
+  <div class="bub a">Start with the enabling conditions: shared planning time, clear roles, and a routine you both agree to. The Enabling Conditions guide walks through each one and includes a first-meeting agenda.<span class="cite">Source: Co-Planning &middot; Enabling Conditions</span></div>`;
+  return;
+ }
+ const ready=(q||'').trim().length>=ASK_MIN;
+ b.innerHTML=ready
+  ? `<p class="anssoon">Get a short answer drawn only from the resources on this site, with a link to the one it came from.</p><button class="askgo" id="askGo">Ask this question <span class="kbd">&crarr;</span></button>`
+  : `<p class="anssoon">Type a question and press Enter. You&rsquo;ll get a short answer drawn only from the resources on this site, with a link to the one it came from.</p>`;
+}
+/* Only the newest question may paint. Without this, a slow first request can
+   land after a second one and overwrite the answer the reader is looking at. */
+let askSeq=0, askCtl=null;
+function askErrHtml(status){
+ const msg = status===429 ? 'That&rsquo;s a few too many questions at once &mdash; give it a minute. The search results below still work.'
+   : status===503 ? 'Answers are switched off right now. The search results below still work.'
+   : 'Couldn&rsquo;t reach the answer service. The search results below still work.';
+ return `<p class="anserr">${msg}</p>`;
+}
+async function askQuestion(){
+ if(!AI_ANSWERS) return;
+ const q=(findInputEl.value||'').trim();
+ if(q.length<ASK_MIN) return;
+ const b=document.getElementById('ansBody');
+ const mine=++askSeq;
+ if(askCtl) askCtl.abort();
+ askCtl=new AbortController();
+ const ctl=askCtl;
+ const timer=setTimeout(()=>ctl.abort(),ASK_TIMEOUT);
+ b.innerHTML=`<div class="bub u">${esc(q.slice(0,ASK_MAX))}</div><div class="ansload"><span class="bl"></span>Reading the library&hellip;</div>`;
+ try{
+  const res=await fetch(ASK_URL,{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify({q:q.slice(0,ASK_MAX)}),signal:ctl.signal});
+  const data=await res.json().catch(()=>null);
+  if(mine!==askSeq) return;
+  if(!res.ok||!data){ b.innerHTML=askErrHtml(res.status); return; }
+  const head=`<div class="bub u">${esc(q.slice(0,ASK_MAX))}</div>`;
+  if(data.answer==null){ b.innerHTML=head+`<div class="bub a">I can&rsquo;t answer that one from these resources. The search results below may still help.</div>`; return; }
+  const sc=data.source;
+  /* The source is a real link into the site, not a label: a citation the reader
+     cannot follow is most of the way to no citation at all. */
+  const cite=sc?`<a class="cite" href="#" data-go="module:${escAttr(sc.section)}|${escAttr(sc.module)}">Source: ${esc(sc.section)} &middot; ${esc(sc.module)} &rarr;</a>`:'';
+  b.innerHTML=head+`<div class="bub a">${esc(data.answer)}${cite}</div>`
+   +`<p class="ansfine">This points you to the right resource &mdash; it doesn&rsquo;t replace reading it.</p>`;
+ }catch(err){
+  if(mine!==askSeq) return;   /* superseded by a newer question, not a failure */
+  b.innerHTML=askErrHtml(0);
+ }finally{ clearTimeout(timer); if(ctl===askCtl) askCtl=null; }
 }
 const askWrap=document.getElementById('askWrap');
 const findInputEl=document.getElementById('findInput');
 function askOpen(o){askWrap.classList.toggle('open',o);askWrap.setAttribute('aria-hidden',o?'false':'true');if(o){renderAnswer(findInputEl.value);runSearch(findInputEl.value);setTimeout(()=>findInputEl.focus(),60);}}
 findInputEl.addEventListener('input',()=>{renderAnswer(findInputEl.value);runSearch(findInputEl.value);});
+findInputEl.addEventListener('keydown',e=>{if(e.key==='Enter'){e.preventDefault();askQuestion();}});
 document.getElementById('findBtn').addEventListener('click',()=>askOpen(true));
 document.addEventListener('click',e=>{
+ if(e.target.closest('#askGo')){askQuestion();return;}
  if(e.target.closest('[data-ask-close]')){askOpen(false);return;}
  const soon=e.target.closest('[data-dd-soon]');
  if(soon){e.preventDefault();toast('These collections arrive in the second wave after launch.');return;}
