@@ -59,8 +59,10 @@ a mechanical one.
 
 **Module images need a build change first** (item 5).
 
-**Caveat to settle before anything external:** the design system records that
-photo consent status is unverified, and five 20MB+ originals were never pulled.
+**Consent is settled.** Greg confirmed on 19 November that every photo Marshall
+holds has consent cleared. The design system's "known gaps" note still says
+otherwise — that line is stale, not a live risk. (Five 20MB+ originals were
+never pulled into the design system, which is a separate and minor gap.)
 
 ## 3. Search audit, and "Ask the Resources"
 
@@ -108,14 +110,21 @@ two are empty (item 2).
 
 ## 6. "Download" on links that are not downloads
 
-**Status:** not started. Her example: the Co-Planning overview's executive
-summary and template agendas.
+**Status:** done 19 November (`8d301c2`).
 
-Real bug, small fix. The sheet already distinguishes them — `link_type` is
-`external_link` or `download` — but **`link_type` is never passed through to the
-page**, so `resAction()` has nothing to switch on and labels everything
-"Download". Needs one field carried into the resource record, then a label:
-"Open" or "Open resource" for an external link, "Download" for a file.
+It was most of the site, not a few items: of 119 published resources, **70 are
+`link_type: external_link`** — Google Docs, templates and pages that open in a
+new tab and download nothing — and every one said "Download".
+
+The sheet already drew the distinction; `link_type` simply never reached the
+page. It is now carried into the resource record, and `resAction()` picks from
+it: `external_link` gets **Open** and an external-link glyph, `download` keeps
+**Download**, `embed` keeps **Watch**. The "not set yet" toast matches the kind
+too, since an `external_link` wants a `link_url` and a `download` wants the file
+in the Drive folder.
+
+Verified by walking every module and comparing each rendered button against its
+row: 119 checked, 0 mismatches.
 
 ## 7. Videos embedded — done
 
