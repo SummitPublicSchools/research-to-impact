@@ -60,7 +60,7 @@ These are the columns the site actually uses. Fill these in:
 | `published` | Live or not. `FALSE` shows a "coming soon" card. | `TRUE` / `FALSE` |
 | `status` | Your internal progress note (not publicly shown). | `planned`, `in_progress`, `ready` |
 | `summary` | One- or two-sentence description on the card. | Plain text. Required for published featured cards. |
-| `who_for` | Short "who this is for" line. | Plain text, e.g. `Leaders, coaches`. |
+| `who_for` | Short "who this is for" line, shown under the card **and searched**. Worth filling on every resource: it carries the words people use for themselves ("instructional coach", "paraeducator", "counselor") that appear nowhere else, so without it those searches find nothing. | Plain text under 120 characters, e.g. `Instructional coaches observing a co-planning meeting`. |
 | `link_url` | The file or page the Download button opens. | A Google Drive share link (preferred) or any URL. See **Adding files** below. |
 | `video_url` | The Vimeo video the Watch button plays (in-page). | A Vimeo link (preferred). A non-Vimeo link still works but opens in a new tab. |
 | `link_type` | Set to `embed` to mark a resource as a video. | `embed` or blank. (A `video_url` also marks it as a video.) |
