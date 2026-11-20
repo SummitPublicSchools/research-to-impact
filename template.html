@@ -118,11 +118,14 @@ header .logo img{height:22px;width:auto;display:block}
    hover: the old hover changed #dfe6ee to #fff, which nobody could see. The
    current page keeps its orange rule, drawn as a pseudo-element so it sits
    inside the rounded target instead of bending round its corners. */
-nav.main{display:flex;gap:2px;flex:1;flex-wrap:nowrap;align-items:center;min-width:0}
-nav.main a{position:relative;font-size:var(--t-meta);color:#dfe6ee;padding:7px;border-radius:var(--r-ctl);white-space:nowrap}
+/* Logo on the left; the links and Search together on the right. The links
+   used to start hard against the logo with a hairline between each one, which
+   made a row of seven small pieces. Spacing separates them now. */
+nav.main{display:flex;gap:6px;flex:1;justify-content:flex-end;flex-wrap:nowrap;align-items:center;min-width:0}
+nav.main a{position:relative;font-size:var(--t-meta);color:#dfe6ee;padding:7px 10px;border-radius:var(--r-ctl);white-space:nowrap}
 nav.main a:hover{color:#fff;background:rgba(255,255,255,.1)}
 nav.main a.active{color:#fff}
-nav.main>a.active::after,nav.main .dd>a.active::after{content:"";position:absolute;left:7px;right:7px;bottom:1px;height:2px;background:var(--orange)}
+nav.main>a.active::after,nav.main .dd>a.active::after{content:"";position:absolute;left:10px;right:10px;bottom:1px;height:2px;background:var(--orange)}
 header .search{display:flex;align-items:center;gap:var(--s-2);background:rgba(255,255,255,.12);border-radius:var(--r-ctl);padding:6px 11px;color:#cdd6df;font-size:var(--t-meta)}
 header .search input{background:transparent;border:0;color:#fff;font-family:inherit;font-size:var(--t-meta);width:120px;outline:none}
 header .search input::placeholder{color:#aebccb}
@@ -559,10 +562,17 @@ a.pfact:hover .pgo{transform:translateX(2px)}
    right edge and the panel's now line up. */
 .abrow{margin-top:var(--s-8)}
 @media(min-width:860px){
-  .abrow{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,560px);gap:var(--s-12);margin-top:var(--s-12)}
+  /* A fixed 260px rail and text that takes the rest. The first version gave
+     the text a 560px column and the rail everything else, which left 390px of
+     rail for a two-word heading and pushed the text into the right-hand
+     corner. Set at 18px the text fills about 690px at a comfortable 75 or so
+     characters a line. */
+  .abrow{display:grid;grid-template-columns:260px minmax(0,1fr);gap:var(--s-12);margin-top:var(--s-12);align-items:start}
+  .about .abrow p{font-size:var(--t-heading);line-height:1.6}
   .abrow h2{font-size:var(--t-sub);letter-spacing:-.005em;text-transform:none;color:var(--navy);font-weight:var(--w-light);line-height:1.2;margin:0}
-  .abrow p{max-width:none}
-  .abrow p:last-child{margin-bottom:0}
+  .about .abrow p{max-width:none}
+  .about .abrow h2{padding-top:3px}
+  .about .abrow p:last-child{margin-bottom:0}
 }
 .about p{font-size:var(--t-body);color:#41505f;max-width:var(--measure);margin:0 0 var(--s-3);line-height:1.62}
 /* The way out to Marshall Street itself. A flat light-blue panel, the brand's
@@ -645,7 +655,7 @@ header #findBtn .ftxt,header #findBtn .ftxt-s{white-space:nowrap}
 header #findBtn .ftxt-s{display:none}
 header #findBtn:hover{color:#fff}
 header #findBtn svg{flex:none}
-nav.main .nav-div{width:1px;height:16px;background:rgba(255,255,255,.22);margin:0 3px;flex:0 0 auto}
+nav.main .nav-div{display:none}
 .findbar{display:flex;align-items:center;gap:var(--s-2);background:rgba(255,255,255,.14);border-radius:var(--r-ctl);padding:9px 12px;margin-top:12px;color:#cdd8e4}
 .findbar svg{flex:none}
 .findbar input{flex:1;background:transparent;border:0;color:#fff;font-family:inherit;font-size:var(--t-meta);outline:none}
