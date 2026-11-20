@@ -21,19 +21,43 @@ with nothing full-bleed. Six findings, ordered by what to do first.
 
 ## 2. Photos — place the ones we have
 
-**Status:** not started; inventory known.
+**Status:** the two missing landing-page heroes are done (19 November,
+`15637e5` plus two Sections rows). Resource images and module images are still
+open.
 
 Available: **17 general classroom photos** and 17 headshots in
 `marshall-design-system/source/photos/`, plus **55 images already in this repo**
 (16 `assets/practices/`, 26 `assets/collections/`, partners, brand).
 
-Known gaps, from a build against the live sheet:
-
 | Where | State |
 |---|---|
-| Section landing pages | 4 of 6 have a `header_image` — **Research-to-Impact Library** and **Evidence & Impact** do not |
-| Module pages | 0 of 34 — see item 5, there is no field |
+| Section landing pages | **6 of 6** — Research-to-Impact Library and Evidence & Impact filled 19 Nov |
+| Module pages | 0 of 34 — **there is no field**, see item 5 |
 | Published resources | 28 of 119 have an `image` |
+
+### How the two heroes were chosen, for the next time
+
+The existing heroes set a house style: mid-shot, several people, real
+environment, mid-action — **not portraits**. Both new photos were checked *as
+rendered heroes*, under the real 58% navy overlay at hero crop, before being
+committed. That step is the point: the title sits bottom-left, and a photo can
+look good on its own while putting a face directly under the words. Both
+alternates were rejected on exactly that.
+
+Sequencing matters too. The assets shipped and deployed **first**, and only then
+did `header_image` get set, so there was never a moment where a section pointed
+at a file that was not there yet.
+
+### Still open
+
+**Resource images: 28 of 119.** The biggest remaining gap, and the one that
+would most change how the module pages feel — a card with a photo reads
+completely differently from a card without one. This is sheet work (`image` on
+each resource row) and could be done through the bridge, but it needs someone to
+decide which photo belongs to which resource; that is an editorial judgment, not
+a mechanical one.
+
+**Module images need a build change first** (item 5).
 
 **Caveat to settle before anything external:** the design system records that
 photo consent status is unverified, and five 20MB+ originals were never pulled.
