@@ -107,18 +107,26 @@ points at the right neighbour, all 6 first modules have no Previous, all 6 last
 modules carry a correct end link, 0 problems. Clicking Next three times from
 Co-Planning / Overview walks the real sequence.
 
-## 5. Photos on module pages — the field does not exist
+## 5. Photos on module pages
 
-**Status:** not started. This answers her "Where did I miss adding photos to the
-module or landing pages? I'm clearly missing something that I can do!"
+**Status:** built 19 November (`1b07fa1`). The 34 rows are not filled yet.
 
-She did not miss anything. `build.js` reads only `section`, `module_order`,
-`module_name`, `module_intro` and `module_video` from the Modules tab. **There
-is no module image column at all**, which is why it is 0 of 34. Adding one is a
-build change plus a new column, not a sheet edit.
+This was the answer to Stephanie's "Where did I miss adding photos to the module
+or landing pages? I'm clearly missing something that I can do!" — she had not
+missed anything, there was no field. Greg added `module_image` to the Modules
+tab, and the build now reads and renders it.
 
-Landing pages are the part she *can* do: `header_image` on the Sections tab, and
-two are empty (item 2).
+A module shows **one** piece of media above its resources. If both
+`module_image` and `module_video` are set the video wins; they share a slot and
+stacking two large blocks pushes the resources off the screen. Photos render
+hard-edged at 560px, 16:9, cropped to fill.
+
+**To fill the 34 rows:** `Bridge.gs` 1.2.0 allows `module_image`, but the
+deployed copy is 1.1.0, so it needs one paste into the Apps Script editor
+(see `sheet-bridge.md` — paste, then publish a new version, or the old code
+keeps serving). After that the rows can go in through the bridge rather than by
+hand. Choosing which photo suits which module is editorial, like the resource
+images in item 2.
 
 ## 6. "Download" on links that are not downloads
 
