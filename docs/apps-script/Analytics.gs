@@ -37,7 +37,10 @@
 // 1.1.0 — a Dashboard tab for people who were not here when this was built, a
 //         Full lists tab behind it, resource titles alongside ids, and `time`
 //         stored as a real date so "last 30 days" can be counted.
-var ANALYTICS_VERSION = '1.1.0';
+// 1.1.1 — visits were counted with COUNTUNIQUE(FILTER(...)), which counts the
+//         "no rows" error as one value, so every empty month showed 1 visit.
+//         COUNTUNIQUEIFS has no such trap. Page names read as words.
+var ANALYTICS_VERSION = '1.1.1';
 
 var EVENTS_TAB = 'Events';
 var DASH_TAB = 'Dashboard';
@@ -157,6 +160,9 @@ function setup() {
     var old = ss.getSheetByName(n);
     if (old) ss.deleteSheet(old);
   });
+  // The blank tab every new spreadsheet starts with — removed only if untouched.
+  var blank = ss.getSheetByName('Sheet1');
+  if (blank && blank.getLastRow() === 0 && blank.getCharts().length === 0) ss.deleteSheet(blank);
   buildDashboard_(ss.insertSheet(DASH_TAB, 0));
   buildLists_(ss.insertSheet(LISTS_TAB, 1));
   ss.setActiveSheet(ss.getSheetByName(DASH_TAB));
@@ -197,7 +203,8 @@ function setupEvents_(ss) {
 var EV = "'" + EVENTS_TAB + "'!";
 function col_(c) { return EV + '$' + c + '$2:$' + c; }
 // The page a view was of, as a reader would name it.
-var PAGE_LABEL = 'IF(' + col_('F') + '="",TO_TEXT(' + col_('E') + '),IF(' + col_('G') + '="",TO_TEXT(' + col_('F') + '),' + col_('F') + '&" — "&' + col_('G') + '))';
+var PAGE_NAME = 'IF(' + col_('E') + '="r2ihome","R2I Practices",IF(' + col_('E') + '="home","Home page",PROPER(TO_TEXT(' + col_('E') + '))))';
+var PAGE_LABEL = 'IF(' + col_('F') + '="",' + PAGE_NAME + ',IF(' + col_('G') + '="",TO_TEXT(' + col_('F') + '),' + col_('F') + '&" — "&' + col_('G') + '))';
 // A resource by its title where the page sent one, else by its id.
 var RES_LABEL = 'IF(' + col_('O') + '="",TO_TEXT(' + col_('H') + '),TO_TEXT(' + col_('O') + '))';
 
@@ -242,7 +249,7 @@ function listBlock_(sh, row, col, L, limit) {
 
 function buildDashboard_(sh) {
   sh.setHiddenGridlines(true);
-  [300, 110, 110, 30, 300, 110, 110].forEach(function (w, i) { sh.setColumnWidth(i + 1, w); });
+  [300, 110, 110, 30, 260, 110, 150].forEach(function (w, i) { sh.setColumnWidth(i + 1, w); });
   sh.getRange('A:G').setFontFamily('Arial').setFontSize(10).setVerticalAlignment('middle');
 
   sh.getRange('A1:G1').merge().setValue('Research to Impact — who is using the site')
@@ -261,7 +268,7 @@ function buildDashboard_(sh) {
   var recent = function (ev, extra) { return '=COUNTIFS(' + E + ',"' + ev + '",' + T + ',' + since + (extra || '') + ')'; };
   var zero = ',' + col_('J') + ',0';
   var keys = [
-    ['Visits', '=COUNTUNIQUE(' + col_('D') + ')', '=IFERROR(COUNTUNIQUE(FILTER(' + col_('D') + ',' + T + '>=TODAY()-30)),0)'],
+    ['Visits', '=COUNTUNIQUE(' + col_('D') + ')', '=COUNTUNIQUEIFS(' + col_('D') + ',' + T + ',' + since + ')'],
     ['Pages viewed', count('view'), recent('view')],
     ['Resources opened', count('open'), recent('open')],
     ['Searches', count('search'), recent('search')],
@@ -298,7 +305,7 @@ function buildDashboard_(sh) {
     var r = 6 + (11 - k);
     var from = '(EOMONTH(TODAY(),' + (-k - 1) + ')+1)', to = '(EOMONTH(TODAY(),' + (-k) + ')+1)';
     sh.getRange(r, 5).setFormula('=TEXT(' + from + ',"mmm yyyy")');
-    sh.getRange(r, 6).setFormula('=IFERROR(COUNTUNIQUE(FILTER(' + col_('D') + ',' + T + '>=' + from + ',' + T + '<' + to + ')),0)');
+    sh.getRange(r, 6).setFormula('=COUNTUNIQUEIFS(' + col_('D') + ',' + T + ',">="&' + from + ',' + T + ',"<"&' + to + ')');
     sh.getRange(r, 7).setFormula('=COUNTIFS(' + E + ',"open",' + T + ',">="&' + from + ',' + T + ',"<"&' + to + ')');
   }
   sh.getRange('F6:G17').setNumberFormat('#,##0').setHorizontalAlignment('right');
@@ -330,7 +337,7 @@ function buildDashboard_(sh) {
   note_(sh, dr + 1, 5, 2, 'What people were using, judged by screen width.');
   [['Computer', 'desktop'], ['Tablet', 'tablet'], ['Phone', 'phone']].forEach(function (d, i) {
     sh.getRange(dr + 2 + i, 5).setValue(d[0]);
-    sh.getRange(dr + 2 + i, 6).setFormula('=IFERROR(COUNTUNIQUE(FILTER(' + col_('D') + ',' + col_('N') + '="' + d[1] + '")),0)');
+    sh.getRange(dr + 2 + i, 6).setFormula('=COUNTUNIQUEIFS(' + col_('D') + ',' + col_('N') + ',"' + d[1] + '")');
   });
   sh.getRange(dr + 2, 5, 3, 2).setBorder(null, null, true, null, null, true, LINE, SpreadsheetApp.BorderStyle.SOLID);
 
