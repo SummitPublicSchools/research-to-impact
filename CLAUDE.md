@@ -96,6 +96,8 @@ contains one.
   override the automatic ones only for the toolkit they all sit in.
 - **About's Marshall Street panel and the footer logo link** come from three Site settings:
   `marshall_url` (https only), `about_marshall`, `about_marshall_cta`. No URL, no panel.
+  **About's photo band** is `about_hero_image`: unset means the committed default
+  (`practices/hero-home.jpg`), `none` removes it.
 - **`nav_visible` is a sentinel, not a boolean**: `build.js` tests it against the literal
   string `'hidden-until-live'`. Any other value (including blank) means visible. Setting it
   to `no` or `FALSE` will **not** hide a section.

@@ -359,6 +359,8 @@ a.pfact:hover .pgo{transform:translateX(2px)}
 .sechero-in>*{max-width:760px}
 .sechero-in h1{color:#fff;font-size:var(--t-display);margin:0}
 .sechero.tall{min-height:340px;margin-bottom:0}
+/* Framed on the two faces, which also keeps the whiteboard writing out of shot on a computer. */
+.sechero.abouthero .shimg{object-position:center 50%}
 .sechero.tall .shimg{object-position:center 30%}
 .sechero.tall::after{background:rgba(33,51,76,.62)}
 .sechero-sub{font-size:var(--t-body);color:#41505f;max-width:var(--measure);margin:0;line-height:1.62}
@@ -1743,7 +1745,12 @@ function row(r){
  return `<div class="morerow soon">${icon(r.format,16)}<span class="rt">${esc(r.title)}</span><span class="chip fmt">${esc(r.format)}</span><span class="chip soon">Coming soon</span></div>`;
 }
 function about(){
- return `<div class="about"><h1 class="serif">About</h1>
+ /* The same photo band the toolkit pages open with, so About reads as part of
+    the site rather than a bare text page. No photo, no band: the plain heading
+    comes back. */
+ const img=DATA.site.aboutHero;
+ const hero=img?`<div class="sechero abouthero bleed"><img class="shimg" src="${escAttr(img)}" alt="" fetchpriority="high" decoding="async"/><div class="sechero-in bleed-in"><h1 class="serif">About</h1></div></div>`:'';
+ return `${hero}<div class="about">${hero?'':'<h1 class="serif">About</h1>'}
  ${/* Every section comes from the Site tab now, in the order build.js lists them.
       The Team paragraph used to be hardcoded here — a single sentence — while a
       fuller about_team sat unread on the tab; the sheet's version wins. */''}
