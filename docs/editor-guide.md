@@ -277,7 +277,8 @@ is reported by name, nothing fails silently.
 
 ## Save, Done and Share (what visitors can do on their own)
 
-Every published resource has three small controls:
+Every published resource has a small **"…" button** beside Open or Watch. It opens a
+menu of three things, and a star or a tick appears on the card once they are used:
 
 - **Save** (the star) keeps it in the visitor's personal **Saved** list (top right;
   inside the menu on a phone).

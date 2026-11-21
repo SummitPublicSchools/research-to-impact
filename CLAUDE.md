@@ -163,7 +163,10 @@ contains one.
   automatic "Opened" mark was dropped because opening is not reading. Share gives a link to
   one resource, `#/r/<id>`, which opens its module page with that card ringed (not the
   Drive file); phones use the system share sheet, computers get Copy link and a `mailto:`.
-  `#/saved/id,id,…` shares a whole list. All of it is safe only because ids never change —
+  `#/saved/id,id,…` shares a whole list. On a card all three sit behind **one "…" button**
+  (`moreBtn`/`moreOpen`) — four buttons in a row read as clutter — and a star and a tick
+  on the card (`marks`) show what is already saved or done. The Saved page keeps its
+  checkbox on the row. All of it is safe only because ids never change —
   another reason not to rename one. Marks update in place (`refreshMarks`); a full
   `render()` scrolls to the top.
 - **Gated email ask**: `gated=TRUE` shows a skippable HubSpot email prompt (a harmless
