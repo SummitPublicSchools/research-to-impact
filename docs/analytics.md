@@ -1,7 +1,7 @@
 # Analytics — anonymous usage counts
 
 The site counts how it is used without cookies, accounts, or a paid service. The page
-posts one small note per event to a Google Sheet the team owns; a `Summary` tab totals
+posts one small note per event to a Google Sheet the team owns; a `Dashboard` tab totals
 them. It is **off until `analytics_url` is set on the Site tab**.
 
 ## What is counted
@@ -9,7 +9,7 @@ them. It is **off until `analytics_url` is set on the Site tab**.
 | Event | When | What is stored |
 |---|---|---|
 | `view` | a page is shown (home, a toolkit, a module, About, Privacy, Saved) | toolkit and module names. A visit that arrives on a shared resource link adds that resource's id |
-| `open` | Download, Open or Watch is pressed | the resource id, and `download` / `link` / `video`. Gated resources add `(gave email)` or `(skipped email)` |
+| `open` | Download, Open or Watch is pressed | the resource id and title, and `download` / `link` / `video`. Gated resources add `(gave email)` or `(skipped email)` |
 | `search` | the visitor stops typing for 1.5 seconds | the words (up to 80 characters), how many results, the audience lens |
 | `pick` | a search result is clicked | the resource id and the search that led to it |
 | `intro` | a toolkit or module intro video is played | toolkit and module names |
@@ -43,12 +43,12 @@ so the site cannot see whether a download finished or how much of a video was wa
 2. In it, **Extensions → Apps Script**. Delete the sample code, paste all of
    [`docs/apps-script/Analytics.gs`](apps-script/Analytics.gs), and press **Save**.
 3. In the function dropdown choose **`setup`** and press **Run**. Approve the permission
-   prompt (it asks to edit this one spreadsheet). The sheet now has `Summary` and `Events`
-   tabs.
+   prompt (it asks to edit this one spreadsheet). The sheet now has `Dashboard`, `Full lists`
+   and `Events` tabs.
 4. **Deploy → New deployment**. Click the gear → **Web app**. Set **Execute as: Me** and
    **Who has access: Anyone**. Press **Deploy** and copy the **Web app URL** (it ends in
    `/exec`).
-5. Open that URL in a browser. It should say `R2I analytics receiver 1.0.0`.
+5. Open that URL in a browser. It should say `R2I analytics receiver` and a version number.
 6. On the content sheet's **Site** tab add a row: setting `analytics_url`, value the URL
    from step 4. (An AI session can add this row through the bridge.)
 7. Rebuild the site (`tools/publish.sh`, or wait for the nightly build). Visit the live
@@ -65,12 +65,25 @@ counted, so the page's promise that they never leave the browser stays true.
 
 ## Reading the numbers
 
-`Summary` has page views and visits by month, views by toolkit and module, opens by
-resource, top searches, **searches that found nothing** (the list to read first — each is
-a visitor the site failed; see `SEARCH_SYN` in `docs/search.md`), and referring sites.
-The `Events` tab is the raw log: filter, pivot or chart it like any sheet. Run
-**R2I Analytics → Set up (or repair) the tabs** to rebuild `Summary`; it never deletes
-an event.
+**`Dashboard`** is the page to share. It is written for someone who was not here when
+this was built:
+
+- **Key numbers** — visits, pages viewed, resources opened, searches, searches that found
+  nothing and emails given, for all time and for the last 30 days.
+- **What the words mean** — four plain definitions, on the page itself.
+- **Month by month** — visits and resources opened for the last twelve months, with a chart.
+- **Top-ten lists** — most-viewed pages, most-opened resources (by title), what people
+  search for, **searches that found nothing** (the list to read first — each is a visitor
+  the site failed; see `SEARCH_SYN` in `docs/search.md`), where visitors come from, and
+  phone / tablet / computer.
+
+**`Full lists`** has the same lists with no top-ten limit. **`Events`** is the raw log:
+filter, pivot or chart it like any sheet.
+
+Everything on `Dashboard` and `Full lists` is a formula, so it updates as rows arrive.
+Don't edit those two tabs by hand: **R2I Analytics → Set up (or repair) the tabs** rebuilds
+both from scratch (and never deletes an event). To change the layout, change
+`buildDashboard_` in `Analytics.gs`.
 
 ## Abuse limits
 
