@@ -24,13 +24,14 @@ SEO into `template.html` → writes `dist/index.html` → **Netlify auto-deploys
   `dist/search-docs.json`, which the page fetches when search opens. `fixtures/content/`
   is invented sample text for CI.
 - **`docs/`** — `editor-guide.md`, `sheet-guardrails.md`, `file-hosting.md`, `dashboard.md`,
-  `sheet-sync.md`, `sheet-bridge.md`, `sheet-diff.md`, `design-plan.md`, `build-day.md`,
+  `sheet-sync.md`, `sheet-bridge.md`, `analytics.md`, `sheet-diff.md`, `design-plan.md`, `build-day.md`,
   `search.md`,
   `getting-claude-set-up.md`, `colab-migration.md`, `aaae-public-goods-crosswalk.md`.
   **`docs/apps-script/`** holds the container-bound scripts: `PublishFiles.gs` (builds the
   Files manifest) and `Guardrails.gs` (dropdowns + conditional formatting), both surfaced
   via an **"R2I" menu** in the sheet whose top item, **Update everything**, runs both; plus
-  `Bridge.gs`, the write bridge (below), which has no menu item.
+  `Bridge.gs`, the write bridge (below), which has no menu item. `Analytics.gs` belongs to a
+  **different** spreadsheet (the analytics log), not the content sheet.
 - **`tools/`** — `sheet.js` (bridge client), `publish.sh` (triggers the rebuild workflow),
   `preview.js`, `punchlist.js`, `accesscheck.sh`, `index-files.mjs` (document text for
   search; needs `pdftotext`), `search-eval.mjs` (+ `search-queries.json`,
@@ -183,6 +184,18 @@ contains one.
   are set, then posts the email to HubSpot's public form endpoint (no HubSpot script). Its
   own form id keeps newsletter sign-ups apart from download emails. `build.js` passes on
   only well-formed ids (`hsId`) — the sheet's literal "(leave blank)" was once truthy.
+- **Analytics is a Google Sheet, not a service** (`docs/analytics.md`). With
+  `analytics_url` on the Site tab, `track()` in `template.html` posts anonymous events
+  (views, opens by id, searches) to `docs/apps-script/Analytics.gs`, a web app bound
+  to its **own** spreadsheet. **No cookies, nothing stored on the device** — the session id
+  lives in a variable for one page load — which is what keeps the site free of a consent
+  banner; don't move it into `localStorage` or add a tracking script without rethinking
+  that. It is silent off the live `domain`, so previews and local builds never write rows.
+  Saved and Done are deliberately **not** counted: the Privacy page says they never leave
+  the browser. The build warns if analytics is on while the `privacy` text still says
+  "no analytics".
+- **Gated emails post straight to HubSpot's submissions endpoint** from the site's own
+  form. HubSpot's embed script is not loaded on purpose (it carries cookie code).
 - **Lists tab + guardrails**: the `Lists` tab centralizes every dropdown's values; `Guardrails.gs`
   applies all dropdowns + conditional formatting **by header name** (so column-order quirks like
   the `gated`/`note` swap on a couple of tabs don't matter).

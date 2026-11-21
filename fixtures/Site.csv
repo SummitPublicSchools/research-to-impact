@@ -108,9 +108,10 @@ We do not sell or rent email addresses. They are stored with HubSpot, the servic
 What stays on your device
 The resources you save or tick as done, and the role you pick in search, are stored in your own browser. They are never sent to us. Clearing your browser data removes them.
 No tracking
-This site has no advertising, no analytics and no tracking cookies.
+This site has no advertising and no tracking cookies. It keeps anonymous counts of pages viewed, resources opened and words searched, with nothing that identifies you.
 Other services
 The site is hosted by Netlify, which keeps standard server logs such as IP addresses. Fonts load from Google Fonts. Videos play from Vimeo and load only when you press play. Documents open in Google Drive. Each of these services has its own privacy policy.
 Questions
 To ask a question, or to have your email removed, write to privacy@example.org.
 Last updated November 2026."
+"analytics_url","https://script.google.com/macros/s/FIXTURE-not-a-real-deployment/exec"

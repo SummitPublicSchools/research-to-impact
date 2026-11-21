@@ -570,6 +570,22 @@ async function main() {
     // Blank = the box is not shown at all.
     hubspot_updates_form: hsId(S.hubspot_updates_form_id, HS_GUID),
     hubspot_region: hsId(S.hubspot_region, /^[a-z]{2}\d$/) || 'na1',
+    // Anonymous usage counts (docs/analytics.md). `analytics_url` is the web app
+    // address of docs/apps-script/Analytics.gs. Blank = the page sends nothing.
+    // `host` is the live domain: the page stays silent anywhere else, so
+    // previews and local builds never write a row.
+    analytics: (u => {
+      if (!u) return null;
+      if (!/^https:\/\/script\.google\.com\/macros\/s\/[\w-]+\/exec$/.test(u)) {
+        warn.push('Site setting "analytics_url" is not an Apps Script web app address (https://script.google.com/macros/s/…/exec). Analytics is off.');
+        return null;
+      }
+      const host = String(S.domain || '').trim().replace(/^https?:\/\//, '').replace(/\/.*$/, '');
+      if (!host) { warn.push('Site setting "analytics_url" is set but "domain" is blank, so the page cannot tell it is the live site. Analytics is off.'); return null; }
+      // The Privacy page is sheet text; it must not go on promising the opposite.
+      if (/\bno analytics\b/i.test(String(S.privacy || ''))) warn.push('Analytics is on, but the "privacy" setting still says "no analytics". Reword the Privacy page.');
+      return { url: u, host };
+    })(String(S.analytics_url || '').trim()),
   };
   ['tagline','hero_headline','hero_subhead','cta','footer','license']
     .forEach(k => { if (!String(site[k] || '').trim()) warn.push(`Site setting blank: "${k}" (page area may render empty).`); });
