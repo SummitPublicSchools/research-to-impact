@@ -514,24 +514,22 @@ a.pfact:hover .pgo{transform:translateX(2px)}
 .savedlist .morerow .donebox input{width:19px;height:19px}
 .savedlist .morerow.is-done .rt a{color:var(--muted);text-decoration:line-through}
 .savedlist .morerow.is-done .rt .sub{color:var(--gray)}
-.morebtn{display:inline-flex;align-items:center;justify-content:center;background:transparent;border:1px solid var(--line);border-radius:var(--r-ctl);padding:7px 9px;color:var(--navy);cursor:pointer}
-.morebtn:hover,.morebtn[aria-expanded="true"]{border-color:var(--navy)}
-.morebtn:focus-visible{outline:2px solid var(--blue);outline-offset:2px}
-.morerow .morebtn{padding:5px 7px}
-.marks{display:inline-flex;align-items:center;gap:11px}
-.marks:empty{display:none}
-.mk{display:inline-flex;align-items:center;gap:5px;font-size:var(--t-label);font-weight:var(--w-semi);color:var(--muted);white-space:nowrap}
-.mk svg{flex:none}
-.mk.sv svg{width:13px;height:13px;fill:var(--orange);stroke:var(--orange)}
-.mk.dn{color:#1d6a4d}
-button.mk.ask{font-family:inherit;background:#fff;border:1px solid var(--orange);border-radius:var(--r-pill);padding:4px 10px;color:var(--navy);cursor:pointer;box-shadow:0 0 0 3px rgba(237,143,71,.22)}
-.morerow .mk .stxt{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
-.resmenu{position:absolute;z-index:40;box-sizing:border-box;background:#fff;border:1px solid var(--line);border-radius:var(--r-card);box-shadow:0 10px 30px rgba(33,51,76,.18);padding:6px}
-.resmenu[hidden]{display:none}
-.resmenu .savebtn,.resmenu .sharebtn,.resmenu .donebox{display:flex;align-items:center;gap:10px;width:100%;box-sizing:border-box;border:0;border-radius:6px;padding:9px 10px;background:transparent;font-family:inherit;font-size:var(--t-meta);font-weight:var(--w-semi);color:var(--navy);text-align:left;cursor:pointer}
-.resmenu .savebtn:hover,.resmenu .sharebtn:hover,.resmenu .donebox:hover{background:#eef3f7}
-.resmenu .donebox.on{color:#1d6a4d}
-.resmenu .donebox input{width:15px;height:15px}
+.quick{display:inline-flex;align-items:center;gap:2px}
+.rcard .acts .quick{margin-left:auto}
+.quick .savebtn,.quick .sharebtn,.quick .donebox{border:0;background:transparent;padding:7px;border-radius:var(--r-ctl);color:#8791a0;gap:6px;font-size:var(--t-label);transition:background-color .15s ease,color .15s ease,box-shadow .15s ease}
+.quick .savebtn:hover,.quick .sharebtn:hover,.quick .donebox:hover{background:#e9eef3;color:var(--navy)}
+/* A finger needs more room than a mouse pointer. */
+@media(pointer:coarse){.quick .savebtn,.quick .sharebtn,.quick .donebox{padding:10px}}
+.quick svg{width:17px;height:17px;flex:none}
+.quick .stxt{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+.quick .donebox input{position:absolute;opacity:0;width:1px;height:1px;margin:0}
+.quick .dci .c,.quick .dci .k{stroke:currentColor}
+.quick .donebox.on{background:transparent;color:#1d6a4d}
+.quick .donebox.on .dci .c{fill:#1d6a4d;stroke:#1d6a4d}
+.quick .donebox.on .dci .k{stroke:#fff}
+/* Just after a file is opened the tick asks its question in words for a moment. */
+.quick .donebox.nudge{color:var(--navy);padding:7px 10px 7px 7px;box-shadow:0 0 0 2px rgba(237,143,71,.75)}
+.quick .donebox.nudge .stxt{position:static;width:auto;height:auto;overflow:visible;clip:auto;font-weight:var(--w-semi)}
 .rcard.res-focus,.morerow.res-focus{box-shadow:0 0 0 3px rgba(237,143,71,.55);transition:box-shadow .6s ease}
 .rcard,.morerow{transition:box-shadow .6s ease}
 .sharemenu{position:absolute;z-index:40;background:#fff;border:1px solid var(--line);border-radius:var(--r-card);box-shadow:0 10px 30px rgba(33,51,76,.18);padding:14px}
@@ -1526,48 +1524,18 @@ function doneBox(r){
 function shareBtn(r){
  return `<button type="button" class="sharebtn" data-share="${escAttr(r.id)}" aria-haspopup="dialog" aria-label="Share: ${escAttr(r.title)}" title="Share with a colleague">${SHARE}<span class="stxt">Share</span></button>`;
 }
-/* One quiet button per resource. Save, Done and Share were three bordered
-   buttons beside Open, and four buttons in a row read as clutter; they now sit
-   in one small menu. What the visitor has already done still shows on the card
-   itself (a star, a tick), so nothing has to be opened to see it. */
-const MORE=`<svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><circle cx="5" cy="12" r="1.9"/><circle cx="12" cy="12" r="1.9"/><circle cx="19" cy="12" r="1.9"/></svg>`;
-const TICK=`<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>`;
-let askDone='',askTimer=0;
-function marksHtml(id){
- return (isSaved(id)?`<span class="mk sv">${STAR}<span class="stxt">Saved</span></span>`:'')
-  +(isDone(id)?`<span class="mk dn">${TICK}<span class="stxt">Done</span></span>`:'')
-  +(askDone===id&&!isDone(id)?`<button type="button" class="mk ask" data-donenow="${escAttr(id)}">${TICK}Mark as done?</button>`:'');
-}
-function marks(r){ return `<span class="marks" data-marks="${escAttr(r.id)}">${marksHtml(r.id)}</span>`; }
-function moreBtn(r){
- return `<button type="button" class="morebtn" data-more="${escAttr(r.id)}" aria-haspopup="menu" aria-expanded="false" aria-label="Save, mark done or share: ${escAttr(r.title)}" title="Save, mark done or share">${MORE}</button>`;
-}
-let moreReturn=null;
-function moreClose(focus){
- const m=document.getElementById('resMenu'); if(!m||m.hidden)return;
- m.hidden=true;
- if(moreReturn){ moreReturn.setAttribute('aria-expanded','false'); if(focus)moreReturn.focus(); }
- moreReturn=null;
-}
-function moreOpen(btn){
- const id=btn.getAttribute('data-more'), r=MY_RES.get(id); if(!r)return;
- let m=document.getElementById('resMenu');
- if(!m){
-  m=document.createElement('div'); m.id='resMenu'; m.className='resmenu'; m.setAttribute('role','group');
-  document.body.appendChild(m);
- }
- m.setAttribute('aria-label','Save, mark done or share');
- const sv=isSaved(id), dn=isDone(id), a=escAttr(id);
- m.innerHTML=`<button type="button" class="savebtn" data-save="${a}" aria-pressed="${sv}">${STAR}<span class="ltxt">${sv?'Saved to my list':'Save to my list'}</span></button>`
-  +`<label class="donebox${dn?' on':''}"><input type="checkbox" data-done="${a}" ${dn?'checked':''}/><span>I have finished this</span></label>`
-  +`<button type="button" class="sharebtn" data-share="${a}">${SHARE}<span>Share with a colleague</span></button>`;
- m.hidden=false;
- const b=btn.getBoundingClientRect(), mw=236;
- m.style.width=mw+'px';
- m.style.left=Math.max(12,Math.min(b.left+window.scrollX,window.scrollX+document.documentElement.clientWidth-mw-12))+'px';
- m.style.top=(b.bottom+window.scrollY+6)+'px';
- btn.setAttribute('aria-expanded','true'); moreReturn=btn;
- m.querySelector('button').focus();
+/* On a card or a row the three personal actions are quiet icons, not buttons:
+   no border, no label, grey until used. Each icon is both the control and the
+   record of what the visitor did (the star fills, the tick turns green), so
+   one click does it and nothing has to be opened to see it. Three bordered,
+   labelled buttons beside Open read as clutter; a "..." menu hid the state and
+   then had to repeat it on the card. The checkbox is still a real one,
+   visually replaced by the tick, so the keyboard and screen readers get a
+   checkbox. */
+const DONEIC=`<svg class="dci" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle class="c" cx="12" cy="12" r="9.2"/><path class="k" d="M7.8 12.4l2.9 2.9 5.5-6"/></svg>`;
+function quick(r){
+ const on=isDone(r.id);
+ return `<span class="quick">${saveBtn(r)}<label class="donebox${on?' on':''}" title="Tick when you have read or used this"><input type="checkbox" data-done="${escAttr(r.id)}" ${on?'checked':''} aria-label="Done: ${escAttr(r.title)}"/>${DONEIC}<span class="stxt">Done?</span></label>${shareBtn(r)}</span>`;
 }
 /* Marks change without re-rendering the view: a re-render scrolls to the top,
    which would yank the page away from the card that was just starred. */
@@ -1578,9 +1546,7 @@ function refreshMarks(){
   b.setAttribute('aria-label',(on?'Saved':'Save')+': '+(r?r.title:''));
   b.title=on?'Remove from your saved list':'Save to your list';
   const t=b.querySelector('.stxt'); if(t)t.textContent=on?'Saved':'Save';
-  const lt=b.querySelector('.ltxt'); if(lt)lt.textContent=on?'Saved to my list':'Save to my list';
  }
- for(const m of document.querySelectorAll('[data-marks]')) m.innerHTML=marksHtml(m.getAttribute('data-marks'));
  for(const c of document.querySelectorAll('[data-done]')){
   const on=isDone(c.getAttribute('data-done'));
   c.checked=on;
@@ -1599,13 +1565,10 @@ function refreshMarks(){
  const sb=document.getElementById('savedBtn');
  if(sb){ sb.classList.toggle('has',n>0); document.getElementById('savedCount').textContent=n?String(n):''; sb.setAttribute('aria-label',n?`Saved resources (${n})`:'Saved resources'); }
 }
-/* After someone opens a resource, offer "Mark as done?" beside it for a few
-   seconds — the one moment "have I finished this?" is actually on their mind.
-   (On the Saved page, where the checkbox is on the row, that is ringed instead.) */
+/* After someone opens a resource, point at its checkbox for a few seconds —
+   the one moment "have I finished this?" is actually on their mind. */
 function nudgeDone(id){
  if(isDone(id))return;
- askDone=id; clearTimeout(askTimer); askTimer=setTimeout(()=>{ askDone=''; refreshMarks(); },9000);
- refreshMarks();
  for(const c of document.querySelectorAll('[data-done]')){
   if(c.getAttribute('data-done')!==id)continue;
   const l=c.closest('.donebox'); if(!l)continue;
@@ -1665,19 +1628,8 @@ function shareOpen(btn,key){
  shareReturn=btn;
  const f=document.getElementById('shareLink'); f.focus(); f.select();
 }
-document.addEventListener('keydown',e=>{
- if(e.key==='Escape'){ shareClose(); moreClose(true); return; }
- if((e.key==='ArrowDown'||e.key==='ArrowUp')&&e.target.closest&&e.target.closest('#resMenu')){
-  const items=[...document.querySelectorAll('#resMenu button,#resMenu input')], i=items.indexOf(e.target);
-  e.preventDefault(); items[(i+(e.key==='ArrowDown'?1:items.length-1))%items.length].focus();
- }
-});
-window.addEventListener('hashchange',()=>moreClose(false));
+document.addEventListener('keydown',e=>{ if(e.key==='Escape')shareClose(); });
 document.addEventListener('click',e=>{
- const mb=e.target.closest('[data-more]');
- if(mb){ e.preventDefault(); const same=moreReturn===mb; moreClose(false); shareClose(); if(!same)moreOpen(mb); return; }
- const dnw=e.target.closest('[data-donenow]');
- if(dnw){ askDone=''; markDone(dnw.getAttribute('data-donenow'),true); return; }
  if(e.target.closest('#shareCopy')){
   const f=document.getElementById('shareLink'), url=f.value;
   const done=()=>{ toast('Link copied.'); shareClose(); };
@@ -1687,15 +1639,8 @@ document.addEventListener('click',e=>{
  }
  if(e.target.closest('#shareMail')){ setTimeout(shareClose,0); return; }   /* let the mailto: link go first */
  const sh=e.target.closest('[data-share]');
- if(sh){
-  e.preventDefault();
-  /* Chosen from a resource's menu: the menu steps aside and the share panel
-     opens from the button that opened it. */
-  const at=(sh.closest('#resMenu')&&moreReturn)||sh; moreClose(false);
-  const open=document.getElementById('shareMenu'); const same=open&&!open.hidden&&shareReturn===at; shareClose(); if(!same)shareOpen(at,sh.getAttribute('data-share')); return;
- }
+ if(sh){ e.preventDefault(); const open=document.getElementById('shareMenu'); const same=open&&!open.hidden&&shareReturn===sh; shareClose(); if(!same)shareOpen(sh,sh.getAttribute('data-share')); return; }
  if(!e.target.closest('#shareMenu'))shareClose();
- if(!e.target.closest('#resMenu'))moreClose(false);
 
  const s=e.target.closest('[data-save]');
  if(s){ e.preventDefault(); const id=s.getAttribute('data-save'), on=!isSaved(id); markSaved(id,on); toast(on?'Saved. Your list is under Saved in the menu bar.':'Removed from Saved.'); return; }
@@ -1766,7 +1711,7 @@ function card(r){
  if(!r.published){
   return `<div class="rcard soon"><div class="top">${icon(r.format,19)}<div class="ttl">${esc(r.title)}</div><span class="chip soon">Coming soon</span></div>${r.summary?`<div class="desc" style="color:#5f6770">${esc(r.summary)}</div>`:''}</div>`;
  }
- const acts=`<div class="acts"><span class="chip fmt">${esc(r.format)}</span>${r.gated?'<span class="chip gate-chip">Email to download</span>':''}${resAction(r)}${moreBtn(r)}${marks(r)}</div>`;
+ const acts=`<div class="acts"><span class="chip fmt">${esc(r.format)}</span>${r.gated?'<span class="chip gate-chip">Email to download</span>':''}${resAction(r)}${quick(r)}</div>`;
  // Full-collection card: a clean, accented download CTA (no per-practice detail).
  if(r.overview){
   return `<div class="rcard collhero" data-res="${escAttr(r.id)}"><div class="eyebrow">Full collection</div><div class="ttl serif">${esc(r.title)}</div>${r.summary?`<div class="desc">${esc(r.summary)}</div>`:''}${acts}</div>`;
@@ -1793,7 +1738,7 @@ function row(r){
  // action as a card, just in a compact row (with a light-blue hover). focal only
  // controls prominence (featured card vs. compact row), not whether you can get it.
  if(r.published){
-  return `<div class="morerow have" data-res="${escAttr(r.id)}">${icon(r.format,16)}<span class="rt">${esc(r.title)}</span><span class="chip fmt">${esc(r.format)}</span>${marks(r)}${resAction(r)}${moreBtn(r)}</div>`;
+  return `<div class="morerow have" data-res="${escAttr(r.id)}">${icon(r.format,16)}<span class="rt">${esc(r.title)}</span><span class="chip fmt">${esc(r.format)}</span>${resAction(r)}${quick(r)}</div>`;
  }
  return `<div class="morerow soon">${icon(r.format,16)}<span class="rt">${esc(r.title)}</span><span class="chip fmt">${esc(r.format)}</span><span class="chip soon">Coming soon</span></div>`;
 }
