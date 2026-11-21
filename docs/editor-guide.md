@@ -215,6 +215,11 @@ Key/value settings: `site_name`, `tagline`, `hero_headline`, `hero_subhead`,
 Drive link; leave it out for the default photo, or write `none` for no photo),
 `about_network` (partner + funder credits), and the HubSpot keys
 (`hubspot_portal_id`, `hubspot_form_id`, `hubspot_updates_form_id`, `hubspot_region`).
+
+`privacy` holds the whole Privacy page in one cell. Put each heading on its own short line
+with no full stop, and each paragraph on its own line (Alt+Enter, or Option+Enter on a Mac,
+starts a new line in a cell). An email address in the text becomes a link. If the cell is
+blank, the page and the footer's Privacy link both disappear.
 The footer's **Get updates** box appears only once `hubspot_portal_id` and
 `hubspot_updates_form_id` are filled in; it sends the email to that HubSpot form. Leave a setting blank
 and the build will warn that its page area may render empty.
