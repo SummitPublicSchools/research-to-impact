@@ -98,6 +98,11 @@ contains one.
   `marshall_url` (https only), `about_marshall`, `about_marshall_cta`. No URL, no panel.
   **About's photo band** is `about_hero_image`: unset means the committed default
   (`practices/hero-home.jpg`), `none` removes it.
+- **The Privacy page (`#/privacy`) is one Site setting, `privacy`** (`privacyBlocks` in
+  `build.js`). A short line with no closing punctuation starts a section; every other line
+  is a paragraph; an email address becomes a mail link. Blank means no page **and no footer
+  link**. It says what the site collects — update it when that changes (analytics, a new
+  embed, a new form).
 - **`nav_visible` is a sentinel, not a boolean**: `build.js` tests it against the literal
   string `'hidden-until-live'`. Any other value (including blank) means visible. Setting it
   to `no` or `FALSE` will **not** hide a section.

@@ -137,6 +137,20 @@ function aboutBlocks(S) {
   }
   return out;
 }
+// ----- Privacy page -----
+// One Site setting, `privacy`, holds the whole page: a line that looks like a
+// title (short, no sentence-ending punctuation) starts a section, every other
+// line is a paragraph. Lines before the first title are the opening. Blank
+// means no page, and the footer then shows no Privacy link at all — a word
+// that looks like a link and goes nowhere is worse than nothing.
+function privacyBlocks(v) {
+  const out = [];
+  for (const line of String(v || '').split(/\n+/).map(l => l.trim()).filter(Boolean)) {
+    if (line.length <= 60 && !/[.!?:]$/.test(line)) out.push({ heading: line, body: [] });
+    else { if (!out.length) out.push({ heading: '', body: [] }); out[out.length - 1].body.push(line); }
+  }
+  return out.filter(s => s.body.length);
+}
 function videoUrl(url, where) {
   const s = String(url || '').trim(); if (!s) return '';
   if (s.includes('<')) {
@@ -529,6 +543,7 @@ async function main() {
     tagline: S.tagline, hero_headline: S.hero_headline, hero_subhead: S.hero_subhead,
     cta: S.hero_cta_label, footer: S.footer_attribution, license: S.license_line,
     about: aboutBlocks(S),
+    privacy: privacyBlocks(S.privacy),
     // The photo across the top of About. Defaults to a committed photo of two
     // educators planning, which no other page uses; an about_hero_image setting
     // on the Site tab (a bare filename under assets/, or a Drive link) replaces
