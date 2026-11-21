@@ -112,6 +112,9 @@ const ABOUT_SECTIONS = [
   { keys: ['about_team'], heading: 'Team' },
   { keys: ['about_network'], heading: 'Our network' },
   { keys: ['about_community'], heading: 'Partners and funders' },
+  // What the site records about a visit. The footer's "Privacy" becomes a link
+  // to the About page once this is written.
+  { keys: ['about_privacy'], heading: 'Privacy' },
 ];
 function aboutBlocks(S) {
   const out = [];
@@ -537,9 +540,25 @@ async function main() {
     } : null)(String(S.marshall_url || '').trim()),
     // Optional HubSpot capture (soft email ask on gated resources). Blank = a
     // placeholder shows instead of a live form, so nothing breaks before setup.
-    hubspot_portal: (S.hubspot_portal_id || '').trim(),
-    hubspot_form: (S.hubspot_form_id || '').trim(),
-    hubspot_region: (S.hubspot_region || 'na1').trim(),
+    // All three end up inside a URL the page posts to, so each is held to the
+    // shape HubSpot uses; anything else is treated as not set.
+    hubspot_portal: (v => /^\d{1,15}$/.test(v) ? v : '')(String(S.hubspot_portal_id || '').trim()),
+    hubspot_form: (v => /^[0-9a-f-]{20,40}$/i.test(v) ? v : '')(String(S.hubspot_form_id || '').trim()),
+    hubspot_region: (v => /^[a-z]{2}\d{1,2}$/.test(v) ? v : 'na1')(String(S.hubspot_region || 'na1').trim().toLowerCase()),
+    // Anonymous usage counts (docs/analytics.md). `analytics_url` is the web app
+    // address of docs/apps-script/Analytics.gs. Blank = the page sends nothing.
+    // `host` is the live domain: the page stays silent anywhere else, so
+    // previews and local builds never write a row.
+    analytics: (u => {
+      if (!u) return null;
+      if (!/^https:\/\/script\.google\.com\/macros\/s\/[\w-]+\/exec$/.test(u)) {
+        warn.push('Site setting "analytics_url" is not an Apps Script web app address (https://script.google.com/macros/s/…/exec). Analytics is off.');
+        return null;
+      }
+      const host = String(S.domain || '').trim().replace(/^https?:\/\//, '').replace(/\/.*$/, '');
+      if (!host) { warn.push('Site setting "analytics_url" is set but "domain" is blank, so the page cannot tell it is the live site. Analytics is off.'); return null; }
+      return { url: u, host };
+    })(String(S.analytics_url || '').trim()),
   };
   ['tagline','hero_headline','hero_subhead','cta','footer','license']
     .forEach(k => { if (!String(site[k] || '').trim()) warn.push(`Site setting blank: "${k}" (page area may render empty).`); });

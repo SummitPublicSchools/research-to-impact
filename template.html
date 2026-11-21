@@ -844,7 +844,7 @@ header #findBtn .ftxt{display:none}header #findBtn .ftxt-s{display:inline}
 <main id="app" tabindex="-1"></main>
 <footer class="site"><div class="row">
   <span class="footlogo" id="footLogo"><img src="assets/brand/marshall-secondary-cw-tight.png" width="954" height="112" alt="Marshall Street" loading="lazy" decoding="async"/></span>
-  <span id="footAttr"></span><span>&middot;</span><span>CC BY 4.0</span><span>&middot;</span><span>Privacy</span>
+  <span id="footAttr"></span><span>&middot;</span><span>CC BY 4.0</span><span>&middot;</span><span id="footPriv">Privacy</span>
   <span class="signup"><input placeholder="Email" aria-label="Email for updates"/><button onclick="toast('Prototype — signup would post to HubSpot')">Get updates</button></span>
   <span class="lic" id="footLic"></span>
 </div></footer>
@@ -895,6 +895,9 @@ header #findBtn .ftxt{display:none}header #findBtn .ftxt-s{display:inline}
 .gate-sub{margin:0 0 16px;color:#4a555f;font-size:var(--t-meta);line-height:1.5}
 .gate-form{min-height:8px}
 .gate-ph{border:1px dashed #c7d0d8;border-radius:var(--r-ctl);padding:16px;color:#6a747d;font-size:var(--t-meta);line-height:1.5;background:#f7f9fb}
+.gate-email{display:flex;gap:var(--s-2);flex-wrap:wrap}
+.gate-email input{flex:1 1 200px;min-width:0;border:1px solid var(--line);border-radius:var(--r-ctl);padding:10px 12px;font:inherit}
+.gate-err{color:#a4341f;font-size:var(--t-meta);margin-top:8px;min-height:1em}
 .gate-acts{margin-top:14px;text-align:center}
 .gate-skip{border:0;background:none;color:#5a656f;text-decoration:underline;cursor:pointer;font-size:var(--t-meta);font-family:inherit}
 .gate-chip{background:#eef2f6;color:#5a656f;border-radius:var(--r-pill);padding:2px 9px;font-size:var(--t-label);white-space:nowrap}
@@ -1147,7 +1150,7 @@ function hashToView(){
  if(parts[1]){const mod=sec.modules.find(m=>m.name===parts[1]);return mod?{type:'module',section:sec.name,module:mod.name}:{type:'section',section:sec.name};}
  return {type:'section',section:sec.name};
 }
-function applyHash(){view=hashToView();render();}
+function applyHash(){view=hashToView();render();trackView();}
 window.addEventListener('hashchange',applyHash);
 function renderApp(){
  const a=document.getElementById('app');
@@ -1410,8 +1413,10 @@ function module(sec,mod){
 /* ---- saved & opened ---------------------------------------------------------
    A visitor can star a resource and see which ones they have already opened,
    with no account. Both lists live in this browser's localStorage and nowhere
-   else: nothing is sent, nothing is tracked, and there is nothing to log in
-   to. The honest cost is that it is per browser, per device — a private
+   else: the lists themselves are never sent anywhere, and there is nothing to
+   log in to. (When analytics is on, pressing Save or opening a resource adds
+   one anonymous count for that resource — see "anonymous usage counts" below —
+   but no list, and nothing that says whose it was.) The honest cost is that it is per browser, per device — a private
    window or cleared site data starts empty — so the Saved page can turn the
    list into a link (#/saved/id,id,…) to carry it to another device or hand it
    to a colleague. Resource ids never change (the sheet bridge refuses to edit
@@ -1464,7 +1469,7 @@ function refreshMarks(){
 }
 document.addEventListener('click',e=>{
  const s=e.target.closest('[data-save]');
- if(s){ e.preventDefault(); const id=s.getAttribute('data-save'), on=!isSaved(id); markSaved(id,on); toast(on?'Saved. Your list is under Saved in the menu bar.':'Removed from Saved.'); return; }
+ if(s){ e.preventDefault(); const id=s.getAttribute('data-save'), on=!isSaved(id); markSaved(id,on); if(on)track('save',{rid:id}); toast(on?'Saved. Your list is under Saved in the menu bar.':'Removed from Saved.'); return; }
  const o=e.target.closest('[data-opened]');
  if(o){ e.preventDefault(); markOpened(o.getAttribute('data-opened'),false); return; }
  const a=e.target.closest('[data-rid]');
@@ -1472,7 +1477,7 @@ document.addEventListener('click',e=>{
   const id=a.getAttribute('data-rid');
   /* A gated resource is only "opened" once the visitor gets past the email
      ask, so that one is marked in gateProceed instead. */
-  if(a.hasAttribute('data-gate')) myGateRid=id; else markOpened(id,true);
+  if(a.hasAttribute('data-gate')) myGateRid=id; else { markOpened(id,true); track('open',{rid:id,d:openKind(id)}); }
   return;
  }
  if(e.target.closest('#copySaved')){
@@ -2210,7 +2215,7 @@ document.addEventListener('click',e=>{
  renderLens(); runSearch(document.getElementById('findInput').value);
 });
 function matchRow(r,sn){
- return `<a class="matchrow ${r.published?'':'soon'}" href="#" data-go="module:${escAttr(r.section)}|${escAttr(r.module)}">${icon(r.format,16)}<span class="mrtxt"><span class="mrtitle">${esc(r.title)}${isSaved(r.id)?'<span class="mrstar" title="Saved" aria-label="Saved">&#9733;</span>':''}</span><span class="mrmeta">${esc(r.section)} &middot; ${esc(r.module)} &middot; ${esc(r.format)}</span>${sn?`<span class="mrsnip">${sn}</span>`:''}</span><span class="dot ${r.published?'ok':'soon'}" title="${r.published?'Available':'Coming soon'}"></span></a>`;
+ return `<a class="matchrow ${r.published?'':'soon'}" href="#" data-sr="${escAttr(r.id)}" data-go="module:${escAttr(r.section)}|${escAttr(r.module)}">${icon(r.format,16)}<span class="mrtxt"><span class="mrtitle">${esc(r.title)}${isSaved(r.id)?'<span class="mrstar" title="Saved" aria-label="Saved">&#9733;</span>':''}</span><span class="mrmeta">${esc(r.section)} &middot; ${esc(r.module)} &middot; ${esc(r.format)}</span>${sn?`<span class="mrsnip">${sn}</span>`:''}</span><span class="dot ${r.published?'ok':'soon'}" title="${r.published?'Available':'Coming soon'}"></span></a>`;
 }
 /* Before anything is typed, a chosen lens is itself a question: "what is here
    for me?" Answer it with the resources each module already marks as its
@@ -2261,7 +2266,8 @@ function ensureDocs(){
  }).catch(()=>{});
 }
 function askOpen(o){askWrap.classList.toggle('open',o);askWrap.setAttribute('aria-hidden',o?'false':'true');if(o){renderLens();ensureDocs();runSearch(findInputEl.value);setTimeout(()=>findInputEl.focus(),60);}}
-findInputEl.addEventListener('input',()=>{runSearch(findInputEl.value);});
+findInputEl.addEventListener('input',()=>{runSearch(findInputEl.value);clearTimeout(trkQT);trkQT=setTimeout(trackSearch,1500);});
+document.addEventListener('click',e=>{const r=e.target.closest('[data-sr]');if(!r)return;trackSearch();track('pick',{rid:r.getAttribute('data-sr'),q:trkQLast});},true);
 document.getElementById('findBtn').addEventListener('click',()=>askOpen(true));
 document.addEventListener('click',e=>{
  if(e.target.closest('[data-ask-close]')){askOpen(false);return;}
@@ -2310,7 +2316,7 @@ function videoBlock(url,meta){
  return `<div class="mediaslot"><button class="vplay" data-play="${escAttr(src)}" aria-label="Play the introduction video${dur?' ('+dur+')':''}">${poster?`<img class="vposter" src="${escAttr(poster)}" alt="" decoding="async"/>`:''}<span class="vbtn" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M6 4v16l13-8z"/></svg></span><span class="vcap">Watch the introduction${dur?' &middot; '+dur:''}</span></button></div>`;
 }
 document.addEventListener('click',e=>{
- const b=e.target.closest('button.vplay[data-play]'); if(!b)return;
+ const b=e.target.closest('button.vplay[data-play]'); if(!b)return; track('intro');
  const src=b.getAttribute('data-play'), sep=src.indexOf('?')>=0?'&':'?';
  const d=document.createElement('div'); d.className='vplay';
  d.innerHTML=`<iframe src="${escAttr(src+sep+'autoplay=1')}" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="Intro video"></iframe>`;
@@ -2336,26 +2342,96 @@ function askEmail(title,link){
  gatePendingLink=link||'';
  document.getElementById('gateRes').textContent=title?('“'+title+'”'):'this resource';
  const host=document.getElementById('gateForm');
- const pid=DATA.site.hubspot_portal, fid=DATA.site.hubspot_form;
- if(pid&&fid&&window.hbspt){
-  host.innerHTML='<div id="hsFormTarget"></div>';
-  window.hbspt.forms.create({portalId:pid,formId:fid,region:DATA.site.hubspot_region||'na1',target:'#hsFormTarget',onFormSubmitted:()=>gateProceed()});
- } else {
-  host.innerHTML='<div class="gate-ph">Email capture (HubSpot) appears here once <b>hubspot_portal_id</b> and <b>hubspot_form_id</b> are set on the Site tab. Until then, this is a placeholder — “just download” still works.</div>';
- }
+ const hs=DATA.site.hubspot_portal&&DATA.site.hubspot_form;
+ /* Our own two-field form, posted straight to HubSpot's submissions endpoint
+    when (and only when) the visitor presses the button. HubSpot's embed script
+    is deliberately not loaded: it calls HubSpot on every page view and carries
+    cookie-writing code, and this site sets no cookies. */
+ host.innerHTML=hs
+  ?`<form class="gate-email" id="gateEmailForm" novalidate><input type="email" id="gateEmail" required autocomplete="email" placeholder="you@school.org" aria-label="Your email" aria-describedby="gateErr"/><button type="submit" class="btn">Send and download</button></form><div class="gate-err" id="gateErr" role="alert"></div>`
+  :'<div class="gate-ph">Email capture (HubSpot) appears here once <b>hubspot_portal_id</b> and <b>hubspot_form_id</b> are set on the Site tab. Until then, this is a placeholder — “just download” still works.</div>';
  const g=document.getElementById('gate');g.classList.add('open');g.setAttribute('aria-hidden','false');
- gateReturnFocus=document.activeElement;const x=g.querySelector('.gate-x');if(x)x.focus();
+ gateReturnFocus=document.activeElement;const x=hs?document.getElementById('gateEmail'):g.querySelector('.gate-x');if(x)x.focus();
 }
+document.addEventListener('submit',e=>{
+ if(e.target.id!=='gateEmailForm')return; e.preventDefault();
+ const inp=document.getElementById('gateEmail'), err=document.getElementById('gateErr'), btn=e.target.querySelector('button');
+ const email=inp.value.trim();
+ if(!email||!inp.checkValidity()){ err.textContent='Please check the email address.'; inp.focus(); return; }
+ const reg=DATA.site.hubspot_region||'na1';
+ const url='https://api'+(reg==='na1'?'':'-'+reg)+'.hsforms.com/submissions/v3/integration/submit/'+DATA.site.hubspot_portal+'/'+DATA.site.hubspot_form;
+ const r=MY_RES.get(myGateRid);
+ btn.disabled=true; err.textContent='';
+ fetch(url,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({
+  fields:[{objectTypeId:'0-1',name:'email',value:email}],
+  context:{pageUri:location.href,pageName:(r?r.title+' — ':'')+titleFor(view)}})})
+ .then(res=>{
+  if(res.ok){ track('email',{rid:myGateRid}); gateProceed('gave email'); return; }
+  return res.json().catch(()=>({})).then(j=>{
+   const bad=(j.errors||[]).some(x=>/EMAIL/.test(x.errorType||''));
+   err.textContent=bad?'Please check the email address.':'We could not save your email just now. You can still download below.';
+   btn.disabled=false;
+  });
+ })
+ .catch(()=>{ err.textContent='We could not save your email just now. You can still download below.'; btn.disabled=false; });
+});
 function gateClose(){const g=document.getElementById('gate');if(!g.classList.contains('open'))return;g.classList.remove('open');g.setAttribute('aria-hidden','true');if(gateReturnFocus&&gateReturnFocus.focus){gateReturnFocus.focus();gateReturnFocus=null;}}
-function gateProceed(){const u=gatePendingLink;gateClose();if(u){openUrl(u);if(myGateRid)markOpened(myGateRid,true);}else toast('File link not set yet — add a link_url in the sheet');}
+function gateProceed(how){const u=gatePendingLink;gateClose();if(u){openUrl(u);if(myGateRid){markOpened(myGateRid,true);track('open',{rid:myGateRid,d:openKind(myGateRid)+' ('+(how||'skipped email')+')'});}}else toast('File link not set yet — add a link_url in the sheet');}
 document.getElementById('gate').addEventListener('click',e=>{if(e.target.id==='gate')gateClose();});
 document.addEventListener('click',e=>{const b=e.target.closest('[data-gate]');if(b){e.preventDefault();askEmail(b.getAttribute('data-title'),b.getAttribute('data-link'));}});
-/* Load the HubSpot embed script only when IDs are configured (no surprise calls before setup). */
-if(DATA.site.hubspot_portal&&DATA.site.hubspot_form){
- const hs=document.createElement('script');hs.src='https://js.hsforms.net/forms/embed/v2.js';hs.async=true;document.head.appendChild(hs);
+
+/* ---- anonymous usage counts -------------------------------------------------
+   Off unless the Site tab has an analytics_url (see docs/analytics.md). When it
+   is on, the page posts one small note per event — a page view, a resource
+   opened, a search — to a Google Sheet the team owns. No cookie, nothing kept
+   on the visitor's device, no IP address, no name. TRK_SID is a random id that
+   lives in this variable for one page load and is gone on reload, so it can
+   count "one visit" but can never link two.
+   It stays silent on any host but the live one (previews, localhost), for
+   browsers that send Do Not Track or Global Privacy Control, and for
+   automation. Every call is wrapped: analytics must never break the page. */
+const TRK_SID=(()=>{try{return Array.from(crypto.getRandomValues(new Uint8Array(6)),b=>b.toString(36).padStart(2,'0')).join('');}catch(e){return (Math.random().toString(36)+'00000000').slice(2,14);}})();
+let trkFirst=true, trkHash=null, trkQT=0, trkQLast='';
+function trackOff(){
+ const a=DATA.site.analytics;
+ return !a||!a.url||location.hostname!==a.host||navigator.doNotTrack==='1'||navigator.globalPrivacyControl===true||navigator.webdriver===true;
+}
+function track(ev,o){
+ try{
+  if(trackOff())return;
+  const v=view||{};
+  const b=Object.assign({v:1,e:ev,sid:TRK_SID,page:v.type||'home',sec:v.section||'',mod:v.module||'',dev:innerWidth<700?'phone':innerWidth<1100?'tablet':'desktop'},o||{});
+  if(trkFirst){
+   trkFirst=false;
+   /* Where the visit came from: the referring site's name only, never its
+      full address, and a utm_source if the link carried one. */
+   try{ const h=document.referrer?new URL(document.referrer).hostname:''; if(h&&h!==location.hostname)b.ref=h; }catch(e){}
+   try{ const u=new URLSearchParams(location.search).get('utm_source'); if(u)b.src=u.slice(0,40); }catch(e){}
+  }
+  const url=DATA.site.analytics.url, body=JSON.stringify(b);
+  /* A string body goes as text/plain, which needs no CORS preflight. */
+  if(!(navigator.sendBeacon&&navigator.sendBeacon(url,body))) fetch(url,{method:'POST',mode:'no-cors',keepalive:true,body}).catch(()=>{});
+ }catch(e){}
+}
+function trackView(){
+ const h=viewToHash(view.type==='saved'?{type:'saved'}:view);   // never the ids in a shared list
+ if(h===trkHash)return; trkHash=h;
+ track('view',view.type==='saved'&&view.shared?{d:'shared list'}:null);
+}
+function openKind(id){ const r=MY_RES.get(id)||{}; return r.video?'video':r.link_type==='external_link'?'link':'download'; }
+/* A search is counted once the visitor stops typing, not on every keystroke. */
+function trackSearch(){
+ clearTimeout(trkQT);
+ const q=findInputEl.value.trim().toLowerCase().replace(/\s+/g,' ').slice(0,80);
+ if(q.length<3||q===trkQLast)return; trkQLast=q;
+ track('search',{q,n:parseInt(document.getElementById('matchCount').textContent.replace(/\D/g,''),10)||0,d:LENS});
 }
 
 document.getElementById('footAttr').textContent=DATA.site.footer;
+// "Privacy" in the footer leads to the About page's privacy section when the
+// sheet has one (about_privacy); with none it stays the plain word it was.
+(()=>{const f=document.getElementById('footPriv');if(!f||!(DATA.site.about||[]).some(s=>s.key==='about_privacy'))return;
+ f.innerHTML='<a href="#" data-go="about" style="color:inherit">Privacy</a>';})();
 document.getElementById('footLic').textContent=DATA.site.license;
 // The footer logo leads out to Marshall Street when the sheet gives its address.
 (()=>{const m=DATA.site.marshall,f=document.getElementById('footLogo');if(!m||!f)return;
