@@ -97,6 +97,13 @@ contains one.
   override the automatic ones only for the toolkit they all sit in.
 - **About's Marshall Street panel and the footer logo link** come from three Site settings:
   `marshall_url` (https only), `about_marshall`, `about_marshall_cta`. No URL, no panel.
+  **About's photo band** is `about_hero_image`: unset means the committed default
+  (`practices/hero-home.jpg`), `none` removes it.
+- **The Privacy page (`#/privacy`) is one Site setting, `privacy`** (`privacyBlocks` in
+  `build.js`). A short line with no closing punctuation starts a section; every other line
+  is a paragraph; an email address becomes a mail link. Blank means no page **and no footer
+  link**. It says what the site collects — update it when that changes (analytics, a new
+  embed, a new form).
 - **`nav_visible` is a sentinel, not a boolean**: `build.js` tests it against the literal
   string `'hidden-until-live'`. Any other value (including blank) means visible. Setting it
   to `no` or `FALSE` will **not** hide a section.
@@ -157,21 +164,36 @@ contains one.
   **derived at build time from `who_for`** by `audienceOf()` in `build.js`; there is no
   audience column. The build warns when a written `who_for` names no recognised role. The
   lens reorders results and never hides any. The choice lives in `localStorage` only.
-- **Saved and Opened marks**: a visitor can star a resource (Saved, in the header; in the
-  menu on a phone) and each resource they open is ticked, with "You have opened 3 of 7
-  here" on the module page. **No account and no server**: both lists are resource ids in
-  `localStorage` (`r2i.saved`, `r2i.opened`). `#/saved/id,id,…` is a shareable copy of a
-  list. This is safe only because ids never change — another reason not to rename one.
-  Marks update in place (`refreshMarks`); a full `render()` scrolls to the top.
+- **Save, Done and Share**: a visitor can star a resource (Saved, in the header; in the
+  menu on a phone), tick it **Done** with a checkbox, and **Share** it. **No account and no
+  server**: Saved and Done are resource ids in `localStorage` (`r2i.saved`, `r2i.done`).
+  Done is the visitor's own tick — pressing Open only highlights the checkbox; an earlier
+  automatic "Opened" mark was dropped because opening is not reading. Share gives a link to
+  one resource, `#/r/<id>`, which opens its module page with that card ringed (not the
+  Drive file); phones use the system share sheet, computers get Copy link and a `mailto:`.
+  `#/saved/id,id,…` shares a whole list. On a card the three are **quiet icons, not buttons**
+  (`quick`): no border or label, grey until used, and each icon is also the record (the
+  star fills, the tick turns green). Three labelled buttons read as clutter, and a "…"
+  menu hid the state and had to repeat it on the card — both were tried. The Saved page
+  keeps its checkbox on the row. All of it is safe only because ids never change —
+  another reason not to rename one. Marks update in place (`refreshMarks`); a full
+  `render()` scrolls to the top.
 - **Gated email ask**: `gated=TRUE` shows a skippable HubSpot email prompt (a harmless
   placeholder until `hubspot_portal_id` / `hubspot_form_id` are set on the Site tab).
+- **Footer "Get updates"**: hidden until `hubspot_portal_id` and `hubspot_updates_form_id`
+  are set, then posts the email to HubSpot's public form endpoint (no HubSpot script). Its
+  own form id keeps newsletter sign-ups apart from download emails. `build.js` passes on
+  only well-formed ids (`hsId`) — the sheet's literal "(leave blank)" was once truthy.
 - **Analytics is a Google Sheet, not a service** (`docs/analytics.md`). With
   `analytics_url` on the Site tab, `track()` in `template.html` posts anonymous events
-  (views, opens by id, searches, saves) to `docs/apps-script/Analytics.gs`, a web app bound
+  (views, opens by id, searches) to `docs/apps-script/Analytics.gs`, a web app bound
   to its **own** spreadsheet. **No cookies, nothing stored on the device** — the session id
   lives in a variable for one page load — which is what keeps the site free of a consent
   banner; don't move it into `localStorage` or add a tracking script without rethinking
   that. It is silent off the live `domain`, so previews and local builds never write rows.
+  Saved and Done are deliberately **not** counted: the Privacy page says they never leave
+  the browser. The build warns if analytics is on while the `privacy` text still says
+  "no analytics".
 - **Gated emails post straight to HubSpot's submissions endpoint** from the site's own
   form. HubSpot's embed script is not loaded on purpose (it carries cookie code).
 - **Lists tab + guardrails**: the `Lists` tab centralizes every dropdown's values; `Guardrails.gs`

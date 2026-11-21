@@ -10,8 +10,8 @@
  *
  * WHAT IS RECORDED
  *   Page views, resource opens (by resource id), searches (the words typed and
- *   how many results came back), which search result was picked, saves, intro
- *   video plays, and "an email was given" (never the address — that goes to
+ *   how many results came back), which search result was picked, intro video
+ *   plays, and "an email was given" (never the address — that goes to
  *   HubSpot and nowhere else).
  *
  * WHAT IS NOT
@@ -41,8 +41,8 @@ var SUMMARY_TAB = 'Summary';
 var HEADERS = ['time', 'month', 'event', 'session', 'page', 'section', 'module',
                'resource', 'query', 'results', 'detail', 'referrer', 'source', 'device'];
 
-var EVENTS = ['view', 'open', 'search', 'pick', 'save', 'intro', 'email'];
-var PAGES = ['home', 'about', 'saved', 'r2ihome', 'section', 'module'];
+var EVENTS = ['view', 'open', 'search', 'pick', 'intro', 'email'];
+var PAGES = ['home', 'about', 'privacy', 'saved', 'r2ihome', 'section', 'module'];
 var DEVICES = ['phone', 'tablet', 'desktop'];
 
 var MAX_BODY = 1500;          // characters of JSON accepted per event
@@ -84,7 +84,7 @@ function record_(e) {
   var rid = String(b.rid || '');
   if (!/^[A-Za-z0-9][A-Za-z0-9._-]{0,99}$/.test(rid)) rid = '';
   // These events are about one resource; without a well-formed id they say nothing.
-  if (!rid && ['open', 'pick', 'save', 'email'].indexOf(ev) >= 0) return;
+  if (!rid && ['open', 'pick', 'email'].indexOf(ev) >= 0) return;
   var ref = String(b.ref || '').toLowerCase();
   var dev = String(b.dev || '');
   var n = Number(b.n);

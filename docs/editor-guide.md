@@ -211,8 +211,17 @@ code change needed.
 
 Key/value settings: `site_name`, `tagline`, `hero_headline`, `hero_subhead`,
 `hero_cta_label`, `footer_attribution`, `license_line`, the `about_*` paragraphs,
+`about_hero_image` (the photo across the top of About: a file name under `assets/` or a
+Drive link; leave it out for the default photo, or write `none` for no photo),
 `about_network` (partner + funder credits), and the HubSpot keys
-(`hubspot_portal_id`, `hubspot_form_id`, `hubspot_region`). Leave a setting blank
+(`hubspot_portal_id`, `hubspot_form_id`, `hubspot_updates_form_id`, `hubspot_region`).
+
+`privacy` holds the whole Privacy page in one cell. Put each heading on its own short line
+with no full stop, and each paragraph on its own line (Alt+Enter, or Option+Enter on a Mac,
+starts a new line in a cell). An email address in the text becomes a link. If the cell is
+blank, the page and the footer's Privacy link both disappear.
+The footer's **Get updates** box appears only once `hubspot_portal_id` and
+`hubspot_updates_form_id` are filled in; it sends the email to that HubSpot form. Leave a setting blank
 and the build will warn that its page area may render empty.
 
 ### The homepage proof band
@@ -275,15 +284,25 @@ Also worth adding: **conditional formatting** to flag a blank `summary` when
 When in doubt, ask a teammate to run the build and read the warnings — every problem
 is reported by name, nothing fails silently.
 
-## Saved and Opened (what visitors can do on their own)
+## Save, Done and Share (what visitors can do on their own)
 
-Visitors can **star** any published resource to keep it in a personal **Saved** list
-(top right; inside the menu on a phone), and the site ticks each resource they have
-**opened**. There is no login: the lists are stored in the visitor's own browser and
-never leave it, so nobody at Marshall can see them, and they do not follow the visitor
-to another device. The Saved page has **Copy a link to this list** for that — the link
-opens the same list anywhere, and is also a simple way to send a colleague a hand-picked
-set of resources.
+Every published resource has three small icons beside Open or Watch. They are grey
+until used; the star fills and the tick turns green:
 
-For editors there is one thing to know: these lists remember a resource by its `id`.
-Changing an `id` in the sheet silently drops that resource from everyone's saved list.
+- **Save** (the star) keeps it in the visitor's personal **Saved** list (top right;
+  inside the menu on a phone).
+- **Done** is a checkbox they tick once they have read or used it. The Saved page works
+  as a to-do list, and each module page shows how many they have finished.
+- **Share** gives a link to that one resource. It opens the resource on this site, on its
+  module page, so a colleague sees it in context. On a phone it uses the phone's own share
+  sheet; on a computer it offers **Copy link** and **Email it**, which opens the visitor's
+  own mail program with a short message ready. The Saved page can share the whole list the
+  same way.
+
+There is no login. Saved and Done are stored in the visitor's own browser and never leave
+it, so nobody at Marshall can see them, and they do not follow the visitor to another
+device. Sharing sends nothing from the site either.
+
+For editors there is one thing to know: all of this remembers a resource by its `id`.
+Changing an `id` in the sheet silently drops that resource from everyone's saved list and
+breaks any link to it that has already been shared.

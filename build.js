@@ -93,6 +93,9 @@ function imageUrl(url) {
 // script tag) instead of the page link; pull the video id back out so the inline
 // player still works. Vimeo "share" links (vimeo.com/share/<uuid>) carry no
 // video id — resolveVimeoLinks() swaps them for the numeric URL after all tabs load.
+// ----- HubSpot ids -----
+const HS_GUID = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i;
+const hsId = (v, re) => { const s = String(v || '').trim(); return re.test(s) ? s : ''; };
 // ----- About page -----
 // The Site tab carries more about_* prose than the page used to show. Five
 // paragraphs — about_toolkits, about_origin, about_continue, about_team and
@@ -112,9 +115,6 @@ const ABOUT_SECTIONS = [
   { keys: ['about_team'], heading: 'Team' },
   { keys: ['about_network'], heading: 'Our network' },
   { keys: ['about_community'], heading: 'Partners and funders' },
-  // What the site records about a visit. The footer's "Privacy" becomes a link
-  // to the About page once this is written.
-  { keys: ['about_privacy'], heading: 'Privacy' },
 ];
 function aboutBlocks(S) {
   const out = [];
@@ -136,6 +136,20 @@ function aboutBlocks(S) {
     out.push({ key, heading, body: lines });
   }
   return out;
+}
+// ----- Privacy page -----
+// One Site setting, `privacy`, holds the whole page: a line that looks like a
+// title (short, no sentence-ending punctuation) starts a section, every other
+// line is a paragraph. Lines before the first title are the opening. Blank
+// means no page, and the footer then shows no Privacy link at all — a word
+// that looks like a link and goes nowhere is worse than nothing.
+function privacyBlocks(v) {
+  const out = [];
+  for (const line of String(v || '').split(/\n+/).map(l => l.trim()).filter(Boolean)) {
+    if (line.length <= 60 && !/[.!?:]$/.test(line)) out.push({ heading: line, body: [] });
+    else { if (!out.length) out.push({ heading: '', body: [] }); out[out.length - 1].body.push(line); }
+  }
+  return out.filter(s => s.body.length);
 }
 function videoUrl(url, where) {
   const s = String(url || '').trim(); if (!s) return '';
@@ -529,6 +543,12 @@ async function main() {
     tagline: S.tagline, hero_headline: S.hero_headline, hero_subhead: S.hero_subhead,
     cta: S.hero_cta_label, footer: S.footer_attribution, license: S.license_line,
     about: aboutBlocks(S),
+    privacy: privacyBlocks(S.privacy),
+    // The photo across the top of About. Defaults to a committed photo of two
+    // educators planning, which no other page uses; an about_hero_image setting
+    // on the Site tab (a bare filename under assets/, or a Drive link) replaces
+    // it, and the value "none" removes the hero and brings the plain heading back.
+    aboutHero: (v => /^none$/i.test(v) ? '' : imageUrl(v || 'practices/hero-home.jpg'))(String(S.about_hero_image || '').trim()),
     // The closing panel on About that points at Marshall Street itself, and the
     // target of the footer logo. All three come from the Site tab; with no
     // marshall_url the panel does not render and the footer logo is not a link.
@@ -540,11 +560,16 @@ async function main() {
     } : null)(String(S.marshall_url || '').trim()),
     // Optional HubSpot capture (soft email ask on gated resources). Blank = a
     // placeholder shows instead of a live form, so nothing breaks before setup.
-    // All three end up inside a URL the page posts to, so each is held to the
-    // shape HubSpot uses; anything else is treated as not set.
-    hubspot_portal: (v => /^\d{1,15}$/.test(v) ? v : '')(String(S.hubspot_portal_id || '').trim()),
-    hubspot_form: (v => /^[0-9a-f-]{20,40}$/i.test(v) ? v : '')(String(S.hubspot_form_id || '').trim()),
-    hubspot_region: (v => /^[a-z]{2}\d{1,2}$/.test(v) ? v : 'na1')(String(S.hubspot_region || 'na1').trim().toLowerCase()),
+    // Only a real id is passed on: a portal id is digits, a form id is a GUID.
+    // The live sheet once held the literal text "(leave blank)" in both cells,
+    // which is truthy, so the page loaded HubSpot's script with nonsense ids.
+    hubspot_portal: hsId(S.hubspot_portal_id, /^\d{4,12}$/),
+    hubspot_form: hsId(S.hubspot_form_id, HS_GUID),
+    // The footer's "Get updates" box posts to its own form, so a newsletter
+    // sign-up is never confused with an email given to download one file.
+    // Blank = the box is not shown at all.
+    hubspot_updates_form: hsId(S.hubspot_updates_form_id, HS_GUID),
+    hubspot_region: hsId(S.hubspot_region, /^[a-z]{2}\d$/) || 'na1',
     // Anonymous usage counts (docs/analytics.md). `analytics_url` is the web app
     // address of docs/apps-script/Analytics.gs. Blank = the page sends nothing.
     // `host` is the live domain: the page stays silent anywhere else, so
@@ -557,11 +582,19 @@ async function main() {
       }
       const host = String(S.domain || '').trim().replace(/^https?:\/\//, '').replace(/\/.*$/, '');
       if (!host) { warn.push('Site setting "analytics_url" is set but "domain" is blank, so the page cannot tell it is the live site. Analytics is off.'); return null; }
+      // The Privacy page is sheet text; it must not go on promising the opposite.
+      if (/\bno analytics\b/i.test(String(S.privacy || ''))) warn.push('Analytics is on, but the "privacy" setting still says "no analytics". Reword the Privacy page.');
       return { url: u, host };
     })(String(S.analytics_url || '').trim()),
   };
   ['tagline','hero_headline','hero_subhead','cta','footer','license']
     .forEach(k => { if (!String(site[k] || '').trim()) warn.push(`Site setting blank: "${k}" (page area may render empty).`); });
+  // A typed-but-wrong id would otherwise fail silently. Parenthesised notes
+  // such as "(leave blank)" are how the sheet marks an unset cell, so they pass.
+  for (const [k, ok] of [['hubspot_portal_id', site.hubspot_portal], ['hubspot_form_id', site.hubspot_form], ['hubspot_updates_form_id', site.hubspot_updates_form]]) {
+    const raw = String(S[k] || '').trim();
+    if (raw && !ok && !/^\(.*\)$/.test(raw)) warn.push(`Site setting ${k} is not a valid HubSpot id ("${raw}"), so it is ignored.`);
+  }
   if (!site.about.length) warn.push('About page has no content: every about_* setting on the Site tab is blank.');
 
   // ----- Modules (joined to sections) -----

@@ -101,5 +101,17 @@ This is the second paragraph, so multi-paragraph bodies are covered too."
 "marshall_url","https://marshall.org"
 "about_marshall","Sample closing paragraph that points readers at Marshall Street's programs."
 "about_marshall_cta","Visit Marshall Street"
-"about_privacy","This site sets no cookies and asks for no account. It keeps anonymous counts of pages viewed, resources opened and words searched, so the team can see what is useful. Sample text for the fixtures build."
+"privacy","This site is run by Marshall Street, a division of Summit Public Schools. It works without an account and collects very little.
+What we collect
+Your email address, and only if you type it into the Get updates box or give it when you download a resource. We use it to send you updates about Research to Impact and related Marshall Street work. Every email we send has an unsubscribe link.
+We do not sell or rent email addresses. They are stored with HubSpot, the service we use to send email.
+What stays on your device
+The resources you save or tick as done, and the role you pick in search, are stored in your own browser. They are never sent to us. Clearing your browser data removes them.
+No tracking
+This site has no advertising and no tracking cookies. It keeps anonymous counts of pages viewed, resources opened and words searched, with nothing that identifies you.
+Other services
+The site is hosted by Netlify, which keeps standard server logs such as IP addresses. Fonts load from Google Fonts. Videos play from Vimeo and load only when you press play. Documents open in Google Drive. Each of these services has its own privacy policy.
+Questions
+To ask a question, or to have your email removed, write to privacy@example.org.
+Last updated November 2026."
 "analytics_url","https://script.google.com/macros/s/FIXTURE-not-a-real-deployment/exec"

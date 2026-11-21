@@ -8,11 +8,10 @@ them. It is **off until `analytics_url` is set on the Site tab**.
 
 | Event | When | What is stored |
 |---|---|---|
-| `view` | a page is shown (home, a toolkit, a module, About, Saved) | toolkit and module names |
+| `view` | a page is shown (home, a toolkit, a module, About, Privacy, Saved) | toolkit and module names. A visit that arrives on a shared resource link adds that resource's id |
 | `open` | Download, Open or Watch is pressed | the resource id, and `download` / `link` / `video`. Gated resources add `(gave email)` or `(skipped email)` |
 | `search` | the visitor stops typing for 1.5 seconds | the words (up to 80 characters), how many results, the audience lens |
 | `pick` | a search result is clicked | the resource id and the search that led to it |
-| `save` | a resource is starred | the resource id |
 | `intro` | a toolkit or module intro video is played | toolkit and module names |
 | `email` | an email is sent to HubSpot from a gated resource | the resource id — **never the address** |
 
@@ -59,8 +58,10 @@ If your Google Workspace does not offer "Anyone" in step 4, an administrator has
 restricted web apps to the organisation, and the receiver cannot be public from that
 account. Deploy it from an account that allows it.
 
-**Write a privacy note.** Add `about_privacy` on the Site tab; it appears as a Privacy
-section on the About page and the footer's "Privacy" becomes a link to it.
+**Reword the Privacy page first.** The `privacy` setting on the Site tab is the text of
+the Privacy page, and it says the site has no analytics. Change that sentence before
+setting `analytics_url`; the build warns while the two disagree. Saved and Done are not
+counted, so the page's promise that they never leave the browser stays true.
 
 ## Reading the numbers
 
