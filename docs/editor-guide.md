@@ -211,6 +211,8 @@ code change needed.
 
 Key/value settings: `site_name`, `tagline`, `hero_headline`, `hero_subhead`,
 `hero_cta_label`, `footer_attribution`, `license_line`, the `about_*` paragraphs,
+`about_hero_image` (the photo across the top of About: a file name under `assets/` or a
+Drive link; leave it out for the default photo, or write `none` for no photo),
 `about_network` (partner + funder credits), and the HubSpot keys
 (`hubspot_portal_id`, `hubspot_form_id`, `hubspot_region`). Leave a setting blank
 and the build will warn that its page area may render empty.

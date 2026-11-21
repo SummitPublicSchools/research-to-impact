@@ -526,6 +526,11 @@ async function main() {
     tagline: S.tagline, hero_headline: S.hero_headline, hero_subhead: S.hero_subhead,
     cta: S.hero_cta_label, footer: S.footer_attribution, license: S.license_line,
     about: aboutBlocks(S),
+    // The photo across the top of About. Defaults to a committed photo of two
+    // educators planning, which no other page uses; an about_hero_image setting
+    // on the Site tab (a bare filename under assets/, or a Drive link) replaces
+    // it, and the value "none" removes the hero and brings the plain heading back.
+    aboutHero: (v => /^none$/i.test(v) ? '' : imageUrl(v || 'practices/hero-home.jpg'))(String(S.about_hero_image || '').trim()),
     // The closing panel on About that points at Marshall Street itself, and the
     // target of the footer logo. All three come from the Site tab; with no
     // marshall_url the panel does not render and the footer logo is not a link.
