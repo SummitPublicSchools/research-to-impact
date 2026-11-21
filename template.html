@@ -2624,6 +2624,8 @@ function track(ev,o){
   if(trackOff())return;
   const v=view||{};
   const b=Object.assign({v:1,e:ev,sid:TRK_SID,page:v.type||'home',sec:v.section||'',mod:v.module||'',dev:innerWidth<700?'phone':innerWidth<1100?'tablet':'desktop'},o||{});
+  /* A title beside the id, so the sheet reads in words. */
+  if(b.rid&&!b.t){ const r=MY_RES.get(b.rid); if(r&&r.title)b.t=String(r.title).slice(0,80); }
   if(trkFirst){
    trkFirst=false;
    /* Where the visit came from: the referring site's name only, never its

@@ -5,11 +5,11 @@
  *   The site is static files: there is no server to count a visit. This script,
  *   bound to its OWN spreadsheet (never the content sheet), is published as a web
  *   app. The page posts one small JSON note per event and this appends one row
- *   to the `Events` tab. A `Summary` tab totals the rows with ordinary formulas.
+ *   to the `Events` tab. A `Dashboard` tab totals the rows with ordinary formulas.
  *   Free, no vendor, and the numbers live in a sheet the team owns.
  *
  * WHAT IS RECORDED
- *   Page views, resource opens (by resource id), searches (the words typed and
+ *   Page views, resource opens (by resource id and title), searches (the words typed and
  *   how many results came back), which search result was picked, intro video
  *   plays, and "an email was given" (never the address — that goes to
  *   HubSpot and nowhere else).
@@ -34,12 +34,21 @@
 
 // Bump when this file changes, and re-paste it into the Apps Script editor.
 // Opening the web app URL in a browser reports the version actually running.
-var ANALYTICS_VERSION = '1.0.0';
+// 1.1.0 — a Dashboard tab for people who were not here when this was built, a
+//         Full lists tab behind it, resource titles alongside ids, and `time`
+//         stored as a real date so "last 30 days" can be counted.
+// 1.1.1 — visits were counted with COUNTUNIQUE(FILTER(...)), which counts the
+//         "no rows" error as one value, so every empty month showed 1 visit.
+//         COUNTUNIQUEIFS has no such trap. Page names read as words.
+var ANALYTICS_VERSION = '1.1.1';
 
 var EVENTS_TAB = 'Events';
-var SUMMARY_TAB = 'Summary';
+var DASH_TAB = 'Dashboard';
+var LISTS_TAB = 'Full lists';
+var OLD_SUMMARY_TAB = 'Summary';   // 1.0.0's tab, replaced by the two above
 var HEADERS = ['time', 'month', 'event', 'session', 'page', 'section', 'module',
-               'resource', 'query', 'results', 'detail', 'referrer', 'source', 'device'];
+               'resource', 'query', 'results', 'detail', 'referrer', 'source', 'device',
+               'title'];
 
 var EVENTS = ['view', 'open', 'search', 'pick', 'intro', 'email'];
 var PAGES = ['home', 'about', 'privacy', 'saved', 'r2ihome', 'section', 'module'];
@@ -48,7 +57,7 @@ var DEVICES = ['phone', 'tablet', 'desktop'];
 var MAX_BODY = 1500;          // characters of JSON accepted per event
 var MAX_PER_MINUTE = 300;     // across all visitors; a flood is dropped, not stored
 var MAX_PER_SESSION = 400;    // one page load cannot write more rows than this
-var MAX_ROWS = 400000;        // 14 columns x 400k rows stays inside Sheets' cell limit
+var MAX_ROWS = 400000;        // 15 columns x 400k rows stays inside Sheets' cell limit
 
 // ---------------------------------------------------------------- web app
 
@@ -88,11 +97,13 @@ function record_(e) {
   var ref = String(b.ref || '').toLowerCase();
   var dev = String(b.dev || '');
   var n = Number(b.n);
-  var tz = Session.getScriptTimeZone();
 
+  // `time` and `month` are the same real date, shown two ways by the column
+  // formats. A date typed as text ("2026-11") is silently turned into a date by
+  // Sheets anyway, so it is written as one on purpose.
   sheet.appendRow([
-    Utilities.formatDate(now, tz, 'yyyy-MM-dd HH:mm:ss'),
-    Utilities.formatDate(now, tz, 'yyyy-MM'),
+    now,
+    now,
     ev,
     sid,
     PAGES.indexOf(page) >= 0 ? page : '',
@@ -104,7 +115,8 @@ function record_(e) {
     text_(b.d, 40),
     /^[a-z0-9.-]{1,80}$/.test(ref) ? ref : '',
     text_(b.src, 40),
-    DEVICES.indexOf(dev) >= 0 ? dev : ''
+    DEVICES.indexOf(dev) >= 0 ? dev : '',
+    text_(b.t, 80)
   ]);
 }
 
@@ -129,6 +141,8 @@ function text_(v, max) {
 
 // ---------------------------------------------------------------- sheet setup
 
+var NAVY = '#21334c', ORANGE = '#ed8f47', PALE = '#f3f5f8', LINE = '#d3d6db', GREY = '#5f6770';
+
 function onOpen() {
   SpreadsheetApp.getUi().createMenu('R2I Analytics')
     .addItem('Set up (or repair) the tabs', 'setup')
@@ -136,51 +150,213 @@ function onOpen() {
 }
 
 /**
- * Creates the Events and Summary tabs. Safe to run again: it never deletes an
- * event row, and it rewrites Summary from scratch.
+ * Builds the Events tab (if missing), then rebuilds Dashboard and Full lists
+ * from scratch. Safe to run again: it never deletes an event row.
  */
 function setup() {
   var ss = SpreadsheetApp.getActiveSpreadsheet();
+  setupEvents_(ss);
+  [DASH_TAB, LISTS_TAB, OLD_SUMMARY_TAB].forEach(function (n) {
+    var old = ss.getSheetByName(n);
+    if (old) ss.deleteSheet(old);
+  });
+  // The blank tab every new spreadsheet starts with — removed only if untouched.
+  var blank = ss.getSheetByName('Sheet1');
+  if (blank && blank.getLastRow() === 0 && blank.getCharts().length === 0) ss.deleteSheet(blank);
+  buildDashboard_(ss.insertSheet(DASH_TAB, 0));
+  buildLists_(ss.insertSheet(LISTS_TAB, 1));
+  ss.setActiveSheet(ss.getSheetByName(DASH_TAB));
+  ss.toast('Dashboard, Full lists and Events are ready.', 'R2I Analytics');
+}
 
+function setupEvents_(ss) {
   var ev = ss.getSheetByName(EVENTS_TAB) || ss.insertSheet(EVENTS_TAB);
+  var rows = ev.getMaxRows();
   ev.getRange(1, 1, 1, HEADERS.length).setValues([HEADERS]).setFontWeight('bold');
   ev.setFrozenRows(1);
-  // Plain text everywhere except `results`. A search for "504" must stay the
-  // text "504": a column that mixes numbers and text loses the minority type
-  // when QUERY reads it — the same trap as gviz on the content sheet.
-  ev.getRange(1, 1, ev.getMaxRows(), HEADERS.length).setNumberFormat('@');
-  ev.getRange(2, 10, ev.getMaxRows() - 1, 1).setNumberFormat('0');
+  if (rows > 1) {
+    ev.getRange(2, 1, rows - 1, 1).setNumberFormat('yyyy-mm-dd hh:mm:ss');
+    ev.getRange(2, 2, rows - 1, 1).setNumberFormat('mmm yyyy');
+    ev.getRange(2, 3, rows - 1, HEADERS.length - 2).setNumberFormat('@');
+    ev.getRange(2, 10, rows - 1, 1).setNumberFormat('0');
+  }
+  // A row written by 1.0.0 may hold its time as text. Text sorts above every
+  // date, so it would be counted in every month: turn any such cell into a date.
+  var last = ev.getLastRow();
+  if (last > 1) {
+    var rng = ev.getRange(2, 1, last - 1, 2), vals = rng.getValues(), changed = false;
+    vals.forEach(function (r) {
+      for (var c = 0; c < 2; c++) {
+        if (typeof r[c] === 'string' && r[c]) {
+          var d = new Date(r[c].replace(' ', 'T'));
+          if (!isNaN(d.getTime())) { r[c] = d; changed = true; }
+        }
+      }
+    });
+    if (changed) rng.setValues(vals);
+  }
+}
 
-  var old = ss.getSheetByName(SUMMARY_TAB);
-  if (old) ss.deleteSheet(old);
-  var su = ss.insertSheet(SUMMARY_TAB, 0);
-  var E = "'" + EVENTS_TAB + "'!A:N";
-  var put = function (cell, title, formula) {
-    var r = su.getRange(cell);
-    r.setValue(title).setFontWeight('bold');
-    r.offset(1, 0).setFormula(formula);
-  };
+// --- formula pieces. Every list reads Events through TO_TEXT so a search for
+// "504" and a search for "iep" are the same type; a column that mixes numbers
+// and text loses the minority when QUERY reads it.
+var EV = "'" + EVENTS_TAB + "'!";
+function col_(c) { return EV + '$' + c + '$2:$' + c; }
+// The page a view was of, as a reader would name it.
+var PAGE_NAME = 'IF(' + col_('E') + '="r2ihome","R2I Practices",IF(' + col_('E') + '="home","Home page",PROPER(TO_TEXT(' + col_('E') + '))))';
+var PAGE_LABEL = 'IF(' + col_('F') + '="",' + PAGE_NAME + ',IF(' + col_('G') + '="",TO_TEXT(' + col_('F') + '),' + col_('F') + '&" — "&' + col_('G') + '))';
+// A resource by its title where the page sent one, else by its id.
+var RES_LABEL = 'IF(' + col_('O') + '="",TO_TEXT(' + col_('H') + '),TO_TEXT(' + col_('O') + '))';
 
-  su.getRange('A1').setValue('R2I site analytics').setFontWeight('bold').setFontSize(14);
-  su.getRange('A2').setValue('Anonymous counts from researchtoimpact.marshall.org. A "visit" is one page load. Raw rows are on the Events tab.');
+// A two-column "name, count" list: `label` is grouped by `key` and counted
+// where `where` holds. Col1 = key, Col2 = label, Col3 = event, Col4 = results.
+function listFormula_(key, label, where, limit) {
+  // Col3 and Col4 are forced to one type each (text, number) so the query is
+  // valid even before the first search or the first event exists. IFNA, not
+  // IFERROR: an empty list shows nothing, but a broken formula stays visible.
+  return '=IFNA(ARRAYFORMULA(QUERY({TO_TEXT(' + key + '),' + label + ',TO_TEXT(' + col_('C') + '),IF(' + col_('J') + '="",-1,' + col_('J') + ')},' +
+    '"select max(Col2), count(Col3) where ' + where + " and Col1 is not null and Col1 != '' " +
+    'group by Col1 order by count(Col3) desc' + (limit ? ' limit ' + limit : '') +
+    " label max(Col2) '', count(Col3) ''\",0)),\"\")";
+}
+var LISTS = [
+  { title: 'Most-viewed pages', unit: 'views', note: 'Which toolkit and module pages people look at.',
+    key: PAGE_LABEL, label: PAGE_LABEL, where: "Col3 = 'view'" },
+  { title: 'Most-opened resources', unit: 'opens', note: 'Download, Open or Watch was pressed.',
+    key: col_('H'), label: RES_LABEL, where: "Col3 = 'open'" },
+  { title: 'What people search for', unit: 'times', note: 'The words typed into Search.',
+    key: col_('I'), label: 'TO_TEXT(' + col_('I') + ')', where: "Col3 = 'search'" },
+  { title: 'Searches that found nothing', unit: 'times', note: 'People looked for this and the site had no answer. Worth reading first.',
+    key: col_('I'), label: 'TO_TEXT(' + col_('I') + ')', where: "Col3 = 'search' and Col4 = 0" },
+  { title: 'Where visitors come from', unit: 'visits', note: 'The site that linked here. Blank means typed, bookmarked or emailed.',
+    key: col_('L'), label: 'TO_TEXT(' + col_('L') + ')', where: "Col3 != ''" }
+];
 
-  put('A4', 'By month',
-    '=IFERROR(QUERY(' + E + ',"select B, count(A) where C=\'view\' group by B order by B desc label B \'month\', count(A) \'page views\'",1),"No data yet")');
-  put('D4', 'Visits by month',
-    '=IFERROR(QUERY(UNIQUE({\'' + EVENTS_TAB + '\'!B2:B,\'' + EVENTS_TAB + '\'!D2:D}),"select Col1, count(Col2) where Col1 is not null group by Col1 order by Col1 desc label Col1 \'month\', count(Col2) \'visits\'",0),"No data yet")');
-  put('G4', 'Page views by toolkit and module',
-    '=IFERROR(QUERY(' + E + ',"select F, G, count(A) where C=\'view\' and F is not null group by F, G order by count(A) desc label F \'toolkit\', G \'module\', count(A) \'views\'",1),"No data yet")');
-  put('K4', 'Resource opens',
-    '=IFERROR(QUERY(' + E + ',"select H, count(A) where C=\'open\' and H is not null group by H order by count(A) desc label H \'resource id\', count(A) \'opens\'",1),"No data yet")');
-  put('N4', 'Top searches',
-    '=IFERROR(QUERY(' + E + ',"select I, count(A) where C=\'search\' and I is not null group by I order by count(A) desc limit 200 label I \'search\', count(A) \'times\'",1),"No data yet")');
-  put('Q4', 'Searches that found nothing',
-    '=IFERROR(QUERY(' + E + ',"select I, count(A) where C=\'search\' and J=0 and I is not null group by I order by count(A) desc limit 200 label I \'search\', count(A) \'times\'",1),"No data yet")');
-  put('T4', 'Where visitors came from',
-    '=IFERROR(QUERY(' + E + ',"select L, count(A) where L is not null group by L order by count(A) desc label L \'site\', count(A) \'visits\'",1),"No data yet")');
-  put('W4', 'Everything else',
-    '=IFERROR(QUERY(' + E + ',"select C, count(A) where C is not null group by C order by count(A) desc label C \'event\', count(A) \'count\'",1),"No data yet")');
+function heading_(sh, row, col, width, text) {
+  sh.getRange(row, col, 1, width).setBackground(NAVY).setFontColor('#ffffff').setFontWeight('bold');
+  sh.getRange(row, col).setValue(text);
+}
+function note_(sh, row, col, width, text) {
+  sh.getRange(row, col, 1, width).merge().setValue(text).setFontColor(GREY).setFontSize(9).setWrap(true).setVerticalAlignment('top');
+}
+function listBlock_(sh, row, col, L, limit) {
+  heading_(sh, row, col, 2, L.title);
+  sh.getRange(row, col + 1).setValue(L.unit).setHorizontalAlignment('right');
+  note_(sh, row + 1, col, 2, L.note);
+  sh.getRange(row + 2, col).setFormula(listFormula_(L.key, L.label, L.where, limit));
+  if (limit) sh.getRange(row + 2, col, limit, 2).setBorder(null, null, true, null, null, true, LINE, SpreadsheetApp.BorderStyle.SOLID);
+}
 
-  su.setFrozenRows(4);
-  SpreadsheetApp.getActive().toast('Events and Summary tabs are ready.', 'R2I Analytics');
+function buildDashboard_(sh) {
+  sh.setHiddenGridlines(true);
+  [300, 110, 110, 30, 260, 110, 150].forEach(function (w, i) { sh.setColumnWidth(i + 1, w); });
+  sh.getRange('A:G').setFontFamily('Arial').setFontSize(10).setVerticalAlignment('middle');
+
+  sh.getRange('A1:G1').merge().setValue('Research to Impact — who is using the site')
+    .setFontSize(18).setFontWeight('bold').setFontColor(NAVY);
+  sh.getRange('A2:G2').merge()
+    .setValue('Anonymous counts from researchtoimpact.marshall.org. Updates by itself as people visit. No names, emails or cookies are involved.')
+    .setFontColor(GREY).setWrap(true);
+  sh.setRowHeight(1, 40); sh.setRowHeight(2, 34);
+
+  // ---- key numbers
+  heading_(sh, 4, 1, 3, 'Key numbers');
+  sh.getRange('B4').setValue('All time').setHorizontalAlignment('right');
+  sh.getRange('C4').setValue('Last 30 days').setHorizontalAlignment('right');
+  var T = col_('A'), E = col_('C'), since = '">="&(TODAY()-30)';
+  var count = function (ev, extra) { return '=COUNTIFS(' + E + ',"' + ev + '"' + (extra || '') + ')'; };
+  var recent = function (ev, extra) { return '=COUNTIFS(' + E + ',"' + ev + '",' + T + ',' + since + (extra || '') + ')'; };
+  var zero = ',' + col_('J') + ',0';
+  var keys = [
+    ['Visits', '=COUNTUNIQUE(' + col_('D') + ')', '=COUNTUNIQUEIFS(' + col_('D') + ',' + T + ',' + since + ')'],
+    ['Pages viewed', count('view'), recent('view')],
+    ['Resources opened', count('open'), recent('open')],
+    ['Searches', count('search'), recent('search')],
+    ['Searches that found nothing', count('search', zero), recent('search', zero)],
+    ['Emails given', count('email'), recent('email')]
+  ];
+  keys.forEach(function (k, i) {
+    var r = 5 + i;
+    sh.getRange(r, 1).setValue(k[0]);
+    sh.getRange(r, 2).setFormula(k[1]);
+    sh.getRange(r, 3).setFormula(k[2]);
+    sh.setRowHeight(r, 30);
+  });
+  sh.getRange(5, 1, keys.length, 1).setFontSize(11);
+  sh.getRange(5, 2, keys.length, 2).setFontSize(14).setFontWeight('bold').setFontColor(NAVY).setNumberFormat('#,##0').setHorizontalAlignment('right');
+  sh.getRange(5, 1, keys.length, 3).setBorder(null, null, true, null, null, true, LINE, SpreadsheetApp.BorderStyle.SOLID);
+  sh.getRange(5, 1, 1, 3).setBackground(PALE);
+
+  // ---- what the words mean
+  heading_(sh, 12, 1, 3, 'What the words mean');
+  var words = [
+    'Visit — one person opening the site once. Coming back later counts as a new visit, because nobody is tracked between visits.',
+    'Pages viewed — every toolkit, module or other page shown during those visits.',
+    'Resources opened — someone pressed Download, Open or Watch. It shows interest; it cannot show whether they read it.',
+    'Emails given — someone chose to leave an email to get a resource. The address itself is in HubSpot, not here.'
+  ];
+  words.forEach(function (w, i) { note_(sh, 13 + i, 1, 3, w); sh.setRowHeight(13 + i, 32); });
+
+  // ---- month by month (the last 12 calendar months, oldest first)
+  heading_(sh, 4, 5, 3, 'Month by month');
+  sh.getRange('E5:G5').setValues([['Month', 'Visits', 'Resources opened']]).setFontWeight('bold').setFontColor(GREY);
+  sh.getRange('F5:G5').setHorizontalAlignment('right');
+  for (var k = 11; k >= 0; k--) {
+    var r = 6 + (11 - k);
+    var from = '(EOMONTH(TODAY(),' + (-k - 1) + ')+1)', to = '(EOMONTH(TODAY(),' + (-k) + ')+1)';
+    sh.getRange(r, 5).setFormula('=TEXT(' + from + ',"mmm yyyy")');
+    sh.getRange(r, 6).setFormula('=COUNTUNIQUEIFS(' + col_('D') + ',' + T + ',">="&' + from + ',' + T + ',"<"&' + to + ')');
+    sh.getRange(r, 7).setFormula('=COUNTIFS(' + E + ',"open",' + T + ',">="&' + from + ',' + T + ',"<"&' + to + ')');
+  }
+  sh.getRange('F6:G17').setNumberFormat('#,##0').setHorizontalAlignment('right');
+  sh.getRange('E6:G17').setBorder(null, null, true, null, null, true, LINE, SpreadsheetApp.BorderStyle.SOLID);
+  sh.getRange('E17:G17').setFontWeight('bold');   // the current month
+
+  // ---- chart
+  var chart = sh.newChart().setChartType(Charts.ChartType.COLUMN)
+    .addRange(sh.getRange('E5:G17')).setNumHeaders(1)
+    .setPosition(19, 1, 0, 0)
+    .setOption('title', 'Visits and resources opened, by month')
+    .setOption('width', 1070).setOption('height', 330)
+    .setOption('colors', [NAVY, ORANGE])
+    .setOption('legend', { position: 'top' })
+    .setOption('vAxis', { minValue: 0, format: '#,##0' })
+    .build();
+  sh.insertChart(chart);
+
+  // ---- top-ten lists, two across. Each block is 13 rows: heading, note, ten rows, gap.
+  var top = 37;
+  LISTS.forEach(function (L, i) {
+    listBlock_(sh, top + Math.floor(i / 2) * 13, i % 2 ? 5 : 1, L, 10);
+  });
+
+  // ---- devices, in the free slot beside the last list
+  var dr = top + 2 * 13;
+  heading_(sh, dr, 5, 2, 'Phone, tablet or computer');
+  sh.getRange(dr, 6).setValue('visits').setHorizontalAlignment('right');
+  note_(sh, dr + 1, 5, 2, 'What people were using, judged by screen width.');
+  [['Computer', 'desktop'], ['Tablet', 'tablet'], ['Phone', 'phone']].forEach(function (d, i) {
+    sh.getRange(dr + 2 + i, 5).setValue(d[0]);
+    sh.getRange(dr + 2 + i, 6).setFormula('=COUNTUNIQUEIFS(' + col_('D') + ',' + col_('N') + ',"' + d[1] + '")');
+  });
+  sh.getRange(dr + 2, 5, 3, 2).setBorder(null, null, true, null, null, true, LINE, SpreadsheetApp.BorderStyle.SOLID);
+
+  sh.getRange(top, 2, 40, 2).setHorizontalAlignment('right');
+  sh.getRange(top, 6, 40, 2).setHorizontalAlignment('right');
+  note_(sh, dr + 13, 1, 7, 'Each list shows the top ten. The "' + LISTS_TAB + '" tab has every row, and "' + EVENTS_TAB + '" is the raw log. To rebuild this page: R2I Analytics menu → Set up (or repair) the tabs.');
+  sh.setFrozenRows(2);
+}
+
+// The same five lists with no top-ten limit, side by side.
+function buildLists_(sh) {
+  sh.getRange('A1').setValue('Full lists').setFontSize(14).setFontWeight('bold').setFontColor(NAVY);
+  sh.getRange('A2').setValue('Every row behind the Dashboard\'s top-ten lists, most first.').setFontColor(GREY);
+  LISTS.forEach(function (L, i) {
+    var c = 1 + i * 3;
+    sh.setColumnWidth(c, 320); sh.setColumnWidth(c + 1, 80); sh.setColumnWidth(c + 2, 30);
+    listBlock_(sh, 4, c, L, 0);
+    sh.getRange(4, c + 1, sh.getMaxRows() - 3, 1).setHorizontalAlignment('right');
+  });
+  sh.setRowHeight(5, 44);
+  sh.setFrozenRows(5);
 }
