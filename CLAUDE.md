@@ -174,6 +174,10 @@ contains one.
   `render()` scrolls to the top.
 - **Gated email ask**: `gated=TRUE` shows a skippable HubSpot email prompt (a harmless
   placeholder until `hubspot_portal_id` / `hubspot_form_id` are set on the Site tab).
+- **Footer "Get updates"**: hidden until `hubspot_portal_id` and `hubspot_updates_form_id`
+  are set, then posts the email to HubSpot's public form endpoint (no HubSpot script). Its
+  own form id keeps newsletter sign-ups apart from download emails. `build.js` passes on
+  only well-formed ids (`hsId`) — the sheet's literal "(leave blank)" was once truthy.
 - **Lists tab + guardrails**: the `Lists` tab centralizes every dropdown's values; `Guardrails.gs`
   applies all dropdowns + conditional formatting **by header name** (so column-order quirks like
   the `gated`/`note` swap on a couple of tabs don't matter).

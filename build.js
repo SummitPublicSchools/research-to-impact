@@ -93,6 +93,9 @@ function imageUrl(url) {
 // script tag) instead of the page link; pull the video id back out so the inline
 // player still works. Vimeo "share" links (vimeo.com/share/<uuid>) carry no
 // video id — resolveVimeoLinks() swaps them for the numeric URL after all tabs load.
+// ----- HubSpot ids -----
+const HS_GUID = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i;
+const hsId = (v, re) => { const s = String(v || '').trim(); return re.test(s) ? s : ''; };
 // ----- About page -----
 // The Site tab carries more about_* prose than the page used to show. Five
 // paragraphs — about_toolkits, about_origin, about_continue, about_team and
@@ -542,12 +545,25 @@ async function main() {
     } : null)(String(S.marshall_url || '').trim()),
     // Optional HubSpot capture (soft email ask on gated resources). Blank = a
     // placeholder shows instead of a live form, so nothing breaks before setup.
-    hubspot_portal: (S.hubspot_portal_id || '').trim(),
-    hubspot_form: (S.hubspot_form_id || '').trim(),
-    hubspot_region: (S.hubspot_region || 'na1').trim(),
+    // Only a real id is passed on: a portal id is digits, a form id is a GUID.
+    // The live sheet once held the literal text "(leave blank)" in both cells,
+    // which is truthy, so the page loaded HubSpot's script with nonsense ids.
+    hubspot_portal: hsId(S.hubspot_portal_id, /^\d{4,12}$/),
+    hubspot_form: hsId(S.hubspot_form_id, HS_GUID),
+    // The footer's "Get updates" box posts to its own form, so a newsletter
+    // sign-up is never confused with an email given to download one file.
+    // Blank = the box is not shown at all.
+    hubspot_updates_form: hsId(S.hubspot_updates_form_id, HS_GUID),
+    hubspot_region: hsId(S.hubspot_region, /^[a-z]{2}\d$/) || 'na1',
   };
   ['tagline','hero_headline','hero_subhead','cta','footer','license']
     .forEach(k => { if (!String(site[k] || '').trim()) warn.push(`Site setting blank: "${k}" (page area may render empty).`); });
+  // A typed-but-wrong id would otherwise fail silently. Parenthesised notes
+  // such as "(leave blank)" are how the sheet marks an unset cell, so they pass.
+  for (const [k, ok] of [['hubspot_portal_id', site.hubspot_portal], ['hubspot_form_id', site.hubspot_form], ['hubspot_updates_form_id', site.hubspot_updates_form]]) {
+    const raw = String(S[k] || '').trim();
+    if (raw && !ok && !/^\(.*\)$/.test(raw)) warn.push(`Site setting ${k} is not a valid HubSpot id ("${raw}"), so it is ignored.`);
+  }
   if (!site.about.length) warn.push('About page has no content: every about_* setting on the Site tab is blank.');
 
   // ----- Modules (joined to sections) -----
