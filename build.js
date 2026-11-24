@@ -974,6 +974,9 @@ async function main() {
     // The lever icon (guidelines p.7), served from assets/ as the tab icon. The icon
     // is a graphic accent and never stands in for the logo — a favicon is the one
     // slot that takes a mark rather than a wordmark.
+    // Browsers that take a vector tab icon use the SVG (sharp at any size, and it
+    // turns white on a dark tab); the PNG is the fallback for the rest.
+    '__FAVICON_SVG__': 'assets/brand/favicon.svg',
     '__FAVICON__': 'assets/brand/favicon.png',
   };
 
