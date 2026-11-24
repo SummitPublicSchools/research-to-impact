@@ -15,6 +15,12 @@
 #   rdc-1-executive-summary + cp-1-infographic-and-impact-data
 #   (401 / visibility UNLISTED_TO_DOMAIN, no anyoneWithLink entry).
 #
+#   Google throttles a burst of anonymous requests: an unpaced run once reported
+#   77 of 108 files as "no response" when all but five were public. So each link
+#   is retried (up to 4 times, backing off) on no response or HTTP 429, with a
+#   short pause between links. A full run takes about three minutes. Anything
+#   still unanswered is counted as UNKNOWN, never as public or as broken.
+#
 #   Vimeo is NOT checked: it returns 403 to any scripted client regardless of
 #   whether the video is public, so a script cannot tell. Check videos in a browser.
 #
@@ -22,7 +28,7 @@
 set -uo pipefail
 cd "$(dirname "$0")/.."
 
-SITE="${SITE_URL:-https://ignite-public-goods.netlify.app}"
+SITE="${SITE_URL:-https://researchtoimpact.marshall.org}"
 OUT=""
 [ "${1:-}" = "--out" ] && OUT="${2:-access-report.md}"
 
@@ -55,12 +61,18 @@ while IFS=$'\t' read -r id section module title kind url; do
   case "$url" in
     *vimeo.com*) printf 'SKIPPED-VIMEO\t-\t%s\t%s\t%s\t%s\n' "$id" "$section" "$title" "$url" >> "$tmp/res.tsv"; continue ;;
   esac
-  code=$(curl -sS -L --max-time 25 --max-redirs 8 -o /dev/null -w '%{http_code}' "$url" 2>/dev/null) || code="000"
+  code="000"
+  for try in 1 2 3 4; do
+    code=$(curl -sS -L --max-time 25 --max-redirs 8 -o /dev/null -w '%{http_code}' "$url" 2>/dev/null) || code="000"
+    [ "$code" != "000" ] && [ "$code" != "429" ] && break
+    [ "$try" -lt 4 ] && sleep $((try * 5))
+  done
+  sleep 0.6
   case "$code" in
     200) v="PUBLIC" ;;
     401) v="SIGN-IN REQUIRED" ;;
     404|410) v="NOT FOUND" ;;
-    000) v="NO RESPONSE" ;;
+    000|429) v="UNKNOWN" ;;
     *)   v="UNEXPECTED-$code" ;;
   esac
   printf '%s\t%s\t%s\t%s\t%s\t%s\n' "$v" "$code" "$id" "$section" "$title" "$url" >> "$tmp/res.tsv"
@@ -70,11 +82,17 @@ done < "$tmp/urls.tsv"
 bad=$(awk -F'\t' '$1=="SIGN-IN REQUIRED"||$1=="NOT FOUND"||$1 ~ /^UNEXPECTED/' "$tmp/res.tsv" | wc -l | tr -d ' ')
 ok=$(awk -F'\t' '$1=="PUBLIC"' "$tmp/res.tsv" | wc -l | tr -d ' ')
 vim=$(awk -F'\t' '$1=="SKIPPED-VIMEO"' "$tmp/res.tsv" | wc -l | tr -d ' ')
+unk=$(awk -F'\t' '$1=="UNKNOWN"' "$tmp/res.tsv" | wc -l | tr -d ' ')
 
 echo
 echo "────────────────────────────────────────────────────────────"
 printf '  %s public · %s BROKEN for the public · %s videos (check in a browser)\n' "$ok" "$bad" "$vim"
 echo "────────────────────────────────────────────────────────────"
+if [ "$unk" -gt 0 ]; then
+  echo "  $unk could NOT be checked (no answer after 4 tries). Run again before"
+  echo "  trusting this result:"
+  awk -F'\t' '$1=="UNKNOWN" {print "    " $3}' "$tmp/res.tsv"
+fi
 
 if [ -n "$OUT" ]; then
   {
@@ -87,6 +105,7 @@ if [ -n "$OUT" ]; then
     echo "| Open to the public | $ok |"
     echo "| **Blocked for the public** | **$bad** |"
     echo "| Vimeo (needs a browser check) | $vim |"
+    [ "$unk" -gt 0 ] && echo "| Could not be checked (run again) | $unk |"
     echo
     if [ "$bad" -gt 0 ]; then
       echo "## Blocked for the public"
