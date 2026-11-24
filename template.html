@@ -103,19 +103,17 @@ a,button,.chip,input{transition:background-color .15s ease,color .15s ease,borde
    while the nav was seven links wide; with the toolkits under one menu they
    fit with room for the site's name. */
 header.site{position:sticky;top:0;z-index:20;background:var(--navy);color:#fff;display:flex;align-items:center;gap:var(--s-4);padding:8px max(22px,calc((100% - 996px)/2));min-height:62px;box-shadow:0 1px 0 rgba(0,0,0,.15)}
-/* The logo is the designer's vector file (marshall-primary-cw.svg): the primary,
-   stacked lockup, which the brand puts first everywhere. It replaced a PNG of
-   the single-line secondary, which was soft at this size and 187px wide; the
-   stacked one is about 98px wide and sharp at any zoom. The file's viewBox is
-   cropped to the artwork, so the height set here is the height of the logo and
-   the box a keyboard focus ring draws is the logo, not its padding. At 38px
-   "marshall" stands about 17px tall and STREET's capitals 11px. Clear space
-   (brand p.6: the cap height of the S, all sides) comes from the header's own
-   padding and the margin here: 38 + 2 x 11 = 60, inside the bar's 62. */
-header .logo{height:38px;display:flex;align-items:center;margin-right:12px;flex:0 0 auto;border-radius:2px}
+/* The logo file is cropped to the artwork (marshall-secondary-cw-tight.png).
+   The uncropped export carries its own clear space inside the image — the
+   letters were 51% of the file's height — so at 30px tall the wordmark rendered
+   about 12px high and the lever M closed up. Cropped, a 24px image gives 20px
+   letters, and the box a keyboard focus ring draws is the logo, not its padding.
+   Clear space (brand p.6: the cap height of the S, all sides) now comes from
+   the header's own padding and the margin here. */
+header .logo{height:22px;display:flex;align-items:center;margin-right:8px;flex:0 0 auto;border-radius:2px}
 header .logo:focus-visible{outline-offset:6px}
 header .logo:hover{opacity:.85}
-header .logo img{height:38px;width:auto;display:block}
+header .logo img{height:22px;width:auto;display:block}
 
 /* Nav type was 12px, the smallest text on the site doing the most important
    job. It is 14px now, and each item is a padded target with a soft fill on
@@ -687,8 +685,8 @@ footer.site [hidden]{display:none}
 .privacy .privlede p{font-size:var(--t-heading);color:var(--navy);line-height:1.5}
 .privacy a{color:var(--navy);text-decoration:underline;text-underline-offset:3px}
 footer.site .lic{flex-basis:100%;color:#9fb0c0;font-size:var(--t-label);margin-top:8px}
-footer .footlogo{flex-basis:100%;margin-bottom:14px}
-footer .footlogo img{height:44px;width:auto;display:block}
+footer .footlogo{flex-basis:100%;margin-bottom:10px}
+footer .footlogo img{height:24px;width:auto;display:block}
 footer .footlogo a{display:inline-block;border-radius:2px}
 footer .footlogo a:hover{opacity:.85}
 footer .signup{margin-left:auto;display:flex;gap:var(--s-2);align-items:center}
@@ -852,10 +850,14 @@ header #findBtn .ftxt{display:none}header #findBtn .ftxt-s{display:inline}
   header .logo{margin-right:0}
 }
 @media (max-width:620px){header #findBtn .ftxt-s{display:none}}
-/* Phone header. The stacked logo is 98px wide where the single-line one was
-   187, so the bar that once had 7px of slack on a 360px phone now has room to
-   spare and the logo keeps its full size. */
+/* Phone header. After reclaiming the dead logo margin and the mismatched gutter
+   above, the bar still needs 351px — 7px of slack on a 360px phone once the
+   Helvetica Neue fallback's wider metrics are allowed for (measured: 2px of
+   drift). That is too thin to trust against OS text scaling, and at 146px wide
+   the logo was taking 40% of the bar anyway, so it steps down one notch here.
+   351 -> 332, which is 28px of room at 360px. */
 @media (max-width:480px){
+  header .logo,header .logo img{height:18px}
   header #findBtn .ftxt-s{display:none}
 }
 /* Narrower still the bar runs out again, and the word "Menu" is the first thing
@@ -877,9 +879,10 @@ header #findBtn .ftxt{display:none}header #findBtn .ftxt-s{display:inline}
 <header class="site">
   <!-- CW: white wordmark, blue stroke and orange fulcrum on the lever. The brand
        uses C on light grounds and W or CW on dark ones, and the header and footer
-       are both navy, so CW is the colour version here. The C variant's wordmark
-       is navy and would disappear against this bar. -->
-  <a class="logo" data-go="home" href="#" aria-label="Home" title="Home"><img class="logo-img" src="assets/brand/marshall-primary-cw.svg" width="686" height="265" alt="Marshall Street" fetchpriority="high"/></a>
+       are both navy, so CW is the colour version here. NOT
+       marshall-secondary-color.png, which is the C variant — its wordmark is navy
+       and would disappear against this bar. -->
+  <a class="logo" data-go="home" href="#" aria-label="Home" title="Home"><img class="logo-img" src="assets/brand/marshall-secondary-cw-tight.png" width="954" height="112" alt="Marshall Street" fetchpriority="high"/></a>
   <nav class="main" id="nav"></nav>
   <button id="findBtn" aria-label="Search or ask a question" aria-haspopup="dialog"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4-4"/></svg><span class="ftxt">Search or ask a question</span><span class="ftxt-s" aria-hidden="true">Search</span></button>
   <button id="savedBtn" data-go="saved" aria-label="Saved resources" title="Your saved resources"><svg width="15" height="15" viewBox="0 0 24 24" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><path d="M12 3.6l2.6 5.3 5.8.8-4.2 4.1 1 5.8L12 16.9 6.8 19.6l1-5.8-4.2-4.1 5.8-.8z"/></svg><span class="stxt">Saved</span><span id="savedCount" class="scount"></span></button>
@@ -899,7 +902,7 @@ header #findBtn .ftxt{display:none}header #findBtn .ftxt-s{display:inline}
 </div>
 <main id="app" tabindex="-1"></main>
 <footer class="site"><div class="row">
-  <span class="footlogo" id="footLogo"><img src="assets/brand/marshall-primary-cw.svg" width="686" height="265" alt="Marshall Street" loading="lazy" decoding="async"/></span>
+  <span class="footlogo" id="footLogo"><img src="assets/brand/marshall-secondary-cw-tight.png" width="954" height="112" alt="Marshall Street" loading="lazy" decoding="async"/></span>
   <span id="footAttr"></span><span>&middot;</span><span>CC BY 4.0</span><span id="footPrivDot" hidden>&middot;</span><a href="#/privacy" data-go="privacy" id="footPriv" hidden>Privacy</a>
   <form class="signup" id="signup" hidden novalidate><input type="email" name="email" id="signupEmail" placeholder="Email" aria-label="Email for updates" autocomplete="email" required/><button type="submit">Get updates</button></form>
   <span class="lic" id="footLic"></span>
