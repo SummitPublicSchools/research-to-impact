@@ -965,11 +965,29 @@ async function main() {
   let seoImage = '';
   if (/^https?:\/\//i.test(heroImg)) seoImage = heroImg;
   else if (driveId(heroImg)) seoImage = imageUrl(heroImg);
-  else if (heroImg && baseUrl) seoImage = `${baseUrl}/assets/${heroImg.replace(/^\/+/, '')}`;
+  else if (baseUrl) {
+    // A file under assets/. Link previews (Slack, LinkedIn, iMessage) fetch this
+    // address and show nothing when it is missing, and nothing on the page uses
+    // hero_image, so a wrong name is invisible from the site itself: for weeks the
+    // sheet named a file that was never committed and every shared link unfurled
+    // without a picture. So check the file, and fall back to the homepage photo.
+    const SEO_FALLBACK = 'practices/hero-home-students.jpg';
+    const assetDir = process.env.ASSET_DIR || 'assets';
+    let rel = heroImg.replace(/^\/+/, '');
+    if (rel && !fs.existsSync(path.join(assetDir, rel))) {
+      warn.push(`Site tab hero_image "${heroImg}" is not a file under ${assetDir}/, so link previews would have no picture. Using ${SEO_FALLBACK} instead. Fix the cell, or blank it to use that photo.`);
+      rel = '';
+    }
+    if (!rel && fs.existsSync(path.join(assetDir, SEO_FALLBACK))) rel = SEO_FALLBACK;
+    if (rel) seoImage = `${baseUrl}/assets/${rel}`;
+  }
   const seo = {
     '__SEO_TITLE__': escHtml((S.site_name || site.name || 'Research to Impact').trim()),
     '__SEO_DESC__': escHtml((site.tagline || site.hero_subhead || '').trim()),
     '__SEO_URL__': escHtml(baseUrl),
+    // One address for search engines: the same page is also reachable on the
+    // netlify.app name, and without this the two compete.
+    '__SEO_CANONICAL__': baseUrl ? `<link rel="canonical" href="${escHtml(baseUrl)}/"/>\n` : '',
     '__SEO_IMAGE__': escHtml(seoImage),
     // The lever icon (guidelines p.7), served from assets/ as the tab icon. The icon
     // is a graphic accent and never stands in for the logo — a favicon is the one
@@ -993,6 +1011,17 @@ async function main() {
   fs.mkdirSync(OUT_DIR, { recursive: true });
   fs.writeFileSync(path.join(OUT_DIR, 'index.html'), html);
   fs.writeFileSync(path.join(OUT_DIR, 'search-docs.json'), docJson);
+
+  // The not-found page. Netlify serves dist/404.html for any address that is not
+  // a file; without it a mistyped link lands on Netlify's own page with no way back.
+  if (fs.existsSync('404.html')) fs.copyFileSync('404.html', path.join(OUT_DIR, '404.html'));
+  // robots.txt and a sitemap. The site is one page (everything else is a #/ route,
+  // which crawlers do not follow), so the sitemap has one entry.
+  if (baseUrl) {
+    fs.writeFileSync(path.join(OUT_DIR, 'robots.txt'), `User-agent: *\nAllow: /\n\nSitemap: ${baseUrl}/sitemap.xml\n`);
+    fs.writeFileSync(path.join(OUT_DIR, 'sitemap.xml'),
+      `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n  <url><loc>${escHtml(baseUrl)}/</loc></url>\n</urlset>\n`);
+  }
 
   // Copy committed static assets (images, etc.) into the publish dir, so links
   // like assets/foo.jpg resolve. Netlify publishes dist/, so assets must land
