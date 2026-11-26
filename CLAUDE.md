@@ -204,6 +204,12 @@ contains one.
 
 - `dist/` is generated — never edit by hand. Never hardcode content in `template.html`; it
   comes from the sheet.
+- **The link-preview image is the Site tab's `hero_image`, and nothing on the page uses
+  it**, so a wrong value is invisible from the site: the sheet once named a file that was
+  never committed and every shared link unfurled with no picture. `build.js` now checks the
+  file exists under `assets/`, warns, and falls back to the homepage photo. The build also
+  writes `robots.txt`, a one-entry `sitemap.xml` (every other view is a `#/` route) and a
+  canonical tag, and copies the repo-root `404.html` into `dist/`.
 - Deploys to Netlify (project `ignite-public-goods`); the site is **live at
   `researchtoimpact.marshall.org`** — note `marshall.org`, not `marshallstreet.org`, which
   has never resolved. The Site tab's `domain` feeds `__SEO_URL__` and now carries the live

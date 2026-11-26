@@ -13,7 +13,8 @@
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:title" content="__SEO_TITLE__"/>
 <meta name="twitter:description" content="__SEO_DESC__"/>
-<link rel="icon" type="image/svg+xml" href="__FAVICON_SVG__"/>
+<meta name="twitter:image" content="__SEO_IMAGE__"/>
+__SEO_CANONICAL__<link rel="icon" type="image/svg+xml" href="__FAVICON_SVG__"/>
 <link rel="icon" type="image/png" href="__FAVICON__"/>
 <link rel="apple-touch-icon" href="assets/brand/apple-touch-icon.png"/>
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -679,8 +680,8 @@ header #savedBtn .scount{background:rgba(255,255,255,.16);border-radius:var(--r-
 
 footer.site{background:var(--navy);color:#c6d0db;font-size:var(--t-label);padding:22px;margin-top:30px}
 footer.site .row{max-width:996px;margin:0 auto;display:flex;flex-wrap:wrap;gap:var(--s-3);align-items:center}
-footer.site a#footPriv{color:inherit;text-decoration:underline;text-underline-offset:3px}
-footer.site a#footPriv:hover{color:#fff}
+footer.site a#footPriv,footer.site a#footCC{color:inherit;text-decoration:underline;text-underline-offset:3px}
+footer.site a#footPriv:hover,footer.site a#footCC:hover{color:#fff}
 footer.site [hidden]{display:none}
 .privacy .privlede p{font-size:var(--t-heading);color:var(--navy);line-height:1.5}
 .privacy a{color:var(--navy);text-decoration:underline;text-underline-offset:3px}
@@ -697,29 +698,6 @@ footer .signup input{border:0;border-radius:var(--r-ctl);padding:8px 11px;font-s
 footer .signup button{background:var(--orange);color:var(--navy);border:0;border-radius:var(--r-ctl);padding:8px 14px;font-size:var(--t-label);font-weight:var(--w-semi)}
 footer .signup button:hover{background:var(--orange-d)}
 
-/* demo panel */
-#demoToggle{position:fixed;right:20px;bottom:20px;z-index:40;background:var(--ink);color:#fff;border:0;border-radius:var(--r-pill);padding:13px 20px;font-size:var(--t-meta);font-weight:var(--w-semi);box-shadow:0 6px 20px rgba(0,0,0,.22);display:flex;align-items:center;gap:var(--s-2)}
-#demoToggle:hover{background:#0c1726}
-#panel{position:fixed;left:0;right:0;bottom:0;z-index:39;background:#fff;border-top:3px solid var(--coral);box-shadow:0 -10px 30px rgba(0,0,0,.18);max-height:64vh;transform:translateY(105%);transition:transform .26s ease}
-#panel.open{transform:translateY(0)}
-.panhd{display:flex;align-items:center;gap:var(--s-3);padding:14px 20px;border-bottom:1px solid var(--line);background:var(--slate)}
-.panhd .pt{font-weight:var(--w-semi);font-size:var(--t-meta);color:var(--navy)}
-.panhd .pd{font-size:var(--t-label);color:var(--muted)}
-.panhd .x{margin-left:auto;background:none;border:0;color:var(--muted);font-size:var(--t-heading);line-height:1}
-.panbody{padding:14px 20px;overflow:auto;max-height:calc(64vh - 56px)}
-.erow{display:grid;grid-template-columns:64px 64px 1fr;gap:var(--s-3);align-items:start;padding:11px 0;border-bottom:1px solid var(--line)}
-.erow:last-child{border-bottom:0}
-.erow .sw{display:flex;flex-direction:column;align-items:center;gap:var(--s-1);font-size:var(--t-label);color:var(--muted);text-transform:uppercase;letter-spacing:.04em}
-.switch{position:relative;width:40px;height:22px;flex:none}
-.switch input{opacity:0;width:0;height:0}
-.slider{position:absolute;inset:0;background:#cdd3d8;border-radius:var(--r-pill);transition:.16s}
-.slider:before{content:"";position:absolute;height:16px;width:16px;left:3px;top:3px;background:#fff;border-radius:50%;transition:.16s}
-.switch input:checked+.slider{background:var(--coral)}
-.switch input:checked+.slider:before{transform:translateX(18px)}
-.efields{display:flex;flex-direction:column;gap:var(--s-2)}
-.efields input,.efields textarea{font-family:inherit;font-size:var(--t-meta);border:1px solid var(--line);border-radius:var(--r-ctl);padding:7px 9px;width:100%;color:var(--ink);resize:vertical}
-.efields .cap{font-size:var(--t-label);color:var(--muted)}
-.panhint{padding:26px 20px;color:var(--muted);font-size:var(--t-meta);text-align:center}
 .toast{position:fixed;left:50%;bottom:90px;transform:translateX(-50%) translateY(12px);background:var(--ink);color:#fff;padding:10px 16px;border-radius:var(--r-ctl);font-size:var(--t-meta);opacity:0;transition:.2s;z-index:50;pointer-events:none}
 .toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
 
@@ -829,7 +807,6 @@ header #findBtn .ftxt{display:none}header #findBtn .ftxt-s{display:inline}
   #app{padding-top:20px}
   #app>*{width:calc(100% - 32px)}
   .bleed-in{width:calc(100% - 32px)}
-  .erow{grid-template-columns:54px 54px 1fr}
   /* The top nav is gone at this width, so the logo's 26px right margin — which
      exists only to hold it off the nav — is dead space, and the header's 22px
      gutter no longer lines up with main's 16px. Reclaiming both buys 38px and
@@ -903,7 +880,7 @@ header #findBtn .ftxt{display:none}header #findBtn .ftxt-s{display:inline}
 <main id="app" tabindex="-1"></main>
 <footer class="site"><div class="row">
   <span class="footlogo" id="footLogo"><img src="assets/brand/marshall-secondary-cw-tight.png" width="954" height="112" alt="Marshall Street" loading="lazy" decoding="async"/></span>
-  <span id="footAttr"></span><span>&middot;</span><span>CC BY 4.0</span><span id="footPrivDot" hidden>&middot;</span><a href="#/privacy" data-go="privacy" id="footPriv" hidden>Privacy</a>
+  <span id="footAttr"></span><span>&middot;</span><a id="footCC" href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="license noopener">CC BY 4.0</a><span id="footPrivDot" hidden>&middot;</span><a href="#/privacy" data-go="privacy" id="footPriv" hidden>Privacy</a>
   <form class="signup" id="signup" hidden novalidate><input type="email" name="email" id="signupEmail" placeholder="Email" aria-label="Email for updates" autocomplete="email" required/><button type="submit">Get updates</button></form>
   <span class="lic" id="footLic"></span>
 </div></footer>
@@ -928,7 +905,6 @@ header #findBtn .ftxt{display:none}header #findBtn .ftxt-s{display:inline}
     </div>
   </aside>
 </div>
-<aside id="panel" aria-label="Live edit panel"></aside>
 <div class="toast" id="toast"></div>
 <div class="gate" id="gate" aria-hidden="true">
   <div class="gate-card" role="dialog" aria-modal="true" aria-labelledby="gateH">
@@ -1172,7 +1148,7 @@ window.addEventListener('resize',()=>{
  if(window.innerWidth>1200&&!document.getElementById('navDrawer').hidden)navDrawer(false);
 });
 
-function render(){renderApp();refreshMarks();renderPanel();document.getElementById('nav').innerHTML=navHtml();document.getElementById('navDrawerList').innerHTML=navDrawerHtml();document.title=titleFor(view);}
+function render(){renderApp();refreshMarks();document.getElementById('nav').innerHTML=navHtml();document.getElementById('navDrawerList').innerHTML=navDrawerHtml();document.title=titleFor(view);}
 function titleFor(v){
  const site=(DATA.site&&DATA.site.name)?DATA.site.name:'Research to Impact';
  if(!v||v.type==='home')return site;
@@ -1801,37 +1777,6 @@ function r2iHomeView(){
  ${map}${partners}`;
 }
 
-/* ---- live edit panel ---- */
-function renderPanel(){
- const p=document.getElementById('panel');
- const open=p.classList.contains('open');
- let body;
- if(view.type==='module'){
-  const list=resOf(view.section,view.module);
-  body=`<div class="panhd"><div><div class="pt">Master Sheet &middot; ${esc(view.module)}</div><div class="pd">Edit a value below and watch the page update. This is what your team does in the Google Sheet.</div></div><button class="x" onclick="togglePanel(false)" aria-label="Close">&times;</button></div>
-  <div class="panbody">${list.map(erow).join('')||'<div class="panhint">No resources in this module yet.</div>'}</div>`;
- } else {
-  body=`<div class="panhd"><div><div class="pt">Master Sheet</div><div class="pd">Open a toolkit module to edit its resources and watch the page update.</div></div><button class="x" onclick="togglePanel(false)" aria-label="Close">&times;</button></div><div class="panhint">Go to any toolkit &rarr; pick a module, then edit here.</div>`;
- }
- p.innerHTML=body;
- if(open) p.classList.add('open');
-}
-function erow(r){
- const i=state.indexOf(r);
- return `<div class="erow">
-  <label class="sw">Live<span class="switch"><input type="checkbox" ${r.published?'checked':''} onchange="setField(${i},'published',this.checked)" aria-label="Published"><span class="slider"></span></span></label>
-  <label class="sw">Featured<span class="switch"><input type="checkbox" ${r.focal?'checked':''} onchange="setField(${i},'focal',this.checked)" aria-label="Featured"><span class="slider"></span></span></label>
-  <div class="efields"><input value="${esc(r.title)}" oninput="setField(${i},'title',this.value)" aria-label="Title"/>
-  <textarea rows="2" placeholder="Short summary (shows on the card)" oninput="setField(${i},'summary',this.value)" aria-label="Summary">${esc(r.summary)}</textarea>
-  <span class="cap">title &middot; summary</span></div></div>`;
-}
-function setField(i,f,v){ state[i][f]=v; if(f==='published'&&v&&!state[i].isnew){} renderApp(); }
-
-function togglePanel(force){
- const p=document.getElementById('panel');
- const willOpen = force===undefined ? !p.classList.contains('open') : force;
- if(willOpen){renderPanel();p.classList.add('open');} else {p.classList.remove('open');}
-}
 let tT;
 function toast(m){const t=document.getElementById('toast');t.textContent=m;t.classList.add('show');clearTimeout(tT);tT=setTimeout(()=>t.classList.remove('show'),1900);}
 
@@ -1854,7 +1799,6 @@ document.addEventListener('click',e=>{
  else if(v.startsWith('module:')){const [sec,mod]=v.slice(7).split('|');nv={type:'module',section:sec,module:mod};}
  if(nv)navigate(nv);
 });
-document.getElementById('demoToggle')?.addEventListener('click',()=>togglePanel());
 /* ---- search ----------------------------------------------------------------
    Ranked retrieval (BM25F) over the published library, built once at load and
    run entirely in the browser. It costs nothing, answers instantly, is offline
@@ -2308,8 +2252,6 @@ function lensSplit(res,lens){
  for(const r of res)((r.audience||[]).includes(lens)?mine:rest).push(r);
  return{mine,rest};
 }
-/* Kept for the live-edit panel and anything else expecting the old shape. */
-function searchResources(q){return searchAll(q).resources;}
 
 /* A line of the resource's own words with the matched terms marked, so a result
    explains itself instead of asking the reader to take it on trust. Built by
